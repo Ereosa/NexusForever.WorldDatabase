@@ -1,0 +1,48 @@
+-- --------------------------------------
+-- Settler structures (minfrastructure): the built version a broken or unbuilt structure turns into when a settler builds it.
+-- The client data has no link between them, pairs are matched by their client descriptions.
+-- --------------------------------------
+DELETE FROM `path_settler_structure`;
+
+INSERT INTO `path_settler_structure` (`creatureId`, `builtCreatureId`, `comment`) VALUES
+	(26293, 26287, 'Broken Banner Dominion -> Dominion Banner'),
+	(26306, 26305, 'Broken Banner Exile -> Exile Banner'),
+	(26311, 26312, 'Broken Banner Chua -> Dominion Chua Banner'),
+	(26320, 26321, 'Broken Science Bot -> Repaired Science Bot'),
+	(27391, 27394, 'Exhausted Firepit (Brown Rock) -> Fire Pit'),
+	(34127, 27394, 'Exhausted Firepit (Gray Rock) -> Fire Pit'),
+	(27406, 27405, 'Broken Vigilant Church Statue -> Vigilant Church Statue'),
+	(27472, 27473, 'Sleeping Bag (Closed) -> Sleeping Bag (Open)'),
+	(30221, 31601, 'Exile Barricade -> Exile Barricade Built'),
+	(31438, 31439, 'Untended Blue Cup Flowers -> Well Kept Blue Cup Flowers'),
+	(31535, 31536, 'Empty Flower Pot -> Filled Flower Pot'),
+	(33765, 33766, 'Empty Flower Pot 1 -> Filled Flower Pot 1'),
+	(33857, 33858, 'Untended Yellow Flowers -> Well Kept Yellow Flowers'),
+	(33749, 33750, 'Unbuilt Pipe -> Pipe Built'),
+	(33760, 33761, 'Empty Bowl -> Fruit Bowl Built'),
+	(31544, 31545, 'Unbuilt Furniture (bed) Exile -> Aurin Bed Exile'),
+	(35253, 35254, 'Broken Totem 1 (Draken) -> Draken Totem 1'),
+	(35257, 35258, 'Broken Totem 2 (Draken) -> Draken Totem 2'),
+	(35259, 35260, 'Broken Totem 3 (Draken) -> Draken Totem 3'),
+	(35524, 35525, 'Unbuilt shrine -> Repaired shrine (Malgrave)'),
+	(36227, 36229, 'Unbuilt Draken Feast Table -> Built Draken Feast Table'),
+	(39140, 39143, 'Protostar Generator (Broken) -> Protostar Generator (fixed)'),
+	(46500, 46499, 'Unbuilt Street Lamp Exile -> Street Lamp Exile'),
+	(38504, 38491, 'Unbuilt Street Lamp DOM -> Street Lamp DOM'),
+	(48671, 48674, 'Unbuilt Tent Aurin -> Aurin Tent'),
+	(59650, 59651, 'Unbuilt Desk -> Desk'),
+	(67626, 67625, 'Unbuilt Sleeping Pod -> Sleeping Pod'),
+	(52972, 52973, 'Unbuilt Wayfinder Pylon -> Wayfinder Pylon'),
+	(52975, 52982, 'Unbuilt Mile Marker Kritons Command -> Mile Marker Kritons Command'),
+	(58513, 58514, 'Unbuilt Mile Marker to Tempest and Kriton -> Mile Marker'),
+	(58533, 58534, 'Unbuilt Mile Marker to Kara and SA -> Mile Marker'),
+	(58546, 58547, 'Unbuilt Mile Marker to Skywatch -> Mile Marker'),
+	(58553, 58554, 'Unbuilt Mile Marker to Gildgrass -> Mile Marker'),
+	(58569, 58570, 'Unbuilt Mile Marker to Fort -> Mile Marker'),
+	(58440, 58443, 'Unbuilt Wayfinder Pylon 1 Deradune -> Wayfinder Pylon'),
+	(58441, 58444, 'Unbuilt Wayfinder Pylon 2 Deradune -> Wayfinder Pylon'),
+	(58442, 58445, 'Unbuilt Wayfinder Pylon 3 Deradune -> Wayfinder Pylon'),
+	(58457, 58455, 'Unbuilt Wayfinder Pylon 1 and 2 Ellevar -> Wayfinder Pylon'),
+	(58458, 58456, 'Unbuilt Wayfinder Pylon Vigilant Heart Ellevar -> Wayfinder Pylon'),
+	(56350, 56351, 'Warplot Broken Med Station -> Med Station'),
+	(56393, 56394, 'Warplot Broken Buff Station -> Buff Station');
