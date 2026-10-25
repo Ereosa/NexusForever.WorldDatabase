@@ -4,7 +4,8 @@
 -- Probabilities are the observed drop chance for each item, rolled independently.
 -- --------------------------------------
 DELETE FROM `entity_loot` WHERE `id` IN (30233, 30242, 30252, 30262, 30300, 30321, 30322, 30325, 30326, 30327, 30328, 30330, 30331, 30332, 30333, 30334, 30389, 30396, 30400, 30408, 30414, 30416, 30417, 30437, 30446, 30447, 30449, 30466, 30467, 30488, 30492, 30666, 30672, 30925, 31120, 31144, 31249, 31349, 31353, 31421, 31422, 31703, 31738, 31820, 31846, 31865, 31921, 32477, 32478, 32479, 32488, 32497, 32502, 32508, 32523, 32553, 32554, 32581, 32582, 32583, 32585, 32586, 32587, 32588, 32589, 32590, 32661, 32680, 32681, 32682, 32683, 32684, 32685, 32686, 32689, 32754, 32755, 32756, 32764, 32789, 32790, 32791, 32792, 32814, 32835, 32837, 32843, 32844, 32845, 32849, 32882, 32890, 32894, 32897, 32912, 33059, 33080, 33213, 33233, 33234, 33367, 33787, 33850, 33876, 33921, 33932, 33951, 33968, 33969, 34099, 34100, 34262, 34474, 34475, 34578, 37213, 39079, 41701, 41706, 41732, 41734, 41752, 44716, 44735, 44742, 45578, 45580, 45583, 45586, 45596, 45598, 45599, 45600, 45602, 45603, 46357, 46359, 46643, 46698, 46706, 46708, 47435, 47437, 47438, 47440, 47465, 51082, 51083, 52867, 52935, 57148, 61416, 61418, 61425, 61427, 61429, 61430, 61431, 61432, 61433, 61435, 61437, 61438, 61439, 61441, 61442, 61446, 61447, 61449, 61450, 61452, 61453, 61454, 61455, 61456, 61457, 61526);
-DELETE FROM `loot_item` WHERE `id` IN (30233, 30242, 30252, 30262, 30300, 30321, 30322, 30325, 30326, 30327, 30328, 30330, 30331, 30332, 30333, 30334, 30389, 30396, 30400, 30408, 30414, 30416, 30417, 30437, 30446, 30447, 30449, 30466, 30467, 30488, 30492, 30666, 30672, 30925, 31120, 31144, 31249, 31349, 31353, 31421, 31422, 31703, 31738, 31820, 31846, 31865, 31921, 32477, 32478, 32479, 32488, 32497, 32502, 32508, 32523, 32553, 32554, 32581, 32582, 32583, 32585, 32586, 32587, 32588, 32589, 32590, 32661, 32680, 32681, 32682, 32683, 32684, 32685, 32686, 32689, 32754, 32755, 32756, 32764, 32789, 32790, 32791, 32792, 32814, 32835, 32837, 32843, 32844, 32845, 32849, 32882, 32890, 32894, 32897, 32912, 33059, 33080, 33213, 33233, 33234, 33367, 33787, 33850, 33876, 33921, 33932, 33951, 33968, 33969, 34099, 34100, 34262, 34474, 34475, 34578, 37213, 39079, 41701, 41706, 41732, 41734, 41752, 44716, 44735, 44742, 45578, 45580, 45583, 45586, 45596, 45598, 45599, 45600, 45602, 45603, 46357, 46359, 46643, 46698, 46706, 46708, 47435, 47437, 47438, 47440, 47465, 51082, 51083, 52867, 52935, 57148, 61416, 61418, 61425, 61427, 61429, 61430, 61431, 61432, 61433, 61435, 61437, 61438, 61439, 61441, 61442, 61446, 61447, 61449, 61450, 61452, 61453, 61454, 61455, 61456, 61457, 61526);
+DELETE FROM `loot_item` WHERE `id` IN (30233, 30242, 30252, 30262, 30300, 30321, 30322, 30325, 30326, 30327, 30328, 30330, 30331, 30332, 30333, 30334, 30389, 30396, 30400, 30408, 30414, 30416, 30417, 30437, 30446, 30447, 30449, 30466, 30467, 30488, 30492, 30666, 30672, 30925, 31120, 31144, 31249, 31349, 31353, 31421, 31422, 31703, 31738, 31820, 31846, 31865, 31921, 32477, 32478, 32479, 32488, 32497, 32502, 32508, 32523, 32553, 32554, 32581, 32582, 32583, 32585, 32586, 32587, 32588, 32589, 32590, 32661, 32680, 32681, 32682, 32683, 32684, 32685, 32686, 32689, 32754, 32755, 32756, 32764, 32789, 32790, 32791, 32792, 32814, 32835, 32837, 32843, 32844, 32845, 32849, 32882, 32890, 32894, 32897, 32912, 33059, 33080, 33213, 33233, 33234, 33367, 33787, 33850, 33876, 33921, 33932, 33951, 33968, 33969, 34099, 34100, 34262, 34474, 34475, 34578, 37213, 39079, 41701, 41706, 41732, 41734, 41752, 44716, 44735, 44742, 45578, 45580, 45583, 45586, 45596, 45598, 45599, 45600, 45602, 45603, 46357, 46359, 46643, 46698, 46706, 46708, 47435, 47437, 47438, 47440, 47465, 51082, 51083, 52867, 52935, 57148, 61416, 61418, 61425, 61427, 61429, 61430, 61431, 61432, 61433, 61435, 61437, 61438, 61439, 61441, 61442, 61446, 61447, 61449, 61450, 61452, 61453, 61454, 61455, 61456, 61457, 61526, 1000030233, 1000030242, 1000030252, 1000030262, 1000030321, 1000030322, 1000030325, 1000030326, 1000030327, 1000030328, 1000030330, 1000030331, 1000030332, 1000030333, 1000030334, 1000030389, 1000030396, 1000030400, 1000030408, 1000030414, 1000031120, 1000031144, 1000031421, 1000031422, 1000031738, 1000031846, 1000032488, 1000032497, 1000032502, 1000032554, 1000032581, 1000032582, 1000032583, 1000032585, 1000032586, 1000032587, 1000032588, 1000032589, 1000032590, 1000032680, 1000032682, 1000032683, 1000032684, 1000032685, 1000032686, 1000032764, 1000032789, 1000032790, 1000032791, 1000032792, 1000032814, 1000032835, 1000032837, 1000032843, 1000032844, 1000032845, 1000032849, 1000032890, 1000032894, 1000032912, 1000033059, 1000033080, 1000033233, 1000033234, 1000033367, 1000033787, 1000033850, 1000033876, 1000033921, 1000033932, 1000033951, 1000034578, 1000039079, 1000041701, 1000041706, 1000041732, 1000041734, 1000041752, 1000044716, 1000046643, 1000046698, 1000046706, 1000046708, 1000047435, 1000047437, 1000047438, 1000047440, 1000052935, 1000057148, 1000061416, 1000061425, 1000061427, 1000061429, 1000061430, 1000061431, 1000061432, 1000061433, 1000061435, 1000061437, 1000061442, 1000061447, 1000061452, 1000061453, 1000061455, 1000061456, 1000061457, 1000061526);
+DELETE FROM `loot_group` WHERE `id` IN (1000030233, 1000030242, 1000030252, 1000030262, 1000030321, 1000030322, 1000030325, 1000030326, 1000030327, 1000030328, 1000030330, 1000030331, 1000030332, 1000030333, 1000030334, 1000030389, 1000030396, 1000030400, 1000030408, 1000030414, 1000031120, 1000031144, 1000031421, 1000031422, 1000031738, 1000031846, 1000032488, 1000032497, 1000032502, 1000032554, 1000032581, 1000032582, 1000032583, 1000032585, 1000032586, 1000032587, 1000032588, 1000032589, 1000032590, 1000032680, 1000032682, 1000032683, 1000032684, 1000032685, 1000032686, 1000032764, 1000032789, 1000032790, 1000032791, 1000032792, 1000032814, 1000032835, 1000032837, 1000032843, 1000032844, 1000032845, 1000032849, 1000032890, 1000032894, 1000032912, 1000033059, 1000033080, 1000033233, 1000033234, 1000033367, 1000033787, 1000033850, 1000033876, 1000033921, 1000033932, 1000033951, 1000034578, 1000039079, 1000041701, 1000041706, 1000041732, 1000041734, 1000041752, 1000044716, 1000046643, 1000046698, 1000046706, 1000046708, 1000047435, 1000047437, 1000047438, 1000047440, 1000052935, 1000057148, 1000061416, 1000061425, 1000061427, 1000061429, 1000061430, 1000061431, 1000061432, 1000061433, 1000061435, 1000061437, 1000061442, 1000061447, 1000061452, 1000061453, 1000061455, 1000061456, 1000061457, 1000061526);
 DELETE FROM `loot_group` WHERE `id` IN (30233, 30242, 30252, 30262, 30300, 30321, 30322, 30325, 30326, 30327, 30328, 30330, 30331, 30332, 30333, 30334, 30389, 30396, 30400, 30408, 30414, 30416, 30417, 30437, 30446, 30447, 30449, 30466, 30467, 30488, 30492, 30666, 30672, 30925, 31120, 31144, 31249, 31349, 31353, 31421, 31422, 31703, 31738, 31820, 31846, 31865, 31921, 32477, 32478, 32479, 32488, 32497, 32502, 32508, 32523, 32553, 32554, 32581, 32582, 32583, 32585, 32586, 32587, 32588, 32589, 32590, 32661, 32680, 32681, 32682, 32683, 32684, 32685, 32686, 32689, 32754, 32755, 32756, 32764, 32789, 32790, 32791, 32792, 32814, 32835, 32837, 32843, 32844, 32845, 32849, 32882, 32890, 32894, 32897, 32912, 33059, 33080, 33213, 33233, 33234, 33367, 33787, 33850, 33876, 33921, 33932, 33951, 33968, 33969, 34099, 34100, 34262, 34474, 34475, 34578, 37213, 39079, 41701, 41706, 41732, 41734, 41752, 44716, 44735, 44742, 45578, 45580, 45583, 45586, 45596, 45598, 45599, 45600, 45602, 45603, 46357, 46359, 46643, 46698, 46706, 46708, 47435, 47437, 47438, 47440, 47465, 51082, 51083, 52867, 52935, 57148, 61416, 61418, 61425, 61427, 61429, 61430, 61431, 61432, 61433, 61435, 61437, 61438, 61439, 61441, 61442, 61446, 61447, 61449, 61450, 61452, 61453, 61454, 61455, 61456, 61457, 61526);
 
 -- Darkloam Gatherer (324 kills recorded, darkloam-gatherer-5)
@@ -13,11 +14,9 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (30233, 30233,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(30233, 0, 47767, 42.59, 1, 1, 'Damaged Moodie Totem'),
 	(30233, 0, 14516, 23.77, 1, 1, 'Canvas Cloth'),
-	(30233, 0, 14401, 5.56, 1, 1, 'Pulsating Power Crystal'),
 	(30233, 0, 27582, 4.94, 1, 1, 'Canvas Gloves'),
 	(30233, 0, 50807, 2.47, 1, 1, 'Sack of Scratched Silver'),
 	(30233, 0, 51507, 2.47, 1, 1, 'Hooligan''s Necrocite Cutlass'),
-	(30233, 0, 14402, 2.47, 1, 1, 'Structural Carbon Rods'),
 	(30233, 0, 35893, 2.16, 1, 1, 'Schematic: Darkloam Painbringer Photon Cannon'),
 	(30233, 0, 35890, 2.16, 1, 1, 'Schematic: Darkloam Painbringer Shockers'),
 	(30233, 0, 35888, 1.23, 1, 1, 'Schematic: Darkloam Painbringer Sword'),
@@ -50,8 +49,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (30242, 30242,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(30242, 0, 47767, 41.81, 1, 1, 'Damaged Moodie Totem'),
 	(30242, 0, 14516, 28.3, 1, 1, 'Canvas Cloth'),
-	(30242, 0, 14401, 7.33, 1, 1, 'Pulsating Power Crystal'),
-	(30242, 0, 14402, 2.01, 1, 1, 'Structural Carbon Rods'),
 	(30242, 0, 35891, 1.87, 1, 1, 'Schematic: Darkloam Painbringer Neuroguns'),
 	(30242, 0, 27582, 1.72, 1, 1, 'Canvas Gloves'),
 	(30242, 0, 50807, 1.58, 1, 1, 'Sack of Scratched Silver'),
@@ -117,10 +114,8 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (30252, 30252,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(30252, 0, 47767, 33.77, 1, 1, 'Damaged Moodie Totem'),
 	(30252, 0, 14516, 32.67, 1, 1, 'Canvas Cloth'),
-	(30252, 0, 14401, 9.92, 1, 1, 'Pulsating Power Crystal'),
 	(30252, 0, 50807, 2.81, 1, 1, 'Sack of Scratched Silver'),
 	(30252, 0, 27582, 2.61, 1, 1, 'Canvas Gloves'),
-	(30252, 0, 14402, 2.61, 1, 1, 'Structural Carbon Rods'),
 	(30252, 0, 35889, 1.2, 1, 1, 'Schematic: Darkloam Painbringer Decapitators'),
 	(30252, 0, 35888, 1.1, 1, 1, 'Schematic: Darkloam Painbringer Sword'),
 	(30252, 0, 35892, 0.9, 1, 1, 'Schematic: Darkloam Painbringer Psydagger'),
@@ -198,10 +193,8 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (30262, 30262,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(30262, 0, 14516, 37.2, 1, 1, 'Canvas Cloth'),
 	(30262, 0, 47767, 31.74, 1, 1, 'Damaged Moodie Totem'),
-	(30262, 0, 14401, 8.19, 1, 1, 'Pulsating Power Crystal'),
 	(30262, 0, 35888, 3.07, 1, 1, 'Schematic: Darkloam Painbringer Sword'),
 	(30262, 0, 51539, 2.73, 1, 1, 'Hooligan''s Clunky Rapier'),
-	(30262, 0, 14402, 2.39, 1, 1, 'Structural Carbon Rods'),
 	(30262, 0, 27582, 2.05, 1, 1, 'Canvas Gloves'),
 	(30262, 0, 50807, 1.71, 1, 1, 'Sack of Scratched Silver'),
 	(30262, 0, 35891, 1.37, 1, 1, 'Schematic: Darkloam Painbringer Neuroguns'),
@@ -289,8 +282,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(30321, 0, 3031, 31.63, 1, 1, 'Energized Barrier Aura'),
 	(30321, 0, 17621, 10.2, 1, 1, 'Doomsting Stinger'),
 	(30321, 0, 7509, 10.2, 1, 1, 'Small Buzzbing Limbs'),
-	(30321, 0, 14402, 6.12, 1, 1, 'Structural Carbon Rods'),
-	(30321, 0, 14401, 6.12, 1, 1, 'Pulsating Power Crystal'),
 	(30321, 0, 14287, 6.12, 1, 1, 'Slimy Bug Meat'),
 	(30321, 0, 18639, 5.1, 1, 1, 'Buzzbing Meat'),
 	(30321, 0, 50807, 5.1, 1, 1, 'Sack of Scratched Silver'),
@@ -313,10 +304,8 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (30322, 30322, 'Dazeroot Hiveguard');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(30322, 0, 14287, 23.37, 1, 1, 'Slimy Bug Meat'),
-	(30322, 0, 14401, 23.37, 1, 1, 'Pulsating Power Crystal'),
 	(30322, 0, 7508, 21.93, 1, 1, 'Buzzbing Pheromone Gland'),
 	(30322, 0, 18639, 10.6, 1, 1, 'Buzzbing Meat'),
-	(30322, 0, 14402, 5.78, 1, 1, 'Structural Carbon Rods'),
 	(30322, 0, 50807, 2.77, 1, 1, 'Sack of Scratched Silver'),
 	(30322, 0, 43005, 2.17, 1, 1, 'Bug Splat'),
 	(30322, 0, 51204, 1.81, 1, 1, 'Herald''s Manaweave Pantaloons'),
@@ -364,10 +353,8 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(30325, 0, 14279, 18.15, 1, 1, 'Tough Meat'),
 	(30325, 0, 7302, 10.42, 1, 1, 'Gnarled Yeti Claws'),
 	(30325, 0, 7301, 10.04, 1, 1, 'Tattered Yeti Hide'),
-	(30325, 0, 14401, 9.65, 1, 1, 'Pulsating Power Crystal'),
 	(30325, 0, 51807, 5.79, 1, 1, 'Knave''s Necrocite Handspurs'),
 	(30325, 0, 50807, 4.25, 1, 1, 'Sack of Scratched Silver'),
-	(30325, 0, 14402, 3.86, 1, 1, 'Structural Carbon Rods'),
 	(30325, 0, 42995, 3.09, 1, 1, 'Carrion Bait'),
 	(30325, 0, 14246, 1.54, 1, 1, 'Rugged Pelt'),
 	(30325, 0, 30714, 1.16, 1, 1, 'Augmented Armor AMP'),
@@ -394,9 +381,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(30326, 0, 7302, 28.32, 1, 1, 'Gnarled Yeti Claws'),
 	(30326, 0, 14235, 15.77, 1, 1, 'Split Leather'),
 	(30326, 0, 14279, 10.75, 1, 1, 'Tough Meat'),
-	(30326, 0, 14401, 5.38, 1, 1, 'Pulsating Power Crystal'),
 	(30326, 0, 50807, 3.23, 1, 1, 'Sack of Scratched Silver'),
-	(30326, 0, 14402, 2.15, 1, 1, 'Structural Carbon Rods'),
 	(30326, 0, 42995, 1.43, 1, 1, 'Carrion Bait'),
 	(30326, 0, 40221, 1.08, 1, 1, 'Sharpshell Leggings'),
 	(30326, 0, 44245, 0.72, 1, 1, 'Focus Mastery AMP'),
@@ -416,9 +401,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(30327, 0, 14235, 15.97, 1, 1, 'Split Leather'),
 	(30327, 0, 14279, 15.97, 1, 1, 'Tough Meat'),
 	(30327, 0, 18638, 11.11, 1, 1, 'Dawngrazer Meat'),
-	(30327, 0, 14401, 8.68, 1, 1, 'Pulsating Power Crystal'),
 	(30327, 0, 7609, 7.64, 1, 1, 'Brittle Dawngrazer Horns'),
-	(30327, 0, 14402, 4.51, 1, 1, 'Structural Carbon Rods'),
 	(30327, 0, 42995, 3.82, 1, 1, 'Carrion Bait'),
 	(30327, 0, 14246, 1.74, 1, 1, 'Rugged Pelt'),
 	(30327, 0, 51152, 1.04, 1, 1, 'Bandit''s Manapolymer Serum'),
@@ -444,11 +427,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(30328, 0, 14235, 26.67, 1, 1, 'Split Leather'),
 	(30328, 0, 14279, 21.67, 1, 1, 'Tough Meat'),
 	(30328, 0, 18638, 10.42, 1, 1, 'Dawngrazer Meat'),
-	(30328, 0, 14401, 10, 1, 1, 'Pulsating Power Crystal'),
 	(30328, 0, 7609, 7.92, 1, 1, 'Brittle Dawngrazer Horns'),
 	(30328, 0, 7608, 6.25, 1, 1, 'Tattered Dawngrazer Hide'),
 	(30328, 0, 42995, 3.75, 1, 1, 'Carrion Bait'),
-	(30328, 0, 14402, 3.33, 1, 1, 'Structural Carbon Rods'),
 	(30328, 0, 14246, 2.92, 1, 1, 'Rugged Pelt'),
 	(30328, 0, 50807, 1.67, 1, 1, 'Sack of Scratched Silver'),
 	(30328, 0, 40205, 0.83, 1, 1, 'Sedimentary Pebble'),
@@ -472,13 +453,11 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(30330, 0, 7797, 19.38, 1, 1, 'Damaged Gribbon Talons'),
 	(30330, 0, 7798, 6.2, 1, 1, 'Small Gribbon Ears'),
 	(30330, 0, 50807, 4.65, 1, 1, 'Sack of Scratched Silver'),
-	(30330, 0, 14401, 4.65, 1, 1, 'Pulsating Power Crystal'),
 	(30330, 0, 51904, 2.33, 1, 1, 'Bandit''s Megaline Energy Web'),
 	(30330, 0, 43000, 2.33, 1, 1, 'Feather Pile'),
 	(30330, 0, 14246, 2.33, 1, 1, 'Rugged Pelt'),
 	(30330, 0, 51703, 1.55, 1, 1, 'Vandal''s Hypermagnetic Bracelets'),
 	(30330, 0, 51196, 0.78, 1, 1, 'Herald''s Galactite Metasuit'),
-	(30330, 0, 14402, 0.78, 1, 1, 'Structural Carbon Rods'),
 	(30330, 0, 40221, 0.78, 1, 1, 'Sharpshell Leggings'),
 	(30330, 0, 51141, 0.78, 1, 1, 'Bandit''s Electrotrace Woolies'),
 	(30330, 0, 30613, 0.78, 1, 1, 'Dominion Bookshelf'),
@@ -491,7 +470,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (30331, 30331,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(30331, 0, 14516, 31.65, 1, 1, 'Canvas Cloth'),
 	(30331, 0, 7634, 21.52, 1, 1, 'Brittle Draken Horns'),
-	(30331, 0, 14401, 17.72, 1, 1, 'Pulsating Power Crystal'),
 	(30331, 0, 18462, 10.13, 1, 1, 'Ellevar Bowl'),
 	(30331, 0, 27582, 3.8, 1, 1, 'Canvas Gloves'),
 	(30331, 0, 51602, 2.53, 1, 1, 'Firebrand''s Supermagnetic Polyboots'),
@@ -510,9 +488,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (30332, 30332,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(30332, 0, 7634, 28.5, 1, 1, 'Brittle Draken Horns'),
 	(30332, 0, 14516, 22.5, 1, 1, 'Canvas Cloth'),
-	(30332, 0, 14401, 16.61, 1, 1, 'Pulsating Power Crystal'),
 	(30332, 0, 18462, 11.66, 1, 1, 'Ellevar Bowl'),
-	(30332, 0, 14402, 3.77, 1, 1, 'Structural Carbon Rods'),
 	(30332, 0, 27582, 3.18, 1, 1, 'Canvas Gloves'),
 	(30332, 0, 50807, 2.24, 1, 1, 'Sack of Scratched Silver'),
 	(30332, 0, 51825, 0.82, 1, 1, 'Exceptional Knave''s Protomesh Leggings'),
@@ -591,8 +567,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(30333, 0, 7634, 46.51, 1, 1, 'Brittle Draken Horns'),
 	(30333, 0, 18462, 18.01, 1, 1, 'Ellevar Bowl'),
 	(30333, 0, 14516, 13.84, 1, 1, 'Canvas Cloth'),
-	(30333, 0, 14401, 7.26, 1, 1, 'Pulsating Power Crystal'),
-	(30333, 0, 14402, 2.42, 1, 1, 'Structural Carbon Rods'),
 	(30333, 0, 51911, 1.88, 1, 1, 'Bandit''s Biotrace Manipulators'),
 	(30333, 0, 27582, 1.34, 1, 1, 'Canvas Gloves'),
 	(30333, 0, 18758, 1.21, 1, 1, 'Recipe: Ellevar Bowl'),
@@ -647,8 +621,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(30334, 0, 7634, 47.15, 1, 1, 'Brittle Draken Horns'),
 	(30334, 0, 14516, 18.29, 1, 1, 'Canvas Cloth'),
 	(30334, 0, 18462, 9.35, 1, 1, 'Ellevar Bowl'),
-	(30334, 0, 14401, 8.54, 1, 1, 'Pulsating Power Crystal'),
-	(30334, 0, 14402, 3.66, 1, 1, 'Structural Carbon Rods'),
 	(30334, 0, 18758, 1.63, 1, 1, 'Recipe: Ellevar Bowl'),
 	(30334, 0, 27582, 1.22, 1, 1, 'Canvas Gloves'),
 	(30334, 0, 51915, 0.81, 1, 1, 'Bandit''s Nebulous Shooters'),
@@ -678,12 +650,10 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (30389, 30389,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(30389, 0, 7633, 35.42, 1, 1, 'Tattered Draken Hide'),
 	(30389, 0, 14516, 20.83, 1, 1, 'Canvas Cloth'),
-	(30389, 0, 14401, 12.5, 1, 1, 'Pulsating Power Crystal'),
 	(30389, 0, 50807, 12.5, 1, 1, 'Sack of Scratched Silver'),
 	(30389, 0, 18462, 8.33, 1, 1, 'Ellevar Bowl'),
 	(30389, 0, 21381, 2.08, 1, 1, 'Leafy Bramble (Green)'),
 	(30389, 0, 51181, 2.08, 1, 1, 'Herald''s Polished Neurostar'),
-	(30389, 0, 14402, 2.08, 1, 1, 'Structural Carbon Rods'),
 	(30389, 0, 27582, 2.08, 1, 1, 'Canvas Gloves'),
 	(30389, 0, 50952, 2.08, 1, 1, 'Firebrand''s Omnigroove Trousers');
 
@@ -693,10 +663,8 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (30396, 30396,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(30396, 0, 7546, 33.67, 1, 1, 'Tattered Chua Pelt'),
 	(30396, 0, 14516, 20.95, 1, 1, 'Canvas Cloth'),
-	(30396, 0, 14401, 11.72, 1, 1, 'Pulsating Power Crystal'),
 	(30396, 0, 18462, 10.47, 1, 1, 'Ellevar Bowl'),
 	(30396, 0, 50807, 6.23, 1, 1, 'Sack of Scratched Silver'),
-	(30396, 0, 14402, 3.74, 1, 1, 'Structural Carbon Rods'),
 	(30396, 0, 27582, 3.74, 1, 1, 'Canvas Gloves'),
 	(30396, 0, 18758, 1, 1, 1, 'Recipe: Ellevar Bowl'),
 	(30396, 0, 51124, 0.75, 1, 1, 'Bandit''s Superweb Valve'),
@@ -732,10 +700,8 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (30400, 30400,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(30400, 0, 7546, 26.56, 1, 1, 'Tattered Chua Pelt'),
 	(30400, 0, 14516, 24.64, 1, 1, 'Canvas Cloth'),
-	(30400, 0, 14401, 12.32, 1, 1, 'Pulsating Power Crystal'),
 	(30400, 0, 18462, 9.44, 1, 1, 'Ellevar Bowl'),
 	(30400, 0, 50807, 7.2, 1, 1, 'Sack of Scratched Silver'),
-	(30400, 0, 14402, 4.64, 1, 1, 'Structural Carbon Rods'),
 	(30400, 0, 27582, 3.2, 1, 1, 'Canvas Gloves'),
 	(30400, 0, 51122, 1.44, 1, 1, 'Bandit''s Superweb Armbands'),
 	(30400, 0, 18758, 0.96, 1, 1, 'Recipe: Ellevar Bowl'),
@@ -793,12 +759,10 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (30408, 30408,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(30408, 0, 47663, 24.14, 1, 1, 'Greased Mechari Gears'),
 	(30408, 0, 14516, 21.55, 1, 1, 'Canvas Cloth'),
-	(30408, 0, 14401, 14.66, 1, 1, 'Pulsating Power Crystal'),
 	(30408, 0, 18462, 10.34, 1, 1, 'Ellevar Bowl'),
 	(30408, 0, 50807, 5.17, 1, 1, 'Sack of Scratched Silver'),
 	(30408, 0, 27582, 3.45, 1, 1, 'Canvas Gloves'),
 	(30408, 0, 51124, 2.59, 1, 1, 'Bandit''s Superweb Valve'),
-	(30408, 0, 14402, 2.59, 1, 1, 'Structural Carbon Rods'),
 	(30408, 0, 21409, 1.72, 1, 1, 'Burnished Treasure Chest'),
 	(30408, 0, 51119, 0.86, 1, 1, 'Bandit''s Superweb Blanket'),
 	(30408, 0, 51060, 0.86, 1, 1, 'Knave''s Bioline Kinetic Sphere'),
@@ -822,7 +786,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (30414, 30414, 'Firestorm Incinerator');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(30414, 0, 14516, 40, 1, 1, 'Canvas Cloth'),
-	(30414, 0, 14401, 20, 1, 1, 'Pulsating Power Crystal'),
 	(30414, 0, 51125, 10, 1, 1, 'Bandit''s Polished Sidearms'),
 	(30414, 0, 30584, 10, 1, 1, 'Display Case (Scroll, Skull, Horn)'),
 	(30414, 0, 51122, 10, 1, 1, 'Bandit''s Superweb Armbands'),
@@ -1108,14 +1071,10 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 -- Duskfang (2 kills recorded, duskfang-5)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (31120, NULL, 100, 0, 0, 0, 0, 'Duskfang');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (31120, 31120, 'Duskfang');
-INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(31120, 0, 14401, 100, 1, 1, 'Pulsating Power Crystal');
 
 -- Chief Umballah (8 kills recorded, chief-umballah-5)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (31144, NULL, 100, 0, 0, 0, 0, 'Chief Umballah');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (31144, 31144, 'Chief Umballah');
-INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(31144, 0, 14401, 100, 1, 1, 'Pulsating Power Crystal');
 
 -- Greenbough Guardian (189 kills recorded, greenbough-guardian-5)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (31249, NULL, 100, 0, 0, 0, 0, 'Greenbough Guardian');
@@ -1210,10 +1169,8 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (31421, 31421,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(31421, 0, 7634, 31.03, 1, 1, 'Brittle Draken Horns'),
 	(31421, 0, 14516, 27.59, 1, 1, 'Canvas Cloth'),
-	(31421, 0, 14401, 19.54, 1, 1, 'Pulsating Power Crystal'),
 	(31421, 0, 50807, 4.6, 1, 1, 'Sack of Scratched Silver'),
 	(31421, 0, 40204, 3.45, 1, 1, 'Metamorphic Pebble'),
-	(31421, 0, 14402, 2.3, 1, 1, 'Structural Carbon Rods'),
 	(31421, 0, 27582, 2.3, 1, 1, 'Canvas Gloves'),
 	(31421, 0, 51938, 1.15, 1, 1, 'Bandit''s Magnimesh Battery'),
 	(31421, 0, 52031, 1.15, 1, 1, 'Exceptional Herald''s Nebulous Psystar'),
@@ -1230,8 +1187,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (31422, 31422,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(31422, 0, 14516, 37.84, 1, 1, 'Canvas Cloth'),
 	(31422, 0, 7634, 31.08, 1, 1, 'Brittle Draken Horns'),
-	(31422, 0, 14401, 13.51, 1, 1, 'Pulsating Power Crystal'),
-	(31422, 0, 14402, 5.41, 1, 1, 'Structural Carbon Rods'),
 	(31422, 0, 27582, 2.7, 1, 1, 'Canvas Gloves'),
 	(31422, 0, 52007, 1.35, 1, 1, 'Herald''s Necrocite Psystar'),
 	(31422, 0, 52013, 1.35, 1, 1, 'Herald''s Superstreak Augment'),
@@ -1291,8 +1246,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (31738, 31738,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(31738, 0, 7508, 54.55, 1, 1, 'Buzzbing Pheromone Gland'),
 	(31738, 0, 50807, 18.18, 1, 1, 'Sack of Scratched Silver'),
-	(31738, 0, 50983, 18.18, 1, 1, 'Firebrand''s Ultramesh Kinetic Web'),
-	(31738, 0, 14401, 9.09, 1, 1, 'Pulsating Power Crystal');
+	(31738, 0, 50983, 18.18, 1, 1, 'Firebrand''s Ultramesh Kinetic Web');
 
 -- Bonerazer Snaptooth (16 kills recorded, bonerazer-snaptooth-5)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (31820, NULL, 100, 0, 0, 0, 0, 'Bonerazer Snaptooth');
@@ -1315,9 +1269,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(31846, 0, 14235, 26.71, 1, 1, 'Split Leather'),
 	(31846, 0, 7747, 26.41, 1, 1, 'Battered Garr Scales'),
 	(31846, 0, 14279, 18.99, 1, 1, 'Tough Meat'),
-	(31846, 0, 14401, 9.79, 1, 1, 'Pulsating Power Crystal'),
 	(31846, 0, 13265, 6.82, 1, 1, 'Garr Backstrap'),
-	(31846, 0, 14402, 2.97, 1, 1, 'Structural Carbon Rods'),
 	(31846, 0, 50807, 1.48, 1, 1, 'Sack of Scratched Silver'),
 	(31846, 0, 18745, 0.89, 1, 1, 'Recipe: Shredded Garr Meat'),
 	(31846, 0, 40203, 0.59, 1, 1, 'Igneous Pebble'),
@@ -1586,10 +1538,8 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32488, 32488, 'Torine Huntress');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32488, 0, 7840, 31.39, 1, 1, 'Cheap Junk'),
-	(32488, 0, 14401, 25.75, 1, 1, 'Pulsating Power Crystal'),
 	(32488, 0, 14516, 15.23, 1, 1, 'Canvas Cloth'),
 	(32488, 0, 7484, 12.41, 1, 1, 'Dirt-Stained Rags'),
-	(32488, 0, 14402, 7.14, 1, 1, 'Structural Carbon Rods'),
 	(32488, 0, 27582, 1.32, 1, 1, 'Canvas Gloves'),
 	(32488, 0, 50808, 0.94, 1, 1, 'Pouch of Pirated Pieces'),
 	(32488, 0, 29596, 0.56, 1, 1, 'Sign of Fire'),
@@ -1625,8 +1575,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32497, 32497,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32497, 0, 38714, 64.49, 1, 1, 'Shattered Jewelry'),
 	(32497, 0, 14516, 13.32, 1, 1, 'Canvas Cloth'),
-	(32497, 0, 14401, 11.75, 1, 1, 'Pulsating Power Crystal'),
-	(32497, 0, 14402, 2.35, 1, 1, 'Structural Carbon Rods'),
 	(32497, 0, 27582, 1.31, 1, 1, 'Canvas Gloves'),
 	(32497, 0, 36218, 1.31, 1, 1, 'Formula: Reactive Armor Boost'),
 	(32497, 0, 55335, 0.78, 1, 1, 'Picaroon''s Monotrium Slippers'),
@@ -1649,8 +1597,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32502, 32502, 'Ravenous Reaver');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32502, 0, 38714, 57.14, 1, 1, 'Shattered Jewelry'),
-	(32502, 0, 14401, 23.81, 1, 1, 'Pulsating Power Crystal'),
-	(32502, 0, 14402, 9.52, 1, 1, 'Structural Carbon Rods'),
 	(32502, 0, 14516, 6.35, 1, 1, 'Canvas Cloth'),
 	(32502, 0, 27582, 1.59, 1, 1, 'Canvas Gloves'),
 	(32502, 0, 29588, 1.59, 1, 1, 'Sign of Earth');
@@ -1743,12 +1689,10 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (32554, NULL, 100, 0, 0, 0, 0, 'Sanctum Blademaster');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32554, 32554, 'Sanctum Blademaster');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(32554, 0, 14401, 19.81, 1, 1, 'Pulsating Power Crystal'),
 	(32554, 0, 7840, 15.6, 1, 1, 'Cheap Junk'),
 	(32554, 0, 14516, 15.53, 1, 1, 'Canvas Cloth'),
 	(32554, 0, 7484, 15.31, 1, 1, 'Dirt-Stained Rags'),
 	(32554, 0, 14517, 9.87, 1, 1, 'Silk Cloth'),
-	(32554, 0, 14402, 4.64, 1, 1, 'Structural Carbon Rods'),
 	(32554, 0, 27582, 2.25, 1, 1, 'Canvas Gloves'),
 	(32554, 0, 14428, 1.45, 1, 1, 'Tough Jerky'),
 	(32554, 0, 14838, 1.02, 1, 1, 'Basic Medishot: Instant Healing'),
@@ -1767,8 +1711,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32581, 32581, 'Zeta I-bot');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32581, 0, 7439, 57.52, 1, 1, 'Flimsy Sprocket'),
-	(32581, 0, 14402, 27.82, 1, 1, 'Structural Carbon Rods'),
-	(32581, 0, 14401, 6.39, 1, 1, 'Pulsating Power Crystal'),
 	(32581, 0, 54819, 2.63, 1, 1, 'Exceptional Ambuscader''s Supermesh Hands'),
 	(32581, 0, 54870, 0.75, 1, 1, 'Forecaster''s Magnipolymer Chestwrap'),
 	(32581, 0, 54887, 0.38, 1, 1, 'Exceptional Forecaster''s Unwieldy Neural Dominator'),
@@ -1790,8 +1732,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32582, 32582, 'Zeta Core Courier');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32582, 0, 7439, 47.96, 1, 1, 'Flimsy Sprocket'),
-	(32582, 0, 14402, 26.92, 1, 1, 'Structural Carbon Rods'),
-	(32582, 0, 14401, 8.15, 1, 1, 'Pulsating Power Crystal'),
 	(32582, 0, 14428, 1.71, 1, 1, 'Tough Jerky'),
 	(32582, 0, 29609, 1.23, 1, 1, 'Rune Fragment'),
 	(32582, 0, 4753, 0.38, 1, 1, 'Whimwoven Satchel'),
@@ -1805,16 +1745,13 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32583, 32583,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32583, 0, 20476, 62.9, 1, 1, 'Death Mechanism'),
 	(32583, 0, 7439, 22.58, 1, 1, 'Flimsy Sprocket'),
-	(32583, 0, 14402, 11.29, 1, 1, 'Structural Carbon Rods'),
-	(32583, 0, 50808, 1.61, 1, 1, 'Pouch of Pirated Pieces'),
-	(32583, 0, 14401, 1.61, 1, 1, 'Pulsating Power Crystal');
+	(32583, 0, 50808, 1.61, 1, 1, 'Pouch of Pirated Pieces');
 
 -- Zeta Terminalbot (4 kills recorded, zeta-terminalbot-5)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (32585, NULL, 100, 0, 0, 0, 0, 'Zeta Terminalbot');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32585, 32585, 'Zeta Terminalbot');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(32585, 0, 20747, 50, 1, 1, 'Water Well FABkit'),
-	(32585, 0, 14402, 50, 1, 1, 'Structural Carbon Rods');
+	(32585, 0, 20747, 50, 1, 1, 'Water Well FABkit');
 
 -- Zeta Agent (485 kills recorded, zeta-agent-5)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (32586, NULL, 100, 0, 0, 0, 0, 'Zeta Agent');
@@ -1822,9 +1759,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32586, 32586,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32586, 0, 14516, 25.98, 1, 1, 'Canvas Cloth'),
 	(32586, 0, 7947, 23.92, 1, 1, 'Flimsy Mechari Sprocket'),
-	(32586, 0, 14402, 21.44, 1, 1, 'Structural Carbon Rods'),
 	(32586, 0, 18462, 11.75, 1, 1, 'Ellevar Bowl'),
-	(32586, 0, 14401, 4.95, 1, 1, 'Pulsating Power Crystal'),
 	(32586, 0, 27582, 3.92, 1, 1, 'Canvas Gloves'),
 	(32586, 0, 54874, 3.09, 1, 1, 'Forecaster''s Magnipolymer Repulsor'),
 	(32586, 0, 40224, 0.62, 1, 1, 'Sustaining Omnishield'),
@@ -1850,11 +1785,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (32587, NULL, 100, 0, 0, 0, 0, 'Zeta Equalizer');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32587, 32587, 'Zeta Equalizer');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(32587, 0, 14402, 25.2, 1, 1, 'Structural Carbon Rods'),
 	(32587, 0, 7947, 20.33, 1, 1, 'Flimsy Mechari Sprocket'),
 	(32587, 0, 14516, 16.26, 1, 1, 'Canvas Cloth'),
 	(32587, 0, 18462, 11.38, 1, 1, 'Ellevar Bowl'),
-	(32587, 0, 14401, 7.32, 1, 1, 'Pulsating Power Crystal'),
 	(32587, 0, 50808, 2.44, 1, 1, 'Pouch of Pirated Pieces'),
 	(32587, 0, 54971, 2.44, 1, 1, 'Abettor''s Necrowave Force Absorber'),
 	(32587, 0, 55036, 1.63, 1, 1, 'Exceptional Iconoclast''s Omnithread Instigator'),
@@ -1877,11 +1810,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (32588, NULL, 100, 0, 0, 0, 0, 'Zeta Sharpshooter');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32588, 32588, 'Zeta Sharpshooter');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(32588, 0, 14402, 27.27, 1, 1, 'Structural Carbon Rods'),
 	(32588, 0, 14516, 22.73, 1, 1, 'Canvas Cloth'),
 	(32588, 0, 7947, 15.91, 1, 1, 'Flimsy Mechari Sprocket'),
 	(32588, 0, 18462, 13.64, 1, 1, 'Ellevar Bowl'),
-	(32588, 0, 14401, 5.68, 1, 1, 'Pulsating Power Crystal'),
 	(32588, 0, 18758, 2.27, 1, 1, 'Recipe: Ellevar Bowl'),
 	(32588, 0, 27582, 2.27, 1, 1, 'Canvas Gloves'),
 	(32588, 0, 54801, 2.27, 1, 1, 'Ambuscader''s Supermesh Hands'),
@@ -1897,9 +1828,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32589, 32589, 'Zeta Cycler');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32589, 0, 7947, 49.62, 1, 1, 'Flimsy Mechari Sprocket'),
-	(32589, 0, 14402, 15.87, 1, 1, 'Structural Carbon Rods'),
 	(32589, 0, 14516, 10.31, 1, 1, 'Canvas Cloth'),
-	(32589, 0, 14401, 4.69, 1, 1, 'Pulsating Power Crystal'),
 	(32589, 0, 14517, 4.65, 1, 1, 'Silk Cloth'),
 	(32589, 0, 18462, 2.29, 1, 1, 'Ellevar Bowl'),
 	(32589, 0, 27582, 1.67, 1, 1, 'Canvas Gloves'),
@@ -1927,9 +1856,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32590, 32590,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32590, 0, 7947, 25.05, 1, 1, 'Flimsy Mechari Sprocket'),
 	(32590, 0, 14516, 20.63, 1, 1, 'Canvas Cloth'),
-	(32590, 0, 14402, 17.26, 1, 1, 'Structural Carbon Rods'),
 	(32590, 0, 14517, 9.26, 1, 1, 'Silk Cloth'),
-	(32590, 0, 14401, 4, 1, 1, 'Pulsating Power Crystal'),
 	(32590, 0, 27582, 3.79, 1, 1, 'Canvas Gloves'),
 	(32590, 0, 18462, 1.05, 1, 1, 'Ellevar Bowl'),
 	(32590, 0, 40213, 0.63, 1, 1, 'Plasmoid Monofilament'),
@@ -1966,9 +1893,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32680, 32680,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32680, 0, 8087, 51.11, 1, 1, 'Small Razortail Ears'),
 	(32680, 0, 14235, 15.56, 1, 1, 'Split Leather'),
-	(32680, 0, 14402, 11.11, 1, 1, 'Structural Carbon Rods'),
 	(32680, 0, 14279, 8.89, 1, 1, 'Tough Meat'),
-	(32680, 0, 14401, 4.44, 1, 1, 'Pulsating Power Crystal'),
 	(32680, 0, 51778, 2.22, 1, 1, 'Vandal''s Magniwebbed Booster'),
 	(32680, 0, 29609, 2.22, 1, 1, 'Rune Fragment'),
 	(32680, 0, 40212, 2.22, 1, 1, 'Comfy Fuzzy Mittens'),
@@ -1994,10 +1919,8 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (32682, NULL, 100, 0, 0, 0, 0, 'Nightfang Widow');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32682, 32682, 'Nightfang Widow');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(32682, 0, 14402, 40.98, 1, 1, 'Structural Carbon Rods'),
 	(32682, 0, 8237, 14.75, 1, 1, 'Small Spider Limbs'),
 	(32682, 0, 14287, 14.75, 1, 1, 'Slimy Bug Meat'),
-	(32682, 0, 14401, 9.84, 1, 1, 'Pulsating Power Crystal'),
 	(32682, 0, 18640, 6.56, 1, 1, 'Spider Meat'),
 	(32682, 0, 43005, 4.92, 1, 1, 'Bug Splat'),
 	(32682, 0, 18761, 1.64, 1, 1, 'Recipe: Spider Stir-Fry'),
@@ -2011,9 +1934,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32683, 32683, 'N22 Protector');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32683, 0, 7439, 38.61, 1, 1, 'Flimsy Sprocket'),
-	(32683, 0, 14402, 16.83, 1, 1, 'Structural Carbon Rods'),
 	(32683, 0, 34040, 14.85, 1, 1, 'Molasses AMP'),
-	(32683, 0, 14401, 8.91, 1, 1, 'Pulsating Power Crystal'),
 	(32683, 0, 54835, 2.97, 1, 1, 'Picaroon''s Eldanmesh Pantaloons'),
 	(32683, 0, 54720, 2.97, 1, 1, 'Abettor''s Ultrathread Crushers'),
 	(32683, 0, 14781, 2.97, 1, 1, 'Standard Omni-Plasm'),
@@ -2035,8 +1956,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32684, 32684, 'N22 Augmentor');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32684, 0, 7439, 53.52, 1, 1, 'Flimsy Sprocket'),
-	(32684, 0, 14402, 22.54, 1, 1, 'Structural Carbon Rods'),
-	(32684, 0, 14401, 4.23, 1, 1, 'Pulsating Power Crystal'),
 	(32684, 0, 14781, 3.52, 1, 1, 'Standard Omni-Plasm'),
 	(32684, 0, 34040, 2.82, 1, 1, 'Molasses AMP'),
 	(32684, 0, 14782, 2.11, 1, 1, 'Accelerated Omni-Plasm'),
@@ -2061,9 +1980,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32685, 32685,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32685, 0, 7721, 35.82, 1, 1, 'Large Fraz Tail'),
 	(32685, 0, 14235, 17.53, 1, 1, 'Split Leather'),
-	(32685, 0, 14402, 17.37, 1, 1, 'Structural Carbon Rods'),
 	(32685, 0, 14236, 9.56, 1, 1, 'Thick Leather'),
-	(32685, 0, 14401, 4.7, 1, 1, 'Pulsating Power Crystal'),
 	(32685, 0, 14428, 0.92, 1, 1, 'Tough Jerky'),
 	(32685, 0, 36218, 0.59, 1, 1, 'Formula: Reactive Armor Boost'),
 	(32685, 0, 29609, 0.38, 1, 1, 'Rune Fragment'),
@@ -2089,10 +2006,8 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32686, 32686, 'Glitchbyte Thrasher');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32686, 0, 7734, 55.98, 1, 1, 'Small Frizlet Antennae'),
-	(32686, 0, 14402, 14.76, 1, 1, 'Structural Carbon Rods'),
 	(32686, 0, 14235, 13.11, 1, 1, 'Split Leather'),
 	(32686, 0, 14236, 3.77, 1, 1, 'Thick Leather'),
-	(32686, 0, 14401, 3.57, 1, 1, 'Pulsating Power Crystal'),
 	(32686, 0, 14838, 0.71, 1, 1, 'Basic Medishot: Instant Healing'),
 	(32686, 0, 8639, 0.17, 1, 1, 'Charged Steel Bladed Sword'),
 	(32686, 0, 4753, 0.13, 1, 1, 'Whimwoven Satchel'),
@@ -2219,9 +2134,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32764, 32764, 'Augmented Nightfang Weaver');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32764, 0, 8237, 35.4, 1, 1, 'Small Spider Limbs'),
-	(32764, 0, 14402, 30.09, 1, 1, 'Structural Carbon Rods'),
 	(32764, 0, 14287, 12.39, 1, 1, 'Slimy Bug Meat'),
-	(32764, 0, 14401, 9.73, 1, 1, 'Pulsating Power Crystal'),
 	(32764, 0, 18640, 5.31, 1, 1, 'Spider Meat'),
 	(32764, 0, 43005, 3.54, 1, 1, 'Bug Splat'),
 	(32764, 0, 18761, 1.77, 1, 1, 'Recipe: Spider Stir-Fry'),
@@ -2234,8 +2147,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32789, 32789,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32789, 0, 7465, 48.65, 1, 1, 'Small Aurin Ears'),
 	(32789, 0, 14516, 18.92, 1, 1, 'Canvas Cloth'),
-	(32789, 0, 14402, 14.86, 1, 1, 'Structural Carbon Rods'),
-	(32789, 0, 14401, 5.41, 1, 1, 'Pulsating Power Crystal'),
 	(32789, 0, 27582, 2.03, 1, 1, 'Canvas Gloves'),
 	(32789, 0, 51877, 1.35, 1, 1, 'Knave''s Chrysalite Shield'),
 	(32789, 0, 54732, 1.35, 1, 1, 'Abettor''s Galactimagnetic Core'),
@@ -2256,9 +2167,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32790, 32790, 'Augmented Researcher Clone');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32790, 0, 7465, 47.9, 1, 1, 'Small Aurin Ears'),
-	(32790, 0, 14402, 18.49, 1, 1, 'Structural Carbon Rods'),
 	(32790, 0, 14516, 14.29, 1, 1, 'Canvas Cloth'),
-	(32790, 0, 14401, 5.88, 1, 1, 'Pulsating Power Crystal'),
 	(32790, 0, 27582, 3.36, 1, 1, 'Canvas Gloves'),
 	(32790, 0, 54725, 2.52, 1, 1, 'Abettor''s Unwieldy Photon Blaster'),
 	(32790, 0, 54826, 0.84, 1, 1, 'Picaroon''s Galactithread Pantaloons'),
@@ -2277,8 +2186,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32791, 32791,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32791, 0, 38713, 32.54, 1, 1, 'Contagion Trace'),
 	(32791, 0, 14516, 28.99, 1, 1, 'Canvas Cloth'),
-	(32791, 0, 14402, 18.34, 1, 1, 'Structural Carbon Rods'),
-	(32791, 0, 14401, 4.14, 1, 1, 'Pulsating Power Crystal'),
 	(32791, 0, 50808, 2.37, 1, 1, 'Pouch of Pirated Pieces'),
 	(32791, 0, 27582, 2.37, 1, 1, 'Canvas Gloves'),
 	(32791, 0, 34750, 1.78, 1, 1, 'Reroute Power AMP'),
@@ -2301,9 +2208,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32792, 32792,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32792, 0, 38713, 31.75, 1, 1, 'Contagion Trace'),
 	(32792, 0, 14516, 28.57, 1, 1, 'Canvas Cloth'),
-	(32792, 0, 14402, 15.87, 1, 1, 'Structural Carbon Rods'),
 	(32792, 0, 27582, 4.76, 1, 1, 'Canvas Gloves'),
-	(32792, 0, 14401, 4.76, 1, 1, 'Pulsating Power Crystal'),
 	(32792, 0, 30728, 3.17, 1, 1, 'Locked and Loaded AMP'),
 	(32792, 0, 50808, 3.17, 1, 1, 'Pouch of Pirated Pieces'),
 	(32792, 0, 36218, 1.59, 1, 1, 'Formula: Reactive Armor Boost'),
@@ -2318,9 +2223,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32814, 32814,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32814, 0, 38714, 41.05, 1, 1, 'Shattered Jewelry'),
 	(32814, 0, 14516, 31.58, 1, 1, 'Canvas Cloth'),
-	(32814, 0, 14401, 16.84, 1, 1, 'Pulsating Power Crystal'),
 	(32814, 0, 50808, 2.11, 1, 1, 'Pouch of Pirated Pieces'),
-	(32814, 0, 14402, 2.11, 1, 1, 'Structural Carbon Rods'),
 	(32814, 0, 29612, 1.05, 1, 1, 'Armor Rune Fragment'),
 	(32814, 0, 40228, 1.05, 1, 1, 'Fluttering Wing System'),
 	(32814, 0, 21398, 1.05, 1, 1, 'Thin Jellient'),
@@ -2335,8 +2238,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(32835, 0, 7535, 58.4, 1, 1, 'Tiny Chompacabra Tail'),
 	(32835, 0, 14279, 10.44, 1, 1, 'Tough Meat'),
 	(32835, 0, 14235, 10.25, 1, 1, 'Split Leather'),
-	(32835, 0, 14402, 9.77, 1, 1, 'Structural Carbon Rods'),
-	(32835, 0, 14401, 3.18, 1, 1, 'Pulsating Power Crystal'),
 	(32835, 0, 8574, 0.28, 1, 1, 'Studded Iron Knuckle Punchers'),
 	(32835, 0, 1190, 0.19, 1, 1, 'Iron Pepperbox Machine Gun'),
 	(32835, 0, 40388, 0.14, 1, 1, 'Photonic Field Generator'),
@@ -2346,18 +2247,13 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 -- Tanglemore Chomper (15 kills recorded, tanglemore-chomper-5)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (32837, NULL, 100, 0, 0, 0, 0, 'Tanglemore Chomper');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32837, 32837, 'Tanglemore Chomper');
-INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(32837, 0, 14402, 80, 1, 1, 'Structural Carbon Rods'),
-	(32837, 0, 14401, 20, 1, 1, 'Pulsating Power Crystal');
 
 -- Ravenous Freak (1169 kills recorded, ravenous-freak-5)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (32843, NULL, 100, 0, 0, 0, 0, 'Ravenous Freak');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32843, 32843, 'Ravenous Freak');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32843, 0, 38714, 59.97, 1, 1, 'Shattered Jewelry'),
-	(32843, 0, 14401, 16.85, 1, 1, 'Pulsating Power Crystal'),
 	(32843, 0, 14516, 11.21, 1, 1, 'Canvas Cloth'),
-	(32843, 0, 14402, 6.16, 1, 1, 'Structural Carbon Rods'),
 	(32843, 0, 27582, 0.94, 1, 1, 'Canvas Gloves'),
 	(32843, 0, 55365, 0.51, 1, 1, 'Forecaster''s Ferrorium Stock'),
 	(32843, 0, 29609, 0.43, 1, 1, 'Rune Fragment'),
@@ -2399,9 +2295,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32844, 32844,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32844, 0, 14516, 30.28, 1, 1, 'Canvas Cloth'),
 	(32844, 0, 38714, 29.36, 1, 1, 'Shattered Jewelry'),
-	(32844, 0, 14401, 27.52, 1, 1, 'Pulsating Power Crystal'),
 	(32844, 0, 50808, 2.75, 1, 1, 'Pouch of Pirated Pieces'),
-	(32844, 0, 14402, 2.75, 1, 1, 'Structural Carbon Rods'),
 	(32844, 0, 21776, 1.83, 1, 1, 'Colorful Table (Aurin)'),
 	(32844, 0, 41120, 0.92, 1, 1, 'Hycrest Farmer''s Leg Wraps'),
 	(32844, 0, 55289, 0.92, 1, 1, 'Ambuscader''s Multifiber War Pants'),
@@ -2416,8 +2310,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32845, 32845,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32845, 0, 14516, 41.94, 1, 1, 'Canvas Cloth'),
 	(32845, 0, 38714, 23.66, 1, 1, 'Shattered Jewelry'),
-	(32845, 0, 14401, 18.28, 1, 1, 'Pulsating Power Crystal'),
-	(32845, 0, 14402, 5.38, 1, 1, 'Structural Carbon Rods'),
 	(32845, 0, 55430, 1.08, 1, 1, 'Exceptional Ruffian''s Enviroweb War Pants'),
 	(32845, 0, 55184, 1.08, 1, 1, 'Ruffian''s Xenofoam Aura'),
 	(32845, 0, 55302, 1.08, 1, 1, 'Ambuscader''s Exanarc Compensator'),
@@ -2435,9 +2327,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (32849, 32849,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(32849, 0, 8087, 42.31, 1, 1, 'Small Razortail Ears'),
 	(32849, 0, 14235, 18.88, 1, 1, 'Split Leather'),
-	(32849, 0, 14402, 14.34, 1, 1, 'Structural Carbon Rods'),
 	(32849, 0, 14279, 9.44, 1, 1, 'Tough Meat'),
-	(32849, 0, 14401, 4.55, 1, 1, 'Pulsating Power Crystal'),
 	(32849, 0, 40203, 2.1, 1, 1, 'Igneous Pebble'),
 	(32849, 0, 42995, 1.4, 1, 1, 'Carrion Bait'),
 	(32849, 0, 50807, 1.4, 1, 1, 'Sack of Scratched Silver'),
@@ -2470,9 +2360,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(32890, 0, 8048, 37.68, 1, 1, 'Small Pumera Paw'),
 	(32890, 0, 14235, 15.46, 1, 1, 'Split Leather'),
 	(32890, 0, 14279, 12.56, 1, 1, 'Tough Meat'),
-	(32890, 0, 14402, 9.66, 1, 1, 'Structural Carbon Rods'),
 	(32890, 0, 36080, 9.18, 1, 1, 'Guide: Tangleclaw Hide Boots'),
-	(32890, 0, 14401, 4.83, 1, 1, 'Pulsating Power Crystal'),
 	(32890, 0, 13254, 3.86, 1, 1, 'Pumera Meat'),
 	(32890, 0, 50807, 2.42, 1, 1, 'Sack of Scratched Silver'),
 	(32890, 0, 14246, 1.93, 1, 1, 'Rugged Pelt'),
@@ -2491,7 +2379,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(32894, 0, 14279, 21.93, 1, 1, 'Tough Meat'),
 	(32894, 0, 50807, 1.93, 1, 1, 'Sack of Scratched Silver'),
 	(32894, 0, 42995, 1.05, 1, 1, 'Carrion Bait'),
-	(32894, 0, 14402, 0.94, 1, 1, 'Structural Carbon Rods'),
 	(32894, 0, 29609, 0.88, 1, 1, 'Rune Fragment'),
 	(32894, 0, 40210, 0.66, 1, 1, 'Thick Insulated Gloves'),
 	(32894, 0, 29316, 0.66, 1, 1, 'Sign of Water'),
@@ -2517,7 +2404,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(32894, 0, 34719, 0.22, 1, 1, 'Unfair Advantage AMP'),
 	(32894, 0, 29604, 0.22, 1, 1, 'Sign of Air'),
 	(32894, 0, 50808, 0.22, 1, 1, 'Pouch of Pirated Pieces'),
-	(32894, 0, 14401, 0.22, 1, 1, 'Pulsating Power Crystal'),
 	(32894, 0, 29588, 0.22, 1, 1, 'Sign of Earth'),
 	(32894, 0, 51568, 0.22, 1, 1, 'Hooligan''s Xenite Shield Generator'),
 	(32894, 0, 29596, 0.22, 1, 1, 'Sign of Fire'),
@@ -2640,8 +2526,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(32912, 0, 7535, 26.87, 1, 1, 'Tiny Chompacabra Tail'),
 	(32912, 0, 14279, 18.48, 1, 1, 'Tough Meat'),
 	(32912, 0, 14235, 18.37, 1, 1, 'Split Leather'),
-	(32912, 0, 14402, 16.32, 1, 1, 'Structural Carbon Rods'),
-	(32912, 0, 14401, 5.19, 1, 1, 'Pulsating Power Crystal'),
 	(32912, 0, 42995, 1.38, 1, 1, 'Carrion Bait'),
 	(32912, 0, 14428, 1.02, 1, 1, 'Tough Jerky'),
 	(32912, 0, 29609, 0.66, 1, 1, 'Rune Fragment'),
@@ -2675,7 +2559,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(33059, 0, 18064, 52.17, 1, 1, 'Vosmara Family Heirloom'),
 	(33059, 0, 38714, 15.22, 1, 1, 'Shattered Jewelry'),
 	(33059, 0, 14516, 10.87, 1, 1, 'Canvas Cloth'),
-	(33059, 0, 14401, 8.7, 1, 1, 'Pulsating Power Crystal'),
 	(33059, 0, 55771, 4.35, 1, 1, 'Ambuscader''s Pherofoam Shroud'),
 	(33059, 0, 27582, 2.17, 1, 1, 'Canvas Gloves'),
 	(33059, 0, 55399, 2.17, 1, 1, 'Ruffian''s Zetaplate Coat'),
@@ -2686,11 +2569,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (33080, NULL, 100, 0, 0, 0, 0, 'Augmented Nightfang Widow');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (33080, 33080, 'Augmented Nightfang Widow');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(33080, 0, 14402, 30, 1, 1, 'Structural Carbon Rods'),
 	(33080, 0, 8237, 15, 1, 1, 'Small Spider Limbs'),
 	(33080, 0, 14287, 13.33, 1, 1, 'Slimy Bug Meat'),
 	(33080, 0, 18640, 13.33, 1, 1, 'Spider Meat'),
-	(33080, 0, 14401, 13.33, 1, 1, 'Pulsating Power Crystal'),
 	(33080, 0, 43005, 5, 1, 1, 'Bug Splat'),
 	(33080, 0, 44854, 1.67, 1, 1, 'Strain Test Tube'),
 	(33080, 0, 18761, 1.67, 1, 1, 'Recipe: Spider Stir-Fry'),
@@ -2714,18 +2595,14 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (33233, 33233,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(33233, 0, 38714, 47.06, 1, 1, 'Shattered Jewelry'),
 	(33233, 0, 14516, 23.53, 1, 1, 'Canvas Cloth'),
-	(33233, 0, 14401, 11.76, 1, 1, 'Pulsating Power Crystal'),
-	(33233, 0, 55450, 11.76, 1, 1, 'Abettor''s Pyroplastic Overpants'),
-	(33233, 0, 14402, 5.88, 1, 1, 'Structural Carbon Rods');
+	(33233, 0, 55450, 11.76, 1, 1, 'Abettor''s Pyroplastic Overpants');
 
 -- Ravenous Arnost Vosmara (17 kills recorded, ravenous-arnost-vosmara-5)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (33234, NULL, 100, 0, 0, 0, 0, 'Ravenous Arnost Vosmara');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (33234, 33234, 'Ravenous Arnost Vosmara');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(33234, 0, 38714, 29.41, 1, 1, 'Shattered Jewelry'),
-	(33234, 0, 14401, 23.53, 1, 1, 'Pulsating Power Crystal'),
 	(33234, 0, 14516, 17.65, 1, 1, 'Canvas Cloth'),
-	(33234, 0, 14402, 11.76, 1, 1, 'Structural Carbon Rods'),
 	(33234, 0, 40229, 5.88, 1, 1, 'Pumera Lily'),
 	(33234, 0, 27582, 5.88, 1, 1, 'Canvas Gloves'),
 	(33234, 0, 55610, 5.88, 1, 1, 'Forecaster''s Dynoridum Technopants');
@@ -2737,8 +2614,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(33367, 0, 28719, 52.24, 1, 1, 'Hazmat Suit Filter'),
 	(33367, 0, 14516, 18.91, 1, 1, 'Canvas Cloth'),
 	(33367, 0, 38714, 16.92, 1, 1, 'Shattered Jewelry'),
-	(33367, 0, 14401, 3.48, 1, 1, 'Pulsating Power Crystal'),
-	(33367, 0, 14402, 1.99, 1, 1, 'Structural Carbon Rods'),
 	(33367, 0, 27582, 1.49, 1, 1, 'Canvas Gloves'),
 	(33367, 0, 40231, 1, 1, 1, 'Blooming Rose'),
 	(33367, 0, 31383, 0.5, 1, 1, 'Granok Trailer FABkit'),
@@ -2755,8 +2630,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (33787, 33787, 'N22 Blaster');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(33787, 0, 7439, 53.92, 1, 1, 'Flimsy Sprocket'),
-	(33787, 0, 14402, 30.39, 1, 1, 'Structural Carbon Rods'),
-	(33787, 0, 14401, 5.88, 1, 1, 'Pulsating Power Crystal'),
 	(33787, 0, 40225, 1.96, 1, 1, 'Coruscating Omnishield'),
 	(33787, 0, 51867, 1.96, 1, 1, 'Knave''s Hyperweave Clamps'),
 	(33787, 0, 29609, 1.96, 1, 1, 'Rune Fragment'),
@@ -2770,9 +2643,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (33850, 33850,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(33850, 0, 8237, 22.64, 1, 1, 'Small Spider Limbs'),
 	(33850, 0, 14287, 21.7, 1, 1, 'Slimy Bug Meat'),
-	(33850, 0, 14402, 17.92, 1, 1, 'Structural Carbon Rods'),
 	(33850, 0, 18640, 9.43, 1, 1, 'Spider Meat'),
-	(33850, 0, 14401, 5.66, 1, 1, 'Pulsating Power Crystal'),
 	(33850, 0, 50808, 4.72, 1, 1, 'Pouch of Pirated Pieces'),
 	(33850, 0, 55091, 2.83, 1, 1, 'Picaroon''s Expoform Focus'),
 	(33850, 0, 55126, 1.89, 1, 1, 'Forecaster''s Multitwine Handgrip'),
@@ -2793,9 +2664,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 -- Vitara's Rose (6 kills recorded, vitaras-rose-5)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (33876, NULL, 100, 0, 0, 0, 0, 'Vitara''s Rose');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (33876, 33876, 'Vitara''s Rose');
-INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(33876, 0, 14401, 66.67, 1, 1, 'Pulsating Power Crystal'),
-	(33876, 0, 14402, 33.33, 1, 1, 'Structural Carbon Rods');
 
 -- Tangleclaw Slasher (772 kills recorded, tangleclaw-slasher-5)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (33921, NULL, 100, 0, 0, 0, 0, 'Tangleclaw Slasher');
@@ -2804,11 +2672,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(33921, 0, 14235, 24.48, 1, 1, 'Split Leather'),
 	(33921, 0, 8048, 22.54, 1, 1, 'Small Pumera Paw'),
 	(33921, 0, 14279, 18.26, 1, 1, 'Tough Meat'),
-	(33921, 0, 14402, 11.53, 1, 1, 'Structural Carbon Rods'),
 	(33921, 0, 13254, 5.96, 1, 1, 'Pumera Meat'),
 	(33921, 0, 50807, 3.11, 1, 1, 'Sack of Scratched Silver'),
 	(33921, 0, 36080, 2.59, 1, 1, 'Guide: Tangleclaw Hide Boots'),
-	(33921, 0, 14401, 2.2, 1, 1, 'Pulsating Power Crystal'),
 	(33921, 0, 18743, 0.91, 1, 1, 'Recipe: Flame-Roasted Pumera'),
 	(33921, 0, 42995, 0.65, 1, 1, 'Carrion Bait'),
 	(33921, 0, 51839, 0.39, 1, 1, 'Knave''s Clunky Fist Hammers'),
@@ -2861,12 +2727,10 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (33932, NULL, 100, 0, 0, 0, 0, 'Tangleclaw Ravenok');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (33932, 33932, 'Tangleclaw Ravenok');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(33932, 0, 14402, 23.9, 1, 1, 'Structural Carbon Rods'),
 	(33932, 0, 14235, 18.01, 1, 1, 'Split Leather'),
 	(33932, 0, 8074, 15.44, 1, 1, 'Tiny Ravenok Tail'),
 	(33932, 0, 14283, 12.13, 1, 1, 'Stringy Poultry'),
 	(33932, 0, 12906, 8.09, 1, 1, 'Ravenok Thigh'),
-	(33932, 0, 14401, 5.51, 1, 1, 'Pulsating Power Crystal'),
 	(33932, 0, 18763, 3.68, 1, 1, 'Recipe: Roast Ravenok'),
 	(33932, 0, 43000, 2.94, 1, 1, 'Feather Pile'),
 	(33932, 0, 50807, 1.47, 1, 1, 'Sack of Scratched Silver'),
@@ -2893,8 +2757,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(33951, 0, 14279, 18.44, 1, 1, 'Tough Meat'),
 	(33951, 0, 8372, 15.64, 1, 1, 'Disgusting Walatusk Tongue'),
 	(33951, 0, 8371, 12.85, 1, 1, 'Tattered Walatusk Hide'),
-	(33951, 0, 14401, 6.15, 1, 1, 'Pulsating Power Crystal'),
-	(33951, 0, 14402, 5.59, 1, 1, 'Structural Carbon Rods'),
 	(33951, 0, 14246, 2.23, 1, 1, 'Rugged Pelt'),
 	(33951, 0, 42995, 2.23, 1, 1, 'Carrion Bait'),
 	(33951, 0, 50807, 1.68, 1, 1, 'Sack of Scratched Silver'),
@@ -3017,10 +2879,8 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (34578, 34578,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(34578, 0, 14516, 34.51, 1, 1, 'Canvas Cloth'),
 	(34578, 0, 7840, 17.61, 1, 1, 'Cheap Junk'),
-	(34578, 0, 14401, 16.9, 1, 1, 'Pulsating Power Crystal'),
 	(34578, 0, 7484, 13.38, 1, 1, 'Dirt-Stained Rags'),
 	(34578, 0, 27582, 4.93, 1, 1, 'Canvas Gloves'),
-	(34578, 0, 14402, 1.41, 1, 1, 'Structural Carbon Rods'),
 	(34578, 0, 55139, 1.41, 1, 1, 'Exceptional Forecaster''s Multitwine Shorts'),
 	(34578, 0, 55086, 1.41, 1, 1, 'Picaroon''s Expoform Foxtrots'),
 	(34578, 0, 55043, 0.7, 1, 1, 'Ambuscader''s Eldancoil Particle Sphere'),
@@ -3073,8 +2933,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(39079, 0, 14279, 18.44, 1, 1, 'Tough Meat'),
 	(39079, 0, 8372, 15.64, 1, 1, 'Disgusting Walatusk Tongue'),
 	(39079, 0, 8371, 12.85, 1, 1, 'Tattered Walatusk Hide'),
-	(39079, 0, 14401, 6.15, 1, 1, 'Pulsating Power Crystal'),
-	(39079, 0, 14402, 5.59, 1, 1, 'Structural Carbon Rods'),
 	(39079, 0, 14246, 2.23, 1, 1, 'Rugged Pelt'),
 	(39079, 0, 42995, 2.23, 1, 1, 'Carrion Bait'),
 	(39079, 0, 50807, 1.68, 1, 1, 'Sack of Scratched Silver'),
@@ -3095,10 +2953,8 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (41701, 41701, 'Sanctum Seer');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(41701, 0, 7484, 32.4, 1, 1, 'Dirt-Stained Rags'),
-	(41701, 0, 14401, 18.62, 1, 1, 'Pulsating Power Crystal'),
 	(41701, 0, 14516, 14.96, 1, 1, 'Canvas Cloth'),
 	(41701, 0, 14517, 10.55, 1, 1, 'Silk Cloth'),
-	(41701, 0, 14402, 5.17, 1, 1, 'Structural Carbon Rods'),
 	(41701, 0, 14428, 2.05, 1, 1, 'Tough Jerky'),
 	(41701, 0, 42488, 0.54, 1, 1, 'You Built WHAT? Design Paradigms for the Novice'),
 	(41701, 0, 29596, 0.54, 1, 1, 'Sign of Fire'),
@@ -3112,9 +2968,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (41706, 41706, 'Sanctum Slayer');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(41706, 0, 7840, 48.12, 1, 1, 'Cheap Junk'),
-	(41706, 0, 14401, 19.49, 1, 1, 'Pulsating Power Crystal'),
 	(41706, 0, 14516, 8.81, 1, 1, 'Canvas Cloth'),
-	(41706, 0, 14402, 6.85, 1, 1, 'Structural Carbon Rods'),
 	(41706, 0, 14517, 6.61, 1, 1, 'Silk Cloth'),
 	(41706, 0, 14838, 1.31, 1, 1, 'Basic Medishot: Instant Healing'),
 	(41706, 0, 27577, 0.49, 1, 1, 'Silk Shoes'),
@@ -3130,9 +2984,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (41732, 41732, 'Ravenous Horror');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(41732, 0, 38714, 68.28, 1, 1, 'Shattered Jewelry'),
-	(41732, 0, 14401, 16.55, 1, 1, 'Pulsating Power Crystal'),
 	(41732, 0, 14516, 8.28, 1, 1, 'Canvas Cloth'),
-	(41732, 0, 14402, 2.07, 1, 1, 'Structural Carbon Rods'),
 	(41732, 0, 55299, 0.69, 1, 1, 'Ambuscader''s Exanarc Brogans'),
 	(41732, 0, 50808, 0.69, 1, 1, 'Pouch of Pirated Pieces'),
 	(41732, 0, 55441, 0.69, 1, 1, 'Abettor''s Betacyatic Shoulder Plates'),
@@ -3146,9 +2998,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (41734, 41734, 'Ravenous Ghoul');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(41734, 0, 38714, 40.15, 1, 1, 'Shattered Jewelry'),
-	(41734, 0, 14401, 28.96, 1, 1, 'Pulsating Power Crystal'),
 	(41734, 0, 14516, 14.29, 1, 1, 'Canvas Cloth'),
-	(41734, 0, 14402, 7.72, 1, 1, 'Structural Carbon Rods'),
 	(41734, 0, 27582, 2.32, 1, 1, 'Canvas Gloves'),
 	(41734, 0, 30721, 1.16, 1, 1, 'Hyper Shield AMP'),
 	(41734, 0, 55439, 0.39, 1, 1, 'Abettor''s Betacyatic Parka'),
@@ -3173,8 +3023,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(41752, 0, 28719, 52.52, 1, 1, 'Hazmat Suit Filter'),
 	(41752, 0, 38714, 15.31, 1, 1, 'Shattered Jewelry'),
 	(41752, 0, 14516, 12.98, 1, 1, 'Canvas Cloth'),
-	(41752, 0, 14401, 11.24, 1, 1, 'Pulsating Power Crystal'),
-	(41752, 0, 14402, 2.71, 1, 1, 'Structural Carbon Rods'),
 	(41752, 0, 27582, 1.16, 1, 1, 'Canvas Gloves'),
 	(41752, 0, 55617, 0.39, 1, 1, 'Forecaster''s Dynoridum Neural Governor'),
 	(41752, 0, 41116, 0.39, 1, 1, 'Hycrest Rebel''s Chausses'),
@@ -3204,11 +3052,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(44716, 0, 14235, 20.24, 1, 1, 'Split Leather'),
 	(44716, 0, 8074, 16.67, 1, 1, 'Tiny Ravenok Tail'),
 	(44716, 0, 12906, 13.1, 1, 1, 'Ravenok Thigh'),
-	(44716, 0, 14401, 13.1, 1, 1, 'Pulsating Power Crystal'),
 	(44716, 0, 43000, 3.57, 1, 1, 'Feather Pile'),
 	(44716, 0, 14246, 2.38, 1, 1, 'Rugged Pelt'),
 	(44716, 0, 55107, 1.19, 1, 1, 'Exceptional Picaroon''s Expoform Scope'),
-	(44716, 0, 14402, 1.19, 1, 1, 'Structural Carbon Rods'),
 	(44716, 0, 54720, 1.19, 1, 1, 'Abettor''s Ultrathread Crushers'),
 	(44716, 0, 40208, 1.19, 1, 1, 'Clawed Leather Gloves');
 
@@ -3398,9 +3244,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (46643, 46643,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(46643, 0, 14235, 30.99, 1, 1, 'Split Leather'),
 	(46643, 0, 14279, 19.72, 1, 1, 'Tough Meat'),
-	(46643, 0, 14402, 19.72, 1, 1, 'Structural Carbon Rods'),
 	(46643, 0, 8372, 12.68, 1, 1, 'Disgusting Walatusk Tongue'),
-	(46643, 0, 14401, 5.63, 1, 1, 'Pulsating Power Crystal'),
 	(46643, 0, 14246, 4.23, 1, 1, 'Rugged Pelt'),
 	(46643, 0, 40206, 2.82, 1, 1, 'Bladed Omni-Gauntlets'),
 	(46643, 0, 50808, 1.41, 1, 1, 'Pouch of Pirated Pieces'),
@@ -3412,10 +3256,8 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (46698, 46698, 'Augmented Nightfang Creeper');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(46698, 0, 8237, 58.41, 1, 1, 'Small Spider Limbs'),
-	(46698, 0, 14402, 12.65, 1, 1, 'Structural Carbon Rods'),
 	(46698, 0, 14287, 10.23, 1, 1, 'Slimy Bug Meat'),
 	(46698, 0, 18640, 3.64, 1, 1, 'Spider Meat'),
-	(46698, 0, 14401, 3.64, 1, 1, 'Pulsating Power Crystal'),
 	(46698, 0, 5468, 0.52, 1, 1, 'Inlaid Cloth Wrapped Mind Blade'),
 	(46698, 0, 14838, 0.52, 1, 1, 'Basic Medishot: Instant Healing'),
 	(46698, 0, 14428, 0.35, 1, 1, 'Tough Jerky');
@@ -3426,9 +3268,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (46706, 46706,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(46706, 0, 14287, 25.7, 1, 1, 'Slimy Bug Meat'),
 	(46706, 0, 8237, 19.68, 1, 1, 'Small Spider Limbs'),
-	(46706, 0, 14402, 17.27, 1, 1, 'Structural Carbon Rods'),
 	(46706, 0, 18640, 9.24, 1, 1, 'Spider Meat'),
-	(46706, 0, 14401, 6.02, 1, 1, 'Pulsating Power Crystal'),
 	(46706, 0, 18761, 4.42, 1, 1, 'Recipe: Spider Stir-Fry'),
 	(46706, 0, 14838, 2.41, 1, 1, 'Basic Medishot: Instant Healing'),
 	(46706, 0, 40208, 0.4, 1, 1, 'Clawed Leather Gloves'),
@@ -3439,10 +3279,8 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (46708, 46708, 'Augmented Nightfang Spitter');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(46708, 0, 8237, 41.52, 1, 1, 'Small Spider Limbs'),
-	(46708, 0, 14402, 17.15, 1, 1, 'Structural Carbon Rods'),
 	(46708, 0, 14287, 17.15, 1, 1, 'Slimy Bug Meat'),
 	(46708, 0, 18640, 7.02, 1, 1, 'Spider Meat'),
-	(46708, 0, 14401, 3.51, 1, 1, 'Pulsating Power Crystal'),
 	(46708, 0, 18761, 2.53, 1, 1, 'Recipe: Spider Stir-Fry');
 
 -- Shadow Webwalker (324 kills recorded, shadow-webwalker-5)
@@ -3451,7 +3289,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (47435, 47435,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(47435, 0, 8237, 58.02, 1, 1, 'Small Spider Limbs'),
 	(47435, 0, 14287, 15.43, 1, 1, 'Slimy Bug Meat'),
-	(47435, 0, 14402, 6.79, 1, 1, 'Structural Carbon Rods'),
 	(47435, 0, 18640, 5.25, 1, 1, 'Spider Meat'),
 	(47435, 0, 43005, 4.32, 1, 1, 'Bug Splat');
 
@@ -3461,9 +3298,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (47437, 47437,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(47437, 0, 8237, 47.5, 1, 1, 'Small Spider Limbs'),
 	(47437, 0, 14287, 13.76, 1, 1, 'Slimy Bug Meat'),
-	(47437, 0, 14402, 12.84, 1, 1, 'Structural Carbon Rods'),
 	(47437, 0, 18640, 8.38, 1, 1, 'Spider Meat'),
-	(47437, 0, 14401, 3.61, 1, 1, 'Pulsating Power Crystal'),
 	(47437, 0, 43005, 1.61, 1, 1, 'Bug Splat'),
 	(47437, 0, 14838, 1.23, 1, 1, 'Basic Medishot: Instant Healing'),
 	(47437, 0, 42516, 0.31, 1, 1, 'Can I Eat That? A Guide to Nexus Flora'),
@@ -3482,7 +3317,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (47438, 47438,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(47438, 0, 14287, 29.41, 1, 1, 'Slimy Bug Meat'),
 	(47438, 0, 8237, 21.01, 1, 1, 'Small Spider Limbs'),
-	(47438, 0, 14402, 14.29, 1, 1, 'Structural Carbon Rods'),
 	(47438, 0, 43005, 4.2, 1, 1, 'Bug Splat');
 
 -- Shadow Defiler (1247 kills recorded, shadow-defiler-5)
@@ -3491,9 +3325,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (47440, 47440,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(47440, 0, 8237, 37.29, 1, 1, 'Small Spider Limbs'),
 	(47440, 0, 14287, 17.64, 1, 1, 'Slimy Bug Meat'),
-	(47440, 0, 14402, 14.76, 1, 1, 'Structural Carbon Rods'),
 	(47440, 0, 18640, 7.86, 1, 1, 'Spider Meat'),
-	(47440, 0, 14401, 5.61, 1, 1, 'Pulsating Power Crystal'),
 	(47440, 0, 14428, 2.25, 1, 1, 'Tough Jerky'),
 	(47440, 0, 43005, 2, 1, 1, 'Bug Splat'),
 	(47440, 0, 14838, 1.12, 1, 1, 'Basic Medishot: Instant Healing'),
@@ -3568,8 +3400,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(52935, 0, 7634, 46.51, 1, 1, 'Brittle Draken Horns'),
 	(52935, 0, 18462, 18.01, 1, 1, 'Ellevar Bowl'),
 	(52935, 0, 14516, 13.84, 1, 1, 'Canvas Cloth'),
-	(52935, 0, 14401, 7.26, 1, 1, 'Pulsating Power Crystal'),
-	(52935, 0, 14402, 2.42, 1, 1, 'Structural Carbon Rods'),
 	(52935, 0, 51911, 1.88, 1, 1, 'Bandit''s Biotrace Manipulators'),
 	(52935, 0, 27582, 1.34, 1, 1, 'Canvas Gloves'),
 	(52935, 0, 18758, 1.21, 1, 1, 'Recipe: Ellevar Bowl'),
@@ -3622,10 +3452,8 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (57148, 57148, 'Enhanced Dazeroot Hivestriker');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(57148, 0, 14287, 21.01, 1, 1, 'Slimy Bug Meat'),
-	(57148, 0, 14401, 20.74, 1, 1, 'Pulsating Power Crystal'),
 	(57148, 0, 7508, 18.62, 1, 1, 'Buzzbing Pheromone Gland'),
 	(57148, 0, 18639, 15.43, 1, 1, 'Buzzbing Meat'),
-	(57148, 0, 14402, 6.12, 1, 1, 'Structural Carbon Rods'),
 	(57148, 0, 50807, 4.26, 1, 1, 'Sack of Scratched Silver'),
 	(57148, 0, 51207, 3.99, 1, 1, 'Herald''s Manaweave Shield'),
 	(57148, 0, 43005, 2.66, 1, 1, 'Bug Splat'),
@@ -3649,13 +3477,11 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (61416, NULL, 100, 0, 0, 0, 0, 'Dazeroot Impaler');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61416, 61416, 'Dazeroot Impaler');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(61416, 0, 14401, 17.65, 1, 1, 'Pulsating Power Crystal'),
 	(61416, 0, 14287, 15.69, 1, 1, 'Slimy Bug Meat'),
 	(61416, 0, 7509, 14.51, 1, 1, 'Small Buzzbing Limbs'),
 	(61416, 0, 7508, 14.12, 1, 1, 'Buzzbing Pheromone Gland'),
 	(61416, 0, 50807, 9.8, 1, 1, 'Sack of Scratched Silver'),
 	(61416, 0, 18639, 6.27, 1, 1, 'Buzzbing Meat'),
-	(61416, 0, 14402, 3.53, 1, 1, 'Structural Carbon Rods'),
 	(61416, 0, 51629, 1.57, 1, 1, 'Exceptional Firebrand''s Megathread Analyzer'),
 	(61416, 0, 51702, 1.57, 1, 1, 'Vandal''s Hypermagnetic Overboots'),
 	(61416, 0, 51908, 1.18, 1, 1, 'Bandit''s Biotrace Shirt'),
@@ -3723,9 +3549,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61425, 61425,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61425, 0, 47767, 38.15, 1, 1, 'Damaged Moodie Totem'),
 	(61425, 0, 14516, 29.68, 1, 1, 'Canvas Cloth'),
-	(61425, 0, 14401, 4.49, 1, 1, 'Pulsating Power Crystal'),
 	(61425, 0, 50807, 4.24, 1, 1, 'Sack of Scratched Silver'),
-	(61425, 0, 14402, 1.5, 1, 1, 'Structural Carbon Rods'),
 	(61425, 0, 35891, 1.25, 1, 1, 'Schematic: Darkloam Painbringer Neuroguns'),
 	(61425, 0, 40222, 1, 1, 1, 'Incubation Leggings'),
 	(61425, 0, 27582, 1, 1, 1, 'Canvas Gloves'),
@@ -3799,9 +3623,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61427, 0, 14235, 21.79, 1, 1, 'Split Leather'),
 	(61427, 0, 14279, 16.12, 1, 1, 'Tough Meat'),
 	(61427, 0, 13254, 6.87, 1, 1, 'Pumera Meat'),
-	(61427, 0, 14402, 5.37, 1, 1, 'Structural Carbon Rods'),
 	(61427, 0, 50807, 5.07, 1, 1, 'Sack of Scratched Silver'),
-	(61427, 0, 14401, 2.09, 1, 1, 'Pulsating Power Crystal'),
 	(61427, 0, 51568, 1.19, 1, 1, 'Hooligan''s Xenite Shield Generator'),
 	(61427, 0, 14246, 1.19, 1, 1, 'Rugged Pelt'),
 	(61427, 0, 51934, 1.19, 1, 1, 'Bandit''s Magnimesh Foot Guards'),
@@ -3852,9 +3674,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61429, 0, 14235, 24.55, 1, 1, 'Split Leather'),
 	(61429, 0, 8074, 19.16, 1, 1, 'Tiny Ravenok Tail'),
 	(61429, 0, 14283, 16.17, 1, 1, 'Stringy Poultry'),
-	(61429, 0, 14402, 11.38, 1, 1, 'Structural Carbon Rods'),
 	(61429, 0, 12906, 8.98, 1, 1, 'Ravenok Thigh'),
-	(61429, 0, 14401, 3.59, 1, 1, 'Pulsating Power Crystal'),
 	(61429, 0, 43000, 3.59, 1, 1, 'Feather Pile'),
 	(61429, 0, 14246, 2.99, 1, 1, 'Rugged Pelt'),
 	(61429, 0, 30462, 1.8, 1, 1, 'Power Hitter AMP'),
@@ -3877,9 +3697,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61430, 0, 14235, 27.33, 1, 1, 'Split Leather'),
 	(61430, 0, 14279, 22.22, 1, 1, 'Tough Meat'),
 	(61430, 0, 8048, 16.52, 1, 1, 'Small Pumera Paw'),
-	(61430, 0, 14402, 9.01, 1, 1, 'Structural Carbon Rods'),
 	(61430, 0, 13254, 6.31, 1, 1, 'Pumera Meat'),
-	(61430, 0, 14401, 4.8, 1, 1, 'Pulsating Power Crystal'),
 	(61430, 0, 36080, 2.7, 1, 1, 'Guide: Tangleclaw Hide Boots'),
 	(61430, 0, 50807, 1.2, 1, 1, 'Sack of Scratched Silver'),
 	(61430, 0, 40223, 1.2, 1, 1, 'Sparking Omnishield'),
@@ -3907,11 +3725,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (61431, NULL, 100, 0, 0, 0, 0, 'Augmented Nightfang Lurker');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61431, 61431, 'Augmented Nightfang Lurker');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(61431, 0, 14402, 35.9, 1, 1, 'Structural Carbon Rods'),
 	(61431, 0, 14287, 20.51, 1, 1, 'Slimy Bug Meat'),
 	(61431, 0, 8237, 15.38, 1, 1, 'Small Spider Limbs'),
 	(61431, 0, 18640, 12.82, 1, 1, 'Spider Meat'),
-	(61431, 0, 14401, 5.13, 1, 1, 'Pulsating Power Crystal'),
 	(61431, 0, 54797, 2.56, 1, 1, 'Ambuscader''s Unwieldy Handspurs'),
 	(61431, 0, 43005, 2.56, 1, 1, 'Bug Splat'),
 	(61431, 0, 50808, 2.56, 1, 1, 'Pouch of Pirated Pieces'),
@@ -3921,13 +3737,11 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (61432, NULL, 100, 0, 0, 0, 0, 'Nightfang Lurker');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61432, 61432, 'Nightfang Lurker');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(61432, 0, 14402, 24.56, 1, 1, 'Structural Carbon Rods'),
 	(61432, 0, 14287, 22.81, 1, 1, 'Slimy Bug Meat'),
 	(61432, 0, 40224, 19.3, 1, 1, 'Sustaining Omnishield'),
 	(61432, 0, 8237, 12.28, 1, 1, 'Small Spider Limbs'),
 	(61432, 0, 18640, 8.77, 1, 1, 'Spider Meat'),
 	(61432, 0, 36218, 5.26, 1, 1, 'Formula: Reactive Armor Boost'),
-	(61432, 0, 14401, 3.51, 1, 1, 'Pulsating Power Crystal'),
 	(61432, 0, 54681, 1.75, 1, 1, 'Ruffian''s Exantype Coat'),
 	(61432, 0, 43005, 1.75, 1, 1, 'Bug Splat');
 
@@ -3937,10 +3751,8 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61433, 61433,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61433, 0, 14287, 26.69, 1, 1, 'Slimy Bug Meat'),
 	(61433, 0, 8237, 21.21, 1, 1, 'Small Spider Limbs'),
-	(61433, 0, 14402, 12.55, 1, 1, 'Structural Carbon Rods'),
 	(61433, 0, 18640, 10.89, 1, 1, 'Spider Meat'),
 	(61433, 0, 43005, 5.03, 1, 1, 'Bug Splat'),
-	(61433, 0, 14401, 3.57, 1, 1, 'Pulsating Power Crystal'),
 	(61433, 0, 18761, 3.57, 1, 1, 'Recipe: Spider Stir-Fry'),
 	(61433, 0, 14428, 1.27, 1, 1, 'Tough Jerky'),
 	(61433, 0, 12047, 0.38, 1, 1, 'Standard Knapsack'),
@@ -3963,10 +3775,8 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61435, 61435,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61435, 0, 14516, 29.63, 1, 1, 'Canvas Cloth'),
 	(61435, 0, 7947, 25.93, 1, 1, 'Flimsy Mechari Sprocket'),
-	(61435, 0, 14402, 19.44, 1, 1, 'Structural Carbon Rods'),
 	(61435, 0, 18462, 8.33, 1, 1, 'Ellevar Bowl'),
 	(61435, 0, 27582, 7.41, 1, 1, 'Canvas Gloves'),
-	(61435, 0, 14401, 4.63, 1, 1, 'Pulsating Power Crystal'),
 	(61435, 0, 21524, 0.93, 1, 1, 'Torn Banner (Pell-Tech)'),
 	(61435, 0, 36218, 0.93, 1, 1, 'Formula: Reactive Armor Boost'),
 	(61435, 0, 40226, 0.93, 1, 1, 'Sacred Stinger System'),
@@ -3984,8 +3794,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61437, 0, 54715, 4.76, 1, 1, 'Exceptional Ruffian''s Hyperweave Crystal'),
 	(61437, 0, 54684, 4.76, 1, 1, 'Ruffian''s Exantype Manacles'),
 	(61437, 0, 14782, 4.76, 1, 1, 'Accelerated Omni-Plasm'),
-	(61437, 0, 31514, 4.76, 1, 1, 'Locked Chest (Exile)'),
-	(61437, 0, 14402, 4.76, 1, 1, 'Structural Carbon Rods');
+	(61437, 0, 31514, 4.76, 1, 1, 'Locked Chest (Exile)');
 
 -- Shadetree Gorepaw (21 kills recorded, shadetree-gorepaw-5)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (61438, NULL, 100, 0, 0, 0, 0, 'Shadetree Gorepaw');
@@ -4045,7 +3854,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61442, 0, 8074, 20.61, 1, 1, 'Tiny Ravenok Tail'),
 	(61442, 0, 14283, 16.03, 1, 1, 'Stringy Poultry'),
 	(61442, 0, 12906, 12.98, 1, 1, 'Ravenok Thigh'),
-	(61442, 0, 14401, 6.11, 1, 1, 'Pulsating Power Crystal'),
 	(61442, 0, 14246, 3.82, 1, 1, 'Rugged Pelt'),
 	(61442, 0, 54854, 2.29, 1, 1, 'Exceptional Picaroon''s Eldanmesh Footfalls'),
 	(61442, 0, 21625, 2.29, 1, 1, 'Strange Totem (Pell)'),
@@ -4088,7 +3896,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61447, 0, 7302, 8.53, 1, 1, 'Gnarled Yeti Claws'),
 	(61447, 0, 7301, 6.98, 1, 1, 'Tattered Yeti Hide'),
 	(61447, 0, 14246, 6.2, 1, 1, 'Rugged Pelt'),
-	(61447, 0, 14401, 5.43, 1, 1, 'Pulsating Power Crystal'),
 	(61447, 0, 42995, 5.43, 1, 1, 'Carrion Bait'),
 	(61447, 0, 50807, 3.1, 1, 1, 'Sack of Scratched Silver'),
 	(61447, 0, 51147, 2.33, 1, 1, 'Bandit''s Manapolymer Regalia'),
@@ -4176,10 +3983,8 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61452, 61452, 'Enhanced Dazeroot Hiveguard');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61452, 0, 7508, 27.45, 1, 1, 'Buzzbing Pheromone Gland'),
-	(61452, 0, 14401, 20.64, 1, 1, 'Pulsating Power Crystal'),
 	(61452, 0, 14287, 17.66, 1, 1, 'Slimy Bug Meat'),
 	(61452, 0, 18639, 10, 1, 1, 'Buzzbing Meat'),
-	(61452, 0, 14402, 4.47, 1, 1, 'Structural Carbon Rods'),
 	(61452, 0, 50807, 3.4, 1, 1, 'Sack of Scratched Silver'),
 	(61452, 0, 51199, 3.19, 1, 1, 'Herald''s Galactite Gloves'),
 	(61452, 0, 43005, 2.55, 1, 1, 'Bug Splat'),
@@ -4216,9 +4021,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61453, 61453,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61453, 0, 7634, 26.7, 1, 1, 'Brittle Draken Horns'),
 	(61453, 0, 14516, 25.34, 1, 1, 'Canvas Cloth'),
-	(61453, 0, 14401, 12.67, 1, 1, 'Pulsating Power Crystal'),
 	(61453, 0, 18462, 10.86, 1, 1, 'Ellevar Bowl'),
-	(61453, 0, 14402, 4.52, 1, 1, 'Structural Carbon Rods'),
 	(61453, 0, 27582, 4.07, 1, 1, 'Canvas Gloves'),
 	(61453, 0, 50807, 1.81, 1, 1, 'Sack of Scratched Silver'),
 	(61453, 0, 52016, 1.36, 1, 1, 'Exceptional Herald''s Superthread Undershirt'),
@@ -4274,8 +4077,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (61455, NULL, 100, 0, 0, 0, 0, 'Muddybrook Razortooth');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61455, 61455, 'Muddybrook Razortooth');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(61455, 0, 14401, 42.86, 1, 1, 'Pulsating Power Crystal'),
-	(61455, 0, 14402, 14.29, 1, 1, 'Structural Carbon Rods'),
 	(61455, 0, 50807, 11.43, 1, 1, 'Sack of Scratched Silver'),
 	(61455, 0, 52021, 5.71, 1, 1, 'Exceptional Herald''s Superthread Augment'),
 	(61455, 0, 40204, 5.71, 1, 1, 'Metamorphic Pebble'),
@@ -4292,7 +4093,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61456, 61456,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61456, 0, 38714, 38.26, 1, 1, 'Shattered Jewelry'),
 	(61456, 0, 14516, 36.24, 1, 1, 'Canvas Cloth'),
-	(61456, 0, 14401, 6.04, 1, 1, 'Pulsating Power Crystal'),
 	(61456, 0, 36218, 1.34, 1, 1, 'Formula: Reactive Armor Boost'),
 	(61456, 0, 34040, 1.34, 1, 1, 'Molasses AMP'),
 	(61456, 0, 55546, 1.34, 1, 1, 'Exceptional Ambuscader''s Quadrowave Stock'),
@@ -4304,7 +4104,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61456, 0, 27582, 1.34, 1, 1, 'Canvas Gloves'),
 	(61456, 0, 31627, 0.67, 1, 1, 'Chua Containment Unit'),
 	(61456, 0, 55488, 0.67, 1, 1, 'Iconoclast''s Enhanced Infusers'),
-	(61456, 0, 14402, 0.67, 1, 1, 'Structural Carbon Rods'),
 	(61456, 0, 40230, 0.67, 1, 1, 'Hardy Dandelion'),
 	(61456, 0, 41121, 0.67, 1, 1, 'Severus''s Legion Pauldrons'),
 	(61456, 0, 55578, 0.67, 1, 1, 'Picaroon''s Armored Needlers'),
@@ -4320,8 +4119,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61457, 61457,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61457, 0, 14516, 30.97, 1, 1, 'Canvas Cloth'),
 	(61457, 0, 47767, 28.6, 1, 1, 'Damaged Moodie Totem'),
-	(61457, 0, 14401, 6.45, 1, 1, 'Pulsating Power Crystal'),
-	(61457, 0, 14402, 3.44, 1, 1, 'Structural Carbon Rods'),
 	(61457, 0, 50807, 3.23, 1, 1, 'Sack of Scratched Silver'),
 	(61457, 0, 27582, 2.8, 1, 1, 'Canvas Gloves'),
 	(61457, 0, 35888, 2.37, 1, 1, 'Schematic: Darkloam Painbringer Sword'),
@@ -4374,8 +4171,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61526, 61526, 'N22 Servitor');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61526, 0, 7439, 49.68, 1, 1, 'Flimsy Sprocket'),
-	(61526, 0, 14402, 19.23, 1, 1, 'Structural Carbon Rods'),
-	(61526, 0, 14401, 9.62, 1, 1, 'Pulsating Power Crystal'),
 	(61526, 0, 14781, 4.17, 1, 1, 'Standard Omni-Plasm'),
 	(61526, 0, 14782, 1.92, 1, 1, 'Accelerated Omni-Plasm'),
 	(61526, 0, 54873, 1.28, 1, 1, 'Forecaster''s Magnipolymer Manipulators'),
@@ -4418,3 +4213,420 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61526, 0, 54722, 0.32, 1, 1, 'Abettor''s Ultrathread Scope'),
 	(61526, 0, 54866, 0.32, 1, 1, 'Forecaster''s Supertronic Motion Tracker');
 
+-- Settler resources only drop for settlers, rates are the observed rates scaled by the number of paths.
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030233, 30233, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030233, 0, 14401, 22.24, 1, 1, 'Pulsating Power Crystal'),
+	(1000030233, 0, 14402, 9.88, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030242, 30242, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030242, 0, 14401, 29.32, 1, 1, 'Pulsating Power Crystal'),
+	(1000030242, 0, 14402, 8.04, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030252, 30252, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030252, 0, 14401, 39.68, 1, 1, 'Pulsating Power Crystal'),
+	(1000030252, 0, 14402, 10.44, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030262, 30262, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030262, 0, 14401, 32.76, 1, 1, 'Pulsating Power Crystal'),
+	(1000030262, 0, 14402, 9.56, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030321, 30321, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030321, 0, 14402, 24.48, 1, 1, 'Structural Carbon Rods'),
+	(1000030321, 0, 14401, 24.48, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030322, 30322, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030322, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000030322, 0, 14402, 23.12, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030325, 30325, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030325, 0, 14401, 38.6, 1, 1, 'Pulsating Power Crystal'),
+	(1000030325, 0, 14402, 15.44, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030326, 30326, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030326, 0, 14401, 21.52, 1, 1, 'Pulsating Power Crystal'),
+	(1000030326, 0, 14402, 8.6, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030327, 30327, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030327, 0, 14401, 34.72, 1, 1, 'Pulsating Power Crystal'),
+	(1000030327, 0, 14402, 18.04, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030328, 30328, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030328, 0, 14401, 40, 1, 1, 'Pulsating Power Crystal'),
+	(1000030328, 0, 14402, 13.32, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030330, 30330, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030330, 0, 14401, 18.6, 1, 1, 'Pulsating Power Crystal'),
+	(1000030330, 0, 14402, 3.12, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030331, 30331, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030331, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030332, 30332, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030332, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000030332, 0, 14402, 15.08, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030333, 30333, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030333, 0, 14401, 29.04, 1, 1, 'Pulsating Power Crystal'),
+	(1000030333, 0, 14402, 9.68, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030334, 30334, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030334, 0, 14401, 34.16, 1, 1, 'Pulsating Power Crystal'),
+	(1000030334, 0, 14402, 14.64, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030389, 30389, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030389, 0, 14401, 50, 1, 1, 'Pulsating Power Crystal'),
+	(1000030389, 0, 14402, 8.32, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030396, 30396, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030396, 0, 14401, 46.88, 1, 1, 'Pulsating Power Crystal'),
+	(1000030396, 0, 14402, 14.96, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030400, 30400, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030400, 0, 14401, 49.28, 1, 1, 'Pulsating Power Crystal'),
+	(1000030400, 0, 14402, 18.56, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030408, 30408, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030408, 0, 14401, 58.64, 1, 1, 'Pulsating Power Crystal'),
+	(1000030408, 0, 14402, 10.36, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000030414, 30414, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000030414, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000031120, 31120, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000031120, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000031144, 31144, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000031144, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000031421, 31421, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000031421, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000031421, 0, 14402, 9.2, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000031422, 31422, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000031422, 0, 14401, 54.04, 1, 1, 'Pulsating Power Crystal'),
+	(1000031422, 0, 14402, 21.64, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000031738, 31738, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000031738, 0, 14401, 36.36, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000031846, 31846, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000031846, 0, 14401, 39.16, 1, 1, 'Pulsating Power Crystal'),
+	(1000031846, 0, 14402, 11.88, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032488, 32488, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032488, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000032488, 0, 14402, 28.56, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032497, 32497, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032497, 0, 14401, 47, 1, 1, 'Pulsating Power Crystal'),
+	(1000032497, 0, 14402, 9.4, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032502, 32502, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032502, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000032502, 0, 14402, 38.08, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032554, 32554, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032554, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000032554, 0, 14402, 18.56, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032581, 32581, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032581, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032581, 0, 14401, 25.56, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032582, 32582, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032582, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032582, 0, 14401, 32.6, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032583, 32583, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032583, 0, 14402, 45.16, 1, 1, 'Structural Carbon Rods'),
+	(1000032583, 0, 14401, 6.44, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032585, 32585, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032585, 0, 14402, 60, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032586, 32586, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032586, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032586, 0, 14401, 19.8, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032587, 32587, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032587, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032587, 0, 14401, 29.28, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032588, 32588, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032588, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032588, 0, 14401, 22.72, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032589, 32589, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032589, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032589, 0, 14401, 18.76, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032590, 32590, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032590, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032590, 0, 14401, 16, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032680, 32680, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032680, 0, 14402, 44.44, 1, 1, 'Structural Carbon Rods'),
+	(1000032680, 0, 14401, 17.76, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032682, 32682, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032682, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032682, 0, 14401, 39.36, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032683, 32683, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032683, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032683, 0, 14401, 35.64, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032684, 32684, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032684, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032684, 0, 14401, 16.92, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032685, 32685, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032685, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032685, 0, 14401, 18.8, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032686, 32686, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032686, 0, 14402, 59.04, 1, 1, 'Structural Carbon Rods'),
+	(1000032686, 0, 14401, 14.28, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032764, 32764, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032764, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032764, 0, 14401, 38.92, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032789, 32789, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032789, 0, 14402, 59.44, 1, 1, 'Structural Carbon Rods'),
+	(1000032789, 0, 14401, 21.64, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032790, 32790, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032790, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032790, 0, 14401, 23.52, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032791, 32791, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032791, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032791, 0, 14401, 16.56, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032792, 32792, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032792, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032792, 0, 14401, 19.04, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032814, 32814, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032814, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000032814, 0, 14402, 8.44, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032835, 32835, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032835, 0, 14402, 39.08, 1, 1, 'Structural Carbon Rods'),
+	(1000032835, 0, 14401, 12.72, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032837, 32837, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032837, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032837, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032843, 32843, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032843, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000032843, 0, 14402, 24.64, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032844, 32844, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032844, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000032844, 0, 14402, 11, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032845, 32845, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032845, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000032845, 0, 14402, 21.52, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032849, 32849, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032849, 0, 14402, 57.36, 1, 1, 'Structural Carbon Rods'),
+	(1000032849, 0, 14401, 18.2, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032890, 32890, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032890, 0, 14402, 38.64, 1, 1, 'Structural Carbon Rods'),
+	(1000032890, 0, 14401, 19.32, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032894, 32894, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032894, 0, 14402, 3.76, 1, 1, 'Structural Carbon Rods'),
+	(1000032894, 0, 14401, 0.88, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000032912, 32912, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000032912, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000032912, 0, 14401, 20.76, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000033059, 33059, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000033059, 0, 14401, 34.8, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000033080, 33080, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000033080, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000033080, 0, 14401, 53.32, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000033233, 33233, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000033233, 0, 14401, 47.04, 1, 1, 'Pulsating Power Crystal'),
+	(1000033233, 0, 14402, 23.52, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000033234, 33234, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000033234, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000033234, 0, 14402, 47.04, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000033367, 33367, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000033367, 0, 14401, 13.92, 1, 1, 'Pulsating Power Crystal'),
+	(1000033367, 0, 14402, 7.96, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000033787, 33787, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000033787, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000033787, 0, 14401, 23.52, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000033850, 33850, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000033850, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000033850, 0, 14401, 22.64, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000033876, 33876, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000033876, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000033876, 0, 14402, 60, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000033921, 33921, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000033921, 0, 14402, 46.12, 1, 1, 'Structural Carbon Rods'),
+	(1000033921, 0, 14401, 8.8, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000033932, 33932, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000033932, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000033932, 0, 14401, 22.04, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000033951, 33951, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000033951, 0, 14401, 24.6, 1, 1, 'Pulsating Power Crystal'),
+	(1000033951, 0, 14402, 22.36, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000034578, 34578, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000034578, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000034578, 0, 14402, 5.64, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000039079, 39079, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000039079, 0, 14401, 24.6, 1, 1, 'Pulsating Power Crystal'),
+	(1000039079, 0, 14402, 22.36, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000041701, 41701, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000041701, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000041701, 0, 14402, 20.68, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000041706, 41706, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000041706, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000041706, 0, 14402, 27.4, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000041732, 41732, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000041732, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000041732, 0, 14402, 8.28, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000041734, 41734, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000041734, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000041734, 0, 14402, 30.88, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000041752, 41752, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000041752, 0, 14401, 44.96, 1, 1, 'Pulsating Power Crystal'),
+	(1000041752, 0, 14402, 10.84, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000044716, 44716, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000044716, 0, 14401, 52.4, 1, 1, 'Pulsating Power Crystal'),
+	(1000044716, 0, 14402, 4.76, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000046643, 46643, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000046643, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000046643, 0, 14401, 22.52, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000046698, 46698, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000046698, 0, 14402, 50.6, 1, 1, 'Structural Carbon Rods'),
+	(1000046698, 0, 14401, 14.56, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000046706, 46706, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000046706, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000046706, 0, 14401, 24.08, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000046708, 46708, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000046708, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000046708, 0, 14401, 14.04, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000047435, 47435, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000047435, 0, 14402, 27.16, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000047437, 47437, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000047437, 0, 14402, 51.36, 1, 1, 'Structural Carbon Rods'),
+	(1000047437, 0, 14401, 14.44, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000047438, 47438, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000047438, 0, 14402, 57.16, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000047440, 47440, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000047440, 0, 14402, 59.04, 1, 1, 'Structural Carbon Rods'),
+	(1000047440, 0, 14401, 22.44, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000052935, 52935, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000052935, 0, 14401, 29.04, 1, 1, 'Pulsating Power Crystal'),
+	(1000052935, 0, 14402, 9.68, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000057148, 57148, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000057148, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000057148, 0, 14402, 24.48, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061416, 61416, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061416, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000061416, 0, 14402, 14.12, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061425, 61425, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061425, 0, 14401, 17.96, 1, 1, 'Pulsating Power Crystal'),
+	(1000061425, 0, 14402, 6, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061427, 61427, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061427, 0, 14402, 21.48, 1, 1, 'Structural Carbon Rods'),
+	(1000061427, 0, 14401, 8.36, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061429, 61429, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061429, 0, 14402, 45.52, 1, 1, 'Structural Carbon Rods'),
+	(1000061429, 0, 14401, 14.36, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061430, 61430, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061430, 0, 14402, 36.04, 1, 1, 'Structural Carbon Rods'),
+	(1000061430, 0, 14401, 19.2, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061431, 61431, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061431, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000061431, 0, 14401, 20.52, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061432, 61432, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061432, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000061432, 0, 14401, 14.04, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061433, 61433, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061433, 0, 14402, 50.2, 1, 1, 'Structural Carbon Rods'),
+	(1000061433, 0, 14401, 14.28, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061435, 61435, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061435, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000061435, 0, 14401, 18.52, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061437, 61437, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061437, 0, 14402, 19.04, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061442, 61442, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061442, 0, 14401, 24.44, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061447, 61447, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061447, 0, 14401, 21.72, 1, 1, 'Pulsating Power Crystal');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061452, 61452, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061452, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000061452, 0, 14402, 17.88, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061453, 61453, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061453, 0, 14401, 50.68, 1, 1, 'Pulsating Power Crystal'),
+	(1000061453, 0, 14402, 18.08, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061455, 61455, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061455, 0, 14401, 60, 1, 1, 'Pulsating Power Crystal'),
+	(1000061455, 0, 14402, 57.16, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061456, 61456, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061456, 0, 14401, 24.16, 1, 1, 'Pulsating Power Crystal'),
+	(1000061456, 0, 14402, 2.68, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061457, 61457, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061457, 0, 14401, 25.8, 1, 1, 'Pulsating Power Crystal'),
+	(1000061457, 0, 14402, 13.76, 1, 1, 'Structural Carbon Rods');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061526, 61526, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061526, 0, 14402, 60, 1, 1, 'Structural Carbon Rods'),
+	(1000061526, 0, 14401, 38.48, 1, 1, 'Pulsating Power Crystal');
