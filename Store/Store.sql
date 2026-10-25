@@ -1,5 +1,6 @@
 -- --------------------------------------
 -- In-game store catalog
+-- Note: "--" inside values is stripped by the importer's comment handling, avoid it.
 -- Source: NexusForever Obsolete/Database/Updates/World/2019_05_21_store.sql
 -- --------------------------------------
 DELETE FROM `store_offer_item_price`;
@@ -322,7 +323,7 @@ INSERT INTO `store_offer_group` (`id`, `displayFlags`, `name`, `description`, `d
 	(3058, 0, 'Elegant Holding Pouch', 'Everyone has a holding pouch, but not everyone has an elegant one. Seventeen sumptuous slots of inventory space for, well, whatever you want.', 1471, 1),
 	(3064, 0, 'Prismatic Dye', 'Coat yourself in the iredescent shimmers of purple, blue, and green hues. This purchase is a multi-redeem item which can be claimed by all characters on your account.', 0, 1),
 	(3080, 0, 'Martial Artist Apparel', 'Take a flying leap kick at life in this stylish fighting attire. These items can be imported into the Holo-Wardrobe for all characters on your account. ', 0, 1),
-	(3081, 0, 'Techno-Phage Spider Rider', '"It was a one-eyed, one-horned, crawling purple-- spider-rider?" Take a ride on the purple side with this violet monstrosity. ', 0, 1),
+	(3081, 0, 'Techno-Phage Spider Rider', '"It was a one-eyed, one-horned, crawling purple - spider-rider?" Take a ride on the purple side with this violet monstrosity. ', 0, 1),
 	(3084, 0, 'Hoverboard (Vampyre)', 'The perfect vehicle for those with an unquenchable thirst for speed.', 0, 1),
 	(3087, 1, 'Accident Prone Hat', 'Running with scissors is never a smart decision, but owning this hat might be.', 0, 1),
 	(3088, 0, 'Velocirex (Contagion)', 'Fresh from the fetid fields of Grismara, this velocirex will make all your undead dreams come true.', 0, 1),
