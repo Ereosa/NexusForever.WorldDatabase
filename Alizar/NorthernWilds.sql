@@ -5507,3 +5507,16 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 20, 0),
     (@GUID+1, 21, 0),
     (@GUID+1, 22, 0);
+
+-- Quest objects missing from the original capture, placed at their quest objective locations.
+-- Contact with Thayd (3673): the three Signal Flares at the landing site (WorldLocation2 8867-8869), one checklist slot each.
+-- Indigenous Intelligence (3668): Scientist Lusk at the Skeech camp (WorldLocation2 8857).
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    (@GUID+1, 10, 12521, @WORLD, 595, 4385.998, -744.90186, -5636.934, 0, 0, 0, 23093, 0, 0, 0, 0),
+    (@GUID+2, 10, 13150, @WORLD, 595, 4367.4546, -743.6704, -5638.625, 0, 0, 0, 23093, 0, 0, 0, 1),
+    (@GUID+3, 10, 13151, @WORLD, 595, 4347.7915, -744.50696, -5636.9805, 0, 0, 0, 23093, 0, 0, 0, 2),
+    (@GUID+4, 0, 12484, @WORLD, 595, 4801.8086, -710.66406, -5651.879, 0, 0, 0, 27273, 0, 171, 171, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+4, 0, 1),
+    (@GUID+4, 10, 6);
