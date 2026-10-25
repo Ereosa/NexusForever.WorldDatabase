@@ -41039,7 +41039,14 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
     -- Plant Hellfire Explosives (53087): Ring of Fire (6899) objective 4 type 12 count 1. Position: WorldLocation2, objective indicator 6899.4.
     (@GUID+56, 10, 53087, @WORLD, 1743, 3492.093, -814.311, -2498.638, 0, 0, 0, 27794, 0, 219, 219, 0),
     -- Arwick Redleaf (57050): A Meeting of Minds (6961) objective 0 type 3 count 1. Position: WorldLocation2, objective indicator 6961.0.
-    (@GUID+57, 0, 57050, @WORLD, 300, 2768.302, -933.052, -2459.659, 0, 0, 0, 27879, 9074, 171, 171, 0);
+    (@GUID+57, 0, 57050, @WORLD, 300, 2768.302, -933.052, -2459.659, 0, 0, 0, 27879, 9074, 171, 171, 0),
+    -- Fallen Fruit (33139): Challenge Fruit of the Bloom (517) (0) objective 0 type 5 count 8. Position: WorldLocation2, challenge indicator 517.
+    (@GUID+58, 8, 33139, @WORLD, 306, 2058.261, -927.054, -2708.012, 0, 0, 0, 22202, 0, 219, 219, 0),
+    (@GUID+59, 8, 33139, @WORLD, 306, 2049.698, -927.054, -2699.841, 0.195, 0, 0, 22202, 0, 219, 219, 0),
+    (@GUID+60, 8, 33139, @WORLD, 1747, 2069.277, -924.139, -2724.569, 0.9946, 0, 0, 22202, 0, 219, 219, 0),
+    (@GUID+61, 8, 33139, @WORLD, 306, 2073.869, -923.544, -2702.178, 2.0438, 0, 0, 22202, 0, 219, 219, 0),
+    (@GUID+62, 8, 33139, @WORLD, 306, 2051.271, -921.817, -2692.222, 0.3978, 0, 0, 22202, 0, 219, 219, 0),
+    (@GUID+63, 8, 33139, @WORLD, 306, 2066.255, -923, -2704.046, -0.9437, 0, 0, 22202, 0, 219, 219, 0);
 INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 0, 1),
     (@GUID+1, 10, 12),
@@ -41154,4 +41161,16 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+56, 0, 1),
     (@GUID+56, 10, 13),
     (@GUID+57, 0, 1),
-    (@GUID+57, 10, 50);
+    (@GUID+57, 10, 50),
+    (@GUID+58, 0, 1),
+    (@GUID+58, 10, 11),
+    (@GUID+59, 0, 1),
+    (@GUID+59, 10, 11),
+    (@GUID+60, 0, 1),
+    (@GUID+60, 10, 11),
+    (@GUID+61, 0, 1),
+    (@GUID+61, 10, 11),
+    (@GUID+62, 0, 1),
+    (@GUID+62, 10, 11),
+    (@GUID+63, 0, 1),
+    (@GUID+63, 10, 11);
