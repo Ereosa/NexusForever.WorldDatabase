@@ -5524,7 +5524,7 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
 -- Indigenous Intelligence (3668) turn in: Elder Bartol Sunward at Settler's Reach (WorldLocation2 19397), missing from the capture.
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
 INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
-    (@GUID+1, 0, 12737, @WORLD, 595, 4349.0, -751.8, -5699.0, 0, 0, 0, 26018, 0, 171, 171, 0);
+    (@GUID+1, 0, 12737, @WORLD, 595, 4349.0, -751.8, -5699.0, 0, 0, 0, 26018, 9063, 171, 171, 0);
 INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 0, 1),
     (@GUID+1, 10, 3);
