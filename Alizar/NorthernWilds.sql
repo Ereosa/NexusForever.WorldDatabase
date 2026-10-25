@@ -5524,7 +5524,16 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
 -- Indigenous Intelligence (3668) turn in: Elder Bartol Sunward at Settler's Reach (WorldLocation2 19397), missing from the capture.
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
 INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
-    (@GUID+1, 0, 12737, @WORLD, 595, 4349.0, -751.8, -5699.0, 0, 0, 0, 26018, 0, 171, 171, 0);
+    (@GUID+1, 0, 12737, @WORLD, 595, 4349.0, -751.8, -5699.0, 0, 0, 0, 26018, 9063, 171, 171, 0);
 INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 0, 1),
     (@GUID+1, 10, 3);
+
+-- Calm Before the Storm (3670) turn in: Deadeye Brightland at Settler's Reach (WorldLocation2 29526, the quest's receiver location), missing from the capture.
+-- He is only visible once Contact with Thayd (3673) is achieved or completed (prerequisite 3300).
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    (@GUID+1, 0, 12959, @WORLD, 597, 4486.465, -724.8431, -5391.2583, 3.1198, 0, 0, 26124, 9064, 171, 171, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 50);
