@@ -13102,3 +13102,34 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 20, 4.602442E+07),
     (@GUID+1, 21, 24),
     (@GUID+1, 22, 0);
+
+-- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- unnamed (2555): The Focus of Air (5014) objective 0 type 5 count 1. Position: WorldLocation2, objective indicator 5014.0.
+    (@GUID+1, 0, 2555, @WORLD, 2546, 4231.99, -814.837, -2414.02, -0.9, 0, 0, 21508, 0, 284, 284, 0),
+    -- Sera Melfield (19720): The Focus of Air (5014) objective 0 type 5 count 1. Position: WorldLocation2, objective indicator 5014.0.
+    (@GUID+2, 0, 19720, @WORLD, 2546, 4231.99, -814.837, -2414.02, -0.9, 0, 0, 26849, 9106, 219, 219, 0),
+    -- Sera Melfield (19728): The Focus of Air (5014) receiver, The Focus of Air (5014) objective 0 type 5 count 1, Out on a Whim (5183) receiver. Position: WorldLocation2, receiver location 5014.
+    (@GUID+3, 0, 19728, @WORLD, 2546, 4231.99, -814.837, -2414.02, -0.9, 0, 0, 26849, 9106, 219, 219, 0),
+    (@GUID+4, 0, 19728, @WORLD, 2546, 4183.104, -803.392, -2362.663, 0, 0, 0, 26849, 9106, 219, 219, 0),
+    -- Cordelia Bronson (20265): Next of Kin (5133) giver, Next of Kin (5133) receiver. Position: WorldLocation2, receiver location 5133.
+    (@GUID+5, 0, 20265, @WORLD, 2546, 4255.723, -803.097, -2281.865, 1.321, 0, 0, 26281, 9481, 171, 171, 0),
+    -- Lulu Blackbush (44963): Back to Thayd (8767) receiver. Position: WorldLocation2, receiver location 6537.
+    (@GUID+6, 0, 44963, @WORLD, 2548, 4029.776, -798.175, -2382.943, 3.48, 0, 0, 27812, 9094, 171, 171, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 12),
+    (@GUID+2, 0, 1),
+    (@GUID+2, 10, 10),
+    (@GUID+3, 0, 1),
+    (@GUID+3, 10, 10),
+    (@GUID+4, 0, 1),
+    (@GUID+4, 10, 10),
+    (@GUID+5, 0, 1),
+    (@GUID+5, 10, 15),
+    (@GUID+6, 0, 1),
+    (@GUID+6, 10, 45);

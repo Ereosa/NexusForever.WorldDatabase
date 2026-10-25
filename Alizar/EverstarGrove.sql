@@ -9741,3 +9741,115 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 20, 0),
     (@GUID+1, 21, 0),
     (@GUID+1, 22, 0);
+
+-- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Arwick Redleaf (27732): Arwicks Revenge (6310) giver, Arwicks Revenge (6310) receiver, Taking the Offensive (6335) receiver. Position: WorldLocation2, receiver location 6310.
+    (@GUID+1, 0, 27732, @WORLD, 1419, -115.691, -926.466, -3472.449, 0, 0, 0, 27879, 9074, 171, 171, 0),
+    -- Everstar Mushroom (28073): Combating the Contagion (6297) objective 1 type 23 count 4. Position: WorldLocation2, objective indicator 6297.1.
+    (@GUID+2, 8, 28073, @WORLD, 1418, -439.462, -950.668, -2364.844, 0, 0, 0, 22043, 0, 219, 219, 0),
+    (@GUID+3, 8, 28073, @WORLD, 1418, -436.776, -951.694, -2384.072, -0.2647, 0, 0, 22043, 0, 219, 219, 1),
+    (@GUID+4, 8, 28073, @WORLD, 1418, -472.389, -960.937, -2501.623, 0, 0, 0, 22043, 0, 219, 219, 2),
+    (@GUID+5, 8, 28073, @WORLD, 1418, -488.536, -962.232, -2505.937, -0.0502, 0, 0, 22043, 0, 219, 219, 3),
+    -- Livingroot Keeper (28179): Replanting Campaign (6308) giver. Position: Jabbithole http://www.jabbithole.com/npcs/livingroot-keeper-27.
+    (@GUID+6, 0, 28179, @WORLD, 1416, -400, -921.732, -3580, 0, 0, 0, 22600, 0, 219, 219, 0),
+    -- Livingroot Mender (28278): Mender Bender (6306) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 6306.2.
+    (@GUID+7, 0, 28278, @WORLD, 1416, -396.839, -1013.968, -3502.652, 0, 0, 0, 21537, 0, 219, 219, 0),
+    -- Queen Myala Everstar (28789): Save the Keepers (6304) giver, Save the Keepers (6304) receiver, Mender Bender (6306) receiver. Position: WorldLocation2, receiver location 6304.
+    (@GUID+8, 0, 28789, @WORLD, 1966, -398.434, -885.806, -3262.607, 0.41, 0, 0, 27881, 9073, 171, 171, 0),
+    -- Queen Myala Everstar (28843): Everything You Ever Wanted to Know (8784) receiver. Position: WorldLocation2, receiver location 8784.
+    (@GUID+9, 0, 28843, @WORLD, 1416, -516.22, -905.24, -3312.32, 0, 0, 0, 27881, 9073, 171, 171, 0),
+    -- Queen Myala Everstar (28869): Dominions Demise (6312) receiver, The Path to Celestion (6844) giver. Position: WorldLocation2, receiver location 6312.
+    (@GUID+10, 0, 28869, @WORLD, 1420, 656.017, -957.575, -3298.5, 3.72, 0, 0, 27881, 9073, 171, 171, 0),
+    -- Livingroot Mender (36124): Mender Bender (6306) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 6306.1.
+    (@GUID+11, 0, 36124, @WORLD, 1416, -311.485, -1013.241, -3578.856, 0, 0, 0, 21537, 0, 219, 219, 0),
+    -- Livingroot Mender (36125): Mender Bender (6306) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 6306.0.
+    (@GUID+12, 0, 36125, @WORLD, 1416, -405.239, -1016.656, -3592.838, 0, 0, 0, 21537, 0, 219, 219, 0),
+    -- Vengeful Mender (36240): By the Throat (7539) giver. Position: Jabbithole http://www.jabbithole.com/npcs/vengeful-mender-27.
+    (@GUID+13, 0, 36240, @WORLD, 1419, -156, -920.31, -3452, 0, 0, 0, 21537, 0, 219, 219, 0),
+    -- Elderoot (36247): Waking Elderoot (6302) receiver, Elderoots Request (7540) receiver, Everything You Ever Wanted to Know (8784) giver. Position: WorldLocation2, receiver location 6302.
+    (@GUID+14, 0, 36247, @WORLD, 1966, -395.283, -884.96, -3258.846, 0, 0, 0, 27745, 0, 219, 219, 0),
+    (@GUID+15, 0, 36247, @WORLD, 1416, -366.12, -868.609, -3268.831, 0, 0, 0, 27745, 0, 219, 219, 0),
+    -- Infected Alchemist (45535): Combating the Contagion (6297) objective 1 type 23 count 4. Position: WorldLocation2, objective indicator 6297.1.
+    (@GUID+16, 0, 45535, @WORLD, 1418, -439.462, -950.668, -2364.844, 0, 0, 0, 29211, 9578, 219, 219, 4),
+    (@GUID+17, 0, 45535, @WORLD, 1418, -449.154, -949.211, -2353.557, -1.9719, 0, 0, 29211, 9578, 219, 219, 5),
+    (@GUID+18, 0, 45535, @WORLD, 1418, -472.389, -960.937, -2501.623, 0, 0, 0, 29211, 9578, 219, 219, 6),
+    (@GUID+19, 0, 45535, @WORLD, 1418, -478.409, -964.398, -2514.846, -0.0282, 0, 0, 29211, 9578, 219, 219, 7),
+    -- Infected Alchemist (45537): Combating the Contagion (6297) objective 1 type 23 count 4. Position: WorldLocation2, objective indicator 6297.1.
+    (@GUID+20, 0, 45537, @WORLD, 1418, -439.462, -950.668, -2364.844, 0, 0, 0, 29211, 9579, 219, 219, 8),
+    (@GUID+21, 0, 45537, @WORLD, 1418, -447.071, -950.234, -2359.865, 0.5287, 0, 0, 29211, 9579, 219, 219, 9),
+    (@GUID+22, 0, 45537, @WORLD, 1418, -472.389, -960.937, -2501.623, 0, 0, 0, 29211, 9579, 219, 219, 10),
+    (@GUID+23, 0, 45537, @WORLD, 1418, -462.183, -958, -2493.299, -1.6128, 0, 0, 29211, 9579, 219, 219, 11),
+    -- Fertile Ground (46004): Replanting Campaign (6308) objective 0 type 14 count 3. Position: WorldLocation2, objective indicator 6308.0.
+    (@GUID+24, 10, 46004, @WORLD, 1416, -545.88, -947.559, -3572.422, 0, 0, 0, 25573, 0, 219, 219, 0),
+    (@GUID+25, 10, 46004, @WORLD, 1416, -552.795, -949, -3565.961, -3.0691, 0, 0, 25573, 0, 219, 219, 1),
+    (@GUID+26, 10, 46004, @WORLD, 1416, -513.012, -943.681, -3497.381, 0, 0, 0, 25573, 0, 219, 219, 2),
+    -- Victor Lazarin (46607): No Escape (6311) giver, No Escape (6311) receiver. Position: WorldLocation2, receiver location 6311.
+    (@GUID+27, 0, 46607, @WORLD, 1419, -112.531, -926.371, -3476.083, 4.046, 0, 0, 27878, 9075, 171, 171, 0),
+    -- Livingroot Mender (48583): Mender Bender (6306) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 6306.0.
+    (@GUID+28, 0, 48583, @WORLD, 1416, -405.239, -1016.656, -3592.838, 0, 0, 0, 21537, 0, 219, 219, 0),
+    -- M.A.C. (54652): Ability Training 101 (9018) receiver. Position: WorldLocation2, receiver location 9018.
+    (@GUID+29, 10, 54652, @WORLD, 1416, -565.796, -906.202, -3292.595, 0, 0, 0, 33531, 0, 171, 171, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 50),
+    (@GUID+2, 0, 1),
+    (@GUID+2, 10, 1),
+    (@GUID+3, 0, 1),
+    (@GUID+3, 10, 1),
+    (@GUID+4, 0, 1),
+    (@GUID+4, 10, 1),
+    (@GUID+5, 0, 1),
+    (@GUID+5, 10, 1),
+    (@GUID+6, 0, 1),
+    (@GUID+6, 10, 4),
+    (@GUID+7, 0, 1),
+    (@GUID+7, 10, 4),
+    (@GUID+8, 0, 1),
+    (@GUID+8, 10, 50),
+    (@GUID+9, 0, 1),
+    (@GUID+9, 10, 50),
+    (@GUID+10, 0, 1),
+    (@GUID+10, 10, 50),
+    (@GUID+11, 0, 1),
+    (@GUID+11, 10, 4),
+    (@GUID+12, 0, 1),
+    (@GUID+12, 10, 4),
+    (@GUID+13, 0, 1),
+    (@GUID+13, 10, 5),
+    (@GUID+14, 0, 1),
+    (@GUID+14, 10, 50),
+    (@GUID+15, 0, 1),
+    (@GUID+15, 10, 50),
+    (@GUID+16, 0, 1),
+    (@GUID+16, 10, 3),
+    (@GUID+17, 0, 1),
+    (@GUID+17, 10, 3),
+    (@GUID+18, 0, 1),
+    (@GUID+18, 10, 3),
+    (@GUID+19, 0, 1),
+    (@GUID+19, 10, 3),
+    (@GUID+20, 0, 1),
+    (@GUID+20, 10, 3),
+    (@GUID+21, 0, 1),
+    (@GUID+21, 10, 3),
+    (@GUID+22, 0, 1),
+    (@GUID+22, 10, 3),
+    (@GUID+23, 0, 1),
+    (@GUID+23, 10, 3),
+    (@GUID+24, 0, 1),
+    (@GUID+24, 10, 1),
+    (@GUID+25, 0, 1),
+    (@GUID+25, 10, 1),
+    (@GUID+26, 0, 1),
+    (@GUID+26, 10, 1),
+    (@GUID+27, 0, 1),
+    (@GUID+27, 10, 50),
+    (@GUID+28, 0, 1),
+    (@GUID+28, 10, 4),
+    (@GUID+29, 0, 1),
+    (@GUID+29, 10, 40);

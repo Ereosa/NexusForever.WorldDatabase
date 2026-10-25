@@ -5537,3 +5537,34 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
 INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 0, 1),
     (@GUID+1, 10, 50);
+
+-- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Deadeye Brightland (12959): Shellshock! (3487) giver. Position: WorldLocation2, receiver location 3479.
+    (@GUID+1, 0, 12959, @WORLD, 728, 4185.764, -722.096, -5695.754, 2.365, 0, 0, 26124, 9064, 171, 171, 0),
+    (@GUID+2, 0, 12959, @WORLD, 595, 4341.266, -751.765, -5682.928, 2.081, 0, 0, 26124, 9064, 171, 171, 0),
+    -- M.A.C. (54658): Ability Training 101 (8944) giver, Ability Training 101 (8944) receiver. Position: WorldLocation2, receiver location 8944.
+    (@GUID+3, 10, 54658, @WORLD, 595, 4334.994, -752.102, -5719.227, -0.682, 0, 0, 33531, 0, 171, 171, 0),
+    -- Settler Vales (71085): The Pioneering League (10067) giver, The Pioneering League (10067) receiver, The Pioneering League (10077) giver. Position: WorldLocation2, receiver location 10067.
+    (@GUID+4, 0, 71085, @WORLD, 648, 4111.07, -688.171, -5253.89, 3.444, 0, 0, 29463, 10101, 171, 171, 0),
+    -- Scientist Mikael (71086): Exile Academy of Science (10066) giver, Exile Academy of Science (10066) receiver, Exile Academy of Science (10076) giver. Position: WorldLocation2, receiver location 10066.
+    (@GUID+5, 0, 71086, @WORLD, 648, 4111.842, -687.378, -5251.513, 3.444, 0, 0, 29211, 9178, 171, 171, 0),
+    -- Explorer Wennie (71088): Explorers Union (10065) giver, Explorers Union (10065) receiver, Explorers Union (10075) giver. Position: WorldLocation2, receiver location 10065.
+    (@GUID+6, 0, 71088, @WORLD, 648, 4109.047, -687.367, -5252.42, 3.444, 0, 0, 25810, 9054, 171, 171, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 50),
+    (@GUID+2, 0, 1),
+    (@GUID+2, 10, 50),
+    (@GUID+3, 0, 1),
+    (@GUID+3, 10, 40),
+    (@GUID+4, 0, 1),
+    (@GUID+4, 10, 5),
+    (@GUID+5, 0, 1),
+    (@GUID+5, 10, 5),
+    (@GUID+6, 0, 1),
+    (@GUID+6, 10, 5);

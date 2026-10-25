@@ -2,7 +2,7 @@
 -- Celestion Zone Dump
 -- --------------------------------------
 SET @WORLD = 51;
-DELETE FROM `entity` WHERE `world` = @WORLD AND `area` IN (248, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 312, 313, 314, 315, 376, 378, 379, 380, 381, 382, 1557, 1558, 1559, 1560, 1568, 1569, 1570, 1571, 1572, 1573, 1574, 1575, 1576, 1577, 1578, 1580, 1584, 1585, 1606, 1619, 1620, 1639, 1640, 1641, 1675, 1676, 1677, 1710, 1738, 1739, 1740, 1741, 1742, 1743, 1744, 1745, 1746, 1747, 1748, 1751, 1754, 1755, 1756, 1757, 1776, 1777, 1778, 1779, 1780, 1781, 1782, 1800, 1805, 1806, 1807, 1808, 1809, 1810, 1811, 1812, 1813, 1814, 1815, 1816, 1817, 1818, 1819, 1822, 1823, 1824, 1827, 1828, 1830, 1957, 1958, 1960, 1961, 1962, 1963, 2042, 2043, 2044, 2045, 2267, 2396, 2397, 2398, 2399, 2440, 2441, 2442, 2447, 2492, 2493, 2494, 2495, 2512, 2517, 2518, 2538, 2539, 2540, 2541, 2839, 2840, 2842, 2905, 2906, 2907, 2908, 2939, 2940, 2941, 2942, 4062, 4063, 4064, 4065, 4066, 4067, 4068, 4069, 4070, 4071, 4073, 4074, 4075, 4439, 4686, 4848);
+DELETE FROM `entity` WHERE `world` = @WORLD AND `area` IN (248, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 312, 313, 314, 315, 376, 378, 379, 380, 381, 382, 1429, 1557, 1558, 1559, 1560, 1568, 1569, 1570, 1571, 1572, 1573, 1574, 1575, 1576, 1577, 1578, 1580, 1584, 1585, 1606, 1619, 1620, 1639, 1640, 1641, 1675, 1676, 1677, 1710, 1738, 1739, 1740, 1741, 1742, 1743, 1744, 1745, 1746, 1747, 1748, 1751, 1754, 1755, 1756, 1757, 1776, 1777, 1778, 1779, 1780, 1781, 1782, 1800, 1805, 1806, 1807, 1808, 1809, 1810, 1811, 1812, 1813, 1814, 1815, 1816, 1817, 1818, 1819, 1822, 1823, 1824, 1827, 1828, 1830, 1957, 1958, 1960, 1961, 1962, 1963, 2042, 2043, 2044, 2045, 2267, 2396, 2397, 2398, 2399, 2440, 2441, 2442, 2447, 2492, 2493, 2494, 2495, 2512, 2517, 2518, 2538, 2539, 2540, 2541, 2839, 2840, 2842, 2905, 2906, 2907, 2908, 2939, 2940, 2941, 2942, 4062, 4063, 4064, 4065, 4066, 4067, 4068, 4069, 4070, 4071, 4073, 4074, 4075, 4439, 4686, 4848);
 
 -- --------------------------------------
 -- Hostile Invisible Unit for Fields (1.2 hit radius)
@@ -40927,3 +40927,231 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
     (@GUID+1, 32, 75889, @WORLD, 300, 2645.36, -930.3161, -2395.33, -1.861527, 0, 0, 33012, 0, 219, 219);
 INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 0, 1840);
+
+-- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- unnamed (4024): The Reapers Harvest (6901) objective 1 type 5 count 1. Position: WorldLocation2, objective indicator 6901.1.
+    (@GUID+1, 0, 4024, @WORLD, 1756, 3203.265, -931.716, -2889.471, 0, 0, 0, 21750, 7510, 171, 171, 0),
+    -- Summoned Life and Death Essence (30387): Relic Calling (6663) objective 1 type 2 count 1. Position: WorldLocation2, objective indicator 6663.1.
+    (@GUID+2, 0, 30387, @WORLD, 1578, 1643.503, -1019.862, -2353.371, 0, 0, 0, 23036, 0, 1017, 1017, 0),
+    -- Life Force Anomaly (31220): Bad Vibes (6666) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 6666.1.
+    (@GUID+3, 10, 31220, @WORLD, 1578, 1584.962, -953.85, -2319.875, 0, 0, 0, 23185, 0, 219, 219, 0),
+    -- Life Force Anomaly (31221): Bad Vibes (6666) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 6666.2.
+    (@GUID+4, 10, 31221, @WORLD, 1578, 1744.1, -959.634, -2315.475, 0, 0, 0, 23185, 0, 219, 219, 0),
+    -- Life Force Anomaly (31222): Bad Vibes (6666) objective 3 type 12 count 1. Position: WorldLocation2, objective indicator 6666.3.
+    (@GUID+5, 10, 31222, @WORLD, 1578, 1828.961, -961.105, -2262.256, 0, 0, 0, 23185, 0, 219, 219, 0),
+    -- Reaper Serge (31494): Weed Zapper (8772) giver, Weed Zapper (8772) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/reaper-serge-5.
+    (@GUID+6, 0, 31494, @WORLD, 1570, 946, -954.5, -2284, 0, 0, 0, 29283, 9902, 219, 219, 0),
+    -- Greenbough Guardian (31734): Journey to Woodhaven (6805) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 6805.1.
+    (@GUID+7, 9, 31734, @WORLD, 2839, 1568.969, -879.082, -3033.37, 0, 0, 0, 21921, 0, 219, 219, 0),
+    -- Settler Project Resource (32221): SETTLER: Project Tutorial- Woodhaven (6834) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 6834.0.
+    (@GUID+8, 8, 32221, @WORLD, 1570, 1091.514, -948.971, -2359.42, 0, 0, 0, 26539, 0, 219, 219, 0),
+    -- Recruiter Emilija (32758): Covert Communications (7051) receiver. Position: WorldLocation2, receiver location 7051.
+    (@GUID+9, 0, 32758, @WORLD, 300, 2918.405, -926.542, -2348.664, 1.659, 0, 0, 29947, 8991, 171, 171, 0),
+    -- Alchemist Polovic (32804): The Lifeblood Pool (6956) receiver, Further Analysis (6957) receiver, Spilling Lifeblood (6964) giver. Position: WorldLocation2, receiver location 6956.
+    (@GUID+10, 0, 32804, @WORLD, 306, 1972.581, -880.177, -2995.653, 0, 0, 0, 30188, 9410, 171, 171, 0),
+    (@GUID+11, 0, 32804, @WORLD, 308, 2080.386, -900.84, -2975.912, 0, 0, 0, 30188, 9410, 171, 171, 0),
+    -- Deactivated Zeta Agent (32974): Reprogramming Interrogation (6982) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 6982.0.
+    (@GUID+12, 0, 32974, @WORLD, 1751, 3179.482, -896.179, -2154.197, 0, 0, 0, 29384, 9497, 219, 219, 0),
+    -- Augmentation Avatar (32994): Making Contact (6969) objective 1 type 3 count 1. Position: WorldLocation2, objective indicator 6969.1.
+    (@GUID+13, 0, 32994, @WORLD, 1710, 2627.888, -951.873, -1723.689, 1.926, 0, 0, 24954, 0, 219, 219, 0),
+    -- Tanglemore Munchkin (33069): Rowsdower at Stake (7000) objective 2 type 25 count 1. Position: WorldLocation2, objective indicator 7000.2.
+    (@GUID+14, 0, 33069, @WORLD, 307, 2215.647, -878.269, -1487.17, -1.022, 0, 0, 22880, 0, 574, 574, 0),
+    -- Tanglemore Chomper (33070): Rowsdower at Stake (7000) objective 2 type 25 count 1. Position: WorldLocation2, objective indicator 7000.2.
+    (@GUID+15, 0, 33070, @WORLD, 307, 2215.647, -878.269, -1487.17, -1.022, 0, 0, 22880, 0, 574, 574, 0),
+    -- Safety Avatar (33078): Follow the Data (6970) objective 5 type 3 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/safety-avatar-5.
+    (@GUID+16, 0, 33078, @WORLD, 4439, 2545, -1203.35, -1550, 0, 0, 0, 24983, 0, 219, 219, 0),
+    -- Trader Lukadat (33093): Swapping Troubles (7003) receiver, Biting Back (7004) receiver. Position: WorldLocation2, receiver location 7003.
+    (@GUID+17, 0, 33093, @WORLD, 307, 2100.877, -868.634, -1393.758, 0, 0, 0, 28123, 0, 363, 363, 0),
+    -- Burgaska Nest (33159): Swapping Troubles (7003) objective 1 type 14 count 5. Position: WorldLocation2, objective indicator 7003.1.
+    (@GUID+18, 10, 33159, @WORLD, 1429, 2183.895, -869.393, -1160.248, 0, 0, 0, 24404, 0, 219, 219, 0),
+    (@GUID+19, 10, 33159, @WORLD, 1429, 2188.557, -869.393, -1169.088, 0.0679, 0, 0, 24404, 0, 219, 219, 1),
+    (@GUID+20, 10, 33159, @WORLD, 1429, 2188.693, -869.393, -1156.16, -2.2855, 0, 0, 24404, 0, 219, 219, 2),
+    (@GUID+21, 10, 33159, @WORLD, 1429, 2200.919, -869.393, -1158.308, -1.259, 0, 0, 24404, 0, 219, 219, 3),
+    (@GUID+22, 10, 33159, @WORLD, 1429, 2179.013, -869.393, -1172.891, -2.0257, 0, 0, 24404, 0, 219, 219, 4),
+    -- Safety Avatar (33163): A Taste of Augmentation (6971) receiver. Position: WorldLocation2, receiver location 6971.
+    (@GUID+23, 0, 33163, @WORLD, 4439, 2545.234, -1203.346, -1550.106, 0, 0, 0, 24983, 0, 219, 219, 0),
+    -- Augmentation Avatar (33183): Making Contact (6969) objective 3 type 3 count 1, Making Contact (6969) objective 4 type 5 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/augmentation-avatar-5.
+    (@GUID+24, 0, 33183, @WORLD, 4848, 2810, -966.092, -1478, 0, 0, 0, 24954, 0, 219, 219, 0),
+    -- N22 Extractor (33184): Making Contact (6969) objective 4 type 5 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/n22-extractor-5.
+    (@GUID+25, 0, 33184, @WORLD, 4848, 2805, -966.092, -1464, 0, 0, 0, 23868, 0, 1180, 1180, 0),
+    -- Godwood Root (33210): The Lifeblood Pool (6956) objective 0 type 22 count 1. Position: WorldLocation2, objective indicator 6956.0.
+    (@GUID+26, 10, 33210, @WORLD, 308, 2080.386, -900.84, -2975.912, 0, 0, 0, 27127, 0, 219, 219, 0),
+    -- Consort Yaenna (33221): Trials of a Matria (7357) receiver. Position: WorldLocation2, receiver location 7357.
+    (@GUID+27, 0, 33221, @WORLD, 300, 2671.258, -923.844, -2436.083, -0.752, 0, 0, 29861, 9185, 171, 171, 0),
+    -- Alchemist Polovic (33231): The Lifeblood Pool (6956) objective 1 type 3 count 1. Position: WorldLocation2, objective indicator 6956.1.
+    (@GUID+28, 0, 33231, @WORLD, 308, 2080.386, -900.84, -2975.912, 0, 0, 0, 30188, 9410, 171, 171, 0),
+    -- Treasure Hunter Tuwawi (33363): Risky Riches (7005) giver, Risky Riches (7005) receiver. Position: WorldLocation2, receiver location 7005.
+    (@GUID+29, 0, 33363, @WORLD, 1429, 2098.249, -871.811, -1163.758, -0.776, 0, 0, 28125, 0, 363, 363, 0),
+    -- Cargo Lifter (33699): Swapping Troubles (7003) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 7003.0.
+    (@GUID+30, 0, 33699, @WORLD, 307, 2103.195, -868.228, -1391.069, 0.883, 0, 0, 23652, 0, 219, 219, 0),
+    -- Augmentation Avatar (33720): Caretaker Showdown (6972) objective 2 type 3 count 1, Caretaker Showdown (6972) objective 4 type 3 count 1. Position: WorldLocation2, objective indicator 6972.2.
+    (@GUID+31, 0, 33720, @WORLD, 1779, 3224.573, -880.413, -1582.49, -0.212, 0, 0, 24954, 0, 219, 219, 0),
+    -- Datachron (33736): On Chernobogs Trail (6898) objective 1 type 32 count 1. Position: WorldLocation2, objective indicator 6898.1.
+    (@GUID+32, 8, 33736, @WORLD, 1740, 3544.027, -844.213, -2649.935, 0, 0, 0, 27128, 0, 219, 219, 0),
+    -- Grim Reaper Lukov (33806): Ravenous Dusk (6900) receiver, The Reapers Harvest (6901) giver. Position: WorldLocation2, receiver location 6900.
+    (@GUID+33, 0, 33806, @WORLD, 1757, 3858.402, -837.537, -2445.129, 0, 0, 0, 30145, 9902, 171, 171, 0),
+    -- Safety Avatar (33887): Caretaker Showdown (6972) objective 5 type 3 count 1. Position: WorldLocation2, objective indicator 6972.5.
+    (@GUID+34, 0, 33887, @WORLD, 1779, 3221.363, -880.58, -1585.392, 3.975, 0, 0, 24983, 0, 219, 219, 0),
+    -- Identity Module (33948): Follow the Data (6970) objective 4 type 5 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/identity-module-5.
+    (@GUID+35, 10, 33948, @WORLD, 1429, 2701, -757.5, -1254, 0, 0, 0, 24340, 0, 219, 219, 0),
+    -- Alchemist Polovic (36519): Horizon (6959) receiver, Horizon (6959) objective 2 type 3 count 1, Revealing the Source (6960) giver. Position: WorldLocation2, receiver location 6959.
+    (@GUID+36, 0, 36519, @WORLD, 2942, 1899.727, -736.951, -3413.95, 0, 0, 0, 30188, 9410, 171, 171, 0),
+    -- Savage Coast Radar Dish (36553): Indigenous Mapping (6963) objective 0 type 5 count 1, Indigenous Mapping (6963) objective 1 type 5 count 1, Indigenous Mapping (6963) objective 2 type 5 count 1. Position: WorldLocation2, objective indicator 6963.0.
+    (@GUID+37, 10, 36553, @WORLD, 2940, 2216.388, -937.493, -2483.267, 0, 0, 0, 27239, 0, 219, 219, 0),
+    (@GUID+38, 10, 36553, @WORLD, 2939, 2228.254, -932.208, -2702.851, 0, 0, 0, 27239, 0, 219, 219, 0),
+    (@GUID+39, 10, 36553, @WORLD, 2941, 1973.159, -951.04, -2542.018, 0, 0, 0, 27239, 0, 219, 219, 0),
+    -- Building Teleporter (36601): Horizon (6959) objective 4 type 5 count 1. Position: WorldLocation2, objective indicator 6959.4.
+    (@GUID+40, 0, 36601, @WORLD, 2942, 1888.673, -737.097, -3406.384, 0, 0, 0, 27767, 0, 219, 219, 0),
+    -- Matria Yaenna (45255): Crowning Ceremony (8759) receiver. Position: WorldLocation2, receiver location 8759.
+    (@GUID+41, 0, 45255, @WORLD, 300, 2762.078, -927.093, -2323.857, 3.156, 0, 0, 29861, 9409, 171, 171, 0),
+    -- Consort Yaenna (45267): Meet the Explorers Union (7590) giver, Crowning Ceremony (8759) giver. Position: Jabbithole http://www.jabbithole.com/npcs/consort-yaenna-5.
+    (@GUID+42, 0, 45267, @WORLD, 315, 2814, -885.642, -2501, 0, 0, 0, 29861, 9185, 171, 171, 0),
+    -- Felis Gladedancer (46605): In Memory (8813) giver. Position: Jabbithole http://www.jabbithole.com/npcs/felis-gladedancer-5.
+    (@GUID+43, 0, 46605, @WORLD, 300, 2888, -928.522, -2303, 0, 0, 0, 29088, 9471, 171, 171, 0),
+    -- Fern Moonleaf (46633): In Memory (8813) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 8813.1.
+    (@GUID+44, 0, 46633, @WORLD, 4848, 2709.495, -964.859, -1523.26, 0, 0, 0, 22530, 9054, 219, 219, 0),
+    -- Saefar Moonleaf (46634): In Memory (8813) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 8813.2.
+    (@GUID+45, 0, 46634, @WORLD, 301, 3147.43, -944.961, -2395.976, -1.507, 0, 0, 22531, 9054, 219, 219, 0),
+    -- Myyn Longweed (46664): Unwinding Webs (8816) objective 1 type 5 count 1. Position: WorldLocation2, objective indicator 8816.1.
+    (@GUID+46, 0, 46664, @WORLD, 4439, 2503.851, -906.417, -1559.808, 0, 0, 0, 27073, 9054, 219, 219, 0),
+    -- Felis Gladedancer (46666): In Memory (8813) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/felis-gladedancer-5.
+    (@GUID+47, 0, 46666, @WORLD, 300, 2888.773, -929, -2300.622, 0, 0, 0, 29088, 9471, 171, 171, 0),
+    -- Webbed Victim (46710): Unwinding Webs (8816) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 8816.0.
+    (@GUID+48, 10, 46710, @WORLD, 301, 2567.836, -1039.391, -1350.998, 0, 0, 0, 26808, 0, 171, 171, 0),
+    -- Myyn Longweed (46923): Unwinding Webs (8816) receiver. Position: WorldLocation2, receiver location 8816.
+    (@GUID+49, 0, 46923, @WORLD, 300, 2672.513, -931.551, -2503.185, -0.426, 0, 0, 27073, 9054, 171, 171, 0),
+    -- Greenbough Guardian (47728): Journey to Woodhaven (6805) objective 2 type 5 count 1. Position: WorldLocation2, objective indicator 6805.2.
+    (@GUID+50, 9, 47728, @WORLD, 1559, 1245.04, -949.091, -2578.234, -0.335, 0, 0, 21921, 0, 219, 219, 0),
+    -- Alchemists Fire (52872): Godwood Ascension (6979) objective 2 type 14 count 2. Position: WorldLocation2, objective indicator 6979.2.
+    (@GUID+51, 10, 52872, @WORLD, 1814, 2487.163, -784.776, -3143.087, 0, 0, 0, 37660, 0, 219, 219, 0),
+    (@GUID+52, 10, 52872, @WORLD, 1814, 2477.368, -788.452, -3135.729, 1.0119, 0, 0, 37660, 0, 219, 219, 1),
+    -- Plant Hellfire Explosives (53084): Ring of Fire (6899) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 6899.1.
+    (@GUID+53, 10, 53084, @WORLD, 1740, 3619.295, -840.088, -2703.171, 1.964, 0, 0, 27794, 0, 219, 219, 0),
+    -- Plant Hellfire Explosives (53085): Ring of Fire (6899) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 6899.2.
+    (@GUID+54, 10, 53085, @WORLD, 1742, 3748.691, -840.088, -2606.117, 0, 0, 0, 27794, 0, 219, 219, 0),
+    -- Plant Hellfire Explosives (53086): Ring of Fire (6899) objective 3 type 12 count 1. Position: WorldLocation2, objective indicator 6899.3.
+    (@GUID+55, 10, 53086, @WORLD, 1743, 3592.955, -843.523, -2537.815, 0, 0, 0, 27794, 0, 219, 219, 0),
+    -- Plant Hellfire Explosives (53087): Ring of Fire (6899) objective 4 type 12 count 1. Position: WorldLocation2, objective indicator 6899.4.
+    (@GUID+56, 10, 53087, @WORLD, 1743, 3492.093, -814.311, -2498.638, 0, 0, 0, 27794, 0, 219, 219, 0),
+    -- Arwick Redleaf (57050): A Meeting of Minds (6961) objective 0 type 3 count 1. Position: WorldLocation2, objective indicator 6961.0.
+    (@GUID+57, 0, 57050, @WORLD, 300, 2768.302, -933.052, -2459.659, 0, 0, 0, 27879, 9074, 171, 171, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 12),
+    (@GUID+2, 0, 1),
+    (@GUID+2, 10, 9),
+    (@GUID+3, 0, 1),
+    (@GUID+3, 10, 8),
+    (@GUID+4, 0, 1),
+    (@GUID+4, 10, 8),
+    (@GUID+5, 0, 1),
+    (@GUID+5, 10, 8),
+    (@GUID+6, 0, 1),
+    (@GUID+6, 10, 10),
+    (@GUID+7, 0, 1),
+    (@GUID+7, 10, 7),
+    (@GUID+8, 0, 1),
+    (@GUID+8, 10, 5),
+    (@GUID+9, 0, 1),
+    (@GUID+9, 10, 10),
+    (@GUID+10, 0, 1),
+    (@GUID+10, 10, 13),
+    (@GUID+11, 0, 1),
+    (@GUID+11, 10, 13),
+    (@GUID+12, 0, 1),
+    (@GUID+12, 10, 11),
+    (@GUID+13, 0, 1),
+    (@GUID+13, 10, 10),
+    (@GUID+14, 0, 1),
+    (@GUID+14, 10, 9),
+    (@GUID+15, 0, 1),
+    (@GUID+15, 10, 9),
+    (@GUID+16, 0, 1),
+    (@GUID+16, 10, 10),
+    (@GUID+17, 0, 1),
+    (@GUID+17, 10, 9),
+    (@GUID+18, 0, 1),
+    (@GUID+18, 10, 9),
+    (@GUID+19, 0, 1),
+    (@GUID+19, 10, 9),
+    (@GUID+20, 0, 1),
+    (@GUID+20, 10, 9),
+    (@GUID+21, 0, 1),
+    (@GUID+21, 10, 9),
+    (@GUID+22, 0, 1),
+    (@GUID+22, 10, 9),
+    (@GUID+23, 0, 1),
+    (@GUID+23, 10, 10),
+    (@GUID+24, 0, 1),
+    (@GUID+24, 10, 10),
+    (@GUID+25, 0, 1),
+    (@GUID+25, 10, 10),
+    (@GUID+26, 0, 1),
+    (@GUID+26, 10, 13),
+    (@GUID+27, 0, 1),
+    (@GUID+27, 10, 9),
+    (@GUID+28, 0, 1),
+    (@GUID+28, 10, 13),
+    (@GUID+29, 0, 1),
+    (@GUID+29, 10, 9),
+    (@GUID+30, 0, 1),
+    (@GUID+30, 10, 9),
+    (@GUID+31, 0, 1),
+    (@GUID+31, 10, 10),
+    (@GUID+32, 0, 1),
+    (@GUID+32, 10, 13),
+    (@GUID+33, 0, 1),
+    (@GUID+33, 10, 13),
+    (@GUID+34, 0, 1),
+    (@GUID+34, 10, 10),
+    (@GUID+35, 0, 1),
+    (@GUID+35, 10, 10),
+    (@GUID+36, 0, 1),
+    (@GUID+36, 10, 13),
+    (@GUID+37, 0, 1),
+    (@GUID+37, 10, 1),
+    (@GUID+38, 0, 1),
+    (@GUID+38, 10, 1),
+    (@GUID+39, 0, 1),
+    (@GUID+39, 10, 1),
+    (@GUID+40, 0, 1),
+    (@GUID+40, 10, 11),
+    (@GUID+41, 0, 1),
+    (@GUID+41, 10, 9),
+    (@GUID+42, 0, 1),
+    (@GUID+42, 10, 9),
+    (@GUID+43, 0, 1),
+    (@GUID+43, 10, 10),
+    (@GUID+44, 0, 1),
+    (@GUID+44, 10, 15),
+    (@GUID+45, 0, 1),
+    (@GUID+45, 10, 15),
+    (@GUID+46, 0, 1),
+    (@GUID+46, 10, 11),
+    (@GUID+47, 0, 1),
+    (@GUID+47, 10, 10),
+    (@GUID+48, 0, 1),
+    (@GUID+48, 10, 9),
+    (@GUID+49, 0, 1),
+    (@GUID+49, 10, 11),
+    (@GUID+50, 0, 1),
+    (@GUID+50, 10, 7),
+    (@GUID+51, 0, 1),
+    (@GUID+51, 10, 13),
+    (@GUID+52, 0, 1),
+    (@GUID+52, 10, 13),
+    (@GUID+53, 0, 1),
+    (@GUID+53, 10, 13),
+    (@GUID+54, 0, 1),
+    (@GUID+54, 10, 13),
+    (@GUID+55, 0, 1),
+    (@GUID+55, 10, 13),
+    (@GUID+56, 0, 1),
+    (@GUID+56, 10, 13),
+    (@GUID+57, 0, 1),
+    (@GUID+57, 10, 50);

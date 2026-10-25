@@ -3,6 +3,7 @@
 -- Generated from archived Jabbithole vendor pages (what players saw each vendor sell).
 -- Vendors are matched by creature and world because entity ids depend on the zone file import order,
 -- so this file needs to be imported again after a zone file is.
+-- Last zone file change: 2026-10-25, generated quest spawns in the Alizar zone files.
 -- --------------------------------------
 -- Amylee Silverstand (creature 312, world 51, amylee-silverstand-17)
 DELETE FROM `entity_vendor_item` WHERE `id` IN (SELECT `id` FROM `entity` WHERE `creature` = 312 AND `world` = 51);
