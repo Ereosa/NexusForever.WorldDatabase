@@ -5395,6 +5395,9 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
 INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`) VALUES
     (@GUID+1, 11, 36162, @WORLD, 1416, -191.3209, -1154.89, -3214.109, -2.816263, 0, 0, 25111, 0, 0, 0);
+-- the lift rides client spline 10881 up to the lab floor and back, it was captured without its path
+INSERT INTO `entity_spline` (`Id`, `SplineId`, `Mode`, `Speed`, `FX`, `FY`, `FZ`) VALUES
+    (@GUID+1, 10881, 1, 4, 0, 0, 0);
 -- --------------------------------------
 -- Mysthoof Dawngrazer
 -- --------------------------------------
