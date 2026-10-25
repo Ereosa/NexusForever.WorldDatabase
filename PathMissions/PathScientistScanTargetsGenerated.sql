@@ -4,7 +4,7 @@
 -- Targets are creatures the client data tags with the mission (e.g. 'M42') and the 'NPCs involved' of the mission on the archived Jabbithole,
 -- matched by name, limited to creatures spawned in the mission's world.
 -- --------------------------------------
-DELETE FROM `path_scientist_creature` WHERE `pathScientistCreatureInfoId` IN (7, 8, 9, 11, 12, 35, 37, 41, 42, 43, 45, 46, 59, 64, 66, 68, 90, 121, 122, 123, 137, 138, 139, 140, 142, 145, 146, 148, 149, 166, 167, 168, 169, 170, 171, 173, 176, 179, 181, 236, 238, 239, 240, 252, 253, 257, 259, 269, 273, 279, 280, 281, 282, 283, 284, 285, 287, 288, 289, 290, 302, 303, 304, 306, 345, 346, 354, 355, 356, 358, 359, 362, 364, 366, 367, 368, 369, 371, 373, 375, 376, 377, 378, 380, 385, 386, 387, 388, 389, 393, 402, 403, 407, 408, 410, 412, 413, 414, 418, 419, 420, 421, 422, 432, 450, 451, 452, 454, 455, 456, 457, 458, 472, 476, 483, 485, 486, 490, 491, 499, 502, 507, 511, 518, 519, 521, 529, 530, 542, 545, 547, 549, 552, 553, 556, 562, 563, 580, 652, 653, 657, 691, 716, 718, 735, 737, 753, 756, 762);
+DELETE FROM `path_scientist_creature` WHERE `pathScientistCreatureInfoId` IN (7, 8, 9, 11, 12, 35, 37, 41, 42, 43, 45, 46, 59, 64, 66, 68, 90, 121, 122, 123, 137, 138, 139, 140, 142, 145, 146, 148, 149, 166, 167, 168, 169, 170, 171, 173, 176, 179, 181, 236, 238, 239, 240, 252, 253, 257, 259, 269, 273, 279, 280, 281, 282, 283, 284, 285, 287, 288, 289, 290, 302, 303, 304, 306, 345, 346, 354, 355, 356, 358, 359, 362, 364, 366, 367, 368, 369, 371, 373, 375, 376, 377, 378, 380, 385, 386, 387, 388, 389, 393, 402, 403, 407, 408, 410, 412, 413, 414, 418, 419, 420, 421, 422, 432, 450, 451, 452, 454, 455, 456, 457, 458, 472, 476, 483, 485, 486, 490, 491, 499, 502, 507, 511, 518, 519, 521, 529, 530, 542, 545, 547, 549, 552, 553, 556, 562, 563, 580, 652, 653, 657, 687, 691, 716, 718, 735, 737, 753, 756, 762);
 
 INSERT INTO `path_scientist_creature` (`creatureId`, `pathScientistCreatureInfoId`, `comment`) VALUES
 	(34872, 7, 'Cinderbloom - Cinderbloom'),
@@ -640,6 +640,12 @@ INSERT INTO `path_scientist_creature` (`creatureId`, `pathScientistCreatureInfoI
 	(61941, 653, 'The Servants of Toria - Wildfall Life-Seeker'),
 	(61943, 653, 'The Servants of Toria - Wildfall Terra-Binder'),
 	(47772, 657, 'Wisdom from the Wreckage - Scattered Wreckage'),
+	(50790, 687, 'Datacube on Lockdown - Eldan Control Panel'),
+	(56641, 687, 'Datacube on Lockdown - Eldan Control Panel'),
+	(56642, 687, 'Datacube on Lockdown - Eldan Control Panel'),
+	(56643, 687, 'Datacube on Lockdown - Eldan Control Panel'),
+	(56895, 687, 'Datacube on Lockdown - Eldan Control Panel'),
+	(65772, 687, 'Datacube on Lockdown - Eldan Control Panel'),
 	(41883, 691, 'Long-Term Effects - Defiled Probe'),
 	(41884, 691, 'Long-Term Effects - Defiled Protector'),
 	(51743, 691, 'Long-Term Effects - Defiled Augmentor'),
