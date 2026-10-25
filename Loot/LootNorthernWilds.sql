@@ -164,9 +164,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(11950, 0, 50806, 2.63, 1, 1, 'Cache of Corroded Coins'),
 	(11950, 0, 50872, 2.63, 1, 1, 'Stalker''s Exanweave Augment');
 
--- Dominion Swordsman{p:Dominion Swordsmen} (384 kills recorded, dominion-swordsman-1)
-INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (11951, NULL, 100, 0, 0, 0, 0, 'Dominion Swordsman{p:Dominion Swordsmen}');
-INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (11951, 11951, 'Dominion Swordsman{p:Dominion Swordsmen}');
+-- Dominion Swordsman (384 kills recorded, dominion-swordsman-1)
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (11951, NULL, 100, 0, 0, 0, 0, 'Dominion Swordsman');
+INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (11951, 11951, 'Dominion Swordsman');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(11951, 0, 7667, 44.53, 1, 1, 'Cheap Earrings'),
 	(11951, 0, 14516, 29.95, 1, 1, 'Canvas Cloth'),

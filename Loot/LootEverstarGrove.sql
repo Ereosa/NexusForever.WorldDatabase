@@ -220,9 +220,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(27453, 0, 13357, 0.13, 1, 1, 'Double Action Iron Revolvers'),
 	(27453, 0, 10429, 0.13, 1, 1, 'Frayed Wool Shirt');
 
--- Firestorm Sentry{p:Firestorm Sentries} (229 kills recorded, firestorm-sentry-27)
-INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (27481, NULL, 100, 0, 0, 0, 0, 'Firestorm Sentry{p:Firestorm Sentries}');
-INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (27481, 27481, 'Firestorm Sentry{p:Firestorm Sentries}');
+-- Firestorm Sentry (229 kills recorded, firestorm-sentry-27)
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (27481, NULL, 100, 0, 0, 0, 0, 'Firestorm Sentry');
+INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (27481, 27481, 'Firestorm Sentry');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(27481, 0, 47663, 36.24, 1, 1, 'Greased Mechari Gears'),
 	(27481, 0, 14516, 31.88, 1, 1, 'Canvas Cloth'),
@@ -560,9 +560,9 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (46394, 46394,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(46394, 0, 7810, 100, 1, 1, 'Tainted Essence');
 
--- Firestorm Sentry{p:Firestorm Sentries} (229 kills recorded, firestorm-sentry-27)
-INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (51111, NULL, 100, 0, 0, 0, 0, 'Firestorm Sentry{p:Firestorm Sentries}');
-INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (51111, 51111, 'Firestorm Sentry{p:Firestorm Sentries}');
+-- Firestorm Sentry (229 kills recorded, firestorm-sentry-27)
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (51111, NULL, 100, 0, 0, 0, 0, 'Firestorm Sentry');
+INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (51111, 51111, 'Firestorm Sentry');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(51111, 0, 47663, 36.24, 1, 1, 'Greased Mechari Gears'),
 	(51111, 0, 14516, 31.88, 1, 1, 'Canvas Cloth'),
