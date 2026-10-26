@@ -2,7 +2,7 @@
 -- Wilderrun Zone Dump
 -- --------------------------------------
 SET @WORLD = 22;
-DELETE FROM `entity` WHERE `world` = @WORLD AND `area` IN (1402, 1403, 1404, 1405, 1406, 1407, 1408, 1437, 1438, 1439, 1440, 1441, 1443, 1444, 1445, 1446, 1484, 1485, 1492, 1493, 1494, 1495, 1522, 1523, 1524, 1525, 1526, 1527, 1528, 1534, 1535, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2111, 2112, 2122, 2131, 2146, 2162, 2163, 2164, 2165, 2166, 2173, 2174, 2181, 2182, 2183, 2184, 2185, 2187, 2188, 2189, 2381, 2555, 2582, 2583, 2699, 2700, 2701, 2702, 2712, 2771, 2785, 2786, 2787, 2805, 2806, 2807, 2808, 2809, 2810, 2818, 2825, 2827, 2828, 2829, 2830, 2831, 2854, 2949, 4108, 4109, 4110, 4111, 4112, 4113, 4216, 4217, 4222, 4251, 4326, 4847);
+DELETE FROM `entity` WHERE `world` = @WORLD AND `area` IN (1402, 1403, 1404, 1405, 1406, 1407, 1408, 1437, 1438, 1439, 1440, 1441, 1443, 1444, 1445, 1446, 1484, 1485, 1492, 1493, 1494, 1495, 1522, 1523, 1524, 1525, 1526, 1527, 1528, 1534, 1535, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2111, 2112, 2122, 2131, 2146, 2162, 2163, 2164, 2165, 2166, 2173, 2174, 2181, 2182, 2183, 2184, 2185, 2187, 2188, 2189, 2197, 2381, 2555, 2582, 2583, 2699, 2700, 2701, 2702, 2712, 2771, 2785, 2786, 2787, 2805, 2806, 2807, 2808, 2809, 2810, 2818, 2825, 2827, 2828, 2829, 2830, 2831, 2854, 2949, 3030, 4108, 4109, 4110, 4111, 4112, 4113, 4216, 4217, 4222, 4251, 4326, 4847);
 
 -- --------------------------------------
 -- Hostile Invisible Unit for Fields (1.2 hit radius)
@@ -39069,3 +39069,294 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
     (@GUID+43, 8, 30049, @WORLD, 1403, 2052, -848.90, -1673, 0, 0, 0, 0, 0, 219, 219),
     (@GUID+44, 8, 30049, @WORLD, 1403, 2312, -835.65, -1795, 0, 0, 0, 0, 0, 219, 219),
     (@GUID+45, 8, 30049, @WORLD, 1403, 2263, -837.90, -1841, 0, 0, 0, 0, 0, 219, 219);
+
+-- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture, second pass (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Dorian Walker (27455): Pumera Tamers (6173) giver, Pumera Tamers (6173) receiver, Race for the Everpool (6174) giver. Position: WorldLocation2, receiver location 6173.
+    (@GUID+1, 0, 27455, @WORLD, 1493, 2291.032, -741.162, -2961.861, 0, 0, 0, 25510, 8952, 171, 171, 0),
+    (@GUID+2, 0, 27455, @WORLD, 1485, 2202.065, -747.238, -2251.023, 0, 0, 0, 25510, 8952, 171, 171, 0),
+    (@GUID+3, 0, 27455, @WORLD, 1438, 2454.327, -775.05, -2546.585, 0, 0, 0, 25510, 8952, 171, 171, 0),
+    -- Giant Statue Head (27478): Race for the Everpool (6174) objective 1 type 22 count 1. Position: WorldLocation2, objective indicator 6174.1.
+    (@GUID+4, 10, 27478, @WORLD, 1441, 1929.26, -764.67, -2533, 0, 0, 0, 21526, 0, 219, 219, 0),
+    -- High Priest Life-Bearer (27686): Servants of the Torine (6236) receiver, Ask the Pell (6241) receiver. Position: WorldLocation2, receiver location 6236.
+    (@GUID+5, 0, 27686, @WORLD, 1438, 2648.196, -760.781, -2919.447, -1.744, 0, 0, 27750, 0, 957, 957, 0),
+    -- Photograph of Belle (27842): Off the Beaten Pathfinder (6225) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 6225.0.
+    (@GUID+6, 8, 27842, @WORLD, 1485, 2236.964, -746.486, -2344.536, -0, 0, 0, 26218, 0, 219, 219, 0),
+    -- Dorian Walker (27843): Off the Beaten Pathfinder (6225) receiver, Walking into a Trap (6227) giver. Position: WorldLocation2, receiver location 6225.
+    (@GUID+7, 0, 27843, @WORLD, 1485, 2498.601, -770.356, -2453.118, -1.215, 0, 0, 25510, 8952, 171, 171, 0),
+    -- Artemis Zin (27988): Lost Lady Zin (6270) receiver, Artemis Pinned (6271) giver. Position: WorldLocation2, receiver location 6270.
+    (@GUID+8, 0, 27988, @WORLD, 1408, 1378.155, -774.211, -2630.088, 0, 0, 0, 25236, 9080, 170, 170, 0),
+    -- Artemis Zin (28005): Artemis Pinned (6271) receiver, Everpool Escapade (6372) giver, Everpool Escapade (6372) receiver. Position: WorldLocation2, receiver location 6271.
+    (@GUID+9, 0, 28005, @WORLD, 1534, 1342.279, -776.37, -2502.614, 0, 0, 0, 25236, 9080, 170, 170, 0),
+    (@GUID+10, 0, 28005, @WORLD, 1443, 2184.642, -716.584, -3415.267, 0, 0, 0, 25236, 9080, 170, 170, 0),
+    (@GUID+11, 0, 28005, @WORLD, 1446, 2161.479, -752.211, -3090.52, 0, 0, 0, 25236, 9080, 170, 170, 0),
+    -- Turned Dirtpile (28133): Lost Lady Zin (6270) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 6270.0.
+    (@GUID+12, 10, 28133, @WORLD, 1534, 1335.678, -743.407, -2373.488, 0, 0, 0, 24050, 0, 219, 219, 0),
+    -- Varonia Cazalon (28198): Trial of Courage (6339) objective 1 type 5 count 1, Trial of Courage (6339) objective 3 type 5 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/varonia-cazalon-26.
+    (@GUID+13, 10, 28198, @WORLD, 2197, 0, -996.5, 0, 0, 0, 0, 26265, 9078, 170, 170, 0),
+    -- Artemis Zin (28381): Everpool Escapade (6372) objective 1 type 3 count 1. Position: WorldLocation2, objective indicator 6372.1.
+    (@GUID+14, 0, 28381, @WORLD, 1441, 1653.331, -779.586, -2444.775, 3.57, 0, 0, 25236, 9080, 170, 170, 0),
+    -- Pixpox Antibodies (28550): Help Out a Friend? (6412) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 6412.2.
+    (@GUID+15, 10, 28550, @WORLD, 1403, 2288.612, -835.616, -1926.673, 0, 0, 0, 26379, 0, 219, 219, 0),
+    -- Deathbringers Sword (28662): The Deathbringers Sword (6424) giver. Position: Jabbithole http://www.jabbithole.com/npcs/deathbringers-sword-26.
+    (@GUID+16, 10, 28662, @WORLD, 1443, 2352, -724.96, -3172, 0, 0, 0, 24322, 0, 219, 219, 0),
+    -- Ship Scrap Pile (28831): Connect the Dots (6436) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 6436.2.
+    (@GUID+17, 10, 28831, @WORLD, 1485, 2336.622, -773.306, -2429.689, 0, 0, 0, 24086, 0, 219, 219, 0),
+    -- Ship Scrap Pile (28849): Connect the Dots (6436) objective 3 type 12 count 1. Position: WorldLocation2, objective indicator 6436.3.
+    (@GUID+18, 10, 28849, @WORLD, 1438, 2485.852, -774.541, -2540.515, -0.728, 0, 0, 24086, 0, 219, 219, 0),
+    -- Artemis Zin (29011): Everpool Escapade (6372) objective 4 type 11 count 1. Position: WorldLocation2, objective indicator 6372.4.
+    (@GUID+19, 0, 29011, @WORLD, 1408, 2036.665, -827.533, -2801.853, 2.848, 0, 0, 25236, 9080, 1132, 1132, 0),
+    -- Eldan Terminal (29777): Power Jumping (6541) giver, Power Jumping (6541) receiver. Position: WorldLocation2, receiver location 6541.
+    (@GUID+20, 10, 29777, @WORLD, 3030, 3672.595, -752.265, -2550.314, 0, 0, 0, 25614, 0, 219, 219, 0),
+    -- Eldan Plasma Core (29778): Power Jumping (6541) objective 0 type 32 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/eldan-plasma-core-26.
+    (@GUID+21, 8, 29778, @WORLD, 3030, 3728, -662, -2566, 0, 0, 0, 25444, 0, 219, 219, 0),
+    -- Lifecaller Aethena (37985): Culling Weeds (7788) giver, Culling Weeds (7788) receiver, In Her Footsteps (7789) giver. Position: WorldLocation2, receiver location 7788.
+    (@GUID+22, 0, 37985, @WORLD, 2074, 1948.602, -760.836, -4206.628, 0, 0, 0, 25705, 9150, 963, 963, 0),
+    -- Explorer Underwoods Journal (38194): The Last Chapter (7914) giver. Position: Jabbithole http://www.jabbithole.com/npcs/explorer-underwoods-journal-26.
+    (@GUID+23, 10, 38194, @WORLD, 2071, 3513, -572.156, -4221, 0, 0, 0, 21364, 0, 171, 171, 0),
+    -- Plant Timed Explosive (38957): Firebomb the Forges (7911) objective 0 type 14 count 4. Position: WorldLocation2, objective indicator 7911.0.
+    (@GUID+24, 10, 38957, @WORLD, 2071, 3364.253, -665.513, -4160.694, 0, 0, 0, 27794, 0, 219, 219, 0),
+    (@GUID+25, 10, 38957, @WORLD, 2071, 3372.058, -665.513, -4171.549, -1.6137, 0, 0, 27794, 0, 219, 219, 1),
+    (@GUID+26, 10, 38957, @WORLD, 2071, 3288.232, -802.586, -3925.884, 0, 0, 0, 27794, 0, 219, 219, 2),
+    (@GUID+27, 10, 38957, @WORLD, 2071, 3283.371, -802.586, -4390.494, 0, 0, 0, 27794, 0, 219, 219, 3),
+    -- Corrupted Screecher (39204): Field Study (7753) objective 0 type 25 count 1, Field Study (8075) objective 0 type 25 count 1. Position: WorldLocation2, objective indicator 7753.0.
+    (@GUID+28, 0, 39204, @WORLD, 2073, 2176.686, -776.586, -4439.923, 0, 0, 0, 29148, 0, 978, 978, 0),
+    -- Corrupted Devourer (39205): Field Study (7753) objective 0 type 25 count 1, Field Study (8075) objective 0 type 25 count 1. Position: WorldLocation2, objective indicator 7753.0.
+    (@GUID+29, 0, 39205, @WORLD, 2073, 2176.686, -776.586, -4439.923, 0, 0, 0, 29171, 0, 978, 978, 0),
+    -- Twisted Monstrosity (39206): Field Study (7753) objective 0 type 25 count 1, Field Study (8075) objective 0 type 25 count 1. Position: WorldLocation2, objective indicator 7753.0.
+    (@GUID+30, 0, 39206, @WORLD, 2073, 2176.686, -776.586, -4439.923, 0, 0, 0, 21629, 0, 978, 978, 0),
+    -- Researcher Greta (39374): Symptoms May Include (7754) objective 0 type 3 count 1. Position: WorldLocation2, objective indicator 7754.0.
+    (@GUID+31, 0, 39374, @WORLD, 2068, 2602.145, -776.336, -4280.408, 0, 0, 0, 32603, 9058, 219, 219, 0),
+    -- Researchers Supply Crate (39390): Side Effects (7752) objective 1 type 5 count 1. Position: WorldLocation2, objective indicator 7752.1.
+    (@GUID+32, 10, 39390, @WORLD, 2771, 2082.336, -762.32, -4318.43, 0, 0, 0, 23305, 0, 219, 219, 0),
+    -- Wounded Lifecaller (40517): Seed of Hope (7795) giver. Position: Jabbithole http://www.jabbithole.com/npcs/wounded-lifecaller-26.
+    (@GUID+33, 0, 40517, @WORLD, 2075, 1002, -586.149, -4119, 0, 0, 0, 25705, 9150, 963, 963, 0),
+    -- Comm Relay 140A (40893): Connect the Dots (6436) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 6436.0.
+    (@GUID+34, 10, 40893, @WORLD, 1485, 2155.132, -751.828, -2247.193, 0.978, 0, 0, 22603, 0, 219, 219, 0),
+    -- Comm Relay 125B (40894): Connect the Dots (6436) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 6436.1.
+    (@GUID+35, 10, 40894, @WORLD, 1485, 2205.015, -738.622, -2337.12, 3.413, 0, 0, 22603, 0, 219, 219, 0),
+    -- Comm Relay 110C (40895): Connect the Dots (6436) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 6436.2.
+    (@GUID+36, 10, 40895, @WORLD, 1485, 2336.622, -773.306, -2429.689, 0, 0, 0, 22603, 0, 219, 219, 0),
+    -- Comm Relay 95D (40896): Connect the Dots (6436) objective 3 type 12 count 1. Position: WorldLocation2, objective indicator 6436.3.
+    (@GUID+37, 10, 40896, @WORLD, 1438, 2485.852, -774.541, -2540.515, -0.728, 0, 0, 22603, 0, 219, 219, 0),
+    -- Pixpox Antibodies (47464): Makeshift Medic (8841) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 8841.2.
+    (@GUID+38, 10, 47464, @WORLD, 1404, 1352.664, -721.941, -2094.646, 0, 0, 0, 26379, 0, 219, 219, 0),
+    -- Corrupted Chaser (48385): Field Study (7753) objective 0 type 25 count 1, Field Study (8075) objective 0 type 25 count 1. Position: WorldLocation2, objective indicator 7753.0.
+    (@GUID+39, 0, 48385, @WORLD, 2073, 2176.686, -776.586, -4439.923, 0, 0, 0, 28936, 0, 978, 978, 0),
+    -- Field Journal Page (48498): Side Effects (8076) objective 2 type 14 count 4. Position: WorldLocation2, objective indicator 8076.2.
+    (@GUID+40, 10, 48498, @WORLD, 2073, 2099.455, -762.124, -4317.386, 0, 0, 0, 26937, 0, 219, 219, 0),
+    (@GUID+41, 10, 48498, @WORLD, 2073, 2097.107, -762.5, -4311.359, -1.3346, 0, 0, 26937, 0, 219, 219, 1),
+    (@GUID+42, 10, 48498, @WORLD, 2073, 2107.824, -762.5, -4310.155, 2.2287, 0, 0, 26937, 0, 219, 219, 2),
+    (@GUID+43, 10, 48498, @WORLD, 2073, 2099.936, -762, -4325.224, 3.0793, 0, 0, 26937, 0, 219, 219, 3),
+    -- Fur Trader Starks (49552): Raw Hide Round-Up [DAILY] (8912) receiver. Position: WorldLocation2, receiver location 8912.
+    (@GUID+44, 0, 49552, @WORLD, 1403, 2315.786, -838.088, -1826.593, 0, 0, 0, 32562, 9631, 171, 171, 0),
+    -- Fur Trader Fierus (49643): Raw Hide Round-Up [DAILY] (8915) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/fur-trader-fierus-26.
+    (@GUID+45, 0, 49643, @WORLD, 1438, 2322, -755.809, -2655, 0, 0, 0, 32559, 10104, 170, 170, 0),
+    -- Hidden Explosive (49672): Bomb Threat (8896) objective 0 type 5 count 4. Position: WorldLocation2, objective indicator 8896.0.
+    (@GUID+46, 10, 49672, @WORLD, 1403, 2189.078, -850.589, -1769.684, 0, 0, 0, 24692, 0, 219, 219, 0),
+    (@GUID+47, 10, 49672, @WORLD, 1403, 2180.507, -850.5, -1779.586, 2.51, 0, 0, 24692, 0, 219, 219, 0),
+    (@GUID+48, 10, 49672, @WORLD, 1403, 2185.15, -850.5, -1780.683, 1.9524, 0, 0, 24692, 0, 219, 219, 0),
+    (@GUID+49, 10, 49672, @WORLD, 1403, 2190.412, -850.5, -1777.103, -1.6745, 0, 0, 24692, 0, 219, 219, 0),
+    -- Explosives (49717): Crafty Critter (8910) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 8910.2.
+    (@GUID+50, 10, 49717, @WORLD, 1403, 2040.86, -850.766, -1656.191, 0, 0, 0, 24352, 0, 219, 219, 0),
+    -- Lifecaller Eleni (49852): Sacred Idols [DAILY] (8926) giver, Sacred Idols [DAILY] (8926) receiver, Sacred Idols (9107) giver. Position: Jabbithole http://www.jabbithole.com/npcs/lifecaller-eleni-26.
+    (@GUID+51, 0, 49852, @WORLD, 2074, 1901, -760.169, -4297, 0, 0, 0, 25705, 9150, 963, 963, 0),
+    -- Sera Melfield (56782): A Sister Signal (9270) objective 1 type 3 count 1. Position: WorldLocation2, objective indicator 9270.1.
+    (@GUID+52, 0, 56782, @WORLD, 1408, 1455.771, -749.343, -2994.865, 0, 0, 0, 26849, 9106, 171, 171, 0),
+    -- Researcher Babbit (58309): A Sister Signal (9277) objective 1 type 3 count 1. Position: WorldLocation2, objective indicator 9277.1.
+    (@GUID+53, 0, 58309, @WORLD, 1408, 1434.407, -760.776, -2954.335, 0, 0, 0, 33165, 9057, 170, 170, 0),
+    -- Explosives (58338): Crafty Critter (8910) objective 5 type 12 count 1. Position: WorldLocation2, objective indicator 8910.5.
+    (@GUID+54, 10, 58338, @WORLD, 1403, 2365.404, -838.088, -1789.152, 0, 0, 0, 24352, 0, 219, 219, 0),
+    -- Dorian Walker (58555): Enemy at the Gates (6175) objective 1 type 3 count 1. Position: WorldLocation2, objective indicator 6175.1.
+    (@GUID+55, 0, 58555, @WORLD, 1484, 2203.257, -716.584, -3465.222, 0, 0, 0, 25510, 8952, 171, 171, 0),
+    -- Artemis Zin (58558): Enemy at the Gates (6373) objective 2 type 3 count 1. Position: WorldLocation2, objective indicator 6373.2.
+    (@GUID+56, 0, 58558, @WORLD, 1484, 2179.422, -716.584, -3466.114, 0, 0, 0, 25236, 9080, 170, 170, 0),
+    -- Artemis Zin (58714): Everpool Escapade (6372) objective 1 type 3 count 1. Position: WorldLocation2, objective indicator 6372.1.
+    (@GUID+57, 0, 58714, @WORLD, 1441, 1653.331, -779.586, -2444.775, 3.57, 0, 0, 25236, 9080, 170, 170, 0),
+    -- Dorian Walker (58746): Enemy at the Gates (6175) receiver, Wild Women of the Jungle (6242) receiver, Well That Cant Be Good (9434) giver. Position: WorldLocation2, receiver location 6175.
+    (@GUID+58, 0, 58746, @WORLD, 1443, 2192.342, -716.584, -3415.263, 0, 0, 0, 25510, 8952, 171, 171, 0),
+    -- Artemis Zin (58747): Enemy at the Gates (6373) receiver, Well That Cant Be Good (9444) giver. Position: WorldLocation2, receiver location 6373.
+    (@GUID+59, 0, 58747, @WORLD, 1443, 2185.415, -716.5, -3412.889, 0, 0, 0, 25236, 9080, 170, 170, 0),
+    -- Researcher Anton (58789): Side Effects (7752) objective 0 type 5 count 1, Side Effects (8076) objective 0 type 5 count 1. Position: WorldLocation2, objective indicator 7752.0.
+    (@GUID+60, 0, 58789, @WORLD, 2771, 2082.336, -762.32, -4318.43, 0, 0, 0, 32693, 9053, 978, 978, 0),
+    -- Turret (58826): Down with Disease (8061) objective 1 type 14 count 3. Position: WorldLocation2, objective indicator 8061.1.
+    (@GUID+61, 10, 58826, @WORLD, 2073, 2288.032, -790.337, -4152.388, 0, 0, 0, 27794, 0, 219, 219, 0),
+    (@GUID+62, 10, 58826, @WORLD, 2073, 2298.86, -790.5, -4158.54, -0.4049, 0, 0, 27794, 0, 219, 219, 1),
+    (@GUID+63, 10, 58826, @WORLD, 2073, 2278.29, -790.5, -4155.689, -0.1806, 0, 0, 27794, 0, 219, 219, 2),
+    -- Victor Lazarin (58940): Side Effects (8076) receiver, Reckless Research (8077) giver, Reckless Research (8077) receiver. Position: WorldLocation2, receiver location 8076.
+    (@GUID+64, 0, 58940, @WORLD, 2069, 2383.626, -790.131, -3998.896, 3.567, 0, 0, 27878, 9075, 171, 171, 0),
+    -- Lucy Lazarin (58942): Reckless Research (8077) objective 0 type 3 count 1. Position: WorldLocation2, objective indicator 8077.0.
+    (@GUID+65, 0, 58942, @WORLD, 2069, 2381.69, -790.131, -3991.587, -0.806, 0, 0, 29931, 8984, 171, 171, 0),
+    -- Turret (59018): Down with Disease (7756) objective 1 type 14 count 3. Position: WorldLocation2, objective indicator 7756.1.
+    (@GUID+66, 10, 59018, @WORLD, 2073, 2457.208, -774.886, -4357.244, 0, 0, 0, 27794, 0, 219, 219, 0),
+    (@GUID+67, 10, 59018, @WORLD, 2073, 2460.059, -774.5, -4340.32, 0.8875, 0, 0, 27794, 0, 219, 219, 1),
+    (@GUID+68, 10, 59018, @WORLD, 2073, 2437.755, -774.439, -4361.341, -1.5102, 0, 0, 27794, 0, 219, 219, 2),
+    -- Mondo Zax (59076): Side Effects (7752) receiver, Symptoms May Include (7754) giver, Symptoms May Include (7754) receiver. Position: WorldLocation2, receiver location 7752.
+    (@GUID+69, 0, 59076, @WORLD, 2068, 2602.441, -776.211, -4288.646, 0, 0, 0, 25202, 9079, 170, 170, 0),
+    -- Emperor Myrcalus (66096): Gathering Support - Varonias Opinion (9727) receiver, Gathering Support - Myrcalus Opinion (9728) giver. Position: Jabbithole http://www.jabbithole.com/npcs/emperor-myrcalus-78.
+    (@GUID+70, 0, 66096, @WORLD, 3030, -3245, -391.5, -1815, 0, 0, 0, 24316, 0, 170, 170, 0),
+    -- The Caretaker (66229): Gathering Support - Myrcalus Opinion (9728) receiver, Journey into OMNICore-1 (9729) giver, Deeds Once Done (9741) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/the-caretaker-78.
+    (@GUID+71, 0, 66229, @WORLD, 3030, -3257, -367, -1815, 0, 0, 0, 25105, 0, 219, 219, 0),
+    -- Transimulator Interface (67385): Deeds Once Done (9741) objective 0 type 5 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/transimulator-interface-78.
+    (@GUID+72, 14, 67385, @WORLD, 3030, -3251, -594.75, -1856, 0, 0, 0, 28014, 0, 219, 219, 0),
+    -- Emperor Myrcalus (69820): Illium Tour: Travel and Trade (9902) objective 1 type 5 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/emperor-myrcalus-78.
+    (@GUID+73, 10, 69820, @WORLD, 3030, -3245, -391.5, -1815, 0, 0, 0, 24316, 0, 219, 219, 0),
+    -- Artemis Zin (69825): Illium Tour: Travel and Trade (9902) objective 1 type 5 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/artemis-zin-78.
+    (@GUID+74, 10, 69825, @WORLD, 3030, -3381, -494.375, -1721, 0, 0, 0, 25236, 8856, 219, 219, 0),
+    -- Chancellor Juro Takigurian (71302): Alpha Sanctum Expedition (10097) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/chancellor-juro-takigurian-78.
+    (@GUID+75, 10, 71302, @WORLD, 3030, -3251, -455.375, -1827, 0, 0, 0, 34802, 9057, 170, 170, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 50),
+    (@GUID+2, 0, 1),
+    (@GUID+2, 10, 50),
+    (@GUID+3, 0, 1),
+    (@GUID+3, 10, 50),
+    (@GUID+4, 0, 1),
+    (@GUID+4, 10, 31),
+    (@GUID+5, 0, 1),
+    (@GUID+5, 10, 35),
+    (@GUID+6, 0, 1),
+    (@GUID+6, 10, 42),
+    (@GUID+7, 0, 1),
+    (@GUID+7, 10, 50),
+    (@GUID+8, 0, 1),
+    (@GUID+8, 10, 50),
+    (@GUID+9, 0, 1),
+    (@GUID+9, 10, 50),
+    (@GUID+10, 0, 1),
+    (@GUID+10, 10, 50),
+    (@GUID+11, 0, 1),
+    (@GUID+11, 10, 50),
+    (@GUID+12, 0, 1),
+    (@GUID+12, 10, 1),
+    (@GUID+13, 0, 1),
+    (@GUID+13, 10, 50),
+    (@GUID+14, 0, 1),
+    (@GUID+14, 10, 50),
+    (@GUID+15, 0, 1),
+    (@GUID+15, 10, 1),
+    (@GUID+16, 0, 1),
+    (@GUID+16, 10, 33),
+    (@GUID+17, 0, 1),
+    (@GUID+17, 10, 1),
+    (@GUID+18, 0, 1),
+    (@GUID+18, 10, 1),
+    (@GUID+19, 0, 1),
+    (@GUID+19, 10, 50),
+    (@GUID+20, 0, 1),
+    (@GUID+20, 10, 34),
+    (@GUID+21, 0, 1),
+    (@GUID+21, 10, 1),
+    (@GUID+22, 0, 1),
+    (@GUID+22, 10, 40),
+    (@GUID+23, 0, 1),
+    (@GUID+23, 10, 1),
+    (@GUID+24, 0, 1),
+    (@GUID+24, 10, 1),
+    (@GUID+25, 0, 1),
+    (@GUID+25, 10, 1),
+    (@GUID+26, 0, 1),
+    (@GUID+26, 10, 1),
+    (@GUID+27, 0, 1),
+    (@GUID+27, 10, 1),
+    (@GUID+28, 0, 1),
+    (@GUID+28, 10, 38),
+    (@GUID+29, 0, 1),
+    (@GUID+29, 10, 38),
+    (@GUID+30, 0, 1),
+    (@GUID+30, 10, 38),
+    (@GUID+31, 0, 1),
+    (@GUID+31, 10, 35),
+    (@GUID+32, 0, 1),
+    (@GUID+32, 10, 1),
+    (@GUID+33, 0, 1),
+    (@GUID+33, 10, 40),
+    (@GUID+34, 0, 1),
+    (@GUID+34, 10, 1),
+    (@GUID+35, 0, 1),
+    (@GUID+35, 10, 1),
+    (@GUID+36, 0, 1),
+    (@GUID+36, 10, 1),
+    (@GUID+37, 0, 1),
+    (@GUID+37, 10, 1),
+    (@GUID+38, 0, 1),
+    (@GUID+38, 10, 1),
+    (@GUID+39, 0, 1),
+    (@GUID+39, 10, 38),
+    (@GUID+40, 0, 1),
+    (@GUID+40, 10, 34),
+    (@GUID+41, 0, 1),
+    (@GUID+41, 10, 34),
+    (@GUID+42, 0, 1),
+    (@GUID+42, 10, 34),
+    (@GUID+43, 0, 1),
+    (@GUID+43, 10, 34),
+    (@GUID+44, 0, 1),
+    (@GUID+44, 10, 38),
+    (@GUID+45, 0, 1),
+    (@GUID+45, 10, 38),
+    (@GUID+46, 0, 1),
+    (@GUID+46, 10, 1),
+    (@GUID+47, 0, 1),
+    (@GUID+47, 10, 1),
+    (@GUID+48, 0, 1),
+    (@GUID+48, 10, 1),
+    (@GUID+49, 0, 1),
+    (@GUID+49, 10, 1),
+    (@GUID+50, 0, 1),
+    (@GUID+50, 10, 1),
+    (@GUID+51, 0, 1),
+    (@GUID+51, 10, 40),
+    (@GUID+52, 0, 1),
+    (@GUID+52, 10, 50),
+    (@GUID+53, 0, 1),
+    (@GUID+53, 10, 30),
+    (@GUID+54, 0, 1),
+    (@GUID+54, 10, 1),
+    (@GUID+55, 0, 1),
+    (@GUID+55, 10, 50),
+    (@GUID+56, 0, 1),
+    (@GUID+56, 10, 50),
+    (@GUID+57, 0, 1),
+    (@GUID+57, 10, 50),
+    (@GUID+58, 0, 1),
+    (@GUID+58, 10, 50),
+    (@GUID+59, 0, 1),
+    (@GUID+59, 10, 50),
+    (@GUID+60, 0, 1),
+    (@GUID+60, 10, 38),
+    (@GUID+61, 0, 1),
+    (@GUID+61, 10, 38),
+    (@GUID+62, 0, 1),
+    (@GUID+62, 10, 38),
+    (@GUID+63, 0, 1),
+    (@GUID+63, 10, 38),
+    (@GUID+64, 0, 1),
+    (@GUID+64, 10, 50),
+    (@GUID+65, 0, 1),
+    (@GUID+65, 10, 50),
+    (@GUID+66, 0, 1),
+    (@GUID+66, 10, 38),
+    (@GUID+67, 0, 1),
+    (@GUID+67, 10, 38),
+    (@GUID+68, 0, 1),
+    (@GUID+68, 10, 38),
+    (@GUID+69, 0, 1),
+    (@GUID+69, 10, 50),
+    (@GUID+70, 0, 1),
+    (@GUID+70, 10, 50),
+    (@GUID+71, 0, 1),
+    (@GUID+71, 10, 50),
+    (@GUID+72, 0, 1),
+    (@GUID+72, 10, 1),
+    (@GUID+73, 0, 1),
+    (@GUID+73, 10, 1),
+    (@GUID+74, 0, 1),
+    (@GUID+74, 10, 1),
+    (@GUID+75, 0, 1),
+    (@GUID+75, 10, 50);

@@ -30680,3 +30680,14 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+121, 10, 9),
     (@GUID+122, 0, 1),
     (@GUID+122, 10, 9);
+
+-- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture, second pass (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    (@GUID+1, 10, 67348, @WORLD, 13, 3967.574, -848.571, -2914.848, 0, 0, 0, 36491, 0, 219, 219, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 1);

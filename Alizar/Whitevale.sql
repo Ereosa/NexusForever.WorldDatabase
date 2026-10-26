@@ -60043,3 +60043,23 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+420, 10, 25),
     (@GUID+421, 0, 1),
     (@GUID+421, 10, 50);
+
+-- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture, second pass (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Transimulator Interface (67384): Deeds Once Done (9739) objective 0 type 5 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/transimulator-interface-14.
+    (@GUID+1, 14, 67384, @WORLD, 137, 3781, -1108.72, -1240, 0, 0, 0, 28014, 0, 219, 219, 0),
+    -- Professor Rhoda Wellspring (71301): Alpha Sanctum Expedition (10096) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/professor-rhoda-wellspring-14.
+    (@GUID+2, 10, 71301, @WORLD, 137, 3757, -1108.52, -1251, 0, 0, 0, 34801, 9114, 171, 171, 0),
+    -- Drusera (73090): Just the Beginning (10491) receiver, Just the Beginning (10492) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/drusera-14.
+    (@GUID+3, 0, 73090, @WORLD, 137, 3749, -1108.52, -1251, 0, 0, 0, 29337, 0, 219, 219, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 1),
+    (@GUID+2, 0, 1),
+    (@GUID+2, 10, 50),
+    (@GUID+3, 0, 1),
+    (@GUID+3, 10, 50);

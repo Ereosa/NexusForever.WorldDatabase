@@ -2,7 +2,7 @@
 -- Southern Grimvault Zone Dump
 -- --------------------------------------
 SET @WORLD = 1061;
-DELETE FROM `entity` WHERE `world` = @WORLD AND `area` IN (2067, 2082, 2083, 2084, 2085, 2114, 2115, 2116, 2117, 2118, 2119, 2127, 2128, 2129, 2130, 2161, 2175, 2307, 2526, 2527, 2528, 2662, 2663, 2683, 2684, 2685, 2686, 2687, 2688, 2689, 2690, 2691, 2692, 2693, 2694, 2695, 2696, 2697, 2698, 2714, 2715, 2719, 2720, 2748, 2749, 2750, 4094, 4095, 4096, 4219, 4220, 4223, 4224, 4225, 4226, 4227, 4228, 4233, 4234, 4241, 4242, 4250, 4737);
+DELETE FROM `entity` WHERE `world` = @WORLD AND `area` IN (2067, 2082, 2083, 2084, 2085, 2114, 2115, 2116, 2117, 2118, 2119, 2127, 2128, 2129, 2130, 2161, 2175, 2307, 2526, 2527, 2528, 2662, 2663, 2683, 2684, 2685, 2686, 2687, 2688, 2689, 2690, 2691, 2692, 2693, 2694, 2695, 2696, 2697, 2698, 2714, 2715, 2719, 2720, 2748, 2749, 2750, 4094, 4095, 4096, 4192, 4219, 4220, 4223, 4224, 4225, 4226, 4227, 4228, 4233, 4234, 4241, 4242, 4250, 4737);
 
 -- --------------------------------------
 -- Discovery
@@ -40776,3 +40776,206 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 20, 0),
     (@GUID+1, 21, 0),
     (@GUID+1, 22, 0);
+
+-- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture, second pass (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Kezrek Warbringer (37864): Hot Drop Soldiers (7663) receiver, Gates of Fire (7664) giver, Gates of Fire (7664) receiver. Position: WorldLocation2, receiver location 7663.
+    (@GUID+1, 0, 37864, @WORLD, 4223, 3061.707, -940.341, 243.534, 4.096, 0, 0, 25194, 9076, 170, 170, 0),
+    -- Agent Lex (37872): Infiltrating the Nest (7707) receiver, Straight to the Heart (7708) giver, Straight to the Heart (7708) receiver. Position: WorldLocation2, receiver location 7707.
+    (@GUID+2, 0, 37872, @WORLD, 2128, 2039.47, -986.849, -1586.158, -1.54, 0, 0, 26446, 9082, 170, 170, 0),
+    -- Drop Spot (38196): Hot Drop Soldiers (7663) objective 1 type 14 count 3. Position: WorldLocation2, objective indicator 7663.1.
+    (@GUID+3, 10, 38196, @WORLD, 4223, 3217.564, -953.092, 419.26, 0, 0, 0, 24366, 0, 219, 219, 0),
+    (@GUID+4, 10, 38196, @WORLD, 4223, 3215.621, -953, 428.342, -1.173, 0, 0, 24366, 0, 219, 219, 1),
+    (@GUID+5, 10, 38196, @WORLD, 4223, 3218.876, -953, 427.329, 2.8872, 0, 0, 24366, 0, 219, 219, 2),
+    -- Flank Point (38456): Gates of Fire (7664) objective 1 type 10 count 3. Position: WorldLocation2, objective indicator 7664.1.
+    (@GUID+6, 10, 38456, @WORLD, 2119, 2856.445, -946.857, 171.063, 3.142, 0, 0, 24404, 0, 219, 219, 0),
+    (@GUID+7, 10, 38456, @WORLD, 2119, 2726.162, -962.241, 194.386, 0, 0, 0, 24404, 0, 219, 219, 1),
+    (@GUID+8, 10, 38456, @WORLD, 2119, 2698.025, -968.324, 29.691, 3.142, 0, 0, 24404, 0, 219, 219, 2),
+    -- Splintered Handle (38715): I Shall Call Her... (7668) objective 0 type 32 count 1. Position: WorldLocation2, objective indicator 7668.0.
+    (@GUID+9, 8, 38715, @WORLD, 2115, 2736.168, -886.56, 964.022, 0, 0, 0, 23805, 0, 219, 219, 0),
+    -- Big Bored Barrel (38720): I Shall Call Her... (7668) objective 1 type 32 count 1. Position: WorldLocation2, objective indicator 7668.1.
+    (@GUID+10, 8, 38720, @WORLD, 2116, 3138.24, -963.726, 835.735, 0, 0, 0, 21486, 0, 219, 219, 0),
+    -- Rusty Trigger (38722): I Shall Call Her... (7668) objective 2 type 32 count 1. Position: WorldLocation2, objective indicator 7668.2.
+    (@GUID+11, 8, 38722, @WORLD, 4223, 3225.865, -953.092, 513.908, 0, 0, 0, 27951, 0, 219, 219, 0),
+    -- Loose Ammunition(p:Loose Ammunition) (38902): I Shall Call Her... (7668) objective 3 type 32 count 12. Position: WorldLocation2, objective indicator 7668.3.
+    (@GUID+12, 8, 38902, @WORLD, 4223, 3219.407, -953.094, 525.276, 0, 0, 0, 21374, 0, 219, 219, 0),
+    (@GUID+13, 8, 38902, @WORLD, 4223, 3227.948, -954, 532.884, 1.8776, 0, 0, 21374, 0, 219, 219, 0),
+    (@GUID+14, 8, 38902, @WORLD, 4223, 3235.471, -953, 515.782, 2.7103, 0, 0, 21374, 0, 219, 219, 0),
+    (@GUID+15, 8, 38902, @WORLD, 4223, 3246.712, -953.094, 358.077, 0, 0, 0, 21374, 0, 219, 219, 0),
+    (@GUID+16, 8, 38902, @WORLD, 4223, 3251.853, -950.963, 376.953, 1.914, 0, 0, 21374, 0, 219, 219, 0),
+    (@GUID+17, 8, 38902, @WORLD, 4223, 3233.941, -953, 364.194, 2.0148, 0, 0, 21374, 0, 219, 219, 0),
+    -- Farlo Gre (39136): Indigestion (7966) receiver, A Relic of the Past (7967) giver, A Relic of the Past (7967) receiver. Position: WorldLocation2, receiver location 7967.
+    (@GUID+18, 0, 39136, @WORLD, 2129, 1973.323, -1014.469, -555.253, 2.237, 0, 0, 32868, 9027, 170, 170, 0),
+    -- Tinia Pates (39361): In Too Deep (7670) receiver, In Too Deep (7670) objective 2 type 5 count 1, Stowaways (7671) giver. Position: WorldLocation2, receiver location 7670.
+    (@GUID+19, 0, 39361, @WORLD, 2118, 2282.573, -928.341, 497.566, 1.847, 0, 0, 28004, 8727, 170, 170, 0),
+    -- Cales Jureus (39406): Search and Rescue (7672) receiver, Light at the End (7674) giver. Position: WorldLocation2, receiver location 7672.
+    (@GUID+20, 0, 39406, @WORLD, 4192, 1860.681, -914.654, 500.384, 0, 0, 0, 28006, 9009, 170, 170, 0),
+    -- Teleporter (39420): Light at the End (7674) objective 0 type 22 count 1. Position: WorldLocation2, objective indicator 7674.0.
+    (@GUID+21, 10, 39420, @WORLD, 2082, 2221.526, -927.801, 454.744, 0, 0, 0, 27559, 0, 219, 219, 0),
+    -- Low-Powered Datachron (39422): Search and Rescue (7672) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 7672.1.
+    (@GUID+22, 10, 39422, @WORLD, 2082, 2221.526, -927.801, 454.744, 0, 0, 0, 27128, 0, 219, 219, 0),
+    -- Timed Explosive (39841): Cutting the Power (7898) objective 0 type 14 count 8, Cutting the Power (8042) objective 0 type 14 count 8. Position: Jabbithole http://www.jabbithole.com/npcs/timed-explosive-53.
+    (@GUID+23, 10, 39841, @WORLD, 2127, 1273, -884.192, -986, 0, 0, 0, 24352, 0, 219, 219, 0),
+    (@GUID+24, 10, 39841, @WORLD, 2127, 1264.312, -884.192, -1002.58, -2.2082, 0, 0, 24352, 0, 219, 219, 1),
+    (@GUID+25, 10, 39841, @WORLD, 2127, 1263.608, -884.192, -970.772, 0.1345, 0, 0, 24352, 0, 219, 219, 2),
+    (@GUID+26, 10, 39841, @WORLD, 2127, 1279.12, -884.192, -988.744, 2.9821, 0, 0, 24352, 0, 219, 219, 3),
+    (@GUID+27, 10, 39841, @WORLD, 2127, 1268.621, -884.192, -996.33, 2.5857, 0, 0, 24352, 0, 219, 219, 4),
+    (@GUID+28, 10, 39841, @WORLD, 2127, 1259.669, -884.192, -971.857, 0.3849, 0, 0, 24352, 0, 219, 219, 5),
+    -- Timed Explosive (39904): Cutting the Power (7898) objective 1 type 14 count 8, Cutting the Power (8042) objective 1 type 14 count 8. Position: WorldLocation2, objective indicator 7898.1.
+    (@GUID+29, 10, 39904, @WORLD, 2127, 2573.249, -1076.192, -1101.859, -0, 0, 0, 24352, 0, 219, 219, 0),
+    (@GUID+30, 10, 39904, @WORLD, 2127, 2563.375, -1076.192, -1107.781, -1.9805, 0, 0, 24352, 0, 219, 219, 1),
+    (@GUID+31, 10, 39904, @WORLD, 2127, 2575.444, -1076.192, -1111.719, 0.4836, 0, 0, 24352, 0, 219, 219, 2),
+    (@GUID+32, 10, 39904, @WORLD, 2127, 1355.972, -1064.921, -1263.293, 0, 0, 0, 24352, 0, 219, 219, 3),
+    (@GUID+33, 10, 39904, @WORLD, 2127, 1364.073, -1059, -1250.441, 1.6887, 0, 0, 24352, 0, 219, 219, 4),
+    (@GUID+34, 10, 39904, @WORLD, 2127, 1370.753, -1059, -1271.724, -2.535, 0, 0, 24352, 0, 219, 219, 5),
+    -- Nooks Barkbiter (40080): Indigestion (8046) receiver, A Relic of the Past (8047) giver, A Relic of the Past (8047) receiver. Position: WorldLocation2, receiver location 8047.
+    (@GUID+35, 0, 40080, @WORLD, 2129, 1961.359, -1014.402, -553.401, -1.944, 0, 0, 33003, 9054, 171, 171, 0),
+    -- Drop Spot (40231): Hot Drop Troopers (8053) objective 1 type 14 count 3. Position: WorldLocation2, objective indicator 8053.1.
+    (@GUID+36, 10, 40231, @WORLD, 4224, 740.517, -928.828, 164.72, 0, 0, 0, 24366, 0, 219, 219, 0),
+    (@GUID+37, 10, 40231, @WORLD, 4224, 731.098, -927.774, 169.971, 1.5951, 0, 0, 24366, 0, 219, 219, 1),
+    (@GUID+38, 10, 40231, @WORLD, 4224, 723.905, -927, 155.492, -0.9956, 0, 0, 24366, 0, 219, 219, 2),
+    -- Splintered Handle (40241): I Shall Call Her... (8058) objective 0 type 32 count 1. Position: WorldLocation2, objective indicator 8058.0.
+    (@GUID+39, 8, 40241, @WORLD, 2683, 820.821, -961.448, 714.537, 0, 0, 0, 23805, 0, 219, 219, 0),
+    -- Big Bored Barrel (40242): I Shall Call Her... (8058) objective 1 type 32 count 1. Position: WorldLocation2, objective indicator 8058.1.
+    (@GUID+40, 8, 40242, @WORLD, 2684, 587.651, -950.59, 455.912, 0, 0, 0, 21486, 0, 219, 219, 0),
+    (@GUID+41, 8, 40242, @WORLD, 2175, 775.582, -934.547, 438.411, 0, 0, 0, 21486, 0, 219, 219, 0),
+    -- Rusty Trigger (40243): I Shall Call Her... (8058) objective 2 type 32 count 1. Position: WorldLocation2, objective indicator 8058.2.
+    (@GUID+42, 8, 40243, @WORLD, 4224, 789.034, -932.457, 203.989, 0, 0, 0, 27951, 0, 219, 219, 0),
+    -- Loose Ammunition (40244): I Shall Call Her... (8058) objective 3 type 32 count 12. Position: WorldLocation2, objective indicator 8058.3.
+    (@GUID+43, 8, 40244, @WORLD, 4224, 689.961, -913.332, 219.466, 0, 0, 0, 21374, 0, 219, 219, 0),
+    (@GUID+44, 8, 40244, @WORLD, 4224, 691.968, -915, 227.403, 2.1408, 0, 0, 21374, 0, 219, 219, 0),
+    (@GUID+45, 8, 40244, @WORLD, 4224, 679.396, -911.195, 233.006, 1.2706, 0, 0, 21374, 0, 219, 219, 0),
+    (@GUID+46, 8, 40244, @WORLD, 4224, 684.358, -923.5, 84.675, 0, 0, 0, 21374, 0, 219, 219, 0),
+    (@GUID+47, 8, 40244, @WORLD, 4224, 675.148, -923.574, 84.689, 2.0888, 0, 0, 21374, 0, 219, 219, 0),
+    (@GUID+48, 8, 40244, @WORLD, 4224, 681.735, -924.434, 94.173, 0.2478, 0, 0, 21374, 0, 219, 219, 0),
+    -- Flank Point (40419): Gates of Fire (8054) objective 1 type 10 count 3. Position: WorldLocation2, objective indicator 8054.1.
+    (@GUID+49, 10, 40419, @WORLD, 2687, 613.495, -919.65, -194.458, 0, 0, 0, 24404, 0, 219, 219, 0),
+    (@GUID+50, 10, 40419, @WORLD, 2687, 640.345, -929.884, -280.174, 0, 0, 0, 24404, 0, 219, 219, 1),
+    (@GUID+51, 10, 40419, @WORLD, 2687, 701.82, -930.691, -351.321, 0, 0, 0, 24404, 0, 219, 219, 2),
+    -- Samantha Dustland (40919): In Too Deep (8127) receiver, Stowaways (8128) giver, Stowaways (8128) receiver. Position: WorldLocation2, receiver location 8127.
+    (@GUID+52, 0, 40919, @WORLD, 2175, 1367.293, -966.842, 367.324, 0, 0, 0, 28150, 9169, 171, 171, 0),
+    -- Micah Ferrystone (40921): Search and Rescue (8129) receiver, Light at the End (8130) giver. Position: WorldLocation2, receiver location 8129.
+    (@GUID+53, 0, 40921, @WORLD, 2175, 1378.044, -966.842, 330.721, 0, 0, 0, 28153, 9169, 171, 171, 0),
+    -- Corrupt Datacube (48079): A Perfect State of Being (7972) giver. Position: Jabbithole http://www.jabbithole.com/npcs/corrupt-datacube-53.
+    (@GUID+54, 10, 48079, @WORLD, 2130, 728, -972.505, -1699, 0, 0, 0, 32770, 0, 219, 219, 0),
+    -- Drusera (48124): A Perfect State of Being (7972) receiver. Position: WorldLocation2, receiver location 7972.
+    (@GUID+55, 0, 48124, @WORLD, 2130, 724.158, -982.526, -1702.943, 0.919, 0, 0, 29337, 0, 219, 219, 0),
+    -- Sylphia Barkberry (53429): Sim Core: The Malgrave Trail (9091) receiver. Position: WorldLocation2, receiver location 9091.
+    (@GUID+56, 0, 53429, @WORLD, 2307, 1907.127, -866.714, 1344.634, 0, 0, 0, 30020, 9489, 219, 219, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 50),
+    (@GUID+2, 0, 1),
+    (@GUID+2, 10, 50),
+    (@GUID+3, 0, 1),
+    (@GUID+3, 10, 1),
+    (@GUID+4, 0, 1),
+    (@GUID+4, 10, 1),
+    (@GUID+5, 0, 1),
+    (@GUID+5, 10, 1),
+    (@GUID+6, 0, 1),
+    (@GUID+6, 10, 1),
+    (@GUID+7, 0, 1),
+    (@GUID+7, 10, 1),
+    (@GUID+8, 0, 1),
+    (@GUID+8, 10, 1),
+    (@GUID+9, 0, 1),
+    (@GUID+9, 10, 1),
+    (@GUID+10, 0, 1),
+    (@GUID+10, 10, 1),
+    (@GUID+11, 0, 1),
+    (@GUID+11, 10, 1),
+    (@GUID+12, 0, 1),
+    (@GUID+12, 10, 1),
+    (@GUID+13, 0, 1),
+    (@GUID+13, 10, 1),
+    (@GUID+14, 0, 1),
+    (@GUID+14, 10, 1),
+    (@GUID+15, 0, 1),
+    (@GUID+15, 10, 1),
+    (@GUID+16, 0, 1),
+    (@GUID+16, 10, 1),
+    (@GUID+17, 0, 1),
+    (@GUID+17, 10, 1),
+    (@GUID+18, 0, 1),
+    (@GUID+18, 10, 46),
+    (@GUID+19, 0, 1),
+    (@GUID+19, 10, 46),
+    (@GUID+20, 0, 1),
+    (@GUID+20, 10, 46),
+    (@GUID+21, 0, 1),
+    (@GUID+21, 10, 1),
+    (@GUID+22, 0, 1),
+    (@GUID+22, 10, 1),
+    (@GUID+23, 0, 1),
+    (@GUID+23, 10, 1),
+    (@GUID+24, 0, 1),
+    (@GUID+24, 10, 1),
+    (@GUID+25, 0, 1),
+    (@GUID+25, 10, 1),
+    (@GUID+26, 0, 1),
+    (@GUID+26, 10, 1),
+    (@GUID+27, 0, 1),
+    (@GUID+27, 10, 1),
+    (@GUID+28, 0, 1),
+    (@GUID+28, 10, 1),
+    (@GUID+29, 0, 1),
+    (@GUID+29, 10, 1),
+    (@GUID+30, 0, 1),
+    (@GUID+30, 10, 1),
+    (@GUID+31, 0, 1),
+    (@GUID+31, 10, 1),
+    (@GUID+32, 0, 1),
+    (@GUID+32, 10, 1),
+    (@GUID+33, 0, 1),
+    (@GUID+33, 10, 1),
+    (@GUID+34, 0, 1),
+    (@GUID+34, 10, 1),
+    (@GUID+35, 0, 1),
+    (@GUID+35, 10, 46),
+    (@GUID+36, 0, 1),
+    (@GUID+36, 10, 1),
+    (@GUID+37, 0, 1),
+    (@GUID+37, 10, 1),
+    (@GUID+38, 0, 1),
+    (@GUID+38, 10, 1),
+    (@GUID+39, 0, 1),
+    (@GUID+39, 10, 1),
+    (@GUID+40, 0, 1),
+    (@GUID+40, 10, 1),
+    (@GUID+41, 0, 1),
+    (@GUID+41, 10, 1),
+    (@GUID+42, 0, 1),
+    (@GUID+42, 10, 1),
+    (@GUID+43, 0, 1),
+    (@GUID+43, 10, 1),
+    (@GUID+44, 0, 1),
+    (@GUID+44, 10, 1),
+    (@GUID+45, 0, 1),
+    (@GUID+45, 10, 1),
+    (@GUID+46, 0, 1),
+    (@GUID+46, 10, 1),
+    (@GUID+47, 0, 1),
+    (@GUID+47, 10, 1),
+    (@GUID+48, 0, 1),
+    (@GUID+48, 10, 1),
+    (@GUID+49, 0, 1),
+    (@GUID+49, 10, 1),
+    (@GUID+50, 0, 1),
+    (@GUID+50, 10, 1),
+    (@GUID+51, 0, 1),
+    (@GUID+51, 10, 1),
+    (@GUID+52, 0, 1),
+    (@GUID+52, 10, 46),
+    (@GUID+53, 0, 1),
+    (@GUID+53, 10, 46),
+    (@GUID+54, 0, 1),
+    (@GUID+54, 10, 1),
+    (@GUID+55, 0, 1),
+    (@GUID+55, 10, 50),
+    (@GUID+56, 0, 1),
+    (@GUID+56, 10, 45);

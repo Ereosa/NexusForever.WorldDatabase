@@ -42296,3 +42296,246 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
     (@GUID+1, 32, 75889, @WORLD, 38, -2433.48, -880.2144, -1904.43, -1.753325, 0, 0, 33012, 0, 219, 219);
 INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 0, 1840);
+
+-- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture, second pass (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Livestock Theft Prevention Analyst (13663): The Great Cubig Heist (3891) objective 4 type 3 count 1. Position: WorldLocation2, objective indicator 3891.4.
+    (@GUID+1, 0, 13663, @WORLD, 1326, -2066.081, -876.022, -2072.885, -1.853, 0, 0, 21339, 0, 255, 255, 0),
+    -- Cubig Alpha (13664): The Great Cubig Heist (3891) objective 1 type 12 count 1, Another Cubig Heist (6147) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 3891.1.
+    (@GUID+2, 0, 13664, @WORLD, 1326, -1951.208, -879.764, -2056.794, 0, 0, 0, 21477, 0, 407, 407, 0),
+    -- Cubig Beta (13665): The Great Cubig Heist (3891) objective 2 type 12 count 1, Another Cubig Heist (6147) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 3891.2.
+    (@GUID+3, 0, 13665, @WORLD, 1326, -1982.624, -875.8, -2000.31, 0, 0, 0, 21477, 0, 407, 407, 0),
+    -- Cubig Gamma (13666): The Great Cubig Heist (3891) objective 3 type 12 count 1, Another Cubig Heist (6147) objective 3 type 12 count 1. Position: WorldLocation2, objective indicator 3891.3.
+    (@GUID+4, 0, 13666, @WORLD, 1326, -1868.048, -888.63, -2104.247, 0, 0, 0, 21477, 0, 407, 407, 0),
+    -- Prime Cubig (13712): The Prime Cubig (3902) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 3902.1.
+    (@GUID+5, 0, 13712, @WORLD, 1319, -1722.153, -895.275, -2414.783, 3.271, 0, 0, 23172, 0, 219, 219, 0),
+    -- Cubig Squared (13714): Not Fit For Consumption (3901) objective 2 type 2 count 1. Position: WorldLocation2, objective indicator 3901.2.
+    (@GUID+6, 0, 13714, @WORLD, 858, -2069.491, -876.089, -2018.234, 0, 0, 0, 21662, 0, 219, 219, 0),
+    -- Cubig Accommodations Manager (13809): The Prime Cubig (3902) objective 2 type 3 count 1. Position: WorldLocation2, objective indicator 3902.2.
+    (@GUID+7, 0, 13809, @WORLD, 72, -2120.793, -875.839, -2096.288, 0, 0, 0, 21339, 0, 255, 255, 0),
+    -- Golthox (13842): Positive Probability (5843) objective 1 type 2 count 1. Position: WorldLocation2, objective indicator 5843.1.
+    (@GUID+8, 0, 13842, @WORLD, 744, -1299.16, -930.503, -1470.877, 0.849, 0, 0, 21599, 0, 310, 310, 0),
+    -- Cubig Tracking Device (13871): The Prime Cubig (3902) objective 0 type 17 count 1. Position: WorldLocation2, objective indicator 3902.0.
+    (@GUID+9, 10, 13871, @WORLD, 698, -1687.971, -907.167, -2276.439, 0, 0, 0, 23177, 0, 219, 219, 0),
+    -- Agent Marcus (24351): Citizen Concerns (3751) receiver, The Truth Comes Out (3753) giver, Gruesome Secrets (5630) receiver. Position: WorldLocation2, receiver location 3751.
+    (@GUID+10, 0, 24351, @WORLD, 1229, -2666.133, -880.464, -1729.59, -0.611, 0, 0, 26356, 9497, 170, 170, 0),
+    -- Hycrest Farm Food Asset (24519): Stopping the Spread (5649) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 5649.0.
+    (@GUID+11, 0, 24519, @WORLD, 384, -2484.385, -925.49, -1440.456, 0, 0, 0, 21373, 0, 219, 219, 0),
+    -- Fresh Fruit Basket (24600): Consumer Beware (5658) objective 0 type 5 count 1. Position: WorldLocation2, objective indicator 5658.0.
+    (@GUID+12, 10, 24600, @WORLD, 1234, -2303.358, -922.682, -1353.861, 0, 0, 0, 22221, 0, 219, 219, 0),
+    -- Hycrest Greens (24619): Consumer Beware (5658) objective 1 type 5 count 1. Position: WorldLocation2, objective indicator 5658.1.
+    (@GUID+13, 10, 24619, @WORLD, 1234, -2377.372, -923.497, -1291.751, 0, 0, 0, 22221, 0, 219, 219, 0),
+    -- Hycrest Foodstuffs (24620): Consumer Beware (5658) objective 2 type 5 count 1. Position: WorldLocation2, objective indicator 5658.2.
+    (@GUID+14, 10, 24620, @WORLD, 1279, -2514.571, -928.01, -1313.38, 0.324, 0, 0, 21373, 0, 219, 219, 0),
+    -- Captured Farmhand Egg Sac (24666): Keeping an Eye Out (5666) objective 0 type 12 count 5. Position: WorldLocation2, objective indicator 5666.0.
+    (@GUID+15, 10, 24666, @WORLD, 1232, -2631.34, -919.288, -1532.163, 0, 0, 0, 26808, 0, 219, 219, 0),
+    (@GUID+16, 10, 24666, @WORLD, 1232, -2624.584, -919, -1539.445, -3.1052, 0, 0, 26808, 0, 219, 219, 0),
+    (@GUID+17, 10, 24666, @WORLD, 1232, -2638.814, -919.843, -1520.626, -2.3739, 0, 0, 26808, 0, 219, 219, 0),
+    (@GUID+18, 10, 24666, @WORLD, 1232, -2640.628, -919.085, -1549.712, 0.463, 0, 0, 26808, 0, 219, 219, 0),
+    (@GUID+19, 10, 24666, @WORLD, 1232, -2621.552, -919.002, -1540.441, 0.4387, 0, 0, 26808, 0, 219, 219, 0),
+    -- Hay Stack (25116): Stopping the Spread (5649) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 5649.0.
+    (@GUID+20, 10, 25116, @WORLD, 384, -2484.385, -925.49, -1440.456, 0, 0, 0, 25371, 0, 219, 219, 0),
+    -- Hay Stack (25122): Stopping the Spread (5649) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 5649.1.
+    (@GUID+21, 10, 25122, @WORLD, 1278, -2285.469, -923.634, -1265.536, 0, 0, 0, 25371, 0, 219, 219, 0),
+    -- Hay Stack (25123): Stopping the Spread (5649) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 5649.2.
+    (@GUID+22, 10, 25123, @WORLD, 855, -2442.762, -924.982, -1225.764, 0, 0, 0, 25371, 0, 219, 219, 0),
+    -- Prisoner Rodaeus (25337): The Truth Comes Out (3753) objective 2 type 32 count 9. Position: Jabbithole http://www.jabbithole.com/npcs/prisoner-rodaeus-6.
+    (@GUID+23, 10, 25337, @WORLD, 38, -2476, -927.264, -1845, 0, 0, 0, 26335, 7502, 219, 219, 0),
+    (@GUID+24, 10, 25337, @WORLD, 38, -2483.188, -927.264, -1840.835, -2.9736, 0, 0, 26335, 7502, 219, 219, 0),
+    (@GUID+25, 10, 25337, @WORLD, 38, -2488.038, -927.264, -1849.915, 0.0478, 0, 0, 26335, 7502, 219, 219, 0),
+    (@GUID+26, 10, 25337, @WORLD, 38, -2482.131, -927.264, -1831.663, 0.5503, 0, 0, 26335, 7502, 219, 219, 0),
+    (@GUID+27, 10, 25337, @WORLD, 38, -2483.549, -927.264, -1829.028, -0.4448, 0, 0, 26335, 7502, 219, 219, 0),
+    (@GUID+28, 10, 25337, @WORLD, 38, -2483.429, -927.264, -1849.093, -2.0778, 0, 0, 26335, 7502, 219, 219, 0),
+    -- Protostar Arms Master (27095): Another Cubig Heist (6147) giver, Another Cubig Heist (6147) receiver, Makin Cubacon (7962) giver. Position: WorldLocation2, receiver location 6147.
+    (@GUID+29, 0, 27095, @WORLD, 72, -1736.392, -901.84, -1980.784, 0, 0, 0, 21339, 0, 219, 219, 0),
+    -- Prime Cubig (27126): The Prime Cubig (3902) objective 0 type 17 count 1. Position: WorldLocation2, objective indicator 3902.0.
+    (@GUID+30, 0, 27126, @WORLD, 698, -1687.971, -907.167, -2276.439, 0, 0, 0, 23172, 0, 219, 219, 0),
+    -- Farmer Gummer (27479): Vital Harvest (6215) receiver, One Last Breath (6326) receiver. Position: WorldLocation2, receiver location 6215.
+    (@GUID+31, 0, 27479, @WORLD, 1461, -1812.562, -920.895, -1001.838, 0, 0, 0, 30199, 9026, 170, 170, 0),
+    -- Zesty Seasoning (27499): A Farmers Secret... (6198) objective 0 type 32 count 8. Position: WorldLocation2, objective indicator 6198.0.
+    (@GUID+32, 8, 27499, @WORLD, 1393, -1655.118, -918.966, -818.344, 0, 0, 0, 21850, 0, 219, 219, 0),
+    (@GUID+33, 8, 27499, @WORLD, 1393, -1644.196, -918.049, -826.283, -1.6413, 0, 0, 21850, 0, 219, 219, 0),
+    (@GUID+34, 8, 27499, @WORLD, 1393, -1640.728, -920.5, -816.036, 2.3541, 0, 0, 21850, 0, 219, 219, 0),
+    (@GUID+35, 8, 27499, @WORLD, 1393, -1645.512, -919.326, -817.305, -2.7452, 0, 0, 21850, 0, 219, 219, 0),
+    (@GUID+36, 8, 27499, @WORLD, 1393, -1669.084, -920.229, -823.888, -1.044, 0, 0, 21850, 0, 219, 219, 0),
+    (@GUID+37, 8, 27499, @WORLD, 1393, -1643.683, -917.556, -834.224, 0.0533, 0, 0, 21850, 0, 219, 219, 0),
+    -- Researcher Omegus (28625): Medical Defense (6421) receiver, Priceless Cargo (6427) giver, Priceless Cargo (6427) receiver. Position: WorldLocation2, receiver location 6421.
+    (@GUID+38, 0, 28625, @WORLD, 43, -1760.819, -955.107, -1275.126, 0.364, 0, 0, 30329, 9058, 170, 170, 0),
+    -- Researcher Elizabeth (28632): Medical Defense (6421) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 6421.1.
+    (@GUID+39, 0, 28632, @WORLD, 43, -1769.943, -955.538, -1277.368, 0, 0, 0, 30331, 9058, 219, 219, 0),
+    -- Abandoned Collegium Tech (29793): Abandoned Tech (6540) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 6540.0.
+    (@GUID+40, 10, 29793, @WORLD, 43, -1892.68, -958.027, -1151.567, 0, 0, 0, 21374, 0, 219, 219, 0),
+    -- Royal Collegium Quartermaster (29830): Scrap for Damage Booster (6565) giver, Scrap for Damage Booster (6565) receiver, Scrap for Heal Booster (6569) giver. Position: WorldLocation2, receiver location 6565.
+    (@GUID+41, 0, 29830, @WORLD, 43, -1845.41, -924.466, -1129.431, -1.403, 0, 0, 25804, 9777, 170, 170, 0),
+    -- Dominion Escort Ship (29977): Flying South for the War (6562) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 6562.0.
+    (@GUID+42, 9, 29977, @WORLD, 857, -2476.76, -873.855, -1969.35, 3.82, 0, 0, 24290, 0, 219, 219, 0),
+    -- Royal Collegium Researcher (30047): Repurpose and Evaluate (6585) giver, Repurpose and Evaluate (6585) receiver. Position: WorldLocation2, receiver location 6585.
+    (@GUID+43, 0, 30047, @WORLD, 43, -1835.057, -924.657, -1138.157, -1.032, 0, 0, 28453, 9058, 170, 170, 0),
+    -- Voreth Crate (30870): The Hammer of Sundering (6708) objective 0 type 32 count 5. Position: WorldLocation2, objective indicator 6708.0.
+    (@GUID+44, 8, 30870, @WORLD, 1545, -1342.621, -917.091, -211.967, 0, 0, 0, 21373, 0, 219, 219, 0),
+    (@GUID+45, 8, 30870, @WORLD, 1545, -1327.526, -921, -212.376, 0.1715, 0, 0, 21373, 0, 219, 219, 0),
+    (@GUID+46, 8, 30870, @WORLD, 1545, -1356.141, -917, -215.568, 1.7855, 0, 0, 21373, 0, 219, 219, 0),
+    (@GUID+47, 8, 30870, @WORLD, 1545, -1604.115, -917.091, -209.41, 0, 0, 0, 21373, 0, 219, 219, 0),
+    (@GUID+48, 8, 30870, @WORLD, 1545, -1614.627, -917, -203.307, -2.4373, 0, 0, 21373, 0, 219, 219, 0),
+    -- Brinlanya Moonstone (31923): Data Loss (6810) objective 1 type 2 count 1. Position: WorldLocation2, objective indicator 6810.1.
+    (@GUID+49, 0, 31923, @WORLD, 1548, -2305.304, -924.314, -405.219, 0, 0, 0, 26995, 9106, 171, 171, 0),
+    -- Stolen Data (31924): Data Loss (6810) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 6810.0.
+    (@GUID+50, 0, 31924, @WORLD, 1548, -2305.304, -924.314, -405.219, 0, 0, 0, 26996, 0, 219, 219, 0),
+    -- Slank Trap (33934): Deadly Samples (5640) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 5640.0.
+    (@GUID+51, 0, 33934, @WORLD, 38, -2365.096, -867.839, -2001.693, 0, 0, 0, 22691, 0, 219, 219, 0),
+    -- Slank Trap (33935): Deadly Samples (5640) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 5640.1.
+    (@GUID+52, 0, 33935, @WORLD, 38, -2270.082, -871.847, -1906.062, 0, 0, 0, 22691, 0, 219, 219, 0),
+    -- Slank Trap (33937): Deadly Samples (5640) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 5640.2.
+    (@GUID+53, 0, 33937, @WORLD, 38, -2513.715, -886.46, -1799.726, 0, 0, 0, 22691, 0, 219, 219, 0),
+    -- Slank Trap (33938): Deadly Samples (5640) objective 3 type 12 count 1. Position: WorldLocation2, objective indicator 5640.3.
+    (@GUID+54, 0, 33938, @WORLD, 38, -2595.721, -866.214, -1935.089, 0, 0, 0, 22691, 0, 219, 219, 0),
+    -- ICI Agent (56166): Accidents Happen (9203) giver, Accidents Happen (9203) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/ici-agent-6.
+    (@GUID+55, 0, 56166, @WORLD, 1547, -1150, -930.5, -1297, 0, 0, 0, 26092, 9497, 170, 170, 0),
+    -- Pumpkin (32328): Challenge Crushing Pumpkins (498) (0) objective 0 type 5 count 6. Position: WorldLocation2, challenge indicator 498.
+    (@GUID+56, 10, 32328, @WORLD, 664, -2099.081, -918.59, -313.413, 0, 0, 0, 21876, 0, 219, 219, 0),
+    (@GUID+57, 10, 32328, @WORLD, 664, -2103.501, -918.261, -324.957, 0.9537, 0, 0, 21876, 0, 219, 219, 0),
+    (@GUID+58, 10, 32328, @WORLD, 664, -2100.058, -918, -331.104, 2.684, 0, 0, 21876, 0, 219, 219, 0),
+    (@GUID+59, 10, 32328, @WORLD, 664, -2106.662, -918, -330.33, -0.0563, 0, 0, 21876, 0, 219, 219, 0),
+    (@GUID+60, 10, 32328, @WORLD, 664, -2099.683, -918.75, -303.001, -0.6038, 0, 0, 21876, 0, 219, 219, 0),
+    (@GUID+61, 10, 32328, @WORLD, 664, -2108.531, -918.5, -316.516, 1.0846, 0, 0, 21876, 0, 219, 219, 0),
+    -- Voreth Dummy (32362): Challenge Dummy Damage (499) (0) objective 0 type 5 count 3. Position: WorldLocation2, challenge indicator 499.
+    (@GUID+62, 0, 32362, @WORLD, 664, -2099.081, -918.59, -313.413, 0, 0, 0, 26898, 0, 0, 0, 0),
+    (@GUID+63, 0, 32362, @WORLD, 664, -2110.616, -918.5, -310.004, -0.5192, 0, 0, 26898, 0, 0, 0, 0),
+    (@GUID+64, 0, 32362, @WORLD, 664, -2090.456, -918.886, -313.506, 0.8778, 0, 0, 26898, 0, 0, 0, 0),
+    -- Cassian Urn (54885): Challenge IMBUEMENT: An Urnest Request (1054) (0) objective 0 type 5 count 1. Position: WorldLocation2, challenge indicator 1054.
+    (@GUID+65, 8, 54885, @WORLD, 38, -2580.568, -864.117, -1948.885, 0, 0, 0, 23220, 0, 219, 219, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 15),
+    (@GUID+2, 0, 1),
+    (@GUID+2, 10, 15),
+    (@GUID+3, 0, 1),
+    (@GUID+3, 10, 15),
+    (@GUID+4, 0, 1),
+    (@GUID+4, 10, 15),
+    (@GUID+5, 0, 1),
+    (@GUID+5, 10, 15),
+    (@GUID+6, 0, 1),
+    (@GUID+6, 10, 15),
+    (@GUID+7, 0, 1),
+    (@GUID+7, 10, 15),
+    (@GUID+8, 0, 1),
+    (@GUID+8, 10, 17),
+    (@GUID+9, 0, 1),
+    (@GUID+9, 10, 1),
+    (@GUID+10, 0, 1),
+    (@GUID+10, 10, 12),
+    (@GUID+11, 0, 1),
+    (@GUID+11, 10, 1),
+    (@GUID+12, 0, 1),
+    (@GUID+12, 10, 1),
+    (@GUID+13, 0, 1),
+    (@GUID+13, 10, 1),
+    (@GUID+14, 0, 1),
+    (@GUID+14, 10, 1),
+    (@GUID+15, 0, 1),
+    (@GUID+15, 10, 1),
+    (@GUID+16, 0, 1),
+    (@GUID+16, 10, 1),
+    (@GUID+17, 0, 1),
+    (@GUID+17, 10, 1),
+    (@GUID+18, 0, 1),
+    (@GUID+18, 10, 1),
+    (@GUID+19, 0, 1),
+    (@GUID+19, 10, 1),
+    (@GUID+20, 0, 1),
+    (@GUID+20, 10, 1),
+    (@GUID+21, 0, 1),
+    (@GUID+21, 10, 1),
+    (@GUID+22, 0, 1),
+    (@GUID+22, 10, 1),
+    (@GUID+23, 0, 1),
+    (@GUID+23, 10, 12),
+    (@GUID+24, 0, 1),
+    (@GUID+24, 10, 12),
+    (@GUID+25, 0, 1),
+    (@GUID+25, 10, 12),
+    (@GUID+26, 0, 1),
+    (@GUID+26, 10, 12),
+    (@GUID+27, 0, 1),
+    (@GUID+27, 10, 12),
+    (@GUID+28, 0, 1),
+    (@GUID+28, 10, 12),
+    (@GUID+29, 0, 1),
+    (@GUID+29, 10, 17),
+    (@GUID+30, 0, 1),
+    (@GUID+30, 10, 15),
+    (@GUID+31, 0, 1),
+    (@GUID+31, 10, 18),
+    (@GUID+32, 0, 1),
+    (@GUID+32, 10, 1),
+    (@GUID+33, 0, 1),
+    (@GUID+33, 10, 1),
+    (@GUID+34, 0, 1),
+    (@GUID+34, 10, 1),
+    (@GUID+35, 0, 1),
+    (@GUID+35, 10, 1),
+    (@GUID+36, 0, 1),
+    (@GUID+36, 10, 1),
+    (@GUID+37, 0, 1),
+    (@GUID+37, 10, 1),
+    (@GUID+38, 0, 1),
+    (@GUID+38, 10, 18),
+    (@GUID+39, 0, 1),
+    (@GUID+39, 10, 18),
+    (@GUID+40, 0, 1),
+    (@GUID+40, 10, 1),
+    (@GUID+41, 0, 1),
+    (@GUID+41, 10, 18),
+    (@GUID+42, 0, 1),
+    (@GUID+42, 10, 1),
+    (@GUID+43, 0, 1),
+    (@GUID+43, 10, 17),
+    (@GUID+44, 0, 1),
+    (@GUID+44, 10, 8),
+    (@GUID+45, 0, 1),
+    (@GUID+45, 10, 8),
+    (@GUID+46, 0, 1),
+    (@GUID+46, 10, 8),
+    (@GUID+47, 0, 1),
+    (@GUID+47, 10, 8),
+    (@GUID+48, 0, 1),
+    (@GUID+48, 10, 8),
+    (@GUID+49, 0, 1),
+    (@GUID+49, 10, 22),
+    (@GUID+50, 0, 1),
+    (@GUID+50, 10, 1),
+    (@GUID+51, 0, 1),
+    (@GUID+51, 10, 1),
+    (@GUID+52, 0, 1),
+    (@GUID+52, 10, 1),
+    (@GUID+53, 0, 1),
+    (@GUID+53, 10, 1),
+    (@GUID+54, 0, 1),
+    (@GUID+54, 10, 1),
+    (@GUID+55, 0, 1),
+    (@GUID+55, 10, 30),
+    (@GUID+56, 0, 1),
+    (@GUID+56, 10, 1),
+    (@GUID+57, 0, 1),
+    (@GUID+57, 10, 1),
+    (@GUID+58, 0, 1),
+    (@GUID+58, 10, 1),
+    (@GUID+59, 0, 1),
+    (@GUID+59, 10, 1),
+    (@GUID+60, 0, 1),
+    (@GUID+60, 10, 1),
+    (@GUID+61, 0, 1),
+    (@GUID+61, 10, 1),
+    (@GUID+62, 0, 1),
+    (@GUID+62, 10, 22),
+    (@GUID+63, 0, 1),
+    (@GUID+63, 10, 22),
+    (@GUID+64, 0, 1),
+    (@GUID+64, 10, 22),
+    (@GUID+65, 0, 1),
+    (@GUID+65, 10, 1);
