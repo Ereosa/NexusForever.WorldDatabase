@@ -1322,7 +1322,7 @@ INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
 -- Terraformer (34629)
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
 INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
-    (@GUID + 1, 0, 34629, @WORLD, 1912, -752.667, -703.000, -445.000, -2.3425, 0, 0, 0, 0, 390, 390, 0),
+    (@GUID + 1, 0, 34629, @WORLD, 1912, -752.600, -703.000, -445.000, -2.3425, 0, 0, 0, 0, 390, 390, 0),
     (@GUID + 2, 0, 34629, @WORLD, 1220, 0.000, -893.726, 0.000, -3.0108, 0, 0, 0, 0, 390, 390, 0);
 INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
     (@GUID + 1, @EVENTID, 0),
@@ -1348,21 +1348,29 @@ INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
 -- Thunderfoot (24475)
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
 INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
-    (@GUID + 1, 0, 24475, @WORLD, 4793, 114.472, -924.000, -496.806, -1.7689, 0, 0, 0, 0, 242, 242, 0);
+    (@GUID + 1, 0, 24475, @WORLD, 4793, 114.309, -924.000, -496.279, -1.7689, 0, 0, 0, 0, 242, 242, 0);
 INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
     (@GUID + 1, @EVENTID, 0);
 
 -- Volcanic Fissure (51943)
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
 INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
-    (@GUID + 1, 10, 51943, @WORLD, 1267, -104.000, -849.500, -904.000, 0.2700, 0, 0, 0, 0, 691, 691, 0),
-    (@GUID + 2, 10, 51943, @WORLD, 1267, 133.000, -898.250, -797.000, 0.9671, 0, 0, 0, 0, 691, 691, 0),
-    (@GUID + 3, 10, 51943, @WORLD, 1267, 124.000, -891.000, -839.000, 1.5158, 0, 0, 0, 0, 691, 691, 0),
+    (@GUID + 1, 10, 51943, @WORLD, 1267, 133.000, -898.250, -797.000, 0.2700, 0, 0, 0, 0, 691, 691, 0),
+    (@GUID + 2, 10, 51943, @WORLD, 1267, 124.000, -891.000, -839.000, 0.9671, 0, 0, 0, 0, 691, 691, 0),
+    (@GUID + 3, 10, 51943, @WORLD, 1267, -104.000, -849.500, -904.000, 1.5158, 0, 0, 0, 0, 691, 691, 0),
     (@GUID + 4, 10, 51943, @WORLD, 1267, 152.000, -893.000, -819.000, 2.9998, 0, 0, 0, 0, 691, 691, 0),
-    (@GUID + 5, 10, 51943, @WORLD, 1267, -139.000, -849.000, -918.000, -2.2505, 0, 0, 0, 0, 691, 691, 0);
+    (@GUID + 5, 10, 51943, @WORLD, 1267, -139.000, -849.000, -918.000, -2.2505, 0, 0, 0, 0, 691, 691, 0),
+    (@GUID + 6, 10, 51943, @WORLD, 1267, -127.000, -848.750, -899.000, 0.7615, 0, 0, 0, 0, 691, 691, 0),
+    (@GUID + 7, 10, 51943, @WORLD, 1267, -78.000, -853.500, -954.000, -0.2531, 0, 0, 0, 0, 691, 691, 0),
+    (@GUID + 8, 10, 51943, @WORLD, 1267, 64.000, -914.000, -821.000, -1.1612, 0, 0, 0, 0, 691, 691, 0),
+    (@GUID + 9, 10, 51943, @WORLD, 1267, -114.000, -851.500, -923.000, -0.7900, 0, 0, 0, 0, 691, 691, 0);
 INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
     (@GUID + 1, @EVENTID, 0),
     (@GUID + 2, @EVENTID, 0),
     (@GUID + 3, @EVENTID, 0),
     (@GUID + 4, @EVENTID, 0),
-    (@GUID + 5, @EVENTID, 0);
+    (@GUID + 5, @EVENTID, 0),
+    (@GUID + 6, @EVENTID, 0),
+    (@GUID + 7, @EVENTID, 0),
+    (@GUID + 8, @EVENTID, 0),
+    (@GUID + 9, @EVENTID, 0);

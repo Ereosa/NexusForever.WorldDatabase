@@ -3,9 +3,69 @@
 -- Generated from archived Jabbithole drop tables (player collected, most recent game version per creature).
 -- Probabilities are the observed drop chance for each item, rolled independently.
 -- --------------------------------------
-DELETE FROM `entity_loot` WHERE `id` IN (24486, 24489, 24490, 24493, 24494, 24495, 24498, 24499, 24507, 24510, 24512, 24514, 24578, 24579, 24580, 24581, 24618, 24893, 24894, 24895, 24896, 24898, 24899, 24900, 24901, 24902, 24905, 24908, 24910, 24911, 24913, 24914, 24916, 24919, 24920, 25561, 25562, 25564, 25565, 37751, 37752, 57126);
-DELETE FROM `loot_item` WHERE `id` IN (24486, 24489, 24490, 24493, 24494, 24495, 24498, 24499, 24507, 24510, 24512, 24514, 24578, 24579, 24580, 24581, 24618, 24893, 24894, 24895, 24896, 24898, 24899, 24900, 24901, 24902, 24905, 24908, 24910, 24911, 24913, 24914, 24916, 24919, 24920, 25561, 25562, 25564, 25565, 37751, 37752, 57126);
-DELETE FROM `loot_group` WHERE `id` IN (24486, 24489, 24490, 24493, 24494, 24495, 24498, 24499, 24507, 24510, 24512, 24514, 24578, 24579, 24580, 24581, 24618, 24893, 24894, 24895, 24896, 24898, 24899, 24900, 24901, 24902, 24905, 24908, 24910, 24911, 24913, 24914, 24916, 24919, 24920, 25561, 25562, 25564, 25565, 37751, 37752, 57126);
+DELETE FROM `entity_loot` WHERE `id` IN (24475, 24486, 24489, 24490, 24493, 24494, 24495, 24498, 24499, 24507, 24510, 24512, 24514, 24578, 24579, 24580, 24581, 24618, 24893, 24894, 24895, 24896, 24898, 24899, 24900, 24901, 24902, 24905, 24908, 24910, 24911, 24913, 24914, 24916, 24919, 24920, 25561, 25562, 25564, 25565, 37751, 37752, 57126);
+DELETE FROM `loot_item` WHERE `id` IN (24475, 24486, 24489, 24490, 24493, 24494, 24495, 24498, 24499, 24507, 24510, 24512, 24514, 24578, 24579, 24580, 24581, 24618, 24893, 24894, 24895, 24896, 24898, 24899, 24900, 24901, 24902, 24905, 24908, 24910, 24911, 24913, 24914, 24916, 24919, 24920, 25561, 25562, 25564, 25565, 37751, 37752, 57126);
+DELETE FROM `loot_group` WHERE `id` IN (24475, 24486, 24489, 24490, 24493, 24494, 24495, 24498, 24499, 24507, 24510, 24512, 24514, 24578, 24579, 24580, 24581, 24618, 24893, 24894, 24895, 24896, 24898, 24899, 24900, 24901, 24902, 24905, 24908, 24910, 24911, 24913, 24914, 24916, 24919, 24920, 25561, 25562, 25564, 25565, 37751, 37752, 57126);
+
+-- Thunderfoot (648 kills recorded, thunderfoot-20)
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (24475, NULL, 100, 0, 0, 0, 0, 'Thunderfoot');
+INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24475, 24475, 'Thunderfoot');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(24475, 0, 30563, 12.35, 1, 1, 'Treasure Pile'),
+	(24475, 0, 7627, 6.94, 1, 1, 'Small Pile of Bones'),
+	(24475, 0, 36778, 5.56, 1, 1, 'Gem-Toothed Skull Shoulders'),
+	(24475, 0, 36782, 5.09, 1, 1, 'Thunderfoot''s Brutality'),
+	(24475, 0, 36785, 5.09, 1, 1, 'Thunderfoot''s Panzershockers'),
+	(24475, 0, 14238, 4.94, 1, 1, 'Rockhide Leather'),
+	(24475, 0, 36773, 4.63, 1, 1, 'Fallen Adventurer''s Leggings'),
+	(24475, 0, 49981, 4.48, 1, 1, 'Eldan Runic Module'),
+	(24475, 0, 36776, 4.17, 1, 1, 'Glittering Gold-Studded Armor'),
+	(24475, 0, 36779, 4.01, 1, 1, 'Gold-Embossed Gloves'),
+	(24475, 0, 36786, 4.01, 1, 1, 'Thunderstrike'),
+	(24475, 0, 36781, 3.86, 1, 1, 'Thunderfoot''s Stampy Leggings'),
+	(24475, 0, 14280, 2.78, 1, 1, 'Tender Meat'),
+	(24475, 0, 36787, 2.62, 1, 1, 'Thunderzooka'),
+	(24475, 0, 36783, 2.16, 1, 1, 'Thunderfoot''s Hairy Eyeball'),
+	(24475, 0, 14237, 1.7, 1, 1, 'Reinforced Leather'),
+	(24475, 0, 29588, 1.7, 1, 1, 'Sign of Earth'),
+	(24475, 0, 30729, 1.54, 1, 1, 'Shock & Awe AMP'),
+	(24475, 0, 34032, 1.23, 1, 1, 'Healing Touch AMP'),
+	(24475, 0, 30709, 1.08, 1, 1, 'Vengeance AMP'),
+	(24475, 0, 34722, 1.08, 1, 1, 'Dash for Heals! AMP'),
+	(24475, 0, 34683, 0.93, 1, 1, 'Defense Mechanism AMP'),
+	(24475, 0, 30491, 0.93, 1, 1, 'MKII Battle Suit AMP'),
+	(24475, 0, 34029, 0.93, 1, 1, 'The Humanity AMP'),
+	(24475, 0, 34669, 0.93, 1, 1, 'Core Damage AMP'),
+	(24475, 0, 42997, 0.77, 1, 1, 'Mangled Carcass'),
+	(24475, 0, 37485, 0.77, 1, 1, 'Kinetic Burst AMP'),
+	(24475, 0, 30494, 0.77, 1, 1, 'Impenetrable AMP'),
+	(24475, 0, 29589, 0.77, 1, 1, 'Sign of Earth - Greater'),
+	(24475, 0, 34028, 0.77, 1, 1, 'Follow Through AMP'),
+	(24475, 0, 29590, 0.77, 1, 1, 'Sign of Earth - Major'),
+	(24475, 0, 34758, 0.77, 1, 1, 'Forceful Impact AMP'),
+	(24475, 0, 30727, 0.62, 1, 1, 'Power Surge AMP'),
+	(24475, 0, 34670, 0.62, 1, 1, 'Meltdown AMP'),
+	(24475, 0, 42998, 0.62, 1, 1, 'Fresh Game'),
+	(24475, 0, 34742, 0.62, 1, 1, 'Boosted Armor AMP'),
+	(24475, 0, 30726, 0.62, 1, 1, 'Readiness AMP'),
+	(24475, 0, 30492, 0.62, 1, 1, 'To the Pain AMP'),
+	(24475, 0, 34756, 0.46, 1, 1, 'The Zone AMP'),
+	(24475, 0, 34717, 0.46, 1, 1, 'Precision AMP'),
+	(24475, 0, 30708, 0.46, 1, 1, 'Overpower AMP'),
+	(24475, 0, 34707, 0.46, 1, 1, 'That''s All You Got? AMP'),
+	(24475, 0, 30723, 0.46, 1, 1, 'Speed of the Void AMP'),
+	(24475, 0, 30502, 0.46, 1, 1, 'Kinetic Drive AMP'),
+	(24475, 0, 30716, 0.46, 1, 1, 'Burst Power AMP'),
+	(24475, 0, 34685, 0.46, 1, 1, 'Scalpel! Forceps! AMP'),
+	(24475, 0, 34710, 0.46, 1, 1, 'Don''t Call it a Comeback AMP'),
+	(24475, 0, 34046, 0.46, 1, 1, 'Tactician AMP'),
+	(24475, 0, 16129, 0.31, 1, 1, 'Tempered Bone'),
+	(24475, 0, 30711, 0.31, 1, 1, 'Trigger Fingers AMP'),
+	(24475, 0, 34671, 0.31, 1, 1, 'Protective Surge AMP'),
+	(24475, 0, 30582, 0.15, 1, 1, 'Plushie (Gorganoth)'),
+	(24475, 0, 14249, 0.15, 1, 1, 'Stonebound Pelt'),
+	(24475, 0, 16130, 0.15, 1, 1, 'Steel Bone'),
+	(24475, 0, 14248, 0.15, 1, 1, 'Hardened Pelt');
 
 -- Bosun Octog (412 kills recorded, bosun-octog-20)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (24486, NULL, 100, 0, 0, 0, 0, 'Bosun Octog');
