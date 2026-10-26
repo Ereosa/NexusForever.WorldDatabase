@@ -13606,3 +13606,15 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+136, 10, 50),
     (@GUID+137, 0, 1),
     (@GUID+137, 10, 50);
+
+-- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture, third pass (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Exile Informant (46162): Blast Off to the Borellian Cluster (8798) giver. Position: Jabbithole http://www.jabbithole.com/npcs/exile-informant-14.
+    (@GUID+1, 0, 46162, @WORLD, 2548, 3961, -787.826, -2388, 0, 0, 0, 36788, 8991, 171, 171, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 14);
