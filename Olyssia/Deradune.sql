@@ -33053,3 +33053,11 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
     (@GUID+1, 32, 75889, @WORLD, 584, -5078.22, -948.494, -1514.86, 0.9210804, 0, 0, 33012, 0, 219, 219);
 INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 0, 1840);
+
+-- --------------------------------------
+-- Quest creatures standing at their own objective marker (sixth pass, generated from the client data)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Unstable Accelerite (29576): Unstable Accelerite (6485) giver and objective 0 pick up. Position: WorldLocation2 23130, the pick up marker.
+    (@GUID+1, 10, 29576, @WORLD, 1529, -5036.8, -972.815, -654.166, 0, 0, 0, 25444, 0, 219, 219, 0);
