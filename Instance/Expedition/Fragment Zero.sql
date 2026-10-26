@@ -1149,7 +1149,7 @@ INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
 -- Travel Advisory - Ekose Shiphands Union (69057)
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
 INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
-    (@GUID + 1, 10, 69057, @WORLD, 4619, 9831.000, -766.000, -5822.000, 1.6782, 0, 0, 0, 0, 219, 219, 0);
+    (@GUID + 1, 10, 69057, @WORLD, 4619, 9837.000, -766.000, -5819.000, 1.6782, 0, 0, 0, 0, 219, 219, 0);
 INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
     (@GUID + 1, @EVENTID, 0);
 
