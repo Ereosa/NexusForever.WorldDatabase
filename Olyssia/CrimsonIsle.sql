@@ -7832,3 +7832,58 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 20, 0),
     (@GUID+1, 21, 0),
     (@GUID+1, 22, 0);
+
+-- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Mondo Zax (24337): Moving Up (5623) receiver. Position: WorldLocation2, receiver location 5604.
+    (@GUID+1, 0, 24337, @WORLD, 1284, -7582.703, -953.792, -1292.1, 0, 0, 0, 25202, 9079, 170, 170, 0),
+    (@GUID+2, 0, 24337, @WORLD, 1227, -7662.747, -942.948, -671.901, 0, 0, 0, 25202, 9079, 170, 170, 0),
+    -- Kezrek Warbringer (24338): Enforced Radio Silence (5580) giver, Enforced Radio Silence (5580) receiver, Heavy Armor (5583) receiver. Position: WorldLocation2, receiver location 5580.
+    (@GUID+3, 0, 24338, @WORLD, 1284, -7587.974, -953.929, -1300.335, 0, 0, 0, 25194, 9076, 170, 170, 0),
+    -- Corporal Deraakh (24982): Search and Seizure (5713) giver, Search and Seizure (5713) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/corporal-deraakh-12.
+    (@GUID+4, 0, 24982, @WORLD, 1218, -7145, -969.646, -1166, 0, 0, 0, 26073, 9004, 170, 170, 0),
+    -- Air Drop Crate (25202): Supply Drop (8117) giver, Supply Drop (8117) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/air-drop-crate-12.
+    (@GUID+5, 10, 25202, @WORLD, 1219, -7735, -950.092, -1395, 0, 0, 0, 21977, 0, 219, 219, 0),
+    -- M.A.C. (29068): Ability Training 101 (9166) receiver. Position: WorldLocation2, receiver location 9166.
+    (@GUID+6, 10, 29068, @WORLD, 1227, -7709.549, -939.608, -655.995, -1.525, 0, 0, 33531, 0, 170, 170, 0),
+    -- Agent Infivan (53656): Welcome to Crimson Isle (9131) giver. Position: Jabbithole http://www.jabbithole.com/npcs/agent-infivan-12.
+    (@GUID+7, 0, 53656, @WORLD, 1236, -8255, -994.747, -240, 0, 0, 0, 30261, 9527, 170, 170, 0),
+    -- Engineer Zric (53715): Welcome to Crimson Isle (9132) giver. Position: Jabbithole http://www.jabbithole.com/npcs/engineer-zric-12.
+    (@GUID+8, 0, 53715, @WORLD, 1236, -8254.228, -995, -237.622, 0, 0, 0, 30264, 9005, 170, 170, 0),
+    -- Scout Naharra (53725): Welcome to Crimson Isle (9134) giver. Position: Jabbithole http://www.jabbithole.com/npcs/scout-naharra-12.
+    (@GUID+9, 0, 53725, @WORLD, 1237, -7661, -993.054, 46, 0, 0, 0, 30265, 9005, 170, 170, 0),
+    -- Scientist Trinix (71137): The Royal Collegium (10084) giver, The Royal Collegium (10084) receiver, The Royal Collegium (10088) giver. Position: WorldLocation2, receiver location 10084.
+    (@GUID+10, 0, 71137, @WORLD, 1236, -8236.64, -996.671, -242.023, 1.719, 0, 0, 30058, 9057, 170, 170, 0),
+    -- Explorer Grubozz (71138): The Exploration Society (10085) giver, The Exploration Society (10085) receiver, The Exploration Society (10089) giver. Position: WorldLocation2, receiver location 10085.
+    (@GUID+11, 0, 71138, @WORLD, 1236, -8235.867, -996.267, -239.645, 1.719, 0, 0, 30060, 9361, 170, 170, 0),
+    -- Settler Decima (71139): The Settlement Authority (10086) giver, The Settlement Authority (10086) receiver, The Settlement Authority (10090) giver. Position: WorldLocation2, receiver location 10086.
+    (@GUID+12, 0, 71139, @WORLD, 1236, -8238.662, -995.973, -240.553, 1.719, 0, 0, 30061, 10104, 170, 170, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 50),
+    (@GUID+2, 0, 1),
+    (@GUID+2, 10, 50),
+    (@GUID+3, 0, 1),
+    (@GUID+3, 10, 50),
+    (@GUID+4, 0, 1),
+    (@GUID+4, 10, 6),
+    (@GUID+5, 0, 1),
+    (@GUID+5, 10, 1),
+    (@GUID+6, 0, 1),
+    (@GUID+6, 10, 40),
+    (@GUID+7, 0, 1),
+    (@GUID+7, 10, 3),
+    (@GUID+8, 0, 1),
+    (@GUID+8, 10, 3),
+    (@GUID+9, 0, 1),
+    (@GUID+9, 10, 3),
+    (@GUID+10, 0, 1),
+    (@GUID+10, 10, 5),
+    (@GUID+11, 0, 1),
+    (@GUID+11, 10, 5),
+    (@GUID+12, 0, 1),
+    (@GUID+12, 10, 5);

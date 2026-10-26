@@ -3957,17 +3957,19 @@ SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
 INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `ActivePropId`) VALUES
     (@GUID+1, 10, 18678, @WORLD, 729, 4093.658, -684.2278, -5960.689, -0.4515721, 0, 0, 24340, 0, 219, 219, 1117738);
 -- --------------------------------------
--- Inactive Dominion Turret
+-- Dominion Turret (Camp Icefury)
+-- The sniffed spawns are the Inactive Dominion Turret (18680) from after the camp is taken in Act III, without phasing
+-- that left Shellshock with friendly turrets, so the active Dominion Turret from the quest's kill objective stands here instead.
 -- --------------------------------------
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
 INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
-    (@GUID+1, 0, 18680, @WORLD, 602, 4422.079, -720.4052, -5303.209, -0.5189936, 0, 0, 23584, 0, 219, 219, 4),
-    (@GUID+2, 0, 18680, @WORLD, 602, 4509.854, -724.7096, -5309.869, -0.03695418, 0, 0, 23584, 0, 219, 219, 3),
-    (@GUID+3, 0, 18680, @WORLD, 602, 4454.784, -701.4589, -5191.106, 1.477901, 0, 0, 23584, 0, 219, 219, 2),
-    (@GUID+4, 0, 18680, @WORLD, 602, 4458.05, -718.5346, -5222.874, -0.1786724, 0, 0, 23584, 0, 219, 219, 5),
-    (@GUID+5, 0, 18680, @WORLD, 602, 4477.349, -718.5511, -5277.75, -1.119624, 0, 0, 23584, 0, 219, 219, 0),
-    (@GUID+6, 0, 18680, @WORLD, 602, 4386.455, -718.9992, -5284.12, -0.8561072, 0, 0, 23584, 0, 219, 219, 6),
-    (@GUID+7, 0, 18680, @WORLD, 602, 4454.839, -717.8893, -5255.921, -1.942211, 0, 0, 23584, 0, 219, 219, 1);
+    (@GUID+1, 13, 17075, @WORLD, 602, 4422.079, -720.4052, -5303.209, -0.5189936, 0, 0, 23584, 0, 170, 170, 0),
+    (@GUID+2, 13, 17075, @WORLD, 602, 4509.854, -724.7096, -5309.869, -0.03695418, 0, 0, 23584, 0, 170, 170, 0),
+    (@GUID+3, 13, 17075, @WORLD, 602, 4454.784, -701.4589, -5191.106, 1.477901, 0, 0, 23584, 0, 170, 170, 0),
+    (@GUID+4, 13, 17075, @WORLD, 602, 4458.05, -718.5346, -5222.874, -0.1786724, 0, 0, 23584, 0, 170, 170, 0),
+    (@GUID+5, 13, 17075, @WORLD, 602, 4477.349, -718.5511, -5277.75, -1.119624, 0, 0, 23584, 0, 170, 170, 0),
+    (@GUID+6, 13, 17075, @WORLD, 602, 4386.455, -718.9992, -5284.12, -0.8561072, 0, 0, 23584, 0, 170, 170, 0),
+    (@GUID+7, 13, 17075, @WORLD, 602, 4454.839, -717.8893, -5255.921, -1.942211, 0, 0, 23584, 0, 170, 170, 0);
 INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 0, 700),
     (@GUID+1, 10, 5),

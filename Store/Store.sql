@@ -3896,3 +3896,29 @@ INSERT INTO `store_offer_item_price` (`id`, `currencyId`, `price`, `discountType
 	(3388, 11, 2080, 0, 0, 1003601851, -1016071787),
 	(3389, 6, 395, 0, 0, -671442181, -1016071787),
 	(3389, 11, 790, 0, 0, -671442181, -1016071787);
+
+
+/* Boom-Box: account item 29, claimable once a day (AccountItemCooldownGroup 3), contents in Loot/LootContainers.sql */
+INSERT INTO `store_offer_group` (`id`, `displayFlags`, `name`, `description`, `displayInfoOverride`, `visible`) VALUES
+	(9000, 4, 'Boom-Boxes', 'A Boom-Box bursting with wondrous prizes, as given with boxed and pre-order copies of WildStar. Boom-Boxes wait in your account inventory and one can be claimed each day, salvage it to open it.', 0, 1);
+
+INSERT INTO `store_offer_group_category` (`id`, `categoryId`, `index`, `visible`) VALUES
+	(9000, 49, 2, 1);
+
+INSERT INTO `store_offer_item` (`id`, `groupId`, `name`, `description`, `displayFlags`, `field_6`, `field_7`, `visible`) VALUES
+	(9001, 9000, 'Boom-Box', 'One (1) Boom-Box. A Boom-Box bursting with wondrous prizes, as given with boxed and pre-order copies of WildStar. Boom-Boxes wait in your account inventory and one can be claimed each day, salvage it to open it.', 0, -1016071787, 0, 1),
+	(9002, 9000, 'Boom-Box - 7 Pack', 'Seven (7) Boom-Boxes, one for each day of the week. A Boom-Box bursting with wondrous prizes, as given with boxed and pre-order copies of WildStar. Boom-Boxes wait in your account inventory and one can be claimed each day, salvage it to open it.', 0, -1016071787, 0, 1),
+	(9003, 9000, 'Boom-Box - 30 Pack', 'Thirty (30) Boom-Boxes, a month of daily prizes. A Boom-Box bursting with wondrous prizes, as given with boxed and pre-order copies of WildStar. Boom-Boxes wait in your account inventory and one can be claimed each day, salvage it to open it.', 0, -1016071787, 0, 1);
+
+INSERT INTO `store_offer_item_data` (`id`, `itemId`, `type`, `amount`) VALUES
+	(9001, 29, 0, 1),
+	(9002, 29, 0, 7),
+	(9003, 29, 0, 30);
+
+INSERT INTO `store_offer_item_price` (`id`, `currencyId`, `price`, `discountType`, `discountValue`, `field_14`, `expiry`) VALUES
+	(9001, 6, 40, 0, 0, -235145984, 1995405795),
+	(9001, 11, 80, 0, 0, -235145984, 1995405795),
+	(9002, 6, 250, 0, 0, -235145984, 1995405795),
+	(9002, 11, 500, 0, 0, -235145984, 1995405795),
+	(9003, 6, 1000, 0, 0, -235145984, 1995405795),
+	(9003, 11, 2000, 0, 0, -235145984, 1995405795);

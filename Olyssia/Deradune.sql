@@ -33055,6 +33055,270 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 0, 1840);
 
 -- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- unnamed (9758): Simple Samples (9426) objective 2 type 8 count 5. Position: WorldLocation2, objective indicator 9426.2.
+    (@GUID+1, 0, 9758, @WORLD, 1709, -4389.805, -938.521, -1421.065, 0, 0, 0, 21885, 0, 0, 0, 0),
+    (@GUID+2, 0, 9758, @WORLD, 1709, -4408.678, -939, -1427.521, -0.045, 0, 0, 21885, 0, 0, 0, 0),
+    (@GUID+3, 0, 9758, @WORLD, 1709, -4398.521, -938.174, -1406.174, -2.8043, 0, 0, 21885, 0, 0, 0, 0),
+    (@GUID+4, 0, 9758, @WORLD, 1709, -4372.178, -936, -1416.149, -1.8528, 0, 0, 21885, 0, 0, 0, 0),
+    (@GUID+5, 0, 9758, @WORLD, 1709, -4399.678, -939, -1424.062, 1.1239, 0, 0, 21885, 0, 0, 0, 0),
+    -- unnamed (9759): Simple Samples (9426) objective 2 type 8 count 5. Position: WorldLocation2, objective indicator 9426.2.
+    (@GUID+6, 0, 9759, @WORLD, 1709, -4389.805, -938.521, -1421.065, 0, 0, 0, 21631, 0, 174, 174, 0),
+    (@GUID+7, 0, 9759, @WORLD, 1709, -4380.843, -937.337, -1416.507, -1.9363, 0, 0, 21631, 0, 174, 174, 0),
+    (@GUID+8, 0, 9759, @WORLD, 1709, -4398.953, -939, -1423.893, 2.6866, 0, 0, 21631, 0, 174, 174, 0),
+    (@GUID+9, 0, 9759, @WORLD, 1709, -4401.112, -939, -1420.449, -1.0755, 0, 0, 21631, 0, 174, 174, 0),
+    (@GUID+10, 0, 9759, @WORLD, 1709, -4384.083, -938.5, -1424.417, -0.2539, 0, 0, 21631, 0, 174, 174, 0),
+    -- Ship Engine (9768): Cornered Prey (3160) objective 2 type 14 count 2. Position: WorldLocation2, objective indicator 3160.2.
+    (@GUID+11, 10, 9768, @WORLD, 490, -5686.801, -999.34, 120.747, 0, 0, 0, 27794, 0, 219, 219, 0),
+    (@GUID+12, 10, 9768, @WORLD, 490, -5683.623, -999, 101.989, -0.1086, 0, 0, 27794, 0, 219, 219, 1),
+    -- Firewalker Jarrok (9799): Maintaining Ones Honor (3166) objective 1 type 2 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/firewalker-jarrok-15.
+    (@GUID+13, 0, 9799, @WORLD, 1339, -5391, -992.926, 59, 0, 0, 0, 26571, 9194, 219, 219, 0),
+    -- Captured Shadeleaf Weaver (10137): Enhanced Interrogation (5796) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 5796.0.
+    (@GUID+14, 0, 10137, @WORLD, 484, -5607.229, -978.717, -611.17, 0, 0, 0, 22531, 9063, 219, 219, 0),
+    -- Redmoon Bandit (10190): Simple Samples (9426) objective 2 type 8 count 5. Position: WorldLocation2, objective indicator 9426.2.
+    (@GUID+15, 0, 10190, @WORLD, 1709, -4389.805, -938.521, -1421.065, 0, 0, 0, 21472, 0, 390, 390, 0),
+    (@GUID+16, 0, 10190, @WORLD, 1709, -4388.787, -937.861, -1404.554, -0.2787, 0, 0, 21472, 0, 390, 390, 0),
+    (@GUID+17, 0, 10190, @WORLD, 1709, -4407.039, -939, -1425.678, 0.4872, 0, 0, 21472, 0, 390, 390, 0),
+    (@GUID+18, 0, 10190, @WORLD, 1709, -4401.32, -939, -1429.856, 0.947, 0, 0, 21472, 0, 390, 390, 0),
+    (@GUID+19, 0, 10190, @WORLD, 1709, -4381.727, -938.932, -1432.577, 2.8118, 0, 0, 21472, 0, 390, 390, 0),
+    -- Scout Furlo (10278): Eaten! (3297) receiver. Position: WorldLocation2, receiver location 3297.
+    (@GUID+20, 0, 10278, @WORLD, 484, -5645.281, -978.142, -764.027, 0, 0, 0, 32871, 9027, 170, 170, 0),
+    -- Huntress Kezzia (10334): Blood for Blood (3170) objective 0 type 3 count 1. Position: WorldLocation2, objective indicator 3170.0.
+    (@GUID+21, 0, 10334, @WORLD, 1529, -4901.673, -955.493, -649.913, 1.306, 0, 0, 26524, 9194, 170, 170, 0),
+    -- Ship Cockpit (10343): Cornered Prey (3160) objective 3 type 12 count 1. Position: WorldLocation2, objective indicator 3160.3.
+    (@GUID+22, 10, 10343, @WORLD, 490, -5689.452, -991.337, 126.187, -0.227, 0, 0, 27794, 0, 219, 219, 0),
+    -- Clanlord Makaza (10476): Arrival of the Luminai (3347) receiver. Position: WorldLocation2, receiver location 3347.
+    (@GUID+23, 0, 10476, @WORLD, 1357, -5746.737, -971.532, -623.188, 2.094, 0, 0, 26523, 9197, 610, 610, 0),
+    -- Ancient Skeleton (23775): Dark Moodie Magic (5501) objective 1 type 25 count 1. Position: WorldLocation2, objective indicator 5501.1.
+    (@GUID+24, 0, 23775, @WORLD, 1704, -5515.403, -915.485, -1700.503, 4.111, 0, 0, 25021, 0, 218, 218, 0),
+    -- Ancient Skeleton (23790): Dark Moodie Magic (5501) objective 1 type 25 count 1. Position: WorldLocation2, objective indicator 5501.1.
+    (@GUID+25, 0, 23790, @WORLD, 1704, -5515.403, -915.485, -1700.503, 4.111, 0, 0, 25021, 0, 218, 218, 0),
+    -- Emissary Autarkas Head (23995): Rescue the Emissaries (5512) receiver, Autarkas Response (5517) giver, Autarkas Response (5517) receiver. Position: WorldLocation2, receiver location 5512.
+    (@GUID+26, 10, 23995, @WORLD, 587, -4638.683, -857.073, -1710.34, 3.13, 0, 0, 38372, 0, 170, 170, 0),
+    -- Clanlord Makaza (24000): Hostile Negotiations (5511) receiver, Rescue the Emissaries (5512) giver, Challenge the Strongest (5513) giver. Position: WorldLocation2, receiver location 5511.
+    (@GUID+27, 0, 24000, @WORLD, 1212, -4714.696, -910.215, -1549.195, 0, 0, 0, 26523, 9197, 170, 170, 0),
+    -- Mechari Torso (24001): Picking up the Pieces  (5519) objective 0 type 32 count 1. Position: WorldLocation2, objective indicator 5519.0.
+    (@GUID+28, 8, 24001, @WORLD, 587, -4647.015, -859.1, -1918.85, 2.013, 0, 0, 25247, 0, 170, 170, 0),
+    -- Mechari Legs (24002): Picking up the Pieces  (5519) objective 1 type 32 count 1. Position: WorldLocation2, objective indicator 5519.1.
+    (@GUID+29, 8, 24002, @WORLD, 587, -4379.215, -858.347, -1742.61, 2.829, 0, 0, 25246, 0, 170, 170, 0),
+    -- Mechari Arms (24003): Picking up the Pieces  (5519) objective 2 type 32 count 1. Position: WorldLocation2, objective indicator 5519.2.
+    (@GUID+30, 8, 24003, @WORLD, 587, -4484.045, -852.048, -1624.786, 1.599, 0, 0, 25245, 0, 170, 170, 0),
+    -- Mondo Zax (24004): Innovative Methods (5514) receiver, Primal Air Energies (5521) receiver. Position: WorldLocation2, receiver location 5514.
+    (@GUID+31, 0, 24004, @WORLD, 1212, -4708.677, -910.215, -1547.959, 1.775, 0, 0, 25202, 9079, 170, 170, 0),
+    (@GUID+32, 0, 24004, @WORLD, 584, -5096.974, -944.671, -1556.665, -0, 0, 0, 25202, 9079, 170, 170, 0),
+    -- Minion Togor (24687): Huge Success! (5628) objective 0 type 3 count 1. Position: WorldLocation2, objective indicator 5628.0.
+    (@GUID+33, 0, 24687, @WORLD, 585, -4497.709, -927.384, -1308.415, 0, 0, 0, 27528, 9058, 170, 170, 0),
+    -- Researcher Zamm (24786): Zamm in a Jam (5688) objective 1 type 3 count 1. Position: WorldLocation2, objective indicator 5688.1.
+    (@GUID+34, 0, 24786, @WORLD, 586, -4396.79, -931.34, -1020.03, 3.742, 0, 0, 25938, 9058, 170, 170, 0),
+    -- DATACUBE: Fail-Safe Mechanism (24858): Fragments of the Past (5694) objective 2 type 12 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/datacube-fail-safe-mechanism-15.
+    (@GUID+35, 10, 24858, @WORLD, 486, -4996, -1206.143, -1757, 0, 0, 0, 23302, 0, 219, 219, 0),
+    -- Eldan Datacube Fragment (25248): Fragments of the Past (5694) objective 0 type 32 count 6. Position: Jabbithole http://www.jabbithole.com/npcs/eldan-datacube-fragment-15.
+    (@GUID+36, 8, 25248, @WORLD, 486, -5006, -946.716, -1788, 0, 0, 0, 24695, 0, 219, 219, 0),
+    (@GUID+37, 8, 25248, @WORLD, 486, -5000.11, -947, -1791.21, 1.9906, 0, 0, 24695, 0, 219, 219, 0),
+    (@GUID+38, 8, 25248, @WORLD, 486, -5015.585, -946.542, -1792.167, 1.4496, 0, 0, 24695, 0, 219, 219, 0),
+    (@GUID+39, 8, 25248, @WORLD, 486, -5024.273, -945.62, -1780.967, 0.4826, 0, 0, 24695, 0, 219, 219, 0),
+    (@GUID+40, 8, 25248, @WORLD, 486, -5015.7, -945.839, -1788.086, 2.8, 0, 0, 24695, 0, 219, 219, 0),
+    (@GUID+41, 8, 25248, @WORLD, 486, -5020.554, -942.889, -1777, 2.3362, 0, 0, 24695, 0, 219, 219, 0),
+    -- Mondo Zax (25811): Simple Samples (9426) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/mondo-zax-15.
+    (@GUID+42, 0, 25811, @WORLD, 1212, -4707.228, -910.193, -1544.622, 0, 0, 0, 25202, 9079, 170, 170, 0),
+    -- The Caretaker (26204): Organic Dismemberment (5905) giver. Position: WorldLocation2, receiver location 5992.
+    (@GUID+43, 10, 26204, @WORLD, 1339, -5147.28, -1150.422, 410.08, 1.571, 0, 0, 24983, 0, 219, 219, 0),
+    -- The Caretaker (26205): Organic Dismemberment (5905) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/the-caretaker-15.
+    (@GUID+44, 10, 26205, @WORLD, 486, -5014, -1202.274, -1857, 0, 0, 0, 24983, 0, 219, 219, 0),
+    -- Subject A43K (26211): Lost Mammodin (5911) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 5911.1.
+    (@GUID+45, 10, 26211, @WORLD, 1752, -4815.041, -959.347, -377.21, 0, 0, 0, 22924, 0, 219, 219, 0),
+    -- Goldfang Corpse (26230): Delivering the Bad News (5914) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 5914.2.
+    (@GUID+46, 10, 26230, @WORLD, 1752, -4582.1, -967.875, -333.7, 0, 0, 0, 22700, 0, 219, 219, 0),
+    (@GUID+47, 10, 26230, @WORLD, 1752, -4619.016, -964.469, -280.399, 0, 0, 0, 22700, 0, 219, 219, 0),
+    (@GUID+48, 10, 26230, @WORLD, 1752, -4700.95, -959.414, -180.896, 0, 0, 0, 22700, 0, 219, 219, 0),
+    -- Dusktail Corpse (26231): Delivering the Bad News (5914) objective 3 type 12 count 1. Position: WorldLocation2, objective indicator 5914.3.
+    (@GUID+49, 10, 26231, @WORLD, 1752, -4627.77, -965.505, -182.276, 0, 0, 0, 23028, 0, 219, 219, 0),
+    (@GUID+50, 10, 26231, @WORLD, 1752, -4584.81, -967.653, -284.972, 0, 0, 0, 23028, 0, 219, 219, 0),
+    -- Rusthoof Corpse (26232): Delivering the Bad News (5914) objective 4 type 12 count 1. Position: WorldLocation2, objective indicator 5914.4.
+    (@GUID+51, 10, 26232, @WORLD, 1752, -4588.16, -950.162, 22.042, 0, 0, 0, 23026, 0, 219, 219, 0),
+    (@GUID+52, 10, 26232, @WORLD, 1752, -4716.56, -948.664, 0.855, 0, 0, 0, 23026, 0, 219, 219, 0),
+    -- Redwing Communicator (26240): Poacher Hunt (5915) objective 0 type 17 count 1. Position: WorldLocation2, objective indicator 5915.0.
+    (@GUID+53, 10, 26240, @WORLD, 1324, -4807.255, -950.378, 276.3, 0, 0, 0, 21717, 0, 219, 219, 0),
+    -- A37 Augmentor (26325): Organic Dismemberment (5905) objective 2 type 25 count 1. Position: WorldLocation2, objective indicator 5905.2.
+    (@GUID+54, 0, 26325, @WORLD, 1339, -5102.219, -1220.113, 406.633, 0, 0, 0, 23868, 0, 233, 233, 0),
+    -- A37 Augmentor (26436): Eldan Decryption (5918) objective 1 type 5 count 1. Position: WorldLocation2, objective indicator 5918.1.
+    (@GUID+55, 0, 26436, @WORLD, 1880, -5135.52, -977.423, 57.557, -0.161, 0, 0, 23868, 0, 256, 256, 0),
+    -- Agent Lex (26908): Firewalker SOS (6037) receiver, Hunting the Mercenary (6045) giver, Hunting the Mercenary (6045) receiver. Position: WorldLocation2, receiver location 6037.
+    (@GUID+56, 0, 26908, @WORLD, 637, -4432.764, -968.342, -620.995, 0, 0, 0, 26446, 9082, 170, 170, 0),
+    (@GUID+57, 0, 26908, @WORLD, 640, -4423.377, -967.511, 35.893, 0, 0, 0, 26446, 9082, 170, 170, 0),
+    -- Injured ICI Tracker (26968): Hunting the Mercenary (6045) objective 2 type 3 count 1. Position: WorldLocation2, objective indicator 6045.2.
+    (@GUID+58, 10, 26968, @WORLD, 638, -4229.741, -948.601, -156.183, 0, 0, 0, 30354, 9497, 170, 170, 0),
+    -- Stolen ICI Speeder (26978): Hunting the Mercenary (6045) objective 3 type 12 count 1. Position: WorldLocation2, objective indicator 6045.3.
+    (@GUID+59, 10, 26978, @WORLD, 640, -4423.377, -967.511, 35.893, 0, 0, 0, 21667, 0, 170, 170, 0),
+    -- Conservationist Caius (26997): Delivering the Bad News (5914) objective 0 type 3 count 1. Position: WorldLocation2, objective indicator 5914.0.
+    (@GUID+60, 0, 26997, @WORLD, 639, -4667.214, -969.249, -429.523, 0, 0, 0, 26020, 9058, 170, 170, 0),
+    -- unnamed (30705): Capture the Mercenary (5607) objective 1 type 5 count 1. Position: WorldLocation2, objective indicator 5607.1.
+    (@GUID+61, 0, 30705, @WORLD, 1339, -5274.59, -1002.814, 98.453, 2.11, 0, 0, 21350, 7480, 171, 171, 0),
+    -- Mercenary Arkos (31271): Leave No Leaf Unturned (6072) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/mercenary-arkos-15.
+    (@GUID+62, 0, 31271, @WORLD, 1339, -5247, -1000.564, 88, 0, 0, 0, 22575, 8981, 170, 170, 0),
+    -- Dominion Medical Kit (33732): Hunting the Mercenary (6045) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 6045.0.
+    (@GUID+63, 10, 33732, @WORLD, 638, -4184.008, -940.011, -464.078, -0, 0, 0, 23423, 0, 219, 219, 0),
+    -- Wounded Game Huntress (33733): Hunting the Mercenary (6045) objective 1 type 3 count 1. Position: WorldLocation2, objective indicator 6045.1.
+    (@GUID+64, 0, 33733, @WORLD, 638, -4294.296, -944.6, -346.697, 0, 0, 0, 26575, 9201, 170, 170, 0),
+    -- Settler Project Resource (34973): SETTLER: Project Tutorial - Bloodfire Village (7227) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 7227.0.
+    (@GUID+65, 8, 34973, @WORLD, 484, -5708.172, -974.707, -609.9, 0, 0, 0, 26563, 0, 219, 219, 0),
+    -- DATACUBE: Skeletal Catalyst (40187): The Icing on the Cake (5907) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 5907.0.
+    (@GUID+66, 10, 40187, @WORLD, 483, -5102.409, -1207.511, 595.189, -0, 0, 0, 23302, 0, 219, 219, 0),
+    -- Dominion Flag (60157): Simple Samples (9426) objective 2 type 8 count 5. Position: WorldLocation2, objective indicator 9426.2.
+    (@GUID+67, 10, 60157, @WORLD, 1709, -4389.805, -938.521, -1421.065, 0, 0, 0, 24158, 0, 219, 219, 0),
+    (@GUID+68, 10, 60157, @WORLD, 1709, -4390.404, -938, -1415.079, 1.8131, 0, 0, 24158, 0, 219, 219, 0),
+    (@GUID+69, 10, 60157, @WORLD, 1709, -4395.509, -939, -1428.374, 0.812, 0, 0, 24158, 0, 219, 219, 0),
+    (@GUID+70, 10, 60157, @WORLD, 1709, -4395.421, -939, -1429.086, -0.6089, 0, 0, 24158, 0, 219, 219, 0),
+    (@GUID+71, 10, 60157, @WORLD, 1709, -4388.038, -937.977, -1404.093, 2.5522, 0, 0, 24158, 0, 219, 219, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 1),
+    (@GUID+2, 0, 1),
+    (@GUID+2, 10, 1),
+    (@GUID+3, 0, 1),
+    (@GUID+3, 10, 1),
+    (@GUID+4, 0, 1),
+    (@GUID+4, 10, 1),
+    (@GUID+5, 0, 1),
+    (@GUID+5, 10, 1),
+    (@GUID+6, 0, 1),
+    (@GUID+6, 10, 1),
+    (@GUID+7, 0, 1),
+    (@GUID+7, 10, 1),
+    (@GUID+8, 0, 1),
+    (@GUID+8, 10, 1),
+    (@GUID+9, 0, 1),
+    (@GUID+9, 10, 1),
+    (@GUID+10, 0, 1),
+    (@GUID+10, 10, 1),
+    (@GUID+11, 0, 1),
+    (@GUID+11, 10, 8),
+    (@GUID+12, 0, 1),
+    (@GUID+12, 10, 8),
+    (@GUID+13, 0, 1),
+    (@GUID+13, 10, 8),
+    (@GUID+14, 0, 1),
+    (@GUID+14, 10, 7),
+    (@GUID+15, 0, 1),
+    (@GUID+15, 10, 28),
+    (@GUID+16, 0, 1),
+    (@GUID+16, 10, 28),
+    (@GUID+17, 0, 1),
+    (@GUID+17, 10, 28),
+    (@GUID+18, 0, 1),
+    (@GUID+18, 10, 28),
+    (@GUID+19, 0, 1),
+    (@GUID+19, 10, 28),
+    (@GUID+20, 0, 1),
+    (@GUID+20, 10, 8),
+    (@GUID+21, 0, 1),
+    (@GUID+21, 10, 7),
+    (@GUID+22, 0, 1),
+    (@GUID+22, 10, 8),
+    (@GUID+23, 0, 1),
+    (@GUID+23, 10, 10),
+    (@GUID+24, 0, 1),
+    (@GUID+24, 10, 7),
+    (@GUID+25, 0, 1),
+    (@GUID+25, 10, 7),
+    (@GUID+26, 0, 1),
+    (@GUID+26, 10, 10),
+    (@GUID+27, 0, 1),
+    (@GUID+27, 10, 10),
+    (@GUID+28, 0, 1),
+    (@GUID+28, 10, 12),
+    (@GUID+29, 0, 1),
+    (@GUID+29, 10, 12),
+    (@GUID+30, 0, 1),
+    (@GUID+30, 10, 12),
+    (@GUID+31, 0, 1),
+    (@GUID+31, 10, 50),
+    (@GUID+32, 0, 1),
+    (@GUID+32, 10, 50),
+    (@GUID+33, 0, 1),
+    (@GUID+33, 10, 10),
+    (@GUID+34, 0, 1),
+    (@GUID+34, 10, 9),
+    (@GUID+35, 0, 1),
+    (@GUID+35, 10, 9),
+    (@GUID+36, 0, 1),
+    (@GUID+36, 10, 9),
+    (@GUID+37, 0, 1),
+    (@GUID+37, 10, 9),
+    (@GUID+38, 0, 1),
+    (@GUID+38, 10, 9),
+    (@GUID+39, 0, 1),
+    (@GUID+39, 10, 9),
+    (@GUID+40, 0, 1),
+    (@GUID+40, 10, 9),
+    (@GUID+41, 0, 1),
+    (@GUID+41, 10, 9),
+    (@GUID+42, 0, 1),
+    (@GUID+42, 10, 50),
+    (@GUID+43, 0, 1),
+    (@GUID+43, 10, 13),
+    (@GUID+44, 0, 1),
+    (@GUID+44, 10, 13),
+    (@GUID+45, 0, 1),
+    (@GUID+45, 10, 10),
+    (@GUID+46, 0, 1),
+    (@GUID+46, 10, 10),
+    (@GUID+47, 0, 1),
+    (@GUID+47, 10, 10),
+    (@GUID+48, 0, 1),
+    (@GUID+48, 10, 10),
+    (@GUID+49, 0, 1),
+    (@GUID+49, 10, 10),
+    (@GUID+50, 0, 1),
+    (@GUID+50, 10, 10),
+    (@GUID+51, 0, 1),
+    (@GUID+51, 10, 10),
+    (@GUID+52, 0, 1),
+    (@GUID+52, 10, 10),
+    (@GUID+53, 0, 1),
+    (@GUID+53, 10, 10),
+    (@GUID+54, 0, 1),
+    (@GUID+54, 10, 14),
+    (@GUID+55, 0, 1),
+    (@GUID+55, 10, 12),
+    (@GUID+56, 0, 1),
+    (@GUID+56, 10, 50),
+    (@GUID+57, 0, 1),
+    (@GUID+57, 10, 50),
+    (@GUID+58, 0, 1),
+    (@GUID+58, 10, 10),
+    (@GUID+59, 0, 1),
+    (@GUID+59, 10, 10),
+    (@GUID+60, 0, 1),
+    (@GUID+60, 10, 15),
+    (@GUID+61, 0, 1),
+    (@GUID+61, 10, 5),
+    (@GUID+62, 0, 1),
+    (@GUID+62, 10, 11),
+    (@GUID+63, 0, 1),
+    (@GUID+63, 10, 10),
+    (@GUID+64, 0, 1),
+    (@GUID+64, 10, 10),
+    (@GUID+65, 0, 1),
+    (@GUID+65, 10, 5),
+    (@GUID+66, 0, 1),
+    (@GUID+66, 10, 1),
+    (@GUID+67, 0, 1),
+    (@GUID+67, 10, 1),
+    (@GUID+68, 0, 1),
+    (@GUID+68, 10, 1),
+    (@GUID+69, 0, 1),
+    (@GUID+69, 10, 1),
+    (@GUID+70, 0, 1),
+    (@GUID+70, 10, 1),
+    (@GUID+71, 0, 1),
+    (@GUID+71, 10, 1);
+
+-- --------------------------------------
 -- Quest creatures standing at their own objective marker (sixth pass, generated from the client data)
 -- --------------------------------------
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
