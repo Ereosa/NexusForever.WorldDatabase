@@ -9772,7 +9772,7 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
     -- Vengeful Mender (36240): By the Throat (7539) giver. Position: Jabbithole http://www.jabbithole.com/npcs/vengeful-mender-27.
     (@GUID+13, 0, 36240, @WORLD, 1419, -156, -920.31, -3452, 0, 0, 0, 21537, 0, 219, 219, 0),
     -- Elderoot (36247): Waking Elderoot (6302) receiver, Elderoots Request (7540) receiver, Everything You Ever Wanted to Know (8784) giver. Position: Jabbithole http://www.jabbithole.com/npcs/elderoot-27, facing and level with WorldLocation2, receiver location 6302.
-    (@GUID+14, 0, 36247, @WORLD, 1416, -338, -905, -3263, 1.6432, 0, 0, 27745, 0, 219, 219, 0),
+    (@GUID+14, 0, 36247, @WORLD, 1416, -338, -900, -3263, 1.6432, 0, 0, 27745, 0, 219, 219, 0),
     -- Infected Alchemist (45535): Combating the Contagion (6297) objective 1 type 23 count 4. Position: WorldLocation2, objective indicator 6297.1.
     (@GUID+15, 0, 45535, @WORLD, 1418, -439.462, -950.668, -2364.844, 0, 0, 0, 29211, 9578, 219, 219, 4),
     (@GUID+16, 0, 45535, @WORLD, 1418, -449.154, -949.211, -2353.557, -1.9719, 0, 0, 29211, 9578, 219, 219, 5),
