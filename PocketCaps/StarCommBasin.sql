@@ -3,7 +3,7 @@
 -- No capture of this map exists, the spawns below are generated quest givers, receivers and objective targets.
 -- --------------------------------------
 SET @WORLD = 2979;
-DELETE FROM `entity` WHERE `world` = @WORLD AND `area` IN (0, 4200, 4201, 4203, 4204, 4205, 4206);
+DELETE FROM `entity` WHERE `world` = @WORLD AND `area` IN (0, 4198, 4200, 4201, 4203, 4204, 4205, 4206);
 
 -- --------------------------------------
 -- Quest givers, receivers and objective targets missing from the capture, fifth pass (generated from the client data:
@@ -1163,3 +1163,12 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+356, 10, 1),
     (@GUID+357, 0, 1),
     (@GUID+357, 10, 1);
+
+-- --------------------------------------
+-- Return contacts at the arrival point (taxis thread): SCS-000 Contact, Dominion 63185 and Exile 63188 (InstancePortal,
+-- display group 33026, DisplayInfo 0 falls back to it). Placed a few metres apart around (366, -954, 41), positions are a guess.
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    (@GUID+1, 14, 63185, @WORLD, 4198, 364, -954, 41, 0, 0, 0, 0, 0, 219, 219, 0),
+    (@GUID+2, 14, 63188, @WORLD, 4198, 368, -954, 41, 0, 0, 0, 0, 0, 219, 219, 0);
