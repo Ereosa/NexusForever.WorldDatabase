@@ -4,7 +4,8 @@
 -- Probabilities are the observed drop chance for each item, rolled independently.
 -- --------------------------------------
 DELETE FROM `entity_loot` WHERE `id` IN (15382, 17520, 19873, 19874, 19876, 19877, 19879, 19885, 19886, 19889, 19890, 19891, 19892, 19893, 19894, 19895, 19896, 19897, 19898, 19900, 19901, 19902, 19968, 19969, 19970, 20305, 20306, 20416, 20452, 20575, 20577, 20578, 20587, 20775, 20776, 20778, 20779, 20780, 20781, 20889, 20895, 20994, 21218, 21219, 21271, 21373, 21463, 21821, 21892, 22224, 22456, 22458, 22460, 22530, 22531, 22532, 22533, 22534, 22540, 22545, 22547, 22548, 22549, 22550, 22551, 22553, 22554, 22583, 22587, 22591, 22598, 22600, 22606, 22607, 22609, 22610, 22611, 22642, 22643, 22679, 22680, 22681, 22765, 22766, 22767, 22775, 23016, 23018, 23097, 23098, 23100, 23101, 23186, 23301, 23302, 23391, 23519, 23656, 23657, 23658, 23660, 23831, 23883, 23884, 24035, 24036, 24037, 24038, 24039, 24040, 24041, 24042, 24067, 24068, 24069, 24070, 24071, 24072, 24073, 24090, 24092, 24093, 24094, 24098, 24100, 24102, 24106, 24183, 24184, 24185, 24196, 24250, 24273, 24282, 24745, 24878, 25994, 25995, 25996, 25997, 25998, 25999, 26000, 26001, 26002, 26003, 26006, 26019, 26020, 26034, 26036, 26038, 26039, 26040, 26041, 26042, 26044, 26045, 26086, 26088, 26091, 26095, 26097, 26104, 26122, 26126, 26127, 26340, 26419, 26453, 26471, 26778, 26860, 27217, 28562, 28564, 29692, 34446, 35441, 37372, 37421, 37423, 37428, 37430, 37431, 37433, 37545, 37593, 37595, 37597, 37667, 39994, 39995, 40797, 44680, 44681, 44682, 44683, 44693, 45283, 45344, 45449, 45454, 45480, 45797, 45799, 45809, 46098, 46663, 46813, 46815, 52400, 53388, 53389, 53390, 53391, 53392, 53393, 53394, 53395, 53396, 53397, 53398, 53399, 54033, 54758, 54791, 61841, 61842, 61851, 61852, 61853, 61854, 61858, 61859, 61861, 61862, 61864, 61867, 61868, 61869, 61870, 61871, 61872, 61873, 61875, 61877, 61878, 61879, 61880, 61882, 61885, 61893, 61894, 61902, 61904, 61905, 61909, 61912, 61914, 61915, 61916, 61917, 61919, 61920, 61934, 61939, 61942, 61947, 61948, 61953, 61954, 61955, 61962, 61968, 61971, 61976, 61979, 61984, 61990, 61998, 62000);
-DELETE FROM `loot_item` WHERE `id` IN (15382, 17520, 19873, 19874, 19876, 19877, 19879, 19885, 19886, 19889, 19890, 19891, 19892, 19893, 19894, 19895, 19896, 19897, 19898, 19900, 19901, 19902, 19968, 19969, 19970, 20305, 20306, 20416, 20452, 20575, 20577, 20578, 20587, 20775, 20776, 20778, 20779, 20780, 20781, 20889, 20895, 20994, 21218, 21219, 21271, 21373, 21463, 21821, 21892, 22224, 22456, 22458, 22460, 22530, 22531, 22532, 22533, 22534, 22540, 22545, 22547, 22548, 22549, 22550, 22551, 22553, 22554, 22583, 22587, 22591, 22598, 22600, 22606, 22607, 22609, 22610, 22611, 22642, 22643, 22679, 22680, 22681, 22765, 22766, 22767, 22775, 23016, 23018, 23097, 23098, 23100, 23101, 23186, 23301, 23302, 23391, 23519, 23656, 23657, 23658, 23660, 23831, 23883, 23884, 24035, 24036, 24037, 24038, 24039, 24040, 24041, 24042, 24067, 24068, 24069, 24070, 24071, 24072, 24073, 24090, 24092, 24093, 24094, 24098, 24100, 24102, 24106, 24183, 24184, 24185, 24196, 24250, 24273, 24282, 24745, 24878, 25994, 25995, 25996, 25997, 25998, 25999, 26000, 26001, 26002, 26003, 26006, 26019, 26020, 26034, 26036, 26038, 26039, 26040, 26041, 26042, 26044, 26045, 26086, 26088, 26091, 26095, 26097, 26104, 26122, 26126, 26127, 26340, 26419, 26453, 26471, 26778, 26860, 27217, 28562, 28564, 29692, 34446, 35441, 37372, 37421, 37423, 37428, 37430, 37431, 37433, 37545, 37593, 37595, 37597, 37667, 39994, 39995, 40797, 44680, 44681, 44682, 44683, 44693, 45283, 45344, 45449, 45454, 45480, 45797, 45799, 45809, 46098, 46663, 46813, 46815, 52400, 53388, 53389, 53390, 53391, 53392, 53393, 53394, 53395, 53396, 53397, 53398, 53399, 54033, 54758, 54791, 61841, 61842, 61851, 61852, 61853, 61854, 61858, 61859, 61861, 61862, 61864, 61867, 61868, 61869, 61870, 61871, 61872, 61873, 61875, 61877, 61878, 61879, 61880, 61882, 61885, 61893, 61894, 61902, 61904, 61905, 61909, 61912, 61914, 61915, 61916, 61917, 61919, 61920, 61934, 61939, 61942, 61947, 61948, 61953, 61954, 61955, 61962, 61968, 61971, 61976, 61979, 61984, 61990, 61998, 62000);
+DELETE FROM `loot_item` WHERE `id` IN (15382, 17520, 19873, 19874, 19876, 19877, 19879, 19885, 19886, 19889, 19890, 19891, 19892, 19893, 19894, 19895, 19896, 19897, 19898, 19900, 19901, 19902, 19968, 19969, 19970, 20305, 20306, 20416, 20452, 20575, 20577, 20578, 20587, 20775, 20776, 20778, 20779, 20780, 20781, 20889, 20895, 20994, 21218, 21219, 21271, 21373, 21463, 21821, 21892, 22224, 22456, 22458, 22460, 22530, 22531, 22532, 22533, 22534, 22540, 22545, 22547, 22548, 22549, 22550, 22551, 22553, 22554, 22583, 22587, 22591, 22598, 22600, 22606, 22607, 22609, 22610, 22611, 22642, 22643, 22679, 22680, 22681, 22765, 22766, 22767, 22775, 23016, 23018, 23097, 23098, 23100, 23101, 23186, 23301, 23302, 23391, 23519, 23656, 23657, 23658, 23660, 23831, 23883, 23884, 24035, 24036, 24037, 24038, 24039, 24040, 24041, 24042, 24067, 24068, 24069, 24070, 24071, 24072, 24073, 24090, 24092, 24093, 24094, 24098, 24100, 24102, 24106, 24183, 24184, 24185, 24196, 24250, 24273, 24282, 24745, 24878, 25994, 25995, 25996, 25997, 25998, 25999, 26000, 26001, 26002, 26003, 26006, 26019, 26020, 26034, 26036, 26038, 26039, 26040, 26041, 26042, 26044, 26045, 26086, 26088, 26091, 26095, 26097, 26104, 26122, 26126, 26127, 26340, 26419, 26453, 26471, 26778, 26860, 27217, 28562, 28564, 29692, 34446, 35441, 37372, 37421, 37423, 37428, 37430, 37431, 37433, 37545, 37593, 37595, 37597, 37667, 39994, 39995, 40797, 44680, 44681, 44682, 44683, 44693, 45283, 45344, 45449, 45454, 45480, 45797, 45799, 45809, 46098, 46663, 46813, 46815, 52400, 53388, 53389, 53390, 53391, 53392, 53393, 53394, 53395, 53396, 53397, 53398, 53399, 54033, 54758, 54791, 61841, 61842, 61851, 61852, 61853, 61854, 61858, 61859, 61861, 61862, 61864, 61867, 61868, 61869, 61870, 61871, 61872, 61873, 61875, 61877, 61878, 61879, 61880, 61882, 61885, 61893, 61894, 61902, 61904, 61905, 61909, 61912, 61914, 61915, 61916, 61917, 61919, 61920, 61934, 61939, 61942, 61947, 61948, 61953, 61954, 61955, 61962, 61968, 61971, 61976, 61979, 61984, 61990, 61998, 62000, 1000019873, 1000019874, 1000019876, 1000019877, 1000019885, 1000019886, 1000019889, 1000019890, 1000019891, 1000019892, 1000019893, 1000019894, 1000019895, 1000019896, 1000019897, 1000019898, 1000019900, 1000019901, 1000019902, 1000019968, 1000019969, 1000019970, 1000020305, 1000020306, 1000020452, 1000020575, 1000020577, 1000020578, 1000020587, 1000020776, 1000020778, 1000020779, 1000020780, 1000020781, 1000020994, 1000021373, 1000021463, 1000021821, 1000022224, 1000022458, 1000022460, 1000022530, 1000022531, 1000022532, 1000022533, 1000022545, 1000022547, 1000022548, 1000022549, 1000022550, 1000022551, 1000022553, 1000022554, 1000022598, 1000022600, 1000022606, 1000022607, 1000022609, 1000022611, 1000022642, 1000022643, 1000022679, 1000022680, 1000022681, 1000022766, 1000022767, 1000023097, 1000023098, 1000023100, 1000023101, 1000023301, 1000023391, 1000023658, 1000023660, 1000024035, 1000024036, 1000024037, 1000024038, 1000024039, 1000024040, 1000024041, 1000024042, 1000024068, 1000024069, 1000024070, 1000024071, 1000024072, 1000024073, 1000024090, 1000024092, 1000024093, 1000024094, 1000024098, 1000024102, 1000024183, 1000024184, 1000024185, 1000024196, 1000024250, 1000024282, 1000024878, 1000025994, 1000025997, 1000025998, 1000025999, 1000026000, 1000026001, 1000026002, 1000026006, 1000026020, 1000026036, 1000026038, 1000026039, 1000026040, 1000026041, 1000026042, 1000026086, 1000026088, 1000026091, 1000026095, 1000026097, 1000026104, 1000026122, 1000026126, 1000026340, 1000026471, 1000026860, 1000027217, 1000028562, 1000028564, 1000037372, 1000037421, 1000037423, 1000037428, 1000037430, 1000037431, 1000037433, 1000037545, 1000037667, 1000040797, 1000046098, 1000054033, 1000054791, 1000061851, 1000061852, 1000061853, 1000061854, 1000061858, 1000061859, 1000061861, 1000061862, 1000061867, 1000061868, 1000061869, 1000061870, 1000061871, 1000061873, 1000061877, 1000061878, 1000061882, 1000061885, 1000061893, 1000061894, 1000061902, 1000061909, 1000061912, 1000061914, 1000061915, 1000061916, 1000061920, 1000061934, 1000061939, 1000061942, 1000061947, 1000061948, 1000061954, 1000061955, 1000061962, 1000061968, 1000061971, 1000061979, 1000061984, 1000062000);
+DELETE FROM `loot_group` WHERE `id` IN (1000019873, 1000019874, 1000019876, 1000019877, 1000019885, 1000019886, 1000019889, 1000019890, 1000019891, 1000019892, 1000019893, 1000019894, 1000019895, 1000019896, 1000019897, 1000019898, 1000019900, 1000019901, 1000019902, 1000019968, 1000019969, 1000019970, 1000020305, 1000020306, 1000020452, 1000020575, 1000020577, 1000020578, 1000020587, 1000020776, 1000020778, 1000020779, 1000020780, 1000020781, 1000020994, 1000021373, 1000021463, 1000021821, 1000022224, 1000022458, 1000022460, 1000022530, 1000022531, 1000022532, 1000022533, 1000022545, 1000022547, 1000022548, 1000022549, 1000022550, 1000022551, 1000022553, 1000022554, 1000022598, 1000022600, 1000022606, 1000022607, 1000022609, 1000022611, 1000022642, 1000022643, 1000022679, 1000022680, 1000022681, 1000022766, 1000022767, 1000023097, 1000023098, 1000023100, 1000023101, 1000023301, 1000023391, 1000023658, 1000023660, 1000024035, 1000024036, 1000024037, 1000024038, 1000024039, 1000024040, 1000024041, 1000024042, 1000024068, 1000024069, 1000024070, 1000024071, 1000024072, 1000024073, 1000024090, 1000024092, 1000024093, 1000024094, 1000024098, 1000024102, 1000024183, 1000024184, 1000024185, 1000024196, 1000024250, 1000024282, 1000024878, 1000025994, 1000025997, 1000025998, 1000025999, 1000026000, 1000026001, 1000026002, 1000026006, 1000026020, 1000026036, 1000026038, 1000026039, 1000026040, 1000026041, 1000026042, 1000026086, 1000026088, 1000026091, 1000026095, 1000026097, 1000026104, 1000026122, 1000026126, 1000026340, 1000026471, 1000026860, 1000027217, 1000028562, 1000028564, 1000037372, 1000037421, 1000037423, 1000037428, 1000037430, 1000037431, 1000037433, 1000037545, 1000037667, 1000040797, 1000046098, 1000054033, 1000054791, 1000061851, 1000061852, 1000061853, 1000061854, 1000061858, 1000061859, 1000061861, 1000061862, 1000061867, 1000061868, 1000061869, 1000061870, 1000061871, 1000061873, 1000061877, 1000061878, 1000061882, 1000061885, 1000061893, 1000061894, 1000061902, 1000061909, 1000061912, 1000061914, 1000061915, 1000061916, 1000061920, 1000061934, 1000061939, 1000061942, 1000061947, 1000061948, 1000061954, 1000061955, 1000061962, 1000061968, 1000061971, 1000061979, 1000061984, 1000062000);
 DELETE FROM `loot_group` WHERE `id` IN (15382, 17520, 19873, 19874, 19876, 19877, 19879, 19885, 19886, 19889, 19890, 19891, 19892, 19893, 19894, 19895, 19896, 19897, 19898, 19900, 19901, 19902, 19968, 19969, 19970, 20305, 20306, 20416, 20452, 20575, 20577, 20578, 20587, 20775, 20776, 20778, 20779, 20780, 20781, 20889, 20895, 20994, 21218, 21219, 21271, 21373, 21463, 21821, 21892, 22224, 22456, 22458, 22460, 22530, 22531, 22532, 22533, 22534, 22540, 22545, 22547, 22548, 22549, 22550, 22551, 22553, 22554, 22583, 22587, 22591, 22598, 22600, 22606, 22607, 22609, 22610, 22611, 22642, 22643, 22679, 22680, 22681, 22765, 22766, 22767, 22775, 23016, 23018, 23097, 23098, 23100, 23101, 23186, 23301, 23302, 23391, 23519, 23656, 23657, 23658, 23660, 23831, 23883, 23884, 24035, 24036, 24037, 24038, 24039, 24040, 24041, 24042, 24067, 24068, 24069, 24070, 24071, 24072, 24073, 24090, 24092, 24093, 24094, 24098, 24100, 24102, 24106, 24183, 24184, 24185, 24196, 24250, 24273, 24282, 24745, 24878, 25994, 25995, 25996, 25997, 25998, 25999, 26000, 26001, 26002, 26003, 26006, 26019, 26020, 26034, 26036, 26038, 26039, 26040, 26041, 26042, 26044, 26045, 26086, 26088, 26091, 26095, 26097, 26104, 26122, 26126, 26127, 26340, 26419, 26453, 26471, 26778, 26860, 27217, 28562, 28564, 29692, 34446, 35441, 37372, 37421, 37423, 37428, 37430, 37431, 37433, 37545, 37593, 37595, 37597, 37667, 39994, 39995, 40797, 44680, 44681, 44682, 44683, 44693, 45283, 45344, 45449, 45454, 45480, 45797, 45799, 45809, 46098, 46663, 46813, 46815, 52400, 53388, 53389, 53390, 53391, 53392, 53393, 53394, 53395, 53396, 53397, 53398, 53399, 54033, 54758, 54791, 61841, 61842, 61851, 61852, 61853, 61854, 61858, 61859, 61861, 61862, 61864, 61867, 61868, 61869, 61870, 61871, 61872, 61873, 61875, 61877, 61878, 61879, 61880, 61882, 61885, 61893, 61894, 61902, 61904, 61905, 61909, 61912, 61914, 61915, 61916, 61917, 61919, 61920, 61934, 61939, 61942, 61947, 61948, 61953, 61954, 61955, 61962, 61968, 61971, 61976, 61979, 61984, 61990, 61998, 62000);
 
 -- Snowstep Stag (2346 kills recorded, snowstep-stag-2)
@@ -150,10 +151,8 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19873, 19873, 'Equalizer Zyrio');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(19873, 0, 7949, 28.84, 1, 1, 'Broken Mechari Gears'),
-	(19873, 0, 14409, 14.79, 1, 1, 'Survival Supply Stash'),
 	(19873, 0, 14517, 13.86, 1, 1, 'Silk Cloth'),
 	(19873, 0, 14518, 11.61, 1, 1, 'Whimfiber Cloth'),
-	(19873, 0, 14410, 8.99, 1, 1, 'Biomimetic Mud'),
 	(19873, 0, 27572, 1.5, 1, 1, 'Whimfiber Hat'),
 	(19873, 0, 29316, 0.75, 1, 1, 'Sign of Water'),
 	(19873, 0, 2576, 0.37, 1, 1, 'Palladium Inlaid Doublet');
@@ -163,14 +162,11 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19874, 19874, 'Ice-Crusted Boulderback');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(19874, 0, 14236, 17.89, 1, 1, 'Thick Leather'),
-	(19874, 0, 14409, 14.74, 1, 1, 'Survival Supply Stash'),
 	(19874, 0, 47646, 12.63, 1, 1, 'Patchy Boulderback Hide'),
 	(19874, 0, 14237, 11.05, 1, 1, 'Reinforced Leather'),
 	(19874, 0, 14254, 11.05, 1, 1, 'Boulderback Meat'),
 	(19874, 0, 29588, 9.47, 1, 1, 'Sign of Earth'),
-	(19874, 0, 14410, 5.26, 1, 1, 'Biomimetic Mud'),
 	(19874, 0, 12937, 3.68, 1, 1, 'Titanium Chunk'),
-	(19874, 0, 14411, 2.11, 1, 1, 'Energized Heavy Water'),
 	(19874, 0, 13070, 1.58, 1, 1, 'Whitevale Luck Charm'),
 	(19874, 0, 14188, 1.58, 1, 1, 'Platinum Chunk'),
 	(19874, 0, 18791, 1.58, 1, 1, 'Recipe: Boulderback Filet Mignon'),
@@ -192,15 +188,12 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19876, 19876, 'Whitesprings Swarmling');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(19876, 0, 8253, 36.22, 1, 1, 'Broken Spikehorde Limbs'),
-	(19876, 0, 14409, 12.8, 1, 1, 'Survival Supply Stash'),
 	(19876, 0, 8252, 9.25, 1, 1, 'Frigid Spikehorde Eyeball'),
 	(19876, 0, 14287, 9.06, 1, 1, 'Slimy Bug Meat'),
 	(19876, 0, 29588, 7.28, 1, 1, 'Sign of Earth'),
-	(19876, 0, 14410, 5.31, 1, 1, 'Biomimetic Mud'),
 	(19876, 0, 14288, 5.31, 1, 1, 'Crunchy Bug Meat'),
 	(19876, 0, 13070, 3.94, 1, 1, 'Whitevale Luck Charm'),
 	(19876, 0, 43006, 2.17, 1, 1, 'Shattered Thorax'),
-	(19876, 0, 14411, 1.18, 1, 1, 'Energized Heavy Water'),
 	(19876, 0, 58715, 0.98, 1, 1, 'Maniac''s Parazine Trousers'),
 	(19876, 0, 40255, 0.98, 1, 1, 'Nematocyst Stinger'),
 	(19876, 0, 43007, 0.59, 1, 1, 'Molted Carapace'),
@@ -231,17 +224,14 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19877, 19877, 'Whitesprings Pincer');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(19877, 0, 8253, 33.18, 1, 1, 'Broken Spikehorde Limbs'),
-	(19877, 0, 14409, 14.88, 1, 1, 'Survival Supply Stash'),
 	(19877, 0, 14287, 12.04, 1, 1, 'Slimy Bug Meat'),
 	(19877, 0, 14288, 7.2, 1, 1, 'Crunchy Bug Meat'),
-	(19877, 0, 14410, 6.38, 1, 1, 'Biomimetic Mud'),
 	(19877, 0, 29588, 6.26, 1, 1, 'Sign of Earth'),
 	(19877, 0, 8252, 5.08, 1, 1, 'Frigid Spikehorde Eyeball'),
 	(19877, 0, 43006, 1.77, 1, 1, 'Shattered Thorax'),
 	(19877, 0, 40256, 1.65, 1, 1, 'Gastroderm Barrier'),
 	(19877, 0, 13070, 1.53, 1, 1, 'Whitevale Luck Charm'),
 	(19877, 0, 58720, 0.83, 1, 1, 'Maniac''s Parazine Assist Module'),
-	(19877, 0, 14411, 0.83, 1, 1, 'Energized Heavy Water'),
 	(19877, 0, 43007, 0.83, 1, 1, 'Molted Carapace'),
 	(19877, 0, 40257, 0.35, 1, 1, 'Cnidocyte Cell'),
 	(19877, 0, 36219, 0.35, 1, 1, 'Formula: Unstable Grit Boost'),
@@ -320,15 +310,12 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19885, 19885, 'Territorial Icebay Shellark');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(19885, 0, 8174, 16.41, 1, 1, 'Broken Shellark Shell'),
-	(19885, 0, 14409, 13.17, 1, 1, 'Survival Supply Stash'),
 	(19885, 0, 14237, 11.18, 1, 1, 'Reinforced Leather'),
 	(19885, 0, 14236, 10.31, 1, 1, 'Thick Leather'),
 	(19885, 0, 14275, 8.88, 1, 1, 'Small Fish'),
 	(19885, 0, 14266, 8.14, 1, 1, 'Shellark Meat'),
 	(19885, 0, 14276, 7.35, 1, 1, 'Medium Fish'),
 	(19885, 0, 29316, 6.35, 1, 1, 'Sign of Water'),
-	(19885, 0, 14410, 5.94, 1, 1, 'Biomimetic Mud'),
-	(19885, 0, 14411, 1.35, 1, 1, 'Energized Heavy Water'),
 	(19885, 0, 43011, 1.28, 1, 1, 'Scaly Bait'),
 	(19885, 0, 18818, 0.99, 1, 1, 'Recipe: Shellark Steak'),
 	(19885, 0, 43012, 0.95, 1, 1, 'Not-So-Bad Fish'),
@@ -476,14 +463,11 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(19886, 0, 14236, 21.48, 1, 1, 'Thick Leather'),
 	(19886, 0, 7763, 16.67, 1, 1, 'Broken Girrok Claws'),
 	(19886, 0, 14279, 10.37, 1, 1, 'Tough Meat'),
-	(19886, 0, 14409, 9.63, 1, 1, 'Survival Supply Stash'),
 	(19886, 0, 14280, 7.41, 1, 1, 'Tender Meat'),
 	(19886, 0, 29588, 6.67, 1, 1, 'Sign of Earth'),
-	(19886, 0, 14410, 4.81, 1, 1, 'Biomimetic Mud'),
 	(19886, 0, 7762, 4.07, 1, 1, 'Ragged Girrok Pelt'),
 	(19886, 0, 13070, 4.07, 1, 1, 'Whitevale Luck Charm'),
 	(19886, 0, 14237, 3.33, 1, 1, 'Reinforced Leather'),
-	(19886, 0, 14411, 2.96, 1, 1, 'Energized Heavy Water'),
 	(19886, 0, 42996, 2.59, 1, 1, 'Rotten Remains'),
 	(19886, 0, 29609, 2.22, 1, 1, 'Rune Fragment'),
 	(19886, 0, 14248, 0.74, 1, 1, 'Hardened Pelt'),
@@ -499,19 +483,16 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (19889, NULL, 100, 0, 0, 0, 0, 'Lumbering Walatusk');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19889, 19889, 'Lumbering Walatusk');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(19889, 0, 14409, 15.82, 1, 1, 'Survival Supply Stash'),
 	(19889, 0, 14236, 13.46, 1, 1, 'Thick Leather'),
 	(19889, 0, 8374, 13.28, 1, 1, 'Ragged Walatusk Hide'),
 	(19889, 0, 14279, 9.23, 1, 1, 'Tough Meat'),
 	(19889, 0, 14273, 7.57, 1, 1, 'Fatty Walatusk Meat'),
 	(19889, 0, 29316, 5.88, 1, 1, 'Sign of Water'),
 	(19889, 0, 14280, 5.49, 1, 1, 'Tender Meat'),
-	(19889, 0, 14410, 5.28, 1, 1, 'Biomimetic Mud'),
 	(19889, 0, 14237, 4.93, 1, 1, 'Reinforced Leather'),
 	(19889, 0, 47698, 4.58, 1, 1, 'Severed Walatusk Tail'),
 	(19889, 0, 42996, 1.66, 1, 1, 'Rotten Remains'),
 	(19889, 0, 18820, 1.34, 1, 1, 'Recipe: Braised Walatusk Belly'),
-	(19889, 0, 14411, 1.3, 1, 1, 'Energized Heavy Water'),
 	(19889, 0, 36097, 0.67, 1, 1, 'Guide: Frostshore Icebath Hand Warmers'),
 	(19889, 0, 14247, 0.67, 1, 1, 'Fur-Lined Pelt'),
 	(19889, 0, 42997, 0.56, 1, 1, 'Mangled Carcass'),
@@ -628,15 +609,12 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(19890, 0, 14280, 9.03, 1, 1, 'Tender Meat'),
 	(19890, 0, 14279, 8.71, 1, 1, 'Tough Meat'),
 	(19890, 0, 14237, 8.39, 1, 1, 'Reinforced Leather'),
-	(19890, 0, 14409, 8.39, 1, 1, 'Survival Supply Stash'),
 	(19890, 0, 29588, 6.13, 1, 1, 'Sign of Earth'),
-	(19890, 0, 14410, 4.19, 1, 1, 'Biomimetic Mud'),
 	(19890, 0, 42996, 1.94, 1, 1, 'Rotten Remains'),
 	(19890, 0, 59043, 1.61, 1, 1, 'Exceptional Professor''s Photoweave Grasps'),
 	(19890, 0, 42997, 1.29, 1, 1, 'Mangled Carcass'),
 	(19890, 0, 18822, 1.29, 1, 1, 'Recipe: Mammodin Meatballs'),
 	(19890, 0, 29609, 1.29, 1, 1, 'Rune Fragment'),
-	(19890, 0, 14411, 0.97, 1, 1, 'Energized Heavy Water'),
 	(19890, 0, 16129, 0.65, 1, 1, 'Tempered Bone'),
 	(19890, 0, 31375, 0.32, 1, 1, 'Hobo Train FABkit'),
 	(19890, 0, 29596, 0.32, 1, 1, 'Sign of Fire'),
@@ -670,10 +648,8 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(19891, 0, 14280, 9.54, 1, 1, 'Tender Meat'),
 	(19891, 0, 18006, 8.4, 1, 1, 'Mammodin Sirloin'),
 	(19891, 0, 29588, 8.02, 1, 1, 'Sign of Earth'),
-	(19891, 0, 14409, 3.05, 1, 1, 'Survival Supply Stash'),
 	(19891, 0, 18822, 2.29, 1, 1, 'Recipe: Mammodin Meatballs'),
 	(19891, 0, 29612, 1.15, 1, 1, 'Armor Rune Fragment'),
-	(19891, 0, 14410, 1.15, 1, 1, 'Biomimetic Mud'),
 	(19891, 0, 42997, 1.15, 1, 1, 'Mangled Carcass'),
 	(19891, 0, 42996, 1.15, 1, 1, 'Rotten Remains'),
 	(19891, 0, 40255, 0.76, 1, 1, 'Nematocyst Stinger'),
@@ -685,7 +661,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(19891, 0, 16128, 0.38, 1, 1, 'Thick Bone'),
 	(19891, 0, 44290, 0.38, 1, 1, 'Regeneration AMP'),
 	(19891, 0, 59156, 0.38, 1, 1, 'Conveyor''s Nanorium Target Link'),
-	(19891, 0, 14411, 0.38, 1, 1, 'Energized Heavy Water'),
 	(19891, 0, 21784, 0.38, 1, 1, 'Peeping Eye Security Camera'),
 	(19891, 0, 21414, 0.38, 1, 1, 'Barrel Full of Danger'),
 	(19891, 0, 59029, 0.38, 1, 1, 'Professor''s Psyphalon Meridian'),
@@ -705,17 +680,14 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19892, 19892, 'Frost-Striped Pumera');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(19892, 0, 8051, 37.52, 1, 1, 'Furry Pumera Paw'),
-	(19892, 0, 14409, 12.01, 1, 1, 'Survival Supply Stash'),
 	(19892, 0, 14279, 11.73, 1, 1, 'Tough Meat'),
 	(19892, 0, 14236, 10.64, 1, 1, 'Thick Leather'),
-	(19892, 0, 14410, 4.5, 1, 1, 'Biomimetic Mud'),
 	(19892, 0, 14237, 4.23, 1, 1, 'Reinforced Leather'),
 	(19892, 0, 42996, 3.82, 1, 1, 'Rotten Remains'),
 	(19892, 0, 29596, 3.68, 1, 1, 'Sign of Fire'),
 	(19892, 0, 14280, 3.41, 1, 1, 'Tender Meat'),
 	(19892, 0, 42997, 1.91, 1, 1, 'Mangled Carcass'),
 	(19892, 0, 13070, 1.64, 1, 1, 'Whitevale Luck Charm'),
-	(19892, 0, 14411, 1.23, 1, 1, 'Energized Heavy Water'),
 	(19892, 0, 14247, 0.41, 1, 1, 'Fur-Lined Pelt'),
 	(19892, 0, 29597, 0.27, 1, 1, 'Sign of Fire - Greater'),
 	(19892, 0, 58562, 0.27, 1, 1, 'Exceptional Legate''s Celestiform Rebreather'),
@@ -749,9 +721,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(19893, 0, 29596, 9.25, 1, 1, 'Sign of Fire'),
 	(19893, 0, 14279, 7.93, 1, 1, 'Tough Meat'),
 	(19893, 0, 14237, 7.05, 1, 1, 'Reinforced Leather'),
-	(19893, 0, 14409, 6.61, 1, 1, 'Survival Supply Stash'),
 	(19893, 0, 14280, 6.17, 1, 1, 'Tender Meat'),
-	(19893, 0, 14410, 5.29, 1, 1, 'Biomimetic Mud'),
 	(19893, 0, 14248, 0.88, 1, 1, 'Hardened Pelt'),
 	(19893, 0, 40255, 0.88, 1, 1, 'Nematocyst Stinger'),
 	(19893, 0, 59248, 0.88, 1, 1, 'Exceptional Prophet''s Lexigroove Workpants'),
@@ -768,24 +738,17 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(19893, 0, 42997, 0.44, 1, 1, 'Mangled Carcass'),
 	(19893, 0, 16129, 0.44, 1, 1, 'Tempered Bone'),
 	(19893, 0, 29604, 0.44, 1, 1, 'Sign of Air'),
-	(19893, 0, 14411, 0.44, 1, 1, 'Energized Heavy Water'),
 	(19893, 0, 59092, 0.44, 1, 1, 'Maniac''s Synthelix Cutters');
 
 -- Reckless Freebot (123 kills recorded, reckless-freebot-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (19894, NULL, 100, 0, 0, 0, 0, 'Reckless Freebot');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19894, 19894, 'Reckless Freebot');
-INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(19894, 0, 14409, 65.04, 1, 1, 'Survival Supply Stash'),
-	(19894, 0, 14410, 26.83, 1, 1, 'Biomimetic Mud'),
-	(19894, 0, 14411, 8.13, 1, 1, 'Energized Heavy Water');
 
 -- Mindless Freebot (15 kills recorded, mindless-freebot-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (19895, NULL, 100, 0, 0, 0, 0, 'Mindless Freebot');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19895, 19895, 'Mindless Freebot');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(19895, 0, 7441, 66.67, 1, 1, 'Melted Wiring'),
-	(19895, 0, 14409, 6.67, 1, 1, 'Survival Supply Stash'),
-	(19895, 0, 14410, 6.67, 1, 1, 'Biomimetic Mud'),
 	(19895, 0, 29588, 6.67, 1, 1, 'Sign of Earth'),
 	(19895, 0, 7442, 6.67, 1, 1, 'Stripped Sprocket'),
 	(19895, 0, 40255, 6.67, 1, 1, 'Nematocyst Stinger');
@@ -796,9 +759,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19896, 19896,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(19896, 0, 7441, 30.77, 1, 1, 'Melted Wiring'),
 	(19896, 0, 7442, 23.08, 1, 1, 'Stripped Sprocket'),
-	(19896, 0, 14409, 20.51, 1, 1, 'Survival Supply Stash'),
-	(19896, 0, 14410, 10.26, 1, 1, 'Biomimetic Mud'),
-	(19896, 0, 14411, 7.69, 1, 1, 'Energized Heavy Water'),
 	(19896, 0, 21445, 5.13, 1, 1, 'Ellevar Grass Patch'),
 	(19896, 0, 58740, 2.56, 1, 1, 'Exceptional Maniac''s Parazine Assist Module');
 
@@ -807,10 +767,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19897, 19897, 'Rampaging Freebot');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(19897, 0, 7441, 27.05, 1, 1, 'Melted Wiring'),
-	(19897, 0, 14409, 20.9, 1, 1, 'Survival Supply Stash'),
 	(19897, 0, 7442, 18.03, 1, 1, 'Stripped Sprocket'),
-	(19897, 0, 14410, 9.43, 1, 1, 'Biomimetic Mud'),
-	(19897, 0, 14411, 2.87, 1, 1, 'Energized Heavy Water'),
 	(19897, 0, 29588, 2.46, 1, 1, 'Sign of Earth'),
 	(19897, 0, 29609, 1.23, 1, 1, 'Rune Fragment'),
 	(19897, 0, 58550, 0.82, 1, 1, 'Exceptional Legate''s Dynaclastic Strengthener'),
@@ -855,10 +812,8 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (19898, NULL, 100, 0, 0, 0, 0, 'Snowshadow Dominator');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19898, 19898, 'Snowshadow Dominator');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(19898, 0, 14409, 25, 1, 1, 'Survival Supply Stash'),
 	(19898, 0, 7949, 20, 1, 1, 'Broken Mechari Gears'),
 	(19898, 0, 14517, 15, 1, 1, 'Silk Cloth'),
-	(19898, 0, 14410, 10, 1, 1, 'Biomimetic Mud'),
 	(19898, 0, 14518, 10, 1, 1, 'Whimfiber Cloth'),
 	(19898, 0, 29609, 5, 1, 1, 'Rune Fragment'),
 	(19898, 0, 30714, 5, 1, 1, 'Augmented Armor AMP'),
@@ -871,8 +826,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19900, 19900,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(19900, 0, 7549, 33.33, 1, 1, 'Furry Chua Ears'),
 	(19900, 0, 29604, 12.5, 1, 1, 'Sign of Air'),
-	(19900, 0, 14409, 10.42, 1, 1, 'Survival Supply Stash'),
-	(19900, 0, 14410, 9.38, 1, 1, 'Biomimetic Mud'),
 	(19900, 0, 14518, 9.38, 1, 1, 'Whimfiber Cloth'),
 	(19900, 0, 14517, 6.25, 1, 1, 'Silk Cloth'),
 	(19900, 0, 13070, 3.13, 1, 1, 'Whitevale Luck Charm'),
@@ -894,10 +847,8 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19901, 19901, 'Snowshadow Inquisitor');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(19901, 0, 7949, 34.85, 1, 1, 'Broken Mechari Gears'),
-	(19901, 0, 14409, 16.67, 1, 1, 'Survival Supply Stash'),
 	(19901, 0, 14518, 13.64, 1, 1, 'Whimfiber Cloth'),
 	(19901, 0, 14517, 13.64, 1, 1, 'Silk Cloth'),
-	(19901, 0, 14410, 9.09, 1, 1, 'Biomimetic Mud'),
 	(19901, 0, 13070, 4.55, 1, 1, 'Whitevale Luck Charm'),
 	(19901, 0, 29612, 1.52, 1, 1, 'Armor Rune Fragment'),
 	(19901, 0, 59091, 1.52, 1, 1, 'Maniac''s Synthelix Motivator'),
@@ -910,12 +861,9 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19902, 19902, 'Snowshadow Cannoneer');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(19902, 0, 7686, 28.55, 1, 1, 'Religious Relic'),
-	(19902, 0, 14409, 13.95, 1, 1, 'Survival Supply Stash'),
 	(19902, 0, 14517, 12.81, 1, 1, 'Silk Cloth'),
 	(19902, 0, 29604, 8.89, 1, 1, 'Sign of Air'),
-	(19902, 0, 14410, 8.16, 1, 1, 'Biomimetic Mud'),
 	(19902, 0, 14518, 7.83, 1, 1, 'Whimfiber Cloth'),
-	(19902, 0, 14411, 1.96, 1, 1, 'Energized Heavy Water'),
 	(19902, 0, 27577, 1.63, 1, 1, 'Silk Shoes'),
 	(19902, 0, 27572, 1.31, 1, 1, 'Whimfiber Hat'),
 	(19902, 0, 13070, 0.33, 1, 1, 'Whitevale Luck Charm'),
@@ -933,15 +881,12 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19968, 19968, 'Warm-Weather Pumera');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(19968, 0, 8051, 27.91, 1, 1, 'Furry Pumera Paw'),
-	(19968, 0, 14409, 20.93, 1, 1, 'Survival Supply Stash'),
 	(19968, 0, 14236, 9.3, 1, 1, 'Thick Leather'),
 	(19968, 0, 14279, 9.3, 1, 1, 'Tough Meat'),
 	(19968, 0, 14237, 9.3, 1, 1, 'Reinforced Leather'),
 	(19968, 0, 14280, 4.65, 1, 1, 'Tender Meat'),
-	(19968, 0, 14410, 4.65, 1, 1, 'Biomimetic Mud'),
 	(19968, 0, 58536, 4.65, 1, 1, 'Legate''s Celestiform Shoulder Armor'),
 	(19968, 0, 13070, 2.33, 1, 1, 'Whitevale Luck Charm'),
-	(19968, 0, 14411, 2.33, 1, 1, 'Energized Heavy Water'),
 	(19968, 0, 14248, 2.33, 1, 1, 'Hardened Pelt'),
 	(19968, 0, 40257, 2.33, 1, 1, 'Cnidocyte Cell');
 
@@ -950,9 +895,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19969, 19969, 'Warm-Weather Girrok');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(19969, 0, 34704, 29.41, 1, 1, 'Crippling Blows AMP'),
-	(19969, 0, 14409, 17.65, 1, 1, 'Survival Supply Stash'),
 	(19969, 0, 7763, 17.65, 1, 1, 'Broken Girrok Claws'),
-	(19969, 0, 14410, 11.76, 1, 1, 'Biomimetic Mud'),
 	(19969, 0, 29588, 11.76, 1, 1, 'Sign of Earth'),
 	(19969, 0, 14237, 5.88, 1, 1, 'Reinforced Leather'),
 	(19969, 0, 14279, 5.88, 1, 1, 'Tough Meat');
@@ -961,13 +904,10 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (19970, NULL, 100, 0, 0, 0, 0, 'Warm-Weather Razortail');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (19970, 19970, 'Warm-Weather Razortail');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(19970, 0, 14409, 28.57, 1, 1, 'Survival Supply Stash'),
 	(19970, 0, 8090, 21.43, 1, 1, 'Furry Razortail Ears'),
-	(19970, 0, 14410, 14.29, 1, 1, 'Biomimetic Mud'),
 	(19970, 0, 14236, 7.14, 1, 1, 'Thick Leather'),
 	(19970, 0, 14279, 7.14, 1, 1, 'Tough Meat'),
 	(19970, 0, 29596, 7.14, 1, 1, 'Sign of Fire'),
-	(19970, 0, 14411, 7.14, 1, 1, 'Energized Heavy Water'),
 	(19970, 0, 58765, 7.14, 1, 1, 'Conveyor''s Cryptowarp Dungarees');
 
 -- Agent Lazilo (50 kills recorded, agent-lazilo-2)
@@ -975,12 +915,9 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (20305, 20305, 'Agent Lazilo');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(20305, 0, 7686, 40, 1, 1, 'Religious Relic'),
-	(20305, 0, 14409, 16, 1, 1, 'Survival Supply Stash'),
 	(20305, 0, 14517, 12, 1, 1, 'Silk Cloth'),
-	(20305, 0, 14410, 8, 1, 1, 'Biomimetic Mud'),
 	(20305, 0, 29604, 8, 1, 1, 'Sign of Air'),
 	(20305, 0, 58524, 4, 1, 1, 'Legate''s Dynaclastic Harness'),
-	(20305, 0, 14411, 4, 1, 1, 'Energized Heavy Water'),
 	(20305, 0, 14518, 4, 1, 1, 'Whimfiber Cloth'),
 	(20305, 0, 58828, 2, 1, 1, 'Prophet''s Styrothium Scratchers'),
 	(20305, 0, 27577, 2, 1, 1, 'Silk Shoes');
@@ -993,9 +930,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(20306, 0, 7686, 24, 1, 1, 'Religious Relic'),
 	(20306, 0, 14517, 16, 1, 1, 'Silk Cloth'),
 	(20306, 0, 29604, 8, 1, 1, 'Sign of Air'),
-	(20306, 0, 14409, 8, 1, 1, 'Survival Supply Stash'),
 	(20306, 0, 27577, 4, 1, 1, 'Silk Shoes'),
-	(20306, 0, 14410, 4, 1, 1, 'Biomimetic Mud'),
 	(20306, 0, 58708, 4, 1, 1, 'Maniac''s Hydronium Bindings'),
 	(20306, 0, 58828, 4, 1, 1, 'Prophet''s Styrothium Scratchers');
 
@@ -1023,13 +958,10 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (20452, 20452, 'Snowshadow Saboteur');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(20452, 0, 7686, 26.51, 1, 1, 'Religious Relic'),
-	(20452, 0, 14409, 21.26, 1, 1, 'Survival Supply Stash'),
 	(20452, 0, 14518, 14.17, 1, 1, 'Whimfiber Cloth'),
-	(20452, 0, 14410, 8.66, 1, 1, 'Biomimetic Mud'),
 	(20452, 0, 29604, 5.25, 1, 1, 'Sign of Air'),
 	(20452, 0, 14517, 4.99, 1, 1, 'Silk Cloth'),
 	(20452, 0, 40256, 3.67, 1, 1, 'Gastroderm Barrier'),
-	(20452, 0, 14411, 2.62, 1, 1, 'Energized Heavy Water'),
 	(20452, 0, 59487, 1.31, 1, 1, 'Maniac''s Astrotube Focus'),
 	(20452, 0, 27572, 1.31, 1, 1, 'Whimfiber Hat'),
 	(20452, 0, 59177, 1.05, 1, 1, 'Exceptional Conveyor''s Nanorium Projector'),
@@ -1062,16 +994,12 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 -- Evolved Silversnout (1 kills recorded, evolved-silversnout-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (20575, NULL, 100, 0, 0, 0, 0, 'Evolved Silversnout');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (20575, 20575, 'Evolved Silversnout');
-INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(20575, 0, 14409, 100, 1, 1, 'Survival Supply Stash');
 
 -- Hibernating Silversnout (1103 kills recorded, hibernating-silversnout-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (20577, NULL, 100, 0, 0, 0, 0, 'Hibernating Silversnout');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (20577, 20577, 'Hibernating Silversnout');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(20577, 0, 7763, 23.21, 1, 1, 'Broken Girrok Claws'),
-	(20577, 0, 14409, 18.5, 1, 1, 'Survival Supply Stash'),
-	(20577, 0, 14410, 8.88, 1, 1, 'Biomimetic Mud'),
 	(20577, 0, 14236, 6.89, 1, 1, 'Thick Leather'),
 	(20577, 0, 14247, 0.54, 1, 1, 'Fur-Lined Pelt'),
 	(20577, 0, 41149, 0.18, 1, 1, 'Lord Hoarfrost''s Glacial Barrier');
@@ -1081,8 +1009,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (20578, 20578, 'Hibernating Silversnout');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(20578, 0, 7763, 23.21, 1, 1, 'Broken Girrok Claws'),
-	(20578, 0, 14409, 18.5, 1, 1, 'Survival Supply Stash'),
-	(20578, 0, 14410, 8.88, 1, 1, 'Biomimetic Mud'),
 	(20578, 0, 14236, 6.89, 1, 1, 'Thick Leather'),
 	(20578, 0, 14247, 0.54, 1, 1, 'Fur-Lined Pelt'),
 	(20578, 0, 41149, 0.18, 1, 1, 'Lord Hoarfrost''s Glacial Barrier');
@@ -1093,10 +1019,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (20587, 20587,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(20587, 0, 7949, 33.33, 1, 1, 'Broken Mechari Gears'),
 	(20587, 0, 14518, 25, 1, 1, 'Whimfiber Cloth'),
-	(20587, 0, 14409, 16.67, 1, 1, 'Survival Supply Stash'),
 	(20587, 0, 14517, 12.5, 1, 1, 'Silk Cloth'),
-	(20587, 0, 14410, 4.17, 1, 1, 'Biomimetic Mud'),
-	(20587, 0, 14411, 4.17, 1, 1, 'Energized Heavy Water'),
 	(20587, 0, 29597, 4.17, 1, 1, 'Sign of Fire - Greater');
 
 -- Enraged Ringtail (3 kills recorded, enraged-ringtail-2)
@@ -1111,15 +1034,12 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (20776, 20776,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(20776, 0, 8090, 27.15, 1, 1, 'Furry Razortail Ears'),
 	(20776, 0, 14236, 13.38, 1, 1, 'Thick Leather'),
-	(20776, 0, 14409, 11.47, 1, 1, 'Survival Supply Stash'),
 	(20776, 0, 14279, 8.99, 1, 1, 'Tough Meat'),
 	(20776, 0, 29596, 8.6, 1, 1, 'Sign of Fire'),
 	(20776, 0, 14237, 7.07, 1, 1, 'Reinforced Leather'),
-	(20776, 0, 14410, 5.16, 1, 1, 'Biomimetic Mud'),
 	(20776, 0, 14280, 4.4, 1, 1, 'Tender Meat'),
 	(20776, 0, 13070, 3.06, 1, 1, 'Whitevale Luck Charm'),
 	(20776, 0, 42997, 1.34, 1, 1, 'Mangled Carcass'),
-	(20776, 0, 14411, 1.15, 1, 1, 'Energized Heavy Water'),
 	(20776, 0, 14247, 1.15, 1, 1, 'Fur-Lined Pelt'),
 	(20776, 0, 42996, 0.76, 1, 1, 'Rotten Remains'),
 	(20776, 0, 36219, 0.57, 1, 1, 'Formula: Unstable Grit Boost'),
@@ -1155,16 +1075,13 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(20778, 0, 40255, 8, 1, 1, 'Nematocyst Stinger'),
 	(20778, 0, 14237, 8, 1, 1, 'Reinforced Leather'),
 	(20778, 0, 14236, 8, 1, 1, 'Thick Leather'),
-	(20778, 0, 14409, 8, 1, 1, 'Survival Supply Stash'),
 	(20778, 0, 14280, 4, 1, 1, 'Tender Meat'),
 	(20778, 0, 29316, 4, 1, 1, 'Sign of Water'),
 	(20778, 0, 36219, 4, 1, 1, 'Formula: Unstable Grit Boost'),
 	(20778, 0, 14273, 4, 1, 1, 'Fatty Walatusk Meat'),
 	(20778, 0, 40256, 4, 1, 1, 'Gastroderm Barrier'),
 	(20778, 0, 58887, 4, 1, 1, 'Legate''s Kilophalon Trimming'),
-	(20778, 0, 14411, 4, 1, 1, 'Energized Heavy Water'),
-	(20778, 0, 14279, 4, 1, 1, 'Tough Meat'),
-	(20778, 0, 14410, 4, 1, 1, 'Biomimetic Mud');
+	(20778, 0, 14279, 4, 1, 1, 'Tough Meat');
 
 -- Boulderpack Ringtail (587 kills recorded, boulderpack-ringtail-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (20779, NULL, 100, 0, 0, 0, 0, 'Boulderpack Ringtail');
@@ -1172,18 +1089,15 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (20779, 20779,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(20779, 0, 8090, 36.12, 1, 1, 'Furry Razortail Ears'),
 	(20779, 0, 14236, 13.8, 1, 1, 'Thick Leather'),
-	(20779, 0, 14409, 9.37, 1, 1, 'Survival Supply Stash'),
 	(20779, 0, 14279, 6.81, 1, 1, 'Tough Meat'),
 	(20779, 0, 14280, 5.79, 1, 1, 'Tender Meat'),
 	(20779, 0, 29596, 5.45, 1, 1, 'Sign of Fire'),
 	(20779, 0, 14247, 5.28, 1, 1, 'Fur-Lined Pelt'),
-	(20779, 0, 14410, 4.43, 1, 1, 'Biomimetic Mud'),
 	(20779, 0, 14237, 2.56, 1, 1, 'Reinforced Leather'),
 	(20779, 0, 42996, 1.87, 1, 1, 'Rotten Remains'),
 	(20779, 0, 42997, 1.36, 1, 1, 'Mangled Carcass'),
 	(20779, 0, 16128, 1.19, 1, 1, 'Thick Bone'),
 	(20779, 0, 21671, 1.19, 1, 1, 'Exile Sign'),
-	(20779, 0, 14411, 0.68, 1, 1, 'Energized Heavy Water'),
 	(20779, 0, 14248, 0.51, 1, 1, 'Hardened Pelt'),
 	(20779, 0, 13070, 0.34, 1, 1, 'Whitevale Luck Charm'),
 	(20779, 0, 29604, 0.34, 1, 1, 'Sign of Air'),
@@ -1212,9 +1126,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(20780, 0, 7549, 32.74, 1, 1, 'Furry Chua Ears'),
 	(20780, 0, 14517, 20.35, 1, 1, 'Silk Cloth'),
 	(20780, 0, 29604, 14.16, 1, 1, 'Sign of Air'),
-	(20780, 0, 14409, 10.62, 1, 1, 'Survival Supply Stash'),
 	(20780, 0, 14518, 4.42, 1, 1, 'Whimfiber Cloth'),
-	(20780, 0, 14410, 4.42, 1, 1, 'Biomimetic Mud'),
 	(20780, 0, 29609, 1.77, 1, 1, 'Rune Fragment'),
 	(20780, 0, 13070, 1.77, 1, 1, 'Whitevale Luck Charm'),
 	(20780, 0, 29611, 1.77, 1, 1, 'Intricate Rune Fragment'),
@@ -1234,9 +1146,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (20781, 20781,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(20781, 0, 7441, 34.09, 1, 1, 'Melted Wiring'),
 	(20781, 0, 7442, 28.41, 1, 1, 'Stripped Sprocket'),
-	(20781, 0, 14409, 11.36, 1, 1, 'Survival Supply Stash'),
-	(20781, 0, 14410, 10.23, 1, 1, 'Biomimetic Mud'),
-	(20781, 0, 14411, 4.55, 1, 1, 'Energized Heavy Water'),
 	(20781, 0, 58831, 2.27, 1, 1, 'Prophet''s Styrothium Compensator'),
 	(20781, 0, 58417, 2.27, 1, 1, 'Conveyor''s Thetaneous Footfalls'),
 	(20781, 0, 40254, 1.14, 1, 1, 'Sunny Shirt'),
@@ -1339,14 +1248,11 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(20994, 0, 8374, 15.43, 1, 1, 'Ragged Walatusk Hide'),
 	(20994, 0, 14236, 11.73, 1, 1, 'Thick Leather'),
 	(20994, 0, 29316, 10.49, 1, 1, 'Sign of Water'),
-	(20994, 0, 14409, 10.49, 1, 1, 'Survival Supply Stash'),
 	(20994, 0, 14273, 8.02, 1, 1, 'Fatty Walatusk Meat'),
 	(20994, 0, 14279, 7.41, 1, 1, 'Tough Meat'),
 	(20994, 0, 14237, 6.79, 1, 1, 'Reinforced Leather'),
 	(20994, 0, 47698, 6.79, 1, 1, 'Severed Walatusk Tail'),
-	(20994, 0, 14410, 5.56, 1, 1, 'Biomimetic Mud'),
 	(20994, 0, 14280, 5.56, 1, 1, 'Tender Meat'),
-	(20994, 0, 14411, 1.85, 1, 1, 'Energized Heavy Water'),
 	(20994, 0, 16128, 1.23, 1, 1, 'Thick Bone'),
 	(20994, 0, 13070, 1.23, 1, 1, 'Whitevale Luck Charm'),
 	(20994, 0, 42996, 1.23, 1, 1, 'Rotten Remains'),
@@ -1394,16 +1300,13 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(21373, 0, 7847, 22.12, 1, 1, 'Dirt-Covered Ikthian Artifact'),
 	(21373, 0, 14275, 17.31, 1, 1, 'Small Fish'),
 	(21373, 0, 14518, 10.58, 1, 1, 'Whimfiber Cloth'),
-	(21373, 0, 14409, 9.62, 1, 1, 'Survival Supply Stash'),
 	(21373, 0, 29316, 9.62, 1, 1, 'Sign of Water'),
 	(21373, 0, 14517, 7.69, 1, 1, 'Silk Cloth'),
-	(21373, 0, 14410, 6.73, 1, 1, 'Biomimetic Mud'),
 	(21373, 0, 14276, 4.81, 1, 1, 'Medium Fish'),
 	(21373, 0, 58953, 1.92, 1, 1, 'Deputy''s Monotube Shouldergear'),
 	(21373, 0, 59055, 1.92, 1, 1, 'Exceptional Professor''s Psyphalon Buffet'),
 	(21373, 0, 43011, 1.92, 1, 1, 'Scaly Bait'),
 	(21373, 0, 29597, 0.96, 1, 1, 'Sign of Fire - Greater'),
-	(21373, 0, 14411, 0.96, 1, 1, 'Energized Heavy Water'),
 	(21373, 0, 30659, 0.96, 1, 1, 'Neon Sign (Octopus)'),
 	(21373, 0, 58764, 0.96, 1, 1, 'Conveyor''s Cryptowarp Trench'),
 	(21373, 0, 27577, 0.96, 1, 1, 'Silk Shoes'),
@@ -1421,23 +1324,19 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(21463, 0, 14275, 5.41, 1, 1, 'Small Fish'),
 	(21463, 0, 59228, 2.7, 1, 1, 'Prophet''s Lexigroove Shouldergear'),
 	(21463, 0, 43012, 2.7, 1, 1, 'Not-So-Bad Fish'),
-	(21463, 0, 58905, 2.7, 1, 1, 'Legate''s Turboneous Creese'),
-	(21463, 0, 14409, 2.7, 1, 1, 'Survival Supply Stash');
+	(21463, 0, 58905, 2.7, 1, 1, 'Legate''s Turboneous Creese');
 
 -- Silversnout Patriarch (943 kills recorded, silversnout-patriarch-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (21821, NULL, 100, 0, 0, 0, 0, 'Silversnout Patriarch');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (21821, 21821, 'Silversnout Patriarch');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(21821, 0, 7763, 18.45, 1, 1, 'Broken Girrok Claws'),
-	(21821, 0, 14409, 11.45, 1, 1, 'Survival Supply Stash'),
 	(21821, 0, 14236, 9.12, 1, 1, 'Thick Leather'),
 	(21821, 0, 29588, 8.8, 1, 1, 'Sign of Earth'),
 	(21821, 0, 14280, 8.59, 1, 1, 'Tender Meat'),
 	(21821, 0, 14279, 8.48, 1, 1, 'Tough Meat'),
 	(21821, 0, 14237, 8.48, 1, 1, 'Reinforced Leather'),
-	(21821, 0, 14410, 5.62, 1, 1, 'Biomimetic Mud'),
 	(21821, 0, 42996, 2.12, 1, 1, 'Rotten Remains'),
-	(21821, 0, 14411, 2.01, 1, 1, 'Energized Heavy Water'),
 	(21821, 0, 36219, 0.32, 1, 1, 'Formula: Unstable Grit Boost'),
 	(21821, 0, 27696, 0.21, 1, 1, 'Handsome Titanium Pauldrons'),
 	(21821, 0, 27636, 0.11, 1, 1, 'Palladium Inlaid Breastplate'),
@@ -1462,9 +1361,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22224, 22224, 'Snowshadow Grenadier');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22224, 0, 7686, 63.64, 1, 1, 'Religious Relic'),
-	(22224, 0, 14409, 18.18, 1, 1, 'Survival Supply Stash'),
-	(22224, 0, 40257, 9.09, 1, 1, 'Cnidocyte Cell'),
-	(22224, 0, 14411, 9.09, 1, 1, 'Energized Heavy Water');
+	(22224, 0, 40257, 9.09, 1, 1, 'Cnidocyte Cell');
 
 -- Truthbound Convert (523 kills recorded, truthbound-convert-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (22456, NULL, 100, 0, 0, 0, 0, 'Truthbound Convert');
@@ -1515,16 +1412,13 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22458, 22458, 'Truthbound Evocator');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22458, 0, 7686, 30.13, 1, 1, 'Religious Relic'),
-	(22458, 0, 14409, 24.27, 1, 1, 'Survival Supply Stash'),
 	(22458, 0, 14518, 10.88, 1, 1, 'Whimfiber Cloth'),
 	(22458, 0, 14517, 8.79, 1, 1, 'Silk Cloth'),
-	(22458, 0, 14410, 7.53, 1, 1, 'Biomimetic Mud'),
 	(22458, 0, 29604, 7.53, 1, 1, 'Sign of Air'),
 	(22458, 0, 27577, 2.09, 1, 1, 'Silk Shoes'),
 	(22458, 0, 40255, 2.09, 1, 1, 'Nematocyst Stinger'),
 	(22458, 0, 29596, 0.84, 1, 1, 'Sign of Fire'),
 	(22458, 0, 58835, 0.84, 1, 1, 'Prophet''s Pherotube Stockings'),
-	(22458, 0, 14411, 0.84, 1, 1, 'Energized Heavy Water'),
 	(22458, 0, 29316, 0.42, 1, 1, 'Sign of Water'),
 	(22458, 0, 59553, 0.42, 1, 1, 'Conveyor''s Gigarosis Inciter'),
 	(22458, 0, 59155, 0.42, 1, 1, 'Conveyor''s Nanorium Projector'),
@@ -1541,9 +1435,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22460, 22460, 'Truthbound Vindicator');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22460, 0, 7686, 30, 1, 1, 'Religious Relic'),
-	(22460, 0, 14409, 27.5, 1, 1, 'Survival Supply Stash'),
 	(22460, 0, 14517, 15, 1, 1, 'Silk Cloth'),
-	(22460, 0, 14410, 8, 1, 1, 'Biomimetic Mud'),
 	(22460, 0, 14518, 4, 1, 1, 'Whimfiber Cloth'),
 	(22460, 0, 27572, 2.5, 1, 1, 'Whimfiber Hat'),
 	(22460, 0, 29588, 2.5, 1, 1, 'Sign of Earth'),
@@ -1555,7 +1447,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(22460, 0, 35920, 0.5, 1, 1, 'Schematic: Truthbound Shockers'),
 	(22460, 0, 59159, 0.5, 1, 1, 'Conveyor''s Betabraid Chestpiece'),
 	(22460, 0, 40257, 0.5, 1, 1, 'Cnidocyte Cell'),
-	(22460, 0, 14411, 0.5, 1, 1, 'Energized Heavy Water'),
 	(22460, 0, 29609, 0.5, 1, 1, 'Rune Fragment'),
 	(22460, 0, 59099, 0.5, 1, 1, 'Maniac''s Zetafiber Particle Web'),
 	(22460, 0, 59156, 0.5, 1, 1, 'Conveyor''s Nanorium Target Link');
@@ -1566,13 +1457,10 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22530, 22530,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22530, 0, 7686, 26.67, 1, 1, 'Religious Relic'),
 	(22530, 0, 7782, 22.22, 1, 1, 'Filled Flask'),
-	(22530, 0, 14409, 17.78, 1, 1, 'Survival Supply Stash'),
 	(22530, 0, 29604, 7.78, 1, 1, 'Sign of Air'),
 	(22530, 0, 14517, 6.67, 1, 1, 'Silk Cloth'),
 	(22530, 0, 14518, 5.56, 1, 1, 'Whimfiber Cloth'),
 	(22530, 0, 13070, 3.33, 1, 1, 'Whitevale Luck Charm'),
-	(22530, 0, 14411, 2.22, 1, 1, 'Energized Heavy Water'),
-	(22530, 0, 14410, 2.22, 1, 1, 'Biomimetic Mud'),
 	(22530, 0, 29609, 1.11, 1, 1, 'Rune Fragment'),
 	(22530, 0, 58170, 1.11, 1, 1, 'Legate''s Omniosis Expander'),
 	(22530, 0, 34666, 1.11, 1, 1, 'Renewable Probes AMP'),
@@ -1586,11 +1474,8 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(22531, 0, 7782, 26.64, 1, 1, 'Filled Flask'),
 	(22531, 0, 7686, 25.33, 1, 1, 'Religious Relic'),
 	(22531, 0, 14517, 12.23, 1, 1, 'Silk Cloth'),
-	(22531, 0, 14409, 10.92, 1, 1, 'Survival Supply Stash'),
 	(22531, 0, 13070, 5.68, 1, 1, 'Whitevale Luck Charm'),
-	(22531, 0, 14410, 5.68, 1, 1, 'Biomimetic Mud'),
 	(22531, 0, 29588, 5.24, 1, 1, 'Sign of Earth'),
-	(22531, 0, 14411, 2.18, 1, 1, 'Energized Heavy Water'),
 	(22531, 0, 58587, 1.75, 1, 1, 'Deputy''s Eldanlite Striders'),
 	(22531, 0, 27577, 1.31, 1, 1, 'Silk Shoes'),
 	(22531, 0, 58357, 0.44, 1, 1, 'Maniac''s Regeniplate Treads'),
@@ -1605,14 +1490,11 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (22532, NULL, 100, 0, 0, 0, 0, 'Sunderstone Defender');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22532, 22532, 'Sunderstone Defender');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(22532, 0, 14409, 23.76, 1, 1, 'Survival Supply Stash'),
 	(22532, 0, 7686, 20.44, 1, 1, 'Religious Relic'),
 	(22532, 0, 7782, 14.92, 1, 1, 'Filled Flask'),
 	(22532, 0, 14517, 9.39, 1, 1, 'Silk Cloth'),
-	(22532, 0, 14410, 9.39, 1, 1, 'Biomimetic Mud'),
 	(22532, 0, 13070, 7.18, 1, 1, 'Whitevale Luck Charm'),
 	(22532, 0, 29588, 6.08, 1, 1, 'Sign of Earth'),
-	(22532, 0, 14411, 3.87, 1, 1, 'Energized Heavy Water'),
 	(22532, 0, 27577, 1.66, 1, 1, 'Silk Shoes'),
 	(22532, 0, 40256, 1.1, 1, 1, 'Gastroderm Barrier'),
 	(22532, 0, 40257, 0.55, 1, 1, 'Cnidocyte Cell'),
@@ -1626,14 +1508,11 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22533, 22533,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22533, 0, 14517, 23.33, 1, 1, 'Silk Cloth'),
 	(22533, 0, 7686, 20, 1, 1, 'Religious Relic'),
-	(22533, 0, 14409, 15.56, 1, 1, 'Survival Supply Stash'),
 	(22533, 0, 29604, 7.78, 1, 1, 'Sign of Air'),
 	(22533, 0, 14518, 7.78, 1, 1, 'Whimfiber Cloth'),
-	(22533, 0, 14410, 7.78, 1, 1, 'Biomimetic Mud'),
 	(22533, 0, 13070, 5.56, 1, 1, 'Whitevale Luck Charm'),
 	(22533, 0, 58967, 4.44, 1, 1, 'Deputy''s Plasmatwine Kinetic Absorber'),
 	(22533, 0, 29609, 3.33, 1, 1, 'Rune Fragment'),
-	(22533, 0, 14411, 1.11, 1, 1, 'Energized Heavy Water'),
 	(22533, 0, 27577, 1.11, 1, 1, 'Silk Shoes'),
 	(22533, 0, 27572, 1.11, 1, 1, 'Whimfiber Hat'),
 	(22533, 0, 30500, 1.11, 1, 1, 'Shock Absorber AMP');
@@ -1668,8 +1547,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22545, 22545, 'Pridianheart Cruxgrower');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22545, 0, 38651, 45.73, 1, 1, 'Growth Ivory'),
-	(22545, 0, 14409, 23.57, 1, 1, 'Survival Supply Stash'),
-	(22545, 0, 14410, 9.23, 1, 1, 'Biomimetic Mud'),
 	(22545, 0, 14461, 2.2, 1, 1, 'Pot Roast'),
 	(22545, 0, 36219, 0.62, 1, 1, 'Formula: Unstable Grit Boost'),
 	(22545, 0, 41151, 0.35, 1, 1, 'Frozen Corrupter Agony Aura'),
@@ -1686,8 +1563,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22547, 22547,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22547, 0, 29316, 33.71, 1, 1, 'Sign of Water'),
 	(22547, 0, 38638, 25.32, 1, 1, 'Moist Ivory'),
-	(22547, 0, 14409, 16.94, 1, 1, 'Survival Supply Stash'),
-	(22547, 0, 14410, 8.55, 1, 1, 'Biomimetic Mud'),
 	(22547, 0, 1821, 0.32, 1, 1, 'Imprinted Polymesh Halo'),
 	(22547, 0, 13847, 0.32, 1, 1, 'Handsome Thick Leather Shoulder Boards'),
 	(22547, 0, 11134, 0.32, 1, 1, 'Fine Platinum Greaves'),
@@ -1700,8 +1575,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22548, 22548,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22548, 0, 38638, 49.07, 1, 1, 'Moist Ivory'),
 	(22548, 0, 29316, 17.79, 1, 1, 'Sign of Water'),
-	(22548, 0, 14409, 15.18, 1, 1, 'Survival Supply Stash'),
-	(22548, 0, 14410, 6.72, 1, 1, 'Biomimetic Mud'),
 	(22548, 0, 37107, 0.29, 1, 1, 'Trunk of Tarnished Tints'),
 	(22548, 0, 40255, 0.23, 1, 1, 'Nematocyst Stinger'),
 	(22548, 0, 9947, 0.17, 1, 1, 'Titanium-Alloy Greatsword');
@@ -1712,10 +1585,8 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22549, 22549,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22549, 0, 14517, 24.07, 1, 1, 'Silk Cloth'),
 	(22549, 0, 7782, 18.52, 1, 1, 'Filled Flask'),
-	(22549, 0, 14410, 14.81, 1, 1, 'Biomimetic Mud'),
 	(22549, 0, 7686, 9.26, 1, 1, 'Religious Relic'),
 	(22549, 0, 29588, 9.26, 1, 1, 'Sign of Earth'),
-	(22549, 0, 14409, 7.41, 1, 1, 'Survival Supply Stash'),
 	(22549, 0, 31546, 7.41, 1, 1, 'Hanging Lamp (Exile)'),
 	(22549, 0, 58249, 1.85, 1, 1, 'Exceptional Deputy''s Technopolymer Kinetic Devourer'),
 	(22549, 0, 27577, 1.85, 1, 1, 'Silk Shoes'),
@@ -1728,11 +1599,8 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22550, 22550, 'Drill Operator Mark');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22550, 0, 14517, 32.14, 1, 1, 'Silk Cloth'),
-	(22550, 0, 14410, 17.86, 1, 1, 'Biomimetic Mud'),
 	(22550, 0, 7782, 14.29, 1, 1, 'Filled Flask'),
 	(22550, 0, 29604, 10.71, 1, 1, 'Sign of Air'),
-	(22550, 0, 14411, 10.71, 1, 1, 'Energized Heavy Water'),
-	(22550, 0, 14409, 3.57, 1, 1, 'Survival Supply Stash'),
 	(22550, 0, 58651, 3.57, 1, 1, 'Professor''s Servaron Magnifier'),
 	(22550, 0, 7686, 3.57, 1, 1, 'Religious Relic'),
 	(22550, 0, 29609, 3.57, 1, 1, 'Rune Fragment');
@@ -1741,11 +1609,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (22551, NULL, 100, 0, 0, 0, 0, 'Drill Operator Devan');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22551, 22551, 'Drill Operator Devan');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(22551, 0, 14409, 24.19, 1, 1, 'Survival Supply Stash'),
 	(22551, 0, 14517, 16.13, 1, 1, 'Silk Cloth'),
 	(22551, 0, 29604, 16.13, 1, 1, 'Sign of Air'),
 	(22551, 0, 7782, 11.29, 1, 1, 'Filled Flask'),
-	(22551, 0, 14410, 11.29, 1, 1, 'Biomimetic Mud'),
 	(22551, 0, 7686, 8.06, 1, 1, 'Religious Relic'),
 	(22551, 0, 58654, 3.23, 1, 1, 'Professor''s Lexithread Overshirt'),
 	(22551, 0, 58595, 1.61, 1, 1, 'Deputy''s Retromagnetic Gaiters'),
@@ -1760,14 +1626,11 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22553, 22553, 'Sunderstone Smasher');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22553, 0, 7686, 23.81, 1, 1, 'Religious Relic'),
-	(22553, 0, 14409, 14.97, 1, 1, 'Survival Supply Stash'),
 	(22553, 0, 14517, 10.88, 1, 1, 'Silk Cloth'),
 	(22553, 0, 13393, 10.2, 1, 1, 'Sunderstone Prisoner Key'),
 	(22553, 0, 29588, 9.52, 1, 1, 'Sign of Earth'),
 	(22553, 0, 14518, 7.48, 1, 1, 'Whimfiber Cloth'),
-	(22553, 0, 14410, 7.48, 1, 1, 'Biomimetic Mud'),
 	(22553, 0, 58563, 3.4, 1, 1, 'Exceptional Legate''s Celestiform Slayer'),
-	(22553, 0, 14411, 3.4, 1, 1, 'Energized Heavy Water'),
 	(22553, 0, 58838, 2.72, 1, 1, 'Prophet''s Pherotube Scratchers'),
 	(22553, 0, 27572, 1.36, 1, 1, 'Whimfiber Hat'),
 	(22553, 0, 58596, 0.68, 1, 1, 'Deputy''s Retromagnetic Stole'),
@@ -1782,12 +1645,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (22554, NULL, 100, 0, 0, 0, 0, 'Exile Drillbot');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22554, 22554, 'Exile Drillbot');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(22554, 0, 14409, 26.09, 1, 1, 'Survival Supply Stash'),
 	(22554, 0, 7442, 26.09, 1, 1, 'Stripped Sprocket'),
 	(22554, 0, 7441, 20.29, 1, 1, 'Melted Wiring'),
-	(22554, 0, 14410, 11.59, 1, 1, 'Biomimetic Mud'),
 	(22554, 0, 58473, 4.35, 1, 1, 'Prophet''s Magnisurge Psionic Dominator'),
-	(22554, 0, 14411, 1.45, 1, 1, 'Energized Heavy Water'),
 	(22554, 0, 29609, 1.45, 1, 1, 'Rune Fragment'),
 	(22554, 0, 40381, 1.45, 1, 1, 'Ancient Exanite-Coated Vest'),
 	(22554, 0, 58539, 1.45, 1, 1, 'Legate''s Celestiform Kinetic Web'),
@@ -1855,12 +1715,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(22598, 0, 7538, 27.38, 1, 1, 'Frigid Chompacabra Eye'),
 	(22598, 0, 14236, 17.86, 1, 1, 'Thick Leather'),
 	(22598, 0, 14280, 11.31, 1, 1, 'Tender Meat'),
-	(22598, 0, 14409, 10.12, 1, 1, 'Survival Supply Stash'),
 	(22598, 0, 14237, 8.93, 1, 1, 'Reinforced Leather'),
 	(22598, 0, 14279, 8.33, 1, 1, 'Tough Meat'),
-	(22598, 0, 14410, 4.17, 1, 1, 'Biomimetic Mud'),
 	(22598, 0, 29596, 3.57, 1, 1, 'Sign of Fire'),
-	(22598, 0, 14411, 1.19, 1, 1, 'Energized Heavy Water'),
 	(22598, 0, 58924, 1.19, 1, 1, 'Exceptional Legate''s Turboneous Galvanizer'),
 	(22598, 0, 58845, 1.19, 1, 1, 'Exceptional Prophet''s Styrothium Stockings'),
 	(22598, 0, 59025, 1.19, 1, 1, 'Professor''s Photoweave Crystal'),
@@ -1876,17 +1733,14 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22600, 22600, 'Frost-Striped Pumera');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22600, 0, 8051, 37.52, 1, 1, 'Furry Pumera Paw'),
-	(22600, 0, 14409, 12.01, 1, 1, 'Survival Supply Stash'),
 	(22600, 0, 14279, 11.73, 1, 1, 'Tough Meat'),
 	(22600, 0, 14236, 10.64, 1, 1, 'Thick Leather'),
-	(22600, 0, 14410, 4.5, 1, 1, 'Biomimetic Mud'),
 	(22600, 0, 14237, 4.23, 1, 1, 'Reinforced Leather'),
 	(22600, 0, 42996, 3.82, 1, 1, 'Rotten Remains'),
 	(22600, 0, 29596, 3.68, 1, 1, 'Sign of Fire'),
 	(22600, 0, 14280, 3.41, 1, 1, 'Tender Meat'),
 	(22600, 0, 42997, 1.91, 1, 1, 'Mangled Carcass'),
 	(22600, 0, 13070, 1.64, 1, 1, 'Whitevale Luck Charm'),
-	(22600, 0, 14411, 1.23, 1, 1, 'Energized Heavy Water'),
 	(22600, 0, 14247, 0.41, 1, 1, 'Fur-Lined Pelt'),
 	(22600, 0, 29597, 0.27, 1, 1, 'Sign of Fire - Greater'),
 	(22600, 0, 58562, 0.27, 1, 1, 'Exceptional Legate''s Celestiform Rebreather'),
@@ -1916,7 +1770,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22606, 22606,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22606, 0, 59096, 20, 1, 1, 'Maniac''s Zetafiber Stole'),
 	(22606, 0, 7763, 20, 1, 1, 'Broken Girrok Claws'),
-	(22606, 0, 14409, 20, 1, 1, 'Survival Supply Stash'),
 	(22606, 0, 14280, 20, 1, 1, 'Tender Meat'),
 	(22606, 0, 42997, 20, 1, 1, 'Mangled Carcass');
 
@@ -1927,14 +1780,11 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(22607, 0, 14236, 21.48, 1, 1, 'Thick Leather'),
 	(22607, 0, 7763, 16.67, 1, 1, 'Broken Girrok Claws'),
 	(22607, 0, 14279, 10.37, 1, 1, 'Tough Meat'),
-	(22607, 0, 14409, 9.63, 1, 1, 'Survival Supply Stash'),
 	(22607, 0, 14280, 7.41, 1, 1, 'Tender Meat'),
 	(22607, 0, 29588, 6.67, 1, 1, 'Sign of Earth'),
-	(22607, 0, 14410, 4.81, 1, 1, 'Biomimetic Mud'),
 	(22607, 0, 7762, 4.07, 1, 1, 'Ragged Girrok Pelt'),
 	(22607, 0, 13070, 4.07, 1, 1, 'Whitevale Luck Charm'),
 	(22607, 0, 14237, 3.33, 1, 1, 'Reinforced Leather'),
-	(22607, 0, 14411, 2.96, 1, 1, 'Energized Heavy Water'),
 	(22607, 0, 42996, 2.59, 1, 1, 'Rotten Remains'),
 	(22607, 0, 29609, 2.22, 1, 1, 'Rune Fragment'),
 	(22607, 0, 14248, 0.74, 1, 1, 'Hardened Pelt'),
@@ -1955,16 +1805,13 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(22609, 0, 8089, 17.93, 1, 1, 'Ragged Razortail Pelt'),
 	(22609, 0, 29596, 7.61, 1, 1, 'Sign of Fire'),
 	(22609, 0, 14280, 7.61, 1, 1, 'Tender Meat'),
-	(22609, 0, 14409, 5.43, 1, 1, 'Survival Supply Stash'),
 	(22609, 0, 14279, 5.43, 1, 1, 'Tough Meat'),
-	(22609, 0, 14410, 4.35, 1, 1, 'Biomimetic Mud'),
 	(22609, 0, 29604, 2.72, 1, 1, 'Sign of Air'),
 	(22609, 0, 13070, 1.63, 1, 1, 'Whitevale Luck Charm'),
 	(22609, 0, 14247, 1.63, 1, 1, 'Fur-Lined Pelt'),
 	(22609, 0, 16128, 1.63, 1, 1, 'Thick Bone'),
 	(22609, 0, 58827, 1.09, 1, 1, 'Prophet''s Styrothium Shoes'),
 	(22609, 0, 42996, 1.09, 1, 1, 'Rotten Remains'),
-	(22609, 0, 14411, 0.54, 1, 1, 'Energized Heavy Water'),
 	(22609, 0, 29316, 0.54, 1, 1, 'Sign of Water'),
 	(22609, 0, 21923, 0.54, 1, 1, 'Holovision (Floating)'),
 	(22609, 0, 14237, 0.54, 1, 1, 'Reinforced Leather'),
@@ -1995,15 +1842,12 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22611, 22611, 'Territorial Icebay Shellark');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22611, 0, 8174, 16.41, 1, 1, 'Broken Shellark Shell'),
-	(22611, 0, 14409, 13.17, 1, 1, 'Survival Supply Stash'),
 	(22611, 0, 14237, 11.18, 1, 1, 'Reinforced Leather'),
 	(22611, 0, 14236, 10.31, 1, 1, 'Thick Leather'),
 	(22611, 0, 14275, 8.88, 1, 1, 'Small Fish'),
 	(22611, 0, 14266, 8.14, 1, 1, 'Shellark Meat'),
 	(22611, 0, 14276, 7.35, 1, 1, 'Medium Fish'),
 	(22611, 0, 29316, 6.35, 1, 1, 'Sign of Water'),
-	(22611, 0, 14410, 5.94, 1, 1, 'Biomimetic Mud'),
-	(22611, 0, 14411, 1.35, 1, 1, 'Energized Heavy Water'),
 	(22611, 0, 43011, 1.28, 1, 1, 'Scaly Bait'),
 	(22611, 0, 18818, 0.99, 1, 1, 'Recipe: Shellark Steak'),
 	(22611, 0, 43012, 0.95, 1, 1, 'Not-So-Bad Fish'),
@@ -2150,13 +1994,10 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22642, 22642,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22642, 0, 7537, 19.58, 1, 1, 'Broken Chompacabra Teeth'),
 	(22642, 0, 7538, 18.4, 1, 1, 'Frigid Chompacabra Eye'),
-	(22642, 0, 14409, 15.43, 1, 1, 'Survival Supply Stash'),
 	(22642, 0, 14236, 11.28, 1, 1, 'Thick Leather'),
-	(22642, 0, 14410, 9.5, 1, 1, 'Biomimetic Mud'),
 	(22642, 0, 29596, 6.82, 1, 1, 'Sign of Fire'),
 	(22642, 0, 14280, 5.04, 1, 1, 'Tender Meat'),
 	(22642, 0, 14279, 3.56, 1, 1, 'Tough Meat'),
-	(22642, 0, 14411, 2.37, 1, 1, 'Energized Heavy Water'),
 	(22642, 0, 13070, 2.37, 1, 1, 'Whitevale Luck Charm'),
 	(22642, 0, 14237, 1.78, 1, 1, 'Reinforced Leather'),
 	(22642, 0, 58475, 0.59, 1, 1, 'Prophet''s Quadraline Legwraps'),
@@ -2177,14 +2018,11 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22643, 22643, 'Ice-Crusted Boulderback');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22643, 0, 14236, 17.89, 1, 1, 'Thick Leather'),
-	(22643, 0, 14409, 14.74, 1, 1, 'Survival Supply Stash'),
 	(22643, 0, 47646, 12.63, 1, 1, 'Patchy Boulderback Hide'),
 	(22643, 0, 14237, 11.05, 1, 1, 'Reinforced Leather'),
 	(22643, 0, 14254, 11.05, 1, 1, 'Boulderback Meat'),
 	(22643, 0, 29588, 9.47, 1, 1, 'Sign of Earth'),
-	(22643, 0, 14410, 5.26, 1, 1, 'Biomimetic Mud'),
 	(22643, 0, 12937, 3.68, 1, 1, 'Titanium Chunk'),
-	(22643, 0, 14411, 2.11, 1, 1, 'Energized Heavy Water'),
 	(22643, 0, 13070, 1.58, 1, 1, 'Whitevale Luck Charm'),
 	(22643, 0, 14188, 1.58, 1, 1, 'Platinum Chunk'),
 	(22643, 0, 18791, 1.58, 1, 1, 'Recipe: Boulderback Filet Mignon'),
@@ -2207,11 +2045,9 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22679, 22679,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22679, 0, 14518, 25.93, 1, 1, 'Whimfiber Cloth'),
 	(22679, 0, 7949, 18.52, 1, 1, 'Broken Mechari Gears'),
-	(22679, 0, 14409, 14.81, 1, 1, 'Survival Supply Stash'),
 	(22679, 0, 14517, 14.81, 1, 1, 'Silk Cloth'),
 	(22679, 0, 59109, 7.41, 1, 1, 'Exceptional Maniac''s Synthelix Snatchers'),
 	(22679, 0, 29612, 3.7, 1, 1, 'Armor Rune Fragment'),
-	(22679, 0, 14410, 3.7, 1, 1, 'Biomimetic Mud'),
 	(22679, 0, 27577, 3.7, 1, 1, 'Silk Shoes'),
 	(22679, 0, 27572, 3.7, 1, 1, 'Whimfiber Hat'),
 	(22679, 0, 58885, 3.7, 1, 1, 'Legate''s Kilophalon Workpants');
@@ -2221,13 +2057,10 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22680, 22680, 'Blackfrost Security');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22680, 0, 38716, 34.58, 1, 1, 'Infected Blood'),
-	(22680, 0, 14409, 17, 1, 1, 'Survival Supply Stash'),
 	(22680, 0, 14517, 12.39, 1, 1, 'Silk Cloth'),
 	(22680, 0, 38715, 8.93, 1, 1, 'Contaminated Cloth'),
 	(22680, 0, 29316, 8.93, 1, 1, 'Sign of Water'),
-	(22680, 0, 14410, 4.32, 1, 1, 'Biomimetic Mud'),
 	(22680, 0, 14518, 2.59, 1, 1, 'Whimfiber Cloth'),
-	(22680, 0, 14411, 2.31, 1, 1, 'Energized Heavy Water'),
 	(22680, 0, 27577, 1.44, 1, 1, 'Silk Shoes'),
 	(22680, 0, 58591, 1.44, 1, 1, 'Deputy''s Eldanlite Galvanizer'),
 	(22680, 0, 59178, 1.15, 1, 1, 'Exceptional Conveyor''s Nanorium Target Link'),
@@ -2252,13 +2085,10 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22681, 22681, 'Blackfrost Analyst');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22681, 0, 7686, 42.4, 1, 1, 'Religious Relic'),
-	(22681, 0, 14409, 14.29, 1, 1, 'Survival Supply Stash'),
 	(22681, 0, 14517, 13.82, 1, 1, 'Silk Cloth'),
 	(22681, 0, 14518, 8.76, 1, 1, 'Whimfiber Cloth'),
-	(22681, 0, 14410, 7.37, 1, 1, 'Biomimetic Mud'),
 	(22681, 0, 29604, 7.37, 1, 1, 'Sign of Air'),
 	(22681, 0, 40257, 1.38, 1, 1, 'Cnidocyte Cell'),
-	(22681, 0, 14411, 0.92, 1, 1, 'Energized Heavy Water'),
 	(22681, 0, 27577, 0.46, 1, 1, 'Silk Shoes'),
 	(22681, 0, 58781, 0.46, 1, 1, 'Conveyor''s Theraseptic Battery'),
 	(22681, 0, 40255, 0.46, 1, 1, 'Nematocyst Stinger'),
@@ -2290,16 +2120,13 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(22766, 0, 14279, 13.33, 1, 1, 'Tough Meat'),
 	(22766, 0, 14247, 6.67, 1, 1, 'Fur-Lined Pelt'),
 	(22766, 0, 58779, 6.67, 1, 1, 'Conveyor''s Theraseptic Shelter'),
-	(22766, 0, 14236, 6.67, 1, 1, 'Thick Leather'),
-	(22766, 0, 14409, 6.67, 1, 1, 'Survival Supply Stash');
+	(22766, 0, 14236, 6.67, 1, 1, 'Thick Leather');
 
 -- Unacclimated Razortail (38 kills recorded, unacclimated-razortail-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (22767, NULL, 100, 0, 0, 0, 0, 'Unacclimated Razortail');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (22767, 22767, 'Unacclimated Razortail');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(22767, 0, 8090, 31.58, 1, 1, 'Furry Razortail Ears'),
-	(22767, 0, 14409, 18.42, 1, 1, 'Survival Supply Stash'),
-	(22767, 0, 14411, 7.89, 1, 1, 'Energized Heavy Water'),
 	(22767, 0, 42996, 7.89, 1, 1, 'Rotten Remains'),
 	(22767, 0, 58776, 7.89, 1, 1, 'Conveyor''s Theraseptic Shoulder Armor'),
 	(22767, 0, 14236, 7.89, 1, 1, 'Thick Leather'),
@@ -2544,29 +2371,21 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (23097, NULL, 100, 0, 0, 0, 0, 'Hostile Deadrock Inmate');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (23097, 23097, 'Hostile Deadrock Inmate');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(23097, 0, 14409, 52.38, 1, 1, 'Survival Supply Stash'),
-	(23097, 0, 14410, 31.75, 1, 1, 'Biomimetic Mud'),
 	(23097, 0, 13070, 15.87, 1, 1, 'Whitevale Luck Charm');
 
 -- Hostile Deadrock Inmate (63 kills recorded, hostile-deadrock-inmate-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (23098, NULL, 100, 0, 0, 0, 0, 'Hostile Deadrock Inmate');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (23098, 23098, 'Hostile Deadrock Inmate');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(23098, 0, 14409, 52.38, 1, 1, 'Survival Supply Stash'),
-	(23098, 0, 14410, 31.75, 1, 1, 'Biomimetic Mud'),
 	(23098, 0, 13070, 15.87, 1, 1, 'Whitevale Luck Charm');
 
 -- Compliant Deadrock Inmate (15 kills recorded, compliant-deadrock-inmate-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (23100, NULL, 100, 0, 0, 0, 0, 'Compliant Deadrock Inmate');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (23100, 23100, 'Compliant Deadrock Inmate');
-INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(23100, 0, 14409, 73.33, 1, 1, 'Survival Supply Stash');
 
 -- Compliant Deadrock Inmate (15 kills recorded, compliant-deadrock-inmate-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (23101, NULL, 100, 0, 0, 0, 0, 'Compliant Deadrock Inmate');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (23101, 23101, 'Compliant Deadrock Inmate');
-INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(23101, 0, 14409, 73.33, 1, 1, 'Survival Supply Stash');
 
 -- Brother Vasker (16 kills recorded, brother-vasker-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (23186, NULL, 100, 0, 0, 0, 0, 'Brother Vasker');
@@ -2583,11 +2402,8 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (23301, 23301, 'Toxic Fraz');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(23301, 0, 7724, 32.61, 1, 1, 'Blood-Soaked Fraz Tail'),
-	(23301, 0, 14409, 20, 1, 1, 'Survival Supply Stash'),
 	(23301, 0, 14236, 12.79, 1, 1, 'Thick Leather'),
 	(23301, 0, 14237, 10.25, 1, 1, 'Reinforced Leather'),
-	(23301, 0, 14410, 8.87, 1, 1, 'Biomimetic Mud'),
-	(23301, 0, 14411, 1.96, 1, 1, 'Energized Heavy Water'),
 	(23301, 0, 14247, 0.71, 1, 1, 'Fur-Lined Pelt'),
 	(23301, 0, 36219, 0.34, 1, 1, 'Formula: Unstable Grit Boost'),
 	(23301, 0, 29609, 0.25, 1, 1, 'Rune Fragment'),
@@ -2614,15 +2430,12 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (23391, 23391, 'Traggis the Colossus');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(23391, 0, 8392, 47.37, 1, 1, 'Discolored Fetish'),
-	(23391, 0, 14410, 15.79, 1, 1, 'Biomimetic Mud'),
-	(23391, 0, 14409, 13.16, 1, 1, 'Survival Supply Stash'),
 	(23391, 0, 29321, 7.89, 1, 1, 'Sign of Life - Greater'),
 	(23391, 0, 30396, 2.63, 1, 1, 'Traggis''s Rib'),
 	(23391, 0, 59557, 2.63, 1, 1, 'Conveyor''s Dynaridium Helm'),
 	(23391, 0, 59546, 2.63, 1, 1, 'Conveyor''s Gigarosis Helm'),
 	(23391, 0, 59484, 2.63, 1, 1, 'Maniac''s Astrotube Shelter'),
-	(23391, 0, 21482, 2.63, 1, 1, 'Galeras Wall'),
-	(23391, 0, 14411, 2.63, 1, 1, 'Energized Heavy Water');
+	(23391, 0, 21482, 2.63, 1, 1, 'Galeras Wall');
 
 -- Truthbound Sentinel (48 kills recorded, truthbound-sentinel-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (23519, NULL, 100, 0, 0, 0, 0, 'Truthbound Sentinel');
@@ -2729,16 +2542,13 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (23658, 23658, 'Truthbound Evocator');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(23658, 0, 7686, 30.13, 1, 1, 'Religious Relic'),
-	(23658, 0, 14409, 24.27, 1, 1, 'Survival Supply Stash'),
 	(23658, 0, 14518, 10.88, 1, 1, 'Whimfiber Cloth'),
 	(23658, 0, 14517, 8.79, 1, 1, 'Silk Cloth'),
-	(23658, 0, 14410, 7.53, 1, 1, 'Biomimetic Mud'),
 	(23658, 0, 29604, 7.53, 1, 1, 'Sign of Air'),
 	(23658, 0, 27577, 2.09, 1, 1, 'Silk Shoes'),
 	(23658, 0, 40255, 2.09, 1, 1, 'Nematocyst Stinger'),
 	(23658, 0, 29596, 0.84, 1, 1, 'Sign of Fire'),
 	(23658, 0, 58835, 0.84, 1, 1, 'Prophet''s Pherotube Stockings'),
-	(23658, 0, 14411, 0.84, 1, 1, 'Energized Heavy Water'),
 	(23658, 0, 29316, 0.42, 1, 1, 'Sign of Water'),
 	(23658, 0, 59553, 0.42, 1, 1, 'Conveyor''s Gigarosis Inciter'),
 	(23658, 0, 59155, 0.42, 1, 1, 'Conveyor''s Nanorium Projector'),
@@ -2755,9 +2565,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (23660, 23660, 'Truthbound Vindicator');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(23660, 0, 7686, 30, 1, 1, 'Religious Relic'),
-	(23660, 0, 14409, 27.5, 1, 1, 'Survival Supply Stash'),
 	(23660, 0, 14517, 15, 1, 1, 'Silk Cloth'),
-	(23660, 0, 14410, 8, 1, 1, 'Biomimetic Mud'),
 	(23660, 0, 14518, 4, 1, 1, 'Whimfiber Cloth'),
 	(23660, 0, 27572, 2.5, 1, 1, 'Whimfiber Hat'),
 	(23660, 0, 29588, 2.5, 1, 1, 'Sign of Earth'),
@@ -2769,7 +2577,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(23660, 0, 35920, 0.5, 1, 1, 'Schematic: Truthbound Shockers'),
 	(23660, 0, 59159, 0.5, 1, 1, 'Conveyor''s Betabraid Chestpiece'),
 	(23660, 0, 40257, 0.5, 1, 1, 'Cnidocyte Cell'),
-	(23660, 0, 14411, 0.5, 1, 1, 'Energized Heavy Water'),
 	(23660, 0, 29609, 0.5, 1, 1, 'Rune Fragment'),
 	(23660, 0, 59099, 0.5, 1, 1, 'Maniac''s Zetafiber Particle Web'),
 	(23660, 0, 59156, 0.5, 1, 1, 'Conveyor''s Nanorium Target Link');
@@ -2800,16 +2607,13 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24035, 24035, 'Squirg Smasher');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(24035, 0, 28105, 55.91, 1, 1, 'Slippery Squirg Steak'),
-	(24035, 0, 14410, 15.05, 1, 1, 'Biomimetic Mud'),
 	(24035, 0, 29316, 9.68, 1, 1, 'Sign of Water'),
 	(24035, 0, 59087, 3.23, 1, 1, 'Maniac''s Synthelix Snatchers'),
-	(24035, 0, 14409, 3.23, 1, 1, 'Survival Supply Stash'),
 	(24035, 0, 29317, 2.15, 1, 1, 'Sign of Water - Greater'),
 	(24035, 0, 40264, 2.15, 1, 1, 'Fuzzy Snowpants'),
 	(24035, 0, 59083, 1.08, 1, 1, 'Maniac''s Synthelix Pants'),
 	(24035, 0, 36220, 1.08, 1, 1, 'Formula: Reactive Critical Hit Boost'),
 	(24035, 0, 29597, 1.08, 1, 1, 'Sign of Fire - Greater'),
-	(24035, 0, 14411, 1.08, 1, 1, 'Energized Heavy Water'),
 	(24035, 0, 21614, 1.08, 1, 1, 'Table (Pell)'),
 	(24035, 0, 59546, 1.08, 1, 1, 'Conveyor''s Gigarosis Helm'),
 	(24035, 0, 31590, 1.08, 1, 1, 'Empty Toilet Paper Roll'),
@@ -2820,15 +2624,12 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24036, 24036, 'Squirg Erupter');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(24036, 0, 28105, 46.34, 1, 1, 'Slippery Squirg Steak'),
-	(24036, 0, 14410, 15.85, 1, 1, 'Biomimetic Mud'),
 	(24036, 0, 29316, 10.98, 1, 1, 'Sign of Water'),
 	(24036, 0, 29317, 3.66, 1, 1, 'Sign of Water - Greater'),
-	(24036, 0, 14409, 3.66, 1, 1, 'Survival Supply Stash'),
 	(24036, 0, 29613, 2.44, 1, 1, 'Eldan Rune Fragment'),
 	(24036, 0, 29605, 2.44, 1, 1, 'Sign of Air - Greater'),
 	(24036, 0, 59166, 1.22, 1, 1, 'Conveyor''s Betabraid Projector'),
 	(24036, 0, 29601, 1.22, 1, 1, 'Sign of Logic - Greater'),
-	(24036, 0, 14411, 1.22, 1, 1, 'Energized Heavy Water'),
 	(24036, 0, 40255, 1.22, 1, 1, 'Nematocyst Stinger'),
 	(24036, 0, 59280, 1.22, 1, 1, 'Legate''s Exantrode Uniform'),
 	(24036, 0, 59442, 1.22, 1, 1, 'Exceptional Professor''s Radiomesh Detachment'),
@@ -2844,8 +2645,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24037, 24037, 'Squirg Spewer');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(24037, 0, 28105, 50, 1, 1, 'Slippery Squirg Steak'),
-	(24037, 0, 14410, 21.43, 1, 1, 'Biomimetic Mud'),
-	(24037, 0, 14409, 10, 1, 1, 'Survival Supply Stash'),
 	(24037, 0, 29317, 4.29, 1, 1, 'Sign of Water - Greater'),
 	(24037, 0, 29316, 2.86, 1, 1, 'Sign of Water'),
 	(24037, 0, 41151, 1.43, 1, 1, 'Frozen Corrupter Agony Aura'),
@@ -2854,32 +2653,25 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(24037, 0, 59083, 1.43, 1, 1, 'Maniac''s Synthelix Pants'),
 	(24037, 0, 41142, 1.43, 1, 1, 'Legendary League Great Helm'),
 	(24037, 0, 29596, 1.43, 1, 1, 'Sign of Fire'),
-	(24037, 0, 59170, 1.43, 1, 1, 'Exceptional Conveyor''s Nanorium Chestpiece'),
-	(24037, 0, 14411, 1.43, 1, 1, 'Energized Heavy Water');
+	(24037, 0, 59170, 1.43, 1, 1, 'Exceptional Conveyor''s Nanorium Chestpiece');
 
 -- Squirg Stalker (54 kills recorded, squirg-stalker-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (24038, NULL, 100, 0, 0, 0, 0, 'Squirg Stalker');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24038, 24038, 'Squirg Stalker');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(24038, 0, 28105, 42.59, 1, 1, 'Slippery Squirg Steak'),
-	(24038, 0, 14410, 14.81, 1, 1, 'Biomimetic Mud'),
 	(24038, 0, 29316, 14.81, 1, 1, 'Sign of Water'),
 	(24038, 0, 29317, 11.11, 1, 1, 'Sign of Water - Greater'),
-	(24038, 0, 14409, 5.56, 1, 1, 'Survival Supply Stash'),
 	(24038, 0, 29612, 3.7, 1, 1, 'Armor Rune Fragment'),
 	(24038, 0, 59526, 1.85, 1, 1, 'Remarkable Maniac''s Astrotube Striders'),
 	(24038, 0, 59650, 1.85, 1, 1, 'Exceptional Prophet''s Plasmarc Suppressor'),
-	(24038, 0, 14411, 1.85, 1, 1, 'Energized Heavy Water'),
 	(24038, 0, 31653, 1.85, 1, 1, 'Purple Razortail Bush');
 
 -- Squirg Zombie (2888 kills recorded, squirg-zombie-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (24039, NULL, 100, 0, 0, 0, 0, 'Squirg Zombie');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24039, 24039, 'Squirg Zombie');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(24039, 0, 14410, 46.16, 1, 1, 'Biomimetic Mud'),
-	(24039, 0, 14409, 20.95, 1, 1, 'Survival Supply Stash'),
 	(24039, 0, 28105, 19.53, 1, 1, 'Slippery Squirg Steak'),
-	(24039, 0, 14411, 5.33, 1, 1, 'Energized Heavy Water'),
 	(24039, 0, 29316, 3.01, 1, 1, 'Sign of Water'),
 	(24039, 0, 29317, 1.11, 1, 1, 'Sign of Water - Greater'),
 	(24039, 0, 28104, 0.21, 1, 1, 'Tacky Squirg Eyeball'),
@@ -2946,10 +2738,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (24040, NULL, 100, 0, 0, 0, 0, 'Squirg Zombie');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24040, 24040, 'Squirg Zombie');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(24040, 0, 14410, 46.16, 1, 1, 'Biomimetic Mud'),
-	(24040, 0, 14409, 20.95, 1, 1, 'Survival Supply Stash'),
 	(24040, 0, 28105, 19.53, 1, 1, 'Slippery Squirg Steak'),
-	(24040, 0, 14411, 5.33, 1, 1, 'Energized Heavy Water'),
 	(24040, 0, 29316, 3.01, 1, 1, 'Sign of Water'),
 	(24040, 0, 29317, 1.11, 1, 1, 'Sign of Water - Greater'),
 	(24040, 0, 28104, 0.21, 1, 1, 'Tacky Squirg Eyeball'),
@@ -3016,10 +2805,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (24041, NULL, 100, 0, 0, 0, 0, 'Squirg Zombie');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24041, 24041, 'Squirg Zombie');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(24041, 0, 14410, 46.16, 1, 1, 'Biomimetic Mud'),
-	(24041, 0, 14409, 20.95, 1, 1, 'Survival Supply Stash'),
 	(24041, 0, 28105, 19.53, 1, 1, 'Slippery Squirg Steak'),
-	(24041, 0, 14411, 5.33, 1, 1, 'Energized Heavy Water'),
 	(24041, 0, 29316, 3.01, 1, 1, 'Sign of Water'),
 	(24041, 0, 29317, 1.11, 1, 1, 'Sign of Water - Greater'),
 	(24041, 0, 28104, 0.21, 1, 1, 'Tacky Squirg Eyeball'),
@@ -3086,10 +2872,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (24042, NULL, 100, 0, 0, 0, 0, 'Squirg Zombie');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24042, 24042, 'Squirg Zombie');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(24042, 0, 14410, 46.16, 1, 1, 'Biomimetic Mud'),
-	(24042, 0, 14409, 20.95, 1, 1, 'Survival Supply Stash'),
 	(24042, 0, 28105, 19.53, 1, 1, 'Slippery Squirg Steak'),
-	(24042, 0, 14411, 5.33, 1, 1, 'Energized Heavy Water'),
 	(24042, 0, 29316, 3.01, 1, 1, 'Sign of Water'),
 	(24042, 0, 29317, 1.11, 1, 1, 'Sign of Water - Greater'),
 	(24042, 0, 28104, 0.21, 1, 1, 'Tacky Squirg Eyeball'),
@@ -3169,9 +2952,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24068, 24068, 'Coldroot Icecracker');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(24068, 0, 8148, 26.11, 1, 1, 'Nutritious Mushrooms'),
-	(24068, 0, 14410, 15.85, 1, 1, 'Biomimetic Mud'),
 	(24068, 0, 18647, 12.85, 1, 1, 'Rootbrute Meat'),
-	(24068, 0, 14409, 8.19, 1, 1, 'Survival Supply Stash'),
 	(24068, 0, 29321, 6.22, 1, 1, 'Sign of Life - Greater'),
 	(24068, 0, 4687, 3.21, 1, 1, 'Honeywheat Seeds'),
 	(24068, 0, 15483, 2.69, 1, 1, 'Stoutroot Seeds'),
@@ -3179,7 +2960,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(24068, 0, 15772, 1.87, 1, 1, 'Coralscale Seeds'),
 	(24068, 0, 15646, 1.66, 1, 1, 'Crowncorn Seeds'),
 	(24068, 0, 59454, 1.45, 1, 1, 'Exceptional Professor''s Pheroline Nucleus'),
-	(24068, 0, 14411, 1.45, 1, 1, 'Energized Heavy Water'),
 	(24068, 0, 41151, 1.24, 1, 1, 'Frozen Corrupter Agony Aura'),
 	(24068, 0, 15635, 1.04, 1, 1, 'Glowmelon Seeds'),
 	(24068, 0, 60610, 0.93, 1, 1, 'Exceptional Sectarian''s Styronite Shockillators'),
@@ -3250,12 +3030,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(24069, 0, 8227, 31.4, 1, 1, 'Slimy Snoglug Tongue'),
 	(24069, 0, 14288, 12.4, 1, 1, 'Crunchy Bug Meat'),
 	(24069, 0, 14287, 11.57, 1, 1, 'Slimy Bug Meat'),
-	(24069, 0, 14410, 11.16, 1, 1, 'Biomimetic Mud'),
 	(24069, 0, 29316, 7.02, 1, 1, 'Sign of Water'),
 	(24069, 0, 29317, 4.96, 1, 1, 'Sign of Water - Greater'),
-	(24069, 0, 14409, 4.96, 1, 1, 'Survival Supply Stash'),
 	(24069, 0, 43007, 3.31, 1, 1, 'Molted Carapace'),
-	(24069, 0, 14411, 2.89, 1, 1, 'Energized Heavy Water'),
 	(24069, 0, 29609, 2.48, 1, 1, 'Rune Fragment'),
 	(24069, 0, 29598, 1.24, 1, 1, 'Sign of Fire - Major'),
 	(24069, 0, 60641, 0.83, 1, 1, 'Operative''s Ultralene Galvanizer'),
@@ -3280,10 +3057,8 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24070, 24070,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(24070, 0, 7612, 34.67, 1, 1, 'Ragged Dawngrazer Hide'),
 	(24070, 0, 14237, 13.57, 1, 1, 'Reinforced Leather'),
-	(24070, 0, 14410, 8.34, 1, 1, 'Biomimetic Mud'),
 	(24070, 0, 14280, 7.77, 1, 1, 'Tender Meat'),
 	(24070, 0, 14279, 5.07, 1, 1, 'Tough Meat'),
-	(24070, 0, 14409, 4.25, 1, 1, 'Survival Supply Stash'),
 	(24070, 0, 29321, 4.17, 1, 1, 'Sign of Life - Greater'),
 	(24070, 0, 14257, 3.35, 1, 1, 'Dawngrazer Shank'),
 	(24070, 0, 18662, 3.27, 1, 1, 'Dawngrazer Sirloin'),
@@ -3292,7 +3067,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(24070, 0, 18599, 1.23, 1, 1, 'Dawngrazer Steak'),
 	(24070, 0, 14248, 0.98, 1, 1, 'Hardened Pelt'),
 	(24070, 0, 18897, 0.82, 1, 1, 'Recipe: Dawngrazer Steak'),
-	(24070, 0, 14411, 0.82, 1, 1, 'Energized Heavy Water'),
 	(24070, 0, 16129, 0.41, 1, 1, 'Tempered Bone'),
 	(24070, 0, 59585, 0.41, 1, 1, 'Exceptional Conveyor''s Dynaridium Recombinator'),
 	(24070, 0, 59307, 0.41, 1, 1, 'Exceptional Legate''s Exantrode Handgrips'),
@@ -3355,8 +3129,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (24071, NULL, 100, 0, 0, 0, 0, 'Frostbite Sunfish');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24071, 24071, 'Frostbite Sunfish');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(24071, 0, 14410, 33.33, 1, 1, 'Biomimetic Mud'),
-	(24071, 0, 14409, 16.67, 1, 1, 'Survival Supply Stash'),
 	(24071, 0, 14275, 16.67, 1, 1, 'Small Fish'),
 	(24071, 0, 59548, 16.67, 1, 1, 'Conveyor''s Gigarosis Flipflops'),
 	(24071, 0, 29316, 16.67, 1, 1, 'Sign of Water');
@@ -3368,17 +3140,14 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(24072, 0, 14237, 19.35, 1, 1, 'Reinforced Leather'),
 	(24072, 0, 8374, 19.14, 1, 1, 'Ragged Walatusk Hide'),
 	(24072, 0, 14273, 9.75, 1, 1, 'Fatty Walatusk Meat'),
-	(24072, 0, 14410, 8.27, 1, 1, 'Biomimetic Mud'),
 	(24072, 0, 14280, 7.78, 1, 1, 'Tender Meat'),
 	(24072, 0, 14279, 7.29, 1, 1, 'Tough Meat'),
 	(24072, 0, 29316, 4.14, 1, 1, 'Sign of Water'),
-	(24072, 0, 14409, 3.37, 1, 1, 'Survival Supply Stash'),
 	(24072, 0, 29317, 2.73, 1, 1, 'Sign of Water - Greater'),
 	(24072, 0, 14236, 2.45, 1, 1, 'Thick Leather'),
 	(24072, 0, 42997, 2.31, 1, 1, 'Mangled Carcass'),
 	(24072, 0, 14248, 1.75, 1, 1, 'Hardened Pelt'),
 	(24072, 0, 18820, 1.05, 1, 1, 'Recipe: Braised Walatusk Belly'),
-	(24072, 0, 14411, 0.56, 1, 1, 'Energized Heavy Water'),
 	(24072, 0, 29611, 0.56, 1, 1, 'Intricate Rune Fragment'),
 	(24072, 0, 16129, 0.56, 1, 1, 'Tempered Bone'),
 	(24072, 0, 36096, 0.49, 1, 1, 'Guide: Frostshore Icebath Shoulders'),
@@ -3463,12 +3232,9 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24073, 24073, 'Icetooth Piranha');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(24073, 0, 8034, 29.91, 1, 1, 'Rubbery Piranha Flesh'),
-	(24073, 0, 14410, 17.89, 1, 1, 'Biomimetic Mud'),
 	(24073, 0, 14275, 12.02, 1, 1, 'Small Fish'),
 	(24073, 0, 14276, 9.97, 1, 1, 'Medium Fish'),
 	(24073, 0, 29316, 7.33, 1, 1, 'Sign of Water'),
-	(24073, 0, 14409, 7.33, 1, 1, 'Survival Supply Stash'),
-	(24073, 0, 14411, 2.64, 1, 1, 'Energized Heavy Water'),
 	(24073, 0, 29317, 1.47, 1, 1, 'Sign of Water - Greater'),
 	(24073, 0, 43012, 1.17, 1, 1, 'Not-So-Bad Fish'),
 	(24073, 0, 43011, 0.88, 1, 1, 'Scaly Bait'),
@@ -3503,12 +3269,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(24090, 0, 7686, 35.2, 1, 1, 'Religious Relic'),
 	(24090, 0, 18520, 13.7, 1, 1, 'Shellark Steak'),
 	(24090, 0, 14518, 13.4, 1, 1, 'Whimfiber Cloth'),
-	(24090, 0, 14410, 10.01, 1, 1, 'Biomimetic Mud'),
 	(24090, 0, 29321, 7.95, 1, 1, 'Sign of Life - Greater'),
-	(24090, 0, 14409, 5.45, 1, 1, 'Survival Supply Stash'),
 	(24090, 0, 27572, 2.95, 1, 1, 'Whimfiber Hat'),
 	(24090, 0, 14517, 1.77, 1, 1, 'Silk Cloth'),
-	(24090, 0, 14411, 1.77, 1, 1, 'Energized Heavy Water'),
 	(24090, 0, 18818, 1.03, 1, 1, 'Recipe: Shellark Steak'),
 	(24090, 0, 59641, 0.74, 1, 1, 'Exceptional Prophet''s Terafiligree Rebreather'),
 	(24090, 0, 21439, 0.44, 1, 1, 'Dreary Cupcluster'),
@@ -3554,16 +3317,13 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(24092, 0, 14237, 12.44, 1, 1, 'Reinforced Leather'),
 	(24092, 0, 14279, 9.33, 1, 1, 'Tough Meat'),
 	(24092, 0, 14280, 6.67, 1, 1, 'Tender Meat'),
-	(24092, 0, 14410, 5.78, 1, 1, 'Biomimetic Mud'),
 	(24092, 0, 14236, 4.67, 1, 1, 'Thick Leather'),
 	(24092, 0, 29596, 3.78, 1, 1, 'Sign of Fire'),
 	(24092, 0, 29597, 2.67, 1, 1, 'Sign of Fire - Greater'),
-	(24092, 0, 14409, 2.67, 1, 1, 'Survival Supply Stash'),
 	(24092, 0, 59352, 1.56, 1, 1, 'Deputy''s Biominium Defense Field'),
 	(24092, 0, 14248, 1.33, 1, 1, 'Hardened Pelt'),
 	(24092, 0, 59513, 1.11, 1, 1, 'Exceptional Maniac''s Styrodyne Masquerade'),
 	(24092, 0, 59425, 0.44, 1, 1, 'Professor''s Pheroline Vertex'),
-	(24092, 0, 14411, 0.44, 1, 1, 'Energized Heavy Water'),
 	(24092, 0, 42997, 0.44, 1, 1, 'Mangled Carcass'),
 	(24092, 0, 21491, 0.44, 1, 1, 'Pressure Divider'),
 	(24092, 0, 59366, 0.22, 1, 1, 'Deputy''s Gravitine Neural Chip'),
@@ -3589,13 +3349,10 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(24093, 0, 7997, 40.87, 1, 1, 'Oghra Lieutenant''s Insignia'),
 	(24093, 0, 18520, 15.34, 1, 1, 'Shellark Steak'),
 	(24093, 0, 14518, 13.1, 1, 1, 'Whimfiber Cloth'),
-	(24093, 0, 14410, 9.64, 1, 1, 'Biomimetic Mud'),
 	(24093, 0, 29321, 5.7, 1, 1, 'Sign of Life - Greater'),
-	(24093, 0, 14409, 4.91, 1, 1, 'Survival Supply Stash'),
 	(24093, 0, 14517, 1.82, 1, 1, 'Silk Cloth'),
 	(24093, 0, 18818, 1.82, 1, 1, 'Recipe: Shellark Steak'),
 	(24093, 0, 27572, 0.79, 1, 1, 'Whimfiber Hat'),
-	(24093, 0, 14411, 0.49, 1, 1, 'Energized Heavy Water'),
 	(24093, 0, 29609, 0.36, 1, 1, 'Rune Fragment'),
 	(24093, 0, 60440, 0.24, 1, 1, 'Instigator''s Macrohelix Gloves'),
 	(24093, 0, 59288, 0.24, 1, 1, 'Legate''s Exantrode Elevator'),
@@ -3664,13 +3421,10 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24094, 24094,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(24094, 0, 7686, 25.73, 1, 1, 'Religious Relic'),
 	(24094, 0, 14518, 16.61, 1, 1, 'Whimfiber Cloth'),
-	(24094, 0, 14410, 13.57, 1, 1, 'Biomimetic Mud'),
 	(24094, 0, 18520, 11.11, 1, 1, 'Shellark Steak'),
 	(24094, 0, 29321, 10.29, 1, 1, 'Sign of Life - Greater'),
-	(24094, 0, 14409, 5.61, 1, 1, 'Survival Supply Stash'),
 	(24094, 0, 14517, 2.22, 1, 1, 'Silk Cloth'),
 	(24094, 0, 18818, 1.75, 1, 1, 'Recipe: Shellark Steak'),
-	(24094, 0, 14411, 1.29, 1, 1, 'Energized Heavy Water'),
 	(24094, 0, 27572, 1.29, 1, 1, 'Whimfiber Hat'),
 	(24094, 0, 30581, 0.7, 1, 1, 'Plushie (Grund)'),
 	(24094, 0, 59286, 0.58, 1, 1, 'Legate''s Exantrode Kinetic Absorber'),
@@ -3735,12 +3489,9 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24098, 24098,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(24098, 0, 7997, 27.57, 1, 1, 'Oghra Lieutenant''s Insignia'),
 	(24098, 0, 14518, 19.37, 1, 1, 'Whimfiber Cloth'),
-	(24098, 0, 14410, 11.48, 1, 1, 'Biomimetic Mud'),
 	(24098, 0, 18520, 8.94, 1, 1, 'Shellark Steak'),
 	(24098, 0, 29321, 8.64, 1, 1, 'Sign of Life - Greater'),
-	(24098, 0, 14409, 4.77, 1, 1, 'Survival Supply Stash'),
 	(24098, 0, 14517, 3.43, 1, 1, 'Silk Cloth'),
-	(24098, 0, 14411, 2.38, 1, 1, 'Energized Heavy Water'),
 	(24098, 0, 27572, 2.24, 1, 1, 'Whimfiber Hat'),
 	(24098, 0, 44295, 1.19, 1, 1, 'Augmented Rune Fragment'),
 	(24098, 0, 18818, 0.89, 1, 1, 'Recipe: Shellark Steak'),
@@ -3805,13 +3556,10 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24102, 24102,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(24102, 0, 7686, 33.33, 1, 1, 'Religious Relic'),
 	(24102, 0, 14518, 16.67, 1, 1, 'Whimfiber Cloth'),
-	(24102, 0, 14410, 11.81, 1, 1, 'Biomimetic Mud'),
 	(24102, 0, 29321, 10.42, 1, 1, 'Sign of Life - Greater'),
 	(24102, 0, 14517, 7.64, 1, 1, 'Silk Cloth'),
 	(24102, 0, 18520, 6.94, 1, 1, 'Shellark Steak'),
-	(24102, 0, 14409, 3.47, 1, 1, 'Survival Supply Stash'),
 	(24102, 0, 59549, 1.39, 1, 1, 'Conveyor''s Gigarosis Feelers'),
-	(24102, 0, 14411, 1.39, 1, 1, 'Energized Heavy Water'),
 	(24102, 0, 27572, 1.39, 1, 1, 'Whimfiber Hat'),
 	(24102, 0, 59356, 0.69, 1, 1, 'Deputy''s Biominium Assault Blaster'),
 	(24102, 0, 59431, 0.69, 1, 1, 'Professor''s Pheroline Detachment'),
@@ -3834,12 +3582,9 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24183, 24183,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(24183, 0, 8198, 24.71, 1, 1, 'Broken Skeech Jewelry'),
 	(24183, 0, 14518, 23.53, 1, 1, 'Whimfiber Cloth'),
-	(24183, 0, 14410, 15.29, 1, 1, 'Biomimetic Mud'),
-	(24183, 0, 14409, 8.24, 1, 1, 'Survival Supply Stash'),
 	(24183, 0, 29596, 7.06, 1, 1, 'Sign of Fire'),
 	(24183, 0, 29597, 5.88, 1, 1, 'Sign of Fire - Greater'),
 	(24183, 0, 60443, 3.53, 1, 1, 'Instigator''s Macrohelix Magnifier'),
-	(24183, 0, 14411, 2.35, 1, 1, 'Energized Heavy Water'),
 	(24183, 0, 14517, 2.35, 1, 1, 'Silk Cloth'),
 	(24183, 0, 59624, 1.18, 1, 1, 'Prophet''s Plasmarc Shouldersash'),
 	(24183, 0, 30465, 1.18, 1, 1, 'Laceration AMP'),
@@ -3854,12 +3599,9 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24184, 24184,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(24184, 0, 8198, 29.58, 1, 1, 'Broken Skeech Jewelry'),
 	(24184, 0, 14518, 15.76, 1, 1, 'Whimfiber Cloth'),
-	(24184, 0, 14410, 12.86, 1, 1, 'Biomimetic Mud'),
 	(24184, 0, 29596, 11.9, 1, 1, 'Sign of Fire'),
-	(24184, 0, 14409, 6.75, 1, 1, 'Survival Supply Stash'),
 	(24184, 0, 29597, 5.47, 1, 1, 'Sign of Fire - Greater'),
 	(24184, 0, 14517, 4.82, 1, 1, 'Silk Cloth'),
-	(24184, 0, 14411, 2.57, 1, 1, 'Energized Heavy Water'),
 	(24184, 0, 27572, 2.57, 1, 1, 'Whimfiber Hat'),
 	(24184, 0, 29609, 0.64, 1, 1, 'Rune Fragment'),
 	(24184, 0, 60542, 0.64, 1, 1, 'Exceptional Envoy''s Technostreak Projector'),
@@ -3888,13 +3630,10 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24185, 24185,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(24185, 0, 8198, 21.68, 1, 1, 'Broken Skeech Jewelry'),
 	(24185, 0, 14518, 12.97, 1, 1, 'Whimfiber Cloth'),
-	(24185, 0, 14410, 12.2, 1, 1, 'Biomimetic Mud'),
 	(24185, 0, 14517, 12, 1, 1, 'Silk Cloth'),
 	(24185, 0, 29596, 7.55, 1, 1, 'Sign of Fire'),
-	(24185, 0, 14409, 7.36, 1, 1, 'Survival Supply Stash'),
 	(24185, 0, 29597, 4.26, 1, 1, 'Sign of Fire - Greater'),
 	(24185, 0, 27577, 2.13, 1, 1, 'Silk Shoes'),
-	(24185, 0, 14411, 1.84, 1, 1, 'Energized Heavy Water'),
 	(24185, 0, 29609, 0.39, 1, 1, 'Rune Fragment'),
 	(24185, 0, 34772, 0.39, 1, 1, 'Oversized Backpack'),
 	(24185, 0, 40265, 0.19, 1, 1, 'Stack Modus'),
@@ -3907,11 +3646,9 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24196, 24196,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(24196, 0, 14237, 26.98, 1, 1, 'Reinforced Leather'),
 	(24196, 0, 7763, 17.46, 1, 1, 'Broken Girrok Claws'),
-	(24196, 0, 14410, 11.11, 1, 1, 'Biomimetic Mud'),
 	(24196, 0, 14280, 9.52, 1, 1, 'Tender Meat'),
 	(24196, 0, 14279, 7.94, 1, 1, 'Tough Meat'),
 	(24196, 0, 29588, 6.35, 1, 1, 'Sign of Earth'),
-	(24196, 0, 14409, 4.76, 1, 1, 'Survival Supply Stash'),
 	(24196, 0, 42996, 3.17, 1, 1, 'Rotten Remains'),
 	(24196, 0, 15289, 3.17, 1, 1, 'Bramble Bush'),
 	(24196, 0, 44295, 3.17, 1, 1, 'Augmented Rune Fragment'),
@@ -3926,10 +3663,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (24250, 24250,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(24250, 0, 8198, 46.3, 1, 1, 'Broken Skeech Jewelry'),
 	(24250, 0, 14518, 14.2, 1, 1, 'Whimfiber Cloth'),
-	(24250, 0, 14410, 12.96, 1, 1, 'Biomimetic Mud'),
-	(24250, 0, 14409, 9.26, 1, 1, 'Survival Supply Stash'),
 	(24250, 0, 29596, 5.56, 1, 1, 'Sign of Fire'),
-	(24250, 0, 14411, 1.85, 1, 1, 'Energized Heavy Water'),
 	(24250, 0, 29597, 1.85, 1, 1, 'Sign of Fire - Greater'),
 	(24250, 0, 27572, 1.23, 1, 1, 'Whimfiber Hat'),
 	(24250, 0, 21397, 0.62, 1, 1, 'Overgrown Cactus'),
@@ -3966,7 +3700,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(24282, 0, 60737, 3.13, 1, 1, 'Exceptional Wizard''s Terrafoam Handgrips'),
 	(24282, 0, 41144, 3.13, 1, 1, 'Legendary League Helmet'),
 	(24282, 0, 60456, 3.13, 1, 1, 'Instigator''s Fusaron Falchion'),
-	(24282, 0, 14410, 3.13, 1, 1, 'Biomimetic Mud'),
 	(24282, 0, 60445, 3.13, 1, 1, 'Instigator''s Macrohelix Falchion'),
 	(24282, 0, 21484, 3.13, 1, 1, 'Crude Fence'),
 	(24282, 0, 60638, 3.13, 1, 1, 'Operative''s Ultralene Wraps'),
@@ -4041,8 +3774,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(24878, 0, 14251, 59.21, 1, 1, 'Quartermaster An''dal''s Head'),
 	(24878, 0, 7997, 10.2, 1, 1, 'Oghra Lieutenant''s Insignia'),
 	(24878, 0, 14518, 5.26, 1, 1, 'Whimfiber Cloth'),
-	(24878, 0, 14409, 4.93, 1, 1, 'Survival Supply Stash'),
-	(24878, 0, 14410, 2.3, 1, 1, 'Biomimetic Mud'),
 	(24878, 0, 29609, 0.99, 1, 1, 'Rune Fragment'),
 	(24878, 0, 49148, 0.66, 1, 1, 'Apprentice Medishot: Instant Healing'),
 	(24878, 0, 37485, 0.33, 1, 1, 'Kinetic Burst AMP'),
@@ -4060,7 +3791,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(25994, 0, 7662, 55.12, 1, 1, 'Toothless Gears'),
 	(25994, 0, 14771, 26.07, 1, 1, 'X-D12 Origin Data'),
 	(25994, 0, 29601, 5.61, 1, 1, 'Sign of Logic - Greater'),
-	(25994, 0, 14411, 1.65, 1, 1, 'Energized Heavy Water'),
 	(25994, 0, 14783, 1.65, 1, 1, 'Advanced Omni-Plasm'),
 	(25994, 0, 31384, 1.32, 1, 1, 'HOUSING EXPEDITION: Abandoned Eldan Test Lab FABkit'),
 	(25994, 0, 14782, 0.99, 1, 1, 'Accelerated Omni-Plasm'),
@@ -4072,7 +3802,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(25994, 0, 62348, 0.33, 1, 1, 'Sectarian''s Ultraceron Outfit'),
 	(25994, 0, 62414, 0.33, 1, 1, 'Operative''s Photonate Shirt'),
 	(25994, 0, 62366, 0.33, 1, 1, 'Sectarian''s Hypocyatic Motion Tracker'),
-	(25994, 0, 14410, 0.33, 1, 1, 'Biomimetic Mud'),
 	(25994, 0, 62358, 0.33, 1, 1, 'Sectarian''s Ultraceron Shockers'),
 	(25994, 0, 29605, 0.33, 1, 1, 'Sign of Air - Greater'),
 	(25994, 0, 62416, 0.33, 1, 1, 'Operative''s Photonate Chapeau'),
@@ -4115,10 +3844,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (25997, 25997,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(25997, 0, 7662, 37.44, 1, 1, 'Toothless Gears'),
 	(25997, 0, 29601, 25.12, 1, 1, 'Sign of Logic - Greater'),
-	(25997, 0, 14411, 13.79, 1, 1, 'Energized Heavy Water'),
-	(25997, 0, 14410, 4.43, 1, 1, 'Biomimetic Mud'),
 	(25997, 0, 14783, 2.96, 1, 1, 'Advanced Omni-Plasm'),
-	(25997, 0, 14409, 2.46, 1, 1, 'Survival Supply Stash'),
 	(25997, 0, 62964, 0.99, 1, 1, 'Despoiler''s Entronic Sustenance'),
 	(25997, 0, 62889, 0.99, 1, 1, 'Wizard''s Pherolite Fleece'),
 	(25997, 0, 29611, 0.99, 1, 1, 'Intricate Rune Fragment'),
@@ -4149,11 +3875,8 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (25998, 25998,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(25998, 0, 7487, 32.87, 1, 1, 'Bloodstained Rags'),
 	(25998, 0, 14518, 28.97, 1, 1, 'Whimfiber Cloth'),
-	(25998, 0, 14411, 12.41, 1, 1, 'Energized Heavy Water'),
 	(25998, 0, 29589, 5.06, 1, 1, 'Sign of Earth - Greater'),
 	(25998, 0, 29588, 4.6, 1, 1, 'Sign of Earth'),
-	(25998, 0, 14410, 4.14, 1, 1, 'Biomimetic Mud'),
-	(25998, 0, 14409, 2.76, 1, 1, 'Survival Supply Stash'),
 	(25998, 0, 27572, 1.38, 1, 1, 'Whimfiber Hat'),
 	(25998, 0, 34738, 0.92, 1, 1, 'Volatility Rising AMP'),
 	(25998, 0, 29609, 0.69, 1, 1, 'Rune Fragment'),
@@ -4186,13 +3909,10 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (25999, 25999,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(25999, 0, 47661, 42.7, 1, 1, 'Fluffy Chua Fur'),
 	(25999, 0, 14518, 22.19, 1, 1, 'Whimfiber Cloth'),
-	(25999, 0, 14411, 7.69, 1, 1, 'Energized Heavy Water'),
 	(25999, 0, 29604, 6.11, 1, 1, 'Sign of Air'),
 	(25999, 0, 29605, 3.65, 1, 1, 'Sign of Air - Greater'),
-	(25999, 0, 14410, 3.65, 1, 1, 'Biomimetic Mud'),
 	(25999, 0, 62624, 2.07, 1, 1, 'Instigator''s Thermosis Smartsword'),
 	(25999, 0, 27572, 1.58, 1, 1, 'Whimfiber Hat'),
-	(25999, 0, 14409, 1.58, 1, 1, 'Survival Supply Stash'),
 	(25999, 0, 40265, 0.59, 1, 1, 'Stack Modus'),
 	(25999, 0, 62850, 0.49, 1, 1, 'Exceptional Operative''s Thermoweave Wraps'),
 	(25999, 0, 41157, 0.49, 1, 1, 'Tempest Force Coating Device'),
@@ -4249,12 +3969,9 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26000, 26000, 'Sabotaged Fishbot');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26000, 0, 7442, 48.34, 1, 1, 'Stripped Sprocket'),
-	(26000, 0, 14411, 16.59, 1, 1, 'Energized Heavy Water'),
-	(26000, 0, 14410, 8.06, 1, 1, 'Biomimetic Mud'),
 	(26000, 0, 34731, 6.64, 1, 1, 'Stay Afloat AMP'),
 	(26000, 0, 29601, 4.74, 1, 1, 'Sign of Logic - Greater'),
 	(26000, 0, 35760, 2.84, 1, 1, 'Design: Sabotaged Freebot Salvage Plate'),
-	(26000, 0, 14409, 2.37, 1, 1, 'Survival Supply Stash'),
 	(26000, 0, 35763, 1.9, 1, 1, 'Design: Sabotaged Freebot Salvage Boots'),
 	(26000, 0, 29609, 0.95, 1, 1, 'Rune Fragment'),
 	(26000, 0, 61955, 0.95, 1, 1, 'Sectarian''s Manaclastic Vanity'),
@@ -4278,12 +3995,9 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26001, 26001,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26001, 0, 7487, 38.91, 1, 1, 'Bloodstained Rags'),
 	(26001, 0, 14518, 21.72, 1, 1, 'Whimfiber Cloth'),
-	(26001, 0, 14411, 11.31, 1, 1, 'Energized Heavy Water'),
 	(26001, 0, 29605, 6.33, 1, 1, 'Sign of Air - Greater'),
-	(26001, 0, 14410, 5.43, 1, 1, 'Biomimetic Mud'),
 	(26001, 0, 27572, 4.52, 1, 1, 'Whimfiber Hat'),
 	(26001, 0, 29604, 4.07, 1, 1, 'Sign of Air'),
-	(26001, 0, 14409, 1.81, 1, 1, 'Survival Supply Stash'),
 	(26001, 0, 62352, 0.9, 1, 1, 'Sectarian''s Ultraceron Brogans'),
 	(26001, 0, 29597, 0.9, 1, 1, 'Sign of Fire - Greater'),
 	(26001, 0, 62245, 0.9, 1, 1, 'Exceptional Instigator''s Muontwine Reinforcer'),
@@ -4300,11 +4014,8 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26002, 26002,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26002, 0, 7487, 42.08, 1, 1, 'Bloodstained Rags'),
 	(26002, 0, 14518, 24.75, 1, 1, 'Whimfiber Cloth'),
-	(26002, 0, 14411, 10.4, 1, 1, 'Energized Heavy Water'),
 	(26002, 0, 29604, 9.9, 1, 1, 'Sign of Air'),
-	(26002, 0, 14410, 3.96, 1, 1, 'Biomimetic Mud'),
 	(26002, 0, 29605, 2.48, 1, 1, 'Sign of Air - Greater'),
-	(26002, 0, 14409, 1.98, 1, 1, 'Survival Supply Stash'),
 	(26002, 0, 27572, 1.49, 1, 1, 'Whimfiber Hat'),
 	(26002, 0, 36223, 0.99, 1, 1, 'Formula: Reactive Multi-Hit Boost'),
 	(26002, 0, 62756, 0.5, 1, 1, 'Sectarian''s Picofiber Static Infusers'),
@@ -4339,11 +4050,8 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26006, 26006, 'Roving Dawngrazer');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26006, 0, 7612, 28.55, 1, 1, 'Ragged Dawngrazer Hide'),
-	(26006, 0, 14411, 20.55, 1, 1, 'Energized Heavy Water'),
 	(26006, 0, 14237, 10.77, 1, 1, 'Reinforced Leather'),
-	(26006, 0, 14410, 9.79, 1, 1, 'Biomimetic Mud'),
 	(26006, 0, 14280, 5.06, 1, 1, 'Tender Meat'),
-	(26006, 0, 14409, 4.73, 1, 1, 'Survival Supply Stash'),
 	(26006, 0, 14279, 4.08, 1, 1, 'Tough Meat'),
 	(26006, 0, 18662, 2.45, 1, 1, 'Dawngrazer Sirloin'),
 	(26006, 0, 29321, 2.45, 1, 1, 'Sign of Life - Greater'),
@@ -4389,17 +4097,14 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26020, 26020, 'Wooly Mammodin');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26020, 0, 14237, 20.17, 1, 1, 'Reinforced Leather'),
-	(26020, 0, 14411, 15.97, 1, 1, 'Energized Heavy Water'),
 	(26020, 0, 7938, 10.5, 1, 1, 'Broken Mammodin Horn'),
 	(26020, 0, 18006, 10.08, 1, 1, 'Mammodin Sirloin'),
 	(26020, 0, 14280, 8.4, 1, 1, 'Tender Meat'),
-	(26020, 0, 14410, 7.98, 1, 1, 'Biomimetic Mud'),
 	(26020, 0, 29588, 5.46, 1, 1, 'Sign of Earth'),
 	(26020, 0, 29589, 3.78, 1, 1, 'Sign of Earth - Greater'),
 	(26020, 0, 14279, 2.94, 1, 1, 'Tough Meat'),
 	(26020, 0, 42997, 2.52, 1, 1, 'Mangled Carcass'),
 	(26020, 0, 16129, 2.1, 1, 1, 'Tempered Bone'),
-	(26020, 0, 14409, 2.1, 1, 1, 'Survival Supply Stash'),
 	(26020, 0, 14248, 1.68, 1, 1, 'Hardened Pelt'),
 	(26020, 0, 41144, 1.26, 1, 1, 'Legendary League Helmet'),
 	(26020, 0, 18822, 0.84, 1, 1, 'Recipe: Mammodin Meatballs'),
@@ -4444,16 +4149,13 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26036, 26036,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26036, 0, 7847, 18.65, 1, 1, 'Dirt-Covered Ikthian Artifact'),
 	(26036, 0, 7600, 16.58, 1, 1, 'Black Pearls'),
-	(26036, 0, 14411, 14.25, 1, 1, 'Energized Heavy Water'),
 	(26036, 0, 14276, 11.14, 1, 1, 'Medium Fish'),
 	(26036, 0, 14518, 9.59, 1, 1, 'Whimfiber Cloth'),
 	(26036, 0, 14275, 8.03, 1, 1, 'Small Fish'),
-	(26036, 0, 14410, 5.44, 1, 1, 'Biomimetic Mud'),
 	(26036, 0, 29316, 4.4, 1, 1, 'Sign of Water'),
 	(26036, 0, 29317, 1.55, 1, 1, 'Sign of Water - Greater'),
 	(26036, 0, 43012, 1.04, 1, 1, 'Not-So-Bad Fish'),
 	(26036, 0, 40267, 0.78, 1, 1, 'Array Modus'),
-	(26036, 0, 14409, 0.78, 1, 1, 'Survival Supply Stash'),
 	(26036, 0, 40265, 0.52, 1, 1, 'Stack Modus'),
 	(26036, 0, 36222, 0.52, 1, 1, 'Formula: Reactive Glance Boost'),
 	(26036, 0, 62245, 0.52, 1, 1, 'Exceptional Instigator''s Muontwine Reinforcer'),
@@ -4485,16 +4187,13 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26038, 26038,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26038, 0, 7847, 20.41, 1, 1, 'Dirt-Covered Ikthian Artifact'),
 	(26038, 0, 14518, 17.09, 1, 1, 'Whimfiber Cloth'),
-	(26038, 0, 14411, 12.18, 1, 1, 'Energized Heavy Water'),
 	(26038, 0, 14276, 10.28, 1, 1, 'Medium Fish'),
 	(26038, 0, 7600, 9.49, 1, 1, 'Black Pearls'),
-	(26038, 0, 14410, 7.44, 1, 1, 'Biomimetic Mud'),
 	(26038, 0, 14275, 5.54, 1, 1, 'Small Fish'),
 	(26038, 0, 29316, 3.01, 1, 1, 'Sign of Water'),
 	(26038, 0, 29317, 2.69, 1, 1, 'Sign of Water - Greater'),
 	(26038, 0, 27572, 1.42, 1, 1, 'Whimfiber Hat'),
 	(26038, 0, 43012, 0.95, 1, 1, 'Not-So-Bad Fish'),
-	(26038, 0, 14409, 0.79, 1, 1, 'Survival Supply Stash'),
 	(26038, 0, 62018, 0.79, 1, 1, 'Operative''s Interbiosis Uniform'),
 	(26038, 0, 15355, 0.63, 1, 1, 'Bulrush (Sienna)'),
 	(26038, 0, 29609, 0.63, 1, 1, 'Rune Fragment'),
@@ -4537,13 +4236,10 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26039, 26039,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26039, 0, 8253, 49.69, 1, 1, 'Broken Spikehorde Limbs'),
 	(26039, 0, 14288, 10.96, 1, 1, 'Crunchy Bug Meat'),
-	(26039, 0, 14411, 10.09, 1, 1, 'Energized Heavy Water'),
 	(26039, 0, 14287, 7.97, 1, 1, 'Slimy Bug Meat'),
 	(26039, 0, 29588, 3.86, 1, 1, 'Sign of Earth'),
-	(26039, 0, 14410, 3.49, 1, 1, 'Biomimetic Mud'),
 	(26039, 0, 29589, 3.36, 1, 1, 'Sign of Earth - Greater'),
 	(26039, 0, 43007, 2.37, 1, 1, 'Molted Carapace'),
-	(26039, 0, 14409, 1.74, 1, 1, 'Survival Supply Stash'),
 	(26039, 0, 29317, 0.62, 1, 1, 'Sign of Water - Greater'),
 	(26039, 0, 62036, 0.62, 1, 1, 'Operative''s Fusamorph Compensator'),
 	(26039, 0, 62030, 0.37, 1, 1, 'Operative''s Fusamorph Leggings'),
@@ -4584,18 +4280,15 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26040, 26040,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26040, 0, 14518, 23.42, 1, 1, 'Whimfiber Cloth'),
 	(26040, 0, 14276, 14.77, 1, 1, 'Medium Fish'),
-	(26040, 0, 14411, 12.43, 1, 1, 'Energized Heavy Water'),
 	(26040, 0, 7847, 10.63, 1, 1, 'Dirt-Covered Ikthian Artifact'),
 	(26040, 0, 7600, 7.93, 1, 1, 'Black Pearls'),
 	(26040, 0, 14275, 7.21, 1, 1, 'Small Fish'),
-	(26040, 0, 14410, 4.68, 1, 1, 'Biomimetic Mud'),
 	(26040, 0, 29316, 3.78, 1, 1, 'Sign of Water'),
 	(26040, 0, 29317, 3.24, 1, 1, 'Sign of Water - Greater'),
 	(26040, 0, 43012, 2.34, 1, 1, 'Not-So-Bad Fish'),
 	(26040, 0, 53767, 1.08, 1, 1, 'Goldclaw'),
 	(26040, 0, 27572, 0.9, 1, 1, 'Whimfiber Hat'),
 	(26040, 0, 40265, 0.72, 1, 1, 'Stack Modus'),
-	(26040, 0, 14409, 0.54, 1, 1, 'Survival Supply Stash'),
 	(26040, 0, 40267, 0.36, 1, 1, 'Array Modus'),
 	(26040, 0, 61887, 0.36, 1, 1, 'Envoy''s Muoncite Legplates'),
 	(26040, 0, 34743, 0.36, 1, 1, 'Enmity AMP'),
@@ -4633,17 +4326,14 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26041, 26041,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26041, 0, 14518, 18.3, 1, 1, 'Whimfiber Cloth'),
 	(26041, 0, 7600, 16.39, 1, 1, 'Black Pearls'),
-	(26041, 0, 14411, 14.22, 1, 1, 'Energized Heavy Water'),
 	(26041, 0, 14276, 11.52, 1, 1, 'Medium Fish'),
 	(26041, 0, 14275, 6.85, 1, 1, 'Small Fish'),
-	(26041, 0, 14410, 4.54, 1, 1, 'Biomimetic Mud'),
 	(26041, 0, 29316, 4.28, 1, 1, 'Sign of Water'),
 	(26041, 0, 29317, 3.95, 1, 1, 'Sign of Water - Greater'),
 	(26041, 0, 53767, 3.62, 1, 1, 'Goldclaw'),
 	(26041, 0, 7847, 2.76, 1, 1, 'Dirt-Covered Ikthian Artifact'),
 	(26041, 0, 43012, 2.17, 1, 1, 'Not-So-Bad Fish'),
 	(26041, 0, 27572, 2.11, 1, 1, 'Whimfiber Hat'),
-	(26041, 0, 14409, 1.51, 1, 1, 'Survival Supply Stash'),
 	(26041, 0, 40266, 0.46, 1, 1, 'Queue Modus'),
 	(26041, 0, 29611, 0.39, 1, 1, 'Intricate Rune Fragment'),
 	(26041, 0, 29604, 0.33, 1, 1, 'Sign of Air'),
@@ -4719,10 +4409,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26042, 26042, 'Silverscale Dreadnaught');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26042, 0, 7662, 32.79, 1, 1, 'Toothless Gears'),
-	(26042, 0, 14411, 22.95, 1, 1, 'Energized Heavy Water'),
 	(26042, 0, 29601, 19.67, 1, 1, 'Sign of Logic - Greater'),
-	(26042, 0, 14410, 13.11, 1, 1, 'Biomimetic Mud'),
-	(26042, 0, 14409, 3.28, 1, 1, 'Survival Supply Stash'),
 	(26042, 0, 29588, 1.64, 1, 1, 'Sign of Earth'),
 	(26042, 0, 34681, 1.64, 1, 1, 'Null Zone AMP'),
 	(26042, 0, 29316, 1.64, 1, 1, 'Sign of Water'),
@@ -4806,13 +4493,10 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26086, 26086, 'Doomtide Thunder-Stalker');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26086, 0, 14518, 23.13, 1, 1, 'Whimfiber Cloth'),
-	(26086, 0, 14411, 22.45, 1, 1, 'Energized Heavy Water'),
 	(26086, 0, 47671, 12.93, 1, 1, 'Awful Pell Idol'),
 	(26086, 0, 8025, 10.2, 1, 1, 'Eerie Pell Idol'),
 	(26086, 0, 29601, 7.48, 1, 1, 'Sign of Logic - Greater'),
-	(26086, 0, 14410, 6.12, 1, 1, 'Biomimetic Mud'),
 	(26086, 0, 27572, 2.72, 1, 1, 'Whimfiber Hat'),
-	(26086, 0, 14409, 2.72, 1, 1, 'Survival Supply Stash'),
 	(26086, 0, 62179, 0.68, 1, 1, 'Exceptional Despoiler''s Hydrohelix Coating'),
 	(26086, 0, 62496, 0.68, 1, 1, 'Wizard''s Hyperorium Mittens'),
 	(26086, 0, 40265, 0.68, 1, 1, 'Stack Modus'),
@@ -4839,9 +4523,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(26088, 0, 14518, 26.74, 1, 1, 'Whimfiber Cloth'),
 	(26088, 0, 47671, 25.84, 1, 1, 'Awful Pell Idol'),
 	(26088, 0, 8025, 19.55, 1, 1, 'Eerie Pell Idol'),
-	(26088, 0, 14411, 10.34, 1, 1, 'Energized Heavy Water'),
-	(26088, 0, 14410, 4.49, 1, 1, 'Biomimetic Mud'),
-	(26088, 0, 14409, 2.7, 1, 1, 'Survival Supply Stash'),
 	(26088, 0, 27572, 1.57, 1, 1, 'Whimfiber Hat'),
 	(26088, 0, 40266, 1.12, 1, 1, 'Queue Modus'),
 	(26088, 0, 29609, 1.12, 1, 1, 'Rune Fragment'),
@@ -4880,13 +4561,10 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(26091, 0, 47671, 26.98, 1, 1, 'Awful Pell Idol'),
 	(26091, 0, 8025, 22.22, 1, 1, 'Eerie Pell Idol'),
 	(26091, 0, 14518, 22.22, 1, 1, 'Whimfiber Cloth'),
-	(26091, 0, 14411, 11.11, 1, 1, 'Energized Heavy Water'),
-	(26091, 0, 14410, 6.35, 1, 1, 'Biomimetic Mud'),
 	(26091, 0, 62376, 1.59, 1, 1, 'Exceptional Sectarian''s Ultraceron Force Devourer'),
 	(26091, 0, 62222, 1.59, 1, 1, 'Instigator''s Muontwine Kinetic Devourer'),
 	(26091, 0, 62547, 1.59, 1, 1, 'Despoiler''s Hydrohelix Slacks'),
 	(26091, 0, 29316, 1.59, 1, 1, 'Sign of Water'),
-	(26091, 0, 14409, 1.59, 1, 1, 'Survival Supply Stash'),
 	(26091, 0, 62124, 1.59, 1, 1, 'Exceptional Wizard''s Nucleomorph Stock'),
 	(26091, 0, 30658, 1.59, 1, 1, 'Neon Sign (Beer, Star)');
 
@@ -4894,14 +4572,11 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (26095, NULL, 100, 0, 0, 0, 0, 'Soulcore Interrogator');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26095, 26095, 'Soulcore Interrogator');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(26095, 0, 14411, 46.99, 1, 1, 'Energized Heavy Water'),
-	(26095, 0, 14410, 19.28, 1, 1, 'Biomimetic Mud'),
 	(26095, 0, 29316, 3.61, 1, 1, 'Sign of Water'),
 	(26095, 0, 29612, 2.41, 1, 1, 'Armor Rune Fragment'),
 	(26095, 0, 30505, 2.41, 1, 1, 'Unyielding AMP'),
 	(26095, 0, 62032, 2.41, 1, 1, 'Operative''s Fusamorph Shroud'),
 	(26095, 0, 40267, 2.41, 1, 1, 'Array Modus'),
-	(26095, 0, 14409, 2.41, 1, 1, 'Survival Supply Stash'),
 	(26095, 0, 40266, 1.2, 1, 1, 'Queue Modus'),
 	(26095, 0, 30491, 1.2, 1, 1, 'MKII Battle Suit AMP'),
 	(26095, 0, 62223, 1.2, 1, 1, 'Instigator''s Muontwine Reinforcer'),
@@ -4923,11 +4598,8 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26097, 26097, 'Doomtide Hail-Striker');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26097, 0, 14518, 28.47, 1, 1, 'Whimfiber Cloth'),
-	(26097, 0, 14411, 19.79, 1, 1, 'Energized Heavy Water'),
 	(26097, 0, 8025, 18.4, 1, 1, 'Eerie Pell Idol'),
 	(26097, 0, 47671, 10.07, 1, 1, 'Awful Pell Idol'),
-	(26097, 0, 14410, 6.6, 1, 1, 'Biomimetic Mud'),
-	(26097, 0, 14409, 3.13, 1, 1, 'Survival Supply Stash'),
 	(26097, 0, 27572, 2.78, 1, 1, 'Whimfiber Hat'),
 	(26097, 0, 40265, 1.74, 1, 1, 'Stack Modus'),
 	(26097, 0, 29612, 1.74, 1, 1, 'Armor Rune Fragment'),
@@ -4953,9 +4625,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26104, 26104, 'Doomtide Rain-Hoarder');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26104, 0, 8025, 63.33, 1, 1, 'Eerie Pell Idol'),
-	(26104, 0, 14411, 12.5, 1, 1, 'Energized Heavy Water'),
 	(26104, 0, 14518, 8.33, 1, 1, 'Whimfiber Cloth'),
-	(26104, 0, 14410, 5.83, 1, 1, 'Biomimetic Mud'),
 	(26104, 0, 62037, 1.67, 1, 1, 'Operative''s Fusamorph Sonic Locator'),
 	(26104, 0, 61959, 1.67, 1, 1, 'Sectarian''s Manaclastic Grip'),
 	(26104, 0, 31692, 1.67, 1, 1, 'Pattern: Doomtide Ascendant Pathers'),
@@ -4963,16 +4633,12 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(26104, 0, 62041, 0.83, 1, 1, 'Exceptional Operative''s Interbiosis Leggings'),
 	(26104, 0, 27572, 0.83, 1, 1, 'Whimfiber Hat'),
 	(26104, 0, 20595, 0.83, 1, 1, 'Garden Tier 2 FABkit'),
-	(26104, 0, 14409, 0.83, 1, 1, 'Survival Supply Stash'),
 	(26104, 0, 29604, 0.83, 1, 1, 'Sign of Air');
 
 -- Doomtide Disciple (17 kills recorded, doomtide-disciple-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (26122, NULL, 100, 0, 0, 0, 0, 'Doomtide Disciple');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26122, 26122, 'Doomtide Disciple');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(26122, 0, 14411, 52.94, 1, 1, 'Energized Heavy Water'),
-	(26122, 0, 14410, 23.53, 1, 1, 'Biomimetic Mud'),
-	(26122, 0, 14409, 5.88, 1, 1, 'Survival Supply Stash'),
 	(26122, 0, 21492, 5.88, 1, 1, 'Gate (Falkrin)'),
 	(26122, 0, 62359, 5.88, 1, 1, 'Sectarian''s Hypocyatic Outfit'),
 	(26122, 0, 61956, 5.88, 1, 1, 'Sectarian''s Manaclastic Footsteps');
@@ -4980,10 +4646,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 -- Purifier Landes (23 kills recorded, purifier-landes-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (26126, NULL, 100, 0, 0, 0, 0, 'Purifier Landes');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26126, 26126, 'Purifier Landes');
-INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(26126, 0, 14411, 69.57, 1, 1, 'Energized Heavy Water'),
-	(26126, 0, 14410, 21.74, 1, 1, 'Biomimetic Mud'),
-	(26126, 0, 14409, 8.7, 1, 1, 'Survival Supply Stash');
 
 -- Calmwater Longsnout (102 kills recorded, calmwater-longsnout-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (26127, NULL, 100, 0, 0, 0, 0, 'Calmwater Longsnout');
@@ -5004,13 +4666,10 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26340, 26340, 'Silverscale Prober');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26340, 0, 8253, 43.06, 1, 1, 'Broken Spikehorde Limbs'),
-	(26340, 0, 14411, 16.27, 1, 1, 'Energized Heavy Water'),
 	(26340, 0, 14287, 9.57, 1, 1, 'Slimy Bug Meat'),
-	(26340, 0, 14410, 5.74, 1, 1, 'Biomimetic Mud'),
 	(26340, 0, 14288, 5.26, 1, 1, 'Crunchy Bug Meat'),
 	(26340, 0, 29588, 4.78, 1, 1, 'Sign of Earth'),
 	(26340, 0, 29589, 4.31, 1, 1, 'Sign of Earth - Greater'),
-	(26340, 0, 14409, 1.91, 1, 1, 'Survival Supply Stash'),
 	(26340, 0, 43007, 0.96, 1, 1, 'Molted Carapace'),
 	(26340, 0, 60723, 0.96, 1, 1, 'Exceptional Wizard''s Betadyne Skullcap'),
 	(26340, 0, 29611, 0.96, 1, 1, 'Intricate Rune Fragment'),
@@ -5070,9 +4729,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 -- Interrogator Khamph (2 kills recorded, interrogator-khamph-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (26471, NULL, 100, 0, 0, 0, 0, 'Interrogator Khamph');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26471, 26471, 'Interrogator Khamph');
-INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(26471, 0, 14411, 50, 1, 1, 'Energized Heavy Water'),
-	(26471, 0, 14410, 50, 1, 1, 'Biomimetic Mud');
 
 -- Silverscale Abductor (978 kills recorded, silverscale-abductor-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (26778, NULL, 100, 0, 0, 0, 0, 'Silverscale Abductor');
@@ -5142,8 +4798,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (26860, 26860, 'Sabotaged Patrolbot');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(26860, 0, 7442, 52, 1, 1, 'Stripped Sprocket'),
-	(26860, 0, 14411, 12, 1, 1, 'Energized Heavy Water'),
-	(26860, 0, 14410, 8, 1, 1, 'Biomimetic Mud'),
 	(26860, 0, 35760, 8, 1, 1, 'Design: Sabotaged Freebot Salvage Plate'),
 	(26860, 0, 29601, 8, 1, 1, 'Sign of Logic - Greater'),
 	(26860, 0, 62085, 4, 1, 1, 'Wizard''s Polyfiligree Pantaloons'),
@@ -5155,12 +4809,9 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (27217, 27217, 'Snowshadow Technician');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(27217, 0, 7782, 48.64, 1, 1, 'Filled Flask'),
-	(27217, 0, 14409, 14.45, 1, 1, 'Survival Supply Stash'),
 	(27217, 0, 14517, 8.45, 1, 1, 'Silk Cloth'),
-	(27217, 0, 14410, 7.25, 1, 1, 'Biomimetic Mud'),
 	(27217, 0, 29604, 5.38, 1, 1, 'Sign of Air'),
 	(27217, 0, 14518, 4.76, 1, 1, 'Whimfiber Cloth'),
-	(27217, 0, 14411, 1.96, 1, 1, 'Energized Heavy Water'),
 	(27217, 0, 14461, 0.49, 1, 1, 'Pot Roast'),
 	(27217, 0, 9035, 0.27, 1, 1, 'Heavy Titanium Minigun'),
 	(27217, 0, 29609, 0.18, 1, 1, 'Rune Fragment'),
@@ -5179,7 +4830,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (28562, 28562, 'Wired Pumera');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(28562, 0, 8051, 24.86, 1, 1, 'Furry Pumera Paw'),
-	(28562, 0, 14409, 23.16, 1, 1, 'Survival Supply Stash'),
 	(28562, 0, 14236, 11.86, 1, 1, 'Thick Leather'),
 	(28562, 0, 14280, 7.34, 1, 1, 'Tender Meat'),
 	(28562, 0, 14237, 7.34, 1, 1, 'Reinforced Leather'),
@@ -5187,7 +4837,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(28562, 0, 29596, 5.08, 1, 1, 'Sign of Fire'),
 	(28562, 0, 14247, 5.08, 1, 1, 'Fur-Lined Pelt'),
 	(28562, 0, 36219, 2.82, 1, 1, 'Formula: Unstable Grit Boost'),
-	(28562, 0, 14410, 2.82, 1, 1, 'Biomimetic Mud'),
 	(28562, 0, 14248, 1.69, 1, 1, 'Hardened Pelt'),
 	(28562, 0, 58561, 1.69, 1, 1, 'Exceptional Legate''s Celestiform Handle'),
 	(28562, 0, 58650, 0.56, 1, 1, 'Professor''s Servaron Enhancer'),
@@ -5199,15 +4848,12 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (28564, 28564,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(28564, 0, 14236, 18.62, 1, 1, 'Thick Leather'),
 	(28564, 0, 8090, 17.93, 1, 1, 'Furry Razortail Ears'),
-	(28564, 0, 14409, 13.1, 1, 1, 'Survival Supply Stash'),
 	(28564, 0, 14279, 12.41, 1, 1, 'Tough Meat'),
 	(28564, 0, 29596, 8.97, 1, 1, 'Sign of Fire'),
 	(28564, 0, 14237, 8.97, 1, 1, 'Reinforced Leather'),
 	(28564, 0, 14280, 8.28, 1, 1, 'Tender Meat'),
-	(28564, 0, 14411, 4.14, 1, 1, 'Energized Heavy Water'),
 	(28564, 0, 42996, 3.45, 1, 1, 'Rotten Remains'),
 	(28564, 0, 29609, 1.38, 1, 1, 'Rune Fragment'),
-	(28564, 0, 14410, 0.69, 1, 1, 'Biomimetic Mud'),
 	(28564, 0, 42997, 0.69, 1, 1, 'Mangled Carcass'),
 	(28564, 0, 58791, 0.69, 1, 1, 'Exceptional Conveyor''s Cryptowarp Battery'),
 	(28564, 0, 16128, 0.69, 1, 1, 'Thick Bone');
@@ -5267,63 +4913,46 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 -- Professor McManus (65 kills recorded, professor-mcmanus-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (37372, NULL, 100, 0, 0, 0, 0, 'Professor McManus');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (37372, 37372, 'Professor McManus');
-INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(37372, 0, 14409, 63.08, 1, 1, 'Survival Supply Stash'),
-	(37372, 0, 14410, 27.69, 1, 1, 'Biomimetic Mud');
 
 -- Hostile Deadrock Inmate (63 kills recorded, hostile-deadrock-inmate-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (37421, NULL, 100, 0, 0, 0, 0, 'Hostile Deadrock Inmate');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (37421, 37421, 'Hostile Deadrock Inmate');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(37421, 0, 14409, 52.38, 1, 1, 'Survival Supply Stash'),
-	(37421, 0, 14410, 31.75, 1, 1, 'Biomimetic Mud'),
 	(37421, 0, 13070, 15.87, 1, 1, 'Whitevale Luck Charm');
 
 -- Hostile Deadrock Inmate (63 kills recorded, hostile-deadrock-inmate-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (37423, NULL, 100, 0, 0, 0, 0, 'Hostile Deadrock Inmate');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (37423, 37423, 'Hostile Deadrock Inmate');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(37423, 0, 14409, 52.38, 1, 1, 'Survival Supply Stash'),
-	(37423, 0, 14410, 31.75, 1, 1, 'Biomimetic Mud'),
 	(37423, 0, 13070, 15.87, 1, 1, 'Whitevale Luck Charm');
 
 -- Hostile Deadrock Inmate (63 kills recorded, hostile-deadrock-inmate-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (37428, NULL, 100, 0, 0, 0, 0, 'Hostile Deadrock Inmate');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (37428, 37428, 'Hostile Deadrock Inmate');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(37428, 0, 14409, 52.38, 1, 1, 'Survival Supply Stash'),
-	(37428, 0, 14410, 31.75, 1, 1, 'Biomimetic Mud'),
 	(37428, 0, 13070, 15.87, 1, 1, 'Whitevale Luck Charm');
 
 -- Hostile Deadrock Inmate (63 kills recorded, hostile-deadrock-inmate-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (37430, NULL, 100, 0, 0, 0, 0, 'Hostile Deadrock Inmate');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (37430, 37430, 'Hostile Deadrock Inmate');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(37430, 0, 14409, 52.38, 1, 1, 'Survival Supply Stash'),
-	(37430, 0, 14410, 31.75, 1, 1, 'Biomimetic Mud'),
 	(37430, 0, 13070, 15.87, 1, 1, 'Whitevale Luck Charm');
 
 -- Hostile Deadrock Inmate (63 kills recorded, hostile-deadrock-inmate-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (37431, NULL, 100, 0, 0, 0, 0, 'Hostile Deadrock Inmate');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (37431, 37431, 'Hostile Deadrock Inmate');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(37431, 0, 14409, 52.38, 1, 1, 'Survival Supply Stash'),
-	(37431, 0, 14410, 31.75, 1, 1, 'Biomimetic Mud'),
 	(37431, 0, 13070, 15.87, 1, 1, 'Whitevale Luck Charm');
 
 -- Hostile Deadrock Inmate (63 kills recorded, hostile-deadrock-inmate-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (37433, NULL, 100, 0, 0, 0, 0, 'Hostile Deadrock Inmate');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (37433, 37433, 'Hostile Deadrock Inmate');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(37433, 0, 14409, 52.38, 1, 1, 'Survival Supply Stash'),
-	(37433, 0, 14410, 31.75, 1, 1, 'Biomimetic Mud'),
 	(37433, 0, 13070, 15.87, 1, 1, 'Whitevale Luck Charm');
 
 -- Deadly Deadrock Inmate (2 kills recorded, deadly-deadrock-inmate-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (37545, NULL, 100, 0, 0, 0, 0, 'Deadly Deadrock Inmate');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (37545, 37545, 'Deadly Deadrock Inmate');
-INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(37545, 0, 14409, 100, 1, 1, 'Survival Supply Stash');
 
 -- Sergeant Kruka (4 kills recorded, sergeant-kruka-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (37593, NULL, 100, 0, 0, 0, 0, 'Sergeant Kruka');
@@ -5356,8 +4985,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 -- Compliant Deadrock Inmate (15 kills recorded, compliant-deadrock-inmate-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (37667, NULL, 100, 0, 0, 0, 0, 'Compliant Deadrock Inmate');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (37667, 37667, 'Compliant Deadrock Inmate');
-INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(37667, 0, 14409, 73.33, 1, 1, 'Survival Supply Stash');
 
 -- Sabotaged Servicebot (161 kills recorded, sabotaged-servicebot-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (39994, NULL, 100, 0, 0, 0, 0, 'Sabotaged Servicebot');
@@ -5397,9 +5024,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (40797, 40797, 'Darkice Adept');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(40797, 0, 8198, 37.89, 1, 1, 'Broken Skeech Jewelry'),
-	(40797, 0, 14410, 16.84, 1, 1, 'Biomimetic Mud'),
 	(40797, 0, 14518, 10.53, 1, 1, 'Whimfiber Cloth'),
-	(40797, 0, 14409, 8.42, 1, 1, 'Survival Supply Stash'),
 	(40797, 0, 29596, 7.37, 1, 1, 'Sign of Fire'),
 	(40797, 0, 29597, 6.32, 1, 1, 'Sign of Fire - Greater'),
 	(40797, 0, 27572, 5.26, 1, 1, 'Whimfiber Hat'),
@@ -6186,14 +5811,11 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(46098, 0, 14275, 12.73, 1, 1, 'Small Fish'),
 	(46098, 0, 14276, 11.41, 1, 1, 'Medium Fish'),
 	(46098, 0, 29316, 11.41, 1, 1, 'Sign of Water'),
-	(46098, 0, 14410, 7.96, 1, 1, 'Biomimetic Mud'),
-	(46098, 0, 14409, 5.57, 1, 1, 'Survival Supply Stash'),
 	(46098, 0, 43011, 3.45, 1, 1, 'Scaly Bait'),
 	(46098, 0, 43012, 2.92, 1, 1, 'Not-So-Bad Fish'),
 	(46098, 0, 29317, 2.39, 1, 1, 'Sign of Water - Greater'),
 	(46098, 0, 59084, 1.33, 1, 1, 'Maniac''s Synthelix Hard Hat'),
 	(46098, 0, 44295, 1.33, 1, 1, 'Augmented Rune Fragment'),
-	(46098, 0, 14411, 0.53, 1, 1, 'Energized Heavy Water'),
 	(46098, 0, 36219, 0.53, 1, 1, 'Formula: Unstable Grit Boost'),
 	(46098, 0, 29611, 0.53, 1, 1, 'Intricate Rune Fragment'),
 	(46098, 0, 29609, 0.53, 1, 1, 'Rune Fragment'),
@@ -6508,10 +6130,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (54033, NULL, 100, 0, 0, 0, 0, 'Squirg Zombie');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (54033, 54033, 'Squirg Zombie');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(54033, 0, 14410, 46.16, 1, 1, 'Biomimetic Mud'),
-	(54033, 0, 14409, 20.95, 1, 1, 'Survival Supply Stash'),
 	(54033, 0, 28105, 19.53, 1, 1, 'Slippery Squirg Steak'),
-	(54033, 0, 14411, 5.33, 1, 1, 'Energized Heavy Water'),
 	(54033, 0, 29316, 3.01, 1, 1, 'Sign of Water'),
 	(54033, 0, 29317, 1.11, 1, 1, 'Sign of Water - Greater'),
 	(54033, 0, 28104, 0.21, 1, 1, 'Tacky Squirg Eyeball'),
@@ -6598,16 +6217,13 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (54791, 54791,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(54791, 0, 7847, 20.41, 1, 1, 'Dirt-Covered Ikthian Artifact'),
 	(54791, 0, 14518, 17.09, 1, 1, 'Whimfiber Cloth'),
-	(54791, 0, 14411, 12.18, 1, 1, 'Energized Heavy Water'),
 	(54791, 0, 14276, 10.28, 1, 1, 'Medium Fish'),
 	(54791, 0, 7600, 9.49, 1, 1, 'Black Pearls'),
-	(54791, 0, 14410, 7.44, 1, 1, 'Biomimetic Mud'),
 	(54791, 0, 14275, 5.54, 1, 1, 'Small Fish'),
 	(54791, 0, 29316, 3.01, 1, 1, 'Sign of Water'),
 	(54791, 0, 29317, 2.69, 1, 1, 'Sign of Water - Greater'),
 	(54791, 0, 27572, 1.42, 1, 1, 'Whimfiber Hat'),
 	(54791, 0, 43012, 0.95, 1, 1, 'Not-So-Bad Fish'),
-	(54791, 0, 14409, 0.79, 1, 1, 'Survival Supply Stash'),
 	(54791, 0, 62018, 0.79, 1, 1, 'Operative''s Interbiosis Uniform'),
 	(54791, 0, 15355, 0.63, 1, 1, 'Bulrush (Sienna)'),
 	(54791, 0, 29609, 0.63, 1, 1, 'Rune Fragment'),
@@ -6676,9 +6292,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61851, 61851, 'Exile Shatterbot');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61851, 0, 7442, 26.76, 1, 1, 'Stripped Sprocket'),
-	(61851, 0, 14409, 22.54, 1, 1, 'Survival Supply Stash'),
 	(61851, 0, 7441, 21.13, 1, 1, 'Melted Wiring'),
-	(61851, 0, 14410, 5.63, 1, 1, 'Biomimetic Mud'),
 	(61851, 0, 58829, 4.23, 1, 1, 'Prophet''s Styrothium Bioshield'),
 	(61851, 0, 58499, 2.82, 1, 1, 'Exceptional Prophet''s Quadraline Particle Web'),
 	(61851, 0, 29609, 2.82, 1, 1, 'Rune Fragment'),
@@ -6698,11 +6312,8 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61852, 61852, 'Berserk Freebot');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61852, 0, 7442, 50, 1, 1, 'Stripped Sprocket'),
-	(61852, 0, 14409, 20.1, 1, 1, 'Survival Supply Stash'),
-	(61852, 0, 14410, 10.31, 1, 1, 'Biomimetic Mud'),
 	(61852, 0, 29604, 1.55, 1, 1, 'Sign of Air'),
 	(61852, 0, 30775, 1.03, 1, 1, 'Lamp (Heart-Collection)'),
-	(61852, 0, 14411, 1.03, 1, 1, 'Energized Heavy Water'),
 	(61852, 0, 59034, 1.03, 1, 1, 'Professor''s Psyphalon Instigator'),
 	(61852, 0, 29611, 1.03, 1, 1, 'Intricate Rune Fragment'),
 	(61852, 0, 59042, 0.52, 1, 1, 'Exceptional Professor''s Photoweave Polyboots'),
@@ -6739,10 +6350,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61853, 61853,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61853, 0, 7442, 33.33, 1, 1, 'Stripped Sprocket'),
 	(61853, 0, 7441, 26.19, 1, 1, 'Melted Wiring'),
-	(61853, 0, 14409, 19.05, 1, 1, 'Survival Supply Stash'),
-	(61853, 0, 14410, 4.76, 1, 1, 'Biomimetic Mud'),
 	(61853, 0, 29609, 2.38, 1, 1, 'Rune Fragment'),
-	(61853, 0, 14411, 2.38, 1, 1, 'Energized Heavy Water'),
 	(61853, 0, 59228, 2.38, 1, 1, 'Prophet''s Lexigroove Shouldergear'),
 	(61853, 0, 40256, 2.38, 1, 1, 'Gastroderm Barrier'),
 	(61853, 0, 59022, 2.38, 1, 1, 'Professor''s Photoweave Buffet'),
@@ -6755,7 +6363,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61854, 61854,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61854, 0, 7442, 50, 1, 1, 'Stripped Sprocket'),
 	(61854, 0, 58530, 16.67, 1, 1, 'Legate''s Dynaclastic Strengthener'),
-	(61854, 0, 14409, 16.67, 1, 1, 'Survival Supply Stash'),
 	(61854, 0, 58836, 8.33, 1, 1, 'Prophet''s Pherotube Mantle'),
 	(61854, 0, 58839, 8.33, 1, 1, 'Prophet''s Pherotube Bioshield');
 
@@ -6766,12 +6373,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61858, 0, 7949, 30.06, 1, 1, 'Broken Mechari Gears'),
 	(61858, 0, 14517, 14.95, 1, 1, 'Silk Cloth'),
 	(61858, 0, 14518, 14, 1, 1, 'Whimfiber Cloth'),
-	(61858, 0, 14409, 13.75, 1, 1, 'Survival Supply Stash'),
-	(61858, 0, 14410, 5.55, 1, 1, 'Biomimetic Mud'),
 	(61858, 0, 27577, 3.06, 1, 1, 'Silk Shoes'),
 	(61858, 0, 27572, 1.45, 1, 1, 'Whimfiber Hat'),
 	(61858, 0, 14461, 1.37, 1, 1, 'Pot Roast'),
-	(61858, 0, 14411, 1.24, 1, 1, 'Energized Heavy Water'),
 	(61858, 0, 9477, 0.29, 1, 1, 'Curved Triple Blade'),
 	(61858, 0, 40257, 0.25, 1, 1, 'Cnidocyte Cell'),
 	(61858, 0, 9035, 0.21, 1, 1, 'Heavy Titanium Minigun'),
@@ -6800,8 +6404,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61859, 0, 7549, 19.37, 1, 1, 'Furry Chua Ears'),
 	(61859, 0, 14518, 18.18, 1, 1, 'Whimfiber Cloth'),
 	(61859, 0, 29604, 12.65, 1, 1, 'Sign of Air'),
-	(61859, 0, 14409, 8.7, 1, 1, 'Survival Supply Stash'),
-	(61859, 0, 14410, 2.77, 1, 1, 'Biomimetic Mud'),
 	(61859, 0, 31558, 1.98, 1, 1, 'Wall Divider (Honey)'),
 	(61859, 0, 21637, 1.98, 1, 1, 'Treadmill'),
 	(61859, 0, 13070, 1.19, 1, 1, 'Whitevale Luck Charm'),
@@ -6813,7 +6415,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61859, 0, 40257, 0.79, 1, 1, 'Cnidocyte Cell'),
 	(61859, 0, 58729, 0.79, 1, 1, 'Exceptional Maniac''s Hydronium Force Field'),
 	(61859, 0, 29611, 0.79, 1, 1, 'Intricate Rune Fragment'),
-	(61859, 0, 14411, 0.79, 1, 1, 'Energized Heavy Water'),
 	(61859, 0, 36222, 0.4, 1, 1, 'Formula: Reactive Glance Boost'),
 	(61859, 0, 58876, 0.4, 1, 1, 'Remarkable Prophet''s Pherotube Mantle'),
 	(61859, 0, 20649, 0.4, 1, 1, 'Relic Excavation Tier 3 FABkit'),
@@ -6837,12 +6438,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61861, 0, 47646, 20.84, 1, 1, 'Patchy Boulderback Hide'),
 	(61861, 0, 14236, 19.26, 1, 1, 'Thick Leather'),
 	(61861, 0, 14254, 11.61, 1, 1, 'Boulderback Meat'),
-	(61861, 0, 14409, 9.76, 1, 1, 'Survival Supply Stash'),
 	(61861, 0, 29588, 7.92, 1, 1, 'Sign of Earth'),
-	(61861, 0, 14410, 6.86, 1, 1, 'Biomimetic Mud'),
 	(61861, 0, 14237, 6.6, 1, 1, 'Reinforced Leather'),
 	(61861, 0, 14247, 2.9, 1, 1, 'Fur-Lined Pelt'),
-	(61861, 0, 14411, 2.9, 1, 1, 'Energized Heavy Water'),
 	(61861, 0, 14248, 1.58, 1, 1, 'Hardened Pelt'),
 	(61861, 0, 12937, 1.06, 1, 1, 'Titanium Chunk'),
 	(61861, 0, 18791, 1.06, 1, 1, 'Recipe: Boulderback Filet Mignon'),
@@ -6874,12 +6472,10 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61862, 0, 14237, 9.3, 1, 1, 'Reinforced Leather'),
 	(61862, 0, 14254, 8.37, 1, 1, 'Boulderback Meat'),
 	(61862, 0, 29588, 7.91, 1, 1, 'Sign of Earth'),
-	(61862, 0, 14409, 2.33, 1, 1, 'Survival Supply Stash'),
 	(61862, 0, 36219, 1.86, 1, 1, 'Formula: Unstable Grit Boost'),
 	(61862, 0, 12937, 1.86, 1, 1, 'Titanium Chunk'),
 	(61862, 0, 40255, 1.86, 1, 1, 'Nematocyst Stinger'),
 	(61862, 0, 29609, 1.4, 1, 1, 'Rune Fragment'),
-	(61862, 0, 14410, 0.93, 1, 1, 'Biomimetic Mud'),
 	(61862, 0, 59168, 0.93, 1, 1, 'Conveyor''s Betabraid Governor'),
 	(61862, 0, 58775, 0.93, 1, 1, 'Conveyor''s Theraseptic Dungarees'),
 	(61862, 0, 14247, 0.93, 1, 1, 'Fur-Lined Pelt'),
@@ -6892,7 +6488,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61862, 0, 16129, 0.47, 1, 1, 'Tempered Bone'),
 	(61862, 0, 34696, 0.47, 1, 1, 'Concerted Effort AMP'),
 	(61862, 0, 59646, 0.47, 1, 1, 'Exceptional Prophet''s Plasmarc Shouldersash'),
-	(61862, 0, 14411, 0.47, 1, 1, 'Energized Heavy Water'),
 	(61862, 0, 59050, 0.47, 1, 1, 'Exceptional Professor''s Psyphalon Pants'),
 	(61862, 0, 58613, 0.47, 1, 1, 'Exceptional Deputy''s Eldanlite Mortar'),
 	(61862, 0, 58616, 0.47, 1, 1, 'Exceptional Deputy''s Retromagnetic Stole'),
@@ -6933,16 +6528,13 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61867, 0, 14236, 20.74, 1, 1, 'Thick Leather'),
 	(61867, 0, 7763, 14.25, 1, 1, 'Broken Girrok Claws'),
 	(61867, 0, 14279, 13.99, 1, 1, 'Tough Meat'),
-	(61867, 0, 14409, 8.02, 1, 1, 'Survival Supply Stash'),
 	(61867, 0, 29588, 8.02, 1, 1, 'Sign of Earth'),
 	(61867, 0, 14237, 7.25, 1, 1, 'Reinforced Leather'),
 	(61867, 0, 14280, 6.11, 1, 1, 'Tender Meat'),
 	(61867, 0, 7762, 2.93, 1, 1, 'Ragged Girrok Pelt'),
-	(61867, 0, 14410, 2.8, 1, 1, 'Biomimetic Mud'),
 	(61867, 0, 42996, 2.16, 1, 1, 'Rotten Remains'),
 	(61867, 0, 13070, 1.4, 1, 1, 'Whitevale Luck Charm'),
 	(61867, 0, 14247, 0.89, 1, 1, 'Fur-Lined Pelt'),
-	(61867, 0, 14411, 0.76, 1, 1, 'Energized Heavy Water'),
 	(61867, 0, 16128, 0.51, 1, 1, 'Thick Bone'),
 	(61867, 0, 58850, 0.38, 1, 1, 'Exceptional Prophet''s Styrothium Promoter'),
 	(61867, 0, 59217, 0.38, 1, 1, 'Prophet''s Centifiber Shouldergear'),
@@ -7014,7 +6606,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61868, 0, 14236, 11.49, 1, 1, 'Thick Leather'),
 	(61868, 0, 29588, 8.62, 1, 1, 'Sign of Earth'),
 	(61868, 0, 14280, 6.9, 1, 1, 'Tender Meat'),
-	(61868, 0, 14409, 4.6, 1, 1, 'Survival Supply Stash'),
 	(61868, 0, 42996, 2.3, 1, 1, 'Rotten Remains'),
 	(61868, 0, 7762, 2.3, 1, 1, 'Ragged Girrok Pelt'),
 	(61868, 0, 29611, 1.15, 1, 1, 'Intricate Rune Fragment'),
@@ -7025,7 +6616,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61868, 0, 34739, 0.57, 1, 1, 'Harmful Hits AMP'),
 	(61868, 0, 29596, 0.57, 1, 1, 'Sign of Fire'),
 	(61868, 0, 58593, 0.57, 1, 1, 'Deputy''s Eldanlite Mortar'),
-	(61868, 0, 14410, 0.57, 1, 1, 'Biomimetic Mud'),
 	(61868, 0, 59170, 0.57, 1, 1, 'Exceptional Conveyor''s Nanorium Chestpiece'),
 	(61868, 0, 30713, 0.57, 1, 1, 'Savior AMP'),
 	(61868, 0, 34750, 0.57, 1, 1, 'Reroute Power AMP'),
@@ -7051,10 +6641,8 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61869, 0, 14237, 14.47, 1, 1, 'Reinforced Leather'),
 	(61869, 0, 8051, 12.28, 1, 1, 'Furry Pumera Paw'),
 	(61869, 0, 14279, 11.84, 1, 1, 'Tough Meat'),
-	(61869, 0, 14409, 8.77, 1, 1, 'Survival Supply Stash'),
 	(61869, 0, 14280, 8.77, 1, 1, 'Tender Meat'),
 	(61869, 0, 29596, 7.46, 1, 1, 'Sign of Fire'),
-	(61869, 0, 14410, 6.14, 1, 1, 'Biomimetic Mud'),
 	(61869, 0, 58956, 2.19, 1, 1, 'Deputy''s Monotube Kinetic Absorber'),
 	(61869, 0, 14248, 1.32, 1, 1, 'Hardened Pelt'),
 	(61869, 0, 16128, 1.32, 1, 1, 'Thick Bone'),
@@ -7062,7 +6650,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61869, 0, 14247, 0.88, 1, 1, 'Fur-Lined Pelt'),
 	(61869, 0, 42996, 0.88, 1, 1, 'Rotten Remains'),
 	(61869, 0, 29604, 0.88, 1, 1, 'Sign of Air'),
-	(61869, 0, 14411, 0.88, 1, 1, 'Energized Heavy Water'),
 	(61869, 0, 40255, 0.88, 1, 1, 'Nematocyst Stinger'),
 	(61869, 0, 42997, 0.88, 1, 1, 'Mangled Carcass'),
 	(61869, 0, 58978, 0.44, 1, 1, 'Exceptional Deputy''s Monotube Kinetic Absorber'),
@@ -7083,7 +6670,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61870, 0, 14237, 16.39, 1, 1, 'Reinforced Leather'),
 	(61870, 0, 14279, 13.11, 1, 1, 'Tough Meat'),
 	(61870, 0, 14280, 11.48, 1, 1, 'Tender Meat'),
-	(61870, 0, 14410, 9.84, 1, 1, 'Biomimetic Mud'),
 	(61870, 0, 41145, 8.2, 1, 1, 'Heroic Neo Helmet'),
 	(61870, 0, 14236, 4.92, 1, 1, 'Thick Leather'),
 	(61870, 0, 59521, 3.28, 1, 1, 'Exceptional Maniac''s Styrodyne Hooks'),
@@ -7110,8 +6696,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61871, 0, 29609, 2.02, 1, 1, 'Rune Fragment'),
 	(61871, 0, 60658, 1.73, 1, 1, 'Exceptional Operative''s Ultralene Shouldersash'),
 	(61871, 0, 16129, 1.73, 1, 1, 'Tempered Bone'),
-	(61871, 0, 14409, 1.16, 1, 1, 'Survival Supply Stash'),
-	(61871, 0, 14410, 1.16, 1, 1, 'Biomimetic Mud'),
 	(61871, 0, 14248, 1.16, 1, 1, 'Hardened Pelt'),
 	(61871, 0, 60719, 1.16, 1, 1, 'Wizard''s Terrafoam Neural Controller'),
 	(61871, 0, 36221, 0.87, 1, 1, 'Formula: Reactive Deflect Boost'),
@@ -7174,15 +6758,12 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61873, 0, 18006, 9.31, 1, 1, 'Mammodin Sirloin'),
 	(61873, 0, 29588, 8.58, 1, 1, 'Sign of Earth'),
 	(61873, 0, 14280, 8.09, 1, 1, 'Tender Meat'),
-	(61873, 0, 14409, 3.68, 1, 1, 'Survival Supply Stash'),
-	(61873, 0, 14410, 1.47, 1, 1, 'Biomimetic Mud'),
 	(61873, 0, 18822, 0.98, 1, 1, 'Recipe: Mammodin Meatballs'),
 	(61873, 0, 40255, 0.98, 1, 1, 'Nematocyst Stinger'),
 	(61873, 0, 42996, 0.98, 1, 1, 'Rotten Remains'),
 	(61873, 0, 29609, 0.98, 1, 1, 'Rune Fragment'),
 	(61873, 0, 14247, 0.98, 1, 1, 'Fur-Lined Pelt'),
 	(61873, 0, 42997, 0.74, 1, 1, 'Mangled Carcass'),
-	(61873, 0, 14411, 0.74, 1, 1, 'Energized Heavy Water'),
 	(61873, 0, 58661, 0.49, 1, 1, 'Professor''s Lexithread Magnifier'),
 	(61873, 0, 40257, 0.49, 1, 1, 'Cnidocyte Cell'),
 	(61873, 0, 58764, 0.49, 1, 1, 'Conveyor''s Cryptowarp Trench'),
@@ -7249,17 +6830,14 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61877, 61877,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61877, 0, 14237, 20.36, 1, 1, 'Reinforced Leather'),
 	(61877, 0, 7938, 13.27, 1, 1, 'Broken Mammodin Horn'),
-	(61877, 0, 14411, 13.02, 1, 1, 'Energized Heavy Water'),
 	(61877, 0, 18006, 8.76, 1, 1, 'Mammodin Sirloin'),
 	(61877, 0, 14280, 7.73, 1, 1, 'Tender Meat'),
 	(61877, 0, 14279, 6.96, 1, 1, 'Tough Meat'),
-	(61877, 0, 14410, 6.7, 1, 1, 'Biomimetic Mud'),
 	(61877, 0, 42997, 3.74, 1, 1, 'Mangled Carcass'),
 	(61877, 0, 29588, 3.35, 1, 1, 'Sign of Earth'),
 	(61877, 0, 14248, 2.19, 1, 1, 'Hardened Pelt'),
 	(61877, 0, 29589, 1.8, 1, 1, 'Sign of Earth - Greater'),
 	(61877, 0, 41145, 1.03, 1, 1, 'Heroic Neo Helmet'),
-	(61877, 0, 14409, 1.03, 1, 1, 'Survival Supply Stash'),
 	(61877, 0, 16129, 1.03, 1, 1, 'Tempered Bone'),
 	(61877, 0, 18822, 0.64, 1, 1, 'Recipe: Mammodin Meatballs'),
 	(61877, 0, 36222, 0.52, 1, 1, 'Formula: Reactive Glance Boost'),
@@ -7317,10 +6895,8 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61878, 0, 18006, 11.54, 1, 1, 'Mammodin Sirloin'),
 	(61878, 0, 14279, 9.62, 1, 1, 'Tough Meat'),
 	(61878, 0, 14280, 6.92, 1, 1, 'Tender Meat'),
-	(61878, 0, 14411, 6.15, 1, 1, 'Energized Heavy Water'),
 	(61878, 0, 42997, 4.62, 1, 1, 'Mangled Carcass'),
 	(61878, 0, 29588, 3.85, 1, 1, 'Sign of Earth'),
-	(61878, 0, 14410, 1.92, 1, 1, 'Biomimetic Mud'),
 	(61878, 0, 14248, 1.92, 1, 1, 'Hardened Pelt'),
 	(61878, 0, 40265, 1.54, 1, 1, 'Stack Modus'),
 	(61878, 0, 29589, 1.54, 1, 1, 'Sign of Earth - Greater'),
@@ -7336,7 +6912,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61878, 0, 29604, 0.38, 1, 1, 'Sign of Air'),
 	(61878, 0, 62031, 0.38, 1, 1, 'Operative''s Fusamorph Bucket'),
 	(61878, 0, 60515, 0.38, 1, 1, 'Envoy''s Technostreak Freight'),
-	(61878, 0, 14409, 0.38, 1, 1, 'Survival Supply Stash'),
 	(61878, 0, 60641, 0.38, 1, 1, 'Operative''s Ultralene Galvanizer'),
 	(61878, 0, 62023, 0.38, 1, 1, 'Operative''s Interbiosis Bindings'),
 	(61878, 0, 41149, 0.38, 1, 1, 'Lord Hoarfrost''s Glacial Barrier'),
@@ -7407,9 +6982,7 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61882, 61882, 'Sabotaged Securitybot');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61882, 0, 7442, 37, 1, 1, 'Stripped Sprocket'),
-	(61882, 0, 14411, 20, 1, 1, 'Energized Heavy Water'),
 	(61882, 0, 60643, 14, 1, 1, 'Operative''s Ultralene Sabers'),
-	(61882, 0, 14410, 12, 1, 1, 'Biomimetic Mud'),
 	(61882, 0, 29601, 4, 1, 1, 'Sign of Logic - Greater'),
 	(61882, 0, 41154, 2, 1, 1, 'Eye of the Tempest Augmentor'),
 	(61882, 0, 35762, 2, 1, 1, 'Design: Sabotaged Freebot Salvage Hands'),
@@ -7428,9 +7001,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61885, 0, 7442, 44.44, 1, 1, 'Stripped Sprocket'),
 	(61885, 0, 29597, 11.11, 1, 1, 'Sign of Fire - Greater'),
 	(61885, 0, 29601, 11.11, 1, 1, 'Sign of Logic - Greater'),
-	(61885, 0, 14410, 7.41, 1, 1, 'Biomimetic Mud'),
 	(61885, 0, 60781, 7.41, 1, 1, 'Despoiler''s Chlorominium Wraps'),
-	(61885, 0, 14411, 7.41, 1, 1, 'Energized Heavy Water'),
 	(61885, 0, 29596, 3.7, 1, 1, 'Sign of Fire'),
 	(61885, 0, 21483, 3.7, 1, 1, 'Chain-Link Fence'),
 	(61885, 0, 60535, 3.7, 1, 1, 'Exceptional Envoy''s Technostreak Gaiters');
@@ -7443,12 +7014,9 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61893, 0, 7686, 21.32, 1, 1, 'Religious Relic'),
 	(61893, 0, 18520, 10.66, 1, 1, 'Shellark Steak'),
 	(61893, 0, 29321, 10.21, 1, 1, 'Sign of Life - Greater'),
-	(61893, 0, 14410, 9.91, 1, 1, 'Biomimetic Mud'),
-	(61893, 0, 14409, 5.86, 1, 1, 'Survival Supply Stash'),
 	(61893, 0, 14517, 3, 1, 1, 'Silk Cloth'),
 	(61893, 0, 27572, 2.1, 1, 1, 'Whimfiber Hat'),
 	(61893, 0, 27577, 1.05, 1, 1, 'Silk Shoes'),
-	(61893, 0, 14411, 0.9, 1, 1, 'Energized Heavy Water'),
 	(61893, 0, 41149, 0.6, 1, 1, 'Lord Hoarfrost''s Glacial Barrier'),
 	(61893, 0, 18818, 0.6, 1, 1, 'Recipe: Shellark Steak'),
 	(61893, 0, 29604, 0.45, 1, 1, 'Sign of Air'),
@@ -7518,8 +7086,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61894, 0, 7997, 21.07, 1, 1, 'Oghra Lieutenant''s Insignia'),
 	(61894, 0, 29321, 11.3, 1, 1, 'Sign of Life - Greater'),
 	(61894, 0, 18520, 9.47, 1, 1, 'Shellark Steak'),
-	(61894, 0, 14410, 8.7, 1, 1, 'Biomimetic Mud'),
-	(61894, 0, 14409, 4.73, 1, 1, 'Survival Supply Stash'),
 	(61894, 0, 14517, 3.66, 1, 1, 'Silk Cloth'),
 	(61894, 0, 27572, 3.36, 1, 1, 'Whimfiber Hat'),
 	(61894, 0, 34711, 1.22, 1, 1, 'Avoidance Mastery AMP'),
@@ -7534,7 +7100,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61894, 0, 41144, 0.31, 1, 1, 'Legendary League Helmet'),
 	(61894, 0, 29611, 0.31, 1, 1, 'Intricate Rune Fragment'),
 	(61894, 0, 59478, 0.31, 1, 1, 'Maniac''s Astrotube Dustcoat'),
-	(61894, 0, 14411, 0.31, 1, 1, 'Energized Heavy Water'),
 	(61894, 0, 60568, 0.15, 1, 1, 'Sectarian''s Quadrotwine Gaiters'),
 	(61894, 0, 60578, 0.15, 1, 1, 'Sectarian''s Styronite Uniform'),
 	(61894, 0, 60704, 0.15, 1, 1, 'Wizard''s Betadyne Handgrips'),
@@ -7579,9 +7144,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61902, 0, 14518, 22.03, 1, 1, 'Whimfiber Cloth'),
 	(61902, 0, 29321, 10.21, 1, 1, 'Sign of Life - Greater'),
 	(61902, 0, 18520, 6.71, 1, 1, 'Shellark Steak'),
-	(61902, 0, 14410, 4.02, 1, 1, 'Biomimetic Mud'),
 	(61902, 0, 14517, 2.98, 1, 1, 'Silk Cloth'),
-	(61902, 0, 14409, 2.01, 1, 1, 'Survival Supply Stash'),
 	(61902, 0, 27572, 1.66, 1, 1, 'Whimfiber Hat'),
 	(61902, 0, 36222, 0.63, 1, 1, 'Formula: Reactive Glance Boost'),
 	(61902, 0, 59424, 0.46, 1, 1, 'Professor''s Pheroline Dungarees'),
@@ -7596,7 +7159,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61902, 0, 30707, 0.34, 1, 1, 'Frost Snap AMP'),
 	(61902, 0, 29612, 0.34, 1, 1, 'Armor Rune Fragment'),
 	(61902, 0, 30581, 0.29, 1, 1, 'Plushie (Grund)'),
-	(61902, 0, 14411, 0.29, 1, 1, 'Energized Heavy Water'),
 	(61902, 0, 59560, 0.29, 1, 1, 'Conveyor''s Dynaridium Feelers'),
 	(61902, 0, 60705, 0.29, 1, 1, 'Wizard''s Betadyne Energy Sponge'),
 	(61902, 0, 41149, 0.23, 1, 1, 'Lord Hoarfrost''s Glacial Barrier'),
@@ -7835,34 +7397,25 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61909, 0, 14236, 9.52, 1, 1, 'Thick Leather'),
 	(61909, 0, 42997, 9.52, 1, 1, 'Mangled Carcass'),
 	(61909, 0, 42996, 7.14, 1, 1, 'Rotten Remains'),
-	(61909, 0, 14247, 2.38, 1, 1, 'Fur-Lined Pelt'),
-	(61909, 0, 14409, 2.38, 1, 1, 'Survival Supply Stash');
+	(61909, 0, 14247, 2.38, 1, 1, 'Fur-Lined Pelt');
 
 -- Defiant Deadrock Inmate (16 kills recorded, defiant-deadrock-inmate-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (61912, NULL, 100, 0, 0, 0, 0, 'Defiant Deadrock Inmate');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61912, 61912, 'Defiant Deadrock Inmate');
-INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(61912, 0, 14410, 50, 1, 1, 'Biomimetic Mud'),
-	(61912, 0, 14409, 50, 1, 1, 'Survival Supply Stash');
 
 -- Rampaging Deadrock Inmate (1 kills recorded, rampaging-deadrock-inmate-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (61914, NULL, 100, 0, 0, 0, 0, 'Rampaging Deadrock Inmate');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61914, 61914, 'Rampaging Deadrock Inmate');
-INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
-	(61914, 0, 14409, 100, 1, 1, 'Survival Supply Stash');
 
 -- Doomtide Shock-Weaver (360 kills recorded, doomtide-shock-weaver-2)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (61915, NULL, 100, 0, 0, 0, 0, 'Doomtide Shock-Weaver');
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61915, 61915, 'Doomtide Shock-Weaver');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61915, 0, 14518, 31.39, 1, 1, 'Whimfiber Cloth'),
-	(61915, 0, 14411, 13.61, 1, 1, 'Energized Heavy Water'),
 	(61915, 0, 8025, 12.78, 1, 1, 'Eerie Pell Idol'),
 	(61915, 0, 47671, 11.67, 1, 1, 'Awful Pell Idol'),
-	(61915, 0, 14410, 5.28, 1, 1, 'Biomimetic Mud'),
 	(61915, 0, 27572, 5, 1, 1, 'Whimfiber Hat'),
 	(61915, 0, 40265, 2.22, 1, 1, 'Stack Modus'),
-	(61915, 0, 14409, 1.94, 1, 1, 'Survival Supply Stash'),
 	(61915, 0, 62297, 1.11, 1, 1, 'Envoy''s Chronocite Steps'),
 	(61915, 0, 62288, 1.11, 1, 1, 'Envoy''s Technoplastic Wave Field'),
 	(61915, 0, 62151, 1.11, 1, 1, 'Despoiler''s Hydrohelix Underpants'),
@@ -7908,13 +7461,10 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61916, 61916, 'Doomtide Gale-Slasher');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61916, 0, 14518, 26.74, 1, 1, 'Whimfiber Cloth'),
-	(61916, 0, 14411, 18.72, 1, 1, 'Energized Heavy Water'),
 	(61916, 0, 8025, 13.37, 1, 1, 'Eerie Pell Idol'),
 	(61916, 0, 29601, 11.76, 1, 1, 'Sign of Logic - Greater'),
 	(61916, 0, 47671, 9.63, 1, 1, 'Awful Pell Idol'),
 	(61916, 0, 27572, 5.88, 1, 1, 'Whimfiber Hat'),
-	(61916, 0, 14410, 3.74, 1, 1, 'Biomimetic Mud'),
-	(61916, 0, 14409, 1.07, 1, 1, 'Survival Supply Stash'),
 	(61916, 0, 61957, 1.07, 1, 1, 'Sectarian''s Manaclastic Manipulators'),
 	(61916, 0, 29316, 1.07, 1, 1, 'Sign of Water'),
 	(61916, 0, 61893, 1.07, 1, 1, 'Envoy''s Muoncite Galvanizer'),
@@ -8049,9 +7599,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61920, 61920,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61920, 0, 14518, 28.19, 1, 1, 'Whimfiber Cloth'),
 	(61920, 0, 8198, 25.49, 1, 1, 'Broken Skeech Jewelry'),
-	(61920, 0, 14410, 11.03, 1, 1, 'Biomimetic Mud'),
 	(61920, 0, 29596, 8.58, 1, 1, 'Sign of Fire'),
-	(61920, 0, 14409, 5.15, 1, 1, 'Survival Supply Stash'),
 	(61920, 0, 41149, 3.68, 1, 1, 'Lord Hoarfrost''s Glacial Barrier'),
 	(61920, 0, 29597, 2.7, 1, 1, 'Sign of Fire - Greater'),
 	(61920, 0, 14517, 2.21, 1, 1, 'Silk Cloth'),
@@ -8098,9 +7646,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61934, 0, 14518, 30.16, 1, 1, 'Whimfiber Cloth'),
 	(61934, 0, 8025, 23.81, 1, 1, 'Eerie Pell Idol'),
 	(61934, 0, 47671, 12.7, 1, 1, 'Awful Pell Idol'),
-	(61934, 0, 14411, 3.17, 1, 1, 'Energized Heavy Water'),
 	(61934, 0, 36223, 3.17, 1, 1, 'Formula: Reactive Multi-Hit Boost'),
-	(61934, 0, 14410, 3.17, 1, 1, 'Biomimetic Mud'),
 	(61934, 0, 62425, 1.59, 1, 1, 'Operative''s Managroove Shirt'),
 	(61934, 0, 29612, 1.59, 1, 1, 'Armor Rune Fragment'),
 	(61934, 0, 29596, 1.59, 1, 1, 'Sign of Fire'),
@@ -8123,14 +7669,11 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61939, 61939,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61939, 0, 14518, 32.3, 1, 1, 'Whimfiber Cloth'),
 	(61939, 0, 7487, 20.16, 1, 1, 'Bloodstained Rags'),
-	(61939, 0, 14411, 15.84, 1, 1, 'Energized Heavy Water'),
-	(61939, 0, 14410, 7.2, 1, 1, 'Biomimetic Mud'),
 	(61939, 0, 29588, 6.17, 1, 1, 'Sign of Earth'),
 	(61939, 0, 29589, 4.32, 1, 1, 'Sign of Earth - Greater'),
 	(61939, 0, 27572, 3.91, 1, 1, 'Whimfiber Hat'),
 	(61939, 0, 41156, 1.03, 1, 1, 'Tempest Force Extended Mag'),
 	(61939, 0, 41158, 0.62, 1, 1, 'Tempest Force Analyzer'),
-	(61939, 0, 14409, 0.62, 1, 1, 'Survival Supply Stash'),
 	(61939, 0, 29318, 0.62, 1, 1, 'Sign of Water - Major'),
 	(61939, 0, 44295, 0.41, 1, 1, 'Augmented Rune Fragment'),
 	(61939, 0, 62218, 0.41, 1, 1, 'Instigator''s Muontwine Headpiece'),
@@ -8173,7 +7716,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61942, 0, 21422, 3.39, 1, 1, 'Spindly Habanerobloom'),
 	(61942, 0, 40266, 1.69, 1, 1, 'Queue Modus'),
 	(61942, 0, 34036, 1.69, 1, 1, 'Build Up AMP'),
-	(61942, 0, 14410, 1.69, 1, 1, 'Biomimetic Mud'),
 	(61942, 0, 62956, 1.69, 1, 1, 'Despoiler''s Entronic Stockings'),
 	(61942, 0, 62951, 1.69, 1, 1, 'Despoiler''s Phasefoam Recombinator'),
 	(61942, 0, 29596, 1.69, 1, 1, 'Sign of Fire'),
@@ -8187,10 +7729,7 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61947, 61947,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61947, 0, 7662, 37.44, 1, 1, 'Toothless Gears'),
 	(61947, 0, 29601, 25.12, 1, 1, 'Sign of Logic - Greater'),
-	(61947, 0, 14411, 13.79, 1, 1, 'Energized Heavy Water'),
-	(61947, 0, 14410, 4.43, 1, 1, 'Biomimetic Mud'),
 	(61947, 0, 14783, 2.96, 1, 1, 'Advanced Omni-Plasm'),
-	(61947, 0, 14409, 2.46, 1, 1, 'Survival Supply Stash'),
 	(61947, 0, 62964, 0.99, 1, 1, 'Despoiler''s Entronic Sustenance'),
 	(61947, 0, 62889, 0.99, 1, 1, 'Wizard''s Pherolite Fleece'),
 	(61947, 0, 29611, 0.99, 1, 1, 'Intricate Rune Fragment'),
@@ -8225,7 +7764,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61948, 0, 14518, 10.48, 1, 1, 'Whimfiber Cloth'),
 	(61948, 0, 29316, 9.52, 1, 1, 'Sign of Water'),
 	(61948, 0, 14276, 9.52, 1, 1, 'Medium Fish'),
-	(61948, 0, 14409, 4.76, 1, 1, 'Survival Supply Stash'),
 	(61948, 0, 43011, 2.86, 1, 1, 'Scaly Bait'),
 	(61948, 0, 27572, 2.86, 1, 1, 'Whimfiber Hat'),
 	(61948, 0, 36219, 1.9, 1, 1, 'Formula: Unstable Grit Boost'),
@@ -8259,12 +7797,10 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61954, 61954, 'Sunderstone Crusher');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61954, 0, 14517, 23.15, 1, 1, 'Silk Cloth'),
-	(61954, 0, 14409, 17.59, 1, 1, 'Survival Supply Stash'),
 	(61954, 0, 29588, 12.04, 1, 1, 'Sign of Earth'),
 	(61954, 0, 13393, 12.04, 1, 1, 'Sunderstone Prisoner Key'),
 	(61954, 0, 14518, 10.19, 1, 1, 'Whimfiber Cloth'),
 	(61954, 0, 7686, 10.19, 1, 1, 'Religious Relic'),
-	(61954, 0, 14410, 6.48, 1, 1, 'Biomimetic Mud'),
 	(61954, 0, 13070, 5.56, 1, 1, 'Whitevale Luck Charm'),
 	(61954, 0, 30504, 0.93, 1, 1, 'Can''t Stop, Won''t Stop AMP'),
 	(61954, 0, 58639, 0.93, 1, 1, 'Remarkable Deputy''s Retromagnetic Particle Sphere'),
@@ -8275,13 +7811,10 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61955, 61955, 'Sunderstone Revolutionary');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61955, 0, 7686, 15.65, 1, 1, 'Religious Relic'),
-	(61955, 0, 14409, 14.78, 1, 1, 'Survival Supply Stash'),
 	(61955, 0, 29604, 14.78, 1, 1, 'Sign of Air'),
 	(61955, 0, 14517, 13.91, 1, 1, 'Silk Cloth'),
 	(61955, 0, 14518, 9.57, 1, 1, 'Whimfiber Cloth'),
-	(61955, 0, 14410, 7.83, 1, 1, 'Biomimetic Mud'),
 	(61955, 0, 13070, 5.22, 1, 1, 'Whitevale Luck Charm'),
-	(61955, 0, 14411, 3.48, 1, 1, 'Energized Heavy Water'),
 	(61955, 0, 27577, 3.48, 1, 1, 'Silk Shoes'),
 	(61955, 0, 58840, 2.61, 1, 1, 'Prophet''s Pherotube Promoter'),
 	(61955, 0, 31629, 0.87, 1, 1, 'Tiki Roof'),
@@ -8306,7 +7839,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61962, 0, 29589, 5.88, 1, 1, 'Sign of Earth - Greater'),
 	(61962, 0, 29612, 2.94, 1, 1, 'Armor Rune Fragment'),
 	(61962, 0, 30619, 2.94, 1, 1, 'Nautical Chair'),
-	(61962, 0, 14409, 2.94, 1, 1, 'Survival Supply Stash'),
 	(61962, 0, 59555, 2.94, 1, 1, 'Conveyor''s Dynaridium Peignoir'),
 	(61962, 0, 59645, 2.94, 1, 1, 'Exceptional Prophet''s Plasmarc Circlet'),
 	(61962, 0, 59496, 2.94, 1, 1, 'Maniac''s Styrodyne Grip'),
@@ -8323,15 +7855,12 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61968, 61968,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61968, 0, 8148, 23.01, 1, 1, 'Nutritious Mushrooms'),
 	(61968, 0, 18647, 15.29, 1, 1, 'Rootbrute Meat'),
-	(61968, 0, 14410, 15.03, 1, 1, 'Biomimetic Mud'),
 	(61968, 0, 29321, 9.54, 1, 1, 'Sign of Life - Greater'),
-	(61968, 0, 14409, 6.93, 1, 1, 'Survival Supply Stash'),
 	(61968, 0, 15483, 3.4, 1, 1, 'Stoutroot Seeds'),
 	(61968, 0, 4687, 3.27, 1, 1, 'Honeywheat Seeds'),
 	(61968, 0, 15772, 3.01, 1, 1, 'Coralscale Seeds'),
 	(61968, 0, 14197, 2.61, 1, 1, 'Serpentlily Seeds'),
 	(61968, 0, 14204, 1.7, 1, 1, 'Logicleaf Seeds'),
-	(61968, 0, 14411, 1.57, 1, 1, 'Energized Heavy Water'),
 	(61968, 0, 15635, 1.31, 1, 1, 'Glowmelon Seeds'),
 	(61968, 0, 15646, 1.18, 1, 1, 'Crowncorn Seeds'),
 	(61968, 0, 40259, 1.05, 1, 1, 'Insulated Greaves'),
@@ -8401,14 +7930,11 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61971, 61971,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61971, 0, 8227, 20.63, 1, 1, 'Slimy Snoglug Tongue'),
 	(61971, 0, 14288, 15.67, 1, 1, 'Crunchy Bug Meat'),
-	(61971, 0, 14410, 13.32, 1, 1, 'Biomimetic Mud'),
 	(61971, 0, 14287, 11.23, 1, 1, 'Slimy Bug Meat'),
 	(61971, 0, 29317, 9.4, 1, 1, 'Sign of Water - Greater'),
-	(61971, 0, 14409, 6.27, 1, 1, 'Survival Supply Stash'),
 	(61971, 0, 43007, 4.96, 1, 1, 'Molted Carapace'),
 	(61971, 0, 29316, 4.18, 1, 1, 'Sign of Water'),
 	(61971, 0, 59316, 0.78, 1, 1, 'Exceptional Legate''s Quantumfoam Shell'),
-	(61971, 0, 14411, 0.78, 1, 1, 'Energized Heavy Water'),
 	(61971, 0, 59557, 0.52, 1, 1, 'Conveyor''s Dynaridium Helm'),
 	(61971, 0, 60636, 0.52, 1, 1, 'Operative''s Ultralene Shouldersash'),
 	(61971, 0, 30706, 0.52, 1, 1, 'Deadly Chain AMP'),
@@ -8494,17 +8020,14 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (61979, 61979, 'Silverscale Cetacean');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(61979, 0, 7600, 20.47, 1, 1, 'Black Pearls'),
-	(61979, 0, 14411, 14.04, 1, 1, 'Energized Heavy Water'),
 	(61979, 0, 14518, 11.11, 1, 1, 'Whimfiber Cloth'),
 	(61979, 0, 14276, 9.94, 1, 1, 'Medium Fish'),
-	(61979, 0, 14410, 7.02, 1, 1, 'Biomimetic Mud'),
 	(61979, 0, 14275, 6.43, 1, 1, 'Small Fish'),
 	(61979, 0, 29317, 4.09, 1, 1, 'Sign of Water - Greater'),
 	(61979, 0, 43012, 3.51, 1, 1, 'Not-So-Bad Fish'),
 	(61979, 0, 29316, 2.34, 1, 1, 'Sign of Water'),
 	(61979, 0, 53767, 2.34, 1, 1, 'Goldclaw'),
 	(61979, 0, 27572, 2.34, 1, 1, 'Whimfiber Hat'),
-	(61979, 0, 14409, 1.75, 1, 1, 'Survival Supply Stash'),
 	(61979, 0, 62367, 1.17, 1, 1, 'Sectarian''s Hypocyatic Coating'),
 	(61979, 0, 29609, 1.17, 1, 1, 'Rune Fragment'),
 	(61979, 0, 62785, 0.58, 1, 1, 'Exceptional Sectarian''s Synchronate Kinetic Absorber'),
@@ -8536,15 +8059,12 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(61984, 0, 7949, 21.67, 1, 1, 'Broken Mechari Gears'),
 	(61984, 0, 14517, 16.67, 1, 1, 'Silk Cloth'),
 	(61984, 0, 47664, 11.67, 1, 1, 'Dead Mechari Power Core'),
-	(61984, 0, 14409, 10, 1, 1, 'Survival Supply Stash'),
 	(61984, 0, 14518, 6.67, 1, 1, 'Whimfiber Cloth'),
-	(61984, 0, 14410, 4.17, 1, 1, 'Biomimetic Mud'),
 	(61984, 0, 29601, 4.17, 1, 1, 'Sign of Logic - Greater'),
 	(61984, 0, 58346, 4.17, 1, 1, 'Maniac''s Stratosurge Shadow'),
 	(61984, 0, 21563, 4.17, 1, 1, 'Exile Bed'),
 	(61984, 0, 13070, 2.5, 1, 1, 'Whitevale Luck Charm'),
 	(61984, 0, 36219, 1.67, 1, 1, 'Formula: Unstable Grit Boost'),
-	(61984, 0, 14411, 1.67, 1, 1, 'Energized Heavy Water'),
 	(61984, 0, 58238, 0.83, 1, 1, 'Deputy''s Chronoplate Crushers'),
 	(61984, 0, 58905, 0.83, 1, 1, 'Legate''s Turboneous Creese'),
 	(61984, 0, 58991, 0.83, 1, 1, 'Exceptional Deputy''s Plasmatwine Extended Mag'),
@@ -8586,7 +8106,844 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(62000, 0, 14517, 30.77, 1, 1, 'Silk Cloth'),
 	(62000, 0, 13070, 15.38, 1, 1, 'Whitevale Luck Charm'),
 	(62000, 0, 14518, 15.38, 1, 1, 'Whimfiber Cloth'),
-	(62000, 0, 14409, 15.38, 1, 1, 'Survival Supply Stash'),
 	(62000, 0, 7686, 15.38, 1, 1, 'Religious Relic'),
 	(62000, 0, 29604, 7.69, 1, 1, 'Sign of Air');
 
+-- Settler resources only drop for settlers, rates are the observed rates scaled by the number of paths.
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019873, 19873, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019873, 0, 14409, 59.16, 1, 1, 'Survival Supply Stash'),
+	(1000019873, 0, 14410, 35.96, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019874, 19874, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019874, 0, 14409, 58.96, 1, 1, 'Survival Supply Stash'),
+	(1000019874, 0, 14410, 21.04, 1, 1, 'Biomimetic Mud'),
+	(1000019874, 0, 14411, 8.44, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019876, 19876, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019876, 0, 14409, 51.2, 1, 1, 'Survival Supply Stash'),
+	(1000019876, 0, 14410, 21.24, 1, 1, 'Biomimetic Mud'),
+	(1000019876, 0, 14411, 4.72, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019877, 19877, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019877, 0, 14409, 59.52, 1, 1, 'Survival Supply Stash'),
+	(1000019877, 0, 14410, 25.52, 1, 1, 'Biomimetic Mud'),
+	(1000019877, 0, 14411, 3.32, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019885, 19885, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019885, 0, 14409, 52.68, 1, 1, 'Survival Supply Stash'),
+	(1000019885, 0, 14410, 23.76, 1, 1, 'Biomimetic Mud'),
+	(1000019885, 0, 14411, 5.4, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019886, 19886, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019886, 0, 14409, 38.52, 1, 1, 'Survival Supply Stash'),
+	(1000019886, 0, 14410, 19.24, 1, 1, 'Biomimetic Mud'),
+	(1000019886, 0, 14411, 11.84, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019889, 19889, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019889, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000019889, 0, 14410, 21.12, 1, 1, 'Biomimetic Mud'),
+	(1000019889, 0, 14411, 5.2, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019890, 19890, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019890, 0, 14409, 33.56, 1, 1, 'Survival Supply Stash'),
+	(1000019890, 0, 14410, 16.76, 1, 1, 'Biomimetic Mud'),
+	(1000019890, 0, 14411, 3.88, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019891, 19891, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019891, 0, 14409, 12.2, 1, 1, 'Survival Supply Stash'),
+	(1000019891, 0, 14410, 4.6, 1, 1, 'Biomimetic Mud'),
+	(1000019891, 0, 14411, 1.52, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019892, 19892, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019892, 0, 14409, 48.04, 1, 1, 'Survival Supply Stash'),
+	(1000019892, 0, 14410, 18, 1, 1, 'Biomimetic Mud'),
+	(1000019892, 0, 14411, 4.92, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019893, 19893, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019893, 0, 14409, 26.44, 1, 1, 'Survival Supply Stash'),
+	(1000019893, 0, 14410, 21.16, 1, 1, 'Biomimetic Mud'),
+	(1000019893, 0, 14411, 1.76, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019894, 19894, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019894, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000019894, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000019894, 0, 14411, 32.52, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019895, 19895, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019895, 0, 14409, 26.68, 1, 1, 'Survival Supply Stash'),
+	(1000019895, 0, 14410, 26.68, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019896, 19896, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019896, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000019896, 0, 14410, 41.04, 1, 1, 'Biomimetic Mud'),
+	(1000019896, 0, 14411, 30.76, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019897, 19897, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019897, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000019897, 0, 14410, 37.72, 1, 1, 'Biomimetic Mud'),
+	(1000019897, 0, 14411, 11.48, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019898, 19898, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019898, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000019898, 0, 14410, 40, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019900, 19900, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019900, 0, 14409, 41.68, 1, 1, 'Survival Supply Stash'),
+	(1000019900, 0, 14410, 37.52, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019901, 19901, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019901, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000019901, 0, 14410, 36.36, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019902, 19902, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019902, 0, 14409, 55.8, 1, 1, 'Survival Supply Stash'),
+	(1000019902, 0, 14410, 32.64, 1, 1, 'Biomimetic Mud'),
+	(1000019902, 0, 14411, 7.84, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019968, 19968, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019968, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000019968, 0, 14410, 18.6, 1, 1, 'Biomimetic Mud'),
+	(1000019968, 0, 14411, 9.32, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019969, 19969, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019969, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000019969, 0, 14410, 47.04, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000019970, 19970, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000019970, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000019970, 0, 14410, 57.16, 1, 1, 'Biomimetic Mud'),
+	(1000019970, 0, 14411, 28.56, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000020305, 20305, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000020305, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000020305, 0, 14410, 32, 1, 1, 'Biomimetic Mud'),
+	(1000020305, 0, 14411, 16, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000020306, 20306, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000020306, 0, 14409, 32, 1, 1, 'Survival Supply Stash'),
+	(1000020306, 0, 14410, 16, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000020452, 20452, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000020452, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000020452, 0, 14410, 34.64, 1, 1, 'Biomimetic Mud'),
+	(1000020452, 0, 14411, 10.48, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000020575, 20575, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000020575, 0, 14409, 60, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000020577, 20577, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000020577, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000020577, 0, 14410, 35.52, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000020578, 20578, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000020578, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000020578, 0, 14410, 35.52, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000020587, 20587, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000020587, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000020587, 0, 14410, 16.68, 1, 1, 'Biomimetic Mud'),
+	(1000020587, 0, 14411, 16.68, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000020776, 20776, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000020776, 0, 14409, 45.88, 1, 1, 'Survival Supply Stash'),
+	(1000020776, 0, 14410, 20.64, 1, 1, 'Biomimetic Mud'),
+	(1000020776, 0, 14411, 4.6, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000020778, 20778, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000020778, 0, 14409, 32, 1, 1, 'Survival Supply Stash'),
+	(1000020778, 0, 14411, 16, 1, 1, 'Energized Heavy Water'),
+	(1000020778, 0, 14410, 16, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000020779, 20779, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000020779, 0, 14409, 37.48, 1, 1, 'Survival Supply Stash'),
+	(1000020779, 0, 14410, 17.72, 1, 1, 'Biomimetic Mud'),
+	(1000020779, 0, 14411, 2.72, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000020780, 20780, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000020780, 0, 14409, 42.48, 1, 1, 'Survival Supply Stash'),
+	(1000020780, 0, 14410, 17.68, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000020781, 20781, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000020781, 0, 14409, 45.44, 1, 1, 'Survival Supply Stash'),
+	(1000020781, 0, 14410, 40.92, 1, 1, 'Biomimetic Mud'),
+	(1000020781, 0, 14411, 18.2, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000020994, 20994, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000020994, 0, 14409, 41.96, 1, 1, 'Survival Supply Stash'),
+	(1000020994, 0, 14410, 22.24, 1, 1, 'Biomimetic Mud'),
+	(1000020994, 0, 14411, 7.4, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000021373, 21373, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000021373, 0, 14409, 38.48, 1, 1, 'Survival Supply Stash'),
+	(1000021373, 0, 14410, 26.92, 1, 1, 'Biomimetic Mud'),
+	(1000021373, 0, 14411, 3.84, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000021463, 21463, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000021463, 0, 14409, 10.8, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000021821, 21821, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000021821, 0, 14409, 45.8, 1, 1, 'Survival Supply Stash'),
+	(1000021821, 0, 14410, 22.48, 1, 1, 'Biomimetic Mud'),
+	(1000021821, 0, 14411, 8.04, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022224, 22224, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022224, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000022224, 0, 14411, 36.36, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022458, 22458, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022458, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000022458, 0, 14410, 30.12, 1, 1, 'Biomimetic Mud'),
+	(1000022458, 0, 14411, 3.36, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022460, 22460, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022460, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000022460, 0, 14410, 32, 1, 1, 'Biomimetic Mud'),
+	(1000022460, 0, 14411, 2, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022530, 22530, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022530, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000022530, 0, 14411, 8.88, 1, 1, 'Energized Heavy Water'),
+	(1000022530, 0, 14410, 8.88, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022531, 22531, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022531, 0, 14409, 43.68, 1, 1, 'Survival Supply Stash'),
+	(1000022531, 0, 14410, 22.72, 1, 1, 'Biomimetic Mud'),
+	(1000022531, 0, 14411, 8.72, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022532, 22532, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022532, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000022532, 0, 14410, 37.56, 1, 1, 'Biomimetic Mud'),
+	(1000022532, 0, 14411, 15.48, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022533, 22533, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022533, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000022533, 0, 14410, 31.12, 1, 1, 'Biomimetic Mud'),
+	(1000022533, 0, 14411, 4.44, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022545, 22545, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022545, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000022545, 0, 14410, 36.92, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022547, 22547, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022547, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000022547, 0, 14410, 34.2, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022548, 22548, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022548, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000022548, 0, 14410, 26.88, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022549, 22549, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022549, 0, 14410, 59.24, 1, 1, 'Biomimetic Mud'),
+	(1000022549, 0, 14409, 29.64, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022550, 22550, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022550, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000022550, 0, 14411, 42.84, 1, 1, 'Energized Heavy Water'),
+	(1000022550, 0, 14409, 14.28, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022551, 22551, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022551, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000022551, 0, 14410, 45.16, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022553, 22553, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022553, 0, 14409, 59.88, 1, 1, 'Survival Supply Stash'),
+	(1000022553, 0, 14410, 29.92, 1, 1, 'Biomimetic Mud'),
+	(1000022553, 0, 14411, 13.6, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022554, 22554, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022554, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000022554, 0, 14410, 46.36, 1, 1, 'Biomimetic Mud'),
+	(1000022554, 0, 14411, 5.8, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022598, 22598, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022598, 0, 14409, 40.48, 1, 1, 'Survival Supply Stash'),
+	(1000022598, 0, 14410, 16.68, 1, 1, 'Biomimetic Mud'),
+	(1000022598, 0, 14411, 4.76, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022600, 22600, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022600, 0, 14409, 48.04, 1, 1, 'Survival Supply Stash'),
+	(1000022600, 0, 14410, 18, 1, 1, 'Biomimetic Mud'),
+	(1000022600, 0, 14411, 4.92, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022606, 22606, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022606, 0, 14409, 60, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022607, 22607, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022607, 0, 14409, 38.52, 1, 1, 'Survival Supply Stash'),
+	(1000022607, 0, 14410, 19.24, 1, 1, 'Biomimetic Mud'),
+	(1000022607, 0, 14411, 11.84, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022609, 22609, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022609, 0, 14409, 21.72, 1, 1, 'Survival Supply Stash'),
+	(1000022609, 0, 14410, 17.4, 1, 1, 'Biomimetic Mud'),
+	(1000022609, 0, 14411, 2.16, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022611, 22611, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022611, 0, 14409, 52.68, 1, 1, 'Survival Supply Stash'),
+	(1000022611, 0, 14410, 23.76, 1, 1, 'Biomimetic Mud'),
+	(1000022611, 0, 14411, 5.4, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022642, 22642, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022642, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000022642, 0, 14410, 38, 1, 1, 'Biomimetic Mud'),
+	(1000022642, 0, 14411, 9.48, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022643, 22643, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022643, 0, 14409, 58.96, 1, 1, 'Survival Supply Stash'),
+	(1000022643, 0, 14410, 21.04, 1, 1, 'Biomimetic Mud'),
+	(1000022643, 0, 14411, 8.44, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022679, 22679, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022679, 0, 14409, 59.24, 1, 1, 'Survival Supply Stash'),
+	(1000022679, 0, 14410, 14.8, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022680, 22680, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022680, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000022680, 0, 14410, 17.28, 1, 1, 'Biomimetic Mud'),
+	(1000022680, 0, 14411, 9.24, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022681, 22681, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022681, 0, 14409, 57.16, 1, 1, 'Survival Supply Stash'),
+	(1000022681, 0, 14410, 29.48, 1, 1, 'Biomimetic Mud'),
+	(1000022681, 0, 14411, 3.68, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022766, 22766, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022766, 0, 14409, 26.68, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000022767, 22767, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000022767, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000022767, 0, 14411, 31.56, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000023097, 23097, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000023097, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000023097, 0, 14410, 60, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000023098, 23098, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000023098, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000023098, 0, 14410, 60, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000023100, 23100, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000023100, 0, 14409, 60, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000023101, 23101, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000023101, 0, 14409, 60, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000023301, 23301, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000023301, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000023301, 0, 14410, 35.48, 1, 1, 'Biomimetic Mud'),
+	(1000023301, 0, 14411, 7.84, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000023391, 23391, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000023391, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000023391, 0, 14409, 52.64, 1, 1, 'Survival Supply Stash'),
+	(1000023391, 0, 14411, 10.52, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000023658, 23658, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000023658, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000023658, 0, 14410, 30.12, 1, 1, 'Biomimetic Mud'),
+	(1000023658, 0, 14411, 3.36, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000023660, 23660, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000023660, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000023660, 0, 14410, 32, 1, 1, 'Biomimetic Mud'),
+	(1000023660, 0, 14411, 2, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024035, 24035, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024035, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000024035, 0, 14409, 12.92, 1, 1, 'Survival Supply Stash'),
+	(1000024035, 0, 14411, 4.32, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024036, 24036, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024036, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000024036, 0, 14409, 14.64, 1, 1, 'Survival Supply Stash'),
+	(1000024036, 0, 14411, 4.88, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024037, 24037, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024037, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000024037, 0, 14409, 40, 1, 1, 'Survival Supply Stash'),
+	(1000024037, 0, 14411, 5.72, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024038, 24038, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024038, 0, 14410, 59.24, 1, 1, 'Biomimetic Mud'),
+	(1000024038, 0, 14409, 22.24, 1, 1, 'Survival Supply Stash'),
+	(1000024038, 0, 14411, 7.4, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024039, 24039, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024039, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000024039, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000024039, 0, 14411, 21.32, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024040, 24040, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024040, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000024040, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000024040, 0, 14411, 21.32, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024041, 24041, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024041, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000024041, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000024041, 0, 14411, 21.32, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024042, 24042, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024042, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000024042, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000024042, 0, 14411, 21.32, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024068, 24068, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024068, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000024068, 0, 14409, 32.76, 1, 1, 'Survival Supply Stash'),
+	(1000024068, 0, 14411, 5.8, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024069, 24069, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024069, 0, 14410, 44.64, 1, 1, 'Biomimetic Mud'),
+	(1000024069, 0, 14409, 19.84, 1, 1, 'Survival Supply Stash'),
+	(1000024069, 0, 14411, 11.56, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024070, 24070, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024070, 0, 14410, 33.36, 1, 1, 'Biomimetic Mud'),
+	(1000024070, 0, 14409, 17, 1, 1, 'Survival Supply Stash'),
+	(1000024070, 0, 14411, 3.28, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024071, 24071, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024071, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000024071, 0, 14409, 60, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024072, 24072, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024072, 0, 14410, 33.08, 1, 1, 'Biomimetic Mud'),
+	(1000024072, 0, 14409, 13.48, 1, 1, 'Survival Supply Stash'),
+	(1000024072, 0, 14411, 2.24, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024073, 24073, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024073, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000024073, 0, 14409, 29.32, 1, 1, 'Survival Supply Stash'),
+	(1000024073, 0, 14411, 10.56, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024090, 24090, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024090, 0, 14410, 40.04, 1, 1, 'Biomimetic Mud'),
+	(1000024090, 0, 14409, 21.8, 1, 1, 'Survival Supply Stash'),
+	(1000024090, 0, 14411, 7.08, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024092, 24092, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024092, 0, 14410, 23.12, 1, 1, 'Biomimetic Mud'),
+	(1000024092, 0, 14409, 10.68, 1, 1, 'Survival Supply Stash'),
+	(1000024092, 0, 14411, 1.76, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024093, 24093, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024093, 0, 14410, 38.56, 1, 1, 'Biomimetic Mud'),
+	(1000024093, 0, 14409, 19.64, 1, 1, 'Survival Supply Stash'),
+	(1000024093, 0, 14411, 1.96, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024094, 24094, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024094, 0, 14410, 54.28, 1, 1, 'Biomimetic Mud'),
+	(1000024094, 0, 14409, 22.44, 1, 1, 'Survival Supply Stash'),
+	(1000024094, 0, 14411, 5.16, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024098, 24098, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024098, 0, 14410, 45.92, 1, 1, 'Biomimetic Mud'),
+	(1000024098, 0, 14409, 19.08, 1, 1, 'Survival Supply Stash'),
+	(1000024098, 0, 14411, 9.52, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024102, 24102, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024102, 0, 14410, 47.24, 1, 1, 'Biomimetic Mud'),
+	(1000024102, 0, 14409, 13.88, 1, 1, 'Survival Supply Stash'),
+	(1000024102, 0, 14411, 5.56, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024183, 24183, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024183, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000024183, 0, 14409, 32.96, 1, 1, 'Survival Supply Stash'),
+	(1000024183, 0, 14411, 9.4, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024184, 24184, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024184, 0, 14410, 51.44, 1, 1, 'Biomimetic Mud'),
+	(1000024184, 0, 14409, 27, 1, 1, 'Survival Supply Stash'),
+	(1000024184, 0, 14411, 10.28, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024185, 24185, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024185, 0, 14410, 48.8, 1, 1, 'Biomimetic Mud'),
+	(1000024185, 0, 14409, 29.44, 1, 1, 'Survival Supply Stash'),
+	(1000024185, 0, 14411, 7.36, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024196, 24196, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024196, 0, 14410, 44.44, 1, 1, 'Biomimetic Mud'),
+	(1000024196, 0, 14409, 19.04, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024250, 24250, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024250, 0, 14410, 51.84, 1, 1, 'Biomimetic Mud'),
+	(1000024250, 0, 14409, 37.04, 1, 1, 'Survival Supply Stash'),
+	(1000024250, 0, 14411, 7.4, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024282, 24282, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024282, 0, 14410, 12.52, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000024878, 24878, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000024878, 0, 14409, 19.72, 1, 1, 'Survival Supply Stash'),
+	(1000024878, 0, 14410, 9.2, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000025994, 25994, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000025994, 0, 14411, 6.6, 1, 1, 'Energized Heavy Water'),
+	(1000025994, 0, 14410, 1.32, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000025997, 25997, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000025997, 0, 14411, 55.16, 1, 1, 'Energized Heavy Water'),
+	(1000025997, 0, 14410, 17.72, 1, 1, 'Biomimetic Mud'),
+	(1000025997, 0, 14409, 9.84, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000025998, 25998, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000025998, 0, 14411, 49.64, 1, 1, 'Energized Heavy Water'),
+	(1000025998, 0, 14410, 16.56, 1, 1, 'Biomimetic Mud'),
+	(1000025998, 0, 14409, 11.04, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000025999, 25999, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000025999, 0, 14411, 30.76, 1, 1, 'Energized Heavy Water'),
+	(1000025999, 0, 14410, 14.6, 1, 1, 'Biomimetic Mud'),
+	(1000025999, 0, 14409, 6.32, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026000, 26000, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026000, 0, 14411, 60, 1, 1, 'Energized Heavy Water'),
+	(1000026000, 0, 14410, 32.24, 1, 1, 'Biomimetic Mud'),
+	(1000026000, 0, 14409, 9.48, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026001, 26001, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026001, 0, 14411, 45.24, 1, 1, 'Energized Heavy Water'),
+	(1000026001, 0, 14410, 21.72, 1, 1, 'Biomimetic Mud'),
+	(1000026001, 0, 14409, 7.24, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026002, 26002, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026002, 0, 14411, 41.6, 1, 1, 'Energized Heavy Water'),
+	(1000026002, 0, 14410, 15.84, 1, 1, 'Biomimetic Mud'),
+	(1000026002, 0, 14409, 7.92, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026006, 26006, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026006, 0, 14411, 60, 1, 1, 'Energized Heavy Water'),
+	(1000026006, 0, 14410, 39.16, 1, 1, 'Biomimetic Mud'),
+	(1000026006, 0, 14409, 18.92, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026020, 26020, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026020, 0, 14411, 60, 1, 1, 'Energized Heavy Water'),
+	(1000026020, 0, 14410, 31.92, 1, 1, 'Biomimetic Mud'),
+	(1000026020, 0, 14409, 8.4, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026036, 26036, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026036, 0, 14411, 57, 1, 1, 'Energized Heavy Water'),
+	(1000026036, 0, 14410, 21.76, 1, 1, 'Biomimetic Mud'),
+	(1000026036, 0, 14409, 3.12, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026038, 26038, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026038, 0, 14411, 48.72, 1, 1, 'Energized Heavy Water'),
+	(1000026038, 0, 14410, 29.76, 1, 1, 'Biomimetic Mud'),
+	(1000026038, 0, 14409, 3.16, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026039, 26039, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026039, 0, 14411, 40.36, 1, 1, 'Energized Heavy Water'),
+	(1000026039, 0, 14410, 13.96, 1, 1, 'Biomimetic Mud'),
+	(1000026039, 0, 14409, 6.96, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026040, 26040, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026040, 0, 14411, 49.72, 1, 1, 'Energized Heavy Water'),
+	(1000026040, 0, 14410, 18.72, 1, 1, 'Biomimetic Mud'),
+	(1000026040, 0, 14409, 2.16, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026041, 26041, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026041, 0, 14411, 56.88, 1, 1, 'Energized Heavy Water'),
+	(1000026041, 0, 14410, 18.16, 1, 1, 'Biomimetic Mud'),
+	(1000026041, 0, 14409, 6.04, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026042, 26042, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026042, 0, 14411, 60, 1, 1, 'Energized Heavy Water'),
+	(1000026042, 0, 14410, 52.44, 1, 1, 'Biomimetic Mud'),
+	(1000026042, 0, 14409, 13.12, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026086, 26086, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026086, 0, 14411, 60, 1, 1, 'Energized Heavy Water'),
+	(1000026086, 0, 14410, 24.48, 1, 1, 'Biomimetic Mud'),
+	(1000026086, 0, 14409, 10.88, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026088, 26088, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026088, 0, 14411, 41.36, 1, 1, 'Energized Heavy Water'),
+	(1000026088, 0, 14410, 17.96, 1, 1, 'Biomimetic Mud'),
+	(1000026088, 0, 14409, 10.8, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026091, 26091, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026091, 0, 14411, 44.44, 1, 1, 'Energized Heavy Water'),
+	(1000026091, 0, 14410, 25.4, 1, 1, 'Biomimetic Mud'),
+	(1000026091, 0, 14409, 6.36, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026095, 26095, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026095, 0, 14411, 60, 1, 1, 'Energized Heavy Water'),
+	(1000026095, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000026095, 0, 14409, 9.64, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026097, 26097, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026097, 0, 14411, 60, 1, 1, 'Energized Heavy Water'),
+	(1000026097, 0, 14410, 26.4, 1, 1, 'Biomimetic Mud'),
+	(1000026097, 0, 14409, 12.52, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026104, 26104, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026104, 0, 14411, 50, 1, 1, 'Energized Heavy Water'),
+	(1000026104, 0, 14410, 23.32, 1, 1, 'Biomimetic Mud'),
+	(1000026104, 0, 14409, 3.32, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026122, 26122, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026122, 0, 14411, 60, 1, 1, 'Energized Heavy Water'),
+	(1000026122, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000026122, 0, 14409, 23.52, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026126, 26126, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026126, 0, 14411, 60, 1, 1, 'Energized Heavy Water'),
+	(1000026126, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000026126, 0, 14409, 34.8, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026340, 26340, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026340, 0, 14411, 60, 1, 1, 'Energized Heavy Water'),
+	(1000026340, 0, 14410, 22.96, 1, 1, 'Biomimetic Mud'),
+	(1000026340, 0, 14409, 7.64, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026471, 26471, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026471, 0, 14411, 60, 1, 1, 'Energized Heavy Water'),
+	(1000026471, 0, 14410, 60, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000026860, 26860, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000026860, 0, 14411, 48, 1, 1, 'Energized Heavy Water'),
+	(1000026860, 0, 14410, 32, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000027217, 27217, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000027217, 0, 14409, 57.8, 1, 1, 'Survival Supply Stash'),
+	(1000027217, 0, 14410, 29, 1, 1, 'Biomimetic Mud'),
+	(1000027217, 0, 14411, 7.84, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000028562, 28562, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000028562, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000028562, 0, 14410, 11.28, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000028564, 28564, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000028564, 0, 14409, 52.4, 1, 1, 'Survival Supply Stash'),
+	(1000028564, 0, 14411, 16.56, 1, 1, 'Energized Heavy Water'),
+	(1000028564, 0, 14410, 2.76, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000037372, 37372, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000037372, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000037372, 0, 14410, 60, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000037421, 37421, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000037421, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000037421, 0, 14410, 60, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000037423, 37423, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000037423, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000037423, 0, 14410, 60, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000037428, 37428, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000037428, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000037428, 0, 14410, 60, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000037430, 37430, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000037430, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000037430, 0, 14410, 60, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000037431, 37431, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000037431, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000037431, 0, 14410, 60, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000037433, 37433, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000037433, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000037433, 0, 14410, 60, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000037545, 37545, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000037545, 0, 14409, 60, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000037667, 37667, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000037667, 0, 14409, 60, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000040797, 40797, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000040797, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000040797, 0, 14409, 33.68, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000046098, 46098, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000046098, 0, 14410, 31.84, 1, 1, 'Biomimetic Mud'),
+	(1000046098, 0, 14409, 22.28, 1, 1, 'Survival Supply Stash'),
+	(1000046098, 0, 14411, 2.12, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000054033, 54033, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000054033, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000054033, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000054033, 0, 14411, 21.32, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000054791, 54791, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000054791, 0, 14411, 48.72, 1, 1, 'Energized Heavy Water'),
+	(1000054791, 0, 14410, 29.76, 1, 1, 'Biomimetic Mud'),
+	(1000054791, 0, 14409, 3.16, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061851, 61851, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061851, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000061851, 0, 14410, 22.52, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061852, 61852, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061852, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000061852, 0, 14410, 41.24, 1, 1, 'Biomimetic Mud'),
+	(1000061852, 0, 14411, 4.12, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061853, 61853, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061853, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000061853, 0, 14410, 19.04, 1, 1, 'Biomimetic Mud'),
+	(1000061853, 0, 14411, 9.52, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061854, 61854, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061854, 0, 14409, 60, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061858, 61858, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061858, 0, 14409, 55, 1, 1, 'Survival Supply Stash'),
+	(1000061858, 0, 14410, 22.2, 1, 1, 'Biomimetic Mud'),
+	(1000061858, 0, 14411, 4.96, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061859, 61859, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061859, 0, 14409, 34.8, 1, 1, 'Survival Supply Stash'),
+	(1000061859, 0, 14410, 11.08, 1, 1, 'Biomimetic Mud'),
+	(1000061859, 0, 14411, 3.16, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061861, 61861, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061861, 0, 14409, 39.04, 1, 1, 'Survival Supply Stash'),
+	(1000061861, 0, 14410, 27.44, 1, 1, 'Biomimetic Mud'),
+	(1000061861, 0, 14411, 11.6, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061862, 61862, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061862, 0, 14409, 9.32, 1, 1, 'Survival Supply Stash'),
+	(1000061862, 0, 14410, 3.72, 1, 1, 'Biomimetic Mud'),
+	(1000061862, 0, 14411, 1.88, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061867, 61867, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061867, 0, 14409, 32.08, 1, 1, 'Survival Supply Stash'),
+	(1000061867, 0, 14410, 11.2, 1, 1, 'Biomimetic Mud'),
+	(1000061867, 0, 14411, 3.04, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061868, 61868, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061868, 0, 14409, 18.4, 1, 1, 'Survival Supply Stash'),
+	(1000061868, 0, 14410, 2.28, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061869, 61869, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061869, 0, 14409, 35.08, 1, 1, 'Survival Supply Stash'),
+	(1000061869, 0, 14410, 24.56, 1, 1, 'Biomimetic Mud'),
+	(1000061869, 0, 14411, 3.52, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061870, 61870, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061870, 0, 14410, 39.36, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061871, 61871, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061871, 0, 14409, 4.64, 1, 1, 'Survival Supply Stash'),
+	(1000061871, 0, 14410, 4.64, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061873, 61873, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061873, 0, 14409, 14.72, 1, 1, 'Survival Supply Stash'),
+	(1000061873, 0, 14410, 5.88, 1, 1, 'Biomimetic Mud'),
+	(1000061873, 0, 14411, 2.96, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061877, 61877, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061877, 0, 14411, 52.08, 1, 1, 'Energized Heavy Water'),
+	(1000061877, 0, 14410, 26.8, 1, 1, 'Biomimetic Mud'),
+	(1000061877, 0, 14409, 4.12, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061878, 61878, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061878, 0, 14411, 24.6, 1, 1, 'Energized Heavy Water'),
+	(1000061878, 0, 14410, 7.68, 1, 1, 'Biomimetic Mud'),
+	(1000061878, 0, 14409, 1.52, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061882, 61882, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061882, 0, 14411, 60, 1, 1, 'Energized Heavy Water'),
+	(1000061882, 0, 14410, 48, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061885, 61885, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061885, 0, 14410, 29.64, 1, 1, 'Biomimetic Mud'),
+	(1000061885, 0, 14411, 29.64, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061893, 61893, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061893, 0, 14410, 39.64, 1, 1, 'Biomimetic Mud'),
+	(1000061893, 0, 14409, 23.44, 1, 1, 'Survival Supply Stash'),
+	(1000061893, 0, 14411, 3.6, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061894, 61894, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061894, 0, 14410, 34.8, 1, 1, 'Biomimetic Mud'),
+	(1000061894, 0, 14409, 18.92, 1, 1, 'Survival Supply Stash'),
+	(1000061894, 0, 14411, 1.24, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061902, 61902, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061902, 0, 14410, 16.08, 1, 1, 'Biomimetic Mud'),
+	(1000061902, 0, 14409, 8.04, 1, 1, 'Survival Supply Stash'),
+	(1000061902, 0, 14411, 1.16, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061909, 61909, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061909, 0, 14409, 9.52, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061912, 61912, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061912, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000061912, 0, 14409, 60, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061914, 61914, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061914, 0, 14409, 60, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061915, 61915, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061915, 0, 14411, 54.44, 1, 1, 'Energized Heavy Water'),
+	(1000061915, 0, 14410, 21.12, 1, 1, 'Biomimetic Mud'),
+	(1000061915, 0, 14409, 7.76, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061916, 61916, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061916, 0, 14411, 60, 1, 1, 'Energized Heavy Water'),
+	(1000061916, 0, 14410, 14.96, 1, 1, 'Biomimetic Mud'),
+	(1000061916, 0, 14409, 4.28, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061920, 61920, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061920, 0, 14410, 44.12, 1, 1, 'Biomimetic Mud'),
+	(1000061920, 0, 14409, 20.6, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061934, 61934, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061934, 0, 14411, 12.68, 1, 1, 'Energized Heavy Water'),
+	(1000061934, 0, 14410, 12.68, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061939, 61939, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061939, 0, 14411, 60, 1, 1, 'Energized Heavy Water'),
+	(1000061939, 0, 14410, 28.8, 1, 1, 'Biomimetic Mud'),
+	(1000061939, 0, 14409, 2.48, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061942, 61942, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061942, 0, 14410, 6.76, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061947, 61947, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061947, 0, 14411, 55.16, 1, 1, 'Energized Heavy Water'),
+	(1000061947, 0, 14410, 17.72, 1, 1, 'Biomimetic Mud'),
+	(1000061947, 0, 14409, 9.84, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061948, 61948, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061948, 0, 14409, 19.04, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061954, 61954, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061954, 0, 14409, 60, 1, 1, 'Survival Supply Stash'),
+	(1000061954, 0, 14410, 25.92, 1, 1, 'Biomimetic Mud');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061955, 61955, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061955, 0, 14409, 59.12, 1, 1, 'Survival Supply Stash'),
+	(1000061955, 0, 14410, 31.32, 1, 1, 'Biomimetic Mud'),
+	(1000061955, 0, 14411, 13.92, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061962, 61962, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061962, 0, 14409, 11.76, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061968, 61968, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061968, 0, 14410, 60, 1, 1, 'Biomimetic Mud'),
+	(1000061968, 0, 14409, 27.72, 1, 1, 'Survival Supply Stash'),
+	(1000061968, 0, 14411, 6.28, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061971, 61971, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061971, 0, 14410, 53.28, 1, 1, 'Biomimetic Mud'),
+	(1000061971, 0, 14409, 25.08, 1, 1, 'Survival Supply Stash'),
+	(1000061971, 0, 14411, 3.12, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061979, 61979, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061979, 0, 14411, 56.16, 1, 1, 'Energized Heavy Water'),
+	(1000061979, 0, 14410, 28.08, 1, 1, 'Biomimetic Mud'),
+	(1000061979, 0, 14409, 7, 1, 1, 'Survival Supply Stash');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000061984, 61984, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000061984, 0, 14409, 40, 1, 1, 'Survival Supply Stash'),
+	(1000061984, 0, 14410, 16.68, 1, 1, 'Biomimetic Mud'),
+	(1000061984, 0, 14411, 6.68, 1, 1, 'Energized Heavy Water');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000062000, 62000, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000062000, 0, 14409, 60, 1, 1, 'Survival Supply Stash');

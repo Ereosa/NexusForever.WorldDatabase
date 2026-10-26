@@ -4,7 +4,8 @@
 -- Probabilities are the observed drop chance for each item, rolled independently.
 -- --------------------------------------
 DELETE FROM `entity_loot` WHERE `id` IN (11071, 11907, 11925, 11945, 11948, 11950, 11951, 11953, 12212, 12213, 12518, 12525, 12526, 12844, 13116, 13118, 13549, 15728, 49040, 51126);
-DELETE FROM `loot_item` WHERE `id` IN (11071, 11907, 11925, 11945, 11948, 11950, 11951, 11953, 12212, 12213, 12518, 12525, 12526, 12844, 13116, 13118, 13549, 15728, 49040, 51126);
+DELETE FROM `loot_item` WHERE `id` IN (11071, 11907, 11925, 11945, 11948, 11950, 11951, 11953, 12212, 12213, 12518, 12525, 12526, 12844, 13116, 13118, 13549, 15728, 49040, 51126, 1000011907, 1000011945, 1000011950, 1000011953, 1000012212, 1000012525, 1000013118, 1000013549, 1000051126);
+DELETE FROM `loot_group` WHERE `id` IN (1000011907, 1000011945, 1000011950, 1000011953, 1000012212, 1000012525, 1000013118, 1000013549, 1000051126);
 DELETE FROM `loot_group` WHERE `id` IN (11071, 11907, 11925, 11945, 11948, 11950, 11951, 11953, 12212, 12213, 12518, 12525, 12526, 12844, 13116, 13118, 13549, 15728, 49040, 51126);
 
 -- Dagun Scavenger (22 kills recorded, dagun-scavenger-1)
@@ -22,7 +23,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (11907, 11907, 'Skeech Diviner');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(11907, 0, 8195, 76.83, 1, 1, 'Small Skeech Fetish'),
-	(11907, 0, 14400, 6.71, 1, 1, 'Salvaged Machine Parts'),
 	(11907, 0, 50806, 5.49, 1, 1, 'Cache of Corroded Coins'),
 	(11907, 0, 50813, 2.44, 1, 1, 'Warrior''s Magnitronic Manacles'),
 	(11907, 0, 50780, 1.83, 1, 1, 'Engineer''s Dynagroove Wave Field'),
@@ -58,7 +58,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (11945, 11945, 'Yeti Snowstalker');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(11945, 0, 7301, 52.58, 1, 1, 'Tattered Yeti Hide'),
-	(11945, 0, 14400, 13.5, 1, 1, 'Salvaged Machine Parts'),
 	(11945, 0, 14838, 8.61, 1, 1, 'Basic Medishot: Instant Healing'),
 	(11945, 0, 20791, 8.37, 1, 1, 'Protostar Space Rations'),
 	(11945, 0, 12044, 2.9, 1, 1, 'Small Pouch'),
@@ -160,7 +159,6 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(11950, 0, 14516, 18.42, 1, 1, 'Canvas Cloth'),
 	(11950, 0, 51011, 7.89, 1, 1, 'Vandal''s Xenowave Absorber'),
 	(11950, 0, 50807, 7.89, 1, 1, 'Sack of Scratched Silver'),
-	(11950, 0, 14400, 5.26, 1, 1, 'Salvaged Machine Parts'),
 	(11950, 0, 50806, 2.63, 1, 1, 'Cache of Corroded Coins'),
 	(11950, 0, 50872, 2.63, 1, 1, 'Stalker''s Exanweave Augment');
 
@@ -225,8 +223,7 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(11953, 0, 50806, 7.89, 1, 1, 'Cache of Corroded Coins'),
 	(11953, 0, 50807, 2.63, 1, 1, 'Sack of Scratched Silver'),
 	(11953, 0, 50892, 2.63, 1, 1, 'Hooligan''s Polyweave Kinetic Field'),
-	(11953, 0, 50846, 2.63, 1, 1, 'Warrior''s Dynafiber Metavest'),
-	(11953, 0, 14400, 2.63, 1, 1, 'Salvaged Machine Parts');
+	(11953, 0, 50846, 2.63, 1, 1, 'Warrior''s Dynafiber Metavest');
 
 -- Rootbrute Grimspore (298 kills recorded, rootbrute-grimspore-1)
 INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (12212, NULL, 100, 0, 0, 0, 0, 'Rootbrute Grimspore');
@@ -234,7 +231,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (12212, 12212,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(12212, 0, 8144, 62.75, 1, 1, 'Dried-Up Seeds'),
 	(12212, 0, 50806, 14.09, 1, 1, 'Cache of Corroded Coins'),
-	(12212, 0, 14400, 8.72, 1, 1, 'Salvaged Machine Parts'),
 	(12212, 0, 50830, 1.34, 1, 1, 'Stalker''s Polymesh Foot Guards'),
 	(12212, 0, 14427, 1.34, 1, 1, 'Yellowbell Seeds'),
 	(12212, 0, 50842, 1.01, 1, 1, 'Esper''s Dynamesh Footwraps'),
@@ -287,7 +283,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (12525, 12525, 'Dominion Blasterbot');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(12525, 0, 7438, 53.16, 1, 1, 'Damaged Wiring'),
-	(12525, 0, 14400, 13.16, 1, 1, 'Salvaged Machine Parts'),
 	(12525, 0, 50806, 11.05, 1, 1, 'Cache of Corroded Coins'),
 	(12525, 0, 50807, 8.95, 1, 1, 'Sack of Scratched Silver'),
 	(12525, 0, 50859, 2.11, 1, 1, 'Engineer''s Crestfallen Mortar'),
@@ -415,7 +410,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (13118, 13118,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(13118, 0, 8144, 62.75, 1, 1, 'Dried-Up Seeds'),
 	(13118, 0, 50806, 14.09, 1, 1, 'Cache of Corroded Coins'),
-	(13118, 0, 14400, 8.72, 1, 1, 'Salvaged Machine Parts'),
 	(13118, 0, 50830, 1.34, 1, 1, 'Stalker''s Polymesh Foot Guards'),
 	(13118, 0, 14427, 1.34, 1, 1, 'Yellowbell Seeds'),
 	(13118, 0, 50842, 1.01, 1, 1, 'Esper''s Dynamesh Footwraps'),
@@ -446,7 +440,6 @@ INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (13549, 13549,
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(13549, 0, 8144, 62.75, 1, 1, 'Dried-Up Seeds'),
 	(13549, 0, 50806, 14.09, 1, 1, 'Cache of Corroded Coins'),
-	(13549, 0, 14400, 8.72, 1, 1, 'Salvaged Machine Parts'),
 	(13549, 0, 50830, 1.34, 1, 1, 'Stalker''s Polymesh Foot Guards'),
 	(13549, 0, 14427, 1.34, 1, 1, 'Yellowbell Seeds'),
 	(13549, 0, 50842, 1.01, 1, 1, 'Esper''s Dynamesh Footwraps'),
@@ -493,7 +486,6 @@ INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount
 INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (51126, 51126, 'Yeti Snowstalker');
 INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
 	(51126, 0, 7301, 52.58, 1, 1, 'Tattered Yeti Hide'),
-	(51126, 0, 14400, 13.5, 1, 1, 'Salvaged Machine Parts'),
 	(51126, 0, 14838, 8.61, 1, 1, 'Basic Medishot: Instant Healing'),
 	(51126, 0, 20791, 8.37, 1, 1, 'Protostar Space Rations'),
 	(51126, 0, 12044, 2.9, 1, 1, 'Small Pouch'),
@@ -548,3 +540,31 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(51126, 0, 50783, 0.02, 1, 1, 'Medic''s Manatrace Flexipants'),
 	(51126, 0, 50801, 0.02, 1, 1, 'Esper''s Megapolymer Knickers');
 
+-- Settler resources only drop for settlers, rates are the observed rates scaled by the number of paths.
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000011907, 11907, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000011907, 0, 14400, 26.84, 1, 1, 'Salvaged Machine Parts');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000011945, 11945, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000011945, 0, 14400, 54, 1, 1, 'Salvaged Machine Parts');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000011950, 11950, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000011950, 0, 14400, 21.04, 1, 1, 'Salvaged Machine Parts');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000011953, 11953, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000011953, 0, 14400, 10.52, 1, 1, 'Salvaged Machine Parts');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000012212, 12212, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000012212, 0, 14400, 34.88, 1, 1, 'Salvaged Machine Parts');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000012525, 12525, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000012525, 0, 14400, 52.64, 1, 1, 'Salvaged Machine Parts');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000013118, 13118, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000013118, 0, 14400, 34.88, 1, 1, 'Salvaged Machine Parts');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000013549, 13549, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000013549, 0, 14400, 34.88, 1, 1, 'Salvaged Machine Parts');
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (1000051126, 51126, 100, 0, 0, 9, 1, 'Settler resources');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(1000051126, 0, 14400, 54, 1, 1, 'Salvaged Machine Parts');

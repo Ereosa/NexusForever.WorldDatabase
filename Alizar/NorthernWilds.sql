@@ -5529,6 +5529,29 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 0, 1),
     (@GUID+1, 10, 3);
 
+-- Salvaged Machine Parts settler resource nodes, missing from the capture. Placed next to creature spawns inside the settler hub resource
+-- regions (PathSettlerHub map resource locations) or hub zones, the retail positions are unknown.
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    (@GUID+1, 8, 25492, @WORLD, 651, 4098.57, -737.701, -5448.58, 0, 0, 0, 25954, 0, 219, 219, 0),
+    (@GUID+2, 8, 25492, @WORLD, 646, 4030.79, -727.292, -5433.8, 0, 0, 0, 25954, 0, 219, 219, 1),
+    (@GUID+3, 8, 25492, @WORLD, 646, 3982.29, -714.803, -5370.24, 0, 0, 0, 25954, 0, 219, 219, 2),
+    (@GUID+4, 8, 25492, @WORLD, 651, 4019.04, -727.896, -5517.68, 0, 0, 0, 25954, 0, 219, 219, 3),
+    (@GUID+5, 8, 25492, @WORLD, 645, 4004.02, -708.849, -5334.21, 0, 0, 0, 25954, 0, 219, 219, 4),
+    (@GUID+6, 8, 25492, @WORLD, 646, 3948.82, -711.021, -5414.25, 0, 0, 0, 25954, 0, 219, 219, 5),
+    (@GUID+7, 8, 25492, @WORLD, 604, 4703.71, -733.553, -5654.31, 0, 0, 0, 25954, 0, 219, 219, 6),
+    (@GUID+8, 8, 25492, @WORLD, 604, 4680.4, -730.158, -5709.67, 0, 0, 0, 25954, 0, 219, 219, 7),
+    (@GUID+9, 8, 25492, @WORLD, 604, 4611.68, -721.278, -5645.45, 0, 0, 0, 25954, 0, 219, 219, 8),
+    (@GUID+10, 8, 25492, @WORLD, 597, 4576.31, -729.124, -5630.91, 0, 0, 0, 25954, 0, 219, 219, 9),
+    (@GUID+11, 8, 25492, @WORLD, 604, 4713.04, -735.441, -5683.96, 0, 0, 0, 25954, 0, 219, 219, 10),
+    (@GUID+12, 8, 25492, @WORLD, 604, 4661.65, -729.107, -5673.37, 0, 0, 0, 25954, 0, 219, 219, 11),
+    (@GUID+13, 8, 25492, @WORLD, 597, 4572.56, -741.479, -5470.56, 0, 0, 0, 25954, 0, 219, 219, 12),
+    (@GUID+14, 8, 25492, @WORLD, 597, 4481.83, -742.721, -5439.25, 0, 0, 0, 25954, 0, 219, 219, 13),
+    (@GUID+15, 8, 25492, @WORLD, 949, 4440.96, -743.744, -5550.74, 0, 0, 0, 25954, 0, 219, 219, 14),
+    (@GUID+16, 8, 25492, @WORLD, 597, 4601.1, -731.048, -5542.7, 0, 0, 0, 25954, 0, 219, 219, 15),
+    (@GUID+17, 8, 25492, @WORLD, 597, 4610.34, -735.138, -5496.22, 0, 0, 0, 25954, 0, 219, 219, 16),
+    (@GUID+18, 8, 25492, @WORLD, 597, 4598.1, -739.915, -5451.11, 0, 0, 0, 25954, 0, 219, 219, 17);
+
 -- Calm Before the Storm (3670) turn in: Deadeye Brightland at Settler's Reach (WorldLocation2 29526, the quest's receiver location), missing from the capture.
 -- He is only visible once Contact with Thayd (3673) is achieved or completed (prerequisite 3300).
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);

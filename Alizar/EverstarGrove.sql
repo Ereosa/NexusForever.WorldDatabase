@@ -9742,6 +9742,29 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 21, 0),
     (@GUID+1, 22, 0);
 
+-- Salvaged Machine Parts settler resource nodes, missing from the capture. Placed next to creature spawns inside the settler hub resource
+-- regions (PathSettlerHub map resource locations) or hub zones, the retail positions are unknown.
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    (@GUID+1, 8, 25492, @WORLD, 1415, -427.707, -957.494, -2527.68, 0, 0, 0, 25954, 0, 219, 219, 0),
+    (@GUID+2, 8, 25492, @WORLD, 1415, -589.825, -980.14, -2637.07, 0, 0, 0, 25954, 0, 219, 219, 1),
+    (@GUID+3, 8, 25492, @WORLD, 1415, -381.907, -948.924, -2537.27, 0, 0, 0, 25954, 0, 219, 219, 2),
+    (@GUID+4, 8, 25492, @WORLD, 1415, -542.271, -995.565, -2751.37, 0, 0, 0, 25954, 0, 219, 219, 3),
+    (@GUID+5, 8, 25492, @WORLD, 1415, -472.75, -931.362, -3046.02, 0, 0, 0, 25954, 0, 219, 219, 4),
+    (@GUID+6, 8, 25492, @WORLD, 1415, -319.011, -954.307, -2920.47, 0, 0, 0, 25954, 0, 219, 219, 5),
+    (@GUID+7, 8, 25492, @WORLD, 1416, -298.737, -911.55, -3258.76, 0, 0, 0, 25954, 0, 219, 219, 6),
+    (@GUID+8, 8, 25492, @WORLD, 1416, -509.067, -942.368, -3564.99, 0, 0, 0, 25954, 0, 219, 219, 7),
+    (@GUID+9, 8, 25492, @WORLD, 1416, -99.425, -915.438, -3400.87, 0, 0, 0, 25954, 0, 219, 219, 8),
+    (@GUID+10, 8, 25492, @WORLD, 1416, -460.194, -936.654, -3468.66, 0, 0, 0, 25954, 0, 219, 219, 9),
+    (@GUID+11, 8, 25492, @WORLD, 1416, -550.561, -906.169, -3295.87, 0, 0, 0, 25954, 0, 219, 219, 10),
+    (@GUID+12, 8, 25492, @WORLD, 1416, -228.299, -911.59, -3123.95, 0, 0, 0, 25954, 0, 219, 219, 11),
+    (@GUID+13, 8, 25492, @WORLD, 1419, 167.207, -928.91, -3463.38, 0, 0, 0, 25954, 0, 219, 219, 12),
+    (@GUID+14, 8, 25492, @WORLD, 1419, 470.643, -948.969, -3542.43, 0, 0, 0, 25954, 0, 219, 219, 13),
+    (@GUID+15, 8, 25492, @WORLD, 1419, 235.82, -939.257, -3466.69, 0, 0, 0, 25954, 0, 219, 219, 14),
+    (@GUID+16, 8, 25492, @WORLD, 1419, 271.26, -945.491, -3502.29, 0, 0, 0, 25954, 0, 219, 219, 15),
+    (@GUID+17, 8, 25492, @WORLD, 1419, 431.395, -947.001, -3393.04, 0, 0, 0, 25954, 0, 219, 219, 16),
+    (@GUID+18, 8, 25492, @WORLD, 1419, -141.347, -922.987, -3511.11, 0, 0, 0, 25954, 0, 219, 219, 17);
+
 -- --------------------------------------
 -- Quest givers, receivers and objective targets missing from the capture (generated from the client data:
 -- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
