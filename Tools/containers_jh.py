@@ -112,7 +112,7 @@ def build(items, unmatched, rules, contains_file):
             picks, note = 0, 'every listed item each time'
         else:
             # GUESS: Jabbithole counts items rather than containers opened; bundles (kits, supply drops, materials) get 3, others 1
-            bundle = re.search(r'assortment|assorted|several|some ', t) or re.search(r'kit|supply|supplies|materials|crate|cache|pack', c['name'].lower())
+            bundle = re.search(r'assortment|assorted|several|some ', t) or re.search(r'kit|supply|supplies|materials|crate|cache|pack\b', c['name'].lower())
             picks = 3 if bundle else 1
             note = '%d weighted pick%s (guess)' % (picks, '' if picks == 1 else 's')
 

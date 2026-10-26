@@ -1,0 +1,542 @@
+Id=1 LocalizedTextId=190431"Armor - Light - Chest" ItemSlotId=1
+Id=2 LocalizedTextId=190432"Armor - Light - Legs" ItemSlotId=2
+Id=3 LocalizedTextId=190433"Armor - Light - Head" ItemSlotId=3
+Id=4 LocalizedTextId=190434"Armor - Light - Shoulder" ItemSlotId=4
+Id=5 LocalizedTextId=190435"Armor - Light - Feet" ItemSlotId=5
+Id=6 LocalizedTextId=190436"Armor - Light - Hands" ItemSlotId=6
+Id=7 LocalizedTextId=190437"" ItemSlotId=8
+Id=8 LocalizedTextId=190438"Armor - Medium - Chest" ItemSlotId=1
+Id=9 LocalizedTextId=190439"Armor - Medium - Legs" ItemSlotId=2
+Id=10 LocalizedTextId=190440"Armor - Medium - Head" ItemSlotId=3
+Id=11 LocalizedTextId=190441"Armor - Medium - Shoulder" ItemSlotId=4
+Id=12 LocalizedTextId=190442"Armor - Medium - Feet" ItemSlotId=5
+Id=13 LocalizedTextId=190443"Armor - Medium - Hands" ItemSlotId=6
+Id=14 LocalizedTextId=190444"" ItemSlotId=8
+Id=15 LocalizedTextId=190445"Armor - Heavy - Chest" ItemSlotId=1
+Id=16 LocalizedTextId=190446"Armor - Heavy - Legs" ItemSlotId=2
+Id=17 LocalizedTextId=190449"Armor - Heavy - Head" ItemSlotId=3
+Id=18 LocalizedTextId=190450"Armor - Heavy - Shoulder" ItemSlotId=4
+Id=19 LocalizedTextId=190451"Armor - Heavy - Feet" ItemSlotId=5
+Id=20 LocalizedTextId=190452"Armor - Heavy - Hands" ItemSlotId=6
+Id=21 LocalizedTextId=190453"" ItemSlotId=8
+Id=22 LocalizedTextId=190454"Armor - Battle - Chest" ItemSlotId=1
+Id=23 LocalizedTextId=190455"Armor - Battle - Legs" ItemSlotId=2
+Id=24 LocalizedTextId=190456"Armor - Battle - Head" ItemSlotId=3
+Id=25 LocalizedTextId=190457"Armor - Battle - Shoulder" ItemSlotId=4
+Id=26 LocalizedTextId=190458"Armor - Battle - Feet" ItemSlotId=5
+Id=27 LocalizedTextId=190459"Armor - Battle - Hands" ItemSlotId=6
+Id=28 LocalizedTextId=190460"" ItemSlotId=8
+Id=29 LocalizedTextId=239245"Ring" ItemSlotId=0
+Id=30 LocalizedTextId=0 ItemSlotId=13
+Id=31 LocalizedTextId=239246"Neck" ItemSlotId=14
+Id=32 LocalizedTextId=239247"Trinket" ItemSlotId=15
+Id=33 LocalizedTextId=0 ItemSlotId=1
+Id=34 LocalizedTextId=0 ItemSlotId=2
+Id=35 LocalizedTextId=0 ItemSlotId=3
+Id=36 LocalizedTextId=0 ItemSlotId=4
+Id=37 LocalizedTextId=0 ItemSlotId=5
+Id=38 LocalizedTextId=0 ItemSlotId=6
+Id=39 LocalizedTextId=0 ItemSlotId=8
+Id=40 LocalizedTextId=0 ItemSlotId=0
+Id=41 LocalizedTextId=0 ItemSlotId=13
+Id=42 LocalizedTextId=0 ItemSlotId=14
+Id=43 LocalizedTextId=0 ItemSlotId=15
+Id=44 LocalizedTextId=0 ItemSlotId=20
+Id=45 LocalizedTextId=239234"Pistols" ItemSlotId=20
+Id=46 LocalizedTextId=239235"Psyblade" ItemSlotId=20
+Id=47 LocalizedTextId=232900"Crook" ItemSlotId=20
+Id=48 LocalizedTextId=239236"Claws" ItemSlotId=20
+Id=49 LocalizedTextId=239237"Plasma Rifle" ItemSlotId=20
+Id=50 LocalizedTextId=0 ItemSlotId=20
+Id=51 LocalizedTextId=239238"Greatsword" ItemSlotId=20
+Id=52 LocalizedTextId=0 ItemSlotId=20
+Id=53 LocalizedTextId=190463"Energy Shield" ItemSlotId=43
+Id=54 LocalizedTextId=0 ItemSlotId=43
+Id=55 LocalizedTextId=0 ItemSlotId=43
+Id=56 LocalizedTextId=0 ItemSlotId=43
+Id=57 LocalizedTextId=0 ItemSlotId=43
+Id=58 LocalizedTextId=0 ItemSlotId=43
+Id=59 LocalizedTextId=0 ItemSlotId=43
+Id=60 LocalizedTextId=0 ItemSlotId=43
+Id=61 LocalizedTextId=0 ItemSlotId=43
+Id=62 LocalizedTextId=0 ItemSlotId=24
+Id=63 LocalizedTextId=0 ItemSlotId=25
+Id=64 LocalizedTextId=0 ItemSlotId=26
+Id=65 LocalizedTextId=0 ItemSlotId=27
+Id=66 LocalizedTextId=0 ItemSlotId=28
+Id=67 LocalizedTextId=0 ItemSlotId=29
+Id=68 LocalizedTextId=0 ItemSlotId=30
+Id=69 LocalizedTextId=0 ItemSlotId=31
+Id=70 LocalizedTextId=0 ItemSlotId=0
+Id=71 LocalizedTextId=0 ItemSlotId=39
+Id=72 LocalizedTextId=0 ItemSlotId=0
+Id=73 LocalizedTextId=0 ItemSlotId=0
+Id=74 LocalizedTextId=239239"Food" ItemSlotId=0
+Id=75 LocalizedTextId=239240"Potion" ItemSlotId=0
+Id=76 LocalizedTextId=0 ItemSlotId=0
+Id=77 LocalizedTextId=0 ItemSlotId=0
+Id=78 LocalizedTextId=0 ItemSlotId=20
+Id=79 LocalizedTextId=239241"Resonators" ItemSlotId=20
+Id=86 LocalizedTextId=0 ItemSlotId=0
+Id=87 LocalizedTextId=0 ItemSlotId=0
+Id=88 LocalizedTextId=0 ItemSlotId=43
+Id=89 LocalizedTextId=0 ItemSlotId=0
+Id=90 LocalizedTextId=239242"Bandage" ItemSlotId=0
+Id=92 LocalizedTextId=0 ItemSlotId=0
+Id=93 LocalizedTextId=0 ItemSlotId=20
+Id=94 LocalizedTextId=0 ItemSlotId=20
+Id=95 LocalizedTextId=0 ItemSlotId=0
+Id=96 LocalizedTextId=0 ItemSlotId=0
+Id=97 LocalizedTextId=0 ItemSlotId=0
+Id=98 LocalizedTextId=0 ItemSlotId=0
+Id=99 LocalizedTextId=0 ItemSlotId=0
+Id=100 LocalizedTextId=0 ItemSlotId=0
+Id=101 LocalizedTextId=0 ItemSlotId=0
+Id=102 LocalizedTextId=0 ItemSlotId=0
+Id=103 LocalizedTextId=0 ItemSlotId=0
+Id=104 LocalizedTextId=0 ItemSlotId=0
+Id=105 LocalizedTextId=0 ItemSlotId=0
+Id=106 LocalizedTextId=0 ItemSlotId=0
+Id=107 LocalizedTextId=0 ItemSlotId=0
+Id=108 LocalizedTextId=0 ItemSlotId=0
+Id=109 LocalizedTextId=0 ItemSlotId=0
+Id=110 LocalizedTextId=0 ItemSlotId=0
+Id=111 LocalizedTextId=0 ItemSlotId=0
+Id=112 LocalizedTextId=0 ItemSlotId=0
+Id=113 LocalizedTextId=0 ItemSlotId=0
+Id=114 LocalizedTextId=0 ItemSlotId=0
+Id=115 LocalizedTextId=0 ItemSlotId=0
+Id=116 LocalizedTextId=0 ItemSlotId=0
+Id=117 LocalizedTextId=0 ItemSlotId=0
+Id=118 LocalizedTextId=0 ItemSlotId=0
+Id=119 LocalizedTextId=0 ItemSlotId=0
+Id=120 LocalizedTextId=0 ItemSlotId=0
+Id=121 LocalizedTextId=0 ItemSlotId=0
+Id=122 LocalizedTextId=0 ItemSlotId=0
+Id=123 LocalizedTextId=0 ItemSlotId=0
+Id=124 LocalizedTextId=0 ItemSlotId=0
+Id=125 LocalizedTextId=0 ItemSlotId=0
+Id=126 LocalizedTextId=0 ItemSlotId=0
+Id=127 LocalizedTextId=0 ItemSlotId=0
+Id=128 LocalizedTextId=0 ItemSlotId=0
+Id=129 LocalizedTextId=0 ItemSlotId=0
+Id=130 LocalizedTextId=0 ItemSlotId=0
+Id=131 LocalizedTextId=0 ItemSlotId=0
+Id=132 LocalizedTextId=0 ItemSlotId=0
+Id=133 LocalizedTextId=0 ItemSlotId=0
+Id=134 LocalizedTextId=239243"Bag" ItemSlotId=47
+Id=135 LocalizedTextId=0 ItemSlotId=0
+Id=136 LocalizedTextId=650931"Companion Pet" ItemSlotId=0
+Id=137 LocalizedTextId=0 ItemSlotId=0
+Id=138 LocalizedTextId=0 ItemSlotId=0
+Id=139 LocalizedTextId=239244"Elixir" ItemSlotId=0
+Id=140 LocalizedTextId=0 ItemSlotId=0
+Id=141 LocalizedTextId=0 ItemSlotId=0
+Id=142 LocalizedTextId=0 ItemSlotId=0
+Id=143 LocalizedTextId=731942"Consumable" ItemSlotId=0
+Id=144 LocalizedTextId=0 ItemSlotId=0
+Id=145 LocalizedTextId=0 ItemSlotId=0
+Id=146 LocalizedTextId=0 ItemSlotId=0
+Id=147 LocalizedTextId=0 ItemSlotId=0
+Id=148 LocalizedTextId=0 ItemSlotId=0
+Id=149 LocalizedTextId=0 ItemSlotId=0
+Id=150 LocalizedTextId=0 ItemSlotId=0
+Id=151 LocalizedTextId=499391"Tradeskill Reagent" ItemSlotId=0
+Id=152 LocalizedTextId=0 ItemSlotId=0
+Id=153 LocalizedTextId=0 ItemSlotId=0
+Id=154 LocalizedTextId=0 ItemSlotId=0
+Id=155 LocalizedTextId=302786"Decor" ItemSlotId=0
+Id=156 LocalizedTextId=302784"" ItemSlotId=0
+Id=157 LocalizedTextId=302787"" ItemSlotId=0
+Id=158 LocalizedTextId=302788"" ItemSlotId=0
+Id=159 LocalizedTextId=302785"" ItemSlotId=0
+Id=160 LocalizedTextId=302782"" ItemSlotId=0
+Id=161 LocalizedTextId=302783"" ItemSlotId=0
+Id=162 LocalizedTextId=302781"" ItemSlotId=0
+Id=163 LocalizedTextId=302778"" ItemSlotId=0
+Id=164 LocalizedTextId=302789"Improvement" ItemSlotId=0
+Id=165 LocalizedTextId=0 ItemSlotId=0
+Id=166 LocalizedTextId=0 ItemSlotId=0
+Id=167 LocalizedTextId=0 ItemSlotId=0
+Id=168 LocalizedTextId=0 ItemSlotId=0
+Id=169 LocalizedTextId=0 ItemSlotId=0
+Id=170 LocalizedTextId=0 ItemSlotId=0
+Id=171 LocalizedTextId=0 ItemSlotId=0
+Id=172 LocalizedTextId=0 ItemSlotId=0
+Id=173 LocalizedTextId=0 ItemSlotId=0
+Id=174 LocalizedTextId=731943"Quest Consumable" ItemSlotId=0
+Id=175 LocalizedTextId=0 ItemSlotId=0
+Id=176 LocalizedTextId=0 ItemSlotId=0
+Id=177 LocalizedTextId=0 ItemSlotId=0
+Id=178 LocalizedTextId=0 ItemSlotId=0
+Id=179 LocalizedTextId=0 ItemSlotId=0
+Id=180 LocalizedTextId=0 ItemSlotId=0
+Id=181 LocalizedTextId=0 ItemSlotId=0
+Id=182 LocalizedTextId=0 ItemSlotId=0
+Id=183 LocalizedTextId=687443"Ground Mounts" ItemSlotId=0
+Id=184 LocalizedTextId=190464"Costume - Chest" ItemSlotId=1
+Id=185 LocalizedTextId=190465"Costume - Legs" ItemSlotId=2
+Id=186 LocalizedTextId=190466"Costume - Head" ItemSlotId=3
+Id=187 LocalizedTextId=190467"Costume - Shoulder" ItemSlotId=4
+Id=188 LocalizedTextId=190468"Costume - Feet" ItemSlotId=5
+Id=189 LocalizedTextId=190469"Costume - Hands" ItemSlotId=6
+Id=190 LocalizedTextId=190470"" ItemSlotId=8
+Id=191 LocalizedTextId=0 ItemSlotId=13
+Id=192 LocalizedTextId=190471"Costume - Weapon" ItemSlotId=20
+Id=193 LocalizedTextId=0 ItemSlotId=0
+Id=195 LocalizedTextId=0 ItemSlotId=0
+Id=196 LocalizedTextId=0 ItemSlotId=0
+Id=197 LocalizedTextId=190472"Ore" ItemSlotId=0
+Id=198 LocalizedTextId=190473"Herb" ItemSlotId=0
+Id=199 LocalizedTextId=190474"Scrap - Weapon Parts" ItemSlotId=0
+Id=200 LocalizedTextId=197061"Treasure" ItemSlotId=0
+Id=201 LocalizedTextId=197979"Tool - Mining" ItemSlotId=7
+Id=202 LocalizedTextId=198468"Omni-Plasm" ItemSlotId=0
+Id=204 LocalizedTextId=271157"Heavy Gun" ItemSlotId=20
+Id=205 LocalizedTextId=208355"Locked Stat" ItemSlotId=0
+Id=206 LocalizedTextId=208357"Power Core" ItemSlotId=0
+Id=207 LocalizedTextId=209171"Leather" ItemSlotId=0
+Id=208 LocalizedTextId=209181"Meat" ItemSlotId=0
+Id=209 LocalizedTextId=210827"Settler Resource" ItemSlotId=0
+Id=210 LocalizedTextId=212187"Settler Resource" ItemSlotId=0
+Id=211 LocalizedTextId=216476"Fiber" ItemSlotId=0
+Id=212 LocalizedTextId=221257"Salvageable Container" ItemSlotId=0
+Id=213 LocalizedTextId=222758"Seeds" ItemSlotId=0
+Id=214 LocalizedTextId=225831"Transformer" ItemSlotId=0
+Id=215 LocalizedTextId=225833"Gadget" ItemSlotId=46
+Id=217 LocalizedTextId=225844"Augment" ItemSlotId=15
+Id=218 LocalizedTextId=236891"Tool - Fishing " ItemSlotId=7
+Id=219 LocalizedTextId=239307"Wood" ItemSlotId=0
+Id=220 LocalizedTextId=249264"Mushroom" ItemSlotId=0
+Id=221 LocalizedTextId=249392"Produce" ItemSlotId=0
+Id=222 LocalizedTextId=250593"Beak - Junk" ItemSlotId=0
+Id=223 LocalizedTextId=250722"Blood - Junk" ItemSlotId=0
+Id=224 LocalizedTextId=250721"Bone - Junk" ItemSlotId=0
+Id=225 LocalizedTextId=250724"Claw - Junk" ItemSlotId=0
+Id=226 LocalizedTextId=250725"Cloth Scraps - Junk" ItemSlotId=0
+Id=227 LocalizedTextId=250726"Essence - Junk" ItemSlotId=0
+Id=228 LocalizedTextId=250727"Eyeball - Junk" ItemSlotId=0
+Id=229 LocalizedTextId=250728"Feather - Junk" ItemSlotId=0
+Id=230 LocalizedTextId=250729"Fin - Junk" ItemSlotId=0
+Id=231 LocalizedTextId=250730"Fur - Junk" ItemSlotId=0
+Id=232 LocalizedTextId=250731"Gland - Junk" ItemSlotId=0
+Id=233 LocalizedTextId=250732"Heart - Junk" ItemSlotId=0
+Id=234 LocalizedTextId=250733"Insignia - Junk" ItemSlotId=0
+Id=235 LocalizedTextId=250734"Intestines - Junk" ItemSlotId=0
+Id=236 LocalizedTextId=250735"Knick-Knacks - Junk" ItemSlotId=0
+Id=237 LocalizedTextId=250736"Metal Scraps - Junk" ItemSlotId=0
+Id=238 LocalizedTextId=250737"Oil - Junk" ItemSlotId=0
+Id=239 LocalizedTextId=250738"Papers - Junk" ItemSlotId=0
+Id=240 LocalizedTextId=250739"Pincher - Junk" ItemSlotId=0
+Id=241 LocalizedTextId=250740"Powercell - Junk" ItemSlotId=0
+Id=242 LocalizedTextId=250741"Rock - Junk" ItemSlotId=0
+Id=243 LocalizedTextId=250742"Scale - Junk" ItemSlotId=0
+Id=244 LocalizedTextId=250743"Skull - Junk" ItemSlotId=0
+Id=245 LocalizedTextId=250744"Slime - Junk" ItemSlotId=0
+Id=246 LocalizedTextId=250745"Spores - Junk" ItemSlotId=0
+Id=247 LocalizedTextId=250746"Supplies - Junk" ItemSlotId=0
+Id=248 LocalizedTextId=250747"Talon - Junk" ItemSlotId=0
+Id=249 LocalizedTextId=250748"Tooth - Junk" ItemSlotId=0
+Id=250 LocalizedTextId=250749"Totem - Junk" ItemSlotId=0
+Id=251 LocalizedTextId=250750"Tusk - Junk" ItemSlotId=0
+Id=252 LocalizedTextId=250751"Venom - Junk" ItemSlotId=0
+Id=253 LocalizedTextId=250752"Water - Junk" ItemSlotId=0
+Id=254 LocalizedTextId=250761"Tailor Pattern" ItemSlotId=0
+Id=255 LocalizedTextId=250762"Outfitter Guide" ItemSlotId=0
+Id=256 LocalizedTextId=250763"Armorer Design" ItemSlotId=0
+Id=257 LocalizedTextId=250764"Weaponsmith Schematic" ItemSlotId=0
+Id=258 LocalizedTextId=250765"Technologist Formula" ItemSlotId=0
+Id=259 LocalizedTextId=250766"Cook Recipe" ItemSlotId=0
+Id=260 LocalizedTextId=250767"Architect Blueprint" ItemSlotId=0
+Id=261 LocalizedTextId=250793"dep" ItemSlotId=47
+Id=262 LocalizedTextId=250799"Small Bag" ItemSlotId=47
+Id=263 LocalizedTextId=250800"Medium Bag" ItemSlotId=47
+Id=264 LocalizedTextId=250801"Large Bag" ItemSlotId=47
+Id=265 LocalizedTextId=250819"Small Fish" ItemSlotId=0
+Id=266 LocalizedTextId=250820"Fish" ItemSlotId=0
+Id=267 LocalizedTextId=250821"Large Fish" ItemSlotId=0
+Id=268 LocalizedTextId=250822"Bug Meat" ItemSlotId=0
+Id=269 LocalizedTextId=250823"Poultry" ItemSlotId=0
+Id=270 LocalizedTextId=250852"Gem" ItemSlotId=0
+Id=271 LocalizedTextId=250853"Crystal" ItemSlotId=0
+Id=272 LocalizedTextId=251347"Tool - Survivalist" ItemSlotId=7
+Id=273 LocalizedTextId=251349"Tool - Relic Hunter" ItemSlotId=7
+Id=274 LocalizedTextId=253590"Pelt" ItemSlotId=0
+Id=275 LocalizedTextId=253592"Bone" ItemSlotId=0
+Id=276 LocalizedTextId=0 ItemSlotId=52
+Id=277 LocalizedTextId=0 ItemSlotId=53
+Id=278 LocalizedTextId=0 ItemSlotId=54
+Id=279 LocalizedTextId=0 ItemSlotId=55
+Id=280 LocalizedTextId=0 ItemSlotId=56
+Id=281 LocalizedTextId=261713"Cooking - Ingredient" ItemSlotId=0
+Id=282 LocalizedTextId=281870"Architect - Hardware" ItemSlotId=0
+Id=283 LocalizedTextId=324778"Junk" ItemSlotId=0
+Id=284 LocalizedTextId=0 ItemSlotId=0
+Id=285 LocalizedTextId=345388"Meat Meal" ItemSlotId=0
+Id=286 LocalizedTextId=345389"Poultry Meal" ItemSlotId=0
+Id=287 LocalizedTextId=345390"Bug Meat Meal" ItemSlotId=0
+Id=288 LocalizedTextId=345391"Vegetarian Option" ItemSlotId=0
+Id=289 LocalizedTextId=345392"Seafood" ItemSlotId=0
+Id=290 LocalizedTextId=345393"Algoroc Eats" ItemSlotId=0
+Id=291 LocalizedTextId=345395"Deradune Victuals" ItemSlotId=0
+Id=292 LocalizedTextId=345396"Celestion Comestibles" ItemSlotId=0
+Id=293 LocalizedTextId=345397"Ellevar Edibles" ItemSlotId=0
+Id=294 LocalizedTextId=345398"Galeras Grub" ItemSlotId=0
+Id=295 LocalizedTextId=345399"Auroria Chow" ItemSlotId=0
+Id=296 LocalizedTextId=345400"Whitevale Vittles" ItemSlotId=0
+Id=297 LocalizedTextId=346549"Bread" ItemSlotId=0
+Id=298 LocalizedTextId=363862"Weapon Attachment" ItemSlotId=57
+Id=299 LocalizedTextId=363865"Support System" ItemSlotId=58
+Id=300 LocalizedTextId=363867"Key" ItemSlotId=59
+Id=301 LocalizedTextId=363868"Implant" ItemSlotId=60
+Id=302 LocalizedTextId=366517"Lodestone" ItemSlotId=0
+Id=303 LocalizedTextId=369292"Polymer" ItemSlotId=0
+Id=304 LocalizedTextId=369312"Synthetic Polymer" ItemSlotId=0
+Id=305 LocalizedTextId=369313"Organic Polymer" ItemSlotId=0
+Id=306 LocalizedTextId=369693"Emberine Acceleron" ItemSlotId=0
+Id=307 LocalizedTextId=369694"Corium Acceleron" ItemSlotId=0
+Id=308 LocalizedTextId=369696"Cyclonite Acceleron" ItemSlotId=0
+Id=309 LocalizedTextId=369697"Marinax Acceleron" ItemSlotId=0
+Id=310 LocalizedTextId=373138"Dreadmoor Dishes" ItemSlotId=0
+Id=311 LocalizedTextId=373143"Coralus Cuisine" ItemSlotId=0
+Id=312 LocalizedTextId=373144"Farside Foods" ItemSlotId=0
+Id=313 LocalizedTextId=373146"Wilderrun Provisions" ItemSlotId=0
+Id=314 LocalizedTextId=373147"Murkmire Menu" ItemSlotId=0
+Id=315 LocalizedTextId=373148"Halon Ring Entrees" ItemSlotId=0
+Id=316 LocalizedTextId=373149"Malgrave Sustenance" ItemSlotId=0
+Id=317 LocalizedTextId=373150"Grimvault Meals" ItemSlotId=0
+Id=318 LocalizedTextId=407271"Additive - Technologist" ItemSlotId=0
+Id=319 LocalizedTextId=414871"Locked Special" ItemSlotId=0
+Id=320 LocalizedTextId=414888"Architect Catalyst" ItemSlotId=0
+Id=321 LocalizedTextId=414889"Technologist Catalyst" ItemSlotId=0
+Id=322 LocalizedTextId=414890"Cooking Catalyst" ItemSlotId=0
+Id=324 LocalizedTextId=415405"Mining - No Commodity" ItemSlotId=0
+Id=325 LocalizedTextId=415697"Meat - No Commodity" ItemSlotId=0
+Id=326 LocalizedTextId=415698"Farming - No Commodity" ItemSlotId=0
+Id=327 LocalizedTextId=415700"Relics - No Commodity" ItemSlotId=0
+Id=328 LocalizedTextId=415760"Medishot" ItemSlotId=0
+Id=329 LocalizedTextId=415784"Boost" ItemSlotId=0
+Id=330 LocalizedTextId=415817"Cloth - No Commodity" ItemSlotId=0
+Id=331 LocalizedTextId=415873"Modification - No Commodity" ItemSlotId=0
+Id=332 LocalizedTextId=461124"Dye" ItemSlotId=0
+Id=333 LocalizedTextId=450364"Glyph Design" ItemSlotId=0
+Id=334 LocalizedTextId=450369"Test Rune" ItemSlotId=0
+Id=335 LocalizedTextId=450370"Set Glyph" ItemSlotId=0
+Id=336 LocalizedTextId=454322"Elder Meals" ItemSlotId=0
+Id=337 LocalizedTextId=454323"Hybrid Meals" ItemSlotId=0
+Id=338 LocalizedTextId=454324"Datascape Meals" ItemSlotId=0
+Id=339 LocalizedTextId=455042"Sign of Fire" ItemSlotId=0
+Id=340 LocalizedTextId=455043"Sign of Water" ItemSlotId=0
+Id=341 LocalizedTextId=455044"Sign of Earth" ItemSlotId=0
+Id=342 LocalizedTextId=455045"Sign of Air" ItemSlotId=0
+Id=343 LocalizedTextId=455046"Sign of Life" ItemSlotId=0
+Id=344 LocalizedTextId=455048"Sign of Logic" ItemSlotId=0
+Id=345 LocalizedTextId=455049"Sign of Fusion" ItemSlotId=0
+Id=346 LocalizedTextId=0 ItemSlotId=64
+Id=347 LocalizedTextId=457245"Special Diet" ItemSlotId=0
+Id=348 LocalizedTextId=458711"Claws" ItemSlotId=20
+Id=349 LocalizedTextId=461123"Dye Collection" ItemSlotId=0
+Id=352 LocalizedTextId=494097"Fire Rune - Basic" ItemSlotId=0
+Id=353 LocalizedTextId=494098"Water Rune - Basic" ItemSlotId=0
+Id=354 LocalizedTextId=494099"Earth Rune - Basic" ItemSlotId=0
+Id=355 LocalizedTextId=494101"Air Rune - Basic" ItemSlotId=0
+Id=356 LocalizedTextId=494102"Life Rune - Basic" ItemSlotId=0
+Id=357 LocalizedTextId=494103"Logic Rune - Basic" ItemSlotId=0
+Id=358 LocalizedTextId=494116"Fusion Rune - Basic" ItemSlotId=0
+Id=359 LocalizedTextId=495926"DEPRECATE" ItemSlotId=0
+Id=361 LocalizedTextId=497640"Field Tech" ItemSlotId=0
+Id=362 LocalizedTextId=498472"Red Capacitor" ItemSlotId=0
+Id=363 LocalizedTextId=498473"Blue Resonator" ItemSlotId=0
+Id=364 LocalizedTextId=498474"Green Inductor" ItemSlotId=0
+Id=365 LocalizedTextId=499389"Gadget Reagent" ItemSlotId=0
+Id=366 LocalizedTextId=508798"Warplot Improvement" ItemSlotId=0
+Id=367 LocalizedTextId=515220"Hoverboard Mounts" ItemSlotId=65
+Id=368 LocalizedTextId=515225"Hoverboard Mount Flair - Front" ItemSlotId=66
+Id=369 LocalizedTextId=515227"Hoverboard Mount Flair - Rear" ItemSlotId=67
+Id=370 LocalizedTextId=515229"Hoverboard Mount Flair - Side" ItemSlotId=68
+Id=371 LocalizedTextId=515230"" ItemSlotId=69
+Id=372 LocalizedTextId=687446"Ground Mount Flair - Front" ItemSlotId=66
+Id=373 LocalizedTextId=687447"Ground Mount Flair - Rear" ItemSlotId=67
+Id=374 LocalizedTextId=687448"Ground Mount Flair - Side" ItemSlotId=68
+Id=375 LocalizedTextId=687454"Ground Mount Flair - Side" ItemSlotId=69
+Id=376 LocalizedTextId=0 ItemSlotId=66
+Id=377 LocalizedTextId=546400"Eldan Artifact" ItemSlotId=0
+Id=378 LocalizedTextId=551040"Master Schematic" ItemSlotId=0
+Id=379 LocalizedTextId=552007"Warplot Deployable Weapon" ItemSlotId=0
+Id=380 LocalizedTextId=552008"Warplot Deployable Trap" ItemSlotId=0
+Id=381 LocalizedTextId=557841"DEPRECATE" ItemSlotId=0
+Id=382 LocalizedTextId=559415"Smart Cloth" ItemSlotId=0
+Id=383 LocalizedTextId=559416"Glamer Cloth" ItemSlotId=0
+Id=384 LocalizedTextId=559520"Neurocite Ingot" ItemSlotId=0
+Id=385 LocalizedTextId=559521"Vitalium Ingot" ItemSlotId=0
+Id=386 LocalizedTextId=559523"Tech Leather" ItemSlotId=0
+Id=387 LocalizedTextId=559524"Sacred Leather" ItemSlotId=0
+Id=388 LocalizedTextId=565948"Mount Customization" ItemSlotId=0
+Id=389 LocalizedTextId=566731"Meal - No Commodity" ItemSlotId=0
+Id=390 LocalizedTextId=568675"Power Core" ItemSlotId=0
+Id=391 LocalizedTextId=568770"Tincture" ItemSlotId=0
+Id=392 LocalizedTextId=573263"Imbuement Material" ItemSlotId=0
+Id=393 LocalizedTextId=573264"Security Key Material" ItemSlotId=0
+Id=394 LocalizedTextId=573490"Warrior AMP" ItemSlotId=0
+Id=395 LocalizedTextId=573491"Engineer AMP" ItemSlotId=0
+Id=396 LocalizedTextId=573492"Medic AMP" ItemSlotId=0
+Id=397 LocalizedTextId=573495"Stalker AMP" ItemSlotId=0
+Id=398 LocalizedTextId=573496"Esper AMP" ItemSlotId=0
+Id=399 LocalizedTextId=573497"Spellslinger AMP" ItemSlotId=0
+Id=400 LocalizedTextId=575486"Carcass - Beast" ItemSlotId=0
+Id=401 LocalizedTextId=575487"Carcass - Bird" ItemSlotId=0
+Id=402 LocalizedTextId=575488"Carcass - Bug" ItemSlotId=0
+Id=403 LocalizedTextId=575489"Carcass - Fish" ItemSlotId=0
+Id=404 LocalizedTextId=577514"Steam Rune" ItemSlotId=0
+Id=405 LocalizedTextId=577515"Magma Rune" ItemSlotId=0
+Id=406 LocalizedTextId=577516"Smoke Rune" ItemSlotId=0
+Id=407 LocalizedTextId=577517"Phoenix Rune" ItemSlotId=0
+Id=408 LocalizedTextId=577518"Plasma Rune" ItemSlotId=0
+Id=409 LocalizedTextId=577519"Clay Rune" ItemSlotId=0
+Id=410 LocalizedTextId=577520"Mist Rune" ItemSlotId=0
+Id=411 LocalizedTextId=577521"Blood Rune" ItemSlotId=0
+Id=412 LocalizedTextId=577523"Ice Rune" ItemSlotId=0
+Id=413 LocalizedTextId=577524"Sand Rune" ItemSlotId=0
+Id=414 LocalizedTextId=577525"Floral Rune" ItemSlotId=0
+Id=415 LocalizedTextId=577526"Metal Rune" ItemSlotId=0
+Id=416 LocalizedTextId=577527"Zephyr Rune" ItemSlotId=0
+Id=417 LocalizedTextId=577528"Lightning Rune" ItemSlotId=0
+Id=418 LocalizedTextId=577529"Genetic Rune" ItemSlotId=0
+Id=419 LocalizedTextId=577530"Fire Rune - Set" ItemSlotId=0
+Id=420 LocalizedTextId=577535"Water Rune - Set" ItemSlotId=0
+Id=421 LocalizedTextId=577536"Earth Rune - Set" ItemSlotId=0
+Id=422 LocalizedTextId=577537"Air Rune - Set" ItemSlotId=0
+Id=423 LocalizedTextId=577538"Life Rune - Set" ItemSlotId=0
+Id=424 LocalizedTextId=577539"Logic Rune - Set" ItemSlotId=0
+Id=425 LocalizedTextId=577540"Fusion Rune - Set" ItemSlotId=0
+Id=426 LocalizedTextId=577541"Steam Rune" ItemSlotId=0
+Id=427 LocalizedTextId=577542"Magma Rune" ItemSlotId=0
+Id=428 LocalizedTextId=577543"Smoke Rune" ItemSlotId=0
+Id=429 LocalizedTextId=577544"Phoenix Rune" ItemSlotId=0
+Id=430 LocalizedTextId=577545"Plasma Rune" ItemSlotId=0
+Id=431 LocalizedTextId=577546"Clay Rune" ItemSlotId=0
+Id=432 LocalizedTextId=0 ItemSlotId=70
+Id=433 LocalizedTextId=579599"Mist Rune" ItemSlotId=0
+Id=434 LocalizedTextId=579600"Blood Rune" ItemSlotId=0
+Id=435 LocalizedTextId=579601"Ice Rune" ItemSlotId=0
+Id=436 LocalizedTextId=579602"Sand Rune" ItemSlotId=0
+Id=437 LocalizedTextId=579603"Floral Rune" ItemSlotId=0
+Id=438 LocalizedTextId=579604"Metal Rune" ItemSlotId=0
+Id=439 LocalizedTextId=579605"Zephyr Rune" ItemSlotId=0
+Id=440 LocalizedTextId=580576"Lightning Rune" ItemSlotId=0
+Id=441 LocalizedTextId=580577"Genetic Rune" ItemSlotId=0
+Id=442 LocalizedTextId=580578"" ItemSlotId=0
+Id=443 LocalizedTextId=580579"" ItemSlotId=0
+Id=444 LocalizedTextId=580580"" ItemSlotId=0
+Id=445 LocalizedTextId=580581"" ItemSlotId=0
+Id=446 LocalizedTextId=580582"" ItemSlotId=0
+Id=447 LocalizedTextId=585415"PvP Loot Chest" ItemSlotId=0
+Id=448 LocalizedTextId=585829"Tradeskill Loot Bag" ItemSlotId=0
+Id=449 LocalizedTextId=585830"Loot Bag" ItemSlotId=0
+Id=450 LocalizedTextId=585831"Dye Loot Bag" ItemSlotId=0
+Id=451 LocalizedTextId=585832"Housing Decor Loot Chest" ItemSlotId=0
+Id=452 LocalizedTextId=597120"Blighthaven Bites" ItemSlotId=0
+Id=453 LocalizedTextId=629710"Cloth Salvageables" ItemSlotId=0
+Id=454 LocalizedTextId=617018"The Defile Delicacies" ItemSlotId=0
+Id=455 LocalizedTextId=618305"Nexus Nourishments" ItemSlotId=0
+Id=456 LocalizedTextId=620128"Star-Comm Snacks" ItemSlotId=0
+Id=457 LocalizedTextId=622355"Ultimate Protogames Beverages" ItemSlotId=0
+Id=458 LocalizedTextId=623790"Carnageknit Cloth" ItemSlotId=0
+Id=459 LocalizedTextId=623792"Phagesilk Cloth" ItemSlotId=0
+Id=460 LocalizedTextId=623795"Eldanweave Cloth" ItemSlotId=0
+Id=461 LocalizedTextId=626683"Skeech Soup" ItemSlotId=0
+Id=462 LocalizedTextId=634141"Unlocks and Upgrades" ItemSlotId=0
+Id=463 LocalizedTextId=632760"" ItemSlotId=0
+Id=465 LocalizedTextId=636119"Elemental Material" ItemSlotId=0
+Id=466 LocalizedTextId=639215"Novelty Weapons" ItemSlotId=0
+Id=467 LocalizedTextId=659244"Token - Heavy Armor - Head" ItemSlotId=0
+Id=468 LocalizedTextId=659245"Token - Heavy Armor - Shoulder" ItemSlotId=0
+Id=469 LocalizedTextId=659246"Token - Heavy Armor - Chest" ItemSlotId=0
+Id=470 LocalizedTextId=659247"Token - Heavy Armor - Legs" ItemSlotId=0
+Id=471 LocalizedTextId=659248"Token - Heavy Armor - Hands" ItemSlotId=0
+Id=472 LocalizedTextId=659249"Token - Heavy Armor - Feet" ItemSlotId=0
+Id=473 LocalizedTextId=659250"Token - Weapon - Greatsword" ItemSlotId=0
+Id=474 LocalizedTextId=659251"Token - Weapon - Heavy Gun" ItemSlotId=0
+Id=475 LocalizedTextId=659252"Token - Weapon - Paddles" ItemSlotId=0
+Id=476 LocalizedTextId=659253"Token - Weapon - Claws" ItemSlotId=0
+Id=477 LocalizedTextId=659254"Token - Weapon - Pistols" ItemSlotId=0
+Id=478 LocalizedTextId=659255"Token - Weapon - Psyblade" ItemSlotId=0
+Id=479 LocalizedTextId=659256"Token - Accessory - Module" ItemSlotId=0
+Id=480 LocalizedTextId=659257"Token - Accessory - Shield" ItemSlotId=0
+Id=481 LocalizedTextId=659258"Token - Accessory - Implant" ItemSlotId=0
+Id=482 LocalizedTextId=672388"???" ItemSlotId=59
+Id=483 LocalizedTextId=672553"Token - Medium Armor - Head" ItemSlotId=0
+Id=484 LocalizedTextId=672554"Token - Medium Armor - Shoulder" ItemSlotId=0
+Id=485 LocalizedTextId=672555"Token - Medium Armor - Chest" ItemSlotId=0
+Id=486 LocalizedTextId=672556"Token - Medium Armor - Legs" ItemSlotId=0
+Id=487 LocalizedTextId=672557"Token - Medium Armor - Hands" ItemSlotId=0
+Id=488 LocalizedTextId=672558"Token - Medium Armor - Feet" ItemSlotId=0
+Id=489 LocalizedTextId=672559"Token - Light Armor - Head" ItemSlotId=0
+Id=490 LocalizedTextId=672560"Token - Light Armor - Shoulder" ItemSlotId=0
+Id=491 LocalizedTextId=672561"Token - Light Armor - Chest" ItemSlotId=0
+Id=492 LocalizedTextId=672562"Token - Light Armor - Legs" ItemSlotId=0
+Id=493 LocalizedTextId=672563"Token - Light Armor - Hands" ItemSlotId=0
+Id=494 LocalizedTextId=672564"Token - Light Armor - Feet" ItemSlotId=0
+Id=495 LocalizedTextId=0 ItemSlotId=0
+Id=496 LocalizedTextId=676886"Toy" ItemSlotId=0
+Id=497 LocalizedTextId=0 ItemSlotId=71
+Id=499 LocalizedTextId=0 ItemSlotId=0
+Id=500 LocalizedTextId=686056"Account Currency" ItemSlotId=0
+Id=501 LocalizedTextId=691472"" ItemSlotId=0
+Id=502 LocalizedTextId=691474"" ItemSlotId=0
+Id=503 LocalizedTextId=691475"" ItemSlotId=0
+Id=504 LocalizedTextId=691476"" ItemSlotId=0
+Id=505 LocalizedTextId=691477"" ItemSlotId=0
+Id=506 LocalizedTextId=691478"" ItemSlotId=0
+Id=507 LocalizedTextId=691479"" ItemSlotId=0
+Id=508 LocalizedTextId=691480"" ItemSlotId=0
+Id=509 LocalizedTextId=691481"" ItemSlotId=0
+Id=510 LocalizedTextId=691482"" ItemSlotId=0
+Id=511 LocalizedTextId=691483"" ItemSlotId=0
+Id=512 LocalizedTextId=691485"" ItemSlotId=0
+Id=513 LocalizedTextId=691486"" ItemSlotId=0
+Id=514 LocalizedTextId=691487"Elemental Sign" ItemSlotId=0
+Id=515 LocalizedTextId=696436"Rune Fragment" ItemSlotId=0
+Id=516 LocalizedTextId=696634"Set Focus" ItemSlotId=0
+Id=517 LocalizedTextId=700692"Specialization Core" ItemSlotId=0
+Id=518 LocalizedTextId=705583"Token" ItemSlotId=0
+Id=519 LocalizedTextId=706827"Weave" ItemSlotId=0
+Id=520 LocalizedTextId=706828"Cloth" ItemSlotId=0
+Id=521 LocalizedTextId=706853"Wiring" ItemSlotId=0
+Id=522 LocalizedTextId=706854"Framework" ItemSlotId=0
+Id=523 LocalizedTextId=706855"Composite" ItemSlotId=0
+Id=524 LocalizedTextId=706857"Thread" ItemSlotId=0
+Id=525 LocalizedTextId=706862"Matrix" ItemSlotId=0
+Id=526 LocalizedTextId=706993"Failed Craft" ItemSlotId=0
+Id=527 LocalizedTextId=712170"Power Core" ItemSlotId=0
+Id=528 LocalizedTextId=720343"Catalyst" ItemSlotId=0
+Id=529 LocalizedTextId=720575"Focuser" ItemSlotId=0
+Id=530 LocalizedTextId=721173"Rune Token" ItemSlotId=0
+Id=531 LocalizedTextId=721787"Deprecated Rune" ItemSlotId=0
+Id=532 LocalizedTextId=721789"Deprecated Sign" ItemSlotId=0
+Id=533 LocalizedTextId=725333"Data Fragment" ItemSlotId=0
+Id=534 LocalizedTextId=728242"Vendor Exchange Material" ItemSlotId=0
+Id=535 LocalizedTextId=729068"Deprecated High Powered Rune" ItemSlotId=0
+Id=536 LocalizedTextId=729198"Dye" ItemSlotId=0
+Id=537 LocalizedTextId=730542"PvP Imbuement Material" ItemSlotId=0
+Id=538 LocalizedTextId=732627"Tool - Multi" ItemSlotId=7
+Id=539 LocalizedTextId=733506"Deprecated Schematic" ItemSlotId=0
+Id=540 LocalizedTextId=737993"Transducer" ItemSlotId=0
+Id=541 LocalizedTextId=738748"Token" ItemSlotId=0
+Id=542 LocalizedTextId=746455"Token" ItemSlotId=0
+Id=547 LocalizedTextId=750212"Costume - Greatsword" ItemSlotId=20
+Id=548 LocalizedTextId=750213"Costume - Heavy Gun" ItemSlotId=20
+Id=549 LocalizedTextId=750214"Costume - Resonators" ItemSlotId=20
+Id=550 LocalizedTextId=750215"Costume - Claws" ItemSlotId=20
+Id=551 LocalizedTextId=750216"Costume - Pistols" ItemSlotId=20
+Id=552 LocalizedTextId=750217"Costume - Psyblades" ItemSlotId=20
+Id=553 LocalizedTextId=754747"Sky" ItemSlotId=0
+Id=554 LocalizedTextId=754779"Toy" ItemSlotId=0
+Id=555 LocalizedTextId=756844"Retired Food" ItemSlotId=0
+Id=556 LocalizedTextId=757535"Music" ItemSlotId=0
+Id=558 LocalizedTextId=759263"Imbuement Comsumable" ItemSlotId=0
+Id=559 LocalizedTextId=759912"PvE Imbuement Material" ItemSlotId=0
+Id=560 LocalizedTextId=763242"Consumable" ItemSlotId=0
+Id=562 LocalizedTextId=763366"Lockbox" ItemSlotId=0
+Id=563 LocalizedTextId=763552"Coffer" ItemSlotId=0
+Id=564 LocalizedTextId=766839"Token" ItemSlotId=0

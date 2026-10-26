@@ -1,0 +1,6243 @@
+{
+"Kraggar the Earth Render": {
+"zones": "Algoroc",
+"level": [
+11,
+11
+],
+"drops": [
+{
+"item": 47686,
+"name": "Chipped Gronyx Ore Miscellaneous Junk n/a 1 10 7.49% (14/187",
+"chance": 7.49,
+"hits": 14,
+"kills": 187
+},
+{
+"item": 54717,
+"name": "Abettor's Ultrathread Ringmail Armor Heavy Armor Chest 11 11",
+"chance": 4.28,
+"hits": 8,
+"kills": 187
+},
+{
+"item": 29609,
+"name": "Rune Fragment Crafting Crafting Supplies n/a 10 10 4.28% (8/",
+"chance": 4.28,
+"hits": 8,
+"kills": 187
+},
+{
+"item": 54826,
+"name": "Picaroon's Galactithread Pantaloons Armor Light Armor Legs 1",
+"chance": 3.21,
+"hits": 6,
+"kills": 187
+},
+{
+"item": 54862,
+"name": "Forecaster's Supertronic Slacks Armor Light Armor Legs 11 11",
+"chance": 2.67,
+"hits": 5,
+"kills": 187
+},
+{
+"item": 50808,
+"name": "Pouch of Pirated Pieces Miscellaneous Junk n/a 1 1 2.67% (5/",
+"chance": 2.67,
+"hits": 5,
+"kills": 187
+},
+{
+"item": 29588,
+"name": "Sign of Earth Crafting Runecrafting n/a 15 15 2.14% (4/187)",
+"chance": 2.14,
+"hits": 4,
+"kills": 187
+},
+{
+"item": 54860,
+"name": "Exceptional Picaroon's Conditioned Repeaters Weapon Weapon -",
+"chance": 1.6,
+"hits": 3,
+"kills": 187
+},
+{
+"item": 54825,
+"name": "Picaroon's Galactithread Suit Armor Light Armor Chest 11 11 ",
+"chance": 1.6,
+"hits": 3,
+"kills": 187
+},
+{
+"item": 29604,
+"name": "Sign of Air Crafting Runecrafting n/a 15 15 1.6% (3/187)",
+"chance": 1.6,
+"hits": 3,
+"kills": 187
+},
+{
+"item": 54828,
+"name": "Picaroon's Galactithread Hands Armor Light Armor Hands 11 11",
+"chance": 1.6,
+"hits": 3,
+"kills": 187
+},
+{
+"item": 54866,
+"name": "Forecaster's Supertronic Motion Tracker Gear ItemCategory-7 ",
+"chance": 1.6,
+"hits": 3,
+"kills": 187
+},
+{
+"item": 36218,
+"name": "Formula: Reactive Armor Boost Schematic ItemCategory-66 n/a ",
+"chance": 1.6,
+"hits": 3,
+"kills": 187
+},
+{
+"item": 54761,
+"name": "Iconoclast's Unwieldy Force Plates Weapon Weapon - Paddles P",
+"chance": 1.6,
+"hits": 3,
+"kills": 187
+},
+{
+"item": 54791,
+"name": "Ambuscader's Biotronic Footwraps Armor Medium Armor Feet 11 ",
+"chance": 1.6,
+"hits": 3,
+"kills": 187
+},
+{
+"item": 54788,
+"name": "Exceptional Iconoclast's Conditioned Force Plates Weapon Wea",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54973,
+"name": "Abettor's Necrowave Target Link Gear ItemCategory-7 ItemSlot",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54803,
+"name": "Ambuscader's Supermesh Stock Gear ItemCategory-7 ItemSlot-7 ",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54768,
+"name": "Iconoclast's Prototronic Core Gear ItemCategory-7 ItemSlot-8",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54865,
+"name": "Forecaster's Supertronic Repulsor Gear ItemCategory-7 Shield",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54727,
+"name": "Abettor's Galactimagnetic Shin Plates Armor Heavy Armor Legs",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54802,
+"name": "Ambuscader's Supermesh Kinetic Field Gear ItemCategory-7 Shi",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 21485,
+"name": "Wooden Fence (Ranch) Housing Housing n/a 11 11 1.07% (2/187)",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54885,
+"name": "Exceptional Forecaster's Supertronic Battery Gear ItemCatego",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 44294,
+"name": "Onslaught AMP AMP Skill AMP n/a 0 14 1.07% (2/187)",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54733,
+"name": "Abettor's Galactimagnetic Heart Gear ItemCategory-7 Augment ",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54681,
+"name": "Ruffian's Exantype Coat Armor Heavy Armor Chest 11 11 1.07% ",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54687,
+"name": "Ruffian's Exantype Battery Gear ItemCategory-7 ItemSlot-8 11",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54728,
+"name": "Abettor's Galactimagnetic Magniboots Armor Heavy Armor Feet ",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 14402,
+"name": "Structural Carbon Rods Path Settler n/a 0 6 1.07% (2/187)",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54726,
+"name": "Abettor's Galactimagnetic Ringmail Armor Heavy Armor Chest 1",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 14401,
+"name": "Pulsating Power Crystal Path Settler n/a 0 6 1.07% (2/187)",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54722,
+"name": "Abettor's Ultrathread Scope Gear ItemCategory-7 ItemSlot-7 1",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54684,
+"name": "Ruffian's Exantype Manacles Armor Heavy Armor Hands 11 11 1.",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54769,
+"name": "Iconoclast's Prototronic Controller Gear ItemCategory-7 Augm",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54830,
+"name": "Picaroon's Galactithread Device Gear ItemCategory-7 ItemSlot",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54842,
+"name": "Picaroon's Conditioned Repeaters Weapon Weapon - Pistols Pri",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54797,
+"name": "Ambuscader's Unwieldy Handspurs Weapon Weapon - Claws Primar",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54760,
+"name": "Iconoclast's Exanstreak Controller Gear ItemCategory-7 Augme",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54837,
+"name": "Picaroon's Eldanmesh Hands Armor Light Armor Hands 11 11 1.0",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 55040,
+"name": "Ambuscader's Eldancoil Leggings Armor Medium Armor Legs 12 1",
+"chance": 1.07,
+"hits": 2,
+"kills": 187
+},
+{
+"item": 54836,
+"name": "Picaroon's Eldanmesh Footfalls Armor Light Armor Feet 11 11 ",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54719,
+"name": "Abettor's Ultrathread Magniboots Armor Heavy Armor Feet 11 1",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54829,
+"name": "Picaroon's Galactithread Field Generator Gear ItemCategory-7",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54714,
+"name": "Exceptional Ruffian's Hyperweave Battery Gear ItemCategory-7",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 30714,
+"name": "Augmented Armor AMP AMP Skill AMP n/a 0 14 0.53% (1/187)",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54868,
+"name": "Forecaster's Supertronic Heart Gear ItemCategory-7 Augment 1",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 21429,
+"name": "Stardust Tulips Housing Housing n/a 45 45 0.53% (1/187)",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 55051,
+"name": "Ambuscader's Hexaline Rakers Armor Medium Armor Hands 12 12 ",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 21545,
+"name": "Falkrin Banner Housing Housing n/a 50 50 0.53% (1/187)",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54855,
+"name": "Exceptional Picaroon's Eldanmesh Hands Armor Light Armor Han",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54713,
+"name": "Exceptional Ruffian's Hyperweave Sharpener Gear ItemCategory",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 20595,
+"name": "Garden Tier 2 FABkit Housing Housing n/a 20 20 0.53% (1/187)",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54854,
+"name": "Exceptional Picaroon's Eldanmesh Footfalls Armor Light Armor",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 12542,
+"name": "Iron Chunk Crafting Mining n/a 0 10 0.53% (1/187)",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54763,
+"name": "Iconoclast's Prototronic Overpants Armor Medium Armor Legs 1",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54755,
+"name": "Iconoclast's Exanstreak Polyboots Armor Medium Armor Feet 11",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 55080,
+"name": "Picaroon's Nanomagnetic Scope Gear ItemCategory-7 ItemSlot-7",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 40211,
+"name": "Dangerously Fuzzy Mittens Armor Light Armor Hands 9 11 0.53%",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54838,
+"name": "Picaroon's Eldanmesh Field Generator Gear ItemCategory-7 Shi",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 21426,
+"name": "Everburn Flowerbush Housing Housing n/a 1 1 0.53% (1/187)",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 30463,
+"name": "Radiate AMP AMP Skill AMP n/a 0 14 0.53% (1/187)",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 29316,
+"name": "Sign of Water Crafting Runecrafting n/a 15 15 0.53% (1/187)",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54796,
+"name": "Ambuscader's Biotronic Nucleus Gear ItemCategory-7 Augment 1",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54694,
+"name": "Ruffian's Hyperweave Particle Field Gear ItemCategory-7 Shie",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54867,
+"name": "Forecaster's Supertronic Battery Gear ItemCategory-7 ItemSlo",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54882,
+"name": "Exceptional Forecaster's Supertronic Manipulators Armor Ligh",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54764,
+"name": "Iconoclast's Prototronic Polyboots Armor Medium Armor Feet 1",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54873,
+"name": "Forecaster's Magnipolymer Manipulators Armor Light Armor Han",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54683,
+"name": "Ruffian's Exantype Steps Armor Heavy Armor Feet 11 11 0.53% ",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 30489,
+"name": "Full Force AMP AMP Skill AMP n/a 0 14 0.53% (1/187)",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 40336,
+"name": "Resilient Omnigauntlets Armor Heavy Armor Hands 9 11 0.53% (",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54753,
+"name": "Iconoclast's Exanstreak Mesh Guard Armor Medium Armor Chest ",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54772,
+"name": "Exceptional Iconoclast's Exanstreak Overpants Armor Medium A",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54895,
+"name": "Exceptional Forecaster's Magnipolymer Heart Gear ItemCategor",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54869,
+"name": "Forecaster's Unwieldy Neural Dominator Weapon Weapon - Psybl",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54690,
+"name": "Ruffian's Hyperweave Coat Armor Heavy Armor Chest 11 11 0.53",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 40224,
+"name": "Sustaining Omnishield Gear ItemCategory-7 Shields 9 11 0.53%",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54720,
+"name": "Abettor's Ultrathread Crushers Armor Heavy Armor Hands 11 11",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 15296,
+"name": "Swirly Tree (Green) Housing Housing n/a 26 26 0.53% (1/187)",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54742,
+"name": "Exceptional Abettor's Ultrathread Heart Gear ItemCategory-7 ",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54695,
+"name": "Ruffian's Hyperweave Sharpener Gear ItemCategory-7 ItemSlot-",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 44272,
+"name": "Spectral Shield AMP AMP Skill AMP n/a 0 14 0.53% (1/187)",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54773,
+"name": "Exceptional Iconoclast's Exanstreak Polyboots Armor Medium A",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54820,
+"name": "Exceptional Ambuscader's Supermesh Kinetic Field Gear ItemCa",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54841,
+"name": "Picaroon's Eldanmesh Intensifier Gear ItemCategory-7 Augment",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 29596,
+"name": "Sign of Fire Crafting Runecrafting n/a 15 15 0.53% (1/187)",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54831,
+"name": "Picaroon's Galactithread Augmentor Gear ItemCategory-7 ItemS",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54861,
+"name": "Forecaster's Supertronic Chestwrap Armor Light Armor Chest 1",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54693,
+"name": "Ruffian's Hyperweave Manacles Armor Heavy Armor Hands 11 11 ",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54835,
+"name": "Picaroon's Eldanmesh Pantaloons Armor Light Armor Legs 11 11",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 21436,
+"name": "Strange Necrobloom Housing Housing n/a 46 46 0.53% (1/187)",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54817,
+"name": "Exceptional Ambuscader's Supermesh Longjohns Armor Medium Ar",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 21432,
+"name": "Teal Spiral Leaf Housing Housing n/a 48 48 0.53% (1/187)",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54696,
+"name": "Ruffian's Hyperweave Battery Gear ItemCategory-7 ItemSlot-8 ",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54896,
+"name": "Exceptional Forecaster's Conditioned Neural Dominator Weapon",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54872,
+"name": "Forecaster's Magnipolymer Foot Pads Armor Light Armor Feet 1",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54792,
+"name": "Ambuscader's Biotronic Hands Armor Medium Armor Hands 11 11 ",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54795,
+"name": "Ambuscader's Biotronic Projector Gear ItemCategory-7 ItemSlo",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 55012,
+"name": "Iconoclast's Omnithread Tunic Armor Medium Armor Chest 12 12",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54751,
+"name": "Exceptional Abettor's Galactimagnetic Heart Gear ItemCategor",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+},
+{
+"item": 54980,
+"name": "Abettor's Hexabraid Force Absorber Gear ItemCategory-7 Shiel",
+"chance": 0.53,
+"hits": 1,
+"kills": 187
+}
+],
+"samples": 187,
+"url": "http://www.jabbithole.com/npcs/kraggar-the-earth-render-17"
+},
+"Metal Maw": {
+"zones": "Deradune",
+"level": [
+10,
+10
+],
+"drops": [
+{
+"item": 29609,
+"name": "Rune Fragment Crafting Crafting Supplies n/a 10 10 7.86% (11",
+"chance": 7.86,
+"hits": 11,
+"kills": 140
+},
+{
+"item": 29316,
+"name": "Sign of Water Crafting Runecrafting n/a 15 15 7.86% (11/140)",
+"chance": 7.86,
+"hits": 11,
+"kills": 140
+},
+{
+"item": 51671,
+"name": "Firebrand's Megapolymer Implant Gear ItemCategory-7 Augment ",
+"chance": 5.0,
+"hits": 7,
+"kills": 140
+},
+{
+"item": 51867,
+"name": "Knave's Hyperweave Clamps Armor Medium Armor Hands 10 10 3.5",
+"chance": 3.57,
+"hits": 5,
+"kills": 140
+},
+{
+"item": 51881,
+"name": "Knave's Tempered Knuckledusters Weapon Weapon - Claws Primar",
+"chance": 2.86,
+"hits": 4,
+"kills": 140
+},
+{
+"item": 51866,
+"name": "Knave's Hyperweave Treads Armor Medium Armor Feet 10 10 2.86",
+"chance": 2.86,
+"hits": 4,
+"kills": 140
+},
+{
+"item": 51967,
+"name": "Bandit's Polywarp Armlets Armor Light Armor Hands 10 10 2.86",
+"chance": 2.86,
+"hits": 4,
+"kills": 140
+},
+{
+"item": 51974,
+"name": "Bandit's Omniplate Flexipants Armor Light Armor Legs 10 10 2",
+"chance": 2.14,
+"hits": 3,
+"kills": 140
+},
+{
+"item": 51768,
+"name": "Vandal's Dynafiber Field Generator Gear ItemCategory-7 Shiel",
+"chance": 2.14,
+"hits": 3,
+"kills": 140
+},
+{
+"item": 51575,
+"name": "Hooligan's Hyperweave Overboots Armor Heavy Armor Feet 10 10",
+"chance": 2.14,
+"hits": 3,
+"kills": 140
+},
+{
+"item": 51996,
+"name": "Exceptional Bandit's Omniplate Handgrip Gear ItemCategory-7 ",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 51572,
+"name": "Hooligan's Prototype Sword Weapon Weapon - Greatsword Primar",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 52078,
+"name": "Herald's Galactimesh Grip Gear ItemCategory-7 ItemSlot-7 10 ",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 52074,
+"name": "Herald's Galactimesh Technopants Armor Light Armor Legs 10 1",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 51674,
+"name": "Firebrand's Bioweb Tassets Armor Heavy Armor Legs 10 10 1.43",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 51998,
+"name": "Exceptional Bandit's Omniplate Chip Gear ItemCategory-7 Augm",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 51764,
+"name": "Vandal's Dynafiber Chestguard Armor Medium Armor Chest 10 10",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 54765,
+"name": "Iconoclast's Prototronic Armbands Armor Medium Armor Hands 1",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 51897,
+"name": "Exceptional Knave's Chrysalite Crystal Gear ItemCategory-7 I",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 51898,
+"name": "Exceptional Knave's Chrysalite Enhancer Gear ItemCategory-7 ",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 20682,
+"name": "Relic Excavation Tier 4 FABkit Housing Housing n/a 40 40 1.4",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 51579,
+"name": "Hooligan's Hyperweave Magnifier Gear ItemCategory-7 ItemSlot",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 52067,
+"name": "Herald's Protolite Hands Armor Light Armor Hands 10 10 1.43%",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 15271,
+"name": "Spotlight Housing Housing n/a 16 16 1.43% (2/140)",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 54692,
+"name": "Ruffian's Hyperweave Steps Armor Heavy Armor Feet 11 11 1.43",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 52076,
+"name": "Herald's Galactimesh Hands Armor Light Armor Hands 10 10 1.4",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 51588,
+"name": "Exceptional Hooligan's Xenite Magnifier Gear ItemCategory-7 ",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 51570,
+"name": "Hooligan's Xenite Magnifier Gear ItemCategory-7 ItemSlot-8 1",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 40224,
+"name": "Sustaining Omnishield Gear ItemCategory-7 Shields 9 11 1.43%",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 31634,
+"name": "Granok Fence Corner Housing Housing n/a 10 10 1.43% (2/140)",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 51568,
+"name": "Hooligan's Xenite Shield Generator Gear ItemCategory-7 Shiel",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 51581,
+"name": "Hooligan's Tempered Sword Weapon Weapon - Greatsword Primary",
+"chance": 1.43,
+"hits": 2,
+"kills": 140
+},
+{
+"item": 21422,
+"name": "Spindly Habanerobloom Housing Housing n/a 41 41 0.71% (1/140",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 40212,
+"name": "Comfy Fuzzy Mittens Armor Light Armor Hands 9 11 0.71% (1/14",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51580,
+"name": "Hooligan's Hyperweave Intensifier Gear ItemCategory-7 Augmen",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51678,
+"name": "Firebrand's Bioweb Handgrip Gear ItemCategory-7 ItemSlot-7 1",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 52081,
+"name": "Herald's Tempered Moonstar Weapon Weapon - Psyblade Primary ",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 29588,
+"name": "Sign of Earth Crafting Runecrafting n/a 15 15 0.71% (1/140)",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51772,
+"name": "Vandal's Prototype Shock Zappers Weapon Weapon - Paddles Pri",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51679,
+"name": "Firebrand's Bioweb Amplifier Gear ItemCategory-7 ItemSlot-8 ",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51576,
+"name": "Hooligan's Hyperweave Crushers Armor Heavy Armor Hands 10 10",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51766,
+"name": "Vandal's Dynafiber Footsteps Armor Medium Armor Feet 10 10 0",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 52075,
+"name": "Herald's Galactimesh Shoes Armor Light Armor Feet 10 10 0.71",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51765,
+"name": "Vandal's Dynafiber Denims Armor Medium Armor Legs 10 10 0.71",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51872,
+"name": "Knave's Prototype Knuckledusters Weapon Weapon - Claws Prima",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51569,
+"name": "Hooligan's Xenite Foregrip Gear ItemCategory-7 ItemSlot-7 10",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 52068,
+"name": "Herald's Protolite Bulwark Gear ItemCategory-7 Shields 10 10",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51776,
+"name": "Vandal's Magniwebbed Grapples Armor Medium Armor Hands 10 10",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 52092,
+"name": "Exceptional Herald's Galactimesh Technopants Armor Light Arm",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51968,
+"name": "Bandit's Polywarp Kinetic Web Gear ItemCategory-7 Shields 10",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 21670,
+"name": "Mossy Overgrowth Housing Housing n/a 1 1 0.71% (1/140)",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51870,
+"name": "Knave's Hyperweave Crystal Gear ItemCategory-7 ItemSlot-8 10",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 50807,
+"name": "Sack of Scratched Silver Miscellaneous Junk n/a 1 1 0.71% (1",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51869,
+"name": "Knave's Hyperweave Foregrip Gear ItemCategory-7 ItemSlot-7 1",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 30501,
+"name": "Bust Out AMP AMP Skill AMP n/a 0 14 0.71% (1/140)",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51879,
+"name": "Knave's Chrysalite Crystal Gear ItemCategory-7 ItemSlot-8 10",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51989,
+"name": "Exceptional Bandit's Polywarp Chip Gear ItemCategory-7 Augme",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51780,
+"name": "Vandal's Magniwebbed Augmentor Gear ItemCategory-7 Augment 1",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 29604,
+"name": "Sign of Air Crafting Runecrafting n/a 15 15 0.71% (1/140)",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 21424,
+"name": "Hungering Necrobloom Housing Housing n/a 38 38 0.71% (1/140)",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 40353,
+"name": "Fibrous Defenses Gear ItemCategory-7 Shields 9 11 0.71% (1/1",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 31389,
+"name": "HOUSING EXPEDITION: Mayday FABkit Housing Housing n/a 40 40 ",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 21946,
+"name": "BBQ Ready Piglet Housing Housing n/a 1 1 0.71% (1/140)",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 40211,
+"name": "Dangerously Fuzzy Mittens Armor Light Armor Hands 9 11 0.71%",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 40336,
+"name": "Resilient Omnigauntlets Armor Heavy Armor Hands 9 11 0.71% (",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 52071,
+"name": "Herald's Protolite Recombinator Gear ItemCategory-7 Augment ",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51877,
+"name": "Knave's Chrysalite Shield Gear ItemCategory-7 Shields 10 10 ",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51778,
+"name": "Vandal's Magniwebbed Booster Gear ItemCategory-7 ItemSlot-7 ",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51970,
+"name": "Bandit's Polywarp Buffer Gear ItemCategory-7 ItemSlot-8 10 1",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51978,
+"name": "Bandit's Omniplate Handgrip Gear ItemCategory-7 ItemSlot-7 1",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51691,
+"name": "Exceptional Firebrand's Bioweb Longshirt Armor Heavy Armor C",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 52070,
+"name": "Herald's Protolite Heightener Gear ItemCategory-7 ItemSlot-8",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+},
+{
+"item": 51982,
+"name": "Exceptional Bandit's Polywarp Vestment Armor Light Armor Che",
+"chance": 0.71,
+"hits": 1,
+"kills": 140
+}
+],
+"samples": 140,
+"url": "http://www.jabbithole.com/npcs/metal-maw-15"
+},
+"Metal Maw Prime": {
+"zones": "Whitevale",
+"level": [
+30,
+30
+],
+"drops": [
+{
+"item": 29609,
+"name": "Rune Fragment Crafting Crafting Supplies n/a 10 10 5.46% (13",
+"chance": 5.46,
+"hits": 13,
+"kills": 238
+},
+{
+"item": 44295,
+"name": "Augmented Rune Fragment Crafting Crafting Supplies n/a 35 35",
+"chance": 2.94,
+"hits": 7,
+"kills": 238
+},
+{
+"item": 63307,
+"name": "Exceptional Wizard's Cybergroove Chestguard Armor Light Armo",
+"chance": 2.52,
+"hits": 6,
+"kills": 238
+},
+{
+"item": 63024,
+"name": "Instigator's Exanaron Embellishment Armor Heavy Armor Should",
+"chance": 2.1,
+"hits": 5,
+"kills": 238
+},
+{
+"item": 29588,
+"name": "Sign of Earth Crafting Runecrafting n/a 15 15 2.1% (5/238)",
+"chance": 2.1,
+"hits": 5,
+"kills": 238
+},
+{
+"item": 63011,
+"name": "Instigator's Quadrahelix Stretchipants Armor Heavy Armor Leg",
+"chance": 1.68,
+"hits": 4,
+"kills": 238
+},
+{
+"item": 29611,
+"name": "Intricate Rune Fragment Crafting Crafting Supplies n/a 30 30",
+"chance": 1.68,
+"hits": 4,
+"kills": 238
+},
+{
+"item": 21804,
+"name": "Plushie (Red Malverine) Housing Housing n/a 1 1 1.68% (4/238",
+"chance": 1.68,
+"hits": 4,
+"kills": 238
+},
+{
+"item": 63147,
+"name": "Sectarian's Lexitwine Handlers Armor Medium Armor Hands 30 3",
+"chance": 1.68,
+"hits": 4,
+"kills": 238
+},
+{
+"item": 41156,
+"name": "Tempest Force Extended Mag Gear ItemCategory-7 ItemSlot-7 31",
+"chance": 1.68,
+"hits": 4,
+"kills": 238
+},
+{
+"item": 63227,
+"name": "Operative's Turbohelix Battery Gear ItemCategory-7 ItemSlot-",
+"chance": 1.68,
+"hits": 4,
+"kills": 238
+},
+{
+"item": 63082,
+"name": "Envoy's Macromesh Force Sphere Gear ItemCategory-7 Shields 3",
+"chance": 1.26,
+"hits": 3,
+"kills": 238
+},
+{
+"item": 29597,
+"name": "Sign of Fire - Greater Crafting Runecrafting n/a 25 25 1.26%",
+"chance": 1.26,
+"hits": 3,
+"kills": 238
+},
+{
+"item": 63165,
+"name": "Exceptional Sectarian's Lexitwine Overpants Armor Medium Arm",
+"chance": 1.26,
+"hits": 3,
+"kills": 238
+},
+{
+"item": 63218,
+"name": "Operative's Thermobraid Dirks Weapon Weapon - Claws Primary ",
+"chance": 1.26,
+"hits": 3,
+"kills": 238
+},
+{
+"item": 63088,
+"name": "Envoy's Axotrace War Pants Armor Heavy Armor Legs 30 30 1.26",
+"chance": 1.26,
+"hits": 3,
+"kills": 238
+},
+{
+"item": 63348,
+"name": "Despoiler's Psywarp Reinforcer Gear ItemCategory-7 ItemSlot-",
+"chance": 1.26,
+"hits": 3,
+"kills": 238
+},
+{
+"item": 63146,
+"name": "Sectarian's Lexitwine Overboots Armor Medium Armor Feet 30 3",
+"chance": 1.26,
+"hits": 3,
+"kills": 238
+},
+{
+"item": 63347,
+"name": "Despoiler's Psywarp Analyzer Gear ItemCategory-7 ItemSlot-7 ",
+"chance": 1.26,
+"hits": 3,
+"kills": 238
+},
+{
+"item": 63097,
+"name": "Envoy's Axotrace Autocannon Weapon Weapon - Heavy Gun Primar",
+"chance": 1.26,
+"hits": 3,
+"kills": 238
+},
+{
+"item": 41153,
+"name": "Eye of the Tempest Amplifier Gear ItemCategory-7 ItemSlot-8 ",
+"chance": 1.26,
+"hits": 3,
+"kills": 238
+},
+{
+"item": 63341,
+"name": "Despoiler's Psywarp Knickers Armor Light Armor Legs 30 30 0.",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63215,
+"name": "Operative's Thermobraid Intensifier Gear ItemCategory-7 Item",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63149,
+"name": "Sectarian's Lexitwine Hilt Gear ItemCategory-7 ItemSlot-7 30",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63288,
+"name": "Wizard's Cybergroove Ribbons Armor Light Armor Shoulder 30 3",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 29612,
+"name": "Armor Rune Fragment Crafting Crafting Supplies n/a 30 30 0.8",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 31545,
+"name": "Hanging Lamp (Fancy) Housing Housing n/a 8 8 0.84% (2/238)",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 30728,
+"name": "Locked and Loaded AMP AMP Skill AMP n/a 0 14 0.84% (2/238)",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63415,
+"name": "Oppugner's Expoweave Quickener Gear ItemCategory-7 Augment 3",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 29321,
+"name": "Sign of Life - Greater Crafting Runecrafting n/a 25 25 0.84%",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63284,
+"name": "Wizard's Hexaron Handguns Weapon Weapon - Pistols Primary We",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63177,
+"name": "Exceptional Sectarian's Exoweb Masquerade Armor Medium Armor",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63213,
+"name": "Operative's Thermobraid Scratchers Armor Medium Armor Hands ",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63707,
+"name": "Exceptional Maven's Teratrace Slippers Armor Light Armor Fee",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63352,
+"name": "Despoiler's Centiweave Knickers Armor Light Armor Legs 30 30",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 34736,
+"name": "Self-Destruct AMP AMP Skill AMP n/a 0 14 0.84% (2/238)",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63225,
+"name": "Operative's Turbohelix Field Generator Gear ItemCategory-7 S",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63210,
+"name": "Operative's Thermobraid Guise Armor Medium Armor Head 30 30 ",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63087,
+"name": "Envoy's Axotrace Technosuit Armor Heavy Armor Chest 30 30 0.",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63155,
+"name": "Sectarian's Exoweb Masquerade Armor Medium Armor Head 30 30 ",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63429,
+"name": "Exceptional Oppugner's Expoweave Pants Armor Heavy Armor Leg",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 15297,
+"name": "Vind Thorn Bush (Short) Housing Housing n/a 9 9 0.84% (2/238",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63279,
+"name": "Wizard's Hexaron Gage Armor Light Armor Hands 30 30 0.84% (2",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63080,
+"name": "Envoy's Macromesh Mukluks Armor Heavy Armor Feet 30 30 0.84%",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63226,
+"name": "Operative's Turbohelix Intensifier Gear ItemCategory-7 ItemS",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63302,
+"name": "Exceptional Wizard's Hexaron Deflector Gear ItemCategory-7 S",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 40279,
+"name": "Crystalsinger Psyblade Weapon Weapon - Psyblade Primary Weap",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63291,
+"name": "Wizard's Cybergroove Deflector Gear ItemCategory-7 Shields 3",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63243,
+"name": "Exceptional Operative's Turbohelix Guise Armor Medium Armor ",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63030,
+"name": "Instigator's Exanaron Inciter Gear ItemCategory-7 Augment 30",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63230,
+"name": "Exceptional Operative's Thermobraid Longcoat Armor Medium Ar",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63340,
+"name": "Despoiler's Psywarp Vest Armor Light Armor Chest 30 30 0.84%",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63158,
+"name": "Sectarian's Exoweb Handlers Armor Medium Armor Hands 30 30 0",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63037,
+"name": "Exceptional Instigator's Quadrahelix Handclasps Armor Heavy ",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63350,
+"name": "Despoiler's Psywarp Mind Star Weapon Weapon - Psyblade Prima",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 63208,
+"name": "Operative's Thermobraid Longcoat Armor Medium Armor Chest 30",
+"chance": 0.84,
+"hits": 2,
+"kills": 238
+},
+{
+"item": 21476,
+"name": "Witch's Brew Housing Housing n/a 10 10 0.42% (1/238)",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63289,
+"name": "Wizard's Cybergroove Sandals Armor Light Armor Feet 30 30 0.",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 29322,
+"name": "Sign of Life - Major Crafting Runecrafting n/a 35 35 0.42% (",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63361,
+"name": "Despoiler's Centiweave Mind Star Weapon Weapon - Psyblade Pr",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63157,
+"name": "Sectarian's Exoweb Overboots Armor Medium Armor Feet 30 30 0",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63356,
+"name": "Despoiler's Centiweave Fastenings Armor Light Armor Hands 30",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63106,
+"name": "Exceptional Envoy's Macromesh Compensator Gear ItemCategory-",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63185,
+"name": "Exceptional Sectarian's Exoweb Shock Zappers Weapon Weapon -",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63770,
+"name": "Exceptional Emissary's Antizine Woolies Armor Light Armor Le",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 21673,
+"name": "Holographic Shop Sign Housing Housing n/a 48 48 0.42% (1/238",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 41158,
+"name": "Tempest Force Analyzer Gear ItemCategory-7 ItemSlot-7 31 33 ",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63407,
+"name": "Oppugner's Expoweave Pants Armor Heavy Armor Legs 31 31 0.42",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63290,
+"name": "Wizard's Cybergroove Gage Armor Light Armor Hands 30 30 0.42",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63229,
+"name": "Operative's Turbohelix Dirks Weapon Weapon - Claws Primary W",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63358,
+"name": "Despoiler's Centiweave Analyzer Gear ItemCategory-7 ItemSlot",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63351,
+"name": "Despoiler's Centiweave Vest Armor Light Armor Chest 30 30 0.",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63293,
+"name": "Wizard's Cybergroove Instigator Gear ItemCategory-7 ItemSlot",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63031,
+"name": "Instigator's Exanaron Shredder Weapon Weapon - Greatsword Pr",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 36223,
+"name": "Formula: Reactive Multi-Hit Boost Schematic ItemCategory-66 ",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63638,
+"name": "Exceptional Deliquent's Servowarp Greaves Armor Medium Armor",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63633,
+"name": "Exceptional Deliquent's Astroride Reloader Gear ItemCategory",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 15355,
+"name": "Bulrush (Sienna) Housing Housing n/a 5 5 0.42% (1/238)",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63383,
+"name": "Exceptional Despoiler's Centiweave Mind Star Weapon Weapon -",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63276,
+"name": "Wizard's Hexaron Garland Armor Light Armor Head 30 30 0.42% ",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 21929,
+"name": "Heatrod Fireplace (Chua-Tech) Housing Housing n/a 15 15 0.42",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63048,
+"name": "Exceptional Instigator's Exanaron Handclasps Armor Heavy Arm",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 21563,
+"name": "Exile Bed Housing Housing n/a 25 25 0.42% (1/238)",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 29317,
+"name": "Sign of Water - Greater Crafting Runecrafting n/a 25 25 0.42",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63236,
+"name": "Exceptional Operative's Thermobraid Field Generator Gear Ite",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63278,
+"name": "Wizard's Hexaron Sandals Armor Light Armor Feet 30 30 0.42% ",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63247,
+"name": "Exceptional Operative's Turbohelix Field Generator Gear Item",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63044,
+"name": "Exceptional Instigator's Exanaron Stretchipants Armor Heavy ",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 29605,
+"name": "Sign of Air - Greater Crafting Runecrafting n/a 25 25 0.42% ",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63349,
+"name": "Despoiler's Psywarp Core Gear ItemCategory-7 Augment 30 30 0",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63212,
+"name": "Operative's Thermobraid Treads Armor Medium Armor Feet 30 30",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63091,
+"name": "Envoy's Axotrace Mukluks Armor Heavy Armor Feet 30 30 0.42% ",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63108,
+"name": "Exceptional Envoy's Macromesh Autocannon Weapon Weapon - Hea",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63179,
+"name": "Exceptional Sectarian's Exoweb Overboots Armor Medium Armor ",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63211,
+"name": "Operative's Thermobraid Hustle Armor Medium Armor Shoulder 3",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63047,
+"name": "Exceptional Instigator's Exanaron Polyboots Armor Heavy Armo",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63160,
+"name": "Sectarian's Exoweb Hilt Gear ItemCategory-7 ItemSlot-7 30 30",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63013,
+"name": "Instigator's Quadrahelix Embellishment Armor Heavy Armor Sho",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 40274,
+"name": "Sky King's Space Sword Weapon Weapon - Greatsword Primary We",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63610,
+"name": "Deliquent's Astroride Rampart Gear ItemCategory-7 Shields 31",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 20656,
+"name": "Thicket Tier 3 FABkit Housing Housing n/a 30 30 0.42% (1/238",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63081,
+"name": "Envoy's Macromesh Smiters Armor Heavy Armor Hands 30 30 0.42",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 20696,
+"name": "Bot Workshop FABkit Housing Housing n/a 34 34 0.42% (1/238)",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63150,
+"name": "Sectarian's Lexitwine Enlarger Gear ItemCategory-7 ItemSlot-",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 30569,
+"name": "Plushie (Shadow Mauler) Housing Housing n/a 1 1 0.42% (1/238",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 21932,
+"name": "Exhaust-Pipe Fireplace Housing Housing n/a 16 16 0.42% (1/23",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63555,
+"name": "Consul's Entrocite Force Devourer Gear ItemCategory-7 Shield",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 20641,
+"name": "Garden Tier 3 FABkit Housing Housing n/a 30 30 0.42% (1/238)",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63301,
+"name": "Exceptional Wizard's Hexaron Gage Armor Light Armor Hands 30",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63167,
+"name": "Exceptional Sectarian's Lexitwine Stole Armor Medium Armor S",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63296,
+"name": "Exceptional Wizard's Hexaron Chestguard Armor Light Armor Ch",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63295,
+"name": "Wizard's Cybergroove Handguns Weapon Weapon - Pistols Primar",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 29589,
+"name": "Sign of Earth - Greater Crafting Runecrafting n/a 25 25 0.42",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63079,
+"name": "Envoy's Macromesh Bravura Armor Heavy Armor Shoulder 30 30 0",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 29606,
+"name": "Sign of Air - Major Crafting Runecrafting n/a 35 35 0.42% (1",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63092,
+"name": "Envoy's Axotrace Smiters Armor Heavy Armor Hands 30 30 0.42%",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63015,
+"name": "Instigator's Quadrahelix Handclasps Armor Heavy Armor Hands ",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63310,
+"name": "Exceptional Wizard's Cybergroove Ribbons Armor Light Armor S",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63045,
+"name": "Exceptional Instigator's Exanaron Crest Armor Heavy Armor He",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 29598,
+"name": "Sign of Fire - Major Crafting Runecrafting n/a 35 35 0.42% (",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63174,
+"name": "Exceptional Sectarian's Lexitwine Shock Zappers Weapon Weapo",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63099,
+"name": "Exceptional Envoy's Macromesh War Pants Armor Heavy Armor Le",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 29604,
+"name": "Sign of Air Crafting Runecrafting n/a 15 15 0.42% (1/238)",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63159,
+"name": "Sectarian's Exoweb Barrier Gear ItemCategory-7 Shields 30 30",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63016,
+"name": "Instigator's Quadrahelix Defense Field Gear ItemCategory-7 S",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63282,
+"name": "Wizard's Hexaron Instigator Gear ItemCategory-7 ItemSlot-8 3",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63083,
+"name": "Envoy's Macromesh Handle Gear ItemCategory-7 ItemSlot-7 30 3",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 29318,
+"name": "Sign of Water - Major Crafting Runecrafting n/a 35 35 0.42% ",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 31507,
+"name": "Chua Netting Housing Housing n/a 8 8 0.42% (1/238)",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 44853,
+"name": "Leaning Creeptree Housing Housing n/a 1 1 0.42% (1/238)",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63219,
+"name": "Operative's Turbohelix Longcoat Armor Medium Armor Chest 30 ",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63017,
+"name": "Instigator's Quadrahelix Scope Gear ItemCategory-7 ItemSlot-",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 21746,
+"name": "Ocular Sphere Housing Housing n/a 1 1 0.42% (1/238)",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+},
+{
+"item": 63285,
+"name": "Wizard's Cybergroove Chestguard Armor Light Armor Chest 30 3",
+"chance": 0.42,
+"hits": 1,
+"kills": 238
+}
+],
+"samples": 238,
+"url": "http://www.jabbithole.com/npcs/metal-maw-prime-2"
+},
+"Zoetic": {
+"zones": "Wilderrun",
+"level": [
+40,
+40
+],
+"drops": [
+{
+"item": 29596,
+"name": "Sign of Fire Crafting Runecrafting n/a 15 15 4.76% (9/189)",
+"chance": 4.76,
+"hits": 9,
+"kills": 189
+},
+{
+"item": 29609,
+"name": "Rune Fragment Crafting Crafting Supplies n/a 10 10 3.7% (7/1",
+"chance": 3.7,
+"hits": 7,
+"kills": 189
+},
+{
+"item": 14412,
+"name": "Ancestral Force-Stone Path Settler n/a 0 34 2.65% (5/189)",
+"chance": 2.65,
+"hits": 5,
+"kills": 189
+},
+{
+"item": 66790,
+"name": "Desperado's Baryonthium Target Link Gear ItemCategory-7 Item",
+"chance": 2.65,
+"hits": 5,
+"kills": 189
+},
+{
+"item": 29316,
+"name": "Sign of Water Crafting Runecrafting n/a 15 15 2.65% (5/189)",
+"chance": 2.65,
+"hits": 5,
+"kills": 189
+},
+{
+"item": 29588,
+"name": "Sign of Earth Crafting Runecrafting n/a 15 15 2.12% (4/189)",
+"chance": 2.12,
+"hits": 4,
+"kills": 189
+},
+{
+"item": 29612,
+"name": "Armor Rune Fragment Crafting Crafting Supplies n/a 30 30 2.1",
+"chance": 2.12,
+"hits": 4,
+"kills": 189
+},
+{
+"item": 67315,
+"name": "Vaticinator's Pheroweb Hustlers Armor Light Armor Feet 40 40",
+"chance": 2.12,
+"hits": 4,
+"kills": 189
+},
+{
+"item": 65201,
+"name": "Gangster's Monoride Peak Armor Heavy Armor Head 40 40 1.59% ",
+"chance": 1.59,
+"hits": 3,
+"kills": 189
+},
+{
+"item": 66272,
+"name": "Exceptional Executor's Paranucleic Defense Grid Gear ItemCat",
+"chance": 1.59,
+"hits": 3,
+"kills": 189
+},
+{
+"item": 29611,
+"name": "Intricate Rune Fragment Crafting Crafting Supplies n/a 30 30",
+"chance": 1.59,
+"hits": 3,
+"kills": 189
+},
+{
+"item": 65722,
+"name": "Dignitary's Gyrothium Force Field Gear ItemCategory-7 Shield",
+"chance": 1.59,
+"hits": 3,
+"kills": 189
+},
+{
+"item": 41178,
+"name": "Tragg's Vaguely Legal Handclasps Armor Light Armor Hands 41 ",
+"chance": 1.59,
+"hits": 3,
+"kills": 189
+},
+{
+"item": 65199,
+"name": "Gangster's Monoride Dustcoat Armor Heavy Armor Chest 40 40 1",
+"chance": 1.59,
+"hits": 3,
+"kills": 189
+},
+{
+"item": 29613,
+"name": "Eldan Rune Fragment Crafting Crafting Supplies n/a 45 45 1.5",
+"chance": 1.59,
+"hits": 3,
+"kills": 189
+},
+{
+"item": 66254,
+"name": "Executor's Paranucleic Pinchers Weapon Weapon - Claws Primar",
+"chance": 1.59,
+"hits": 3,
+"kills": 189
+},
+{
+"item": 69174,
+"name": "Scoundrel's Isomowave Collar Armor Medium Armor Shoulder 41 ",
+"chance": 1.59,
+"hits": 3,
+"kills": 189
+},
+{
+"item": 66772,
+"name": "Desperado's Antinucleic Suit Armor Light Armor Chest 40 40 1",
+"chance": 1.59,
+"hits": 3,
+"kills": 189
+},
+{
+"item": 30716,
+"name": "Burst Power AMP AMP Skill AMP n/a 0 14 1.59% (3/189)",
+"chance": 1.59,
+"hits": 3,
+"kills": 189
+},
+{
+"item": 66252,
+"name": "Executor's Paranucleic Elevator Gear ItemCategory-7 ItemSlot",
+"chance": 1.59,
+"hits": 3,
+"kills": 189
+},
+{
+"item": 29605,
+"name": "Sign of Air - Greater Crafting Runecrafting n/a 25 25 1.59% ",
+"chance": 1.59,
+"hits": 3,
+"kills": 189
+},
+{
+"item": 65719,
+"name": "Dignitary's Gyrothium Bearings Armor Medium Armor Shoulder 4",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 64670,
+"name": "Assailant's Polythread Shredder Weapon Weapon - Greatsword P",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 21424,
+"name": "Hungering Necrobloom Housing Housing n/a 38 38 1.06% (2/189)",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 66792,
+"name": "Desperado's Baryonthium Governor Gear ItemCategory-7 Augment",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 66264,
+"name": "Executor's Manionic Augment Gear ItemCategory-7 Augment 40 4",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 65202,
+"name": "Gangster's Monoride Shoulder Boards Armor Heavy Armor Should",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 21540,
+"name": "Murgh Banner Housing Housing n/a 15 15 1.06% (2/189)",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 65726,
+"name": "Dignitary's Gyrothium Force Infusers Weapon Weapon - Paddles",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 67321,
+"name": "Vaticinator's Pheroweb Neuroblade Weapon Weapon - Psyblade P",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 65204,
+"name": "Gangster's Monoride Gauntlets Armor Heavy Armor Hands 40 40 ",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 66807,
+"name": "Exceptional Desperado's Baryonthium Countenance Armor Light ",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 36228,
+"name": "Formula: Quickstrike Serum Schematic ItemCategory-66 n/a 1 1",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 67306,
+"name": "Vaticinator's Tetrawave Stronghold Gear ItemCategory-7 Shiel",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 67336,
+"name": "Exceptional Vaticinator's Pheroweb Ribbons Armor Light Armor",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 67330,
+"name": "Exceptional Vaticinator's Tetrawave Compensator Gear ItemCat",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 65194,
+"name": "Gangster's Baryonpolymer Kinetic Sponge Gear ItemCategory-7 ",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 65743,
+"name": "Exceptional Dignitary's Gyrothium Handclasps Armor Medium Ar",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 66258,
+"name": "Executor's Manionic Stole Armor Medium Armor Shoulder 40 40 ",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 67983,
+"name": "Exceptional Racketeer's Lexarc Gaiters Armor Heavy Armor Leg",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 64696,
+"name": "Exceptional Assailant's Tetratrium Carapace Armor Heavy Armo",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 40288,
+"name": "Shiny Loppstuff Gear ItemCategory-7 Augment 35 39 1.06% (2/1",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 66253,
+"name": "Executor's Paranucleic Augment Gear ItemCategory-7 Augment 4",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 66247,
+"name": "Executor's Paranucleic Stole Armor Medium Armor Shoulder 40 ",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 67301,
+"name": "Vaticinator's Tetrawave Woolies Armor Light Armor Legs 40 40",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 66251,
+"name": "Executor's Paranucleic Magnifier Gear ItemCategory-7 ItemSlo",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 44851,
+"name": "Strain Spawner Housing Housing n/a 1 1 1.06% (2/189)",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 66248,
+"name": "Executor's Paranucleic Kickers Armor Medium Armor Feet 40 40",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 64666,
+"name": "Assailant's Polythread Particle Sphere Gear ItemCategory-7 S",
+"chance": 1.06,
+"hits": 2,
+"kills": 189
+},
+{
+"item": 40289,
+"name": "Sturdy Loppstuff Gear ItemCategory-7 Augment 35 39 0.53% (1/",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 64676,
+"name": "Assailant's Tetratrium Handholds Armor Heavy Armor Hands 40 ",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 65745,
+"name": "Exceptional Dignitary's Gyrothium Reinforcer Gear ItemCatego",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 65731,
+"name": "Dignitary's Necrotrace Boots Armor Medium Armor Feet 40 40 0",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 31666,
+"name": "Wall Mounted Generator Housing Housing n/a 26 26 0.53% (1/18",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 65737,
+"name": "Dignitary's Necrotrace Force Infusers Weapon Weapon - Paddle",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 29317,
+"name": "Sign of Water - Greater Crafting Runecrafting n/a 25 25 0.53",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 31629,
+"name": "Tiki Roof Housing Housing n/a 48 48 0.53% (1/189)",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 69196,
+"name": "Exceptional Scoundrel's Isomowave Collar Armor Medium Armor ",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 65725,
+"name": "Dignitary's Gyrothium Booster Gear ItemCategory-7 Augment 40",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 67331,
+"name": "Exceptional Vaticinator's Tetrawave Controller Gear ItemCate",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 67349,
+"name": "Remarkable Vaticinator's Tetrawave Gloves Armor Light Armor ",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 66257,
+"name": "Executor's Manionic Skullcap Armor Medium Armor Head 40 40 0",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 67308,
+"name": "Vaticinator's Tetrawave Compensator Gear ItemCategory-7 Item",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 29601,
+"name": "Sign of Logic - Greater Crafting Runecrafting n/a 25 25 0.53",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 65747,
+"name": "Exceptional Dignitary's Gyrothium Booster Gear ItemCategory-",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 65196,
+"name": "Gangster's Baryonpolymer Elevator Gear ItemCategory-7 ItemSl",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 44297,
+"name": "Fragment of the Engineer Crafting Crafting Supplies n/a 45 4",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 67311,
+"name": "Vaticinator's Pheroweb Fleece Armor Light Armor Chest 40 40 ",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 65190,
+"name": "Gangster's Baryonpolymer Peak Armor Heavy Armor Head 40 40 0",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 31499,
+"name": "Leather Sofa (Dominion) Housing Housing n/a 41 41 0.53% (1/1",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 21449,
+"name": "Deradune Grass Patch Housing Housing n/a 40 40 0.53% (1/189)",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 67305,
+"name": "Vaticinator's Tetrawave Gloves Armor Light Armor Hands 40 40",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 66785,
+"name": "Desperado's Baryonthium Countenance Armor Light Armor Head 4",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 29321,
+"name": "Sign of Life - Greater Crafting Runecrafting n/a 25 25 0.53%",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 34753,
+"name": "Survival Instincts AMP AMP Skill AMP n/a 0 14 0.53% (1/189)",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 31544,
+"name": "Red Lantern Housing Housing n/a 25 25 0.53% (1/189)",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 64678,
+"name": "Assailant's Tetratrium Regulator Gear ItemCategory-7 ItemSlo",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 66796,
+"name": "Exceptional Desperado's Antinucleic Countenance Armor Light ",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 65219,
+"name": "Exceptional Gangster's Baryonpolymer Quickener Gear ItemCate",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 65221,
+"name": "Exceptional Gangster's Monoride Dustcoat Armor Heavy Armor C",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 65729,
+"name": "Dignitary's Necrotrace Hood Armor Medium Armor Head 40 40 0.",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 65214,
+"name": "Exceptional Gangster's Baryonpolymer Tramplers Armor Heavy A",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 66283,
+"name": "Exceptional Executor's Manionic Defense Grid Gear ItemCatego",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 64661,
+"name": "Assailant's Polythread Gaiters Armor Heavy Armor Legs 40 40 ",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 41174,
+"name": "Tragg's Vaguely Legal Wrist Wraps Armor Medium Armor Hands 4",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 65727,
+"name": "Dignitary's Necrotrace Habit Armor Medium Armor Chest 40 40 ",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 64698,
+"name": "Exceptional Assailant's Tetratrium Handholds Armor Heavy Arm",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 65207,
+"name": "Gangster's Monoride Elevator Gear ItemCategory-7 ItemSlot-8 ",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 64669,
+"name": "Assailant's Polythread Spark Gear ItemCategory-7 Augment 40 ",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 66280,
+"name": "Exceptional Executor's Manionic Stole Armor Medium Armor Sho",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 21409,
+"name": "Burnished Treasure Chest Housing Housing n/a 39 39 0.53% (1/",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 31624,
+"name": "Silver Keg Housing Housing n/a 15 15 0.53% (1/189)",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 65721,
+"name": "Dignitary's Gyrothium Handclasps Armor Medium Armor Hands 40",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 41169,
+"name": "Protostar VP Exclusive Pistols Weapon Weapon - Pistols Prima",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 65717,
+"name": "Dignitary's Gyrothium Dungarees Armor Medium Armor Legs 40 4",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 41163,
+"name": "Mister Fuzion's Futuristic Gravguns Weapon Weapon - Pistols ",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 21433,
+"name": "Towering Thornypod Housing Housing n/a 35 35 0.53% (1/189)",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 64673,
+"name": "Assailant's Tetratrium Zenith Armor Heavy Armor Head 40 40 0",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 66271,
+"name": "Exceptional Executor's Paranucleic Grasps Armor Medium Armor",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+},
+{
+"item": 22000,
+"name": "Simple Pillows (Lopp) Housing Housing n/a 26 26 0.53% (1/189",
+"chance": 0.53,
+"hits": 1,
+"kills": 189
+}
+],
+"samples": 189,
+"url": "http://www.jabbithole.com/npcs/zoetic-26"
+},
+"Grendelus the Guardian": {
+"zones": "Celestion",
+"level": [
+11,
+11
+],
+"drops": [
+{
+"item": 8389,
+"name": "Small Fetish Miscellaneous Junk n/a 1 10 9.25% (16/173)",
+"chance": 9.25,
+"hits": 16,
+"kills": 173
+},
+{
+"item": 29316,
+"name": "Sign of Water Crafting Runecrafting n/a 15 15 5.2% (9/173)",
+"chance": 5.2,
+"hits": 9,
+"kills": 173
+},
+{
+"item": 54841,
+"name": "Picaroon's Eldanmesh Intensifier Gear ItemCategory-7 Augment",
+"chance": 5.2,
+"hits": 9,
+"kills": 173
+},
+{
+"item": 29609,
+"name": "Rune Fragment Crafting Crafting Supplies n/a 10 10 4.62% (8/",
+"chance": 4.62,
+"hits": 8,
+"kills": 173
+},
+{
+"item": 54834,
+"name": "Picaroon's Eldanmesh Suit Armor Light Armor Chest 11 11 3.47",
+"chance": 3.47,
+"hits": 6,
+"kills": 173
+},
+{
+"item": 54758,
+"name": "Iconoclast's Exanstreak Extended Mag Gear ItemCategory-7 Ite",
+"chance": 3.47,
+"hits": 6,
+"kills": 173
+},
+{
+"item": 54828,
+"name": "Picaroon's Galactithread Hands Armor Light Armor Hands 11 11",
+"chance": 3.47,
+"hits": 6,
+"kills": 173
+},
+{
+"item": 54761,
+"name": "Iconoclast's Unwieldy Force Plates Weapon Weapon - Paddles P",
+"chance": 2.31,
+"hits": 4,
+"kills": 173
+},
+{
+"item": 54770,
+"name": "Iconoclast's Conditioned Force Plates Weapon Weapon - Paddle",
+"chance": 2.31,
+"hits": 4,
+"kills": 173
+},
+{
+"item": 29588,
+"name": "Sign of Earth Crafting Runecrafting n/a 15 15 2.31% (4/173)",
+"chance": 2.31,
+"hits": 4,
+"kills": 173
+},
+{
+"item": 54698,
+"name": "Ruffian's Conditioned Shredder Weapon Weapon - Greatsword Pr",
+"chance": 2.31,
+"hits": 4,
+"kills": 173
+},
+{
+"item": 54726,
+"name": "Abettor's Galactimagnetic Ringmail Armor Heavy Armor Chest 1",
+"chance": 1.73,
+"hits": 3,
+"kills": 173
+},
+{
+"item": 50808,
+"name": "Pouch of Pirated Pieces Miscellaneous Junk n/a 1 1 1.73% (3/",
+"chance": 1.73,
+"hits": 3,
+"kills": 173
+},
+{
+"item": 54725,
+"name": "Abettor's Unwieldy Photon Blaster Weapon Weapon - Heavy Gun ",
+"chance": 1.73,
+"hits": 3,
+"kills": 173
+},
+{
+"item": 54806,
+"name": "Ambuscader's Conditioned Handspurs Weapon Weapon - Claws Pri",
+"chance": 1.73,
+"hits": 3,
+"kills": 173
+},
+{
+"item": 54867,
+"name": "Forecaster's Supertronic Battery Gear ItemCategory-7 ItemSlo",
+"chance": 1.73,
+"hits": 3,
+"kills": 173
+},
+{
+"item": 54718,
+"name": "Abettor's Ultrathread Shin Plates Armor Heavy Armor Legs 11 ",
+"chance": 1.16,
+"hits": 2,
+"kills": 173
+},
+{
+"item": 54831,
+"name": "Picaroon's Galactithread Augmentor Gear ItemCategory-7 ItemS",
+"chance": 1.16,
+"hits": 2,
+"kills": 173
+},
+{
+"item": 54801,
+"name": "Ambuscader's Supermesh Hands Armor Medium Armor Hands 11 11 ",
+"chance": 1.16,
+"hits": 2,
+"kills": 173
+},
+{
+"item": 54839,
+"name": "Picaroon's Eldanmesh Device Gear ItemCategory-7 ItemSlot-7 1",
+"chance": 1.16,
+"hits": 2,
+"kills": 173
+},
+{
+"item": 54877,
+"name": "Forecaster's Magnipolymer Heart Gear ItemCategory-7 Augment ",
+"chance": 1.16,
+"hits": 2,
+"kills": 173
+},
+{
+"item": 54691,
+"name": "Ruffian's Hyperweave Flexipants Armor Heavy Armor Legs 11 11",
+"chance": 1.16,
+"hits": 2,
+"kills": 173
+},
+{
+"item": 40340,
+"name": "Circuit-Studded Omnimitts Armor Light Armor Hands 9 11 1.16%",
+"chance": 1.16,
+"hits": 2,
+"kills": 173
+},
+{
+"item": 54799,
+"name": "Ambuscader's Supermesh Longjohns Armor Medium Armor Legs 11 ",
+"chance": 1.16,
+"hits": 2,
+"kills": 173
+},
+{
+"item": 54887,
+"name": "Exceptional Forecaster's Unwieldy Neural Dominator Weapon We",
+"chance": 1.16,
+"hits": 2,
+"kills": 173
+},
+{
+"item": 54727,
+"name": "Abettor's Galactimagnetic Shin Plates Armor Heavy Armor Legs",
+"chance": 1.16,
+"hits": 2,
+"kills": 173
+},
+{
+"item": 54686,
+"name": "Ruffian's Exantype Sharpener Gear ItemCategory-7 ItemSlot-7 ",
+"chance": 1.16,
+"hits": 2,
+"kills": 173
+},
+{
+"item": 54835,
+"name": "Picaroon's Eldanmesh Pantaloons Armor Light Armor Legs 11 11",
+"chance": 1.16,
+"hits": 2,
+"kills": 173
+},
+{
+"item": 54754,
+"name": "Iconoclast's Exanstreak Overpants Armor Medium Armor Legs 11",
+"chance": 1.16,
+"hits": 2,
+"kills": 173
+},
+{
+"item": 54825,
+"name": "Picaroon's Galactithread Suit Armor Light Armor Chest 11 11 ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 55092,
+"name": "Picaroon's Massive Provokers Weapon Weapon - Pistols Primary",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54849,
+"name": "Exceptional Picaroon's Galactithread Augmentor Gear ItemCate",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54794,
+"name": "Ambuscader's Biotronic Stock Gear ItemCategory-7 ItemSlot-7 ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 31653,
+"name": "Purple Razortail Bush Housing Housing n/a 35 35 0.58% (1/173",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 31319,
+"name": "Firewood Housing Housing n/a 15 15 0.58% (1/173)",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54840,
+"name": "Picaroon's Eldanmesh Augmentor Gear ItemCategory-7 ItemSlot-",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54728,
+"name": "Abettor's Galactimagnetic Magniboots Armor Heavy Armor Feet ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 29596,
+"name": "Sign of Fire Crafting Runecrafting n/a 15 15 0.58% (1/173)",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54873,
+"name": "Forecaster's Magnipolymer Manipulators Armor Light Armor Han",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54695,
+"name": "Ruffian's Hyperweave Sharpener Gear ItemCategory-7 ItemSlot-",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54847,
+"name": "Exceptional Picaroon's Galactithread Field Generator Gear It",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54700,
+"name": "Exceptional Ruffian's Exantype Flexipants Armor Heavy Armor ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 40352,
+"name": "Caloric Defenses Gear ItemCategory-7 Shields 9 11 0.58% (1/1",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54697,
+"name": "Ruffian's Hyperweave Crystal Gear ItemCategory-7 Augment 11 ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 34680,
+"name": "Regenerator AMP AMP Skill AMP n/a 0 14 0.58% (1/173)",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54884,
+"name": "Exceptional Forecaster's Supertronic Motion Tracker Gear Ite",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 30658,
+"name": "Neon Sign (Beer, Star) Housing Housing n/a 45 45 0.58% (1/17",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54800,
+"name": "Ambuscader's Supermesh Footwraps Armor Medium Armor Feet 11 ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54874,
+"name": "Forecaster's Magnipolymer Repulsor Gear ItemCategory-7 Shiel",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54852,
+"name": "Exceptional Picaroon's Eldanmesh Suit Armor Light Armor Ches",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54683,
+"name": "Ruffian's Exantype Steps Armor Heavy Armor Feet 11 11 0.58% ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54772,
+"name": "Exceptional Iconoclast's Exanstreak Overpants Armor Medium A",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54798,
+"name": "Ambuscader's Supermesh Fatigues Armor Medium Armor Chest 11 ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 55073,
+"name": "Exceptional Ambuscader's Hexaline Regulator Gear ItemCategor",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54788,
+"name": "Exceptional Iconoclast's Conditioned Force Plates Weapon Wea",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 40225,
+"name": "Coruscating Omnishield Gear ItemCategory-7 Shields 9 11 0.58",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54789,
+"name": "Ambuscader's Biotronic Fatigues Armor Medium Armor Chest 11 ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54843,
+"name": "Exceptional Picaroon's Galactithread Suit Armor Light Armor ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 14401,
+"name": "Pulsating Power Crystal Path Settler n/a 0 6 0.58% (1/173)",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54813,
+"name": "Exceptional Ambuscader's Biotronic Projector Gear ItemCatego",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54791,
+"name": "Ambuscader's Biotronic Footwraps Armor Medium Armor Feet 11 ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 40336,
+"name": "Resilient Omnigauntlets Armor Heavy Armor Hands 9 11 0.58% (",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54696,
+"name": "Ruffian's Hyperweave Battery Gear ItemCategory-7 ItemSlot-8 ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54759,
+"name": "Iconoclast's Exanstreak Core Gear ItemCategory-7 ItemSlot-8 ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54786,
+"name": "Exceptional Iconoclast's Prototronic Core Gear ItemCategory-",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 40209,
+"name": "Comfy Leather Gloves Armor Medium Armor Hands 9 11 0.58% (1/",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54790,
+"name": "Ambuscader's Biotronic Longjohns Armor Medium Armor Legs 11 ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54756,
+"name": "Iconoclast's Exanstreak Armbands Armor Medium Armor Hands 11",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 55128,
+"name": "Forecaster's Massive Gyroblade Weapon Weapon - Psyblade Prim",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54803,
+"name": "Ambuscader's Supermesh Stock Gear ItemCategory-7 ItemSlot-7 ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 40223,
+"name": "Sparking Omnishield Gear ItemCategory-7 Shields 9 11 0.58% (",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54734,
+"name": "Abettor's Conditioned Photon Blaster Weapon Weapon - Heavy G",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 14402,
+"name": "Structural Carbon Rods Path Settler n/a 0 6 0.58% (1/173)",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 29604,
+"name": "Sign of Air Crafting Runecrafting n/a 15 15 0.58% (1/173)",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54859,
+"name": "Exceptional Picaroon's Eldanmesh Intensifier Gear ItemCatego",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 55032,
+"name": "Exceptional Iconoclast's Omnithread Zoris Armor Medium Armor",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54878,
+"name": "Forecaster's Conditioned Neural Dominator Weapon Weapon - Ps",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54871,
+"name": "Forecaster's Magnipolymer Slacks Armor Light Armor Legs 11 1",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 40214,
+"name": "Plasmoid Stimjector Gear ItemCategory-7 ItemSlot-7 11 15 0.5",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54785,
+"name": "Exceptional Iconoclast's Prototronic Extended Mag Gear ItemC",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 40354,
+"name": "Nutritious Defenses Gear ItemCategory-7 Shields 9 11 0.58% (",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54797,
+"name": "Ambuscader's Unwieldy Handspurs Weapon Weapon - Claws Primar",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54830,
+"name": "Picaroon's Galactithread Device Gear ItemCategory-7 ItemSlot",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54775,
+"name": "Exceptional Iconoclast's Exanstreak Wave Field Gear ItemCate",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+},
+{
+"item": 54693,
+"name": "Ruffian's Hyperweave Manacles Armor Heavy Armor Hands 11 11 ",
+"chance": 0.58,
+"hits": 1,
+"kills": 173
+}
+],
+"samples": 173,
+"url": "http://www.jabbithole.com/npcs/grendelus-the-guardian-5"
+},
+"Scorchwing": {
+"zones": "Blighthaven",
+"level": [
+50,
+50
+],
+"drops": [
+{
+"item": 29609,
+"name": "Rune Fragment Crafting Crafting Supplies n/a 10 10 5.58% (98",
+"chance": 5.58,
+"hits": 98,
+"kills": 1755
+},
+{
+"item": 8368,
+"name": "Sharpened Vulcarrion Talons Miscellaneous Junk n/a 1 50 5.41",
+"chance": 5.41,
+"hits": 95,
+"kills": 1755
+},
+{
+"item": 43004,
+"name": "Hearty Birdmeat Crafting Survivalist n/a 1 45 4.56% (80/1755",
+"chance": 4.56,
+"hits": 80,
+"kills": 1755
+},
+{
+"item": 29604,
+"name": "Sign of Air Crafting Runecrafting n/a 15 15 4.16% (73/1755)",
+"chance": 4.16,
+"hits": 73,
+"kills": 1755
+},
+{
+"item": 29611,
+"name": "Intricate Rune Fragment Crafting Crafting Supplies n/a 30 30",
+"chance": 3.13,
+"hits": 55,
+"kills": 1755
+},
+{
+"item": 14239,
+"name": "Augmented Leather Crafting Survivalist n/a 45 45 1.82% (32/1",
+"chance": 1.82,
+"hits": 32,
+"kills": 1755
+},
+{
+"item": 29588,
+"name": "Sign of Earth Crafting Runecrafting n/a 15 15 1.65% (29/1755",
+"chance": 1.65,
+"hits": 29,
+"kills": 1755
+},
+{
+"item": 29612,
+"name": "Armor Rune Fragment Crafting Crafting Supplies n/a 30 30 1.6",
+"chance": 1.6,
+"hits": 28,
+"kills": 1755
+},
+{
+"item": 44295,
+"name": "Augmented Rune Fragment Crafting Crafting Supplies n/a 35 35",
+"chance": 1.48,
+"hits": 26,
+"kills": 1755
+},
+{
+"item": 29605,
+"name": "Sign of Air - Greater Crafting Runecrafting n/a 25 25 1.2% (",
+"chance": 1.2,
+"hits": 21,
+"kills": 1755
+},
+{
+"item": 29606,
+"name": "Sign of Air - Major Crafting Runecrafting n/a 35 35 1.14% (2",
+"chance": 1.14,
+"hits": 20,
+"kills": 1755
+},
+{
+"item": 29589,
+"name": "Sign of Earth - Greater Crafting Runecrafting n/a 25 25 1.08",
+"chance": 1.08,
+"hits": 19,
+"kills": 1755
+},
+{
+"item": 29316,
+"name": "Sign of Water Crafting Runecrafting n/a 15 15 1.08% (19/1755",
+"chance": 1.08,
+"hits": 19,
+"kills": 1755
+},
+{
+"item": 52636,
+"name": "Inoculator's Electrotrace Magnifier Gear ItemCategory-7 Item",
+"chance": 0.97,
+"hits": 17,
+"kills": 1755
+},
+{
+"item": 52397,
+"name": "Exceptional Technomancer's Eldanplate Uniform Armor Heavy Ar",
+"chance": 0.97,
+"hits": 17,
+"kills": 1755
+},
+{
+"item": 53441,
+"name": "Haruspex's Decorated Astralblade Weapon Weapon - Psyblade Pr",
+"chance": 0.91,
+"hits": 16,
+"kills": 1755
+},
+{
+"item": 29613,
+"name": "Eldan Rune Fragment Crafting Crafting Supplies n/a 45 45 0.9",
+"chance": 0.91,
+"hits": 16,
+"kills": 1755
+},
+{
+"item": 29317,
+"name": "Sign of Water - Greater Crafting Runecrafting n/a 25 25 0.91",
+"chance": 0.91,
+"hits": 16,
+"kills": 1755
+},
+{
+"item": 53188,
+"name": "Exceptional Warlock's Jeweled Firearms Weapon Weapon - Pisto",
+"chance": 0.85,
+"hits": 15,
+"kills": 1755
+},
+{
+"item": 34481,
+"name": "Hard Rock Fragment Crafting Crafting Supplies n/a 48 48 0.85",
+"chance": 0.85,
+"hits": 15,
+"kills": 1755
+},
+{
+"item": 41097,
+"name": "Grim-Grim Doomcaller Hands Armor Light Armor Hands 50 78 0.8",
+"chance": 0.85,
+"hits": 15,
+"kills": 1755
+},
+{
+"item": 29596,
+"name": "Sign of Fire Crafting Runecrafting n/a 15 15 0.85% (15/1755)",
+"chance": 0.85,
+"hits": 15,
+"kills": 1755
+},
+{
+"item": 29603,
+"name": "Sign of Logic - Eldan Crafting Runecrafting n/a 45 45 0.85% ",
+"chance": 0.85,
+"hits": 15,
+"kills": 1755
+},
+{
+"item": 20573,
+"name": "Training Grounds FABkit Housing Housing n/a 15 15 0.74% (13/",
+"chance": 0.74,
+"hits": 13,
+"kills": 1755
+},
+{
+"item": 14285,
+"name": "Gourmet Poultry Crafting Survivalist n/a 1 40 0.74% (13/1755",
+"chance": 0.74,
+"hits": 13,
+"kills": 1755
+},
+{
+"item": 29601,
+"name": "Sign of Logic - Greater Crafting Runecrafting n/a 25 25 0.68",
+"chance": 0.68,
+"hits": 12,
+"kills": 1755
+},
+{
+"item": 29594,
+"name": "Sign of Fusion - Major Crafting Runecrafting n/a 35 35 0.63%",
+"chance": 0.63,
+"hits": 11,
+"kills": 1755
+},
+{
+"item": 52898,
+"name": "Pursuant's Protomesh Energy Sphere Gear ItemCategory-7 Shiel",
+"chance": 0.63,
+"hits": 11,
+"kills": 1755
+},
+{
+"item": 29321,
+"name": "Sign of Life - Greater Crafting Runecrafting n/a 25 25 0.63%",
+"chance": 0.63,
+"hits": 11,
+"kills": 1755
+},
+{
+"item": 52630,
+"name": "Inoculator's Electrotrace Visor Armor Medium Armor Head 50 5",
+"chance": 0.63,
+"hits": 11,
+"kills": 1755
+},
+{
+"item": 52383,
+"name": "Technomancer's Eldanplate Enlarger Gear ItemCategory-7 ItemS",
+"chance": 0.63,
+"hits": 11,
+"kills": 1755
+},
+{
+"item": 53463,
+"name": "Exceptional Haruspex's Decorated Astralblade Weapon Weapon -",
+"chance": 0.63,
+"hits": 11,
+"kills": 1755
+},
+{
+"item": 29607,
+"name": "Sign of Air - Eldan Crafting Runecrafting n/a 45 45 0.57% (1",
+"chance": 0.57,
+"hits": 10,
+"kills": 1755
+},
+{
+"item": 53434,
+"name": "Haruspex's Dynaweave Shoulder Pads Armor Light Armor Shoulde",
+"chance": 0.51,
+"hits": 9,
+"kills": 1755
+},
+{
+"item": 53439,
+"name": "Haruspex's Dynaweave Projector Gear ItemCategory-7 ItemSlot-",
+"chance": 0.51,
+"hits": 9,
+"kills": 1755
+},
+{
+"item": 52110,
+"name": "Barbarian's Jeweled Powersword Weapon Weapon - Greatsword Pr",
+"chance": 0.51,
+"hits": 9,
+"kills": 1755
+},
+{
+"item": 52893,
+"name": "Pursuant's Protomesh Leggings Armor Medium Armor Legs 50 50 ",
+"chance": 0.51,
+"hits": 9,
+"kills": 1755
+},
+{
+"item": 29598,
+"name": "Sign of Fire - Major Crafting Runecrafting n/a 35 35 0.51% (",
+"chance": 0.51,
+"hits": 9,
+"kills": 1755
+},
+{
+"item": 53171,
+"name": "Warlock's Biowave Sandstriders Armor Light Armor Feet 50 50 ",
+"chance": 0.46,
+"hits": 8,
+"kills": 1755
+},
+{
+"item": 52660,
+"name": "Exceptional Inoculator's Jeweled Zapinators Weapon Weapon - ",
+"chance": 0.46,
+"hits": 8,
+"kills": 1755
+},
+{
+"item": 53181,
+"name": "Exceptional Warlock's Superthread Amice Armor Light Armor Sh",
+"chance": 0.46,
+"hits": 8,
+"kills": 1755
+},
+{
+"item": 53438,
+"name": "Haruspex's Dynaweave Assist Module Gear ItemCategory-7 ItemS",
+"chance": 0.46,
+"hits": 8,
+"kills": 1755
+},
+{
+"item": 14421,
+"name": "Uncorruptible Soulstone Path Settler n/a 0 44 0.46% (8/1755)",
+"chance": 0.46,
+"hits": 8,
+"kills": 1755
+},
+{
+"item": 52101,
+"name": "Barbarian's Electroplate Shin Guards Armor Heavy Armor Legs ",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 52637,
+"name": "Inoculator's Electrotrace Neural Transmitter Gear ItemCatego",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 53424,
+"name": "Haruspex's Manawarp Boots Armor Light Armor Feet 50 50 0.4% ",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 29597,
+"name": "Sign of Fire - Greater Crafting Runecrafting n/a 25 25 0.4% ",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 53176,
+"name": "Warlock's Biowave Vial Gear ItemCategory-7 Augment 50 50 0.4",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 36229,
+"name": "Formula: Liquid Confidence Schematic ItemCategory-66 n/a 1 1",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 52635,
+"name": "Inoculator's Electrotrace Booster Gear ItemCategory-7 ItemSl",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 52385,
+"name": "Technomancer's Decorated Heavy Gun Weapon Weapon - Heavy Gun",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 53168,
+"name": "Warlock's Biowave Flexipants Armor Light Armor Legs 50 50 0.",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 52912,
+"name": "Pursuant's Hypertrace Governor Gear ItemCategory-7 Augment 5",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 52106,
+"name": "Barbarian's Electroplate Bastion Gear ItemCategory-7 Shields",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 52908,
+"name": "Pursuant's Hypertrace Hands Armor Medium Armor Hands 50 50 0",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 52906,
+"name": "Pursuant's Hypertrace Shoulderwraps Armor Medium Armor Shoul",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 29590,
+"name": "Sign of Earth - Major Crafting Runecrafting n/a 35 35 0.4% (",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 52901,
+"name": "Pursuant's Protomesh Governor Gear ItemCategory-7 Augment 50",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 53433,
+"name": "Haruspex's Dynaweave Mask Armor Light Armor Head 50 50 0.4% ",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 52380,
+"name": "Technomancer's Eldanplate Vices Armor Heavy Armor Hands 50 5",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 52372,
+"name": "Technomancer's Chrysalite Enlarger Gear ItemCategory-7 ItemS",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 53437,
+"name": "Haruspex's Dynaweave Wave Field Gear ItemCategory-7 Shields ",
+"chance": 0.4,
+"hits": 7,
+"kills": 1755
+},
+{
+"item": 52638,
+"name": "Inoculator's Jeweled Zapinators Weapon Weapon - Paddles Prim",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 29602,
+"name": "Sign of Logic - Major Crafting Runecrafting n/a 35 35 0.34% ",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 52642,
+"name": "Inoculator's Manafiber Shoulder Armor Armor Medium Armor Sho",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 52392,
+"name": "Exceptional Technomancer's Chrysalite Energy Field Gear Item",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 16127,
+"name": "Primal Pelt Crafting Survivalist n/a 45 45 0.34% (6/1755)",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 52139,
+"name": "Exceptional Barbarian's Omnigroove Bastion Gear ItemCategory",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 52671,
+"name": "Exceptional Inoculator's Decorated Zapinators Weapon Weapon ",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 52369,
+"name": "Technomancer's Chrysalite Vices Armor Heavy Armor Hands 50 5",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 52639,
+"name": "Inoculator's Manafiber Vest Armor Medium Armor Chest 50 50 0",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 52909,
+"name": "Pursuant's Hypertrace Energy Sphere Gear ItemCategory-7 Shie",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 53158,
+"name": "Warlock's Superthread Headcover Armor Light Armor Head 50 50",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 52115,
+"name": "Barbarian's Omnigroove Stompers Armor Heavy Armor Feet 50 50",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 30570,
+"name": "Plushie (Spikehoard) Housing Housing n/a 1 1 0.34% (6/1755)",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 53428,
+"name": "Haruspex's Manawarp Projector Gear ItemCategory-7 ItemSlot-8",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 53177,
+"name": "Warlock's Decorated Firearms Weapon Weapon - Pistols Primary",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 53193,
+"name": "Exceptional Warlock's Biowave Sandstriders Armor Light Armor",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 53162,
+"name": "Warlock's Superthread Energy Field Gear ItemCategory-7 Shiel",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 52116,
+"name": "Barbarian's Omnigroove Wargloves Armor Heavy Armor Hands 50 ",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 53427,
+"name": "Haruspex's Manawarp Assist Module Gear ItemCategory-7 ItemSl",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 29599,
+"name": "Sign of Fire - Eldan Crafting Runecrafting n/a 45 45 0.34% (",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 53175,
+"name": "Warlock's Biowave Strengthener Gear ItemCategory-7 ItemSlot-",
+"chance": 0.34,
+"hits": 6,
+"kills": 1755
+},
+{
+"item": 53457,
+"name": "Exceptional Haruspex's Dynaweave Boots Armor Light Armor Fee",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 52119,
+"name": "Barbarian's Omnigroove Strengthener Gear ItemCategory-7 Item",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 53164,
+"name": "Warlock's Superthread Strengthener Gear ItemCategory-7 ItemS",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 52104,
+"name": "Barbarian's Electroplate Stompers Armor Heavy Armor Feet 50 ",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 52659,
+"name": "Exceptional Inoculator's Electrotrace Neural Transmitter Gea",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 52926,
+"name": "Exceptional Pursuant's Hypertrace Leggings Armor Medium Armo",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 53425,
+"name": "Haruspex's Manawarp Feelers Armor Light Armor Hands 50 50 0.",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 52123,
+"name": "Exceptional Barbarian's Electroplate Shin Guards Armor Heavy",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 52366,
+"name": "Technomancer's Chrysalite Helmet Armor Heavy Armor Head 50 5",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 31635,
+"name": "Long Fence (Granok) Housing Housing n/a 10 10 0.28% (5/1755)",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 53167,
+"name": "Warlock's Biowave Uniform Armor Light Armor Chest 50 50 0.28",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 52376,
+"name": "Technomancer's Eldanplate Overpants Armor Heavy Armor Legs 5",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 52654,
+"name": "Exceptional Inoculator's Electrotrace Walkers Armor Medium A",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 52670,
+"name": "Exceptional Inoculator's Manafiber Neural Transmitter Gear I",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 53156,
+"name": "Warlock's Superthread Uniform Armor Light Armor Chest 50 50 ",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 52641,
+"name": "Inoculator's Manafiber Visor Armor Medium Armor Head 50 50 0",
+"chance": 0.28,
+"hits": 5,
+"kills": 1755
+},
+{
+"item": 41205,
+"name": "Tempest Force Laser Sight Gear ItemCategory-7 ItemSlot-7 50 ",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 52389,
+"name": "Exceptional Technomancer's Chrysalite Shouldergear Armor Hea",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 52645,
+"name": "Inoculator's Manafiber Kinetic Web Gear ItemCategory-7 Shiel",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 52933,
+"name": "Exceptional Pursuant's Hypertrace Strengthener Gear ItemCate",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 52894,
+"name": "Pursuant's Protomesh Brim Armor Medium Armor Head 50 50 0.23",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 52633,
+"name": "Inoculator's Electrotrace Grips Armor Medium Armor Hands 50 ",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 20595,
+"name": "Garden Tier 2 FABkit Housing Housing n/a 20 20 0.23% (4/1755",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 53194,
+"name": "Exceptional Warlock's Biowave Hands Armor Light Armor Hands ",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 30811,
+"name": "Hooded Stove (Large) Housing Housing n/a 26 26 0.23% (4/1755",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 52899,
+"name": "Pursuant's Protomesh Target Link Gear ItemCategory-7 ItemSlo",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 53173,
+"name": "Warlock's Biowave Energy Field Gear ItemCategory-7 Shields 5",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 52124,
+"name": "Exceptional Barbarian's Electroplate Helm Armor Heavy Armor ",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 52640,
+"name": "Inoculator's Manafiber Legwraps Armor Medium Armor Legs 50 5",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 29591,
+"name": "Sign of Earth - Eldan Crafting Runecrafting n/a 45 45 0.23% ",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 53170,
+"name": "Warlock's Biowave Amice Armor Light Armor Shoulder 50 50 0.2",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 52113,
+"name": "Barbarian's Omnigroove Helm Armor Heavy Armor Head 50 50 0.2",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 52160,
+"name": "Remarkable Barbarian's Omnigroove Wargloves Armor Heavy Armo",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 14407,
+"name": "Eldan Power Fragment Path Settler n/a 0 44 0.23% (4/1755)",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 52394,
+"name": "Exceptional Technomancer's Chrysalite Enlarger Gear ItemCate",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 52662,
+"name": "Exceptional Inoculator's Manafiber Legwraps Armor Medium Arm",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 52401,
+"name": "Exceptional Technomancer's Eldanplate Boots Armor Heavy Armo",
+"chance": 0.23,
+"hits": 4,
+"kills": 1755
+},
+{
+"item": 21551,
+"name": "Logic Banner (Pell) Housing Housing n/a 35 35 0.17% (3/1755)",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52393,
+"name": "Exceptional Technomancer's Chrysalite Suppressor Gear ItemCa",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52650,
+"name": "Exceptional Inoculator's Electrotrace Vest Armor Medium Armo",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52390,
+"name": "Exceptional Technomancer's Chrysalite Boots Armor Heavy Armo",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 29318,
+"name": "Sign of Water - Major Crafting Runecrafting n/a 35 35 0.17% ",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 53160,
+"name": "Warlock's Superthread Sandstriders Armor Light Armor Feet 50",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 53448,
+"name": "Exceptional Haruspex's Manawarp Wave Field Gear ItemCategory",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52382,
+"name": "Technomancer's Eldanplate Suppressor Gear ItemCategory-7 Ite",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 41112,
+"name": "Torine Deathbringer Leggings Armor Light Armor Legs 50 78 0.",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 53440,
+"name": "Haruspex's Dynaweave Vial Gear ItemCategory-7 Augment 50 50 ",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52371,
+"name": "Technomancer's Chrysalite Suppressor Gear ItemCategory-7 Ite",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52137,
+"name": "Exceptional Barbarian's Omnigroove Stompers Armor Heavy Armo",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 53420,
+"name": "Haruspex's Manawarp Shawl Armor Light Armor Chest 50 50 0.17",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 15919,
+"name": "Tri-Horn Pillar (Draken) Housing Housing n/a 18 18 0.17% (3/",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 53192,
+"name": "Exceptional Warlock's Biowave Amice Armor Light Armor Should",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52365,
+"name": "Technomancer's Chrysalite Overpants Armor Heavy Armor Legs 5",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 31520,
+"name": "Copper Sipper (Chua) Housing Housing n/a 10 10 0.17% (3/1755",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 30584,
+"name": "Display Case (Scroll, Skull, Horn) Housing Housing n/a 1 1 0",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 53456,
+"name": "Exceptional Haruspex's Dynaweave Shoulder Pads Armor Light A",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52403,
+"name": "Exceptional Technomancer's Eldanplate Energy Field Gear Item",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52646,
+"name": "Inoculator's Manafiber Booster Gear ItemCategory-7 ItemSlot-",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 41105,
+"name": "Torine Lifecaller Epaulets Armor Light Armor Shoulder 50 78 ",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52922,
+"name": "Exceptional Pursuant's Protomesh Strengthener Gear ItemCateg",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 53459,
+"name": "Exceptional Haruspex's Dynaweave Wave Field Gear ItemCategor",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 20641,
+"name": "Garden Tier 3 FABkit Housing Housing n/a 30 30 0.17% (3/1755",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 53174,
+"name": "Warlock's Biowave Extended Mag Gear ItemCategory-7 ItemSlot-",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52114,
+"name": "Barbarian's Omnigroove Shouldergear Armor Heavy Armor Should",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52921,
+"name": "Exceptional Pursuant's Protomesh Target Link Gear ItemCatego",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52927,
+"name": "Exceptional Pursuant's Hypertrace Brim Armor Medium Armor He",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52907,
+"name": "Pursuant's Hypertrace Cleats Armor Medium Armor Feet 50 50 0",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52378,
+"name": "Technomancer's Eldanplate Shouldergear Armor Heavy Armor Sho",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 29319,
+"name": "Sign of Water - Eldan Crafting Runecrafting n/a 45 45 0.17% ",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52136,
+"name": "Exceptional Barbarian's Omnigroove Shouldergear Armor Heavy ",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52648,
+"name": "Inoculator's Manafiber Neural Transmitter Gear ItemCategory-",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52381,
+"name": "Technomancer's Eldanplate Energy Field Gear ItemCategory-7 S",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 41200,
+"name": "Frozen Corrupter Agony Aegis Gear ItemCategory-7 Shields 50 ",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52130,
+"name": "Exceptional Barbarian's Electroplate Strengthener Gear ItemC",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 15873,
+"name": "Red Shop Awning Housing Housing n/a 10 10 0.17% (3/1755)",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52916,
+"name": "Exceptional Pursuant's Protomesh Brim Armor Medium Armor Hea",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 29595,
+"name": "Sign of Fusion - Eldan Crafting Runecrafting n/a 45 45 0.17%",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52896,
+"name": "Pursuant's Protomesh Cleats Armor Medium Armor Feet 50 50 0.",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 53422,
+"name": "Haruspex's Manawarp Mask Armor Light Armor Head 50 50 0.17% ",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 53166,
+"name": "Warlock's Jeweled Firearms Weapon Weapon - Pistols Primary W",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 53421,
+"name": "Haruspex's Manawarp Stockings Armor Light Armor Legs 50 50 0",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 53191,
+"name": "Exceptional Warlock's Biowave Headcover Armor Light Armor He",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 53157,
+"name": "Warlock's Superthread Flexipants Armor Light Armor Legs 50 5",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 21789,
+"name": "Chua-Tech Loading Arm Housing Housing n/a 1 1 0.17% (3/1755)",
+"chance": 0.17,
+"hits": 3,
+"kills": 1755
+},
+{
+"item": 52902,
+"name": "Pursuant's Jeweled Hooks Weapon Weapon - Claws Primary Weapo",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 34486,
+"name": "Shadow Gorge Fragment Crafting Crafting Supplies n/a 50 50 0",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52138,
+"name": "Exceptional Barbarian's Omnigroove Wargloves Armor Heavy Arm",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 15908,
+"name": "Portrait of a Woman Housing Housing n/a 41 41 0.11% (2/1755)",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52948,
+"name": "Remarkable Pursuant's Hypertrace Leggings Armor Medium Armor",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 14423,
+"name": "Annihilite Ingot Path Settler n/a 0 44 0.11% (2/1755)",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 41227,
+"name": "Tragg's Vaguely Legal Palm Pads Armor Light Armor Hands 50 6",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 53432,
+"name": "Haruspex's Dynaweave Stockings Armor Light Armor Legs 50 50 ",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 22015,
+"name": "Fancy Bow Tie Housing Housing n/a 50 50 0.11% (2/1755)",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 53430,
+"name": "Haruspex's Jeweled Astralblade Weapon Weapon - Psyblade Prim",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52125,
+"name": "Exceptional Barbarian's Electroplate Shouldergear Armor Heav",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 53451,
+"name": "Exceptional Haruspex's Manawarp Vial Gear ItemCategory-7 Aug",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 21728,
+"name": "Aurin Wardrobe Housing Housing n/a 16 16 0.11% (2/1755)",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 21381,
+"name": "Leafy Bramble (Green) Housing Housing n/a 15 15 0.11% (2/175",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52655,
+"name": "Exceptional Inoculator's Electrotrace Grips Armor Medium Arm",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 29587,
+"name": "Sign of Life - Eldan Crafting Runecrafting n/a 45 45 0.11% (",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 21894,
+"name": "Underbit Chest (Falkrin) Housing Housing n/a 20 20 0.11% (2/",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52649,
+"name": "Inoculator's Decorated Zapinators Weapon Weapon - Paddles Pr",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 53159,
+"name": "Warlock's Superthread Amice Armor Light Armor Shoulder 50 50",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 41206,
+"name": "Tempest Force Chemogrip Gear ItemCategory-7 ItemSlot-7 50 68",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 53443,
+"name": "Exceptional Haruspex's Manawarp Stockings Armor Light Armor ",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52903,
+"name": "Pursuant's Hypertrace Overshirt Armor Medium Armor Chest 50 ",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 31388,
+"name": "Protostar Hazard Training Course FABkit Housing Housing n/a ",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52103,
+"name": "Barbarian's Electroplate Shouldergear Armor Heavy Armor Shou",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 21802,
+"name": "Plushie (Olive Garr) Housing Housing n/a 1 1 0.11% (2/1755)",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 41233,
+"name": "Epitaph-Engraved Boots Armor Medium Armor Feet 50 68 0.11% (",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 34478,
+"name": "Crystallize Fragment Crafting Crafting Supplies n/a 48 48 0.",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52121,
+"name": "Barbarian's Decorated Powersword Weapon Weapon - Greatsword ",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52910,
+"name": "Pursuant's Hypertrace Target Link Gear ItemCategory-7 ItemSl",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52913,
+"name": "Pursuant's Decorated Hooks Weapon Weapon - Claws Primary Wea",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52644,
+"name": "Inoculator's Manafiber Grips Armor Medium Armor Hands 50 50 ",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52373,
+"name": "Technomancer's Chrysalite Regulator Gear ItemCategory-7 Augm",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52405,
+"name": "Exceptional Technomancer's Eldanplate Enlarger Gear ItemCate",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52368,
+"name": "Technomancer's Chrysalite Boots Armor Heavy Armor Feet 50 50",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 53455,
+"name": "Exceptional Haruspex's Dynaweave Mask Armor Light Armor Head",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 53189,
+"name": "Exceptional Warlock's Biowave Uniform Armor Light Armor Ches",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 15355,
+"name": "Bulrush (Sienna) Housing Housing n/a 5 5 0.11% (2/1755)",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 53161,
+"name": "Warlock's Superthread Hands Armor Light Armor Hands 50 50 0.",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52945,
+"name": "Remarkable Pursuant's Protomesh Governor Gear ItemCategory-7",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 20610,
+"name": "Thicket Tier 2 FABkit Housing Housing n/a 20 20 0.11% (2/175",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 31398,
+"name": "Meditation Spot FABkit Housing Housing n/a 50 50 0.11% (2/17",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52643,
+"name": "Inoculator's Manafiber Walkers Armor Medium Armor Feet 50 50",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52375,
+"name": "Technomancer's Eldanplate Uniform Armor Heavy Armor Chest 50",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52126,
+"name": "Exceptional Barbarian's Electroplate Stompers Armor Heavy Ar",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52100,
+"name": "Barbarian's Electroplate Chestpiece Armor Heavy Armor Chest ",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 41072,
+"name": "Mutable Exanite Morphic Field Gear ItemCategory-7 Shields 50",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52112,
+"name": "Barbarian's Omnigroove Shin Guards Armor Heavy Armor Legs 50",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 53180,
+"name": "Exceptional Warlock's Superthread Headcover Armor Light Armo",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52657,
+"name": "Exceptional Inoculator's Electrotrace Booster Gear ItemCateg",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52924,
+"name": "Exceptional Pursuant's Jeweled Hooks Weapon Weapon - Claws P",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52120,
+"name": "Barbarian's Omnigroove Valve Gear ItemCategory-7 Augment 50 ",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 53453,
+"name": "Exceptional Haruspex's Dynaweave Shawl Armor Light Armor Che",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52406,
+"name": "Exceptional Technomancer's Eldanplate Regulator Gear ItemCat",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52377,
+"name": "Technomancer's Eldanplate Helmet Armor Heavy Armor Head 50 5",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 53196,
+"name": "Exceptional Warlock's Biowave Extended Mag Gear ItemCategory",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 52663,
+"name": "Exceptional Inoculator's Manafiber Visor Armor Medium Armor ",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 53178,
+"name": "Exceptional Warlock's Superthread Uniform Armor Light Armor ",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 21476,
+"name": "Witch's Brew Housing Housing n/a 10 10 0.11% (2/1755)",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 31554,
+"name": "Wall Divider (Faded) Housing Housing n/a 35 35 0.11% (2/1755",
+"chance": 0.11,
+"hits": 2,
+"kills": 1755
+},
+{
+"item": 15261,
+"name": "Flag (Dagun) Housing Housing n/a 40 40 0.06% (1/1755)",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 52628,
+"name": "Inoculator's Electrotrace Vest Armor Medium Armor Chest 50 5",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 52944,
+"name": "Remarkable Pursuant's Protomesh Strengthener Gear ItemCatego",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 53446,
+"name": "Exceptional Haruspex's Manawarp Boots Armor Light Armor Feet",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 31658,
+"name": "Exile Sentry Tower Housing Housing n/a 49 49 0.06% (1/1755)",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 53163,
+"name": "Warlock's Superthread Extended Mag Gear ItemCategory-7 ItemS",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 52384,
+"name": "Technomancer's Eldanplate Regulator Gear ItemCategory-7 Augm",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 30600,
+"name": "Heart Collection Side Table Housing Housing n/a 45 45 0.06% ",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 52914,
+"name": "Exceptional Pursuant's Protomesh Overshirt Armor Medium Armo",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 42240,
+"name": "Elegant Gate (Aurin) Housing Housing n/a 50 50 0.06% (1/1755",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 20571,
+"name": "Spaceship FABkit Housing Housing n/a 35 35 0.06% (1/1755)",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 30625,
+"name": "Aurin Style Bookcase Housing Housing n/a 15 15 0.06% (1/1755",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 53429,
+"name": "Haruspex's Manawarp Vial Gear ItemCategory-7 Augment 50 50 0",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 52399,
+"name": "Exceptional Technomancer's Eldanplate Helmet Armor Heavy Arm",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 20648,
+"name": "Mineral Deposit Tier 3 FABkit Housing Housing n/a 30 30 0.06",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 41201,
+"name": "Glaciax's Ice Crystal Disruptor Gear ItemCategory-7 Shields ",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 52652,
+"name": "Exceptional Inoculator's Electrotrace Visor Armor Medium Arm",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 41087,
+"name": "Grim-Grim Doomcaller Jacket Armor Medium Armor Chest 50 78 0",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 52398,
+"name": "Exceptional Technomancer's Eldanplate Overpants Armor Heavy ",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 21524,
+"name": "Torn Banner (Pell-Tech) Housing Housing n/a 45 45 0.06% (1/1",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 21659,
+"name": "Barnacle Willow Housing Housing n/a 1 1 0.06% (1/1755)",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 44854,
+"name": "Strain Test Tube Housing Housing n/a 1 1 0.06% (1/1755)",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 52129,
+"name": "Exceptional Barbarian's Electroplate Handgrip Gear ItemCateg",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+},
+{
+"item": 52118,
+"name": "Barbarian's Omnigroove Handgrip Gear ItemCategory-7 ItemSlot",
+"chance": 0.06,
+"hits": 1,
+"kills": 1755
+}
+],
+"samples": 1755,
+"url": "http://www.jabbithole.com/npcs/scorchwing-71"
+},
+"Gargantua": {
+"zones": "The Defile",
+"level": [
+50,
+50
+],
+"drops": [
+{
+"item": 8397,
+"name": "Fluorescent Leaf Miscellaneous Junk n/a 1 50 6.91% (28/405)",
+"chance": 6.91,
+"hits": 28,
+"kills": 405
+},
+{
+"item": 48659,
+"name": "Noxious Rotslicers Weapon Weapon - Claws Primary Weapon 50 6",
+"chance": 4.69,
+"hits": 19,
+"kills": 405
+},
+{
+"item": 48645,
+"name": "Noxious Phage-Launcher Weapon Weapon - Heavy Gun Primary Wea",
+"chance": 4.44,
+"hits": 18,
+"kills": 405
+},
+{
+"item": 48647,
+"name": "Noxious Rotslicers Weapon Weapon - Claws Primary Weapon 50 6",
+"chance": 3.95,
+"hits": 16,
+"kills": 405
+},
+{
+"item": 48644,
+"name": "Noxious Strainblade Weapon Weapon - Greatsword Primary Weapo",
+"chance": 3.7,
+"hits": 15,
+"kills": 405
+},
+{
+"item": 29609,
+"name": "Rune Fragment Crafting Crafting Supplies n/a 10 10 3.46% (14",
+"chance": 3.46,
+"hits": 14,
+"kills": 405
+},
+{
+"item": 48653,
+"name": "Festering Rotslicers Weapon Weapon - Claws Primary Weapon 50",
+"chance": 3.46,
+"hits": 14,
+"kills": 405
+},
+{
+"item": 48648,
+"name": "Noxious Miasma Blasters Weapon Weapon - Pistols Primary Weap",
+"chance": 3.21,
+"hits": 13,
+"kills": 405
+},
+{
+"item": 48655,
+"name": "Festering Blightstar Weapon Weapon - Psyblade Primary Weapon",
+"chance": 2.96,
+"hits": 12,
+"kills": 405
+},
+{
+"item": 48649,
+"name": "Noxious Blightstar Weapon Weapon - Psyblade Primary Weapon 5",
+"chance": 2.96,
+"hits": 12,
+"kills": 405
+},
+{
+"item": 48652,
+"name": "Festering Plague-Injectors Weapon Weapon - Paddles Primary W",
+"chance": 2.96,
+"hits": 12,
+"kills": 405
+},
+{
+"item": 48654,
+"name": "Festering Miasma Blasters Weapon Weapon - Pistols Primary We",
+"chance": 2.72,
+"hits": 11,
+"kills": 405
+},
+{
+"item": 48650,
+"name": "Festering Strainblade Weapon Weapon - Greatsword Primary Wea",
+"chance": 2.72,
+"hits": 11,
+"kills": 405
+},
+{
+"item": 29322,
+"name": "Sign of Life - Major Crafting Runecrafting n/a 35 35 2.72% (",
+"chance": 2.72,
+"hits": 11,
+"kills": 405
+},
+{
+"item": 52111,
+"name": "Barbarian's Omnigroove Chestpiece Armor Heavy Armor Chest 50",
+"chance": 2.47,
+"hits": 10,
+"kills": 405
+},
+{
+"item": 48663,
+"name": "Festering Phage-Launcher Weapon Weapon - Heavy Gun Primary W",
+"chance": 1.98,
+"hits": 8,
+"kills": 405
+},
+{
+"item": 48651,
+"name": "Festering Phage-Launcher Weapon Weapon - Heavy Gun Primary W",
+"chance": 1.98,
+"hits": 8,
+"kills": 405
+},
+{
+"item": 15319,
+"name": "Hitching Post Housing Housing n/a 8 8 1.73% (7/405)",
+"chance": 1.73,
+"hits": 7,
+"kills": 405
+},
+{
+"item": 48662,
+"name": "Festering Strainblade Weapon Weapon - Greatsword Primary Wea",
+"chance": 1.48,
+"hits": 6,
+"kills": 405
+},
+{
+"item": 48646,
+"name": "Noxious Plague-Injectors Weapon Weapon - Paddles Primary Wea",
+"chance": 1.48,
+"hits": 6,
+"kills": 405
+},
+{
+"item": 52100,
+"name": "Barbarian's Electroplate Chestpiece Armor Heavy Armor Chest ",
+"chance": 1.23,
+"hits": 5,
+"kills": 405
+},
+{
+"item": 48656,
+"name": "Noxious Strainblade Weapon Weapon - Greatsword Primary Weapo",
+"chance": 1.23,
+"hits": 5,
+"kills": 405
+},
+{
+"item": 29613,
+"name": "Eldan Rune Fragment Crafting Crafting Supplies n/a 45 45 1.2",
+"chance": 1.23,
+"hits": 5,
+"kills": 405
+},
+{
+"item": 29612,
+"name": "Armor Rune Fragment Crafting Crafting Supplies n/a 30 30 1.2",
+"chance": 1.23,
+"hits": 5,
+"kills": 405
+},
+{
+"item": 29321,
+"name": "Sign of Life - Greater Crafting Runecrafting n/a 25 25 1.23%",
+"chance": 1.23,
+"hits": 5,
+"kills": 405
+},
+{
+"item": 48657,
+"name": "Noxious Phage-Launcher Weapon Weapon - Heavy Gun Primary Wea",
+"chance": 0.99,
+"hits": 4,
+"kills": 405
+},
+{
+"item": 29588,
+"name": "Sign of Earth Crafting Runecrafting n/a 15 15 0.99% (4/405)",
+"chance": 0.99,
+"hits": 4,
+"kills": 405
+},
+{
+"item": 48664,
+"name": "Festering Plague-Injectors Weapon Weapon - Paddles Primary W",
+"chance": 0.99,
+"hits": 4,
+"kills": 405
+},
+{
+"item": 29596,
+"name": "Sign of Fire Crafting Runecrafting n/a 15 15 0.74% (3/405)",
+"chance": 0.74,
+"hits": 3,
+"kills": 405
+},
+{
+"item": 52908,
+"name": "Pursuant's Hypertrace Hands Armor Medium Armor Hands 50 50 0",
+"chance": 0.74,
+"hits": 3,
+"kills": 405
+},
+{
+"item": 53166,
+"name": "Warlock's Jeweled Firearms Weapon Weapon - Pistols Primary W",
+"chance": 0.74,
+"hits": 3,
+"kills": 405
+},
+{
+"item": 53169,
+"name": "Warlock's Biowave Headcover Armor Light Armor Head 50 50 0.7",
+"chance": 0.74,
+"hits": 3,
+"kills": 405
+},
+{
+"item": 29587,
+"name": "Sign of Life - Eldan Crafting Runecrafting n/a 45 45 0.74% (",
+"chance": 0.74,
+"hits": 3,
+"kills": 405
+},
+{
+"item": 52893,
+"name": "Pursuant's Protomesh Leggings Armor Medium Armor Legs 50 50 ",
+"chance": 0.74,
+"hits": 3,
+"kills": 405
+},
+{
+"item": 52919,
+"name": "Exceptional Pursuant's Protomesh Hands Armor Medium Armor Ha",
+"chance": 0.74,
+"hits": 3,
+"kills": 405
+},
+{
+"item": 53179,
+"name": "Exceptional Warlock's Superthread Flexipants Armor Light Arm",
+"chance": 0.74,
+"hits": 3,
+"kills": 405
+},
+{
+"item": 41237,
+"name": "Bullet-Riddled Waders Armor Light Armor Feet 50 68 0.74% (3/",
+"chance": 0.74,
+"hits": 3,
+"kills": 405
+},
+{
+"item": 48665,
+"name": "Festering Rotslicers Weapon Weapon - Claws Primary Weapon 50",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 52101,
+"name": "Barbarian's Electroplate Shin Guards Armor Heavy Armor Legs ",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 29601,
+"name": "Sign of Logic - Greater Crafting Runecrafting n/a 25 25 0.49",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 53164,
+"name": "Warlock's Superthread Strengthener Gear ItemCategory-7 ItemS",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 44295,
+"name": "Augmented Rune Fragment Crafting Crafting Supplies n/a 35 35",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 52132,
+"name": "Exceptional Barbarian's Jeweled Powersword Weapon Weapon - G",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 48658,
+"name": "Noxious Plague-Injectors Weapon Weapon - Paddles Primary Wea",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 53421,
+"name": "Haruspex's Manawarp Stockings Armor Light Armor Legs 50 50 0",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 52905,
+"name": "Pursuant's Hypertrace Brim Armor Medium Armor Head 50 50 0.4",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 52385,
+"name": "Technomancer's Decorated Heavy Gun Weapon Weapon - Heavy Gun",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 41212,
+"name": "Mister Fuzion's Futuristic Firearms Weapon Weapon - Pistols ",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 52384,
+"name": "Technomancer's Eldanplate Regulator Gear ItemCategory-7 Augm",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 29602,
+"name": "Sign of Logic - Major Crafting Runecrafting n/a 35 35 0.49% ",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 48661,
+"name": "Noxious Blightstar Weapon Weapon - Psyblade Primary Weapon 5",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 29611,
+"name": "Intricate Rune Fragment Crafting Crafting Supplies n/a 30 30",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 29606,
+"name": "Sign of Air - Major Crafting Runecrafting n/a 35 35 0.49% (2",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 29604,
+"name": "Sign of Air Crafting Runecrafting n/a 15 15 0.49% (2/405)",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 20601,
+"name": "Mineral Deposit Tier 2 FABkit Housing Housing n/a 20 20 0.49",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 52669,
+"name": "Exceptional Inoculator's Manafiber Magnifier Gear ItemCatego",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 52904,
+"name": "Pursuant's Hypertrace Leggings Armor Medium Armor Legs 50 50",
+"chance": 0.49,
+"hits": 2,
+"kills": 405
+},
+{
+"item": 52143,
+"name": "Exceptional Barbarian's Decorated Powersword Weapon Weapon -",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 53455,
+"name": "Exceptional Haruspex's Dynaweave Mask Armor Light Armor Head",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52906,
+"name": "Pursuant's Hypertrace Shoulderwraps Armor Medium Armor Shoul",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52636,
+"name": "Inoculator's Electrotrace Magnifier Gear ItemCategory-7 Item",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 53438,
+"name": "Haruspex's Dynaweave Assist Module Gear ItemCategory-7 ItemS",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 15355,
+"name": "Bulrush (Sienna) Housing Housing n/a 5 5 0.25% (1/405)",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 53184,
+"name": "Exceptional Warlock's Superthread Energy Field Gear ItemCate",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52682,
+"name": "Remarkable Inoculator's Jeweled Zapinators Weapon Weapon - P",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52892,
+"name": "Pursuant's Protomesh Overshirt Armor Medium Armor Chest 50 5",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52915,
+"name": "Exceptional Pursuant's Protomesh Leggings Armor Medium Armor",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52647,
+"name": "Inoculator's Manafiber Magnifier Gear ItemCategory-7 ItemSlo",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52641,
+"name": "Inoculator's Manafiber Visor Armor Medium Armor Head 50 50 0",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52934,
+"name": "Exceptional Pursuant's Hypertrace Governor Gear ItemCategory",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 31630,
+"name": "Tiki Torch Housing Housing n/a 46 46 0.25% (1/405)",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52900,
+"name": "Pursuant's Protomesh Strengthener Gear ItemCategory-7 ItemSl",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 53170,
+"name": "Warlock's Biowave Amice Armor Light Armor Shoulder 50 50 0.2",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 21654,
+"name": "Eldan Sentinel, Left Housing Housing n/a 1 1 0.25% (1/405)",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52105,
+"name": "Barbarian's Electroplate Wargloves Armor Heavy Armor Hands 5",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52138,
+"name": "Exceptional Barbarian's Omnigroove Wargloves Armor Heavy Arm",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 15301,
+"name": "Grass Patch Housing Housing n/a 5 5 0.25% (1/405)",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52655,
+"name": "Exceptional Inoculator's Electrotrace Grips Armor Medium Arm",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 53176,
+"name": "Warlock's Biowave Vial Gear ItemCategory-7 Augment 50 50 0.2",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 53425,
+"name": "Haruspex's Manawarp Feelers Armor Light Armor Hands 50 50 0.",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 53448,
+"name": "Exceptional Haruspex's Manawarp Wave Field Gear ItemCategory",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 48660,
+"name": "Noxious Miasma Blasters Weapon Weapon - Pistols Primary Weap",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 53171,
+"name": "Warlock's Biowave Sandstriders Armor Light Armor Feet 50 50 ",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 53173,
+"name": "Warlock's Biowave Energy Field Gear ItemCategory-7 Shields 5",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52370,
+"name": "Technomancer's Chrysalite Energy Field Gear ItemCategory-7 S",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 41213,
+"name": "Rocktown Rolling Gyroblade Weapon Weapon - Psyblade Primary ",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 15883,
+"name": "Narrow Chimney Housing Housing n/a 18 18 0.25% (1/405)",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 21727,
+"name": "Bedside Dresser (Aurin) Housing Housing n/a 16 16 0.25% (1/4",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 30838,
+"name": "Star-Shaped Cobweb Housing Housing n/a 1 1 0.25% (1/405)",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 41198,
+"name": "Lord Hoarfrost's Glacial Deflector Gear ItemCategory-7 Shiel",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52372,
+"name": "Technomancer's Chrysalite Enlarger Gear ItemCategory-7 ItemS",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 20681,
+"name": "Mineral Deposit Tier 4 FABkit Housing Housing n/a 40 40 0.25",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 30620,
+"name": "Nautical Sofa Housing Housing n/a 48 48 0.25% (1/405)",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 30780,
+"name": "Light (Gaming) Housing Housing n/a 10 10 0.25% (1/405)",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 41113,
+"name": "Torine Lifecaller Leggings Armor Light Armor Legs 50 78 0.25",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 29316,
+"name": "Sign of Water Crafting Runecrafting n/a 15 15 0.25% (1/405)",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52110,
+"name": "Barbarian's Jeweled Powersword Weapon Weapon - Greatsword Pr",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52103,
+"name": "Barbarian's Electroplate Shouldergear Armor Heavy Armor Shou",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 21563,
+"name": "Exile Bed Housing Housing n/a 25 25 0.25% (1/405)",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 29595,
+"name": "Sign of Fusion - Eldan Crafting Runecrafting n/a 45 45 0.25%",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52646,
+"name": "Inoculator's Manafiber Booster Gear ItemCategory-7 ItemSlot-",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 21637,
+"name": "Treadmill Housing Housing n/a 48 48 0.25% (1/405)",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 48666,
+"name": "Festering Miasma Blasters Weapon Weapon - Pistols Primary We",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 15271,
+"name": "Spotlight Housing Housing n/a 16 16 0.25% (1/405)",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 53167,
+"name": "Warlock's Biowave Uniform Armor Light Armor Chest 50 50 0.25",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 52381,
+"name": "Technomancer's Eldanplate Energy Field Gear ItemCategory-7 S",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+},
+{
+"item": 31551,
+"name": "Triple Wall Divider (Metal) Housing Housing n/a 42 42 0.25% ",
+"chance": 0.25,
+"hits": 1,
+"kills": 405
+}
+],
+"samples": 405,
+"url": "http://www.jabbithole.com/npcs/gargantua-155"
+},
+"King Honeygrave": {
+"zones": "Auroria",
+"level": [
+19,
+19
+],
+"drops": [
+{
+"item": 29604,
+"name": "Sign of Air Crafting Runecrafting n/a 15 15 22.97% (34/148)",
+"chance": 22.97,
+"hits": 34,
+"kills": 148
+},
+{
+"item": 29609,
+"name": "Rune Fragment Crafting Crafting Supplies n/a 10 10 12.84% (1",
+"chance": 12.84,
+"hits": 19,
+"kills": 148
+},
+{
+"item": 7511,
+"name": "Punctured Buzzbing Gland Miscellaneous Junk n/a 1 20 10.81% ",
+"chance": 10.81,
+"hits": 16,
+"kills": 148
+},
+{
+"item": 43006,
+"name": "Shattered Thorax Crafting Survivalist n/a 1 15 8.78% (13/148",
+"chance": 8.78,
+"hits": 13,
+"kills": 148
+},
+{
+"item": 14287,
+"name": "Slimy Bug Meat Crafting Survivalist n/a 1 10 6.76% (10/148)",
+"chance": 6.76,
+"hits": 10,
+"kills": 148
+},
+{
+"item": 29588,
+"name": "Sign of Earth Crafting Runecrafting n/a 15 15 5.41% (8/148)",
+"chance": 5.41,
+"hits": 8,
+"kills": 148
+},
+{
+"item": 29611,
+"name": "Intricate Rune Fragment Crafting Crafting Supplies n/a 30 30",
+"chance": 4.05,
+"hits": 6,
+"kills": 148
+},
+{
+"item": 29612,
+"name": "Armor Rune Fragment Crafting Crafting Supplies n/a 30 30 3.3",
+"chance": 3.38,
+"hits": 5,
+"kills": 148
+},
+{
+"item": 12908,
+"name": "Buzzbing Thorax Crafting Survivalist n/a 1 15 2.7% (4/148)",
+"chance": 2.7,
+"hits": 4,
+"kills": 148
+},
+{
+"item": 18776,
+"name": "Recipe: Honeywheat-Glazed Buzzbing Schematic ItemCategory-66",
+"chance": 2.03,
+"hits": 3,
+"kills": 148
+},
+{
+"item": 29596,
+"name": "Sign of Fire Crafting Runecrafting n/a 15 15 2.03% (3/148)",
+"chance": 2.03,
+"hits": 3,
+"kills": 148
+},
+{
+"item": 40246,
+"name": "Eldritch Epaulets Armor Light Armor Shoulder 17 21 2.03% (3/",
+"chance": 2.03,
+"hits": 3,
+"kills": 148
+},
+{
+"item": 41032,
+"name": "Strange Pell System Gear ItemCategory-7 ItemSlot-8 22 24 2.0",
+"chance": 2.03,
+"hits": 3,
+"kills": 148
+},
+{
+"item": 34711,
+"name": "Avoidance Mastery AMP AMP Skill AMP n/a 0 14 1.35% (2/148)",
+"chance": 1.35,
+"hits": 2,
+"kills": 148
+},
+{
+"item": 41030,
+"name": "Exanite Particulate Field Gear ItemCategory-7 Shields 27 29 ",
+"chance": 1.35,
+"hits": 2,
+"kills": 148
+},
+{
+"item": 41036,
+"name": "Patinated Pell Casing Gear ItemCategory-7 Augment 22 24 1.35",
+"chance": 1.35,
+"hits": 2,
+"kills": 148
+},
+{
+"item": 29589,
+"name": "Sign of Earth - Greater Crafting Runecrafting n/a 25 25 1.35",
+"chance": 1.35,
+"hits": 2,
+"kills": 148
+},
+{
+"item": 20648,
+"name": "Mineral Deposit Tier 3 FABkit Housing Housing n/a 30 30 1.35",
+"chance": 1.35,
+"hits": 2,
+"kills": 148
+},
+{
+"item": 14404,
+"name": "Steel Stem Stalks Path Settler n/a 0 14 1.35% (2/148)",
+"chance": 1.35,
+"hits": 2,
+"kills": 148
+},
+{
+"item": 41029,
+"name": "Exanite Morphic Field Gear ItemCategory-7 Shields 27 29 0.68",
+"chance": 0.68,
+"hits": 1,
+"kills": 148
+},
+{
+"item": 41031,
+"name": "Exanite Mote Aura Gear ItemCategory-7 Shields 27 29 0.68% (1",
+"chance": 0.68,
+"hits": 1,
+"kills": 148
+},
+{
+"item": 29601,
+"name": "Sign of Logic - Greater Crafting Runecrafting n/a 25 25 0.68",
+"chance": 0.68,
+"hits": 1,
+"kills": 148
+},
+{
+"item": 40245,
+"name": "Apocalyptic Epaulets Armor Light Armor Shoulder 17 21 0.68% ",
+"chance": 0.68,
+"hits": 1,
+"kills": 148
+},
+{
+"item": 20552,
+"name": "Flying Saucer FABkit Housing Housing n/a 31 31 0.68% (1/148)",
+"chance": 0.68,
+"hits": 1,
+"kills": 148
+},
+{
+"item": 18639,
+"name": "Buzzbing Meat Crafting Survivalist n/a 1 10 0.68% (1/148)",
+"chance": 0.68,
+"hits": 1,
+"kills": 148
+},
+{
+"item": 36219,
+"name": "Formula: Unstable Grit Boost Schematic ItemCategory-66 n/a 1",
+"chance": 0.68,
+"hits": 1,
+"kills": 148
+},
+{
+"item": 30572,
+"name": "Plushie (Sunfish) Housing Housing n/a 1 1 0.68% (1/148)",
+"chance": 0.68,
+"hits": 1,
+"kills": 148
+},
+{
+"item": 15871,
+"name": "Canopy Housing Housing n/a 10 10 0.68% (1/148)",
+"chance": 0.68,
+"hits": 1,
+"kills": 148
+}
+],
+"samples": 148,
+"url": "http://www.jabbithole.com/npcs/king-honeygrave-6"
+}
+}

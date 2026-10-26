@@ -1,7 +1,13 @@
-"""Generate item_loot for container items whose tooltip states their contents, plus the Boom-Box from Jabbithole.
+"""Generate item_loot for every container item: tooltip rules, archived Jabbithole tables, then best-effort guesses.
 
-Usage: python -I containers.py <items2.txt> <boombox.tsv> <out.sql>
-items2.txt is the dump tool output for Item2 (Id, name, tooltip, family, category, type, quality, generic unlock set).
+Usage: python -I generate_container_loot.py <items2.txt> <boombox.tsv> <out.sql>
+           [<items_class.txt> <contains.json> <categories.txt> <classes.txt> [<items_level.txt> <types.txt> <other_loot.txt>]]
+Client data dumps (scratchpad dump tool): items2.txt Item2 (Id, ItemQualityId, Item2FamilyId, Item2CategoryId, Item2TypeId,
+GenericUnlockSetId, LocalizedTextIdName, LocalizedTextIdTooltip), items_class.txt Item2 (Id, ClassRequired, EquippedSlotFlags,
+Item2CategoryId), items_level.txt Item2 (Id, PowerLevel, RequiredLevel, RequiredItemLevel, Flags, MaxStackCount),
+categories.txt Item2Category (Id, ItemProficiencyId), classes.txt Class (Id, StartingItemProficiencies), types.txt Item2Type
+(Id, ItemSlotId, LocalizedTextId). contains.json comes from jabbithole/scrape_containers.py. other_loot.txt lists container
+item ids that already have item_loot in other files (select distinct id from item_loot where lootGroupId < 1100000000).
 """
 import re
 import sys
@@ -9,6 +15,8 @@ import sys
 items_file, boombox_file, out_file = sys.argv[1:4]
 # optional: <items_class.txt> <contains.json> <categories.txt> <classes.txt> for the archived Jabbithole "Contains" tables
 extra = sys.argv[4:8] if len(sys.argv) >= 8 else None
+# optional: <items_level.txt> <types.txt> <other_loot.txt> for best-effort guesses for everything left
+guess = sys.argv[8:11] if len(sys.argv) >= 11 else None
 
 ITEM = re.compile(r'^Id=(\d+) .*?ItemQualityId=(\d+) Item2FamilyId=(\d+) Item2CategoryId=(\d+) Item2TypeId=(\d+) GenericUnlockSetId=(\d+) '
                   r'LocalizedTextIdName=\d+"(.*?)" LocalizedTextIdTooltip=\d+(?:"(.*?)"?)?\s*$')
@@ -25,6 +33,10 @@ for line in open(items_file, encoding='utf-8', errors='replace'):
 CONTAINER_CATEGORIES = {138, 194}
 CONTAINER_TYPES = {212, 562}
 containers = [i for i in items if i['category'] in CONTAINER_CATEGORIES or i['type'] in CONTAINER_TYPES]
+if guess:
+    # containers other loot files fill (eg: the Revolutionary Rucksacks)
+    other = {int(l) for l in open(guess[2]) if l.strip().isdigit()}
+    containers = [c for c in containers if c['id'] not in other]
 
 def sql_str(s):
     # the importer strips "--" and chokes on braces
@@ -219,6 +231,10 @@ if extra:
         rules.append((nexus_kit, 0, {'bands': band_entries}, 'GUESS: zone survival kit contents for the opener\'s level band (Jabbithole), 3 weighted picks'))
         unmatched.remove(nexus_kit)
 
+if extra and guess:
+    import containers_guess
+    containers_guess.build(items, unmatched, rules, guess[0], guess[1])
+
 # Boom-Box: archived Jabbithole drop counts, items seen fewer than 14 times are unrelated world drops
 boombox = next(i for i in items if i['id'] == 44359)
 entries = []
@@ -229,6 +245,10 @@ for line in open(boombox_file, encoding='utf-8'):
     entries.append((0, int(item_id), int(count), 1, 1, name.replace('&quot;', '"').replace('&#39;', "'").replace('&amp;', '&')))
 # GUESS: Jabbithole counts items, not boxes, so how many prizes a box holds isn't recorded
 rules.append((boombox, 3, entries, 'Jabbithole drop counts (archived), weights are times seen, 3 prizes per box is a guess'))
+# boxes with the Boom-Box tooltip ("This bag is bursting with wondrous prizes!", eg: the Curious Box) share its contents
+for c in [c for c in unmatched if 'bursting with wondrous prizes' in c['tooltip'].lower() and c['id'] != boombox['id']]:
+    rules.append((c, 3, entries, 'GUESS: the Boom-Box contents, it has the Boom-Box tooltip'))
+    unmatched.remove(c)
 
 BASE = 1100000000
 out = []
@@ -238,15 +258,16 @@ out.append('-- (AccountAudit lists containers still without item_loot). minCount
 out.append('-- Amounts marked GUESS have no source.')
 out.append('-- --------------------------------------')
 group_ids = [BASE + n for n in range(len(rules))]
-out.append('DELETE FROM `item_loot` WHERE `lootGroupId` BETWEEN %d AND %d;' % (BASE, BASE + 99999))
-out.append('DELETE FROM `loot_item` WHERE `id` BETWEEN %d AND %d;' % (BASE, BASE + 99999))
-out.append('DELETE FROM `loot_group` WHERE `parentId` BETWEEN %d AND %d;' % (BASE, BASE + 99999))
-out.append('DELETE FROM `loot_group` WHERE `id` BETWEEN %d AND %d;' % (BASE, BASE + 99999))
+out.append('DELETE FROM `item_loot` WHERE `lootGroupId` BETWEEN %d AND %d;' % (BASE, BASE + 999999))
+out.append('DELETE FROM `loot_item` WHERE `id` BETWEEN %d AND %d;' % (BASE, BASE + 999999))
+# groups nest several levels deep, detach them before deleting so the parent key never blocks a delete
+out.append('UPDATE `loot_group` SET `parentId` = NULL WHERE `id` BETWEEN %d AND %d;' % (BASE, BASE + 999999))
+out.append('DELETE FROM `loot_group` WHERE `id` BETWEEN %d AND %d;' % (BASE, BASE + 999999))
 out.append('')
 
 GROUP = ('INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) '
          'VALUES (%d, %s, 100, %d, %d, %d, %d, %s);')
-child_id = BASE + 50000
+child_id = BASE + 100000
 
 def emit_items(group, entries):
     values = ['    (%d, %d, %d, %d, %d, %d, %s)' % (group, typ, sid, weight, mn, mx, sql_str(comment)) for typ, sid, weight, mn, mx, comment in entries]
@@ -255,7 +276,21 @@ def emit_items(group, entries):
 
 for group, (c, picks, entries, source) in zip(group_ids, rules):
     out.append('-- %s: %s' % (c['name'].replace('--', '-'), source.replace('--', '-')))
-    if isinstance(entries, dict) and 'bands' in entries:
+    if isinstance(entries, dict) and 'tree' in entries:
+        def emit_node(node, group_id, parent, label):
+            global child_id
+            condition = node.get('cond', (0, 0))
+            out.append(GROUP % (group_id, parent, node.get('picks', 0), node.get('picks', 0), condition[0], condition[1], sql_str(label)))
+            if parent == 'NULL':
+                out.append('INSERT INTO `item_loot` (`id`, `lootGroupId`, `comment`) VALUES (%d, %d, %s);' % (c['id'], group_id, sql_str(c['name'])))
+            if node.get('items'):
+                emit_items(group_id, node['items'])
+            for child in node.get('children', []):
+                cid = child_id
+                child_id += 1
+                emit_node(child, cid, str(group_id), label)
+        emit_node(entries['tree'], group, 'NULL', c['name'])
+    elif isinstance(entries, dict) and 'bands' in entries:
         # level bands: a child per band above the low level (IsMoreThanLevel 3) holding a child below the high level (IsLessThanLevel 4)
         out.append(GROUP % (group, 'NULL', 0, 0, 0, 0, sql_str(c['name'])))
         out.append('INSERT INTO `item_loot` (`id`, `lootGroupId`, `comment`) VALUES (%d, %d, %s);' % (c['id'], group, sql_str(c['name'])))
