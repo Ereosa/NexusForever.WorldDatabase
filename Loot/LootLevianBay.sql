@@ -15,3 +15,27 @@ INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `m
 	(67701, 0, 29355, 10, 1, 1, 'Soulcore Evocator''s Coif'),
 	(67701, 0, 29356, 10, 1, 1, 'Soulcore Evocator''s Gloves'),
 	(67701, 0, 29357, 10, 1, 1, 'Soulcore Evocator''s Soles');
+
+-- Varmintron and Gopherzoid (GUESSED: the Evocator set from the client items, 10% each)
+DELETE FROM `entity_loot` WHERE `id` = 68206;
+DELETE FROM `loot_item` WHERE `id` = 68206;
+DELETE FROM `loot_group` WHERE `id` = 68206;
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (68206, NULL, 100, 0, 0, 0, 0, 'Varmintron');
+INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (68206, 68206, 'Varmintron');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(68206, 0, 29353, 10, 1, 1, 'Soulcore Evocator''s Raiment'),
+	(68206, 0, 29354, 10, 1, 1, 'Soulcore Evocator''s Leggings'),
+	(68206, 0, 29355, 10, 1, 1, 'Soulcore Evocator''s Coif'),
+	(68206, 0, 29356, 10, 1, 1, 'Soulcore Evocator''s Gloves'),
+	(68206, 0, 29357, 10, 1, 1, 'Soulcore Evocator''s Soles');
+DELETE FROM `entity_loot` WHERE `id` = 68207;
+DELETE FROM `loot_item` WHERE `id` = 68207;
+DELETE FROM `loot_group` WHERE `id` = 68207;
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (68207, NULL, 100, 0, 0, 0, 0, 'Gopherzoid');
+INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (68207, 68207, 'Gopherzoid');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(68207, 0, 29353, 10, 1, 1, 'Soulcore Evocator''s Raiment'),
+	(68207, 0, 29354, 10, 1, 1, 'Soulcore Evocator''s Leggings'),
+	(68207, 0, 29355, 10, 1, 1, 'Soulcore Evocator''s Coif'),
+	(68207, 0, 29356, 10, 1, 1, 'Soulcore Evocator''s Gloves'),
+	(68207, 0, 29357, 10, 1, 1, 'Soulcore Evocator''s Soles');
