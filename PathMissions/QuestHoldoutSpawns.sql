@@ -5,7 +5,7 @@
 -- The number of waves comes from PathSoldierEventWave. Wave sizes are reconstructed, the retail values are server side only.
 -- flags: 1 = boss
 -- --------------------------------------
-DELETE FROM `path_soldier_holdout_spawn` WHERE `pathSoldierEventId` IN (85, 92, 97, 98, 106, 107, 111, 153, 156, 184, 185, 228, 234, 236, 237, 247, 250, 274, 289, 293, 300, 312, 313, 314, 316, 319, 320, 331, 333, 334, 336, 337, 338, 340, 341, 355, 357, 365, 366, 369, 370, 374, 388, 397, 399, 409, 412, 419, 436, 452, 473, 485, 487, 488, 489, 490, 553, 561, 562, 563, 564, 565, 566, 567, 587, 588, 589, 598, 606, 608, 611, 612, 613, 614, 615, 616, 621, 628, 633);
+DELETE FROM `path_soldier_holdout_spawn` WHERE `pathSoldierEventId` IN (85, 92, 97, 98, 106, 107, 111, 153, 156, 184, 185, 228, 234, 236, 237, 247, 250, 270, 274, 289, 293, 300, 312, 313, 314, 316, 319, 320, 331, 333, 334, 336, 337, 338, 340, 341, 355, 357, 365, 366, 369, 370, 374, 388, 397, 399, 409, 412, 419, 436, 445, 452, 473, 485, 487, 488, 489, 490, 553, 561, 562, 563, 564, 565, 566, 567, 571, 587, 588, 589, 598, 606, 608, 611, 612, 613, 614, 615, 616, 621, 628, 633);
 
 INSERT INTO `path_soldier_holdout_spawn` (`pathSoldierEventId`, `waveIndex`, `creatureId`, `count`, `flags`, `distance`, `comment`) VALUES
 	(92, 0, 17974, 1, 0, 0, 'Gallows Departed (Q4023) - Throg Carver'),
@@ -187,6 +187,12 @@ INSERT INTO `path_soldier_holdout_spawn` (`pathSoldierEventId`, `waveIndex`, `cr
 	(452, 2, 40971, 1, 0, 0, 'Blademothers Refuge (Q6371) - Dice(p:Dice)'),
 	(452, 2, 40973, 1, 0, 0, 'Blademothers Refuge (Q6371) - Teeth of Vitara(p:Teeth of Vitara)'),
 	(452, 2, 40978, 1, 1, 0, 'Blademothers Refuge (Q6371) - Daughter of Vitara'),
+	(270, 0, 28950, 2, 0, 0, 'Element of Surprise (Q6471) - Darkspur Safecracker'),
+	(270, 1, 28950, 3, 0, 0, 'Element of Surprise (Q6471) - Darkspur Safecracker'),
+	(270, 2, 28950, 4, 0, 0, 'Element of Surprise (Q6471) - Darkspur Safecracker'),
+	(270, 3, 28950, 4, 0, 0, 'Element of Surprise (Q6471) - Darkspur Safecracker'),
+	(270, 4, 28950, 4, 0, 0, 'Element of Surprise (Q6471) - Darkspur Safecracker'),
+	(270, 5, 28950, 4, 0, 0, 'Element of Surprise (Q6471) - Darkspur Safecracker'),
 	(274, 0, 29570, 2, 0, 0, 'Out of Orbit (Q6505) - Aetherwing Cutter'),
 	(274, 1, 29570, 3, 0, 0, 'Out of Orbit (Q6505) - Aetherwing Cutter'),
 	(274, 2, 29570, 4, 0, 0, 'Out of Orbit (Q6505) - Aetherwing Cutter'),
@@ -498,6 +504,15 @@ INSERT INTO `path_soldier_holdout_spawn` (`pathSoldierEventId`, `waveIndex`, `cr
 	(588, 3, 58896, 1, 0, 0, 'Sample the Brew (Q7913) - Soulrot Slave'),
 	(588, 3, 58898, 1, 0, 0, 'Sample the Brew (Q7913) - Soulrot Slave'),
 	(588, 3, 58897, 1, 0, 0, 'Sample the Brew (Q7913) - Soulrot Slave'),
+	(445, 0, 46443, 1, 0, 0, 'Come Out and Play (Q8095) - Starblight Pest'),
+	(445, 0, 46454, 1, 0, 0, 'Come Out and Play (Q8095) - Starblight Skulker'),
+	(445, 1, 46454, 2, 0, 0, 'Come Out and Play (Q8095) - Starblight Skulker'),
+	(445, 1, 46443, 1, 0, 0, 'Come Out and Play (Q8095) - Starblight Pest'),
+	(445, 1, 46470, 1, 0, 0, 'Come Out and Play (Q8095) - Starblight Triturator'),
+	(445, 2, 46443, 2, 0, 0, 'Come Out and Play (Q8095) - Starblight Pest'),
+	(445, 2, 46454, 2, 0, 0, 'Come Out and Play (Q8095) - Starblight Skulker'),
+	(445, 2, 46470, 1, 0, 0, 'Come Out and Play (Q8095) - Starblight Triturator'),
+	(445, 2, 46473, 1, 1, 0, 'Come Out and Play (Q8095) - Starblight Desolator'),
 	(473, 0, 42228, 2, 0, 0, 'Rescue Torque (Q8171) - Lugwrench Lackey'),
 	(473, 1, 42228, 3, 0, 0, 'Rescue Torque (Q8171) - Lugwrench Lackey'),
 	(473, 1, 42230, 1, 0, 0, 'Rescue Torque (Q8171) - Lugwrench Brute'),
@@ -575,6 +590,17 @@ INSERT INTO `path_soldier_holdout_spawn` (`pathSoldierEventId`, `waveIndex`, `cr
 	(567, 2, 52566, 1, 0, 0, 'Lost (Q9052) - Zealous Saboteur'),
 	(567, 2, 52567, 1, 0, 0, 'Lost (Q9052) - Zealous Carver'),
 	(567, 2, 52565, 1, 0, 0, 'Lost (Q9052) - Zealous Corruptor'),
+	(571, 0, 52566, 1, 0, 0, 'Lost (Q9118) - Zealous Saboteur'),
+	(571, 0, 52567, 1, 0, 0, 'Lost (Q9118) - Zealous Carver'),
+	(571, 1, 52567, 1, 0, 0, 'Lost (Q9118) - Zealous Carver'),
+	(571, 1, 52568, 1, 0, 0, 'Lost (Q9118) - Zealous Rifleman(p:Zealous Riflemen)'),
+	(571, 1, 52570, 1, 0, 0, 'Lost (Q9118) - Zealous Healer'),
+	(571, 1, 52565, 1, 0, 0, 'Lost (Q9118) - Zealous Corruptor'),
+	(571, 2, 52568, 1, 0, 0, 'Lost (Q9118) - Zealous Rifleman(p:Zealous Riflemen)'),
+	(571, 2, 52570, 1, 0, 0, 'Lost (Q9118) - Zealous Healer'),
+	(571, 2, 52566, 1, 0, 0, 'Lost (Q9118) - Zealous Saboteur'),
+	(571, 2, 52567, 1, 0, 0, 'Lost (Q9118) - Zealous Carver'),
+	(571, 2, 52565, 1, 0, 0, 'Lost (Q9118) - Zealous Corruptor'),
 	(587, 0, 58970, 1, 0, 0, 'Contain the Strain (Q9375) - Distorted Saltwater Snoglug'),
 	(587, 0, 58967, 1, 0, 0, 'Contain the Strain (Q9375) - Distorted Stormcaller'),
 	(587, 1, 58967, 1, 0, 0, 'Contain the Strain (Q9375) - Distorted Stormcaller'),
