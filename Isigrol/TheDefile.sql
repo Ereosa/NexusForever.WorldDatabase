@@ -20729,3 +20729,39 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+284, 10, 50),
     (@GUID+285, 0, 1),
     (@GUID+285, 10, 50);
+
+-- --------------------------------------
+-- Quest and challenge creatures from the challenges branch generator missing from the capture (handed over by the challenges thread,
+-- generated from the client data: quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Project: Mutt (47597): Too Late for Mutt [GROUP 5+] (8844) objective 0 type 2 count 1. Position: WorldLocation2, objective indicator 8844.0.
+    (@GUID+1, 0, 47597, @WORLD, 2228, 1748.098, -1426.022, -4510.812, -0.997, 0, 0, 21754, 0, 978, 978, 0),
+    -- Corrigans Vintage (56635): Challenge Another Scruffy Mess (1106) (0) objective 0 type 2 count 1. Position: WorldLocation2, challenge indicator 1106.
+    (@GUID+2, 10, 56635, @WORLD, 4706, 4712.797, -981.389, -4202.707, 0, 0, 0, 23225, 0, 219, 219, 0),
+    -- Corrigans Shot Glass (56636): Challenge Another Scruffy Mess (1106) (0) objective 0 type 2 count 1. Position: WorldLocation2, challenge indicator 1106.
+    (@GUID+3, 10, 56636, @WORLD, 4706, 4712.797, -981.389, -4202.707, 0, 0, 0, 23227, 0, 219, 219, 0),
+    -- Corrigans Cold One (56637): Challenge Another Scruffy Mess (1106) (0) objective 0 type 2 count 1. Position: WorldLocation2, challenge indicator 1106.
+    (@GUID+4, 10, 56637, @WORLD, 4706, 4712.797, -981.389, -4202.707, 0, 0, 0, 26594, 0, 219, 219, 0),
+    -- Corrigans Half-Cocked Pistol (63329): Challenge Another Scruffy Mess (1106) (0) objective 0 type 2 count 1. Position: WorldLocation2, challenge indicator 1106.
+    (@GUID+5, 10, 63329, @WORLD, 4706, 4712.797, -981.389, -4202.707, 0, 0, 0, 23188, 0, 219, 219, 0),
+    -- Corrigans Luck Charm (63331): Challenge Another Scruffy Mess (1106) (0) objective 0 type 2 count 1. Position: WorldLocation2, challenge indicator 1106.
+    (@GUID+6, 10, 63331, @WORLD, 4706, 4712.797, -981.389, -4202.707, 0, 0, 0, 30084, 0, 219, 219, 0),
+    -- Corrigans Wrench (63332): Challenge Another Scruffy Mess (1106) (0) objective 0 type 2 count 1. Position: WorldLocation2, challenge indicator 1106.
+    (@GUID+7, 10, 63332, @WORLD, 4706, 4712.797, -981.389, -4202.707, 0, 0, 0, 30590, 0, 219, 219, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 46),
+    (@GUID+2, 0, 1),
+    (@GUID+2, 10, 1),
+    (@GUID+3, 0, 1),
+    (@GUID+3, 10, 1),
+    (@GUID+4, 0, 1),
+    (@GUID+4, 10, 1),
+    (@GUID+5, 0, 1),
+    (@GUID+5, 10, 1),
+    (@GUID+6, 0, 1),
+    (@GUID+6, 10, 1),
+    (@GUID+7, 0, 1),
+    (@GUID+7, 10, 1);
