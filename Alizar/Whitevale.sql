@@ -60063,3 +60063,11 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+2, 10, 50),
     (@GUID+3, 0, 1),
     (@GUID+3, 10, 50);
+
+-- --------------------------------------
+-- Quest creatures standing at their own objective marker (sixth pass, generated from the client data)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Agent Lazilo (19924): The Black Hoods (5070) objective 2 meets him by the docks, Bug Sweep (5074) giver. Position: WorldLocation2 15286, the meeting marker.
+    (@GUID+1, 0, 19924, @WORLD, 240, 4531.357, -946.841, -630.253, 3.5853, 0, 0, 27270, 8991, 171, 171, 0);
