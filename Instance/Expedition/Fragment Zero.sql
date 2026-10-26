@@ -1828,3 +1828,45 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
     (@GUID + 1, 32, 68576, @WORLD, 4620, 9838.019, -782.127, -6283.940, 2.9264, 0, 0, 0, 0, 219, 219, 0);
 INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
     (@GUID + 1, @EVENTID, 0);
+
+-- Xenobite Door - SurfaceToAirlock - STH (68588)
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    (@GUID + 1, 4, 68588, @WORLD, 4620, 9723.281, -766.841, -6094.639, -1.6696, 0, 0, 0, 0, 219, 219, 0);
+INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
+    (@GUID + 1, @EVENTID, 0);
+
+-- Gronyx Door - SurfaceToAirlock - STH (68596)
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    (@GUID + 1, 4, 68596, @WORLD, 4620, 10098.730, -771.655, -6117.129, 1.5708, 0, 0, 0, 0, 219, 219, 0);
+INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
+    (@GUID + 1, @EVENTID, 0);
+
+-- Pell Door - SurfaceToAirlock - STH (68598)
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    (@GUID + 1, 4, 68598, @WORLD, 4620, 9838.019, -782.127, -6283.940, 2.9264, 0, 0, 0, 0, 219, 219, 0);
+INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
+    (@GUID + 1, @EVENTID, 0);
+
+-- Xenobite Door - AirlockToWing - STH (68595)
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    (@GUID + 1, 4, 68595, @WORLD, 4625, 9671.437, -767.574, -6099.742, -1.6696, 0, 0, 0, 0, 219, 219, 0);
+INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
+    (@GUID + 1, @EVENTID, 0);
+
+-- Gronyx Door - AirlockToWing - STH (68597)
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    (@GUID + 1, 4, 68597, @WORLD, 4630, 10126.971, -778.425, -6117.570, 1.5708, 0, 0, 0, 0, 219, 219, 0);
+INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
+    (@GUID + 1, @EVENTID, 0);
+
+-- Pell Door - AirlockToWing - STH (68599)
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    (@GUID + 1, 4, 68599, @WORLD, 4633, 9829.709, -780.656, -6325.006, 2.9264, 0, 0, 0, 0, 219, 219, 0);
+INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
+    (@GUID + 1, @EVENTID, 0);
