@@ -16111,6 +16111,18 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 22, 0);
 
 -- --------------------------------------
+-- Journey into OMNICore-1 talk step: Belle Walker (Exile) and Axis Pheydra (Dominion), positions from the quest-coverage thread
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`) VALUES
+    (@GUID+1, 0, 67337, @WORLD, 2834, 80, -877, -4163, 0, 0, 0, 0, 0, 171, 171),
+    (@GUID+2, 0, 67338, @WORLD, 2834, 80, -877, -4022, 0, 0, 0, 0, 0, 170, 170);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 50),
+    (@GUID+2, 0, 1),
+    (@GUID+2, 10, 50);
+-- --------------------------------------
 -- Later zone quest and challenge creatures missing from the capture (generated from the client data:
 -- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
 -- --------------------------------------
