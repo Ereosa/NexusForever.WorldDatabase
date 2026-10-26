@@ -9291,10 +9291,8 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
     (@GUID+12, 0, 26049, @WORLD, 3030, -1957.337, -1004.736, -6176.812, 1.0925, 0, 0, 22974, 0, 1399, 1399, 0),
     -- The Caretaker (26071): Seizing Control (5859) giver, Seizing Control (5859) receiver, Automated Repairs (5860) receiver. Position: WorldLocation2, receiver location 5860.
     (@GUID+13, 0, 26071, @WORLD, 1306, -2703.214, -1326.285, -5989.812, 2.792, 0, 0, 24983, 0, 219, 219, 0),
-    (@GUID+14, 0, 26071, @WORLD, 1306, -2712.817, -1326.34, -5956.517, 0, 0, 0, 24983, 0, 219, 219, 0),
     -- Artemis Zin (26072): Introduction to the Caretaker (6789) giver, The Elder Cube (8826) giver. Position: WorldLocation2, receiver location 5861.
     (@GUID+15, 0, 26072, @WORLD, 1306, -2710.448, -1326.285, -5985.644, 3.327, 0, 0, 25236, 9080, 170, 170, 0),
-    (@GUID+16, 0, 26072, @WORLD, 1306, -2712.812, -1326.34, -5949.641, 0, 0, 0, 25236, 9080, 170, 170, 0),
     -- Eldan Security Node (26134): Seizing Control (5859) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 5859.2.
     (@GUID+17, 10, 26134, @WORLD, 3030, -1580.306, -1061.807, -5985.072, 1.571, 0, 0, 24574, 0, 219, 219, 0),
     -- Eldan Control Panel (26173): Automated Repairs (5860) objective 0 type 12 count 1, Automated Repairs (5860) objective 4 type 14 count 4. Position: WorldLocation2, objective indicator 5860.0.
@@ -9382,12 +9380,8 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+12, 10, 4),
     (@GUID+13, 0, 1),
     (@GUID+13, 10, 6),
-    (@GUID+14, 0, 1),
-    (@GUID+14, 10, 6),
     (@GUID+15, 0, 1),
     (@GUID+15, 10, 50),
-    (@GUID+16, 0, 1),
-    (@GUID+16, 10, 50),
     (@GUID+17, 0, 1),
     (@GUID+17, 10, 1),
     (@GUID+18, 0, 1),
