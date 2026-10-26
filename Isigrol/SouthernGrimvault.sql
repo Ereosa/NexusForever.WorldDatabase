@@ -40979,3 +40979,27 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+55, 10, 50),
     (@GUID+56, 0, 1),
     (@GUID+56, 10, 45);
+
+-- --------------------------------------
+-- Quest and challenge creatures from the challenges branch generator missing from the capture (handed over by the challenges thread,
+-- generated from the client data: quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Bio-Phage Illusion (39516): Challenge Incorruptible (657) (0) objective 0 type 2 count 5. Position: WorldLocation2, challenge indicator 657.
+    (@GUID+1, 0, 39516, @WORLD, 2128, 2005.062, -962.281, -1760.594, 0, 0, 0, 21629, 0, 978, 978, 0),
+    (@GUID+2, 0, 39516, @WORLD, 2128, 2015.309, -958.938, -1769.633, 2.9999, 0, 0, 21629, 0, 978, 978, 0),
+    (@GUID+3, 0, 39516, @WORLD, 2128, 2012.549, -961.982, -1762.071, 0.029, 0, 0, 21629, 0, 978, 978, 0),
+    (@GUID+4, 0, 39516, @WORLD, 2128, 2002.68, -963.83, -1755.041, 1.6756, 0, 0, 21629, 0, 978, 978, 0),
+    (@GUID+5, 0, 39516, @WORLD, 2128, 2015.504, -962.281, -1776.583, -2.0148, 0, 0, 21629, 0, 978, 978, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 1),
+    (@GUID+2, 0, 1),
+    (@GUID+2, 10, 1),
+    (@GUID+3, 0, 1),
+    (@GUID+3, 10, 1),
+    (@GUID+4, 0, 1),
+    (@GUID+4, 10, 1),
+    (@GUID+5, 0, 1),
+    (@GUID+5, 10, 1);
