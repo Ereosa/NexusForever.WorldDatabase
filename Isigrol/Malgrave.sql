@@ -2,7 +2,7 @@
 -- Malgrave Zone Dump
 -- --------------------------------------
 SET @WORLD = 1061;
-DELETE FROM `entity` WHERE `world` = @WORLD AND `area` IN (377, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 452, 479, 579, 1711, 1712, 1713, 1714, 1715, 1716, 1717, 1718, 1719, 1720, 1721, 1722, 1723, 1724, 1725, 1726, 1727, 1728, 1729, 1730, 1731, 1732, 1733, 1734, 1839, 1840, 1841, 1842, 1843, 1844, 1845, 1846, 1847, 1848, 1849, 1850, 1851, 1852, 1853, 1854, 1855, 1856, 1857, 1858, 1859, 1860, 1861, 1862, 1863, 1864, 1865, 1866, 1867, 1868, 1869, 1870, 1890, 1891, 1892, 1897, 1904, 1905, 1915, 1916, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1926, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1938, 1939, 1940, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1964, 1973, 1974, 1975, 1978, 2000, 2229, 2230, 2231, 2232, 2311, 2363, 2364, 2365, 2385, 2433, 2434, 2435, 2436, 2437, 2452, 2453, 2456, 2457, 2458, 2459, 2460, 2461, 2475, 2476, 2477, 2478, 2479, 2480, 2487, 2488, 2489, 2490, 2563, 2572, 2573, 2574, 2575, 2576, 2577, 2584, 2585, 2586, 2587, 2588, 2589, 2590, 2591, 2853, 4033, 4034, 4035, 4085, 4086, 4087, 4088, 4089, 4090, 4091, 4092, 4093, 4193, 4194, 4195, 4215, 4221, 4237, 4238, 4239, 4240, 4321, 4372);
+DELETE FROM `entity` WHERE `world` = @WORLD AND `area` IN (377, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 452, 479, 579, 1711, 1712, 1713, 1714, 1715, 1716, 1717, 1718, 1719, 1720, 1721, 1722, 1723, 1724, 1725, 1726, 1727, 1728, 1729, 1730, 1731, 1732, 1733, 1734, 1839, 1840, 1841, 1842, 1843, 1844, 1845, 1846, 1847, 1848, 1849, 1850, 1851, 1852, 1853, 1854, 1855, 1856, 1857, 1858, 1859, 1860, 1861, 1862, 1863, 1864, 1865, 1866, 1867, 1868, 1869, 1870, 1890, 1891, 1892, 1897, 1904, 1905, 1915, 1916, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1926, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1938, 1939, 1940, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1964, 1973, 1974, 1975, 1978, 2000, 2033, 2229, 2230, 2231, 2232, 2311, 2363, 2364, 2365, 2385, 2433, 2434, 2435, 2436, 2437, 2452, 2453, 2456, 2457, 2458, 2459, 2460, 2461, 2475, 2476, 2477, 2478, 2479, 2480, 2487, 2488, 2489, 2490, 2563, 2572, 2573, 2574, 2575, 2576, 2577, 2584, 2585, 2586, 2587, 2588, 2589, 2590, 2591, 2853, 4033, 4034, 4035, 4085, 4086, 4087, 4088, 4089, 4090, 4091, 4092, 4093, 4193, 4194, 4195, 4215, 4221, 4237, 4238, 4239, 4240, 4321, 4372);
 
 -- --------------------------------------
 -- Cooking Grill
@@ -57596,3 +57596,364 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 20, 0),
     (@GUID+1, 21, 0),
     (@GUID+1, 22, 0);
+
+-- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture, second pass (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Gather Point (25073): Sim Core: The Malgrave Trail (9091) objective 0 type 5 count 1. Position: WorldLocation2, objective indicator 9091.0.
+    (@GUID+1, 10, 25073, @WORLD, 2033, 1894.481, -859.825, 1625.116, 0, 0, 0, 24404, 0, 219, 219, 0),
+    -- Ol Higgins (34740): The Town of Gravestone (7213) receiver, These Old Bones (7214) giver, These Old Bones (7214) receiver. Position: WorldLocation2, receiver location 7213.
+    (@GUID+2, 0, 34740, @WORLD, 1848, 1887.185, -955.842, 3887.204, 0.265, 0, 0, 26017, 9026, 219, 219, 0),
+    -- Blightwing Circler (34760): Vulcarrion Problems (7184) objective 1 type 2 count 15. Position: WorldLocation2, objective indicator 7184.1.
+    (@GUID+3, 0, 34760, @WORLD, 1844, 1771.819, -917.488, 3558, 0, 0, 0, 21583, 0, 198, 198, 0),
+    (@GUID+4, 0, 34760, @WORLD, 1844, 1772.649, -916.838, 3564.627, 0.5691, 0, 0, 21583, 0, 198, 198, 0),
+    (@GUID+5, 0, 34760, @WORLD, 1844, 1780.878, -914.78, 3542.556, -1.5919, 0, 0, 21583, 0, 198, 198, 0),
+    (@GUID+6, 0, 34760, @WORLD, 1844, 1759.449, -918.638, 3573.573, -0.8165, 0, 0, 21583, 0, 198, 198, 0),
+    (@GUID+7, 0, 34760, @WORLD, 1844, 1777.955, -916.011, 3560.513, -2.5043, 0, 0, 21583, 0, 198, 198, 0),
+    (@GUID+8, 0, 34760, @WORLD, 1844, 1759.463, -918.635, 3563.676, -3.1152, 0, 0, 21583, 0, 198, 198, 0),
+    -- Ma Higgins (34765): Busting Black Bret (7216) giver, Busting Black Bret (7216) receiver, Lousy Deadbeats (7223) giver. Position: WorldLocation2, receiver location 7216.
+    (@GUID+9, 0, 34765, @WORLD, 1848, 1876.068, -955.842, 3890.658, 0.053, 0, 0, 26324, 9000, 219, 219, 0),
+    -- Vile Mineral (34802): The Underground Evil (7145) objective 1 type 25 count 1. Position: WorldLocation2, objective indicator 7145.1.
+    (@GUID+10, 0, 34802, @WORLD, 1860, 3126.231, -878.839, 4203.987, 0, 0, 0, 25714, 0, 218, 218, 0),
+    -- Treasure Pile (34896): Anything That Isnt Nailed Down! (7151) objective 0 type 5 count 1. Position: WorldLocation2, objective indicator 7151.0.
+    (@GUID+11, 10, 34896, @WORLD, 1867, 2776.669, -813.781, 4360.453, 0, 0, 0, 27794, 0, 219, 219, 0),
+    -- Main Engine (34986): Operation: Drivebreaker (7147) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 7147.1.
+    (@GUID+12, 10, 34986, @WORLD, 1863, 3182.656, -801.063, 4588.187, 0, 0, 0, 27794, 0, 219, 219, 0),
+    -- Flammable Logs (35043): Burn Them Out (7162) objective 1 type 14 count 5. Position: WorldLocation2, objective indicator 7162.1.
+    (@GUID+13, 0, 35043, @WORLD, 1859, 614.687, -958.053, 4152.704, 0, 0, 0, 24322, 0, 219, 219, 0),
+    (@GUID+14, 0, 35043, @WORLD, 1859, 621.073, -957, 4156.036, -0.6021, 0, 0, 24322, 0, 219, 219, 1),
+    (@GUID+15, 0, 35043, @WORLD, 1859, 615.722, -956.23, 4167.359, 0.3753, 0, 0, 24322, 0, 219, 219, 2),
+    (@GUID+16, 0, 35043, @WORLD, 1859, 625.491, -955.5, 4169.012, -0.7422, 0, 0, 24322, 0, 219, 219, 3),
+    (@GUID+17, 0, 35043, @WORLD, 1859, 602.872, -959.782, 4159.353, -2.8675, 0, 0, 24322, 0, 219, 219, 4),
+    -- Flammable Bones (35046): Burn Them Out (7162) objective 0 type 14 count 5. Position: WorldLocation2, objective indicator 7162.0.
+    (@GUID+18, 0, 35046, @WORLD, 1859, 449.131, -970.342, 4019.738, 0, 0, 0, 24322, 0, 219, 219, 0),
+    (@GUID+19, 0, 35046, @WORLD, 1859, 437.047, -970.5, 4004.399, 0.0071, 0, 0, 24322, 0, 219, 219, 1),
+    (@GUID+20, 0, 35046, @WORLD, 1859, 463.382, -967.309, 4006.204, -2.0017, 0, 0, 24322, 0, 219, 219, 2),
+    (@GUID+21, 0, 35046, @WORLD, 1859, 436.499, -970.5, 4019.655, 1.5899, 0, 0, 24322, 0, 219, 219, 3),
+    (@GUID+22, 0, 35046, @WORLD, 1859, 432.829, -970.5, 4017.19, -0.7178, 0, 0, 24322, 0, 219, 219, 4),
+    -- Treasure Pile (35159): Anything That Isnt Nailed Down! (7151) objective 1 type 5 count 1. Position: WorldLocation2, objective indicator 7151.1.
+    (@GUID+23, 10, 35159, @WORLD, 2311, 2802.913, -811.087, 4249.247, 0, 0, 0, 27794, 0, 219, 219, 0),
+    -- Treasure Pile (35160): Anything That Isnt Nailed Down! (7151) objective 2 type 5 count 1. Position: WorldLocation2, objective indicator 7151.2.
+    (@GUID+24, 10, 35160, @WORLD, 1867, 2882.275, -811.314, 4287.897, 0, 0, 0, 27794, 0, 219, 219, 0),
+    -- Treasure Pile (35161): Anything That Isnt Nailed Down! (7151) objective 3 type 5 count 1. Position: WorldLocation2, objective indicator 7151.3.
+    (@GUID+25, 10, 35161, @WORLD, 1867, 2934.915, -809.091, 4375.871, 0, 0, 0, 27794, 0, 219, 219, 0),
+    -- Treasure Pile (35162): Anything That Isnt Nailed Down! (7151) objective 4 type 5 count 1. Position: WorldLocation2, objective indicator 7151.4.
+    (@GUID+26, 10, 35162, @WORLD, 1867, 2914.028, -810.962, 4347.965, 0, 0, 0, 27794, 0, 219, 219, 0),
+    -- Primo Vinos (35176): Brewers in Bondage (7174) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 7174.2.
+    (@GUID+27, 0, 35176, @WORLD, 1852, 1306.631, -914.394, 4190.17, 0, 0, 0, 28324, 8716, 219, 219, 0),
+    -- Severus Vinos (35177): Brewers in Bondage (7174) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 7174.0.
+    (@GUID+28, 0, 35177, @WORLD, 1852, 1463.774, -907.585, 3896.182, 0, 0, 0, 28326, 8716, 219, 219, 0),
+    -- Marcella Vinos (35178): Brewers in Bondage (7174) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 7174.1.
+    (@GUID+29, 0, 35178, @WORLD, 1852, 1305.951, -908.965, 4044.428, 0, 0, 0, 28325, 8716, 219, 219, 0),
+    -- Marshal Yatish (35543): Shinysand Savior (7164) receiver. Position: WorldLocation2, receiver location 7161.
+    (@GUID+30, 0, 35543, @WORLD, 1856, 737.52, -979.092, 3921.264, 0, 0, 0, 27619, 0, 363, 363, 0),
+    (@GUID+31, 0, 35543, @WORLD, 430, 1601.76, -978.092, 4220.45, 0, 0, 0, 27619, 0, 363, 363, 0),
+    -- Scout Millden (35681): Rescuing the Advance Scouts (7178) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 7178.2.
+    (@GUID+32, 0, 35681, @WORLD, 1852, 1306.631, -914.394, 4190.17, 0, 0, 0, 23559, 8978, 219, 219, 0),
+    -- Scout Swifton (35682): Rescuing the Advance Scouts (7178) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 7178.0.
+    (@GUID+33, 0, 35682, @WORLD, 1852, 1463.774, -907.585, 3896.182, 0, 0, 0, 26104, 8979, 219, 219, 0),
+    -- Scout Lockwood (35683): Rescuing the Advance Scouts (7178) objective 1 type 12 count 1. Position: WorldLocation2, objective indicator 7178.1.
+    (@GUID+34, 0, 35683, @WORLD, 1852, 1305.951, -908.965, 4044.428, 0, 0, 0, 23370, 8980, 219, 219, 0),
+    -- Emberclan Warlock (35825): Electro-Games (8609) objective 0 type 11 count 36, Electro-Games (9108) objective 0 type 11 count 36. Position: WorldLocation2, objective indicator 8609.0.
+    (@GUID+35, 0, 35825, @WORLD, 4321, 1335.314, -821.972, 2359.698, 0, 0, 0, 22886, 0, 218, 218, 0),
+    (@GUID+36, 0, 35825, @WORLD, 4321, 1325.045, -821.972, 2350.857, -3.0613, 0, 0, 22886, 0, 218, 218, 0),
+    (@GUID+37, 0, 35825, @WORLD, 4321, 1344.367, -821.972, 2372.35, 2.8137, 0, 0, 22886, 0, 218, 218, 0),
+    (@GUID+38, 0, 35825, @WORLD, 4321, 1325.583, -821.972, 2357.38, -2.3352, 0, 0, 22886, 0, 218, 218, 0),
+    (@GUID+39, 0, 35825, @WORLD, 4321, 1338.345, -821.972, 2344.719, 0.3915, 0, 0, 22886, 0, 218, 218, 0),
+    (@GUID+40, 0, 35825, @WORLD, 4321, 1321.98, -821.972, 2353.743, -0.1619, 0, 0, 22886, 0, 218, 218, 0),
+    -- Emberclan Blaster (35826): Electro-Games (8609) objective 0 type 11 count 36, Electro-Games (9108) objective 0 type 11 count 36. Position: WorldLocation2, objective indicator 8609.0.
+    (@GUID+41, 0, 35826, @WORLD, 4321, 1335.314, -821.972, 2359.698, 0, 0, 0, 22003, 0, 218, 218, 0),
+    (@GUID+42, 0, 35826, @WORLD, 4321, 1346.946, -821.972, 2372.984, 1.3306, 0, 0, 22003, 0, 218, 218, 0),
+    (@GUID+43, 0, 35826, @WORLD, 4321, 1330.119, -821.972, 2365.621, 2.0213, 0, 0, 22003, 0, 218, 218, 0),
+    (@GUID+44, 0, 35826, @WORLD, 4321, 1352.267, -821.972, 2358.125, -1.5579, 0, 0, 22003, 0, 218, 218, 0),
+    (@GUID+45, 0, 35826, @WORLD, 4321, 1342.099, -821.972, 2369.103, -0.9863, 0, 0, 22003, 0, 218, 218, 0),
+    (@GUID+46, 0, 35826, @WORLD, 4321, 1335.101, -821.972, 2367.582, -2.047, 0, 0, 22003, 0, 218, 218, 0),
+    -- Emberclan Stormcaller (35828): Electro-Games (8609) objective 0 type 11 count 36, Electro-Games (9108) objective 0 type 11 count 36. Position: WorldLocation2, objective indicator 8609.0.
+    (@GUID+47, 0, 35828, @WORLD, 4321, 1335.314, -821.972, 2359.698, 0, 0, 0, 23124, 0, 218, 218, 0),
+    (@GUID+48, 0, 35828, @WORLD, 4321, 1340.343, -821.972, 2370.454, -2.452, 0, 0, 23124, 0, 218, 218, 0),
+    (@GUID+49, 0, 35828, @WORLD, 4321, 1336.994, -821.972, 2353.398, 0.4367, 0, 0, 23124, 0, 218, 218, 0),
+    (@GUID+50, 0, 35828, @WORLD, 4321, 1347.861, -821.972, 2348.119, -0.0032, 0, 0, 23124, 0, 218, 218, 0),
+    (@GUID+51, 0, 35828, @WORLD, 4321, 1349.212, -821.972, 2347.908, 2.5413, 0, 0, 23124, 0, 218, 218, 0),
+    (@GUID+52, 0, 35828, @WORLD, 4321, 1329.496, -821.972, 2353.564, 0.4659, 0, 0, 23124, 0, 218, 218, 0),
+    -- Broodlord Morkhel (35921): The Sound of Judgment (7412) objective 1 type 2 count 1. Position: WorldLocation2, objective indicator 7412.1.
+    (@GUID+53, 0, 35921, @WORLD, 1941, 2012.282, -675.262, 3250.719, 0, 0, 0, 22757, 0, 1238, 1238, 0),
+    -- Shardspire Security Officer (36058): Eco-Terrorism (7428) giver, Eco-Terrorism (7428) receiver, Small Parts Hazard (7430) giver. Position: WorldLocation2, receiver location 7428.
+    (@GUID+54, 10, 36058, @WORLD, 1932, 1370.246, -966.102, 3092.164, 0, 0, 0, 21339, 0, 255, 255, 0),
+    -- Eldan Neutralization Probe (36140): Heresy Cubed (7372) objective 1 type 25 count 1, Heresy Cubed (8568) objective 1 type 25 count 1. Position: WorldLocation2, objective indicator 7372.1.
+    (@GUID+55, 0, 36140, @WORLD, 1946, 2987.634, -842.505, 3682.858, 0, 0, 0, 30425, 0, 1067, 1067, 0),
+    -- Eldan Termination Probe (36141): Heresy Cubed (7372) objective 1 type 25 count 1, Heresy Cubed (8568) objective 1 type 25 count 1. Position: WorldLocation2, objective indicator 7372.1.
+    (@GUID+56, 0, 36141, @WORLD, 1946, 2987.634, -842.505, 3682.858, 0, 0, 0, 30425, 0, 1067, 1067, 0),
+    -- Eldan Execution Probe (36144): Heresy Cubed (7372) objective 1 type 25 count 1, Heresy Cubed (8568) objective 1 type 25 count 1. Position: WorldLocation2, objective indicator 7372.1.
+    (@GUID+57, 0, 36144, @WORLD, 1946, 2987.634, -842.505, 3682.858, 0, 0, 0, 30425, 0, 1067, 1067, 0),
+    -- Deactivated Probe (36163): Heresy Cubed (7372) objective 0 type 12 count 1, Heresy Cubed (8568) objective 0 type 12 count 1. Position: WorldLocation2, objective indicator 7372.0.
+    (@GUID+58, 10, 36163, @WORLD, 1946, 2987.634, -842.505, 3682.858, 0, 0, 0, 24688, 0, 219, 219, 0),
+    -- Kevo (36265): A Race Against Time (7376) objective 2 type 5 count 1, No Time to Lose (7377) objective 2 type 5 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/kevo-42.
+    (@GUID+59, 0, 36265, @WORLD, 427, 1663, -819.164, 2863, 0, 0, 0, 26075, 9548, 1064, 1064, 0),
+    -- Chief Mineralogist (36309): Rescuing the Chief Mineralogist (7426) receiver, An Explosive Situation (7427) giver, An Explosive Situation (7427) receiver. Position: WorldLocation2, receiver location 7426.
+    (@GUID+60, 0, 36309, @WORLD, 1932, 1367.409, -966.076, 3085.824, 0, 0, 0, 21339, 0, 255, 255, 0),
+    -- Product Research Executive (37387): Daddy Long Legs (7398) receiver. Position: WorldLocation2, receiver location 7398.
+    (@GUID+61, 0, 37387, @WORLD, 427, 1611.931, -819.838, 2815.87, 0, 0, 0, 21339, 0, 255, 255, 0),
+    -- Flamedancer Probe (37490): Heresy Cubed (7372) objective 1 type 25 count 1, Heresy Cubed (8568) objective 1 type 25 count 1. Position: WorldLocation2, objective indicator 7372.1.
+    (@GUID+62, 0, 37490, @WORLD, 1946, 2987.634, -842.505, 3682.858, 0, 0, 0, 24688, 0, 1115, 1115, 0),
+    -- Marcel Vinos (41904): Blood for Brew (7176) receiver. Position: WorldLocation2, receiver location 7176.
+    (@GUID+63, 0, 41904, @WORLD, 1841, 1516.132, -961.533, 4036.582, 0, 0, 0, 28323, 8728, 170, 170, 0),
+    -- Flammable Dreg Belongings (42237): Burn Them Out (7162) objective 0 type 14 count 5. Position: WorldLocation2, objective indicator 7162.0.
+    (@GUID+64, 10, 42237, @WORLD, 1859, 449.131, -970.342, 4019.738, 0, 0, 0, 27794, 0, 219, 219, 5),
+    (@GUID+65, 10, 42237, @WORLD, 1859, 433.342, -970.5, 4030.579, 2.6627, 0, 0, 27794, 0, 219, 219, 6),
+    (@GUID+66, 10, 42237, @WORLD, 1859, 448.877, -970.5, 4005.211, -0.7506, 0, 0, 27794, 0, 219, 219, 7),
+    (@GUID+67, 10, 42237, @WORLD, 1859, 442, -970.5, 4020.787, -0.6294, 0, 0, 27794, 0, 219, 219, 8),
+    (@GUID+68, 10, 42237, @WORLD, 1859, 452.311, -969.844, 4033.484, 0.021, 0, 0, 27794, 0, 219, 219, 9),
+    -- Flammable Dreg Belongings (42238): Burn Them Out (7162) objective 1 type 14 count 5. Position: WorldLocation2, objective indicator 7162.1.
+    (@GUID+69, 10, 42238, @WORLD, 1859, 614.687, -958.053, 4152.704, 0, 0, 0, 27794, 0, 219, 219, 5),
+    (@GUID+70, 10, 42238, @WORLD, 1859, 622.982, -957, 4148.586, 0.7714, 0, 0, 27794, 0, 219, 219, 6),
+    (@GUID+71, 10, 42238, @WORLD, 1859, 621.329, -957, 4151.028, -1.5429, 0, 0, 27794, 0, 219, 219, 7),
+    (@GUID+72, 10, 42238, @WORLD, 1859, 627.36, -957.104, 4146.229, 0.1479, 0, 0, 27794, 0, 219, 219, 8),
+    (@GUID+73, 10, 42238, @WORLD, 1859, 605.635, -959.091, 4147.536, -1.3569, 0, 0, 27794, 0, 219, 219, 9),
+    -- Assistant Jr. Field Marketing Agent (42626): Untapped Demographics (7167) giver, Untapped Demographics (7167) receiver. Position: WorldLocation2, receiver location 7167.
+    (@GUID+74, 0, 42626, @WORLD, 1855, 1109.392, -973.467, 3935.948, 0, 0, 0, 21339, 0, 255, 255, 0),
+    -- Artemis Zin (42671): No Time to Lose (7377) receiver, The Elder Cube (7379) receiver, Combing the Archives (8549) receiver. Position: WorldLocation2, receiver location 7377.
+    (@GUID+75, 0, 42671, @WORLD, 427, 1660.127, -819.624, 2865.57, 0, 0, 0, 25236, 9080, 170, 170, 0),
+    -- Whirlygig (43059): The Windscourge (7413) receiver, What Goes Up... (7414) giver. Position: WorldLocation2, receiver location 7413.
+    (@GUID+76, 0, 43059, @WORLD, 1936, 1821.441, -385.873, 3183.037, 0, 0, 0, 21328, 0, 219, 219, 0),
+    -- Whirlygig (43061): What Goes Up... (7414) receiver. Position: WorldLocation2, receiver location 7414.
+    (@GUID+77, 0, 43061, @WORLD, 427, 1663.78, -818.608, 2916.15, 1.537, 0, 0, 21365, 0, 219, 219, 0),
+    -- Hellrose Bowl Equipment Manager (43397): Electro-Games (8609) giver, Electro-Games (8609) receiver, Electro-Games (9108) giver. Position: Jabbithole http://www.jabbithole.com/npcs/hellrose-bowl-equipment-manager-42.
+    (@GUID+78, 0, 43397, @WORLD, 1933, 1243, -847.545, 2520, 0, 0, 0, 21339, 0, 219, 219, 0),
+    -- Deadeye Brightland (53237): An Unexpected Enemy (9070) objective 0 type 3 count 1, An Unexpected Enemy (9070) objective 2 type 3 count 2147483647. Position: WorldLocation2, objective indicator 9070.0.
+    (@GUID+79, 0, 53237, @WORLD, 1933, 1533.675, -852.091, 2496.354, 2.576, 0, 0, 26124, 9064, 171, 171, 0),
+    (@GUID+80, 0, 53237, @WORLD, 1933, 1545.497, -853.5, 2503.116, 1.8326, 0, 0, 26124, 9064, 171, 171, 0),
+    (@GUID+81, 0, 53237, @WORLD, 1933, 1519.537, -849.884, 2483.168, -1.5305, 0, 0, 26124, 9064, 171, 171, 0),
+    (@GUID+82, 0, 53237, @WORLD, 1933, 1545.468, -853.5, 2504.972, -1.3601, 0, 0, 26124, 9064, 171, 171, 0),
+    (@GUID+83, 0, 53237, @WORLD, 1933, 1519.232, -851.5, 2498.559, -0.8656, 0, 0, 26124, 9064, 171, 171, 0),
+    (@GUID+84, 0, 53237, @WORLD, 1933, 1523.735, -852, 2498.597, -0.7265, 0, 0, 26124, 9064, 171, 171, 0),
+    -- Corrigan Doon (53238): An Unexpected Enemy (9069) objective 0 type 3 count 1, An Unexpected Enemy (9069) objective 2 type 3 count 2147483647. Position: WorldLocation2, objective indicator 9069.0.
+    (@GUID+85, 0, 53238, @WORLD, 4194, 1828.325, -791.767, 2472.652, -1.56, 0, 0, 27880, 9083, 170, 170, 0),
+    (@GUID+86, 0, 53238, @WORLD, 4194, 1814.326, -791.767, 2461.776, -0.0587, 0, 0, 27880, 9083, 170, 170, 0),
+    (@GUID+87, 0, 53238, @WORLD, 4194, 1834.124, -791.767, 2462.544, -2.3228, 0, 0, 27880, 9083, 170, 170, 0),
+    (@GUID+88, 0, 53238, @WORLD, 4194, 1821.047, -791.767, 2470.363, -0.5828, 0, 0, 27880, 9083, 170, 170, 0),
+    (@GUID+89, 0, 53238, @WORLD, 4194, 1834.445, -791.767, 2463.603, -2.2434, 0, 0, 27880, 9083, 170, 170, 0),
+    (@GUID+90, 0, 53238, @WORLD, 4194, 1838.406, -791.767, 2486.925, -2.6117, 0, 0, 27880, 9083, 170, 170, 0),
+    -- Jetsome (53341): Sim Core: The Malgrave Trail (9091) objective 0 type 5 count 1. Position: WorldLocation2, objective indicator 9091.0.
+    (@GUID+91, 9, 53341, @WORLD, 2033, 1894.481, -859.825, 1625.116, 0, 0, 0, 25034, 0, 219, 219, 0),
+    -- Radar Target (53344): Sim Core: The Malgrave Trail (9091) objective 0 type 5 count 1. Position: WorldLocation2, objective indicator 9091.0.
+    (@GUID+92, 10, 53344, @WORLD, 2033, 1894.481, -859.825, 1625.116, 0, 0, 0, 24404, 0, 219, 219, 0),
+    -- Witherdust Runt (57035): Hazard Pay (7166) objective 0 type 25 count 1. Position: WorldLocation2, objective indicator 7166.0.
+    (@GUID+93, 0, 57035, @WORLD, 1856, 953.821, -962.538, 3915.019, 0, 0, 0, 21579, 0, 1101, 1101, 0),
+    -- Witherdust Yearling (57036): Hazard Pay (7166) objective 0 type 25 count 1. Position: WorldLocation2, objective indicator 7166.0.
+    (@GUID+94, 0, 57036, @WORLD, 1856, 953.821, -962.538, 3915.019, 0, 0, 0, 28644, 0, 1101, 1101, 0),
+    -- Witherdust Burrower (57038): Hazard Pay (7166) objective 0 type 25 count 1. Position: WorldLocation2, objective indicator 7166.0.
+    (@GUID+95, 0, 57038, @WORLD, 1856, 953.821, -962.538, 3915.019, 0, 0, 0, 21579, 0, 1101, 1101, 0),
+    -- Darkspur Loader (57072): Darkspur Karaoke (7154) objective 1 type 25 count 1. Position: WorldLocation2, objective indicator 7154.1.
+    (@GUID+96, 0, 57072, @WORLD, 2311, 2816.502, -801.739, 4216.993, 0, 0, 0, 26092, 9042, 709, 709, 0),
+    -- Darkspur Hitman (57073): Darkspur Karaoke (7154) objective 1 type 25 count 1. Position: WorldLocation2, objective indicator 7154.1.
+    (@GUID+97, 0, 57073, @WORLD, 2311, 2816.502, -801.739, 4216.993, 0, 0, 0, 26092, 9043, 709, 709, 0),
+    -- Darkspur Butcher (57074): Darkspur Karaoke (7154) objective 1 type 25 count 1. Position: WorldLocation2, objective indicator 7154.1.
+    (@GUID+98, 0, 57074, @WORLD, 2311, 2816.502, -801.739, 4216.993, 0, 0, 0, 26306, 9137, 709, 709, 0),
+    -- Darkspur Enforcer (57076): Darkspur Karaoke (7154) objective 1 type 25 count 1. Position: WorldLocation2, objective indicator 7154.1.
+    (@GUID+99, 0, 57076, @WORLD, 2311, 2816.502, -801.739, 4216.993, 0, 0, 0, 24356, 0, 709, 709, 0),
+    -- Quarantined Remains (61736): Critical Containment! (8859) giver, Critical Containment! (8871) giver. Position: Jabbithole http://www.jabbithole.com/npcs/quarantined-remains-42.
+    (@GUID+100, 10, 61736, @WORLD, 2435, 1567, -820.112, 2207, 0, 0, 0, 27446, 0, 219, 219, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 55),
+    (@GUID+2, 0, 1),
+    (@GUID+2, 10, 40),
+    (@GUID+3, 0, 1),
+    (@GUID+3, 10, 40),
+    (@GUID+4, 0, 1),
+    (@GUID+4, 10, 40),
+    (@GUID+5, 0, 1),
+    (@GUID+5, 10, 40),
+    (@GUID+6, 0, 1),
+    (@GUID+6, 10, 40),
+    (@GUID+7, 0, 1),
+    (@GUID+7, 10, 40),
+    (@GUID+8, 0, 1),
+    (@GUID+8, 10, 40),
+    (@GUID+9, 0, 1),
+    (@GUID+9, 10, 40),
+    (@GUID+10, 0, 1),
+    (@GUID+10, 10, 43),
+    (@GUID+11, 0, 1),
+    (@GUID+11, 10, 1),
+    (@GUID+12, 0, 1),
+    (@GUID+12, 10, 1),
+    (@GUID+13, 0, 1),
+    (@GUID+13, 10, 11),
+    (@GUID+14, 0, 1),
+    (@GUID+14, 10, 11),
+    (@GUID+15, 0, 1),
+    (@GUID+15, 10, 11),
+    (@GUID+16, 0, 1),
+    (@GUID+16, 10, 11),
+    (@GUID+17, 0, 1),
+    (@GUID+17, 10, 11),
+    (@GUID+18, 0, 1),
+    (@GUID+18, 10, 11),
+    (@GUID+19, 0, 1),
+    (@GUID+19, 10, 11),
+    (@GUID+20, 0, 1),
+    (@GUID+20, 10, 11),
+    (@GUID+21, 0, 1),
+    (@GUID+21, 10, 11),
+    (@GUID+22, 0, 1),
+    (@GUID+22, 10, 11),
+    (@GUID+23, 0, 1),
+    (@GUID+23, 10, 1),
+    (@GUID+24, 0, 1),
+    (@GUID+24, 10, 1),
+    (@GUID+25, 0, 1),
+    (@GUID+25, 10, 1),
+    (@GUID+26, 0, 1),
+    (@GUID+26, 10, 1),
+    (@GUID+27, 0, 1),
+    (@GUID+27, 10, 39),
+    (@GUID+28, 0, 1),
+    (@GUID+28, 10, 39),
+    (@GUID+29, 0, 1),
+    (@GUID+29, 10, 39),
+    (@GUID+30, 0, 1),
+    (@GUID+30, 10, 49),
+    (@GUID+31, 0, 1),
+    (@GUID+31, 10, 49),
+    (@GUID+32, 0, 1),
+    (@GUID+32, 10, 35),
+    (@GUID+33, 0, 1),
+    (@GUID+33, 10, 35),
+    (@GUID+34, 0, 1),
+    (@GUID+34, 10, 31),
+    (@GUID+35, 0, 1),
+    (@GUID+35, 10, 45),
+    (@GUID+36, 0, 1),
+    (@GUID+36, 10, 45),
+    (@GUID+37, 0, 1),
+    (@GUID+37, 10, 45),
+    (@GUID+38, 0, 1),
+    (@GUID+38, 10, 45),
+    (@GUID+39, 0, 1),
+    (@GUID+39, 10, 45),
+    (@GUID+40, 0, 1),
+    (@GUID+40, 10, 45),
+    (@GUID+41, 0, 1),
+    (@GUID+41, 10, 45),
+    (@GUID+42, 0, 1),
+    (@GUID+42, 10, 45),
+    (@GUID+43, 0, 1),
+    (@GUID+43, 10, 45),
+    (@GUID+44, 0, 1),
+    (@GUID+44, 10, 45),
+    (@GUID+45, 0, 1),
+    (@GUID+45, 10, 45),
+    (@GUID+46, 0, 1),
+    (@GUID+46, 10, 45),
+    (@GUID+47, 0, 1),
+    (@GUID+47, 10, 45),
+    (@GUID+48, 0, 1),
+    (@GUID+48, 10, 45),
+    (@GUID+49, 0, 1),
+    (@GUID+49, 10, 45),
+    (@GUID+50, 0, 1),
+    (@GUID+50, 10, 45),
+    (@GUID+51, 0, 1),
+    (@GUID+51, 10, 45),
+    (@GUID+52, 0, 1),
+    (@GUID+52, 10, 45),
+    (@GUID+53, 0, 1),
+    (@GUID+53, 10, 43),
+    (@GUID+54, 0, 1),
+    (@GUID+54, 10, 45),
+    (@GUID+55, 0, 1),
+    (@GUID+55, 10, 43),
+    (@GUID+56, 0, 1),
+    (@GUID+56, 10, 43),
+    (@GUID+57, 0, 1),
+    (@GUID+57, 10, 43),
+    (@GUID+58, 0, 1),
+    (@GUID+58, 10, 43),
+    (@GUID+59, 0, 1),
+    (@GUID+59, 10, 46),
+    (@GUID+60, 0, 1),
+    (@GUID+60, 10, 45),
+    (@GUID+61, 0, 1),
+    (@GUID+61, 10, 44),
+    (@GUID+62, 0, 1),
+    (@GUID+62, 10, 43),
+    (@GUID+63, 0, 1),
+    (@GUID+63, 10, 39),
+    (@GUID+64, 0, 1),
+    (@GUID+64, 10, 1),
+    (@GUID+65, 0, 1),
+    (@GUID+65, 10, 1),
+    (@GUID+66, 0, 1),
+    (@GUID+66, 10, 1),
+    (@GUID+67, 0, 1),
+    (@GUID+67, 10, 1),
+    (@GUID+68, 0, 1),
+    (@GUID+68, 10, 1),
+    (@GUID+69, 0, 1),
+    (@GUID+69, 10, 1),
+    (@GUID+70, 0, 1),
+    (@GUID+70, 10, 1),
+    (@GUID+71, 0, 1),
+    (@GUID+71, 10, 1),
+    (@GUID+72, 0, 1),
+    (@GUID+72, 10, 1),
+    (@GUID+73, 0, 1),
+    (@GUID+73, 10, 1),
+    (@GUID+74, 0, 1),
+    (@GUID+74, 10, 42),
+    (@GUID+75, 0, 1),
+    (@GUID+75, 10, 50),
+    (@GUID+76, 0, 1),
+    (@GUID+76, 10, 45),
+    (@GUID+77, 0, 1),
+    (@GUID+77, 10, 45),
+    (@GUID+78, 0, 1),
+    (@GUID+78, 10, 47),
+    (@GUID+79, 0, 1),
+    (@GUID+79, 10, 50),
+    (@GUID+80, 0, 1),
+    (@GUID+80, 10, 50),
+    (@GUID+81, 0, 1),
+    (@GUID+81, 10, 50),
+    (@GUID+82, 0, 1),
+    (@GUID+82, 10, 50),
+    (@GUID+83, 0, 1),
+    (@GUID+83, 10, 50),
+    (@GUID+84, 0, 1),
+    (@GUID+84, 10, 50),
+    (@GUID+85, 0, 1),
+    (@GUID+85, 10, 50),
+    (@GUID+86, 0, 1),
+    (@GUID+86, 10, 50),
+    (@GUID+87, 0, 1),
+    (@GUID+87, 10, 50),
+    (@GUID+88, 0, 1),
+    (@GUID+88, 10, 50),
+    (@GUID+89, 0, 1),
+    (@GUID+89, 10, 50),
+    (@GUID+90, 0, 1),
+    (@GUID+90, 10, 50),
+    (@GUID+91, 0, 1),
+    (@GUID+91, 10, 45),
+    (@GUID+92, 0, 1),
+    (@GUID+92, 10, 45),
+    (@GUID+93, 0, 1),
+    (@GUID+93, 10, 41),
+    (@GUID+94, 0, 1),
+    (@GUID+94, 10, 41),
+    (@GUID+95, 0, 1),
+    (@GUID+95, 10, 41),
+    (@GUID+96, 0, 1),
+    (@GUID+96, 10, 42),
+    (@GUID+97, 0, 1),
+    (@GUID+97, 10, 42),
+    (@GUID+98, 0, 1),
+    (@GUID+98, 10, 42),
+    (@GUID+99, 0, 1),
+    (@GUID+99, 10, 42),
+    (@GUID+100, 0, 1),
+    (@GUID+100, 10, 1);

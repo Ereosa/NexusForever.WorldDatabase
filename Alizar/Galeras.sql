@@ -40396,3 +40396,35 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+285, 10, 15),
     (@GUID+286, 0, 1),
     (@GUID+286, 10, 15);
+
+-- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture, second pass (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Dominion Tracker (53464): Sim Core: A Remarkable Discovery (8834) objective 4 type 8 count 3. Position: Jabbithole http://www.jabbithole.com/npcs/dominion-tracker-14.
+    (@GUID+1, 0, 53464, @WORLD, 1088, 4399, -951.933, -2124, 0, 0, 0, 30354, 8235, 170, 170, 0),
+    (@GUID+2, 0, 53464, @WORLD, 1088, 4395.241, -951.933, -2131.18, -0.2391, 0, 0, 30354, 8235, 170, 170, 0),
+    (@GUID+3, 0, 53464, @WORLD, 1088, 4409.965, -951.933, -2118.756, 0.8245, 0, 0, 30354, 8235, 170, 170, 0),
+    -- Dominion Tracking Lizard (53465): Sim Core: A Remarkable Discovery (8834) objective 4 type 8 count 3. Position: Jabbithole http://www.jabbithole.com/npcs/dominion-tracking-lizard-14.
+    (@GUID+4, 0, 53465, @WORLD, 1088, 4395, -951.933, -2125, 0, 0, 0, 26565, 0, 170, 170, 0),
+    (@GUID+5, 0, 53465, @WORLD, 1088, 4399.088, -951.933, -2113.493, -2.1304, 0, 0, 26565, 0, 170, 170, 0),
+    (@GUID+6, 0, 53465, @WORLD, 1088, 4391.033, -951.933, -2106.956, 0.0322, 0, 0, 26565, 0, 170, 170, 0),
+    -- The Caretaker (66168): Gathering Support - Dorians Opinion (9712) receiver, Journey into OMNICore-1 (9716) giver, Deeds Once Done (9739) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/the-caretaker-14.
+    (@GUID+7, 0, 66168, @WORLD, 1088, 4401, -952.317, -2120, 0, 0, 0, 25105, 0, 219, 219, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 15),
+    (@GUID+2, 0, 1),
+    (@GUID+2, 10, 15),
+    (@GUID+3, 0, 1),
+    (@GUID+3, 10, 15),
+    (@GUID+4, 0, 1),
+    (@GUID+4, 10, 15),
+    (@GUID+5, 0, 1),
+    (@GUID+5, 10, 15),
+    (@GUID+6, 0, 1),
+    (@GUID+6, 10, 15),
+    (@GUID+7, 0, 1),
+    (@GUID+7, 10, 50);
