@@ -5,7 +5,7 @@
 -- The number of waves comes from PathSoldierEventWave. Wave sizes are reconstructed, the retail values are server side only.
 -- flags: 1 = boss
 -- --------------------------------------
-DELETE FROM `path_soldier_holdout_spawn` WHERE `pathSoldierEventId` IN (85, 92, 97, 98, 106, 107, 111, 153, 156, 184, 185, 228, 234, 236, 237, 247, 250, 274, 289, 293, 300, 312, 313, 314, 316, 319, 320, 331, 333, 334, 336, 337, 338, 340, 355, 357, 365, 366, 369, 370, 374, 388, 397, 399, 409, 412, 419, 436, 452, 473, 485, 487, 488, 489, 553, 561, 562, 563, 564, 566, 567, 587, 588, 589, 598, 608, 611, 612, 613, 614, 615, 616, 621, 628, 633);
+DELETE FROM `path_soldier_holdout_spawn` WHERE `pathSoldierEventId` IN (85, 92, 97, 98, 106, 107, 111, 153, 156, 184, 185, 228, 234, 236, 237, 247, 250, 274, 289, 293, 300, 312, 313, 314, 316, 319, 320, 331, 333, 334, 336, 337, 338, 340, 341, 355, 357, 365, 366, 369, 370, 374, 388, 397, 399, 409, 412, 419, 436, 452, 473, 485, 487, 488, 489, 490, 553, 561, 562, 563, 564, 565, 566, 567, 587, 588, 589, 598, 606, 608, 611, 612, 613, 614, 615, 616, 621, 628, 633);
 
 INSERT INTO `path_soldier_holdout_spawn` (`pathSoldierEventId`, `waveIndex`, `creatureId`, `count`, `flags`, `distance`, `comment`) VALUES
 	(92, 0, 17974, 1, 0, 0, 'Gallows Departed (Q4023) - Throg Carver'),
@@ -305,6 +305,7 @@ INSERT INTO `path_soldier_holdout_spawn` (`pathSoldierEventId`, `waveIndex`, `cr
 	(340, 2, 34138, 4, 0, 0, 'HOLDOUT: Stolen Supplies (Q7095) - Hungry Rimefur'),
 	(340, 3, 34138, 4, 0, 0, 'HOLDOUT: Stolen Supplies (Q7095) - Hungry Rimefur'),
 	(340, 3, 34139, 1, 1, 0, 'HOLDOUT: Stolen Supplies (Q7095) - Augmented Frost Giant'),
+	(341, 3, 34139, 1, 1, 0, 'HOLDOUT: Stolen Supplies (Q7102) - Augmented Frost Giant'),
 	(357, 0, 57072, 2, 0, 0, 'Darkspur Karaoke (Q7154) - Darkspur Loader'),
 	(357, 1, 57072, 3, 0, 0, 'Darkspur Karaoke (Q7154) - Darkspur Loader'),
 	(357, 1, 57076, 1, 0, 0, 'Darkspur Karaoke (Q7154) - Darkspur Enforcer'),
@@ -514,6 +515,17 @@ INSERT INTO `path_soldier_holdout_spawn` (`pathSoldierEventId`, `waveIndex`, `cr
 	(489, 0, 51529, 2, 0, 0, 'We Built This Sentry (Q8574) - Wired Brancher Buzzard'),
 	(489, 1, 51529, 3, 0, 0, 'We Built This Sentry (Q8574) - Wired Brancher Buzzard'),
 	(489, 1, 51527, 1, 0, 0, 'We Built This Sentry (Q8574) - Wired Canimid(p:Wired Canimid)'),
+	(490, 0, 51888, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8584) - Wired Ravenok(p:Wired Ravenok)'),
+	(490, 0, 51887, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8584) - Wired Pumera(p:Wired Pumera)'),
+	(490, 1, 51887, 2, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8584) - Wired Pumera(p:Wired Pumera)'),
+	(490, 1, 51889, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8584) - Wired Malverine'),
+	(490, 1, 51888, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8584) - Wired Ravenok(p:Wired Ravenok)'),
+	(490, 2, 51889, 3, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8584) - Wired Malverine'),
+	(490, 2, 51888, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8584) - Wired Ravenok(p:Wired Ravenok)'),
+	(490, 2, 51887, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8584) - Wired Pumera(p:Wired Pumera)'),
+	(490, 3, 51888, 3, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8584) - Wired Ravenok(p:Wired Ravenok)'),
+	(490, 3, 51887, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8584) - Wired Pumera(p:Wired Pumera)'),
+	(490, 3, 51889, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8584) - Wired Malverine'),
 	(553, 0, 49610, 2, 0, 0, 'Experiment Extermination (Q8914) - Lab Slank Specimen'),
 	(553, 1, 49610, 3, 0, 0, 'Experiment Extermination (Q8914) - Lab Slank Specimen'),
 	(553, 1, 49611, 1, 0, 0, 'Experiment Extermination (Q8914) - Chemically Infused Embryo'),
@@ -538,6 +550,17 @@ INSERT INTO `path_soldier_holdout_spawn` (`pathSoldierEventId`, `waveIndex`, `cr
 	(563, 1, 42936, 4, 0, 0, 'We Built This Sentry (Q8984) - Eldan Repair Construct'),
 	(564, 0, 42936, 2, 0, 0, 'We Built This Sentry (Q8984) - Eldan Repair Construct'),
 	(564, 1, 42936, 4, 0, 0, 'We Built This Sentry (Q8984) - Eldan Repair Construct'),
+	(565, 0, 51888, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8992) - Wired Ravenok(p:Wired Ravenok)'),
+	(565, 0, 51887, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8992) - Wired Pumera(p:Wired Pumera)'),
+	(565, 1, 51887, 2, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8992) - Wired Pumera(p:Wired Pumera)'),
+	(565, 1, 51889, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8992) - Wired Malverine'),
+	(565, 1, 51888, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8992) - Wired Ravenok(p:Wired Ravenok)'),
+	(565, 2, 51889, 3, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8992) - Wired Malverine'),
+	(565, 2, 51888, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8992) - Wired Ravenok(p:Wired Ravenok)'),
+	(565, 2, 51887, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8992) - Wired Pumera(p:Wired Pumera)'),
+	(565, 3, 51888, 3, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8992) - Wired Ravenok(p:Wired Ravenok)'),
+	(565, 3, 51887, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8992) - Wired Pumera(p:Wired Pumera)'),
+	(565, 3, 51889, 1, 0, 0, 'Welcoming Committee [GROUP 5+] (Q8992) - Wired Malverine'),
 	(566, 0, 52524, 2, 0, 0, 'Clean Room (Q8993) - Chompacabra Unburrowing'),
 	(566, 1, 52524, 3, 0, 0, 'Clean Room (Q8993) - Chompacabra Unburrowing'),
 	(566, 2, 52524, 4, 0, 0, 'Clean Room (Q8993) - Chompacabra Unburrowing'),
@@ -573,6 +596,7 @@ INSERT INTO `path_soldier_holdout_spawn` (`pathSoldierEventId`, `waveIndex`, `cr
 	(598, 1, 61745, 1, 0, 0, 'Orb of Power (Q9535) - Exanite Wrecker'),
 	(598, 2, 61743, 4, 0, 0, 'Orb of Power (Q9535) - Exanite Slammer'),
 	(598, 2, 61745, 1, 0, 0, 'Orb of Power (Q9535) - Exanite Wrecker'),
+	(606, 2, 63558, 1, 1, 0, 'A Rose Forgotten (Q9614) - Bonebreaker'),
 	(612, 0, 63718, 1, 0, 0, 'Bugs in the System (Q9619) - System Bug'),
 	(612, 0, 63719, 1, 0, 0, 'Bugs in the System (Q9619) - System Bug'),
 	(612, 1, 63719, 1, 0, 0, 'Bugs in the System (Q9619) - System Bug'),
