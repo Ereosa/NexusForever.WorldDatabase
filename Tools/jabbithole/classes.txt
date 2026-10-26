@@ -1,0 +1,6 @@
+Id=1 StartingItemProficiencies=18
+Id=2 StartingItemProficiencies=66
+Id=3 StartingItemProficiencies=262152
+Id=4 StartingItemProficiencies=260
+Id=5 StartingItemProficiencies=1048580
+Id=7 StartingItemProficiencies=4104
