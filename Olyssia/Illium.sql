@@ -9900,3 +9900,15 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+192, 10, 15),
     (@GUID+193, 0, 1),
     (@GUID+193, 10, 50);
+
+-- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture, third pass (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Dominion Informant (46161): Next Stop the Borellian Cluster (8797) giver. Position: Jabbithole http://www.jabbithole.com/npcs/dominion-informant-78.
+    (@GUID+1, 0, 46161, @WORLD, 2193, -3572, -878.089, -820, 0, 0, 0, 36787, 7845, 170, 170, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 45);

@@ -20765,3 +20765,15 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+6, 10, 1),
     (@GUID+7, 0, 1),
     (@GUID+7, 10, 1);
+
+-- --------------------------------------
+-- Quest givers, receivers and objective targets missing from the capture, third pass (generated from the client data:
+-- quest receiver and objective marker locations, archived Jabbithole map positions otherwise)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
+    -- Lulu Blackbush (40726): Too Late for Mutt [GROUP 5+] (8844) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/lulu-blackbush-155.
+    (@GUID+1, 0, 40726, @WORLD, 4158, 3981, -933.987, -4377, 0, 0, 0, 27812, 9094, 171, 171, 0);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1),
+    (@GUID+1, 10, 48);
