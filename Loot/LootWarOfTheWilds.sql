@@ -1,4 +1,45 @@
 -- --------------------------------------
+-- War of the Wilds creature loot
+-- Generated from archived Jabbithole drop tables (player collected, most recent game version per creature).
+-- Probabilities are the observed drop chance for each item, rolled independently.
+-- --------------------------------------
+DELETE FROM `entity_loot` WHERE `id` IN (25961, 25967, 25968, 25970);
+DELETE FROM `loot_item` WHERE `id` IN (25961, 25967, 25968, 25970);
+DELETE FROM `loot_group` WHERE `id` IN (25961, 25967, 25968, 25970);
+
+-- Rootbrute Deathcap (88 kills recorded, rootbrute-deathcap-32)
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (25961, NULL, 100, 0, 0, 0, 0, 'Rootbrute Deathcap');
+INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (25961, 25961, 'Rootbrute Deathcap');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(25961, 0, 8148, 72.73, 1, 1, 'Nutritious Mushrooms'),
+	(25961, 0, 29321, 15.91, 1, 1, 'Sign of Life - Greater'),
+	(25961, 0, 18647, 3.41, 1, 1, 'Rootbrute Meat'),
+	(25961, 0, 4687, 2.27, 1, 1, 'Honeywheat Seeds'),
+	(25961, 0, 8153, 2.27, 1, 1, 'Mysterious Seeds'),
+	(25961, 0, 14197, 1.14, 1, 1, 'Serpentlily Seeds'),
+	(25961, 0, 15772, 1.14, 1, 1, 'Coralscale Seeds'),
+	(25961, 0, 14204, 1.14, 1, 1, 'Logicleaf Seeds');
+
+-- Lord Hoarfrost (3 kills recorded, lord-hoarfrost-32)
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (25967, NULL, 100, 0, 0, 0, 0, 'Lord Hoarfrost');
+INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (25967, 25967, 'Lord Hoarfrost');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(25967, 0, 8392, 100, 1, 1, 'Discolored Fetish');
+
+-- Glaciax (2 kills recorded, glaciax-32)
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (25968, NULL, 100, 0, 0, 0, 0, 'Glaciax');
+INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (25968, 25968, 'Glaciax');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(25968, 0, 47687, 100, 1, 1, 'Flawed Gronyx Ore');
+
+-- The Frozen Corrupter (6 kills recorded, the-frozen-corrupter-32)
+INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) VALUES (25970, NULL, 100, 0, 0, 0, 0, 'The Frozen Corrupter');
+INSERT INTO `entity_loot` (`id`, `lootGroupId`, `comment`) VALUES (25970, 25970, 'The Frozen Corrupter');
+INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES
+	(25970, 0, 38664, 100, 1, 1, 'Rot Skin');
+
+
+-- --------------------------------------
 -- War of the Wilds loot
 -- GUESSED: nothing was archived for the adventure. The moodie chieftain, the moodie totem and the champions drop moodie and
 -- Coldburrow items from the client data.
