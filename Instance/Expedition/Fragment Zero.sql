@@ -1788,47 +1788,63 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
 INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
     (@GUID + 1, @EVENTID, 0);
 
+-- Airlock iris doors. They are props of the airlock caves' Shiphand_Level6 dressing (NaturalCave 003, 006 and 008):
+-- each door entity drives one of the two iris props through ActivePropId = prop id in the dressing << 32 | cave prop id
+-- in the area, the same composite id retail used for dungeon piece props. Positions are the props' world positions.
+
 -- Xenobite Door - SurfaceToAirlock - STH (68588)
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
-INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
-    (@GUID + 1, 4, 68588, @WORLD, 4620, 9723.281, -766.841, -6094.639, -1.6696, 0, 0, 0, 0, 219, 219, 0);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `ActivePropId`) VALUES
+    (@GUID + 1, 4, 68588, @WORLD, 4620, 9696.374, -769.328, -6096.995, -1.6705, 0, 0, 0, 0, 219, 219, 16071767988818),
+    (@GUID + 2, 4, 68588, @WORLD, 4620, 9696.374, -769.328, -6096.995, -1.6705, 0, 0, 0, 0, 219, 219, 16084652890706);
 INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
-    (@GUID + 1, @EVENTID, 0);
+    (@GUID + 1, @EVENTID, 0),
+    (@GUID + 2, @EVENTID, 0);
 
 -- Gronyx Door - SurfaceToAirlock - STH (68596)
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
-INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
-    (@GUID + 1, 4, 68596, @WORLD, 4620, 10098.730, -771.655, -6117.129, 1.5708, 0, 0, 0, 0, 219, 219, 0);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `ActivePropId`) VALUES
+    (@GUID + 1, 4, 68596, @WORLD, 4620, 10102.526, -773.927, -6117.726, 1.5708, 0, 0, 0, 0, 219, 219, 52694954449491),
+    (@GUID + 2, 4, 68596, @WORLD, 4620, 10102.526, -773.927, -6117.726, 1.5708, 0, 0, 0, 0, 219, 219, 52699249416787);
 INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
-    (@GUID + 1, @EVENTID, 0);
+    (@GUID + 1, @EVENTID, 0),
+    (@GUID + 2, @EVENTID, 0);
 
 -- Pell Door - SurfaceToAirlock - STH (68598)
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
-INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
-    (@GUID + 1, 4, 68598, @WORLD, 4620, 9838.019, -782.127, -6283.940, 2.9264, 0, 0, 0, 0, 219, 219, 0);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `ActivePropId`) VALUES
+    (@GUID + 1, 4, 68598, @WORLD, 4620, 9834.370, -782.474, -6300.947, -2.9226, 0, 0, 0, 0, 219, 219, 46372762360275),
+    (@GUID + 2, 4, 68598, @WORLD, 4620, 9834.370, -782.474, -6300.947, -2.9226, 0, 0, 0, 0, 219, 219, 46377057327571);
 INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
-    (@GUID + 1, @EVENTID, 0);
+    (@GUID + 1, @EVENTID, 0),
+    (@GUID + 2, @EVENTID, 0);
 
 -- Xenobite Door - AirlockToWing - STH (68595)
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
-INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
-    (@GUID + 1, 4, 68595, @WORLD, 4625, 9671.437, -767.574, -6099.742, -1.6696, 0, 0, 0, 0, 219, 219, 0);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `ActivePropId`) VALUES
+    (@GUID + 1, 4, 68595, @WORLD, 4625, 9665.150, -769.328, -6100.075, 1.4711, 0, 0, 0, 0, 219, 219, 16320876091986),
+    (@GUID + 2, 4, 68595, @WORLD, 4625, 9665.150, -769.328, -6100.075, 1.4711, 0, 0, 0, 0, 219, 219, 16325171059282);
 INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
-    (@GUID + 1, @EVENTID, 0);
+    (@GUID + 1, @EVENTID, 0),
+    (@GUID + 2, @EVENTID, 0);
 
 -- Gronyx Door - AirlockToWing - STH (68597)
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
-INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
-    (@GUID + 1, 4, 68597, @WORLD, 4630, 10126.971, -778.425, -6117.570, 1.5708, 0, 0, 0, 0, 219, 219, 0);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `ActivePropId`) VALUES
+    (@GUID + 1, 4, 68597, @WORLD, 4630, 10132.879, -781.862, -6117.770, -1.5708, 0, 0, 0, 0, 219, 219, 52798033664595),
+    (@GUID + 2, 4, 68597, @WORLD, 4630, 10132.879, -781.862, -6117.770, -1.5708, 0, 0, 0, 0, 219, 219, 52802328631891);
 INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
-    (@GUID + 1, @EVENTID, 0);
+    (@GUID + 1, @EVENTID, 0),
+    (@GUID + 2, @EVENTID, 0);
 
 -- Pell Door - AirlockToWing - STH (68599)
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
-INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
-    (@GUID + 1, 4, 68599, @WORLD, 4633, 9829.709, -780.656, -6325.006, 2.9264, 0, 0, 0, 0, 219, 219, 0);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `ActivePropId`) VALUES
+    (@GUID + 1, 4, 68599, @WORLD, 4633, 9827.509, -782.474, -6331.560, 0.2190, 0, 0, 0, 0, 219, 219, 46269683145171),
+    (@GUID + 2, 4, 68599, @WORLD, 4633, 9827.509, -782.474, -6331.560, 0.2190, 0, 0, 0, 0, 219, 219, 46273978112467);
 INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
-    (@GUID + 1, @EVENTID, 0);
+    (@GUID + 1, @EVENTID, 0),
+    (@GUID + 2, @EVENTID, 0);
 
 -- Eldan Security Beam (69317), patrolling world 3180 splines
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
