@@ -1156,7 +1156,7 @@ INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
 -- Transport from Fragment Zero (69013)
 SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
 INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`, `QuestChecklistIdx`) VALUES
-    (@GUID + 1, 14, 69013, @WORLD, 4619, 9861.000, -765.750, -5810.000, 0.0000, 0, 0, 0, 0, 219, 219, 0);
+    (@GUID + 1, 14, 69013, @WORLD, 4619, 9861.000, -761.100, -5810.000, 0.0000, 0, 0, 0, 0, 219, 219, 0);
 INSERT INTO `entity_event` (`id`, `eventId`, `phase`) VALUES
     (@GUID + 1, @EVENTID, 0);
 
