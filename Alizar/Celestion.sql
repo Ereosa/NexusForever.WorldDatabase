@@ -41174,3 +41174,20 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+62, 10, 11),
     (@GUID+63, 0, 1),
     (@GUID+63, 10, 11);
+
+-- --------------------------------------
+-- Arwick Redleaf at the Woodhaven sanctuary
+-- --------------------------------------
+-- The captured Arwick (30542) stands in the middle of Woodhaven, where Journey to Woodhaven (6805) is handed in, but The Watcher's Way
+-- (6619) is handed in at the sanctuary 75 m north and the tracker for his other quests points there. Retail most likely moved him after
+-- Sanctuary Enshrined (6618), no phasing data for that, so he stands at both spots (guessed). Position: WorldLocation2, receiver location 6619.
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`) VALUES
+    (@GUID+1, 0, 30542, @WORLD, 1570, 1106.5, -952.1, -2372.4, -1.317144, 0, 0, 27879, 9074, 171, 171);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 7702046),
+    (@GUID+1, 10, 50),
+    (@GUID+1, 15, 0),
+    (@GUID+1, 20, 1954338),
+    (@GUID+1, 21, 18),
+    (@GUID+1, 22, 0);
