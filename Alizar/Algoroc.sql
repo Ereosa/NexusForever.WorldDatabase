@@ -30706,3 +30706,50 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 20, 0),
     (@GUID+1, 21, 0),
     (@GUID+1, 22, 0);
+
+-- --------------------------------------
+-- Icemaw Cavern (reports 68 and 69): the generated quest spawns put the Yeti Extermination targets (the cave entrance trigger
+-- volumes 16040-16042, which are not creatures) and the Icemaw Alpha on the cave's map label at the entrance, the cave itself only
+-- had the captured spawns near the entrance. The volumes are removed, yetis and Pure Loftite Veins stand inside the cave at archived
+-- Jabbithole positions (x,z), heights interpolated between the captured spawns and the cave's world locations (guess, no terrain
+-- data underground).
+-- --------------------------------------
+DELETE `s` FROM `entity_stats` `s` JOIN `entity` `e` ON `e`.`Id` = `s`.`Id` WHERE `e`.`World` = @WORLD AND (`e`.`Creature` IN (16040, 16041, 16042) OR (`e`.`Creature` = 16630 AND `e`.`Area` = 948));
+DELETE `s` FROM `entity_spline` `s` JOIN `entity` `e` ON `e`.`Id` = `s`.`Id` WHERE `e`.`World` = @WORLD AND (`e`.`Creature` IN (16040, 16041, 16042) OR (`e`.`Creature` = 16630 AND `e`.`Area` = 948));
+DELETE FROM `entity` WHERE `World` = @WORLD AND (`Creature` IN (16040, 16041, 16042) OR (`Creature` = 16630 AND `Area` = 948));
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`) VALUES
+    (@GUID+1, 0, 16630, @WORLD, 13, 2559, -866.4, -4733, 1.5177, 0, 0, 22385, 0, 743, 743),
+    (@GUID+2, 0, 16631, @WORLD, 13, 2645, -866.66, -4754, 2.7682, 0, 0, 0, 0, 743, 743),
+    (@GUID+3, 0, 16632, @WORLD, 13, 2682, -867.4, -4784, 1.5537, 0, 0, 21335, 0, 743, 743),
+    (@GUID+4, 0, 16631, @WORLD, 13, 2699, -867.74, -4791, 2.5631, 0, 0, 0, 0, 743, 743),
+    (@GUID+5, 0, 16632, @WORLD, 13, 2593, -866.4, -4724, -2.4431, 0, 0, 21335, 0, 743, 743),
+    (@GUID+6, 0, 16631, @WORLD, 13, 2726, -868.28, -4813, 0.501, 0, 0, 0, 0, 743, 743),
+    (@GUID+7, 0, 16632, @WORLD, 13, 2660, -866.96, -4680, -0.4279, 0, 0, 21335, 0, 743, 743),
+    (@GUID+8, 0, 16631, @WORLD, 13, 2750, -866.104, -4829, -1.4727, 0, 0, 0, 0, 743, 743),
+    (@GUID+9, 0, 16632, @WORLD, 13, 2685, -867.46, -4802, 2.2634, 0, 0, 21335, 0, 743, 743),
+    (@GUID+10, 0, 16631, @WORLD, 13, 2773, -858.928, -4955, -1.0714, 0, 0, 0, 0, 743, 743),
+    (@GUID+11, 10, 16655, @WORLD, 13, 2681, -867.38, -4812, 0, 0, 0, 24699, 0, 219, 219),
+    (@GUID+12, 10, 16655, @WORLD, 13, 2593, -866.4, -4723, 0, 0, 0, 24699, 0, 219, 219),
+    (@GUID+13, 10, 16655, @WORLD, 13, 2777, -857.68, -4941, 0, 0, 0, 24699, 0, 219, 219);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1800),
+    (@GUID+1, 10, 7),
+    (@GUID+2, 0, 1502),
+    (@GUID+2, 10, 7),
+    (@GUID+3, 0, 1502),
+    (@GUID+3, 10, 7),
+    (@GUID+4, 0, 1502),
+    (@GUID+4, 10, 7),
+    (@GUID+5, 0, 1502),
+    (@GUID+5, 10, 7),
+    (@GUID+6, 0, 1502),
+    (@GUID+6, 10, 7),
+    (@GUID+7, 0, 1502),
+    (@GUID+7, 10, 7),
+    (@GUID+8, 0, 1502),
+    (@GUID+8, 10, 7),
+    (@GUID+9, 0, 1502),
+    (@GUID+9, 10, 7),
+    (@GUID+10, 0, 1502),
+    (@GUID+10, 10, 7);
