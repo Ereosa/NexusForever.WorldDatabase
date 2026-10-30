@@ -13148,12 +13148,6 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
     (@GUID+3, 10, 20789, @WORLD, 2550, 4216.799, -810.962, -2160.366, 0, 0, 0, 30558, 0, 219, 219, 0),
     -- Military Delivery Point (20790): Exile Express (5181) objective 2 type 12 count 1. Position: WorldLocation2, objective indicator 5181.2.
     (@GUID+4, 10, 20790, @WORLD, 2550, 4189.614, -810.962, -2232.98, 0, 0, 0, 23691, 0, 219, 219, 0),
-    -- Mordechai Redmoon (24895): Dungeon: Prime Skullcano (9847) objective 0 type 2 count 1, Dungeon: Prime Skullcano (9848) objective 0 type 2 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/mordechai-redmoon-14.
-    (@GUID+5, 0, 24895, @WORLD, 2554, 3893, -842.838, -1830, 0, 0, 0, 25255, 0, 390, 390, 0),
-    -- Forgemaster Trogun (32533): Dungeon: Prime Ruins of Kel Voreth (9845) objective 0 type 2 count 1, Dungeon: Prime Ruins of Kel Voreth (9846) objective 0 type 2 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/forgemaster-trogun-14.
-    (@GUID+6, 0, 32533, @WORLD, 2546, 4231, -814.837, -2426, 0, 0, 0, 29203, 0, 691, 691, 0),
-    -- Stormtalon (33406): Dungeon: Prime Stormtalons Lair (9843) objective 0 type 2 count 1, Dungeon: Prime Stormtalons Lair (9844) objective 0 type 2 count 1, Expedition: Prime They Came from Fragment Zero! (9909) objective 0 type 5 count 1. Position: Jabbithole http://www.jabbithole.com/npcs/stormtalon-14.
-    (@GUID+7, 0, 33406, @WORLD, 2554, 3872, -842.838, -1745, 0, 0, 0, 27719, 0, 586, 586, 0),
     -- Mysterious Portal (50377): Opening Doors (8869) objective 1 type 17 count 1, Opening Doors (8870) objective 1 type 17 count 1, Straining to be Heard (8872) objective 1 type 22 count 1. Position: WorldLocation2, objective indicator 8869.1.
     (@GUID+8, 14, 50377, @WORLD, 2957, 3955.727, -817.664, -2663.232, 0, 0, 0, 29666, 0, 219, 219, 0),
     -- Mysterious Portal (50402): Opening Doors (8869) objective 1 type 17 count 1, Opening Doors (8870) objective 1 type 17 count 1, Straining to be Heard (8872) objective 1 type 22 count 1. Position: WorldLocation2, objective indicator 8869.1.
@@ -13183,7 +13177,7 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
     -- Public Works Supervisor (59640): Vermin  (9475) giver, Vermin  (9475) receiver. Position: Jabbithole http://www.jabbithole.com/npcs/public-works-supervisor-14.
     (@GUID+24, 0, 59640, @WORLD, 122, 4135, -799.5, -2078, 0, 0, 0, 26742, 9028, 171, 171, 0),
     -- Belle Walker (62807): Journey into OMNICore-1 (9716) receiver, Rebooting OMNICore-1 (10574) giver. Position: Jabbithole http://www.jabbithole.com/npcs/belle-walker-14.
-    (@GUID+25, 0, 62807, @WORLD, 122, 4112, -802.876, -1742, 0, 0, 0, 23604, 9068, 1346, 1346, 0),
+    (@GUID+25, 0, 62807, @WORLD, 122, 4112, -820.475, -1742, 0, 0, 0, 23604, 9068, 1346, 1346, 0),
     -- Gourdinista (62844): The Great Gourd King (9633) objective 2 type 18 count 7. Position: WorldLocation2, objective indicator 9633.2.
     (@GUID+26, 0, 62844, @WORLD, 2957, 3825.135, -823.327, -2612.702, 0, 0, 0, 22600, 0, 219, 219, 0),
     (@GUID+27, 0, 62844, @WORLD, 2957, 3836.852, -821.787, -2611.02, 2.9487, 0, 0, 22600, 0, 219, 219, 1),
@@ -13340,12 +13334,6 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+3, 10, 1),
     (@GUID+4, 0, 1),
     (@GUID+4, 10, 1),
-    (@GUID+5, 0, 1),
-    (@GUID+5, 10, 50),
-    (@GUID+6, 0, 1),
-    (@GUID+6, 10, 50),
-    (@GUID+7, 0, 1),
-    (@GUID+7, 10, 50),
     (@GUID+8, 0, 1),
     (@GUID+8, 10, 1),
     (@GUID+9, 0, 1),
