@@ -1,0 +1,10079 @@
+{
+"12843": {
+"name": "Broken Standard-Issue Greatsword",
+"rows": []
+},
+"12855": {
+"name": "Miscellaneous Junk Turret Parts{p:Miscellaneous Junk Turret Parts}",
+"rows": []
+},
+"13091": {
+"name": "Blayke Smith's Pile of Parts{p:Blayke Smith's Pile of Parts}",
+"rows": []
+},
+"13104": {
+"name": "Damaged Weapon",
+"rows": []
+},
+"13365": {
+"name": "Skeech Frostlord's Box{p:Skeech Frostlord's Boxes}",
+"rows": []
+},
+"13366": {
+"name": "Heirloom Warrior Kit",
+"rows": []
+},
+"13367": {
+"name": "Heirloom Spellslinger Kit",
+"rows": []
+},
+"13368": {
+"name": "Heirloom Stalker Kit",
+"rows": []
+},
+"13369": {
+"name": "Heirloom Esper Kit",
+"rows": []
+},
+"13415": {
+"name": "Master Heirloom Kit",
+"rows": []
+},
+"14628": {
+"name": "Starloom Shirt",
+"rows": [
+{
+"id": 47972,
+"name": "Starloom Ribbon",
+"count": 24919,
+"total": 36001
+},
+{
+"id": 14520,
+"name": "Starloom Cloth",
+"count": 7644,
+"total": 36001
+},
+{
+"id": 15630,
+"name": "Bloodbriar",
+"count": 1786,
+"total": 36001
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 363,
+"total": 36001
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 162,
+"total": 36001
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 127,
+"total": 36001
+},
+{
+"id": 47971,
+"name": "Manaweave Trim",
+"count": 56,
+"total": 36001
+},
+{
+"id": 16025,
+"name": "Starshard Power Core",
+"count": 46,
+"total": 36001
+},
+{
+"id": 14673,
+"name": "Starshard",
+"count": 46,
+"total": 36001
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 42,
+"total": 36001
+},
+{
+"id": 16127,
+"name": "Primal Pelt",
+"count": 37,
+"total": 36001
+},
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 37,
+"total": 36001
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 36,
+"total": 36001
+},
+{
+"id": 14519,
+"name": "Manaweave Cloth",
+"count": 31,
+"total": 36001
+},
+{
+"id": 47631,
+"name": "Rough Hybrid Power Core",
+"count": 31,
+"total": 36001
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 27,
+"total": 36001
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 25,
+"total": 36001
+},
+{
+"id": 29594,
+"name": "Sign of Fusion - Major",
+"count": 24,
+"total": 36001
+},
+{
+"id": 47638,
+"name": "Rough Chrysalus Power Core",
+"count": 22,
+"total": 36001
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 22,
+"total": 36001
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 21,
+"total": 36001
+},
+{
+"id": 47636,
+"name": "Rough Starshard Power Core",
+"count": 20,
+"total": 36001
+},
+{
+"id": 14704,
+"name": "Primal Hardwood",
+"count": 20,
+"total": 36001
+},
+{
+"id": 14289,
+"name": "Exotic Bug Meat",
+"count": 19,
+"total": 36001
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 18,
+"total": 36001
+},
+{
+"id": 14701,
+"name": "Ironbark Wood",
+"count": 16,
+"total": 36001
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 16,
+"total": 36001
+},
+{
+"id": 14785,
+"name": "Starthread",
+"count": 16,
+"total": 36001
+},
+{
+"id": 16565,
+"name": "Kinetic Omni-Plasm",
+"count": 15,
+"total": 36001
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 14,
+"total": 36001
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 14,
+"total": 36001
+},
+{
+"id": 29587,
+"name": "Sign of Life - Eldan",
+"count": 14,
+"total": 36001
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 13,
+"total": 36001
+},
+{
+"id": 41476,
+"name": "Hybrid Power Core",
+"count": 13,
+"total": 36001
+},
+{
+"id": 14281,
+"name": "Choice Meat",
+"count": 11,
+"total": 36001
+},
+{
+"id": 29602,
+"name": "Sign of Logic - Major",
+"count": 11,
+"total": 36001
+},
+{
+"id": 44301,
+"name": "Fragment of the Esper",
+"count": 11,
+"total": 36001
+},
+{
+"id": 14703,
+"name": "Augmented Hardwood",
+"count": 11,
+"total": 36001
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 10,
+"total": 36001
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 9,
+"total": 36001
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 9,
+"total": 36001
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 9,
+"total": 36001
+},
+{
+"id": 29607,
+"name": "Sign of Air - Eldan",
+"count": 9,
+"total": 36001
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 8,
+"total": 36001
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 8,
+"total": 36001
+},
+{
+"id": 29599,
+"name": "Sign of Fire - Eldan",
+"count": 8,
+"total": 36001
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 8,
+"total": 36001
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 8,
+"total": 36001
+},
+{
+"id": 14702,
+"name": "Ancient Wood",
+"count": 8,
+"total": 36001
+},
+{
+"id": 44298,
+"name": "Fragment of the Medic",
+"count": 7,
+"total": 36001
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 6,
+"total": 36001
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 5,
+"total": 36001
+},
+{
+"id": 16003,
+"name": "Shadeslate",
+"count": 5,
+"total": 36001
+},
+{
+"id": 47632,
+"name": "Dual Hybrid Power Core",
+"count": 5,
+"total": 36001
+},
+{
+"id": 29319,
+"name": "Sign of Water - Eldan",
+"count": 5,
+"total": 36001
+},
+{
+"id": 29603,
+"name": "Sign of Logic - Eldan",
+"count": 5,
+"total": 36001
+},
+{
+"id": 14769,
+"name": "Magethread",
+"count": 5,
+"total": 36001
+},
+{
+"id": 15626,
+"name": "Witherwood",
+"count": 5,
+"total": 36001
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 4,
+"total": 36001
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 4,
+"total": 36001
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 4,
+"total": 36001
+},
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 4,
+"total": 36001
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 4,
+"total": 36001
+},
+{
+"id": 29595,
+"name": "Sign of Fusion - Eldan",
+"count": 4,
+"total": 36001
+},
+{
+"id": 49851,
+"name": "Prototype Tech Components",
+"count": 3,
+"total": 36001
+},
+{
+"id": 14778,
+"name": "Eldan Acceleron",
+"count": 3,
+"total": 36001
+},
+{
+"id": 44296,
+"name": "Fragment of the Warrior",
+"count": 3,
+"total": 36001
+},
+{
+"id": 14249,
+"name": "Stonebound Pelt",
+"count": 3,
+"total": 36001
+},
+{
+"id": 16023,
+"name": "Chrysalus Power Core",
+"count": 3,
+"total": 36001
+},
+{
+"id": 29251,
+"name": "Rune of Insight",
+"count": 3,
+"total": 36001
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 3,
+"total": 36001
+},
+{
+"id": 16004,
+"name": "Novacite",
+"count": 3,
+"total": 36001
+},
+{
+"id": 49850,
+"name": "Advanced Tech Scraps",
+"count": 3,
+"total": 36001
+},
+{
+"id": 14700,
+"name": "Knotted Heartwood",
+"count": 3,
+"total": 36001
+},
+{
+"id": 12815,
+"name": "Octopod",
+"count": 2,
+"total": 36001
+},
+{
+"id": 31141,
+"name": "Spectral Musketoons",
+"count": 2,
+"total": 36001
+},
+{
+"id": 44094,
+"name": "Chest of Crafting Components",
+"count": 2,
+"total": 36001
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 2,
+"total": 36001
+},
+{
+"id": 14285,
+"name": "Gourmet Poultry",
+"count": 2,
+"total": 36001
+},
+{
+"id": 18609,
+"name": "Cheesy Poultry Bake",
+"count": 2,
+"total": 36001
+},
+{
+"id": 18605,
+"name": "Finely-Cut Filet",
+"count": 2,
+"total": 36001
+},
+{
+"id": 14517,
+"name": "Silk Cloth",
+"count": 2,
+"total": 36001
+},
+{
+"id": 14516,
+"name": "Canvas Cloth",
+"count": 2,
+"total": 36001
+},
+{
+"id": 29591,
+"name": "Sign of Earth - Eldan",
+"count": 2,
+"total": 36001
+},
+{
+"id": 19190,
+"name": "Fine Thread",
+"count": 1,
+"total": 36001
+},
+{
+"id": 34484,
+"name": "Shadow Blast Fragment",
+"count": 1,
+"total": 36001
+},
+{
+"id": 14977,
+"name": "Mourningstar Medishot: Shield Restore",
+"count": 1,
+"total": 36001
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 1,
+"total": 36001
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 1,
+"total": 36001
+},
+{
+"id": 44100,
+"name": "Satchel of Scavenged Supplies",
+"count": 1,
+"total": 36001
+},
+{
+"id": 37250,
+"name": "Revolutionary Fibronic Serum",
+"count": 1,
+"total": 36001
+},
+{
+"id": 53170,
+"name": "Warlock's Biowave Amice",
+"count": 1,
+"total": 36001
+},
+{
+"id": 14976,
+"name": "Mourningstar Medispray",
+"count": 1,
+"total": 36001
+},
+{
+"id": 14784,
+"name": "Dynamic Omni-Plasm",
+"count": 1,
+"total": 36001
+},
+{
+"id": 18610,
+"name": "Citrus Basted Poultry",
+"count": 1,
+"total": 36001
+},
+{
+"id": 14969,
+"name": "Mourningstar Medishot: Delayed Healing",
+"count": 1,
+"total": 36001
+},
+{
+"id": 18618,
+"name": "Octopod-Dough Bites",
+"count": 1,
+"total": 36001
+},
+{
+"id": 18620,
+"name": "Cheesy Heartichoke Dip",
+"count": 1,
+"total": 36001
+},
+{
+"id": 29140,
+"name": "Timberwood Dye",
+"count": 1,
+"total": 36001
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 1,
+"total": 36001
+},
+{
+"id": 29143,
+"name": "Hard Asteroid Dye",
+"count": 1,
+"total": 36001
+},
+{
+"id": 21661,
+"name": "Spindly Tree",
+"count": 1,
+"total": 36001
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 1,
+"total": 36001
+},
+{
+"id": 34485,
+"name": "Shadow Guard Fragment",
+"count": 1,
+"total": 36001
+},
+{
+"id": 46506,
+"name": "Supreme VARIANT Force Chargers",
+"count": 1,
+"total": 36001
+},
+{
+"id": 34481,
+"name": "Hard Rock Fragment",
+"count": 1,
+"total": 36001
+},
+{
+"id": 44099,
+"name": "Satchel of Scavenged Supplies",
+"count": 1,
+"total": 36001
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 1,
+"total": 36001
+},
+{
+"id": 38317,
+"name": "Feretory of Fascinating Furnishings",
+"count": 1,
+"total": 36001
+},
+{
+"id": 34769,
+"name": "Quick Restart AMP",
+"count": 1,
+"total": 36001
+},
+{
+"id": 29098,
+"name": "Bingberry Dye",
+"count": 1,
+"total": 36001
+},
+{
+"id": 14963,
+"name": "Mourningstar Medishot: Instant Healing",
+"count": 1,
+"total": 36001
+},
+{
+"id": 47970,
+"name": "Whimfiber Strand",
+"count": 1,
+"total": 36001
+}
+]
+},
+"15062": {
+"name": "Heirloom Crafting Starter Kit",
+"rows": []
+},
+"15469": {
+"name": "Hycrest Adventure Bag",
+"rows": []
+},
+"15470": {
+"name": "Galeras Adventure Bag",
+"rows": []
+},
+"15471": {
+"name": "Algoroc Adventure Bag",
+"rows": []
+},
+"15472": {
+"name": "Whitevale Adventure Bag",
+"rows": []
+},
+"15473": {
+"name": "Malgrave Adventure Bag",
+"rows": []
+},
+"15775": {
+"name": "Northern Wilds Adventure Bag",
+"rows": []
+},
+"17247": {
+"name": "Heirloom Engineer Kit",
+"rows": []
+},
+"17630": {
+"name": "Cooking Starter Kit",
+"rows": []
+},
+"18061": {
+"name": "Technologist Additive Kit",
+"rows": []
+},
+"18076": {
+"name": "Technologist Additive Kit",
+"rows": []
+},
+"19236": {
+"name": "Deprecate",
+"rows": []
+},
+"19241": {
+"name": "Deprecate",
+"rows": []
+},
+"19246": {
+"name": "Deprecate",
+"rows": []
+},
+"19251": {
+"name": "Deprecate",
+"rows": []
+},
+"19334": {
+"name": "Screen Capture Salvage Kit",
+"rows": []
+},
+"19335": {
+"name": "Screencap Dominion ICI Set",
+"rows": []
+},
+"19336": {
+"name": "Screencap Dominion Commander Set",
+"rows": []
+},
+"19337": {
+"name": "Screencap Dominion Sergeant Set",
+"rows": []
+},
+"19338": {
+"name": "Screencap Dominion Soldier Bonus Helms",
+"rows": []
+},
+"22096": {
+"name": "Deprecate",
+"rows": []
+},
+"22422": {
+"name": "Scarhide Treasure Box{p:Scarhide Treasure Boxes}",
+"rows": []
+},
+"23541": {
+"name": "Closed Beta Test Heirloom  Kit",
+"rows": []
+},
+"27314": {
+"name": "Heirloom Engineer 1-20 Kit",
+"rows": []
+},
+"27315": {
+"name": "Heirloom Engineer 20-34 DPS Kit",
+"rows": []
+},
+"27316": {
+"name": "Heirloom Engineer 20-34 Support Kit",
+"rows": []
+},
+"27317": {
+"name": "Heirloom Engineer 35-50 DPS Kit",
+"rows": []
+},
+"27318": {
+"name": "Heirloom Engineer 35-50 Support Kit",
+"rows": []
+},
+"27319": {
+"name": "Heirloom Esper 1-20 Kit",
+"rows": []
+},
+"27320": {
+"name": "Heirloom Esper 20-34 DPS Kit",
+"rows": []
+},
+"27321": {
+"name": "Heirloom Esper 20-34 Support Kit",
+"rows": []
+},
+"27322": {
+"name": "Heirloom Esper 35-50 DPS Kit",
+"rows": []
+},
+"27323": {
+"name": "Heirloom Esper 35-50 Support Kit",
+"rows": []
+},
+"27324": {
+"name": "Heirloom Medic 1-20 Kit",
+"rows": []
+},
+"27325": {
+"name": "Heirloom Medic 20-34 DPS Kit",
+"rows": []
+},
+"27326": {
+"name": "Heirloom Medic 20-34 Support Kit",
+"rows": []
+},
+"27327": {
+"name": "Heirloom Medic 35-50 DPS Kit",
+"rows": []
+},
+"27328": {
+"name": "Heirloom Medic 35-50 Support Kit",
+"rows": []
+},
+"27329": {
+"name": "Heirloom Spellslinger 1-20 Kit",
+"rows": []
+},
+"27330": {
+"name": "Heirloom Spellslinger 20-34 DPS Kit",
+"rows": []
+},
+"27331": {
+"name": "Heirloom Spellslinger 20-34 Support Kit",
+"rows": []
+},
+"27332": {
+"name": "Heirloom Spellslinger 35-50 DPS Kit",
+"rows": []
+},
+"27333": {
+"name": "Heirloom Spellslinger 35-50 Support Kit",
+"rows": []
+},
+"27334": {
+"name": "Heirloom Stalker 1-20 Kit",
+"rows": []
+},
+"27335": {
+"name": "Heirloom Stalker 20-34 DPS Kit",
+"rows": []
+},
+"27336": {
+"name": "Heirloom Stalker 20-34 Support Kit",
+"rows": []
+},
+"27337": {
+"name": "Heirloom Stalker 35-50 DPS Kit",
+"rows": []
+},
+"27338": {
+"name": "Heirloom Stalker 35-50 Support Kit",
+"rows": []
+},
+"27339": {
+"name": "Heirloom Warrior 1-20 Kit",
+"rows": []
+},
+"27340": {
+"name": "Heirloom Warrior 20-34 DPS Kit",
+"rows": []
+},
+"27341": {
+"name": "Heirloom Warrior 20-34 Support Kit",
+"rows": []
+},
+"27342": {
+"name": "Heirloom Warrior 35-50 DPS Kit",
+"rows": []
+},
+"27343": {
+"name": "Heirloom Warrior 35-50 Support Kit",
+"rows": []
+},
+"27344": {
+"name": "Heirloom Crafting Advanced Kit",
+"rows": []
+},
+"27353": {
+"name": "Cinematic Low Warrior Kit",
+"rows": []
+},
+"27354": {
+"name": "Cinematic Mid Warrior Kit",
+"rows": []
+},
+"27355": {
+"name": "Cinematic High Warrior Kit",
+"rows": []
+},
+"27356": {
+"name": "Cinematic Low Spellslinger Kit",
+"rows": []
+},
+"27357": {
+"name": "Cinematic Mid Spellslinger Kit",
+"rows": []
+},
+"27358": {
+"name": "Cinematic High Spellslinger Kit",
+"rows": []
+},
+"27359": {
+"name": "Cinematic Low Stalker Kit",
+"rows": []
+},
+"27360": {
+"name": "Cinematic Mid Stalker Kit",
+"rows": []
+},
+"27361": {
+"name": "Cinematic High Stalker Kit",
+"rows": []
+},
+"27362": {
+"name": "Cinematic Low Esper Kit",
+"rows": []
+},
+"27363": {
+"name": "Cinematic Mid Esper Kit",
+"rows": []
+},
+"27364": {
+"name": "Cinematic High Esper Kit",
+"rows": []
+},
+"27365": {
+"name": "Cinematic Low Engineer Kit",
+"rows": []
+},
+"27366": {
+"name": "Cinematic Mid Engineer Kit",
+"rows": []
+},
+"27367": {
+"name": "Cinematic High Engineer Kit",
+"rows": []
+},
+"27368": {
+"name": "Cinematic Low Medic Kit",
+"rows": []
+},
+"27369": {
+"name": "Cinematic Mid Medic Kit",
+"rows": []
+},
+"27370": {
+"name": "Cinematic High Medic Kit",
+"rows": []
+},
+"27572": {
+"name": "Whimfiber Hat{p:Whimfiber Hats}",
+"rows": [
+{
+"id": 47970,
+"name": "Whimfiber Strand",
+"count": 5042,
+"total": 7478
+},
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 1429,
+"total": 7478
+},
+{
+"id": 14203,
+"name": "Logicleaf",
+"count": 250,
+"total": 7478
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 68,
+"total": 7478
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 66,
+"total": 7478
+},
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 59,
+"total": 7478
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 57,
+"total": 7478
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 41,
+"total": 7478
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 39,
+"total": 7478
+},
+{
+"id": 47969,
+"name": "Silk Plait",
+"count": 38,
+"total": 7478
+},
+{
+"id": 14517,
+"name": "Silk Cloth",
+"count": 32,
+"total": 7478
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 23,
+"total": 7478
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 21,
+"total": 7478
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 20,
+"total": 7478
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 15,
+"total": 7478
+},
+{
+"id": 14519,
+"name": "Manaweave Cloth",
+"count": 13,
+"total": 7478
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 13,
+"total": 7478
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 12,
+"total": 7478
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 12,
+"total": 7478
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 12,
+"total": 7478
+},
+{
+"id": 47638,
+"name": "Rough Chrysalus Power Core",
+"count": 12,
+"total": 7478
+},
+{
+"id": 14192,
+"name": "Sapphire",
+"count": 12,
+"total": 7478
+},
+{
+"id": 16003,
+"name": "Shadeslate",
+"count": 10,
+"total": 7478
+},
+{
+"id": 47971,
+"name": "Manaweave Trim",
+"count": 10,
+"total": 7478
+},
+{
+"id": 14276,
+"name": "Medium Fish",
+"count": 10,
+"total": 7478
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 10,
+"total": 7478
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 9,
+"total": 7478
+},
+{
+"id": 31459,
+"name": "Diamond Power Core",
+"count": 8,
+"total": 7478
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 8,
+"total": 7478
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 7,
+"total": 7478
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 7,
+"total": 7478
+},
+{
+"id": 14249,
+"name": "Stonebound Pelt",
+"count": 7,
+"total": 7478
+},
+{
+"id": 14703,
+"name": "Augmented Hardwood",
+"count": 6,
+"total": 7478
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 6,
+"total": 7478
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 6,
+"total": 7478
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 6,
+"total": 7478
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 5,
+"total": 7478
+},
+{
+"id": 19190,
+"name": "Fine Thread",
+"count": 5,
+"total": 7478
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 5,
+"total": 7478
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 5,
+"total": 7478
+},
+{
+"id": 14194,
+"name": "Diamond",
+"count": 4,
+"total": 7478
+},
+{
+"id": 14783,
+"name": "Advanced Omni-Plasm",
+"count": 4,
+"total": 7478
+},
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 3,
+"total": 7478
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 3,
+"total": 7478
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 3,
+"total": 7478
+},
+{
+"id": 14701,
+"name": "Ironbark Wood",
+"count": 3,
+"total": 7478
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 3,
+"total": 7478
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 3,
+"total": 7478
+},
+{
+"id": 14275,
+"name": "Small Fish",
+"count": 2,
+"total": 7478
+},
+{
+"id": 14769,
+"name": "Magethread",
+"count": 2,
+"total": 7478
+},
+{
+"id": 16023,
+"name": "Chrysalus Power Core",
+"count": 2,
+"total": 7478
+},
+{
+"id": 14672,
+"name": "Chrysalus",
+"count": 2,
+"total": 7478
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 1,
+"total": 7478
+},
+{
+"id": 18504,
+"name": "Citrus-Grilled Poultry",
+"count": 1,
+"total": 7478
+},
+{
+"id": 14865,
+"name": "Coralscale Medishot: Shield Restore",
+"count": 1,
+"total": 7478
+},
+{
+"id": 14864,
+"name": "Coralscale Medispray",
+"count": 1,
+"total": 7478
+},
+{
+"id": 37485,
+"name": "Kinetic Burst AMP",
+"count": 1,
+"total": 7478
+},
+{
+"id": 14702,
+"name": "Ancient Wood",
+"count": 1,
+"total": 7478
+},
+{
+"id": 18512,
+"name": "Mashed Stoutroot",
+"count": 1,
+"total": 7478
+},
+{
+"id": 47972,
+"name": "Starloom Ribbon",
+"count": 1,
+"total": 7478
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 1,
+"total": 7478
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 1,
+"total": 7478
+},
+{
+"id": 33788,
+"name": "Skeech Neural Stabilizer",
+"count": 1,
+"total": 7478
+},
+{
+"id": 22326,
+"name": "Fifield's Head Guard",
+"count": 1,
+"total": 7478
+},
+{
+"id": 44462,
+"name": "Overly Friendly Squirg",
+"count": 1,
+"total": 7478
+},
+{
+"id": 31463,
+"name": "Weak Diamond Power Core",
+"count": 1,
+"total": 7478
+},
+{
+"id": 18499,
+"name": "Tender Steak",
+"count": 1,
+"total": 7478
+},
+{
+"id": 29111,
+"name": "Camelope Dye",
+"count": 1,
+"total": 7478
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 1,
+"total": 7478
+},
+{
+"id": 17402,
+"name": "Peppered Roast",
+"count": 1,
+"total": 7478
+},
+{
+"id": 14782,
+"name": "Accelerated Omni-Plasm",
+"count": 1,
+"total": 7478
+},
+{
+"id": 14647,
+"name": "Bug Pudding",
+"count": 1,
+"total": 7478
+},
+{
+"id": 14461,
+"name": "Pot Roast",
+"count": 1,
+"total": 7478
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 1,
+"total": 7478
+},
+{
+"id": 14618,
+"name": "Secret-Recipe Fried Poultry",
+"count": 1,
+"total": 7478
+},
+{
+"id": 17397,
+"name": "Honeywheat Sandwich",
+"count": 1,
+"total": 7478
+},
+{
+"id": 14784,
+"name": "Dynamic Omni-Plasm",
+"count": 1,
+"total": 7478
+},
+{
+"id": 16128,
+"name": "Thick Bone",
+"count": 1,
+"total": 7478
+},
+{
+"id": 14862,
+"name": "Coralscale Medishot: Sustained Healing",
+"count": 1,
+"total": 7478
+},
+{
+"id": 18501,
+"name": "Pepper Steak",
+"count": 1,
+"total": 7478
+}
+]
+},
+"27573": {
+"name": "Manaweave Pants{p:Manaweave Pants}",
+"rows": [
+{
+"id": 47971,
+"name": "Manaweave Trim",
+"count": 7489,
+"total": 11402
+},
+{
+"id": 14519,
+"name": "Manaweave Cloth",
+"count": 2339,
+"total": 11402
+},
+{
+"id": 15626,
+"name": "Witherwood",
+"count": 454,
+"total": 11402
+},
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 162,
+"total": 11402
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 122,
+"total": 11402
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 75,
+"total": 11402
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 73,
+"total": 11402
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 59,
+"total": 11402
+},
+{
+"id": 14520,
+"name": "Starloom Cloth",
+"count": 38,
+"total": 11402
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 31,
+"total": 11402
+},
+{
+"id": 47970,
+"name": "Whimfiber Strand",
+"count": 31,
+"total": 11402
+},
+{
+"id": 47638,
+"name": "Rough Chrysalus Power Core",
+"count": 29,
+"total": 11402
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 27,
+"total": 11402
+},
+{
+"id": 14249,
+"name": "Stonebound Pelt",
+"count": 26,
+"total": 11402
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 25,
+"total": 11402
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 24,
+"total": 11402
+},
+{
+"id": 47972,
+"name": "Starloom Ribbon",
+"count": 22,
+"total": 11402
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 22,
+"total": 11402
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 19,
+"total": 11402
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 18,
+"total": 11402
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 18,
+"total": 11402
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 17,
+"total": 11402
+},
+{
+"id": 16127,
+"name": "Primal Pelt",
+"count": 15,
+"total": 11402
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 14,
+"total": 11402
+},
+{
+"id": 16025,
+"name": "Starshard Power Core",
+"count": 14,
+"total": 11402
+},
+{
+"id": 14672,
+"name": "Chrysalus",
+"count": 14,
+"total": 11402
+},
+{
+"id": 14703,
+"name": "Augmented Hardwood",
+"count": 13,
+"total": 11402
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 12,
+"total": 11402
+},
+{
+"id": 16023,
+"name": "Chrysalus Power Core",
+"count": 11,
+"total": 11402
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 11,
+"total": 11402
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 11,
+"total": 11402
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 10,
+"total": 11402
+},
+{
+"id": 16003,
+"name": "Shadeslate",
+"count": 9,
+"total": 11402
+},
+{
+"id": 14769,
+"name": "Magethread",
+"count": 9,
+"total": 11402
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 8,
+"total": 11402
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 7,
+"total": 11402
+},
+{
+"id": 29603,
+"name": "Sign of Logic - Eldan",
+"count": 7,
+"total": 11402
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 7,
+"total": 11402
+},
+{
+"id": 29602,
+"name": "Sign of Logic - Major",
+"count": 7,
+"total": 11402
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 6,
+"total": 11402
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 5,
+"total": 11402
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 5,
+"total": 11402
+},
+{
+"id": 44297,
+"name": "Fragment of the Engineer",
+"count": 5,
+"total": 11402
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 5,
+"total": 11402
+},
+{
+"id": 14784,
+"name": "Dynamic Omni-Plasm",
+"count": 5,
+"total": 11402
+},
+{
+"id": 14673,
+"name": "Starshard",
+"count": 4,
+"total": 11402
+},
+{
+"id": 47636,
+"name": "Rough Starshard Power Core",
+"count": 4,
+"total": 11402
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 4,
+"total": 11402
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 3,
+"total": 11402
+},
+{
+"id": 14276,
+"name": "Medium Fish",
+"count": 3,
+"total": 11402
+},
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 3,
+"total": 11402
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 2,
+"total": 11402
+},
+{
+"id": 29319,
+"name": "Sign of Water - Eldan",
+"count": 2,
+"total": 11402
+},
+{
+"id": 24235,
+"name": "Monophasic Superserum Vial",
+"count": 2,
+"total": 11402
+},
+{
+"id": 47631,
+"name": "Rough Hybrid Power Core",
+"count": 2,
+"total": 11402
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 2,
+"total": 11402
+},
+{
+"id": 29587,
+"name": "Sign of Life - Eldan",
+"count": 2,
+"total": 11402
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 2,
+"total": 11402
+},
+{
+"id": 31459,
+"name": "Diamond Power Core",
+"count": 2,
+"total": 11402
+},
+{
+"id": 14782,
+"name": "Accelerated Omni-Plasm",
+"count": 2,
+"total": 11402
+},
+{
+"id": 14783,
+"name": "Advanced Omni-Plasm",
+"count": 2,
+"total": 11402
+},
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 2,
+"total": 11402
+},
+{
+"id": 14285,
+"name": "Gourmet Poultry",
+"count": 2,
+"total": 11402
+},
+{
+"id": 31474,
+"name": "Dual Chrysalus Power Core",
+"count": 2,
+"total": 11402
+},
+{
+"id": 44296,
+"name": "Fragment of the Warrior",
+"count": 1,
+"total": 11402
+},
+{
+"id": 16004,
+"name": "Novacite",
+"count": 1,
+"total": 11402
+},
+{
+"id": 17080,
+"name": "Frostshore Icebath Leggings",
+"count": 1,
+"total": 11402
+},
+{
+"id": 37107,
+"name": "Trunk of Tarnished Tints",
+"count": 1,
+"total": 11402
+},
+{
+"id": 21392,
+"name": "Emerald Leafypatch",
+"count": 1,
+"total": 11402
+},
+{
+"id": 16565,
+"name": "Kinetic Omni-Plasm",
+"count": 1,
+"total": 11402
+},
+{
+"id": 33466,
+"name": "Soulcore Ascended Pants",
+"count": 1,
+"total": 11402
+},
+{
+"id": 34479,
+"name": "Fire Starter Fragment",
+"count": 1,
+"total": 11402
+},
+{
+"id": 14778,
+"name": "Eldan Acceleron",
+"count": 1,
+"total": 11402
+},
+{
+"id": 14194,
+"name": "Diamond",
+"count": 1,
+"total": 11402
+},
+{
+"id": 21414,
+"name": "Barrel Full of Danger",
+"count": 1,
+"total": 11402
+},
+{
+"id": 14702,
+"name": "Ancient Wood",
+"count": 1,
+"total": 11402
+},
+{
+"id": 31475,
+"name": "Dual Starshard Power Core",
+"count": 1,
+"total": 11402
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 1,
+"total": 11402
+},
+{
+"id": 37937,
+"name": "Widowmaker Infusers",
+"count": 1,
+"total": 11402
+},
+{
+"id": 49851,
+"name": "Prototype Tech Components",
+"count": 1,
+"total": 11402
+},
+{
+"id": 15630,
+"name": "Bloodbriar",
+"count": 1,
+"total": 11402
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 1,
+"total": 11402
+},
+{
+"id": 14628,
+"name": "Starloom Shirt",
+"count": 1,
+"total": 11402
+},
+{
+"id": 14289,
+"name": "Exotic Bug Meat",
+"count": 1,
+"total": 11402
+},
+{
+"id": 31460,
+"name": "Hydrogem-Diamond Power Core",
+"count": 1,
+"total": 11402
+},
+{
+"id": 29221,
+"name": "Rune of Finesse",
+"count": 1,
+"total": 11402
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 1,
+"total": 11402
+},
+{
+"id": 20785,
+"name": "Protostar Broadcasting Equipment",
+"count": 1,
+"total": 11402
+},
+{
+"id": 44098,
+"name": "Satchel of Scavenged Supplies",
+"count": 1,
+"total": 11402
+}
+]
+},
+"27577": {
+"name": "Silk Shoes{p:Silk Shoes}",
+"rows": [
+{
+"id": 47969,
+"name": "Silk Plait",
+"count": 6271,
+"total": 9168
+},
+{
+"id": 14517,
+"name": "Silk Cloth",
+"count": 1870,
+"total": 9168
+},
+{
+"id": 15624,
+"name": "Goldleaf",
+"count": 349,
+"total": 9168
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 93,
+"total": 9168
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 61,
+"total": 9168
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 41,
+"total": 9168
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 40,
+"total": 9168
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 36,
+"total": 9168
+},
+{
+"id": 14516,
+"name": "Canvas Cloth",
+"count": 35,
+"total": 9168
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 27,
+"total": 9168
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 26,
+"total": 9168
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 23,
+"total": 9168
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 21,
+"total": 9168
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 21,
+"total": 9168
+},
+{
+"id": 14275,
+"name": "Small Fish",
+"count": 20,
+"total": 9168
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 20,
+"total": 9168
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 14,
+"total": 9168
+},
+{
+"id": 47970,
+"name": "Whimfiber Strand",
+"count": 13,
+"total": 9168
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 12,
+"total": 9168
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 12,
+"total": 9168
+},
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 11,
+"total": 9168
+},
+{
+"id": 16128,
+"name": "Thick Bone",
+"count": 10,
+"total": 9168
+},
+{
+"id": 14782,
+"name": "Accelerated Omni-Plasm",
+"count": 10,
+"total": 9168
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 9,
+"total": 9168
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 9,
+"total": 9168
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 8,
+"total": 9168
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 8,
+"total": 9168
+},
+{
+"id": 19190,
+"name": "Fine Thread",
+"count": 7,
+"total": 9168
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 7,
+"total": 9168
+},
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 7,
+"total": 9168
+},
+{
+"id": 47968,
+"name": "Canvas Braid",
+"count": 6,
+"total": 9168
+},
+{
+"id": 13940,
+"name": "Quartz Power Core",
+"count": 6,
+"total": 9168
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 5,
+"total": 9168
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 5,
+"total": 9168
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 3,
+"total": 9168
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 3,
+"total": 9168
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 3,
+"total": 9168
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 3,
+"total": 9168
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 3,
+"total": 9168
+},
+{
+"id": 14701,
+"name": "Ironbark Wood",
+"count": 3,
+"total": 9168
+},
+{
+"id": 14783,
+"name": "Advanced Omni-Plasm",
+"count": 2,
+"total": 9168
+},
+{
+"id": 12770,
+"name": "Quartz",
+"count": 2,
+"total": 9168
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 2,
+"total": 9168
+},
+{
+"id": 8712,
+"name": "Rigel Double Edged Greatblade",
+"count": 2,
+"total": 9168
+},
+{
+"id": 14192,
+"name": "Sapphire",
+"count": 2,
+"total": 9168
+},
+{
+"id": 27589,
+"name": "Weakened Gladiator's Shield Regenerator",
+"count": 2,
+"total": 9168
+},
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 1,
+"total": 9168
+},
+{
+"id": 16002,
+"name": "Hydrogem",
+"count": 1,
+"total": 9168
+},
+{
+"id": 14774,
+"name": "Eldan Transformer",
+"count": 1,
+"total": 9168
+},
+{
+"id": 16001,
+"name": "Zephyrite",
+"count": 1,
+"total": 9168
+},
+{
+"id": 14847,
+"name": "Serpentlily Medishot: Delayed Healing",
+"count": 1,
+"total": 9168
+},
+{
+"id": 31473,
+"name": "Dual Diamond Power Core",
+"count": 1,
+"total": 9168
+},
+{
+"id": 14181,
+"name": "Bladeleaf",
+"count": 1,
+"total": 9168
+},
+{
+"id": 34058,
+"name": "Plurbinum Dye",
+"count": 1,
+"total": 9168
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 1,
+"total": 9168
+},
+{
+"id": 14703,
+"name": "Augmented Hardwood",
+"count": 1,
+"total": 9168
+},
+{
+"id": 14849,
+"name": "Serpentlily Medishot: Shield Restore",
+"count": 1,
+"total": 9168
+},
+{
+"id": 7840,
+"name": "Cheap Junk",
+"count": 1,
+"total": 9168
+},
+{
+"id": 14276,
+"name": "Medium Fish",
+"count": 1,
+"total": 9168
+},
+{
+"id": 14776,
+"name": "Eldan Focuser",
+"count": 1,
+"total": 9168
+},
+{
+"id": 14775,
+"name": "Eldan Emitter",
+"count": 1,
+"total": 9168
+},
+{
+"id": 14781,
+"name": "Standard Omni-Plasm",
+"count": 1,
+"total": 9168
+},
+{
+"id": 14845,
+"name": "Serpentlily Medishot: Instant Healing",
+"count": 1,
+"total": 9168
+},
+{
+"id": 14846,
+"name": "Serpentlily Medishot: Sustained Healing",
+"count": 1,
+"total": 9168
+},
+{
+"id": 14848,
+"name": "Serpentlily Medispray",
+"count": 1,
+"total": 9168
+},
+{
+"id": 31472,
+"name": "Dual Sapphire Power Core",
+"count": 1,
+"total": 9168
+},
+{
+"id": 29024,
+"name": "Blood Orchid Dye",
+"count": 1,
+"total": 9168
+},
+{
+"id": 8885,
+"name": "Flamedancer Extinguisher",
+"count": 1,
+"total": 9168
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 1,
+"total": 9168
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 1,
+"total": 9168
+},
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 1,
+"total": 9168
+}
+]
+},
+"27582": {
+"name": "Canvas Gloves{p:Canvas Gloves}",
+"rows": [
+{
+"id": 47968,
+"name": "Canvas Braid",
+"count": 6660,
+"total": 9904
+},
+{
+"id": 14516,
+"name": "Canvas Cloth",
+"count": 2008,
+"total": 9904
+},
+{
+"id": 14181,
+"name": "Bladeleaf",
+"count": 331,
+"total": 9904
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 186,
+"total": 9904
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 109,
+"total": 9904
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 89,
+"total": 9904
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 58,
+"total": 9904
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 38,
+"total": 9904
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 38,
+"total": 9904
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 36,
+"total": 9904
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 32,
+"total": 9904
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 28,
+"total": 9904
+},
+{
+"id": 14517,
+"name": "Silk Cloth",
+"count": 28,
+"total": 9904
+},
+{
+"id": 14781,
+"name": "Standard Omni-Plasm",
+"count": 25,
+"total": 9904
+},
+{
+"id": 13940,
+"name": "Quartz Power Core",
+"count": 21,
+"total": 9904
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 19,
+"total": 9904
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 19,
+"total": 9904
+},
+{
+"id": 14275,
+"name": "Small Fish",
+"count": 18,
+"total": 9904
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 15,
+"total": 9904
+},
+{
+"id": 47969,
+"name": "Silk Plait",
+"count": 15,
+"total": 9904
+},
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 14,
+"total": 9904
+},
+{
+"id": 12770,
+"name": "Quartz",
+"count": 13,
+"total": 9904
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 11,
+"total": 9904
+},
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 10,
+"total": 9904
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 8,
+"total": 9904
+},
+{
+"id": 19190,
+"name": "Fine Thread",
+"count": 7,
+"total": 9904
+},
+{
+"id": 14774,
+"name": "Eldan Transformer",
+"count": 6,
+"total": 9904
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 5,
+"total": 9904
+},
+{
+"id": 15624,
+"name": "Goldleaf",
+"count": 4,
+"total": 9904
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 4,
+"total": 9904
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 4,
+"total": 9904
+},
+{
+"id": 32896,
+"name": "Dusty Power Core",
+"count": 2,
+"total": 9904
+},
+{
+"id": 14844,
+"name": "Spirovine Medishot: Shield Restore",
+"count": 2,
+"total": 9904
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 2,
+"total": 9904
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 2,
+"total": 9904
+},
+{
+"id": 14840,
+"name": "Spirovine Medishot: Instant Healing",
+"count": 2,
+"total": 9904
+},
+{
+"id": 14192,
+"name": "Sapphire",
+"count": 2,
+"total": 9904
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 2,
+"total": 9904
+},
+{
+"id": 14782,
+"name": "Accelerated Omni-Plasm",
+"count": 2,
+"total": 9904
+},
+{
+"id": 32897,
+"name": "Experimental Component",
+"count": 2,
+"total": 9904
+},
+{
+"id": 16128,
+"name": "Thick Bone",
+"count": 2,
+"total": 9904
+},
+{
+"id": 14843,
+"name": "Spirovine Medispray",
+"count": 2,
+"total": 9904
+},
+{
+"id": 14700,
+"name": "Knotted Heartwood",
+"count": 2,
+"total": 9904
+},
+{
+"id": 14283,
+"name": "Stringy Poultry",
+"count": 2,
+"total": 9904
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 1,
+"total": 9904
+},
+{
+"id": 14461,
+"name": "Pot Roast",
+"count": 1,
+"total": 9904
+},
+{
+"id": 17397,
+"name": "Honeywheat Sandwich",
+"count": 1,
+"total": 9904
+},
+{
+"id": 14775,
+"name": "Eldan Emitter",
+"count": 1,
+"total": 9904
+},
+{
+"id": 14842,
+"name": "Spirovine Medishot: Delayed Healing",
+"count": 1,
+"total": 9904
+},
+{
+"id": 14618,
+"name": "Secret-Recipe Fried Poultry",
+"count": 1,
+"total": 9904
+},
+{
+"id": 18482,
+"name": "Fried Gribbon",
+"count": 1,
+"total": 9904
+},
+{
+"id": 14841,
+"name": "Spirovine Medishot: Sustained Healing",
+"count": 1,
+"total": 9904
+},
+{
+"id": 42517,
+"name": "1001 Simple Splorghetti Recipes",
+"count": 1,
+"total": 9904
+},
+{
+"id": 47636,
+"name": "Rough Starshard Power Core",
+"count": 1,
+"total": 9904
+},
+{
+"id": 34058,
+"name": "Plurbinum Dye",
+"count": 1,
+"total": 9904
+},
+{
+"id": 34771,
+"name": "Reckless Dash AMP",
+"count": 1,
+"total": 9904
+},
+{
+"id": 34040,
+"name": "Molasses AMP",
+"count": 1,
+"total": 9904
+},
+{
+"id": 34719,
+"name": "Unfair Advantage AMP",
+"count": 1,
+"total": 9904
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 1,
+"total": 9904
+},
+{
+"id": 14647,
+"name": "Bug Pudding",
+"count": 1,
+"total": 9904
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 1,
+"total": 9904
+},
+{
+"id": 12816,
+"name": "Spirovine",
+"count": 1,
+"total": 9904
+},
+{
+"id": 38292,
+"name": "Chest of Crafting Components",
+"count": 1,
+"total": 9904
+}
+]
+},
+"27989": {
+"name": "Test Tradeskill Kit - Tier 1",
+"rows": []
+},
+"27990": {
+"name": "Test Tradeskill Kit - Tier 2",
+"rows": []
+},
+"27991": {
+"name": "Test Tradeskill Kit - Tier 3",
+"rows": []
+},
+"27992": {
+"name": "Test Tradeskill Kit - Tier 4",
+"rows": []
+},
+"27993": {
+"name": "Test Tradeskill Kit - Tier 5",
+"rows": []
+},
+"30407": {
+"name": "The Zax Collection",
+"rows": []
+},
+"30411": {
+"name": "The Brightland Collection",
+"rows": []
+},
+"30412": {
+"name": "The Vigilant Collection",
+"rows": []
+},
+"30413": {
+"name": "The Stonebreaker Collection",
+"rows": []
+},
+"30414": {
+"name": "The Renegade Belle Collection",
+"rows": []
+},
+"30415": {
+"name": "The Kel Voreth Collection",
+"rows": []
+},
+"30416": {
+"name": "The Stormtalon Collection",
+"rows": []
+},
+"30417": {
+"name": "The Corruption Collection",
+"rows": []
+},
+"30418": {
+"name": "The Fringerunner Collection",
+"rows": []
+},
+"30419": {
+"name": "The Highborn Collection",
+"rows": []
+},
+"30420": {
+"name": "The Lowborn Collection",
+"rows": []
+},
+"30421": {
+"name": "The Ikthia Collection",
+"rows": []
+},
+"30422": {
+"name": "The Doon Collection",
+"rows": []
+},
+"30430": {
+"name": "The Grismaran Collection",
+"rows": []
+},
+"30431": {
+"name": "The Skald Collection",
+"rows": []
+},
+"30432": {
+"name": "The Cassian Collection",
+"rows": []
+},
+"30434": {
+"name": "The Brewmaster Collection",
+"rows": []
+},
+"30435": {
+"name": "The Ranger Collection",
+"rows": []
+},
+"30437": {
+"name": "The Skeechington Collection",
+"rows": []
+},
+"30438": {
+"name": "The Dangerous Collection",
+"rows": []
+},
+"30441": {
+"name": "The Innocuous Collection",
+"rows": []
+},
+"30442": {
+"name": "The Botmetal Collection",
+"rows": []
+},
+"30448": {
+"name": "The Ravenok Collection",
+"rows": []
+},
+"30449": {
+"name": "The Shiphand Collection",
+"rows": []
+},
+"30451": {
+"name": "The Predator Collection",
+"rows": []
+},
+"30455": {
+"name": "The Nebula Collection",
+"rows": []
+},
+"30457": {
+"name": "The Mercenary Collection",
+"rows": []
+},
+"32895": {
+"name": "Unusable Crafting Prototype",
+"rows": [
+{
+"id": 32896,
+"name": "Dusty Power Core",
+"count": 3452,
+"total": 6976
+},
+{
+"id": 32897,
+"name": "Experimental Component",
+"count": 3445,
+"total": 6976
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 18,
+"total": 6976
+},
+{
+"id": 14781,
+"name": "Standard Omni-Plasm",
+"count": 7,
+"total": 6976
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 6,
+"total": 6976
+},
+{
+"id": 14516,
+"name": "Canvas Cloth",
+"count": 5,
+"total": 6976
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 4,
+"total": 6976
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 3,
+"total": 6976
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 3,
+"total": 6976
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 3,
+"total": 6976
+},
+{
+"id": 14774,
+"name": "Eldan Transformer",
+"count": 3,
+"total": 6976
+},
+{
+"id": 45438,
+"name": "Superior Charlatan's Foot Wraps",
+"count": 2,
+"total": 6976
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 2,
+"total": 6976
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 2,
+"total": 6976
+},
+{
+"id": 27588,
+"name": "Weakened Gladiator's Invigorator",
+"count": 2,
+"total": 6976
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 2,
+"total": 6976
+},
+{
+"id": 13862,
+"name": "Fashionable Split Leather Boots",
+"count": 2,
+"total": 6976
+},
+{
+"id": 17384,
+"name": "Candy-Coated Bugs",
+"count": 1,
+"total": 6976
+},
+{
+"id": 4753,
+"name": "Whimwoven Satchel",
+"count": 1,
+"total": 6976
+},
+{
+"id": 14841,
+"name": "Spirovine Medishot: Sustained Healing",
+"count": 1,
+"total": 6976
+},
+{
+"id": 14700,
+"name": "Knotted Heartwood",
+"count": 1,
+"total": 6976
+},
+{
+"id": 14426,
+"name": "Yellowbell",
+"count": 1,
+"total": 6976
+},
+{
+"id": 14843,
+"name": "Spirovine Medispray",
+"count": 1,
+"total": 6976
+},
+{
+"id": 19190,
+"name": "Fine Thread",
+"count": 1,
+"total": 6976
+},
+{
+"id": 14428,
+"name": "Tough Jerky",
+"count": 1,
+"total": 6976
+},
+{
+"id": 17389,
+"name": "Pummelgranate Smoothie",
+"count": 1,
+"total": 6976
+},
+{
+"id": 12770,
+"name": "Quartz",
+"count": 1,
+"total": 6976
+},
+{
+"id": 14840,
+"name": "Spirovine Medishot: Instant Healing",
+"count": 1,
+"total": 6976
+},
+{
+"id": 31466,
+"name": "Refined Quartz Power Core",
+"count": 1,
+"total": 6976
+},
+{
+"id": 17193,
+"name": "Sweet Jerky",
+"count": 1,
+"total": 6976
+},
+{
+"id": 34711,
+"name": "Avoidance Mastery AMP",
+"count": 1,
+"total": 6976
+},
+{
+"id": 12816,
+"name": "Spirovine",
+"count": 1,
+"total": 6976
+}
+]
+},
+"33856": {
+"name": "Protostar Promotional Collection",
+"rows": [
+{
+"id": 29790,
+"name": "Platinum Gray Dye",
+"count": 2016,
+"total": 2038
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 5,
+"total": 2038
+},
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 3,
+"total": 2038
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 2,
+"total": 2038
+},
+{
+"id": 14517,
+"name": "Silk Cloth",
+"count": 1,
+"total": 2038
+},
+{
+"id": 47968,
+"name": "Canvas Braid",
+"count": 1,
+"total": 2038
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 1,
+"total": 2038
+},
+{
+"id": 12770,
+"name": "Quartz",
+"count": 1,
+"total": 2038
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 1,
+"total": 2038
+},
+{
+"id": 22547,
+"name": "Advanced Superpolymer Overboots",
+"count": 1,
+"total": 2038
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 1,
+"total": 2038
+},
+{
+"id": 27588,
+"name": "Weakened Gladiator's Invigorator",
+"count": 1,
+"total": 2038
+},
+{
+"id": 14781,
+"name": "Standard Omni-Plasm",
+"count": 1,
+"total": 2038
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 1,
+"total": 2038
+},
+{
+"id": 14701,
+"name": "Ironbark Wood",
+"count": 1,
+"total": 2038
+},
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 1,
+"total": 2038
+}
+]
+},
+"34057": {
+"name": "Damaged Protostar Dye Collection",
+"rows": [
+{
+"id": 34058,
+"name": "Plurbinum Dye",
+"count": 2498,
+"total": 2521
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 3,
+"total": 2521
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 3,
+"total": 2521
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 3,
+"total": 2521
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 2,
+"total": 2521
+},
+{
+"id": 13940,
+"name": "Quartz Power Core",
+"count": 2,
+"total": 2521
+},
+{
+"id": 14781,
+"name": "Standard Omni-Plasm",
+"count": 2,
+"total": 2521
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 2,
+"total": 2521
+},
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 1,
+"total": 2521
+},
+{
+"id": 14701,
+"name": "Ironbark Wood",
+"count": 1,
+"total": 2521
+},
+{
+"id": 14672,
+"name": "Chrysalus",
+"count": 1,
+"total": 2521
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 1,
+"total": 2521
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 1,
+"total": 2521
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 1,
+"total": 2521
+}
+]
+},
+"40914": {
+"name": "Swordmaiden Reward Bag",
+"rows": []
+},
+"40915": {
+"name": "Swordmaiden Reward Bag",
+"rows": []
+},
+"40916": {
+"name": "Swordmaiden Reward Bag",
+"rows": []
+},
+"41480": {
+"name": "Bag of Surplus Crafting Goods{p:Bags of Surplus Crafting Goods}",
+"rows": [
+{
+"id": 14520,
+"name": "Starloom Cloth",
+"count": 61,
+"total": 440
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 61,
+"total": 440
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 43,
+"total": 440
+},
+{
+"id": 16025,
+"name": "Starshard Power Core",
+"count": 43,
+"total": 440
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 40,
+"total": 440
+},
+{
+"id": 14785,
+"name": "Starthread",
+"count": 24,
+"total": 440
+},
+{
+"id": 16127,
+"name": "Primal Pelt",
+"count": 13,
+"total": 440
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 12,
+"total": 440
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 12,
+"total": 440
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 12,
+"total": 440
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 9,
+"total": 440
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 9,
+"total": 440
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 9,
+"total": 440
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 8,
+"total": 440
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 8,
+"total": 440
+},
+{
+"id": 31475,
+"name": "Dual Starshard Power Core",
+"count": 7,
+"total": 440
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 6,
+"total": 440
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 5,
+"total": 440
+},
+{
+"id": 14673,
+"name": "Starshard",
+"count": 5,
+"total": 440
+},
+{
+"id": 29602,
+"name": "Sign of Logic - Major",
+"count": 5,
+"total": 440
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 4,
+"total": 440
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 3,
+"total": 440
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 3,
+"total": 440
+},
+{
+"id": 29603,
+"name": "Sign of Logic - Eldan",
+"count": 3,
+"total": 440
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 3,
+"total": 440
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 3,
+"total": 440
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 3,
+"total": 440
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 3,
+"total": 440
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 3,
+"total": 440
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 3,
+"total": 440
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 2,
+"total": 440
+},
+{
+"id": 34480,
+"name": "Head Wind Fragment",
+"count": 2,
+"total": 440
+},
+{
+"id": 29607,
+"name": "Sign of Air - Eldan",
+"count": 2,
+"total": 440
+},
+{
+"id": 29587,
+"name": "Sign of Life - Eldan",
+"count": 2,
+"total": 440
+},
+{
+"id": 44301,
+"name": "Fragment of the Esper",
+"count": 2,
+"total": 440
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 2,
+"total": 440
+},
+{
+"id": 44296,
+"name": "Fragment of the Warrior",
+"count": 1,
+"total": 440
+},
+{
+"id": 29591,
+"name": "Sign of Earth - Eldan",
+"count": 1,
+"total": 440
+},
+{
+"id": 29319,
+"name": "Sign of Water - Eldan",
+"count": 1,
+"total": 440
+},
+{
+"id": 44299,
+"name": "Fragment of the Stalker",
+"count": 1,
+"total": 440
+},
+{
+"id": 34482,
+"name": "Logic Bomb Fragment",
+"count": 1,
+"total": 440
+}
+]
+},
+"41481": {
+"name": "Container of Surplus Crafting Goods{p:Containers of Surplus Crafting Goods}",
+"rows": [
+{
+"id": 16025,
+"name": "Starshard Power Core",
+"count": 49,
+"total": 478
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 35,
+"total": 478
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 31,
+"total": 478
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 30,
+"total": 478
+},
+{
+"id": 14520,
+"name": "Starloom Cloth",
+"count": 29,
+"total": 478
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 24,
+"total": 478
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 21,
+"total": 478
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 20,
+"total": 478
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 20,
+"total": 478
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 19,
+"total": 478
+},
+{
+"id": 31475,
+"name": "Dual Starshard Power Core",
+"count": 15,
+"total": 478
+},
+{
+"id": 16127,
+"name": "Primal Pelt",
+"count": 14,
+"total": 478
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 14,
+"total": 478
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 12,
+"total": 478
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 12,
+"total": 478
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 11,
+"total": 478
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 9,
+"total": 478
+},
+{
+"id": 14785,
+"name": "Starthread",
+"count": 9,
+"total": 478
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 8,
+"total": 478
+},
+{
+"id": 41476,
+"name": "Hybrid Power Core",
+"count": 8,
+"total": 478
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 8,
+"total": 478
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 7,
+"total": 478
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 6,
+"total": 478
+},
+{
+"id": 29603,
+"name": "Sign of Logic - Eldan",
+"count": 6,
+"total": 478
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 5,
+"total": 478
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 5,
+"total": 478
+},
+{
+"id": 29602,
+"name": "Sign of Logic - Major",
+"count": 5,
+"total": 478
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 5,
+"total": 478
+},
+{
+"id": 47632,
+"name": "Dual Hybrid Power Core",
+"count": 5,
+"total": 478
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 5,
+"total": 478
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 4,
+"total": 478
+},
+{
+"id": 16004,
+"name": "Novacite",
+"count": 4,
+"total": 478
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 3,
+"total": 478
+},
+{
+"id": 34480,
+"name": "Head Wind Fragment",
+"count": 3,
+"total": 478
+},
+{
+"id": 34479,
+"name": "Fire Starter Fragment",
+"count": 2,
+"total": 478
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 2,
+"total": 478
+},
+{
+"id": 16029,
+"name": "Novacite-Starshard Power Core",
+"count": 2,
+"total": 478
+},
+{
+"id": 14673,
+"name": "Starshard",
+"count": 2,
+"total": 478
+},
+{
+"id": 34481,
+"name": "Hard Rock Fragment",
+"count": 2,
+"total": 478
+},
+{
+"id": 29319,
+"name": "Sign of Water - Eldan",
+"count": 2,
+"total": 478
+},
+{
+"id": 29587,
+"name": "Sign of Life - Eldan",
+"count": 1,
+"total": 478
+},
+{
+"id": 29594,
+"name": "Sign of Fusion - Major",
+"count": 1,
+"total": 478
+},
+{
+"id": 34482,
+"name": "Logic Bomb Fragment",
+"count": 1,
+"total": 478
+},
+{
+"id": 44301,
+"name": "Fragment of the Esper",
+"count": 1,
+"total": 478
+},
+{
+"id": 29607,
+"name": "Sign of Air - Eldan",
+"count": 1,
+"total": 478
+}
+]
+},
+"41482": {
+"name": "Crate of Surplus Crafting Goods{p:Crates of Surplus Crafting Goods}",
+"rows": [
+{
+"id": 16025,
+"name": "Starshard Power Core",
+"count": 544,
+"total": 6460
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 517,
+"total": 6460
+},
+{
+"id": 14520,
+"name": "Starloom Cloth",
+"count": 439,
+"total": 6460
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 432,
+"total": 6460
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 420,
+"total": 6460
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 231,
+"total": 6460
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 227,
+"total": 6460
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 214,
+"total": 6460
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 212,
+"total": 6460
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 200,
+"total": 6460
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 197,
+"total": 6460
+},
+{
+"id": 31475,
+"name": "Dual Starshard Power Core",
+"count": 187,
+"total": 6460
+},
+{
+"id": 14785,
+"name": "Starthread",
+"count": 171,
+"total": 6460
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 168,
+"total": 6460
+},
+{
+"id": 41476,
+"name": "Hybrid Power Core",
+"count": 165,
+"total": 6460
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 162,
+"total": 6460
+},
+{
+"id": 16127,
+"name": "Primal Pelt",
+"count": 162,
+"total": 6460
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 155,
+"total": 6460
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 146,
+"total": 6460
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 129,
+"total": 6460
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 118,
+"total": 6460
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 113,
+"total": 6460
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 101,
+"total": 6460
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 93,
+"total": 6460
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 74,
+"total": 6460
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 69,
+"total": 6460
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 68,
+"total": 6460
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 61,
+"total": 6460
+},
+{
+"id": 29602,
+"name": "Sign of Logic - Major",
+"count": 61,
+"total": 6460
+},
+{
+"id": 14673,
+"name": "Starshard",
+"count": 55,
+"total": 6460
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 51,
+"total": 6460
+},
+{
+"id": 29603,
+"name": "Sign of Logic - Eldan",
+"count": 46,
+"total": 6460
+},
+{
+"id": 16029,
+"name": "Novacite-Starshard Power Core",
+"count": 43,
+"total": 6460
+},
+{
+"id": 29587,
+"name": "Sign of Life - Eldan",
+"count": 42,
+"total": 6460
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 38,
+"total": 6460
+},
+{
+"id": 29591,
+"name": "Sign of Earth - Eldan",
+"count": 29,
+"total": 6460
+},
+{
+"id": 44301,
+"name": "Fragment of the Esper",
+"count": 28,
+"total": 6460
+},
+{
+"id": 47632,
+"name": "Dual Hybrid Power Core",
+"count": 28,
+"total": 6460
+},
+{
+"id": 29319,
+"name": "Sign of Water - Eldan",
+"count": 27,
+"total": 6460
+},
+{
+"id": 44299,
+"name": "Fragment of the Stalker",
+"count": 21,
+"total": 6460
+},
+{
+"id": 29594,
+"name": "Sign of Fusion - Major",
+"count": 21,
+"total": 6460
+},
+{
+"id": 29599,
+"name": "Sign of Fire - Eldan",
+"count": 19,
+"total": 6460
+},
+{
+"id": 29607,
+"name": "Sign of Air - Eldan",
+"count": 18,
+"total": 6460
+},
+{
+"id": 34481,
+"name": "Hard Rock Fragment",
+"count": 18,
+"total": 6460
+},
+{
+"id": 16004,
+"name": "Novacite",
+"count": 16,
+"total": 6460
+},
+{
+"id": 44300,
+"name": "Fragment of the Spellslinger",
+"count": 15,
+"total": 6460
+},
+{
+"id": 44298,
+"name": "Fragment of the Medic",
+"count": 13,
+"total": 6460
+},
+{
+"id": 34478,
+"name": "Crystallize Fragment",
+"count": 13,
+"total": 6460
+},
+{
+"id": 34482,
+"name": "Logic Bomb Fragment",
+"count": 13,
+"total": 6460
+},
+{
+"id": 34480,
+"name": "Head Wind Fragment",
+"count": 13,
+"total": 6460
+},
+{
+"id": 44297,
+"name": "Fragment of the Engineer",
+"count": 12,
+"total": 6460
+},
+{
+"id": 34483,
+"name": "Life Giver Fragment",
+"count": 11,
+"total": 6460
+},
+{
+"id": 34479,
+"name": "Fire Starter Fragment",
+"count": 10,
+"total": 6460
+},
+{
+"id": 29595,
+"name": "Sign of Fusion - Eldan",
+"count": 8,
+"total": 6460
+},
+{
+"id": 44296,
+"name": "Fragment of the Warrior",
+"count": 5,
+"total": 6460
+},
+{
+"id": 34484,
+"name": "Shadow Blast Fragment",
+"count": 5,
+"total": 6460
+},
+{
+"id": 28276,
+"name": "Eldan Data Fragment",
+"count": 3,
+"total": 6460
+},
+{
+"id": 34485,
+"name": "Shadow Guard Fragment",
+"count": 3,
+"total": 6460
+}
+]
+},
+"42995": {
+"name": "Carrion Bait",
+"rows": [
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 14084,
+"total": 34571
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 14008,
+"total": 34571
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 5761,
+"total": 34571
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 120,
+"total": 34571
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 85,
+"total": 34571
+},
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 67,
+"total": 34571
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 61,
+"total": 34571
+},
+{
+"id": 14283,
+"name": "Stringy Poultry",
+"count": 47,
+"total": 34571
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 46,
+"total": 34571
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 34,
+"total": 34571
+},
+{
+"id": 14516,
+"name": "Canvas Cloth",
+"count": 27,
+"total": 34571
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 25,
+"total": 34571
+},
+{
+"id": 16128,
+"name": "Thick Bone",
+"count": 24,
+"total": 34571
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 21,
+"total": 34571
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 20,
+"total": 34571
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 20,
+"total": 34571
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 14,
+"total": 34571
+},
+{
+"id": 14192,
+"name": "Sapphire",
+"count": 10,
+"total": 34571
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 10,
+"total": 34571
+},
+{
+"id": 14781,
+"name": "Standard Omni-Plasm",
+"count": 9,
+"total": 34571
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 9,
+"total": 34571
+},
+{
+"id": 12770,
+"name": "Quartz",
+"count": 6,
+"total": 34571
+},
+{
+"id": 14774,
+"name": "Eldan Transformer",
+"count": 6,
+"total": 34571
+},
+{
+"id": 19190,
+"name": "Fine Thread",
+"count": 5,
+"total": 34571
+},
+{
+"id": 13940,
+"name": "Quartz Power Core",
+"count": 5,
+"total": 34571
+},
+{
+"id": 14517,
+"name": "Silk Cloth",
+"count": 4,
+"total": 34571
+},
+{
+"id": 14289,
+"name": "Exotic Bug Meat",
+"count": 3,
+"total": 34571
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 3,
+"total": 34571
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 3,
+"total": 34571
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 3,
+"total": 34571
+},
+{
+"id": 14700,
+"name": "Knotted Heartwood",
+"count": 2,
+"total": 34571
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 2,
+"total": 34571
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 2,
+"total": 34571
+},
+{
+"id": 14839,
+"name": "Basic Medishot: Sustained Healing",
+"count": 1,
+"total": 34571
+},
+{
+"id": 20762,
+"name": "Micrograv Storage Box",
+"count": 1,
+"total": 34571
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 1,
+"total": 34571
+},
+{
+"id": 14703,
+"name": "Augmented Hardwood",
+"count": 1,
+"total": 34571
+},
+{
+"id": 17385,
+"name": "Citrus Fish Fillet",
+"count": 1,
+"total": 34571
+},
+{
+"id": 34478,
+"name": "Crystallize Fragment",
+"count": 1,
+"total": 34571
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 1,
+"total": 34571
+},
+{
+"id": 38292,
+"name": "Chest of Crafting Components",
+"count": 1,
+"total": 34571
+},
+{
+"id": 14194,
+"name": "Diamond",
+"count": 1,
+"total": 34571
+},
+{
+"id": 14838,
+"name": "Basic Medishot: Instant Healing",
+"count": 1,
+"total": 34571
+},
+{
+"id": 18482,
+"name": "Fried Gribbon",
+"count": 1,
+"total": 34571
+},
+{
+"id": 16565,
+"name": "Kinetic Omni-Plasm",
+"count": 1,
+"total": 34571
+},
+{
+"id": 14428,
+"name": "Tough Jerky",
+"count": 1,
+"total": 34571
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 1,
+"total": 34571
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 1,
+"total": 34571
+},
+{
+"id": 16001,
+"name": "Zephyrite",
+"count": 1,
+"total": 34571
+},
+{
+"id": 14275,
+"name": "Small Fish",
+"count": 1,
+"total": 34571
+},
+{
+"id": 6377,
+"name": "Vial of Stonetusk Stomach Acid",
+"count": 1,
+"total": 34571
+},
+{
+"id": 18776,
+"name": "Recipe: Honeywheat-Glazed Buzzbing",
+"count": 1,
+"total": 34571
+},
+{
+"id": 47968,
+"name": "Canvas Braid",
+"count": 1,
+"total": 34571
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 1,
+"total": 34571
+},
+{
+"id": 14281,
+"name": "Choice Meat",
+"count": 1,
+"total": 34571
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 1,
+"total": 34571
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 1,
+"total": 34571
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 1,
+"total": 34571
+}
+]
+},
+"42996": {
+"name": "Rotten Remains",
+"rows": [
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 9007,
+"total": 25213
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 8964,
+"total": 25213
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 3608,
+"total": 25213
+},
+{
+"id": 16128,
+"name": "Thick Bone",
+"count": 2852,
+"total": 25213
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 123,
+"total": 25213
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 104,
+"total": 25213
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 89,
+"total": 25213
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 63,
+"total": 25213
+},
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 51,
+"total": 25213
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 41,
+"total": 25213
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 32,
+"total": 25213
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 29,
+"total": 25213
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 29,
+"total": 25213
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 24,
+"total": 25213
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 21,
+"total": 25213
+},
+{
+"id": 14275,
+"name": "Small Fish",
+"count": 20,
+"total": 25213
+},
+{
+"id": 14517,
+"name": "Silk Cloth",
+"count": 13,
+"total": 25213
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 12,
+"total": 25213
+},
+{
+"id": 14782,
+"name": "Accelerated Omni-Plasm",
+"count": 12,
+"total": 25213
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 9,
+"total": 25213
+},
+{
+"id": 14283,
+"name": "Stringy Poultry",
+"count": 9,
+"total": 25213
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 9,
+"total": 25213
+},
+{
+"id": 14276,
+"name": "Medium Fish",
+"count": 8,
+"total": 25213
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 6,
+"total": 25213
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 5,
+"total": 25213
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 5,
+"total": 25213
+},
+{
+"id": 47969,
+"name": "Silk Plait",
+"count": 4,
+"total": 25213
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 4,
+"total": 25213
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 4,
+"total": 25213
+},
+{
+"id": 14516,
+"name": "Canvas Cloth",
+"count": 4,
+"total": 25213
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 3,
+"total": 25213
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 3,
+"total": 25213
+},
+{
+"id": 47968,
+"name": "Canvas Braid",
+"count": 3,
+"total": 25213
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 3,
+"total": 25213
+},
+{
+"id": 14192,
+"name": "Sapphire",
+"count": 3,
+"total": 25213
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 3,
+"total": 25213
+},
+{
+"id": 14775,
+"name": "Eldan Emitter",
+"count": 3,
+"total": 25213
+},
+{
+"id": 14700,
+"name": "Knotted Heartwood",
+"count": 2,
+"total": 25213
+},
+{
+"id": 4687,
+"name": "Honeywheat Seeds",
+"count": 2,
+"total": 25213
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 2,
+"total": 25213
+},
+{
+"id": 14477,
+"name": "The Silver Scale",
+"count": 2,
+"total": 25213
+},
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 2,
+"total": 25213
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 2,
+"total": 25213
+},
+{
+"id": 14864,
+"name": "Coralscale Medispray",
+"count": 1,
+"total": 25213
+},
+{
+"id": 14861,
+"name": "Coralscale Medishot: Instant Healing",
+"count": 1,
+"total": 25213
+},
+{
+"id": 31473,
+"name": "Dual Diamond Power Core",
+"count": 1,
+"total": 25213
+},
+{
+"id": 14863,
+"name": "Coralscale Medishot: Delayed Healing",
+"count": 1,
+"total": 25213
+},
+{
+"id": 30690,
+"name": "Book Stack (Medium)",
+"count": 1,
+"total": 25213
+},
+{
+"id": 30707,
+"name": "Frost Snap AMP",
+"count": 1,
+"total": 25213
+},
+{
+"id": 19190,
+"name": "Fine Thread",
+"count": 1,
+"total": 25213
+},
+{
+"id": 17394,
+"name": "Bug Borscht",
+"count": 1,
+"total": 25213
+},
+{
+"id": 12816,
+"name": "Spirovine",
+"count": 1,
+"total": 25213
+},
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 1,
+"total": 25213
+},
+{
+"id": 14426,
+"name": "Yellowbell",
+"count": 1,
+"total": 25213
+},
+{
+"id": 14781,
+"name": "Standard Omni-Plasm",
+"count": 1,
+"total": 25213
+},
+{
+"id": 17398,
+"name": "Honeywheat Bread Pudding",
+"count": 1,
+"total": 25213
+},
+{
+"id": 13940,
+"name": "Quartz Power Core",
+"count": 1,
+"total": 25213
+},
+{
+"id": 27738,
+"name": "Standard Steel Pauldrons",
+"count": 1,
+"total": 25213
+},
+{
+"id": 14461,
+"name": "Pot Roast",
+"count": 1,
+"total": 25213
+},
+{
+"id": 14194,
+"name": "Diamond",
+"count": 1,
+"total": 25213
+},
+{
+"id": 34662,
+"name": "Big Bloodied Backpack",
+"count": 1,
+"total": 25213
+},
+{
+"id": 14783,
+"name": "Advanced Omni-Plasm",
+"count": 1,
+"total": 25213
+}
+]
+},
+"42997": {
+"name": "Mangled Carcass",
+"rows": [
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 6183,
+"total": 17179
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 6120,
+"total": 17179
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 2385,
+"total": 17179
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 1896,
+"total": 17179
+},
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 106,
+"total": 17179
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 68,
+"total": 17179
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 58,
+"total": 17179
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 40,
+"total": 17179
+},
+{
+"id": 16128,
+"name": "Thick Bone",
+"count": 30,
+"total": 17179
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 27,
+"total": 17179
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 25,
+"total": 17179
+},
+{
+"id": 14249,
+"name": "Stonebound Pelt",
+"count": 22,
+"total": 17179
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 19,
+"total": 17179
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 18,
+"total": 17179
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 18,
+"total": 17179
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 18,
+"total": 17179
+},
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 15,
+"total": 17179
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 10,
+"total": 17179
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 9,
+"total": 17179
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 9,
+"total": 17179
+},
+{
+"id": 14519,
+"name": "Manaweave Cloth",
+"count": 8,
+"total": 17179
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 7,
+"total": 17179
+},
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 6,
+"total": 17179
+},
+{
+"id": 14283,
+"name": "Stringy Poultry",
+"count": 5,
+"total": 17179
+},
+{
+"id": 47638,
+"name": "Rough Chrysalus Power Core",
+"count": 5,
+"total": 17179
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 4,
+"total": 17179
+},
+{
+"id": 16023,
+"name": "Chrysalus Power Core",
+"count": 4,
+"total": 17179
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 4,
+"total": 17179
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 3,
+"total": 17179
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 3,
+"total": 17179
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 3,
+"total": 17179
+},
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 3,
+"total": 17179
+},
+{
+"id": 14769,
+"name": "Magethread",
+"count": 3,
+"total": 17179
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 3,
+"total": 17179
+},
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 3,
+"total": 17179
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 2,
+"total": 17179
+},
+{
+"id": 14275,
+"name": "Small Fish",
+"count": 2,
+"total": 17179
+},
+{
+"id": 14276,
+"name": "Medium Fish",
+"count": 2,
+"total": 17179
+},
+{
+"id": 14784,
+"name": "Dynamic Omni-Plasm",
+"count": 2,
+"total": 17179
+},
+{
+"id": 14194,
+"name": "Diamond",
+"count": 2,
+"total": 17179
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 2,
+"total": 17179
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 2,
+"total": 17179
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 2,
+"total": 17179
+},
+{
+"id": 14517,
+"name": "Silk Cloth",
+"count": 2,
+"total": 17179
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 1,
+"total": 17179
+},
+{
+"id": 14701,
+"name": "Ironbark Wood",
+"count": 1,
+"total": 17179
+},
+{
+"id": 14192,
+"name": "Sapphire",
+"count": 1,
+"total": 17179
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 1,
+"total": 17179
+},
+{
+"id": 14783,
+"name": "Advanced Omni-Plasm",
+"count": 1,
+"total": 17179
+},
+{
+"id": 14289,
+"name": "Exotic Bug Meat",
+"count": 1,
+"total": 17179
+},
+{
+"id": 14702,
+"name": "Ancient Wood",
+"count": 1,
+"total": 17179
+},
+{
+"id": 47970,
+"name": "Whimfiber Strand",
+"count": 1,
+"total": 17179
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 1,
+"total": 17179
+},
+{
+"id": 14672,
+"name": "Chrysalus",
+"count": 1,
+"total": 17179
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 1,
+"total": 17179
+},
+{
+"id": 29111,
+"name": "Camelope Dye",
+"count": 1,
+"total": 17179
+},
+{
+"id": 14782,
+"name": "Accelerated Omni-Plasm",
+"count": 1,
+"total": 17179
+},
+{
+"id": 31459,
+"name": "Diamond Power Core",
+"count": 1,
+"total": 17179
+},
+{
+"id": 31473,
+"name": "Dual Diamond Power Core",
+"count": 1,
+"total": 17179
+},
+{
+"id": 47969,
+"name": "Silk Plait",
+"count": 1,
+"total": 17179
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 1,
+"total": 17179
+},
+{
+"id": 16002,
+"name": "Hydrogem",
+"count": 1,
+"total": 17179
+},
+{
+"id": 14777,
+"name": "Eldan Disruptor",
+"count": 1,
+"total": 17179
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 1,
+"total": 17179
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 1,
+"total": 17179
+}
+]
+},
+"42998": {
+"name": "Fresh Game",
+"rows": [
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 8291,
+"total": 22923
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 8269,
+"total": 22923
+},
+{
+"id": 14249,
+"name": "Stonebound Pelt",
+"count": 3370,
+"total": 22923
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 2475,
+"total": 22923
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 76,
+"total": 22923
+},
+{
+"id": 14281,
+"name": "Choice Meat",
+"count": 58,
+"total": 22923
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 46,
+"total": 22923
+},
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 41,
+"total": 22923
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 25,
+"total": 22923
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 24,
+"total": 22923
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 23,
+"total": 22923
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 20,
+"total": 22923
+},
+{
+"id": 16127,
+"name": "Primal Pelt",
+"count": 18,
+"total": 22923
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 16,
+"total": 22923
+},
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 14,
+"total": 22923
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 12,
+"total": 22923
+},
+{
+"id": 14289,
+"name": "Exotic Bug Meat",
+"count": 9,
+"total": 22923
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 6,
+"total": 22923
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 6,
+"total": 22923
+},
+{
+"id": 14519,
+"name": "Manaweave Cloth",
+"count": 6,
+"total": 22923
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 6,
+"total": 22923
+},
+{
+"id": 47638,
+"name": "Rough Chrysalus Power Core",
+"count": 5,
+"total": 22923
+},
+{
+"id": 14194,
+"name": "Diamond",
+"count": 5,
+"total": 22923
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 5,
+"total": 22923
+},
+{
+"id": 14672,
+"name": "Chrysalus",
+"count": 5,
+"total": 22923
+},
+{
+"id": 14520,
+"name": "Starloom Cloth",
+"count": 5,
+"total": 22923
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 5,
+"total": 22923
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 4,
+"total": 22923
+},
+{
+"id": 47971,
+"name": "Manaweave Trim",
+"count": 4,
+"total": 22923
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 4,
+"total": 22923
+},
+{
+"id": 14285,
+"name": "Gourmet Poultry",
+"count": 4,
+"total": 22923
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 4,
+"total": 22923
+},
+{
+"id": 31475,
+"name": "Dual Starshard Power Core",
+"count": 3,
+"total": 22923
+},
+{
+"id": 14784,
+"name": "Dynamic Omni-Plasm",
+"count": 3,
+"total": 22923
+},
+{
+"id": 16023,
+"name": "Chrysalus Power Core",
+"count": 3,
+"total": 22923
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 3,
+"total": 22923
+},
+{
+"id": 18563,
+"name": "Smoked Ribs",
+"count": 3,
+"total": 22923
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 3,
+"total": 22923
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 3,
+"total": 22923
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 3,
+"total": 22923
+},
+{
+"id": 14276,
+"name": "Medium Fish",
+"count": 2,
+"total": 22923
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 2,
+"total": 22923
+},
+{
+"id": 14703,
+"name": "Augmented Hardwood",
+"count": 2,
+"total": 22923
+},
+{
+"id": 47970,
+"name": "Whimfiber Strand",
+"count": 2,
+"total": 22923
+},
+{
+"id": 16565,
+"name": "Kinetic Omni-Plasm",
+"count": 2,
+"total": 22923
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 2,
+"total": 22923
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 2,
+"total": 22923
+},
+{
+"id": 14777,
+"name": "Eldan Disruptor",
+"count": 1,
+"total": 22923
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 1,
+"total": 22923
+},
+{
+"id": 18571,
+"name": "Cheesy Bug Bites",
+"count": 1,
+"total": 22923
+},
+{
+"id": 34704,
+"name": "Crippling Blows AMP",
+"count": 1,
+"total": 22923
+},
+{
+"id": 29603,
+"name": "Sign of Logic - Eldan",
+"count": 1,
+"total": 22923
+},
+{
+"id": 29587,
+"name": "Sign of Life - Eldan",
+"count": 1,
+"total": 22923
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 1,
+"total": 22923
+},
+{
+"id": 29607,
+"name": "Sign of Air - Eldan",
+"count": 1,
+"total": 22923
+},
+{
+"id": 30463,
+"name": "Radiate AMP",
+"count": 1,
+"total": 22923
+},
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 1,
+"total": 22923
+},
+{
+"id": 14785,
+"name": "Starthread",
+"count": 1,
+"total": 22923
+},
+{
+"id": 14778,
+"name": "Eldan Acceleron",
+"count": 1,
+"total": 22923
+},
+{
+"id": 14783,
+"name": "Advanced Omni-Plasm",
+"count": 1,
+"total": 22923
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 1,
+"total": 22923
+},
+{
+"id": 34485,
+"name": "Shadow Guard Fragment",
+"count": 1,
+"total": 22923
+},
+{
+"id": 22052,
+"name": "Sauteed Spikehorde",
+"count": 1,
+"total": 22923
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 1,
+"total": 22923
+},
+{
+"id": 47631,
+"name": "Rough Hybrid Power Core",
+"count": 1,
+"total": 22923
+},
+{
+"id": 29766,
+"name": "Sandstorm Dye",
+"count": 1,
+"total": 22923
+},
+{
+"id": 22064,
+"name": "Recipe: Sauteed Spikehorde",
+"count": 1,
+"total": 22923
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 1,
+"total": 22923
+},
+{
+"id": 18568,
+"name": "Firesauce Poultry",
+"count": 1,
+"total": 22923
+},
+{
+"id": 18573,
+"name": "Cheese-Crusted Fish",
+"count": 1,
+"total": 22923
+},
+{
+"id": 14769,
+"name": "Magethread",
+"count": 1,
+"total": 22923
+}
+]
+},
+"42999": {
+"name": "Trophy Kill",
+"rows": [
+{
+"id": 14281,
+"name": "Choice Meat",
+"count": 34850,
+"total": 91683
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 34729,
+"total": 91683
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 10780,
+"total": 91683
+},
+{
+"id": 16127,
+"name": "Primal Pelt",
+"count": 10600,
+"total": 91683
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 101,
+"total": 91683
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 88,
+"total": 91683
+},
+{
+"id": 14289,
+"name": "Exotic Bug Meat",
+"count": 64,
+"total": 91683
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 57,
+"total": 91683
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 54,
+"total": 91683
+},
+{
+"id": 14249,
+"name": "Stonebound Pelt",
+"count": 37,
+"total": 91683
+},
+{
+"id": 14520,
+"name": "Starloom Cloth",
+"count": 30,
+"total": 91683
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 20,
+"total": 91683
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 16,
+"total": 91683
+},
+{
+"id": 14285,
+"name": "Gourmet Poultry",
+"count": 13,
+"total": 91683
+},
+{
+"id": 47631,
+"name": "Rough Hybrid Power Core",
+"count": 12,
+"total": 91683
+},
+{
+"id": 14673,
+"name": "Starshard",
+"count": 11,
+"total": 91683
+},
+{
+"id": 47636,
+"name": "Rough Starshard Power Core",
+"count": 11,
+"total": 91683
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 11,
+"total": 91683
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 10,
+"total": 91683
+},
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 9,
+"total": 91683
+},
+{
+"id": 14785,
+"name": "Starthread",
+"count": 8,
+"total": 91683
+},
+{
+"id": 41476,
+"name": "Hybrid Power Core",
+"count": 7,
+"total": 91683
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 7,
+"total": 91683
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 6,
+"total": 91683
+},
+{
+"id": 16025,
+"name": "Starshard Power Core",
+"count": 6,
+"total": 91683
+},
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 6,
+"total": 91683
+},
+{
+"id": 14519,
+"name": "Manaweave Cloth",
+"count": 5,
+"total": 91683
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 5,
+"total": 91683
+},
+{
+"id": 29602,
+"name": "Sign of Logic - Major",
+"count": 5,
+"total": 91683
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 4,
+"total": 91683
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 4,
+"total": 91683
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 4,
+"total": 91683
+},
+{
+"id": 29542,
+"name": "Brightland's Stew",
+"count": 4,
+"total": 91683
+},
+{
+"id": 19115,
+"name": "Fine Skirmisher's Spaulders",
+"count": 4,
+"total": 91683
+},
+{
+"id": 14704,
+"name": "Primal Hardwood",
+"count": 4,
+"total": 91683
+},
+{
+"id": 29587,
+"name": "Sign of Life - Eldan",
+"count": 4,
+"total": 91683
+},
+{
+"id": 33000,
+"name": "Weakened Gladiator's Movement Stimulant",
+"count": 4,
+"total": 91683
+},
+{
+"id": 47972,
+"name": "Starloom Ribbon",
+"count": 3,
+"total": 91683
+},
+{
+"id": 15630,
+"name": "Bloodbriar",
+"count": 3,
+"total": 91683
+},
+{
+"id": 14702,
+"name": "Ancient Wood",
+"count": 3,
+"total": 91683
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 3,
+"total": 91683
+},
+{
+"id": 14778,
+"name": "Eldan Acceleron",
+"count": 3,
+"total": 91683
+},
+{
+"id": 29594,
+"name": "Sign of Fusion - Major",
+"count": 3,
+"total": 91683
+},
+{
+"id": 16565,
+"name": "Kinetic Omni-Plasm",
+"count": 3,
+"total": 91683
+},
+{
+"id": 14701,
+"name": "Ironbark Wood",
+"count": 3,
+"total": 91683
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 3,
+"total": 91683
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 3,
+"total": 91683
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 3,
+"total": 91683
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 2,
+"total": 91683
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 2,
+"total": 91683
+},
+{
+"id": 14516,
+"name": "Canvas Cloth",
+"count": 2,
+"total": 91683
+},
+{
+"id": 14703,
+"name": "Augmented Hardwood",
+"count": 2,
+"total": 91683
+},
+{
+"id": 44297,
+"name": "Fragment of the Engineer",
+"count": 2,
+"total": 91683
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 2,
+"total": 91683
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 2,
+"total": 91683
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 2,
+"total": 91683
+},
+{
+"id": 47638,
+"name": "Rough Chrysalus Power Core",
+"count": 2,
+"total": 91683
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 2,
+"total": 91683
+},
+{
+"id": 29319,
+"name": "Sign of Water - Eldan",
+"count": 2,
+"total": 91683
+},
+{
+"id": 16004,
+"name": "Novacite",
+"count": 2,
+"total": 91683
+},
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 2,
+"total": 91683
+},
+{
+"id": 18611,
+"name": "Fire-Roasted Bug",
+"count": 1,
+"total": 91683
+},
+{
+"id": 34478,
+"name": "Crystallize Fragment",
+"count": 1,
+"total": 91683
+},
+{
+"id": 14881,
+"name": "Faerybloom Medishot: Instant Healing",
+"count": 1,
+"total": 91683
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 1,
+"total": 91683
+},
+{
+"id": 31658,
+"name": "Exile Sentry Tower",
+"count": 1,
+"total": 91683
+},
+{
+"id": 28276,
+"name": "Eldan Data Fragment",
+"count": 1,
+"total": 91683
+},
+{
+"id": 14517,
+"name": "Silk Cloth",
+"count": 1,
+"total": 91683
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 1,
+"total": 91683
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 1,
+"total": 91683
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 1,
+"total": 91683
+},
+{
+"id": 16023,
+"name": "Chrysalus Power Core",
+"count": 1,
+"total": 91683
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 1,
+"total": 91683
+},
+{
+"id": 31655,
+"name": "Open Drop Pod (Exile)",
+"count": 1,
+"total": 91683
+},
+{
+"id": 14882,
+"name": "Faerybloom Medishot: Sustained Healing",
+"count": 1,
+"total": 91683
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 1,
+"total": 91683
+},
+{
+"id": 18563,
+"name": "Smoked Ribs",
+"count": 1,
+"total": 91683
+},
+{
+"id": 14884,
+"name": "Faerybloom Medispray",
+"count": 1,
+"total": 91683
+},
+{
+"id": 18564,
+"name": "Prime Rib",
+"count": 1,
+"total": 91683
+},
+{
+"id": 14277,
+"name": "Large Fish",
+"count": 1,
+"total": 91683
+},
+{
+"id": 14885,
+"name": "Faerybloom Medishot: Shield Restore",
+"count": 1,
+"total": 91683
+},
+{
+"id": 31141,
+"name": "Spectral Musketoons",
+"count": 1,
+"total": 91683
+},
+{
+"id": 44299,
+"name": "Fragment of the Stalker",
+"count": 1,
+"total": 91683
+},
+{
+"id": 2669,
+"name": "Grandiloquent Enforcer's Photon Cannon",
+"count": 1,
+"total": 91683
+},
+{
+"id": 20785,
+"name": "Protostar Broadcasting Equipment",
+"count": 1,
+"total": 91683
+},
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 1,
+"total": 91683
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 1,
+"total": 91683
+},
+{
+"id": 14283,
+"name": "Stringy Poultry",
+"count": 1,
+"total": 91683
+},
+{
+"id": 18573,
+"name": "Cheese-Crusted Fish",
+"count": 1,
+"total": 91683
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 1,
+"total": 91683
+},
+{
+"id": 14672,
+"name": "Chrysalus",
+"count": 1,
+"total": 91683
+},
+{
+"id": 14276,
+"name": "Medium Fish",
+"count": 1,
+"total": 91683
+},
+{
+"id": 14769,
+"name": "Magethread",
+"count": 1,
+"total": 91683
+},
+{
+"id": 16027,
+"name": "Shadeslate-Chrysalus Power Core",
+"count": 1,
+"total": 91683
+},
+{
+"id": 29595,
+"name": "Sign of Fusion - Eldan",
+"count": 1,
+"total": 91683
+}
+]
+},
+"43000": {
+"name": "Feather Pile",
+"rows": [
+{
+"id": 14283,
+"name": "Stringy Poultry",
+"count": 2399,
+"total": 5973
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 2372,
+"total": 5973
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 996,
+"total": 5973
+},
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 41,
+"total": 5973
+},
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 30,
+"total": 5973
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 26,
+"total": 5973
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 21,
+"total": 5973
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 16,
+"total": 5973
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 15,
+"total": 5973
+},
+{
+"id": 16128,
+"name": "Thick Bone",
+"count": 8,
+"total": 5973
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 7,
+"total": 5973
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 5,
+"total": 5973
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 4,
+"total": 5973
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 3,
+"total": 5973
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 3,
+"total": 5973
+},
+{
+"id": 14275,
+"name": "Small Fish",
+"count": 3,
+"total": 5973
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 2,
+"total": 5973
+},
+{
+"id": 14516,
+"name": "Canvas Cloth",
+"count": 2,
+"total": 5973
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 2,
+"total": 5973
+},
+{
+"id": 14774,
+"name": "Eldan Transformer",
+"count": 2,
+"total": 5973
+},
+{
+"id": 31466,
+"name": "Refined Quartz Power Core",
+"count": 2,
+"total": 5973
+},
+{
+"id": 14781,
+"name": "Standard Omni-Plasm",
+"count": 1,
+"total": 5973
+},
+{
+"id": 14619,
+"name": "Honeywheat-Glazed Poultry",
+"count": 1,
+"total": 5973
+},
+{
+"id": 17397,
+"name": "Honeywheat Sandwich",
+"count": 1,
+"total": 5973
+},
+{
+"id": 17400,
+"name": "Popped Crowncorn",
+"count": 1,
+"total": 5973
+},
+{
+"id": 14848,
+"name": "Serpentlily Medispray",
+"count": 1,
+"total": 5973
+},
+{
+"id": 17394,
+"name": "Bug Borscht",
+"count": 1,
+"total": 5973
+},
+{
+"id": 14281,
+"name": "Choice Meat",
+"count": 1,
+"total": 5973
+},
+{
+"id": 14615,
+"name": "Pummelgranate",
+"count": 1,
+"total": 5973
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 1,
+"total": 5973
+},
+{
+"id": 14847,
+"name": "Serpentlily Medishot: Delayed Healing",
+"count": 1,
+"total": 5973
+},
+{
+"id": 14845,
+"name": "Serpentlily Medishot: Instant Healing",
+"count": 1,
+"total": 5973
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 1,
+"total": 5973
+},
+{
+"id": 12770,
+"name": "Quartz",
+"count": 1,
+"total": 5973
+},
+{
+"id": 14181,
+"name": "Bladeleaf",
+"count": 1,
+"total": 5973
+}
+]
+},
+"43001": {
+"name": "Butchered Bird",
+"rows": [
+{
+"id": 14283,
+"name": "Stringy Poultry",
+"count": 1764,
+"total": 4840
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 1719,
+"total": 4840
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 718,
+"total": 4840
+},
+{
+"id": 16128,
+"name": "Thick Bone",
+"count": 529,
+"total": 4840
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 18,
+"total": 4840
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 10,
+"total": 4840
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 9,
+"total": 4840
+},
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 7,
+"total": 4840
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 6,
+"total": 4840
+},
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 6,
+"total": 4840
+},
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 5,
+"total": 4840
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 5,
+"total": 4840
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 4,
+"total": 4840
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 4,
+"total": 4840
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 4,
+"total": 4840
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 3,
+"total": 4840
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 3,
+"total": 4840
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 2,
+"total": 4840
+},
+{
+"id": 14461,
+"name": "Pot Roast",
+"count": 2,
+"total": 4840
+},
+{
+"id": 17398,
+"name": "Honeywheat Bread Pudding",
+"count": 2,
+"total": 4840
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 2,
+"total": 4840
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 2,
+"total": 4840
+},
+{
+"id": 17402,
+"name": "Peppered Roast",
+"count": 1,
+"total": 4840
+},
+{
+"id": 14848,
+"name": "Serpentlily Medispray",
+"count": 1,
+"total": 4840
+},
+{
+"id": 4754,
+"name": "Whimwoven Haversack",
+"count": 1,
+"total": 4840
+},
+{
+"id": 14845,
+"name": "Serpentlily Medishot: Instant Healing",
+"count": 1,
+"total": 4840
+},
+{
+"id": 14647,
+"name": "Bug Pudding",
+"count": 1,
+"total": 4840
+},
+{
+"id": 30722,
+"name": "Final Salvo AMP",
+"count": 1,
+"total": 4840
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 1,
+"total": 4840
+},
+{
+"id": 47968,
+"name": "Canvas Braid",
+"count": 1,
+"total": 4840
+},
+{
+"id": 17392,
+"name": "Spicy Fried Fish",
+"count": 1,
+"total": 4840
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 1,
+"total": 4840
+},
+{
+"id": 14614,
+"name": "Savory Stew",
+"count": 1,
+"total": 4840
+},
+{
+"id": 44235,
+"name": "Refund AMP",
+"count": 1,
+"total": 4840
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 1,
+"total": 4840
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 1,
+"total": 4840
+},
+{
+"id": 17400,
+"name": "Popped Crowncorn",
+"count": 1,
+"total": 4840
+},
+{
+"id": 14781,
+"name": "Standard Omni-Plasm",
+"count": 1,
+"total": 4840
+}
+]
+},
+"43002": {
+"name": "Fallen Fowl",
+"rows": [
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 959,
+"total": 2642
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 937,
+"total": 2642
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 371,
+"total": 2642
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 301,
+"total": 2642
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 9,
+"total": 2642
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 7,
+"total": 2642
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 7,
+"total": 2642
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 6,
+"total": 2642
+},
+{
+"id": 14249,
+"name": "Stonebound Pelt",
+"count": 5,
+"total": 2642
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 4,
+"total": 2642
+},
+{
+"id": 14283,
+"name": "Stringy Poultry",
+"count": 4,
+"total": 2642
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 4,
+"total": 2642
+},
+{
+"id": 14276,
+"name": "Medium Fish",
+"count": 4,
+"total": 2642
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 3,
+"total": 2642
+},
+{
+"id": 16128,
+"name": "Thick Bone",
+"count": 2,
+"total": 2642
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 2,
+"total": 2642
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 2,
+"total": 2642
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 2,
+"total": 2642
+},
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 2,
+"total": 2642
+},
+{
+"id": 14769,
+"name": "Magethread",
+"count": 1,
+"total": 2642
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 1,
+"total": 2642
+},
+{
+"id": 14281,
+"name": "Choice Meat",
+"count": 1,
+"total": 2642
+},
+{
+"id": 14519,
+"name": "Manaweave Cloth",
+"count": 1,
+"total": 2642
+},
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 1,
+"total": 2642
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 1,
+"total": 2642
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 1,
+"total": 2642
+},
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 1,
+"total": 2642
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 1,
+"total": 2642
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 1,
+"total": 2642
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 1,
+"total": 2642
+}
+]
+},
+"43003": {
+"name": "Plucked Poultry",
+"rows": [
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 1582,
+"total": 4396
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 1579,
+"total": 4396
+},
+{
+"id": 14249,
+"name": "Stonebound Pelt",
+"count": 672,
+"total": 4396
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 447,
+"total": 4396
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 17,
+"total": 4396
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 14,
+"total": 4396
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 11,
+"total": 4396
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 9,
+"total": 4396
+},
+{
+"id": 14285,
+"name": "Gourmet Poultry",
+"count": 8,
+"total": 4396
+},
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 7,
+"total": 4396
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 7,
+"total": 4396
+},
+{
+"id": 16127,
+"name": "Primal Pelt",
+"count": 6,
+"total": 4396
+},
+{
+"id": 14281,
+"name": "Choice Meat",
+"count": 5,
+"total": 4396
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 3,
+"total": 4396
+},
+{
+"id": 14289,
+"name": "Exotic Bug Meat",
+"count": 3,
+"total": 4396
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 3,
+"total": 4396
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 3,
+"total": 4396
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 2,
+"total": 4396
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 2,
+"total": 4396
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 2,
+"total": 4396
+},
+{
+"id": 14703,
+"name": "Augmented Hardwood",
+"count": 2,
+"total": 4396
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 1,
+"total": 4396
+},
+{
+"id": 14520,
+"name": "Starloom Cloth",
+"count": 1,
+"total": 4396
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 1,
+"total": 4396
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 1,
+"total": 4396
+},
+{
+"id": 14672,
+"name": "Chrysalus",
+"count": 1,
+"total": 4396
+},
+{
+"id": 14519,
+"name": "Manaweave Cloth",
+"count": 1,
+"total": 4396
+},
+{
+"id": 14785,
+"name": "Starthread",
+"count": 1,
+"total": 4396
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 1,
+"total": 4396
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 1,
+"total": 4396
+},
+{
+"id": 47638,
+"name": "Rough Chrysalus Power Core",
+"count": 1,
+"total": 4396
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 1,
+"total": 4396
+},
+{
+"id": 47971,
+"name": "Manaweave Trim",
+"count": 1,
+"total": 4396
+}
+]
+},
+"43004": {
+"name": "Hearty Birdmeat",
+"rows": [
+{
+"id": 14285,
+"name": "Gourmet Poultry",
+"count": 4670,
+"total": 12205
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 4571,
+"total": 12205
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 1420,
+"total": 12205
+},
+{
+"id": 16127,
+"name": "Primal Pelt",
+"count": 1362,
+"total": 12205
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 16,
+"total": 12205
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 15,
+"total": 12205
+},
+{
+"id": 14281,
+"name": "Choice Meat",
+"count": 13,
+"total": 12205
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 13,
+"total": 12205
+},
+{
+"id": 14249,
+"name": "Stonebound Pelt",
+"count": 12,
+"total": 12205
+},
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 8,
+"total": 12205
+},
+{
+"id": 14673,
+"name": "Starshard",
+"count": 8,
+"total": 12205
+},
+{
+"id": 16565,
+"name": "Kinetic Omni-Plasm",
+"count": 6,
+"total": 12205
+},
+{
+"id": 14520,
+"name": "Starloom Cloth",
+"count": 6,
+"total": 12205
+},
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 6,
+"total": 12205
+},
+{
+"id": 14704,
+"name": "Primal Hardwood",
+"count": 6,
+"total": 12205
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 5,
+"total": 12205
+},
+{
+"id": 14785,
+"name": "Starthread",
+"count": 5,
+"total": 12205
+},
+{
+"id": 29542,
+"name": "Brightland's Stew",
+"count": 4,
+"total": 12205
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 4,
+"total": 12205
+},
+{
+"id": 14778,
+"name": "Eldan Acceleron",
+"count": 4,
+"total": 12205
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 4,
+"total": 12205
+},
+{
+"id": 14519,
+"name": "Manaweave Cloth",
+"count": 3,
+"total": 12205
+},
+{
+"id": 14289,
+"name": "Exotic Bug Meat",
+"count": 3,
+"total": 12205
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 3,
+"total": 12205
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 3,
+"total": 12205
+},
+{
+"id": 14276,
+"name": "Medium Fish",
+"count": 2,
+"total": 12205
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 2,
+"total": 12205
+},
+{
+"id": 14973,
+"name": "Liquid Confidence",
+"count": 2,
+"total": 12205
+},
+{
+"id": 29591,
+"name": "Sign of Earth - Eldan",
+"count": 2,
+"total": 12205
+},
+{
+"id": 47971,
+"name": "Manaweave Trim",
+"count": 2,
+"total": 12205
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 2,
+"total": 12205
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 2,
+"total": 12205
+},
+{
+"id": 14963,
+"name": "Mourningstar Medishot: Instant Healing",
+"count": 2,
+"total": 12205
+},
+{
+"id": 14879,
+"name": "Expert Critical Hit Boost",
+"count": 2,
+"total": 12205
+},
+{
+"id": 14912,
+"name": "Bioreactive Acid Membrane",
+"count": 2,
+"total": 12205
+},
+{
+"id": 14976,
+"name": "Mourningstar Medispray",
+"count": 2,
+"total": 12205
+},
+{
+"id": 47638,
+"name": "Rough Chrysalus Power Core",
+"count": 1,
+"total": 12205
+},
+{
+"id": 47631,
+"name": "Rough Hybrid Power Core",
+"count": 1,
+"total": 12205
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 1,
+"total": 12205
+},
+{
+"id": 14703,
+"name": "Augmented Hardwood",
+"count": 1,
+"total": 12205
+},
+{
+"id": 47972,
+"name": "Starloom Ribbon",
+"count": 1,
+"total": 12205
+},
+{
+"id": 16025,
+"name": "Starshard Power Core",
+"count": 1,
+"total": 12205
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 1,
+"total": 12205
+},
+{
+"id": 29602,
+"name": "Sign of Logic - Major",
+"count": 1,
+"total": 12205
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 1,
+"total": 12205
+},
+{
+"id": 41476,
+"name": "Hybrid Power Core",
+"count": 1,
+"total": 12205
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 1,
+"total": 12205
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 1,
+"total": 12205
+},
+{
+"id": 44296,
+"name": "Fragment of the Warrior",
+"count": 1,
+"total": 12205
+}
+]
+},
+"43005": {
+"name": "Bug Splat",
+"rows": [
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 5541,
+"total": 13579
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 5428,
+"total": 13579
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 2260,
+"total": 13579
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 71,
+"total": 13579
+},
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 64,
+"total": 13579
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 28,
+"total": 13579
+},
+{
+"id": 16128,
+"name": "Thick Bone",
+"count": 25,
+"total": 13579
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 20,
+"total": 13579
+},
+{
+"id": 14283,
+"name": "Stringy Poultry",
+"count": 18,
+"total": 13579
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 18,
+"total": 13579
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 16,
+"total": 13579
+},
+{
+"id": 14516,
+"name": "Canvas Cloth",
+"count": 14,
+"total": 13579
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 11,
+"total": 13579
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 6,
+"total": 13579
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 6,
+"total": 13579
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 6,
+"total": 13579
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 6,
+"total": 13579
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 4,
+"total": 13579
+},
+{
+"id": 47968,
+"name": "Canvas Braid",
+"count": 4,
+"total": 13579
+},
+{
+"id": 14275,
+"name": "Small Fish",
+"count": 4,
+"total": 13579
+},
+{
+"id": 14781,
+"name": "Standard Omni-Plasm",
+"count": 3,
+"total": 13579
+},
+{
+"id": 19190,
+"name": "Fine Thread",
+"count": 3,
+"total": 13579
+},
+{
+"id": 21789,
+"name": "Chua-Tech Loading Arm",
+"count": 3,
+"total": 13579
+},
+{
+"id": 14782,
+"name": "Accelerated Omni-Plasm",
+"count": 2,
+"total": 13579
+},
+{
+"id": 13940,
+"name": "Quartz Power Core",
+"count": 2,
+"total": 13579
+},
+{
+"id": 31466,
+"name": "Refined Quartz Power Core",
+"count": 2,
+"total": 13579
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 2,
+"total": 13579
+},
+{
+"id": 29514,
+"name": "Specialist's Meal",
+"count": 2,
+"total": 13579
+},
+{
+"id": 29516,
+"name": "Spellslinger's Meal",
+"count": 2,
+"total": 13579
+},
+{
+"id": 14701,
+"name": "Ironbark Wood",
+"count": 1,
+"total": 13579
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 1,
+"total": 13579
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 1,
+"total": 13579
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 1,
+"total": 13579
+},
+{
+"id": 29790,
+"name": "Platinum Gray Dye",
+"count": 1,
+"total": 13579
+},
+{
+"id": 14700,
+"name": "Knotted Heartwood",
+"count": 1,
+"total": 13579
+},
+{
+"id": 12816,
+"name": "Spirovine",
+"count": 1,
+"total": 13579
+},
+{
+"id": 42469,
+"name": "Going, Going, Gadgets!",
+"count": 1,
+"total": 13579
+}
+]
+},
+"43006": {
+"name": "Shattered Thorax",
+"rows": [
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 4350,
+"total": 11999
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 4271,
+"total": 11999
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 1685,
+"total": 11999
+},
+{
+"id": 16128,
+"name": "Thick Bone",
+"count": 1320,
+"total": 11999
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 76,
+"total": 11999
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 48,
+"total": 11999
+},
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 30,
+"total": 11999
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 28,
+"total": 11999
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 26,
+"total": 11999
+},
+{
+"id": 14283,
+"name": "Stringy Poultry",
+"count": 23,
+"total": 11999
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 16,
+"total": 11999
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 15,
+"total": 11999
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 9,
+"total": 11999
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 9,
+"total": 11999
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 8,
+"total": 11999
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 6,
+"total": 11999
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 6,
+"total": 11999
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 6,
+"total": 11999
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 6,
+"total": 11999
+},
+{
+"id": 14275,
+"name": "Small Fish",
+"count": 5,
+"total": 11999
+},
+{
+"id": 13940,
+"name": "Quartz Power Core",
+"count": 5,
+"total": 11999
+},
+{
+"id": 14516,
+"name": "Canvas Cloth",
+"count": 5,
+"total": 11999
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 5,
+"total": 11999
+},
+{
+"id": 37247,
+"name": "Stellar Titanium Grapples",
+"count": 3,
+"total": 11999
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 3,
+"total": 11999
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 3,
+"total": 11999
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 3,
+"total": 11999
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 2,
+"total": 11999
+},
+{
+"id": 14276,
+"name": "Medium Fish",
+"count": 2,
+"total": 11999
+},
+{
+"id": 14517,
+"name": "Silk Cloth",
+"count": 2,
+"total": 11999
+},
+{
+"id": 19190,
+"name": "Fine Thread",
+"count": 2,
+"total": 11999
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 2,
+"total": 11999
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 1,
+"total": 11999
+},
+{
+"id": 14775,
+"name": "Eldan Emitter",
+"count": 1,
+"total": 11999
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 1,
+"total": 11999
+},
+{
+"id": 47968,
+"name": "Canvas Braid",
+"count": 1,
+"total": 11999
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 1,
+"total": 11999
+},
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 1,
+"total": 11999
+},
+{
+"id": 14845,
+"name": "Serpentlily Medishot: Instant Healing",
+"count": 1,
+"total": 11999
+},
+{
+"id": 47969,
+"name": "Silk Plait",
+"count": 1,
+"total": 11999
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 1,
+"total": 11999
+},
+{
+"id": 34711,
+"name": "Avoidance Mastery AMP",
+"count": 1,
+"total": 11999
+},
+{
+"id": 14192,
+"name": "Sapphire",
+"count": 1,
+"total": 11999
+},
+{
+"id": 14289,
+"name": "Exotic Bug Meat",
+"count": 1,
+"total": 11999
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 1,
+"total": 11999
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 1,
+"total": 11999
+},
+{
+"id": 14848,
+"name": "Serpentlily Medispray",
+"count": 1,
+"total": 11999
+},
+{
+"id": 1663,
+"name": "Gribbon Razorbeak Hilt",
+"count": 1,
+"total": 11999
+},
+{
+"id": 18787,
+"name": "Recipe: Sauteed Buzzbing",
+"count": 1,
+"total": 11999
+},
+{
+"id": 14849,
+"name": "Serpentlily Medishot: Shield Restore",
+"count": 1,
+"total": 11999
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 1,
+"total": 11999
+}
+]
+},
+"43007": {
+"name": "Molted Carapace",
+"rows": [
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 2991,
+"total": 8191
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 2927,
+"total": 8191
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 1154,
+"total": 8191
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 947,
+"total": 8191
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 21,
+"total": 8191
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 16,
+"total": 8191
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 14,
+"total": 8191
+},
+{
+"id": 14249,
+"name": "Stonebound Pelt",
+"count": 13,
+"total": 8191
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 11,
+"total": 8191
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 11,
+"total": 8191
+},
+{
+"id": 14276,
+"name": "Medium Fish",
+"count": 10,
+"total": 8191
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 6,
+"total": 8191
+},
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 6,
+"total": 8191
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 6,
+"total": 8191
+},
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 5,
+"total": 8191
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 4,
+"total": 8191
+},
+{
+"id": 14769,
+"name": "Magethread",
+"count": 4,
+"total": 8191
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 4,
+"total": 8191
+},
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 4,
+"total": 8191
+},
+{
+"id": 14783,
+"name": "Advanced Omni-Plasm",
+"count": 4,
+"total": 8191
+},
+{
+"id": 16128,
+"name": "Thick Bone",
+"count": 3,
+"total": 8191
+},
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 3,
+"total": 8191
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 3,
+"total": 8191
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 3,
+"total": 8191
+},
+{
+"id": 47970,
+"name": "Whimfiber Strand",
+"count": 3,
+"total": 8191
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 2,
+"total": 8191
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 1,
+"total": 8191
+},
+{
+"id": 29257,
+"name": "Rune of Crit Severity",
+"count": 1,
+"total": 8191
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 1,
+"total": 8191
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 1,
+"total": 8191
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 1,
+"total": 8191
+},
+{
+"id": 14517,
+"name": "Silk Cloth",
+"count": 1,
+"total": 8191
+},
+{
+"id": 14275,
+"name": "Small Fish",
+"count": 1,
+"total": 8191
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 1,
+"total": 8191
+},
+{
+"id": 31459,
+"name": "Diamond Power Core",
+"count": 1,
+"total": 8191
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 1,
+"total": 8191
+},
+{
+"id": 31473,
+"name": "Dual Diamond Power Core",
+"count": 1,
+"total": 8191
+},
+{
+"id": 14703,
+"name": "Augmented Hardwood",
+"count": 1,
+"total": 8191
+},
+{
+"id": 14861,
+"name": "Coralscale Medishot: Instant Healing",
+"count": 1,
+"total": 8191
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 1,
+"total": 8191
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 1,
+"total": 8191
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 1,
+"total": 8191
+}
+]
+},
+"43008": {
+"name": "Cracked Exoskeleton",
+"rows": [
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 5896,
+"total": 16221
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 5780,
+"total": 16221
+},
+{
+"id": 14249,
+"name": "Stonebound Pelt",
+"count": 2323,
+"total": 16221
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 1855,
+"total": 16221
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 47,
+"total": 16221
+},
+{
+"id": 14289,
+"name": "Exotic Bug Meat",
+"count": 31,
+"total": 16221
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 23,
+"total": 16221
+},
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 21,
+"total": 16221
+},
+{
+"id": 47971,
+"name": "Manaweave Trim",
+"count": 16,
+"total": 16221
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 16,
+"total": 16221
+},
+{
+"id": 16127,
+"name": "Primal Pelt",
+"count": 16,
+"total": 16221
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 12,
+"total": 16221
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 12,
+"total": 16221
+},
+{
+"id": 14519,
+"name": "Manaweave Cloth",
+"count": 11,
+"total": 16221
+},
+{
+"id": 14281,
+"name": "Choice Meat",
+"count": 11,
+"total": 16221
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 10,
+"total": 16221
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 10,
+"total": 16221
+},
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 8,
+"total": 16221
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 7,
+"total": 16221
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 6,
+"total": 16221
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 6,
+"total": 16221
+},
+{
+"id": 14520,
+"name": "Starloom Cloth",
+"count": 6,
+"total": 16221
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 5,
+"total": 16221
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 5,
+"total": 16221
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 4,
+"total": 16221
+},
+{
+"id": 14276,
+"name": "Medium Fish",
+"count": 4,
+"total": 16221
+},
+{
+"id": 14769,
+"name": "Magethread",
+"count": 4,
+"total": 16221
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 4,
+"total": 16221
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 4,
+"total": 16221
+},
+{
+"id": 47638,
+"name": "Rough Chrysalus Power Core",
+"count": 4,
+"total": 16221
+},
+{
+"id": 29591,
+"name": "Sign of Earth - Eldan",
+"count": 4,
+"total": 16221
+},
+{
+"id": 14702,
+"name": "Ancient Wood",
+"count": 3,
+"total": 16221
+},
+{
+"id": 14784,
+"name": "Dynamic Omni-Plasm",
+"count": 3,
+"total": 16221
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 3,
+"total": 16221
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 3,
+"total": 16221
+},
+{
+"id": 29277,
+"name": "Rune of Strikethrough",
+"count": 3,
+"total": 16221
+},
+{
+"id": 31459,
+"name": "Diamond Power Core",
+"count": 3,
+"total": 16221
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 3,
+"total": 16221
+},
+{
+"id": 47636,
+"name": "Rough Starshard Power Core",
+"count": 2,
+"total": 16221
+},
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 2,
+"total": 16221
+},
+{
+"id": 16023,
+"name": "Chrysalus Power Core",
+"count": 2,
+"total": 16221
+},
+{
+"id": 14285,
+"name": "Gourmet Poultry",
+"count": 2,
+"total": 16221
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 2,
+"total": 16221
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 1,
+"total": 16221
+},
+{
+"id": 29319,
+"name": "Sign of Water - Eldan",
+"count": 1,
+"total": 16221
+},
+{
+"id": 34560,
+"name": "Four Dimensional Storage Cube",
+"count": 1,
+"total": 16221
+},
+{
+"id": 14422,
+"name": "Anti-Entropic Fluid",
+"count": 1,
+"total": 16221
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 1,
+"total": 16221
+},
+{
+"id": 34048,
+"name": "True Sight AMP",
+"count": 1,
+"total": 16221
+},
+{
+"id": 37487,
+"name": "Festering Blade AMP",
+"count": 1,
+"total": 16221
+},
+{
+"id": 29603,
+"name": "Sign of Logic - Eldan",
+"count": 1,
+"total": 16221
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 1,
+"total": 16221
+},
+{
+"id": 14277,
+"name": "Large Fish",
+"count": 1,
+"total": 16221
+},
+{
+"id": 14417,
+"name": "Residual Mega-Freezon",
+"count": 1,
+"total": 16221
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 1,
+"total": 16221
+},
+{
+"id": 16025,
+"name": "Starshard Power Core",
+"count": 1,
+"total": 16221
+},
+{
+"id": 47970,
+"name": "Whimfiber Strand",
+"count": 1,
+"total": 16221
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 1,
+"total": 16221
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 1,
+"total": 16221
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 1,
+"total": 16221
+},
+{
+"id": 34723,
+"name": "Enabler AMP",
+"count": 1,
+"total": 16221
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 1,
+"total": 16221
+},
+{
+"id": 16565,
+"name": "Kinetic Omni-Plasm",
+"count": 1,
+"total": 16221
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 1,
+"total": 16221
+},
+{
+"id": 21397,
+"name": "Overgrown Cactus",
+"count": 1,
+"total": 16221
+},
+{
+"id": 14783,
+"name": "Advanced Omni-Plasm",
+"count": 1,
+"total": 16221
+},
+{
+"id": 21795,
+"name": "Playing Dart",
+"count": 1,
+"total": 16221
+},
+{
+"id": 14777,
+"name": "Eldan Disruptor",
+"count": 1,
+"total": 16221
+},
+{
+"id": 47972,
+"name": "Starloom Ribbon",
+"count": 1,
+"total": 16221
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 1,
+"total": 16221
+},
+{
+"id": 29587,
+"name": "Sign of Life - Eldan",
+"count": 1,
+"total": 16221
+},
+{
+"id": 29602,
+"name": "Sign of Logic - Major",
+"count": 1,
+"total": 16221
+}
+]
+},
+"43009": {
+"name": "Meaty Abdomen",
+"rows": [
+{
+"id": 14289,
+"name": "Exotic Bug Meat",
+"count": 16168,
+"total": 42308
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 15814,
+"total": 42308
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 4945,
+"total": 42308
+},
+{
+"id": 16127,
+"name": "Primal Pelt",
+"count": 4884,
+"total": 42308
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 71,
+"total": 42308
+},
+{
+"id": 14281,
+"name": "Choice Meat",
+"count": 60,
+"total": 42308
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 46,
+"total": 42308
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 45,
+"total": 42308
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 31,
+"total": 42308
+},
+{
+"id": 14520,
+"name": "Starloom Cloth",
+"count": 27,
+"total": 42308
+},
+{
+"id": 14249,
+"name": "Stonebound Pelt",
+"count": 12,
+"total": 42308
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 10,
+"total": 42308
+},
+{
+"id": 14673,
+"name": "Starshard",
+"count": 10,
+"total": 42308
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 9,
+"total": 42308
+},
+{
+"id": 47636,
+"name": "Rough Starshard Power Core",
+"count": 9,
+"total": 42308
+},
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 8,
+"total": 42308
+},
+{
+"id": 41476,
+"name": "Hybrid Power Core",
+"count": 8,
+"total": 42308
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 8,
+"total": 42308
+},
+{
+"id": 16025,
+"name": "Starshard Power Core",
+"count": 7,
+"total": 42308
+},
+{
+"id": 47972,
+"name": "Starloom Ribbon",
+"count": 7,
+"total": 42308
+},
+{
+"id": 47631,
+"name": "Rough Hybrid Power Core",
+"count": 6,
+"total": 42308
+},
+{
+"id": 29607,
+"name": "Sign of Air - Eldan",
+"count": 5,
+"total": 42308
+},
+{
+"id": 14785,
+"name": "Starthread",
+"count": 5,
+"total": 42308
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 5,
+"total": 42308
+},
+{
+"id": 16565,
+"name": "Kinetic Omni-Plasm",
+"count": 5,
+"total": 42308
+},
+{
+"id": 29591,
+"name": "Sign of Earth - Eldan",
+"count": 5,
+"total": 42308
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 5,
+"total": 42308
+},
+{
+"id": 29595,
+"name": "Sign of Fusion - Eldan",
+"count": 5,
+"total": 42308
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 4,
+"total": 42308
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 4,
+"total": 42308
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 4,
+"total": 42308
+},
+{
+"id": 14519,
+"name": "Manaweave Cloth",
+"count": 3,
+"total": 42308
+},
+{
+"id": 29602,
+"name": "Sign of Logic - Major",
+"count": 3,
+"total": 42308
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 3,
+"total": 42308
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 3,
+"total": 42308
+},
+{
+"id": 14703,
+"name": "Augmented Hardwood",
+"count": 3,
+"total": 42308
+},
+{
+"id": 14704,
+"name": "Primal Hardwood",
+"count": 3,
+"total": 42308
+},
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 3,
+"total": 42308
+},
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 3,
+"total": 42308
+},
+{
+"id": 14285,
+"name": "Gourmet Poultry",
+"count": 3,
+"total": 42308
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 3,
+"total": 42308
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 3,
+"total": 42308
+},
+{
+"id": 14778,
+"name": "Eldan Acceleron",
+"count": 2,
+"total": 42308
+},
+{
+"id": 14784,
+"name": "Dynamic Omni-Plasm",
+"count": 2,
+"total": 42308
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 2,
+"total": 42308
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 2,
+"total": 42308
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 2,
+"total": 42308
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 2,
+"total": 42308
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 2,
+"total": 42308
+},
+{
+"id": 16004,
+"name": "Novacite",
+"count": 1,
+"total": 42308
+},
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 1,
+"total": 42308
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 1,
+"total": 42308
+},
+{
+"id": 29603,
+"name": "Sign of Logic - Eldan",
+"count": 1,
+"total": 42308
+},
+{
+"id": 34483,
+"name": "Life Giver Fragment",
+"count": 1,
+"total": 42308
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 1,
+"total": 42308
+},
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 1,
+"total": 42308
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 1,
+"total": 42308
+},
+{
+"id": 14777,
+"name": "Eldan Disruptor",
+"count": 1,
+"total": 42308
+},
+{
+"id": 29546,
+"name": "Vindicator's Risotto",
+"count": 1,
+"total": 42308
+},
+{
+"id": 1833,
+"name": "Desert Rebreather",
+"count": 1,
+"total": 42308
+},
+{
+"id": 1817,
+"name": "The Bonestrippers",
+"count": 1,
+"total": 42308
+},
+{
+"id": 14428,
+"name": "Tough Jerky",
+"count": 1,
+"total": 42308
+},
+{
+"id": 44299,
+"name": "Fragment of the Stalker",
+"count": 1,
+"total": 42308
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 1,
+"total": 42308
+},
+{
+"id": 28276,
+"name": "Eldan Data Fragment",
+"count": 1,
+"total": 42308
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 1,
+"total": 42308
+},
+{
+"id": 46496,
+"name": "Premier Impruv-U Foot Pads",
+"count": 1,
+"total": 42308
+},
+{
+"id": 14702,
+"name": "Ancient Wood",
+"count": 1,
+"total": 42308
+},
+{
+"id": 44300,
+"name": "Fragment of the Spellslinger",
+"count": 1,
+"total": 42308
+},
+{
+"id": 47971,
+"name": "Manaweave Trim",
+"count": 1,
+"total": 42308
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 1,
+"total": 42308
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 1,
+"total": 42308
+},
+{
+"id": 29587,
+"name": "Sign of Life - Eldan",
+"count": 1,
+"total": 42308
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 1,
+"total": 42308
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 1,
+"total": 42308
+},
+{
+"id": 29599,
+"name": "Sign of Fire - Eldan",
+"count": 1,
+"total": 42308
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 1,
+"total": 42308
+},
+{
+"id": 29594,
+"name": "Sign of Fusion - Major",
+"count": 1,
+"total": 42308
+}
+]
+},
+"43010": {
+"name": "Tainted Chum",
+"rows": [
+{
+"id": 14275,
+"name": "Small Fish",
+"count": 734,
+"total": 1807
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 698,
+"total": 1807
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 272,
+"total": 1807
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 13,
+"total": 1807
+},
+{
+"id": 14516,
+"name": "Canvas Cloth",
+"count": 13,
+"total": 1807
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 12,
+"total": 1807
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 10,
+"total": 1807
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 10,
+"total": 1807
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 5,
+"total": 1807
+},
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 5,
+"total": 1807
+},
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 5,
+"total": 1807
+},
+{
+"id": 31466,
+"name": "Refined Quartz Power Core",
+"count": 4,
+"total": 1807
+},
+{
+"id": 12770,
+"name": "Quartz",
+"count": 4,
+"total": 1807
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 4,
+"total": 1807
+},
+{
+"id": 14181,
+"name": "Bladeleaf",
+"count": 4,
+"total": 1807
+},
+{
+"id": 47968,
+"name": "Canvas Braid",
+"count": 4,
+"total": 1807
+},
+{
+"id": 14283,
+"name": "Stringy Poultry",
+"count": 3,
+"total": 1807
+},
+{
+"id": 14781,
+"name": "Standard Omni-Plasm",
+"count": 2,
+"total": 1807
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 2,
+"total": 1807
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 2,
+"total": 1807
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 1,
+"total": 1807
+}
+]
+},
+"43011": {
+"name": "Scaly Bait",
+"rows": [
+{
+"id": 14275,
+"name": "Small Fish",
+"count": 1516,
+"total": 4396
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 1501,
+"total": 4396
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 629,
+"total": 4396
+},
+{
+"id": 16128,
+"name": "Thick Bone",
+"count": 496,
+"total": 4396
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 28,
+"total": 4396
+},
+{
+"id": 14276,
+"name": "Medium Fish",
+"count": 22,
+"total": 4396
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 21,
+"total": 4396
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 20,
+"total": 4396
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 19,
+"total": 4396
+},
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 16,
+"total": 4396
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 15,
+"total": 4396
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 13,
+"total": 4396
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 13,
+"total": 4396
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 10,
+"total": 4396
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 9,
+"total": 4396
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 9,
+"total": 4396
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 7,
+"total": 4396
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 5,
+"total": 4396
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 5,
+"total": 4396
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 5,
+"total": 4396
+},
+{
+"id": 14516,
+"name": "Canvas Cloth",
+"count": 4,
+"total": 4396
+},
+{
+"id": 14781,
+"name": "Standard Omni-Plasm",
+"count": 4,
+"total": 4396
+},
+{
+"id": 14517,
+"name": "Silk Cloth",
+"count": 4,
+"total": 4396
+},
+{
+"id": 14774,
+"name": "Eldan Transformer",
+"count": 4,
+"total": 4396
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 4,
+"total": 4396
+},
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 4,
+"total": 4396
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 3,
+"total": 4396
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 3,
+"total": 4396
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 2,
+"total": 4396
+},
+{
+"id": 47970,
+"name": "Whimfiber Strand",
+"count": 1,
+"total": 4396
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 1,
+"total": 4396
+},
+{
+"id": 47968,
+"name": "Canvas Braid",
+"count": 1,
+"total": 4396
+},
+{
+"id": 47969,
+"name": "Silk Plait",
+"count": 1,
+"total": 4396
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 1,
+"total": 4396
+}
+]
+},
+"43012": {
+"name": "Not-So-Bad Fish",
+"rows": [
+{
+"id": 14276,
+"name": "Medium Fish",
+"count": 2690,
+"total": 7356
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 2634,
+"total": 7356
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 1063,
+"total": 7356
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 790,
+"total": 7356
+},
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 27,
+"total": 7356
+},
+{
+"id": 14275,
+"name": "Small Fish",
+"count": 22,
+"total": 7356
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 18,
+"total": 7356
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 12,
+"total": 7356
+},
+{
+"id": 16128,
+"name": "Thick Bone",
+"count": 11,
+"total": 7356
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 9,
+"total": 7356
+},
+{
+"id": 14279,
+"name": "Tough Meat",
+"count": 7,
+"total": 7356
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 7,
+"total": 7356
+},
+{
+"id": 14249,
+"name": "Stonebound Pelt",
+"count": 5,
+"total": 7356
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 5,
+"total": 7356
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 5,
+"total": 7356
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 4,
+"total": 7356
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 4,
+"total": 7356
+},
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 4,
+"total": 7356
+},
+{
+"id": 47970,
+"name": "Whimfiber Strand",
+"count": 3,
+"total": 7356
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 3,
+"total": 7356
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 3,
+"total": 7356
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 3,
+"total": 7356
+},
+{
+"id": 14287,
+"name": "Slimy Bug Meat",
+"count": 2,
+"total": 7356
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 2,
+"total": 7356
+},
+{
+"id": 16023,
+"name": "Chrysalus Power Core",
+"count": 2,
+"total": 7356
+},
+{
+"id": 47971,
+"name": "Manaweave Trim",
+"count": 2,
+"total": 7356
+},
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 2,
+"total": 7356
+},
+{
+"id": 42477,
+"name": "Charged Batteries, Fully Functional: The Lovebot Chronicles Vol. 1",
+"count": 2,
+"total": 7356
+},
+{
+"id": 16002,
+"name": "Hydrogem",
+"count": 1,
+"total": 7356
+},
+{
+"id": 14281,
+"name": "Choice Meat",
+"count": 1,
+"total": 7356
+},
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 1,
+"total": 7356
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 1,
+"total": 7356
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 1,
+"total": 7356
+},
+{
+"id": 31459,
+"name": "Diamond Power Core",
+"count": 1,
+"total": 7356
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 1,
+"total": 7356
+},
+{
+"id": 14784,
+"name": "Dynamic Omni-Plasm",
+"count": 1,
+"total": 7356
+},
+{
+"id": 14783,
+"name": "Advanced Omni-Plasm",
+"count": 1,
+"total": 7356
+},
+{
+"id": 14769,
+"name": "Magethread",
+"count": 1,
+"total": 7356
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 1,
+"total": 7356
+},
+{
+"id": 29030,
+"name": "Hazy Purple Dye",
+"count": 1,
+"total": 7356
+},
+{
+"id": 47969,
+"name": "Silk Plait",
+"count": 1,
+"total": 7356
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 1,
+"total": 7356
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 1,
+"total": 7356
+}
+]
+},
+"43013": {
+"name": "Catch of the Day",
+"rows": [
+{
+"id": 14276,
+"name": "Medium Fish",
+"count": 1191,
+"total": 3323
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 1168,
+"total": 3323
+},
+{
+"id": 14249,
+"name": "Stonebound Pelt",
+"count": 520,
+"total": 3323
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 367,
+"total": 3323
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 20,
+"total": 3323
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 9,
+"total": 3323
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 7,
+"total": 3323
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 6,
+"total": 3323
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 5,
+"total": 3323
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 4,
+"total": 3323
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 4,
+"total": 3323
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 3,
+"total": 3323
+},
+{
+"id": 14284,
+"name": "Juicy Poultry",
+"count": 3,
+"total": 3323
+},
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 2,
+"total": 3323
+},
+{
+"id": 14285,
+"name": "Gourmet Poultry",
+"count": 2,
+"total": 3323
+},
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 2,
+"total": 3323
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 2,
+"total": 3323
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 2,
+"total": 3323
+},
+{
+"id": 16023,
+"name": "Chrysalus Power Core",
+"count": 1,
+"total": 3323
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 1,
+"total": 3323
+},
+{
+"id": 14784,
+"name": "Dynamic Omni-Plasm",
+"count": 1,
+"total": 3323
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 1,
+"total": 3323
+},
+{
+"id": 14194,
+"name": "Diamond",
+"count": 1,
+"total": 3323
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 1,
+"total": 3323
+}
+]
+},
+"43014": {
+"name": "Fresh Seafood",
+"rows": [
+{
+"id": 14277,
+"name": "Large Fish",
+"count": 931,
+"total": 2527
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 672,
+"total": 2527
+},
+{
+"id": 16127,
+"name": "Primal Pelt",
+"count": 314,
+"total": 2527
+},
+{
+"id": 14281,
+"name": "Choice Meat",
+"count": 310,
+"total": 2527
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 294,
+"total": 2527
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 2,
+"total": 2527
+},
+{
+"id": 29595,
+"name": "Sign of Fusion - Eldan",
+"count": 2,
+"total": 2527
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 1,
+"total": 2527
+},
+{
+"id": 14288,
+"name": "Crunchy Bug Meat",
+"count": 1,
+"total": 2527
+}
+]
+},
+"44538": {
+"name": "Reappearing Ink",
+"rows": []
+},
+"73707": {
+"name": "WildStar First Annual Anniversary Loot Box",
+"rows": []
+},
+"74048": {
+"name": "Celerity Rune Sack",
+"rows": []
+},
+"74049": {
+"name": "Stalwart Rune Sack",
+"rows": []
+},
+"74050": {
+"name": "Tactician Rune Sack",
+"rows": []
+},
+"74053": {
+"name": "Savior Rune Sack",
+"rows": []
+},
+"74350": {
+"name": "Magic Fire Starter Rune Sack",
+"rows": []
+},
+"74356": {
+"name": "Crystallize Rune Sack",
+"rows": []
+},
+"74462": {
+"name": "Head Wind Rune Sack",
+"rows": []
+},
+"85108": {
+"name": "Proto-Bow Collection",
+"rows": []
+}
+}

@@ -1,0 +1,6306 @@
+{
+"13154": {
+"name": "Cloth Gloves{p:Cloth Gloves}",
+"rows": [
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 1,
+"total": 2
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 1,
+"total": 2
+}
+]
+},
+"11626": {
+"name": "Zonaga Kickers{p:Zonaga Kickers}",
+"rows": [
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 51,
+"total": 92
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 13,
+"total": 92
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 7,
+"total": 92
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 6,
+"total": 92
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 3,
+"total": 92
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 3,
+"total": 92
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 3,
+"total": 92
+},
+{
+"id": 13940,
+"name": "Quartz Power Core",
+"count": 2,
+"total": 92
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 1,
+"total": 92
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 1,
+"total": 92
+},
+{
+"id": 14781,
+"name": "Standard Omni-Plasm",
+"count": 1,
+"total": 92
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 1,
+"total": 92
+}
+]
+},
+"17718": {
+"name": "Trader's Biofabric Overpants{p:Trader's Biofabric Overpants}",
+"rows": [
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 79,
+"total": 187
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 19,
+"total": 187
+},
+{
+"id": 14246,
+"name": "Rugged Pelt",
+"count": 16,
+"total": 187
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 13,
+"total": 187
+},
+{
+"id": 49848,
+"name": "Rudimentary Tech Chunks",
+"count": 12,
+"total": 187
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 12,
+"total": 187
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 10,
+"total": 187
+},
+{
+"id": 13940,
+"name": "Quartz Power Core",
+"count": 8,
+"total": 187
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 5,
+"total": 187
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 4,
+"total": 187
+},
+{
+"id": 31466,
+"name": "Refined Quartz Power Core",
+"count": 2,
+"total": 187
+},
+{
+"id": 14704,
+"name": "Primal Hardwood",
+"count": 2,
+"total": 187
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 1,
+"total": 187
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 1,
+"total": 187
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 1,
+"total": 187
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 1,
+"total": 187
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 1,
+"total": 187
+}
+]
+},
+"13171": {
+"name": "Modest Hide Pants{p: Modest Hide Pants}",
+"rows": [
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 6,
+"total": 22
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 5,
+"total": 22
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 3,
+"total": 22
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 2,
+"total": 22
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 2,
+"total": 22
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 1,
+"total": 22
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 1,
+"total": 22
+},
+{
+"id": 29243,
+"name": "Rune of Resist Tech",
+"count": 1,
+"total": 22
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 1,
+"total": 22
+}
+]
+},
+"45457": {
+"name": "Charlatan's Meditative Shawl",
+"rows": [
+{
+"id": 49848,
+"name": "Rudimentary Tech Chunks",
+"count": 1,
+"total": 2
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 1,
+"total": 2
+}
+]
+},
+"41133": {
+"name": "Riot Silencer's Knee Guards{p:Riot Silencer's Knee Guards}",
+"rows": [
+{
+"id": 14517,
+"name": "Silk Cloth",
+"count": 43,
+"total": 134
+},
+{
+"id": 19190,
+"name": "Fine Thread",
+"count": 21,
+"total": 134
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 17,
+"total": 134
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 7,
+"total": 134
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 7,
+"total": 134
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 6,
+"total": 134
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 6,
+"total": 134
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 5,
+"total": 134
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 4,
+"total": 134
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 3,
+"total": 134
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 2,
+"total": 134
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 2,
+"total": 134
+},
+{
+"id": 14516,
+"name": "Canvas Cloth",
+"count": 2,
+"total": 134
+},
+{
+"id": 49849,
+"name": "Basic Tech Fragments",
+"count": 2,
+"total": 134
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 2,
+"total": 134
+},
+{
+"id": 13943,
+"name": "Zephyrite-Sapphire Power Core",
+"count": 2,
+"total": 134
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 1,
+"total": 134
+},
+{
+"id": 29241,
+"name": "Rune of Finesse",
+"count": 1,
+"total": 134
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 1,
+"total": 134
+}
+]
+},
+"11603": {
+"name": "Clan Hunter's Fingerpads{p:Clan Hunter's Fingerpads}",
+"rows": [
+{
+"id": 14516,
+"name": "Canvas Cloth",
+"count": 1,
+"total": 3
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 1,
+"total": 3
+},
+{
+"id": 49849,
+"name": "Basic Tech Fragments",
+"count": 1,
+"total": 3
+}
+]
+},
+"33048": {
+"name": "Stonespike Rockhorde Stompers{p:Stonespike Rockhorde Stompers}",
+"rows": [
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 12,
+"total": 61
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 8,
+"total": 61
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 7,
+"total": 61
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 6,
+"total": 61
+},
+{
+"id": 16001,
+"name": "Zephyrite",
+"count": 3,
+"total": 61
+},
+{
+"id": 49849,
+"name": "Basic Tech Fragments",
+"count": 3,
+"total": 61
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 2,
+"total": 61
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 2,
+"total": 61
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 2,
+"total": 61
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 2,
+"total": 61
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 1,
+"total": 61
+},
+{
+"id": 16002,
+"name": "Hydrogem",
+"count": 1,
+"total": 61
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 1,
+"total": 61
+},
+{
+"id": 14194,
+"name": "Diamond",
+"count": 1,
+"total": 61
+},
+{
+"id": 49850,
+"name": "Advanced Tech Scraps",
+"count": 1,
+"total": 61
+},
+{
+"id": 14192,
+"name": "Sapphire",
+"count": 1,
+"total": 61
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 1,
+"total": 61
+},
+{
+"id": 31459,
+"name": "Diamond Power Core",
+"count": 1,
+"total": 61
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 1,
+"total": 61
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 1,
+"total": 61
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 1,
+"total": 61
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 1,
+"total": 61
+},
+{
+"id": 31472,
+"name": "Dual Sapphire Power Core",
+"count": 1,
+"total": 61
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 1,
+"total": 61
+}
+]
+},
+"35099": {
+"name": "Houndmaster Grips{p:Houndmaster Grips}",
+"rows": [
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 76,
+"total": 214
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 47,
+"total": 214
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 17,
+"total": 214
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 11,
+"total": 214
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 8,
+"total": 214
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 8,
+"total": 214
+},
+{
+"id": 14192,
+"name": "Sapphire",
+"count": 8,
+"total": 214
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 6,
+"total": 214
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 5,
+"total": 214
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 5,
+"total": 214
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 4,
+"total": 214
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 4,
+"total": 214
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 3,
+"total": 214
+},
+{
+"id": 49849,
+"name": "Basic Tech Fragments",
+"count": 3,
+"total": 214
+},
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 2,
+"total": 214
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 2,
+"total": 214
+},
+{
+"id": 31472,
+"name": "Dual Sapphire Power Core",
+"count": 2,
+"total": 214
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 2,
+"total": 214
+},
+{
+"id": 49835,
+"name": "Rune of Deflect",
+"count": 1,
+"total": 214
+}
+]
+},
+"58787": {
+"name": "Exceptional Conveyor's Cryptowarp Hustlers",
+"rows": [
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 3,
+"total": 6
+},
+{
+"id": 31460,
+"name": "Hydrogem-Diamond Power Core",
+"count": 2,
+"total": 6
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 1,
+"total": 6
+}
+]
+},
+"34532": {
+"name": "Osun Mantle of Supremacy{p:Osun Mantles of Supremacy}",
+"rows": [
+{
+"id": 14236,
+"name": "Thick Leather",
+"count": 48,
+"total": 252
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 25,
+"total": 252
+},
+{
+"id": 16128,
+"name": "Thick Bone",
+"count": 18,
+"total": 252
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 18,
+"total": 252
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 17,
+"total": 252
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 14,
+"total": 252
+},
+{
+"id": 14247,
+"name": "Fur-Lined Pelt",
+"count": 13,
+"total": 252
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 10,
+"total": 252
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 9,
+"total": 252
+},
+{
+"id": 31472,
+"name": "Dual Sapphire Power Core",
+"count": 9,
+"total": 252
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 8,
+"total": 252
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 8,
+"total": 252
+},
+{
+"id": 49849,
+"name": "Basic Tech Fragments",
+"count": 7,
+"total": 252
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 7,
+"total": 252
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 7,
+"total": 252
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 6,
+"total": 252
+},
+{
+"id": 13943,
+"name": "Zephyrite-Sapphire Power Core",
+"count": 4,
+"total": 252
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 3,
+"total": 252
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 3,
+"total": 252
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 3,
+"total": 252
+},
+{
+"id": 31459,
+"name": "Diamond Power Core",
+"count": 3,
+"total": 252
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 2,
+"total": 252
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 2,
+"total": 252
+},
+{
+"id": 31460,
+"name": "Hydrogem-Diamond Power Core",
+"count": 1,
+"total": 252
+},
+{
+"id": 29213,
+"name": "Rune of Brutality",
+"count": 1,
+"total": 252
+},
+{
+"id": 29282,
+"name": "Rune of Tech",
+"count": 1,
+"total": 252
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 1,
+"total": 252
+},
+{
+"id": 49850,
+"name": "Advanced Tech Scraps",
+"count": 1,
+"total": 252
+},
+{
+"id": 29286,
+"name": "Rune of Shield Cap",
+"count": 1,
+"total": 252
+},
+{
+"id": 49846,
+"name": "Rune of Shield Capacity",
+"count": 1,
+"total": 252
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 1,
+"total": 252
+}
+]
+},
+"17023": {
+"name": "Forester's LitheTek Advanced Shoulders{p:Forester's LitheTek Advanced Shoulders}",
+"rows": [
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 1092,
+"total": 3066
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 558,
+"total": 3066
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 303,
+"total": 3066
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 256,
+"total": 3066
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 162,
+"total": 3066
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 85,
+"total": 3066
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 69,
+"total": 3066
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 67,
+"total": 3066
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 55,
+"total": 3066
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 54,
+"total": 3066
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 52,
+"total": 3066
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 50,
+"total": 3066
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 43,
+"total": 3066
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 43,
+"total": 3066
+},
+{
+"id": 31459,
+"name": "Diamond Power Core",
+"count": 41,
+"total": 3066
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 29,
+"total": 3066
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 28,
+"total": 3066
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 14,
+"total": 3066
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 12,
+"total": 3066
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 11,
+"total": 3066
+},
+{
+"id": 49850,
+"name": "Advanced Tech Scraps",
+"count": 10,
+"total": 3066
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 10,
+"total": 3066
+},
+{
+"id": 31473,
+"name": "Dual Diamond Power Core",
+"count": 4,
+"total": 3066
+},
+{
+"id": 29602,
+"name": "Sign of Logic - Major",
+"count": 3,
+"total": 3066
+},
+{
+"id": 29249,
+"name": "Rune of Health",
+"count": 2,
+"total": 3066
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 2,
+"total": 3066
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 2,
+"total": 3066
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 1,
+"total": 3066
+},
+{
+"id": 34190,
+"name": "Shield Specialist Rune of Tech",
+"count": 1,
+"total": 3066
+},
+{
+"id": 29607,
+"name": "Sign of Air - Eldan",
+"count": 1,
+"total": 3066
+},
+{
+"id": 29245,
+"name": "Rune of Deflect Crit",
+"count": 1,
+"total": 3066
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 1,
+"total": 3066
+},
+{
+"id": 29251,
+"name": "Rune of Insight",
+"count": 1,
+"total": 3066
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 1,
+"total": 3066
+},
+{
+"id": 29228,
+"name": "Rune of Resist Magic",
+"count": 1,
+"total": 3066
+},
+{
+"id": 29281,
+"name": "Rune of Insight",
+"count": 1,
+"total": 3066
+}
+]
+},
+"46299": {
+"name": "Mastermind's Meditative Bangles",
+"rows": []
+},
+"9486": {
+"name": "Ikthian Prototype Chest Guard",
+"rows": [
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 113,
+"total": 358
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 67,
+"total": 358
+},
+{
+"id": 14769,
+"name": "Magethread",
+"count": 27,
+"total": 358
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 23,
+"total": 358
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 21,
+"total": 358
+},
+{
+"id": 31459,
+"name": "Diamond Power Core",
+"count": 15,
+"total": 358
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 14,
+"total": 358
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 10,
+"total": 358
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 9,
+"total": 358
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 7,
+"total": 358
+},
+{
+"id": 31473,
+"name": "Dual Diamond Power Core",
+"count": 7,
+"total": 358
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 5,
+"total": 358
+},
+{
+"id": 49850,
+"name": "Advanced Tech Scraps",
+"count": 5,
+"total": 358
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 5,
+"total": 358
+},
+{
+"id": 31460,
+"name": "Hydrogem-Diamond Power Core",
+"count": 4,
+"total": 358
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 4,
+"total": 358
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 3,
+"total": 358
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 3,
+"total": 358
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 2,
+"total": 358
+},
+{
+"id": 14519,
+"name": "Manaweave Cloth",
+"count": 2,
+"total": 358
+},
+{
+"id": 16023,
+"name": "Chrysalus Power Core",
+"count": 2,
+"total": 358
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 2,
+"total": 358
+},
+{
+"id": 29249,
+"name": "Rune of Health",
+"count": 1,
+"total": 358
+},
+{
+"id": 9485,
+"name": "Ikthian Prototype Chestmail",
+"count": 1,
+"total": 358
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 1,
+"total": 358
+},
+{
+"id": 29263,
+"name": "Rune of Deflect",
+"count": 1,
+"total": 358
+},
+{
+"id": 49835,
+"name": "Rune of Deflect",
+"count": 1,
+"total": 358
+},
+{
+"id": 47638,
+"name": "Rough Chrysalus Power Core",
+"count": 1,
+"total": 358
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 1,
+"total": 358
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 1,
+"total": 358
+}
+]
+},
+"62062": {
+"name": "Remarkable Operative's Interbiosis Uniform",
+"rows": []
+},
+"33142": {
+"name": "ECU Galactium Battle Cannon",
+"rows": [
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 1,
+"total": 2
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 1,
+"total": 2
+}
+]
+},
+"66776": {
+"name": "Desperado's Antinucleic Boots",
+"rows": [
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 2,
+"total": 9
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 2,
+"total": 9
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 2,
+"total": 9
+},
+{
+"id": 31474,
+"name": "Dual Chrysalus Power Core",
+"count": 2,
+"total": 9
+},
+{
+"id": 14519,
+"name": "Manaweave Cloth",
+"count": 1,
+"total": 9
+}
+]
+},
+"1215": {
+"name": "Armored Superfiber Woolies",
+"rows": [
+{
+"id": 14520,
+"name": "Starloom Cloth",
+"count": 42,
+"total": 116
+},
+{
+"id": 47636,
+"name": "Rough Starshard Power Core",
+"count": 14,
+"total": 116
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 14,
+"total": 116
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 7,
+"total": 116
+},
+{
+"id": 16025,
+"name": "Starshard Power Core",
+"count": 5,
+"total": 116
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 4,
+"total": 116
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 3,
+"total": 116
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 3,
+"total": 116
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 2,
+"total": 116
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 2,
+"total": 116
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 2,
+"total": 116
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 2,
+"total": 116
+},
+{
+"id": 14785,
+"name": "Starthread",
+"count": 2,
+"total": 116
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 2,
+"total": 116
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 1,
+"total": 116
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 1,
+"total": 116
+},
+{
+"id": 34481,
+"name": "Hard Rock Fragment",
+"count": 1,
+"total": 116
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 1,
+"total": 116
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 1,
+"total": 116
+},
+{
+"id": 29594,
+"name": "Sign of Fusion - Major",
+"count": 1,
+"total": 116
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 1,
+"total": 116
+},
+{
+"id": 29587,
+"name": "Sign of Life - Eldan",
+"count": 1,
+"total": 116
+},
+{
+"id": 31475,
+"name": "Dual Starshard Power Core",
+"count": 1,
+"total": 116
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 1,
+"total": 116
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 1,
+"total": 116
+},
+{
+"id": 29599,
+"name": "Sign of Fire - Eldan",
+"count": 1,
+"total": 116
+}
+]
+},
+"68283": {
+"name": "Remarkable Racketeer's Betahelix Footfalls",
+"rows": []
+},
+"47490": {
+"name": "Blighthaven Epaulets",
+"rows": [
+{
+"id": 14520,
+"name": "Starloom Cloth",
+"count": 1,
+"total": 3
+},
+{
+"id": 29599,
+"name": "Sign of Fire - Eldan",
+"count": 1,
+"total": 3
+},
+{
+"id": 16025,
+"name": "Starshard Power Core",
+"count": 1,
+"total": 3
+}
+]
+},
+"42520": {
+"name": "Sandals of the Desolate Sands",
+"rows": [
+{
+"id": 14520,
+"name": "Starloom Cloth",
+"count": 2,
+"total": 3
+},
+{
+"id": 47636,
+"name": "Rough Starshard Power Core",
+"count": 1,
+"total": 3
+}
+]
+},
+"37405": {
+"name": "Ravenous Sand Duster",
+"rows": [
+{
+"id": 34482,
+"name": "Logic Bomb Fragment",
+"count": 1,
+"total": 3
+},
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 1,
+"total": 3
+},
+{
+"id": 16025,
+"name": "Starshard Power Core",
+"count": 1,
+"total": 3
+}
+]
+},
+"69545": {
+"name": "Remarkable Provocateur's Quadrohelix Overshirt",
+"rows": [
+{
+"id": 41476,
+"name": "Hybrid Power Core",
+"count": 1,
+"total": 4
+},
+{
+"id": 16127,
+"name": "Primal Pelt",
+"count": 1,
+"total": 4
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 1,
+"total": 4
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 1,
+"total": 4
+}
+]
+},
+"48681": {
+"name": "Slad's Horned Plate",
+"rows": [
+{
+"id": 14520,
+"name": "Starloom Cloth",
+"count": 9,
+"total": 51
+},
+{
+"id": 49851,
+"name": "Prototype Tech Components",
+"count": 7,
+"total": 51
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 5,
+"total": 51
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 5,
+"total": 51
+},
+{
+"id": 41476,
+"name": "Hybrid Power Core",
+"count": 5,
+"total": 51
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 4,
+"total": 51
+},
+{
+"id": 29245,
+"name": "Rune of Deflect Crit",
+"count": 4,
+"total": 51
+},
+{
+"id": 29257,
+"name": "Rune of Crit Severity",
+"count": 2,
+"total": 51
+},
+{
+"id": 29231,
+"name": "Rune of Grit",
+"count": 2,
+"total": 51
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 1,
+"total": 51
+},
+{
+"id": 47631,
+"name": "Rough Hybrid Power Core",
+"count": 1,
+"total": 51
+},
+{
+"id": 49836,
+"name": "Rune of Insight",
+"count": 1,
+"total": 51
+},
+{
+"id": 29319,
+"name": "Sign of Water - Eldan",
+"count": 1,
+"total": 51
+},
+{
+"id": 29248,
+"name": "Rune of Deflect Crit",
+"count": 1,
+"total": 51
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 1,
+"total": 51
+},
+{
+"id": 29278,
+"name": "Rune of Brutality",
+"count": 1,
+"total": 51
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 1,
+"total": 51
+}
+]
+},
+"43088": {
+"name": "Raider's Auric Greaves",
+"rows": [
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 112,
+"total": 352
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 71,
+"total": 352
+},
+{
+"id": 41476,
+"name": "Hybrid Power Core",
+"count": 29,
+"total": 352
+},
+{
+"id": 16127,
+"name": "Primal Pelt",
+"count": 29,
+"total": 352
+},
+{
+"id": 47632,
+"name": "Dual Hybrid Power Core",
+"count": 12,
+"total": 352
+},
+{
+"id": 47631,
+"name": "Rough Hybrid Power Core",
+"count": 12,
+"total": 352
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 8,
+"total": 352
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 7,
+"total": 352
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 6,
+"total": 352
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 6,
+"total": 352
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 5,
+"total": 352
+},
+{
+"id": 29594,
+"name": "Sign of Fusion - Major",
+"count": 5,
+"total": 352
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 4,
+"total": 352
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 4,
+"total": 352
+},
+{
+"id": 29319,
+"name": "Sign of Water - Eldan",
+"count": 3,
+"total": 352
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 3,
+"total": 352
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 3,
+"total": 352
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 3,
+"total": 352
+},
+{
+"id": 29595,
+"name": "Sign of Fusion - Eldan",
+"count": 2,
+"total": 352
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 2,
+"total": 352
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 2,
+"total": 352
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 2,
+"total": 352
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 2,
+"total": 352
+},
+{
+"id": 29602,
+"name": "Sign of Logic - Major",
+"count": 2,
+"total": 352
+},
+{
+"id": 29587,
+"name": "Sign of Life - Eldan",
+"count": 2,
+"total": 352
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 2,
+"total": 352
+},
+{
+"id": 44300,
+"name": "Fragment of the Spellslinger",
+"count": 1,
+"total": 352
+},
+{
+"id": 29599,
+"name": "Sign of Fire - Eldan",
+"count": 1,
+"total": 352
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 1,
+"total": 352
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 1,
+"total": 352
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 1,
+"total": 352
+},
+{
+"id": 34478,
+"name": "Crystallize Fragment",
+"count": 1,
+"total": 352
+},
+{
+"id": 34479,
+"name": "Fire Starter Fragment",
+"count": 1,
+"total": 352
+},
+{
+"id": 34481,
+"name": "Hard Rock Fragment",
+"count": 1,
+"total": 352
+},
+{
+"id": 34484,
+"name": "Shadow Blast Fragment",
+"count": 1,
+"total": 352
+},
+{
+"id": 44297,
+"name": "Fragment of the Engineer",
+"count": 1,
+"total": 352
+},
+{
+"id": 44298,
+"name": "Fragment of the Medic",
+"count": 1,
+"total": 352
+},
+{
+"id": 49851,
+"name": "Prototype Tech Components",
+"count": 1,
+"total": 352
+},
+{
+"id": 29607,
+"name": "Sign of Air - Eldan",
+"count": 1,
+"total": 352
+},
+{
+"id": 29591,
+"name": "Sign of Earth - Eldan",
+"count": 1,
+"total": 352
+}
+]
+},
+"22407": {
+"name": "Compulsor's Afflicting Bindings{p:Compulsor's Afflicting Bindings}",
+"rows": []
+},
+"1226": {
+"name": "Wrought Iron Weapon Grip",
+"rows": [
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 162,
+"total": 445
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 72,
+"total": 445
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 58,
+"total": 445
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 24,
+"total": 445
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 22,
+"total": 445
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 21,
+"total": 445
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 16,
+"total": 445
+},
+{
+"id": 12770,
+"name": "Quartz",
+"count": 16,
+"total": 445
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 13,
+"total": 445
+},
+{
+"id": 13940,
+"name": "Quartz Power Core",
+"count": 10,
+"total": 445
+},
+{
+"id": 49848,
+"name": "Rudimentary Tech Chunks",
+"count": 8,
+"total": 445
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 4,
+"total": 445
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 4,
+"total": 445
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 3,
+"total": 445
+},
+{
+"id": 14781,
+"name": "Standard Omni-Plasm",
+"count": 2,
+"total": 445
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 2,
+"total": 445
+},
+{
+"id": 14516,
+"name": "Canvas Cloth",
+"count": 2,
+"total": 445
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 2,
+"total": 445
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 2,
+"total": 445
+},
+{
+"id": 19190,
+"name": "Fine Thread",
+"count": 1,
+"total": 445
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 1,
+"total": 445
+}
+]
+},
+"8731": {
+"name": "Maw's Defense Grid",
+"rows": [
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 15,
+"total": 85
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 12,
+"total": 85
+},
+{
+"id": 12770,
+"name": "Quartz",
+"count": 12,
+"total": 85
+},
+{
+"id": 13940,
+"name": "Quartz Power Core",
+"count": 9,
+"total": 85
+},
+{
+"id": 49848,
+"name": "Rudimentary Tech Chunks",
+"count": 8,
+"total": 85
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 8,
+"total": 85
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 6,
+"total": 85
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 5,
+"total": 85
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 3,
+"total": 85
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 2,
+"total": 85
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 2,
+"total": 85
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 1,
+"total": 85
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 1,
+"total": 85
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 1,
+"total": 85
+}
+]
+},
+"32980": {
+"name": "Hycrest Scouting Kit",
+"rows": []
+},
+"45176": {
+"name": "Swashbuckler's Phasing Target Link",
+"rows": [
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 1,
+"total": 2
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 1,
+"total": 2
+}
+]
+},
+"1644": {
+"name": "Primitive Poison Coating",
+"rows": [
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 5,
+"total": 24
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 3,
+"total": 24
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 3,
+"total": 24
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 3,
+"total": 24
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 3,
+"total": 24
+},
+{
+"id": 49842,
+"name": "Rune of Brutality",
+"count": 2,
+"total": 24
+},
+{
+"id": 49849,
+"name": "Basic Tech Fragments",
+"count": 2,
+"total": 24
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 2,
+"total": 24
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 1,
+"total": 24
+}
+]
+},
+"55977": {
+"name": "Remarkable Picaroon's Magnafabric Motivator",
+"rows": []
+},
+"32984": {
+"name": "Skyborn Tempest Gyro",
+"rows": []
+},
+"28608": {
+"name": "The Fifth Sin",
+"rows": [
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 76,
+"total": 252
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 27,
+"total": 252
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 20,
+"total": 252
+},
+{
+"id": 14194,
+"name": "Diamond",
+"count": 17,
+"total": 252
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 15,
+"total": 252
+},
+{
+"id": 49849,
+"name": "Basic Tech Fragments",
+"count": 9,
+"total": 252
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 9,
+"total": 252
+},
+{
+"id": 16002,
+"name": "Hydrogem",
+"count": 9,
+"total": 252
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 9,
+"total": 252
+},
+{
+"id": 31459,
+"name": "Diamond Power Core",
+"count": 8,
+"total": 252
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 6,
+"total": 252
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 5,
+"total": 252
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 5,
+"total": 252
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 4,
+"total": 252
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 4,
+"total": 252
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 3,
+"total": 252
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 3,
+"total": 252
+},
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 3,
+"total": 252
+},
+{
+"id": 31473,
+"name": "Dual Diamond Power Core",
+"count": 3,
+"total": 252
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 3,
+"total": 252
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 2,
+"total": 252
+},
+{
+"id": 49850,
+"name": "Advanced Tech Scraps",
+"count": 2,
+"total": 252
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 2,
+"total": 252
+},
+{
+"id": 29245,
+"name": "Rune of Deflect Crit",
+"count": 1,
+"total": 252
+},
+{
+"id": 29218,
+"name": "Rune of Shield Cap",
+"count": 1,
+"total": 252
+},
+{
+"id": 14782,
+"name": "Accelerated Omni-Plasm",
+"count": 1,
+"total": 252
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 1,
+"total": 252
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 1,
+"total": 252
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 1,
+"total": 252
+},
+{
+"id": 14518,
+"name": "Whimfiber Cloth",
+"count": 1,
+"total": 252
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 1,
+"total": 252
+}
+]
+},
+"33740": {
+"name": "Superior Demolisher's Target Link",
+"rows": []
+},
+"33807": {
+"name": "Blade Wind's Devotion",
+"rows": [
+{
+"id": 49849,
+"name": "Basic Tech Fragments",
+"count": 151,
+"total": 1524
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 114,
+"total": 1524
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 113,
+"total": 1524
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 93,
+"total": 1524
+},
+{
+"id": 31472,
+"name": "Dual Sapphire Power Core",
+"count": 93,
+"total": 1524
+},
+{
+"id": 14782,
+"name": "Accelerated Omni-Plasm",
+"count": 90,
+"total": 1524
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 78,
+"total": 1524
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 72,
+"total": 1524
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 68,
+"total": 1524
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 58,
+"total": 1524
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 55,
+"total": 1524
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 53,
+"total": 1524
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 50,
+"total": 1524
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 50,
+"total": 1524
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 45,
+"total": 1524
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 45,
+"total": 1524
+},
+{
+"id": 13943,
+"name": "Zephyrite-Sapphire Power Core",
+"count": 36,
+"total": 1524
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 33,
+"total": 1524
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 26,
+"total": 1524
+},
+{
+"id": 14775,
+"name": "Eldan Emitter",
+"count": 25,
+"total": 1524
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 20,
+"total": 1524
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 16,
+"total": 1524
+},
+{
+"id": 31459,
+"name": "Diamond Power Core",
+"count": 11,
+"total": 1524
+},
+{
+"id": 29214,
+"name": "Rune of Moxie",
+"count": 8,
+"total": 1524
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 8,
+"total": 1524
+},
+{
+"id": 49850,
+"name": "Advanced Tech Scraps",
+"count": 8,
+"total": 1524
+},
+{
+"id": 31473,
+"name": "Dual Diamond Power Core",
+"count": 7,
+"total": 1524
+},
+{
+"id": 29250,
+"name": "Rune of Finesse",
+"count": 5,
+"total": 1524
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 4,
+"total": 1524
+},
+{
+"id": 29268,
+"name": "Rune of Resist Physical",
+"count": 4,
+"total": 1524
+},
+{
+"id": 29278,
+"name": "Rune of Brutality",
+"count": 4,
+"total": 1524
+},
+{
+"id": 29253,
+"name": "Rune of Grit",
+"count": 3,
+"total": 1524
+},
+{
+"id": 29221,
+"name": "Rune of Finesse",
+"count": 3,
+"total": 1524
+},
+{
+"id": 29241,
+"name": "Rune of Finesse",
+"count": 3,
+"total": 1524
+},
+{
+"id": 29259,
+"name": "Rune of Tech",
+"count": 3,
+"total": 1524
+},
+{
+"id": 29239,
+"name": "Rune of Deflect",
+"count": 3,
+"total": 1524
+},
+{
+"id": 49834,
+"name": "Rune of Moxie",
+"count": 3,
+"total": 1524
+},
+{
+"id": 29264,
+"name": "Rune of Critical",
+"count": 3,
+"total": 1524
+},
+{
+"id": 49844,
+"name": "Rune of Deflect Critical",
+"count": 2,
+"total": 1524
+},
+{
+"id": 29240,
+"name": "Rune of Shield Cap",
+"count": 2,
+"total": 1524
+},
+{
+"id": 29216,
+"name": "Rune of Health",
+"count": 2,
+"total": 1524
+},
+{
+"id": 49846,
+"name": "Rune of Shield Capacity",
+"count": 2,
+"total": 1524
+},
+{
+"id": 29257,
+"name": "Rune of Crit Severity",
+"count": 2,
+"total": 1524
+},
+{
+"id": 29286,
+"name": "Rune of Shield Cap",
+"count": 2,
+"total": 1524
+},
+{
+"id": 29247,
+"name": "Rune of Critical",
+"count": 2,
+"total": 1524
+},
+{
+"id": 29269,
+"name": "Rune of Resist Magic",
+"count": 2,
+"total": 1524
+},
+{
+"id": 29235,
+"name": "Rune of Resist Physical",
+"count": 2,
+"total": 1524
+},
+{
+"id": 29280,
+"name": "Rune of Finesse",
+"count": 2,
+"total": 1524
+},
+{
+"id": 29218,
+"name": "Rune of Shield Cap",
+"count": 2,
+"total": 1524
+},
+{
+"id": 29219,
+"name": "Rune of Critical",
+"count": 2,
+"total": 1524
+},
+{
+"id": 29276,
+"name": "Rune of Deflect Crit",
+"count": 2,
+"total": 1524
+},
+{
+"id": 29226,
+"name": "Rune of Strikethrough",
+"count": 2,
+"total": 1524
+},
+{
+"id": 49831,
+"name": "Rune of Tech",
+"count": 2,
+"total": 1524
+},
+{
+"id": 29281,
+"name": "Rune of Insight",
+"count": 2,
+"total": 1524
+},
+{
+"id": 31460,
+"name": "Hydrogem-Diamond Power Core",
+"count": 2,
+"total": 1524
+},
+{
+"id": 29251,
+"name": "Rune of Insight",
+"count": 2,
+"total": 1524
+},
+{
+"id": 29266,
+"name": "Rune of Strikethrough",
+"count": 1,
+"total": 1524
+},
+{
+"id": 49838,
+"name": "Rune of Assault Power",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29255,
+"name": "Rune of Resist Tech",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29254,
+"name": "Rune of Recovery",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29261,
+"name": "Rune of Shield Cap",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29244,
+"name": "Rune of Resist Physical",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29213,
+"name": "Rune of Brutality",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29231,
+"name": "Rune of Grit",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29272,
+"name": "Rune of Crit Severity",
+"count": 1,
+"total": 1524
+},
+{
+"id": 49837,
+"name": "Rune of Support Power",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29284,
+"name": "Rune of Health",
+"count": 1,
+"total": 1524
+},
+{
+"id": 49833,
+"name": "Rune of Finesse",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29265,
+"name": "Rune of Deflect Crit",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29236,
+"name": "Rune of Health",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29223,
+"name": "Rune of Recovery",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29222,
+"name": "Rune of Insight",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29279,
+"name": "Rune of Moxie",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29224,
+"name": "Rune of Armor",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29277,
+"name": "Rune of Strikethrough",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29271,
+"name": "Rune of Support Power",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29237,
+"name": "Rune of Resist Magic",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29252,
+"name": "Rune of Brutality",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29232,
+"name": "Rune of Brutality",
+"count": 1,
+"total": 1524
+},
+{
+"id": 29217,
+"name": "Rune of Tech",
+"count": 1,
+"total": 1524
+}
+]
+},
+"32953": {
+"name": "Forester's Adaptive Vanguard System",
+"rows": [
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 296,
+"total": 1024
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 183,
+"total": 1024
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 99,
+"total": 1024
+},
+{
+"id": 14237,
+"name": "Reinforced Leather",
+"count": 52,
+"total": 1024
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 52,
+"total": 1024
+},
+{
+"id": 14194,
+"name": "Diamond",
+"count": 31,
+"total": 1024
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 26,
+"total": 1024
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 24,
+"total": 1024
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 20,
+"total": 1024
+},
+{
+"id": 31459,
+"name": "Diamond Power Core",
+"count": 19,
+"total": 1024
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 19,
+"total": 1024
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 18,
+"total": 1024
+},
+{
+"id": 14248,
+"name": "Hardened Pelt",
+"count": 16,
+"total": 1024
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 16,
+"total": 1024
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 16,
+"total": 1024
+},
+{
+"id": 16129,
+"name": "Tempered Bone",
+"count": 15,
+"total": 1024
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 14,
+"total": 1024
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 12,
+"total": 1024
+},
+{
+"id": 49850,
+"name": "Advanced Tech Scraps",
+"count": 11,
+"total": 1024
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 10,
+"total": 1024
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 8,
+"total": 1024
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 7,
+"total": 1024
+},
+{
+"id": 16002,
+"name": "Hydrogem",
+"count": 7,
+"total": 1024
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 6,
+"total": 1024
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 5,
+"total": 1024
+},
+{
+"id": 31473,
+"name": "Dual Diamond Power Core",
+"count": 5,
+"total": 1024
+},
+{
+"id": 14249,
+"name": "Stonebound Pelt",
+"count": 4,
+"total": 1024
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 4,
+"total": 1024
+},
+{
+"id": 47638,
+"name": "Rough Chrysalus Power Core",
+"count": 3,
+"total": 1024
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 3,
+"total": 1024
+},
+{
+"id": 16023,
+"name": "Chrysalus Power Core",
+"count": 3,
+"total": 1024
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 3,
+"total": 1024
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 3,
+"total": 1024
+},
+{
+"id": 29218,
+"name": "Rune of Shield Cap",
+"count": 2,
+"total": 1024
+},
+{
+"id": 31474,
+"name": "Dual Chrysalus Power Core",
+"count": 2,
+"total": 1024
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 2,
+"total": 1024
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 2,
+"total": 1024
+},
+{
+"id": 29260,
+"name": "Rune of Moxie",
+"count": 1,
+"total": 1024
+},
+{
+"id": 16027,
+"name": "Shadeslate-Chrysalus Power Core",
+"count": 1,
+"total": 1024
+},
+{
+"id": 29259,
+"name": "Rune of Tech",
+"count": 1,
+"total": 1024
+},
+{
+"id": 29257,
+"name": "Rune of Crit Severity",
+"count": 1,
+"total": 1024
+},
+{
+"id": 49845,
+"name": "Rune of Support Power",
+"count": 1,
+"total": 1024
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 1,
+"total": 1024
+}
+]
+},
+"33297": {
+"name": "Swordsman's Target Link",
+"rows": []
+},
+"62655": {
+"name": "Exceptional Instigator's Celestionite Instigator",
+"rows": [
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 1,
+"total": 4
+},
+{
+"id": 49836,
+"name": "Rune of Insight",
+"count": 1,
+"total": 4
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 1,
+"total": 4
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 1,
+"total": 4
+}
+]
+},
+"71730": {
+"name": "Blue Sanity Requiem",
+"rows": [
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 4,
+"total": 35
+},
+{
+"id": 47638,
+"name": "Rough Chrysalus Power Core",
+"count": 4,
+"total": 35
+},
+{
+"id": 31474,
+"name": "Dual Chrysalus Power Core",
+"count": 3,
+"total": 35
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 3,
+"total": 35
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 3,
+"total": 35
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 2,
+"total": 35
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 2,
+"total": 35
+},
+{
+"id": 29236,
+"name": "Rune of Health",
+"count": 2,
+"total": 35
+},
+{
+"id": 29257,
+"name": "Rune of Crit Severity",
+"count": 2,
+"total": 35
+},
+{
+"id": 49850,
+"name": "Advanced Tech Scraps",
+"count": 2,
+"total": 35
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 2,
+"total": 35
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 1,
+"total": 35
+},
+{
+"id": 49867,
+"name": "Assassin Rune of Brutality",
+"count": 1,
+"total": 35
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 1,
+"total": 35
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 1,
+"total": 35
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 1,
+"total": 35
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 1,
+"total": 35
+}
+]
+},
+"33130": {
+"name": "Exile XenoCoil Shield Emitter",
+"rows": []
+},
+"46712": {
+"name": "Warden's Restorative Implant",
+"rows": []
+},
+"41179": {
+"name": "Empty Bullet Pouch{p:Empty Bullet Pouches}",
+"rows": [
+{
+"id": 47636,
+"name": "Rough Starshard Power Core",
+"count": 35,
+"total": 332
+},
+{
+"id": 49851,
+"name": "Prototype Tech Components",
+"count": 23,
+"total": 332
+},
+{
+"id": 16025,
+"name": "Starshard Power Core",
+"count": 18,
+"total": 332
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 15,
+"total": 332
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 15,
+"total": 332
+},
+{
+"id": 29591,
+"name": "Sign of Earth - Eldan",
+"count": 14,
+"total": 332
+},
+{
+"id": 31475,
+"name": "Dual Starshard Power Core",
+"count": 12,
+"total": 332
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 12,
+"total": 332
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 10,
+"total": 332
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 9,
+"total": 332
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 9,
+"total": 332
+},
+{
+"id": 16029,
+"name": "Novacite-Starshard Power Core",
+"count": 8,
+"total": 332
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 8,
+"total": 332
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 8,
+"total": 332
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 8,
+"total": 332
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 7,
+"total": 332
+},
+{
+"id": 16023,
+"name": "Chrysalus Power Core",
+"count": 7,
+"total": 332
+},
+{
+"id": 31474,
+"name": "Dual Chrysalus Power Core",
+"count": 7,
+"total": 332
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 7,
+"total": 332
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 7,
+"total": 332
+},
+{
+"id": 16565,
+"name": "Kinetic Omni-Plasm",
+"count": 6,
+"total": 332
+},
+{
+"id": 47638,
+"name": "Rough Chrysalus Power Core",
+"count": 6,
+"total": 332
+},
+{
+"id": 29599,
+"name": "Sign of Fire - Eldan",
+"count": 6,
+"total": 332
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 5,
+"total": 332
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 4,
+"total": 332
+},
+{
+"id": 29319,
+"name": "Sign of Water - Eldan",
+"count": 4,
+"total": 332
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 4,
+"total": 332
+},
+{
+"id": 34183,
+"name": "Focus Regen Rune of Critical",
+"count": 4,
+"total": 332
+},
+{
+"id": 34200,
+"name": "Spellweaver Rune of Moxie",
+"count": 4,
+"total": 332
+},
+{
+"id": 44300,
+"name": "Fragment of the Spellslinger",
+"count": 3,
+"total": 332
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 3,
+"total": 332
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 3,
+"total": 332
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 3,
+"total": 332
+},
+{
+"id": 49835,
+"name": "Rune of Deflect",
+"count": 2,
+"total": 332
+},
+{
+"id": 29603,
+"name": "Sign of Logic - Eldan",
+"count": 2,
+"total": 332
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 2,
+"total": 332
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 2,
+"total": 332
+},
+{
+"id": 29607,
+"name": "Sign of Air - Eldan",
+"count": 2,
+"total": 332
+},
+{
+"id": 44301,
+"name": "Fragment of the Esper",
+"count": 2,
+"total": 332
+},
+{
+"id": 34196,
+"name": "Assassin Rune of Crit Severity",
+"count": 1,
+"total": 332
+},
+{
+"id": 29261,
+"name": "Rune of Shield Cap",
+"count": 1,
+"total": 332
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 1,
+"total": 332
+},
+{
+"id": 29229,
+"name": "Rune of Deflect",
+"count": 1,
+"total": 332
+},
+{
+"id": 29218,
+"name": "Rune of Shield Cap",
+"count": 1,
+"total": 332
+},
+{
+"id": 29256,
+"name": "Rune of Crit Severity",
+"count": 1,
+"total": 332
+},
+{
+"id": 29267,
+"name": "Rune of Resist Tech",
+"count": 1,
+"total": 332
+},
+{
+"id": 29277,
+"name": "Rune of Strikethrough",
+"count": 1,
+"total": 332
+},
+{
+"id": 29587,
+"name": "Sign of Life - Eldan",
+"count": 1,
+"total": 332
+},
+{
+"id": 49859,
+"name": "Team Player Rune of Recovery",
+"count": 1,
+"total": 332
+},
+{
+"id": 29243,
+"name": "Rune of Resist Tech",
+"count": 1,
+"total": 332
+},
+{
+"id": 29259,
+"name": "Rune of Tech",
+"count": 1,
+"total": 332
+},
+{
+"id": 29249,
+"name": "Rune of Health",
+"count": 1,
+"total": 332
+},
+{
+"id": 29264,
+"name": "Rune of Critical",
+"count": 1,
+"total": 332
+},
+{
+"id": 34136,
+"name": "Synapse Rune of Grit",
+"count": 1,
+"total": 332
+},
+{
+"id": 29232,
+"name": "Rune of Brutality",
+"count": 1,
+"total": 332
+},
+{
+"id": 34101,
+"name": "Tough Chassis Rune of Strikethrough",
+"count": 1,
+"total": 332
+},
+{
+"id": 49845,
+"name": "Rune of Support Power",
+"count": 1,
+"total": 332
+},
+{
+"id": 29286,
+"name": "Rune of Shield Cap",
+"count": 1,
+"total": 332
+},
+{
+"id": 29255,
+"name": "Rune of Resist Tech",
+"count": 1,
+"total": 332
+},
+{
+"id": 44296,
+"name": "Fragment of the Warrior",
+"count": 1,
+"total": 332
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 1,
+"total": 332
+},
+{
+"id": 49832,
+"name": "Rune of Grit",
+"count": 1,
+"total": 332
+},
+{
+"id": 34168,
+"name": "Preservation Rune of Health",
+"count": 1,
+"total": 332
+},
+{
+"id": 49834,
+"name": "Rune of Moxie",
+"count": 1,
+"total": 332
+},
+{
+"id": 44299,
+"name": "Fragment of the Stalker",
+"count": 1,
+"total": 332
+}
+]
+},
+"36876": {
+"name": "Bladed Revenge Extractors",
+"rows": []
+},
+"28175": {
+"name": "'Adventus' AS-3 SS Warfighter Support System",
+"rows": [
+{
+"id": 14239,
+"name": "Augmented Leather",
+"count": 15,
+"total": 94
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 13,
+"total": 94
+},
+{
+"id": 16127,
+"name": "Primal Pelt",
+"count": 8,
+"total": 94
+},
+{
+"id": 16131,
+"name": "Infused Bone",
+"count": 5,
+"total": 94
+},
+{
+"id": 47631,
+"name": "Rough Hybrid Power Core",
+"count": 5,
+"total": 94
+},
+{
+"id": 47632,
+"name": "Dual Hybrid Power Core",
+"count": 5,
+"total": 94
+},
+{
+"id": 41476,
+"name": "Hybrid Power Core",
+"count": 4,
+"total": 94
+},
+{
+"id": 29603,
+"name": "Sign of Logic - Eldan",
+"count": 3,
+"total": 94
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 3,
+"total": 94
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 3,
+"total": 94
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 2,
+"total": 94
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 2,
+"total": 94
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 2,
+"total": 94
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 2,
+"total": 94
+},
+{
+"id": 29607,
+"name": "Sign of Air - Eldan",
+"count": 2,
+"total": 94
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 2,
+"total": 94
+},
+{
+"id": 49840,
+"name": "Rune of Armor",
+"count": 1,
+"total": 94
+},
+{
+"id": 29602,
+"name": "Sign of Logic - Major",
+"count": 1,
+"total": 94
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 1,
+"total": 94
+},
+{
+"id": 29274,
+"name": "Rune of Recovery",
+"count": 1,
+"total": 94
+},
+{
+"id": 29319,
+"name": "Sign of Water - Eldan",
+"count": 1,
+"total": 94
+},
+{
+"id": 29280,
+"name": "Rune of Finesse",
+"count": 1,
+"total": 94
+},
+{
+"id": 29264,
+"name": "Rune of Critical",
+"count": 1,
+"total": 94
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 1,
+"total": 94
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 1,
+"total": 94
+},
+{
+"id": 34153,
+"name": "Focused Surge Rune of Finesse",
+"count": 1,
+"total": 94
+},
+{
+"id": 49929,
+"name": "Life Giver Rune of Moxie",
+"count": 1,
+"total": 94
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 1,
+"total": 94
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 1,
+"total": 94
+},
+{
+"id": 34268,
+"name": "Fusion Guard Rune of Grit",
+"count": 1,
+"total": 94
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 1,
+"total": 94
+},
+{
+"id": 34199,
+"name": "Spellweaver Rune of Finesse",
+"count": 1,
+"total": 94
+},
+{
+"id": 29267,
+"name": "Rune of Resist Tech",
+"count": 1,
+"total": 94
+},
+{
+"id": 34134,
+"name": "Synapse Rune of Brutality",
+"count": 1,
+"total": 94
+}
+]
+},
+"53174": {
+"name": "Warlock's Biowave Extended Mag",
+"rows": [
+{
+"id": 47631,
+"name": "Rough Hybrid Power Core",
+"count": 55,
+"total": 392
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 46,
+"total": 392
+},
+{
+"id": 49851,
+"name": "Prototype Tech Components",
+"count": 46,
+"total": 392
+},
+{
+"id": 16004,
+"name": "Novacite",
+"count": 30,
+"total": 392
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 25,
+"total": 392
+},
+{
+"id": 14673,
+"name": "Starshard",
+"count": 24,
+"total": 392
+},
+{
+"id": 41476,
+"name": "Hybrid Power Core",
+"count": 19,
+"total": 392
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 16,
+"total": 392
+},
+{
+"id": 47632,
+"name": "Dual Hybrid Power Core",
+"count": 14,
+"total": 392
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 11,
+"total": 392
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 9,
+"total": 392
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 8,
+"total": 392
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 7,
+"total": 392
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 7,
+"total": 392
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 7,
+"total": 392
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 5,
+"total": 392
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 5,
+"total": 392
+},
+{
+"id": 29607,
+"name": "Sign of Air - Eldan",
+"count": 4,
+"total": 392
+},
+{
+"id": 29319,
+"name": "Sign of Water - Eldan",
+"count": 4,
+"total": 392
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 4,
+"total": 392
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 2,
+"total": 392
+},
+{
+"id": 29280,
+"name": "Rune of Finesse",
+"count": 2,
+"total": 392
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 2,
+"total": 392
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 2,
+"total": 392
+},
+{
+"id": 29278,
+"name": "Rune of Brutality",
+"count": 2,
+"total": 392
+},
+{
+"id": 29224,
+"name": "Rune of Armor",
+"count": 2,
+"total": 392
+},
+{
+"id": 29216,
+"name": "Rune of Health",
+"count": 2,
+"total": 392
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 2,
+"total": 392
+},
+{
+"id": 34104,
+"name": "Tough Chassis Rune of Strikethrough",
+"count": 1,
+"total": 392
+},
+{
+"id": 34081,
+"name": "Full Charge Rune of Recovery",
+"count": 1,
+"total": 392
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 1,
+"total": 392
+},
+{
+"id": 29230,
+"name": "Rune of Tech",
+"count": 1,
+"total": 392
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 1,
+"total": 392
+},
+{
+"id": 49730,
+"name": "Spirit Sense Rune of Insight",
+"count": 1,
+"total": 392
+},
+{
+"id": 29239,
+"name": "Rune of Deflect",
+"count": 1,
+"total": 392
+},
+{
+"id": 29213,
+"name": "Rune of Brutality",
+"count": 1,
+"total": 392
+},
+{
+"id": 49847,
+"name": "Rune of Health",
+"count": 1,
+"total": 392
+},
+{
+"id": 29233,
+"name": "Rune of Crit Severity",
+"count": 1,
+"total": 392
+},
+{
+"id": 49866,
+"name": "Assassin Rune of Assault Power",
+"count": 1,
+"total": 392
+},
+{
+"id": 29240,
+"name": "Rune of Shield Cap",
+"count": 1,
+"total": 392
+},
+{
+"id": 29265,
+"name": "Rune of Deflect Crit",
+"count": 1,
+"total": 392
+},
+{
+"id": 49845,
+"name": "Rune of Support Power",
+"count": 1,
+"total": 392
+},
+{
+"id": 49738,
+"name": "Spectral Shift Rune of Grit",
+"count": 1,
+"total": 392
+},
+{
+"id": 29236,
+"name": "Rune of Health",
+"count": 1,
+"total": 392
+},
+{
+"id": 34484,
+"name": "Shadow Blast Fragment",
+"count": 1,
+"total": 392
+},
+{
+"id": 49844,
+"name": "Rune of Deflect Critical",
+"count": 1,
+"total": 392
+},
+{
+"id": 34218,
+"name": "Crystallize Rune of Grit",
+"count": 1,
+"total": 392
+},
+{
+"id": 49831,
+"name": "Rune of Tech",
+"count": 1,
+"total": 392
+},
+{
+"id": 34209,
+"name": "Technophile Rune of Brutality",
+"count": 1,
+"total": 392
+},
+{
+"id": 44296,
+"name": "Fragment of the Warrior",
+"count": 1,
+"total": 392
+},
+{
+"id": 29259,
+"name": "Rune of Tech",
+"count": 1,
+"total": 392
+},
+{
+"id": 49830,
+"name": "Rune of Critical",
+"count": 1,
+"total": 392
+},
+{
+"id": 29231,
+"name": "Rune of Grit",
+"count": 1,
+"total": 392
+},
+{
+"id": 49838,
+"name": "Rune of Assault Power",
+"count": 1,
+"total": 392
+},
+{
+"id": 29591,
+"name": "Sign of Earth - Eldan",
+"count": 1,
+"total": 392
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 1,
+"total": 392
+},
+{
+"id": 34141,
+"name": "Concentrated Assault Rune of Insight",
+"count": 1,
+"total": 392
+},
+{
+"id": 29250,
+"name": "Rune of Finesse",
+"count": 1,
+"total": 392
+}
+]
+},
+"38466": {
+"name": "Dungeon Test - T7 - Warrior - DPS",
+"rows": []
+},
+"37619": {
+"name": "Plasma Galactium Laser Sight",
+"rows": []
+},
+"73237": {
+"name": "Haruspex's Turbotrace Projector",
+"rows": []
+},
+"60995": {
+"name": "The Heavy Burden",
+"rows": [
+{
+"id": 14673,
+"name": "Starshard",
+"count": 5,
+"total": 40
+},
+{
+"id": 41476,
+"name": "Hybrid Power Core",
+"count": 4,
+"total": 40
+},
+{
+"id": 47632,
+"name": "Dual Hybrid Power Core",
+"count": 4,
+"total": 40
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 3,
+"total": 40
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 3,
+"total": 40
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 2,
+"total": 40
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 2,
+"total": 40
+},
+{
+"id": 16004,
+"name": "Novacite",
+"count": 2,
+"total": 40
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 2,
+"total": 40
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 2,
+"total": 40
+},
+{
+"id": 47631,
+"name": "Rough Hybrid Power Core",
+"count": 2,
+"total": 40
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 1,
+"total": 40
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 1,
+"total": 40
+},
+{
+"id": 29607,
+"name": "Sign of Air - Eldan",
+"count": 1,
+"total": 40
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 1,
+"total": 40
+},
+{
+"id": 49865,
+"name": "Shield Specialist Rune of Grit",
+"count": 1,
+"total": 40
+},
+{
+"id": 49839,
+"name": "Rune of Strikethrough",
+"count": 1,
+"total": 40
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 1,
+"total": 40
+},
+{
+"id": 14674,
+"name": "Luminite",
+"count": 1,
+"total": 40
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 1,
+"total": 40
+}
+]
+},
+"38969": {
+"name": "Physician's Ruthless Analyzer",
+"rows": []
+},
+"13179": {
+"name": "Crude Iron Greatsword",
+"rows": []
+},
+"17774": {
+"name": "Firestorm Razor Grasps{p:Firestorm Razor Grasps}",
+"rows": [
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 43,
+"total": 94
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 19,
+"total": 94
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 7,
+"total": 94
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 6,
+"total": 94
+},
+{
+"id": 13940,
+"name": "Quartz Power Core",
+"count": 4,
+"total": 94
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 3,
+"total": 94
+},
+{
+"id": 49848,
+"name": "Rudimentary Tech Chunks",
+"count": 3,
+"total": 94
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 2,
+"total": 94
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 2,
+"total": 94
+},
+{
+"id": 31466,
+"name": "Refined Quartz Power Core",
+"count": 1,
+"total": 94
+},
+{
+"id": 47968,
+"name": "Canvas Braid",
+"count": 1,
+"total": 94
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 1,
+"total": 94
+},
+{
+"id": 12770,
+"name": "Quartz",
+"count": 1,
+"total": 94
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 1,
+"total": 94
+}
+]
+},
+"16316": {
+"name": "Razorblight",
+"rows": [
+{
+"id": 13940,
+"name": "Quartz Power Core",
+"count": 8,
+"total": 38
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 6,
+"total": 38
+},
+{
+"id": 12770,
+"name": "Quartz",
+"count": 4,
+"total": 38
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 4,
+"total": 38
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 3,
+"total": 38
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 3,
+"total": 38
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 2,
+"total": 38
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 2,
+"total": 38
+},
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 2,
+"total": 38
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 1,
+"total": 38
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 1,
+"total": 38
+},
+{
+"id": 49848,
+"name": "Rudimentary Tech Chunks",
+"count": 1,
+"total": 38
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 1,
+"total": 38
+}
+]
+},
+"31284": {
+"name": "Bloodsworn Assault Repeaters{p:Bloodsworn Assault Repeaters}",
+"rows": []
+},
+"17796": {
+"name": "Annihilator Decapitators{p:Annihilator Decapitators}",
+"rows": [
+{
+"id": 12542,
+"name": "Iron Chunk",
+"count": 61,
+"total": 175
+},
+{
+"id": 47644,
+"name": "Rough Quartz Power Core",
+"count": 27,
+"total": 175
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 20,
+"total": 175
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 14,
+"total": 175
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 10,
+"total": 175
+},
+{
+"id": 12770,
+"name": "Quartz",
+"count": 9,
+"total": 175
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 9,
+"total": 175
+},
+{
+"id": 13940,
+"name": "Quartz Power Core",
+"count": 6,
+"total": 175
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 5,
+"total": 175
+},
+{
+"id": 49848,
+"name": "Rudimentary Tech Chunks",
+"count": 5,
+"total": 175
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 3,
+"total": 175
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 2,
+"total": 175
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 1,
+"total": 175
+},
+{
+"id": 14235,
+"name": "Split Leather",
+"count": 1,
+"total": 175
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 1,
+"total": 175
+},
+{
+"id": 47969,
+"name": "Silk Plait",
+"count": 1,
+"total": 175
+}
+]
+},
+"9097": {
+"name": "VegaD Etched Steel Blast Guns{p:VegaD Etched Steel Blast Guns}",
+"rows": [
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 35,
+"total": 90
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 19,
+"total": 90
+},
+{
+"id": 14192,
+"name": "Sapphire",
+"count": 9,
+"total": 90
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 7,
+"total": 90
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 4,
+"total": 90
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 3,
+"total": 90
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 2,
+"total": 90
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 2,
+"total": 90
+},
+{
+"id": 13943,
+"name": "Zephyrite-Sapphire Power Core",
+"count": 1,
+"total": 90
+},
+{
+"id": 31472,
+"name": "Dual Sapphire Power Core",
+"count": 1,
+"total": 90
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 1,
+"total": 90
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 1,
+"total": 90
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 1,
+"total": 90
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 1,
+"total": 90
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 1,
+"total": 90
+},
+{
+"id": 35892,
+"name": "Schematic: Darkloam Painbringer Psydagger",
+"count": 1,
+"total": 90
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 1,
+"total": 90
+}
+]
+},
+"31247": {
+"name": "Conscript Titancore Sweeper",
+"rows": [
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 2,
+"total": 5
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 2,
+"total": 5
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 1,
+"total": 5
+}
+]
+},
+"14170": {
+"name": "Death From Above",
+"rows": [
+{
+"id": 14188,
+"name": "Platinum Chunk",
+"count": 38,
+"total": 90
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 12,
+"total": 90
+},
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 6,
+"total": 90
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 4,
+"total": 90
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 4,
+"total": 90
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 3,
+"total": 90
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 3,
+"total": 90
+},
+{
+"id": 31459,
+"name": "Diamond Power Core",
+"count": 3,
+"total": 90
+},
+{
+"id": 16002,
+"name": "Hydrogem",
+"count": 2,
+"total": 90
+},
+{
+"id": 31472,
+"name": "Dual Sapphire Power Core",
+"count": 2,
+"total": 90
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 2,
+"total": 90
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 2,
+"total": 90
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 2,
+"total": 90
+},
+{
+"id": 49850,
+"name": "Advanced Tech Scraps",
+"count": 1,
+"total": 90
+},
+{
+"id": 14194,
+"name": "Diamond",
+"count": 1,
+"total": 90
+},
+{
+"id": 29215,
+"name": "Rune of Insight",
+"count": 1,
+"total": 90
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 1,
+"total": 90
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 1,
+"total": 90
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 1,
+"total": 90
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 1,
+"total": 90
+}
+]
+},
+"45904": {
+"name": "The Stormcannon",
+"rows": [
+{
+"id": 12937,
+"name": "Titanium Chunk",
+"count": 10,
+"total": 31
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 5,
+"total": 31
+},
+{
+"id": 16001,
+"name": "Zephyrite",
+"count": 3,
+"total": 31
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 3,
+"total": 31
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 2,
+"total": 31
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 1,
+"total": 31
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 1,
+"total": 31
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 1,
+"total": 31
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 1,
+"total": 31
+},
+{
+"id": 14192,
+"name": "Sapphire",
+"count": 1,
+"total": 31
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 1,
+"total": 31
+},
+{
+"id": 47642,
+"name": "Rough Sapphire Power Core",
+"count": 1,
+"total": 31
+},
+{
+"id": 31458,
+"name": "Sapphire Power Core",
+"count": 1,
+"total": 31
+}
+]
+},
+"58949": {
+"name": "Remarkable Legate's Turboneous Creese",
+"rows": []
+},
+"48047": {
+"name": "Daggerstone Infiltrator's Force Plates",
+"rows": []
+},
+"65473": {
+"name": "Dignitary's Gravibiosis Shock Zappers",
+"rows": [
+{
+"id": 29267,
+"name": "Rune of Resist Tech",
+"count": 2,
+"total": 2
+}
+]
+},
+"36286": {
+"name": "Scission",
+"rows": [
+{
+"id": 47640,
+"name": "Rough Diamond Power Core",
+"count": 1,
+"total": 2
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 1,
+"total": 2
+}
+]
+},
+"44721": {
+"name": "Enigmatic Six-Shooters",
+"rows": [
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 1,
+"total": 3
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 1,
+"total": 3
+},
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 1,
+"total": 3
+}
+]
+},
+"31311": {
+"name": "Moodie Kuwalo's Neuroblade",
+"rows": []
+},
+"23984": {
+"name": "Overhauled Electropolymer Greatsword",
+"rows": [
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 86,
+"total": 240
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 43,
+"total": 240
+},
+{
+"id": 47638,
+"name": "Rough Chrysalus Power Core",
+"count": 19,
+"total": 240
+},
+{
+"id": 16023,
+"name": "Chrysalus Power Core",
+"count": 9,
+"total": 240
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 9,
+"total": 240
+},
+{
+"id": 14672,
+"name": "Chrysalus",
+"count": 9,
+"total": 240
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 8,
+"total": 240
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 6,
+"total": 240
+},
+{
+"id": 16003,
+"name": "Shadeslate",
+"count": 5,
+"total": 240
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 5,
+"total": 240
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 5,
+"total": 240
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 4,
+"total": 240
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 4,
+"total": 240
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 3,
+"total": 240
+},
+{
+"id": 13099,
+"name": "Nano Tech Parts",
+"count": 3,
+"total": 240
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 2,
+"total": 240
+},
+{
+"id": 14238,
+"name": "Rockhide Leather",
+"count": 2,
+"total": 240
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 2,
+"total": 240
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 2,
+"total": 240
+},
+{
+"id": 49839,
+"name": "Rune of Strikethrough",
+"count": 1,
+"total": 240
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 1,
+"total": 240
+},
+{
+"id": 16130,
+"name": "Steel Bone",
+"count": 1,
+"total": 240
+},
+{
+"id": 36205,
+"name": "Guide: Siegebreaker Leather Breastplate",
+"count": 1,
+"total": 240
+},
+{
+"id": 36206,
+"name": "Guide: Siegebreaker Leather Leg Guards",
+"count": 1,
+"total": 240
+},
+{
+"id": 29602,
+"name": "Sign of Logic - Major",
+"count": 1,
+"total": 240
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 1,
+"total": 240
+},
+{
+"id": 14280,
+"name": "Tender Meat",
+"count": 1,
+"total": 240
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 1,
+"total": 240
+},
+{
+"id": 34479,
+"name": "Fire Starter Fragment",
+"count": 1,
+"total": 240
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 1,
+"total": 240
+},
+{
+"id": 34178,
+"name": "Team Player Rune of Insight",
+"count": 1,
+"total": 240
+},
+{
+"id": 31474,
+"name": "Dual Chrysalus Power Core",
+"count": 1,
+"total": 240
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 1,
+"total": 240
+}
+]
+},
+"23999": {
+"name": "Jeweled Gold-Plated Psybomb",
+"rows": [
+{
+"id": 14667,
+"name": "Xenocite Chunk",
+"count": 18,
+"total": 48
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 10,
+"total": 48
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 6,
+"total": 48
+},
+{
+"id": 16023,
+"name": "Chrysalus Power Core",
+"count": 4,
+"total": 48
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 3,
+"total": 48
+},
+{
+"id": 14672,
+"name": "Chrysalus",
+"count": 3,
+"total": 48
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 1,
+"total": 48
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 1,
+"total": 48
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 1,
+"total": 48
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 1,
+"total": 48
+}
+]
+},
+"44735": {
+"name": "Mystical Claymore",
+"rows": []
+},
+"48052": {
+"name": "Daggerstone Saboteur's Dicers",
+"rows": []
+},
+"42447": {
+"name": "Stormdusters",
+"rows": []
+},
+"42421": {
+"name": "Decorated Supertronic Zapinators",
+"rows": [
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 515,
+"total": 2104
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 211,
+"total": 2104
+},
+{
+"id": 41476,
+"name": "Hybrid Power Core",
+"count": 158,
+"total": 2104
+},
+{
+"id": 14673,
+"name": "Starshard",
+"count": 138,
+"total": 2104
+},
+{
+"id": 47631,
+"name": "Rough Hybrid Power Core",
+"count": 122,
+"total": 2104
+},
+{
+"id": 49851,
+"name": "Prototype Tech Components",
+"count": 85,
+"total": 2104
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 61,
+"total": 2104
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 55,
+"total": 2104
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 44,
+"total": 2104
+},
+{
+"id": 47632,
+"name": "Dual Hybrid Power Core",
+"count": 39,
+"total": 2104
+},
+{
+"id": 29613,
+"name": "Eldan Rune Fragment",
+"count": 38,
+"total": 2104
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 37,
+"total": 2104
+},
+{
+"id": 16004,
+"name": "Novacite",
+"count": 35,
+"total": 2104
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 32,
+"total": 2104
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 31,
+"total": 2104
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 29,
+"total": 2104
+},
+{
+"id": 29594,
+"name": "Sign of Fusion - Major",
+"count": 27,
+"total": 2104
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 27,
+"total": 2104
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 26,
+"total": 2104
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 25,
+"total": 2104
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 25,
+"total": 2104
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 25,
+"total": 2104
+},
+{
+"id": 29602,
+"name": "Sign of Logic - Major",
+"count": 25,
+"total": 2104
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 24,
+"total": 2104
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 22,
+"total": 2104
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 20,
+"total": 2104
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 19,
+"total": 2104
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 13,
+"total": 2104
+},
+{
+"id": 29319,
+"name": "Sign of Water - Eldan",
+"count": 11,
+"total": 2104
+},
+{
+"id": 29607,
+"name": "Sign of Air - Eldan",
+"count": 11,
+"total": 2104
+},
+{
+"id": 29587,
+"name": "Sign of Life - Eldan",
+"count": 10,
+"total": 2104
+},
+{
+"id": 29601,
+"name": "Sign of Logic - Greater",
+"count": 9,
+"total": 2104
+},
+{
+"id": 44301,
+"name": "Fragment of the Esper",
+"count": 8,
+"total": 2104
+},
+{
+"id": 29599,
+"name": "Sign of Fire - Eldan",
+"count": 7,
+"total": 2104
+},
+{
+"id": 44300,
+"name": "Fragment of the Spellslinger",
+"count": 7,
+"total": 2104
+},
+{
+"id": 29603,
+"name": "Sign of Logic - Eldan",
+"count": 7,
+"total": 2104
+},
+{
+"id": 14674,
+"name": "Luminite",
+"count": 7,
+"total": 2104
+},
+{
+"id": 49860,
+"name": "Team Player Rune of Insight",
+"count": 6,
+"total": 2104
+},
+{
+"id": 29595,
+"name": "Sign of Fusion - Eldan",
+"count": 6,
+"total": 2104
+},
+{
+"id": 34486,
+"name": "Shadow Gorge Fragment",
+"count": 6,
+"total": 2104
+},
+{
+"id": 29591,
+"name": "Sign of Earth - Eldan",
+"count": 6,
+"total": 2104
+},
+{
+"id": 29590,
+"name": "Sign of Earth - Major",
+"count": 6,
+"total": 2104
+},
+{
+"id": 49842,
+"name": "Rune of Brutality",
+"count": 5,
+"total": 2104
+},
+{
+"id": 29259,
+"name": "Rune of Tech",
+"count": 4,
+"total": 2104
+},
+{
+"id": 44298,
+"name": "Fragment of the Medic",
+"count": 4,
+"total": 2104
+},
+{
+"id": 29265,
+"name": "Rune of Deflect Crit",
+"count": 4,
+"total": 2104
+},
+{
+"id": 29252,
+"name": "Rune of Brutality",
+"count": 4,
+"total": 2104
+},
+{
+"id": 29223,
+"name": "Rune of Recovery",
+"count": 3,
+"total": 2104
+},
+{
+"id": 49876,
+"name": "Technophile Rune of Moxie",
+"count": 3,
+"total": 2104
+},
+{
+"id": 29213,
+"name": "Rune of Brutality",
+"count": 3,
+"total": 2104
+},
+{
+"id": 44296,
+"name": "Fragment of the Warrior",
+"count": 2,
+"total": 2104
+},
+{
+"id": 44299,
+"name": "Fragment of the Stalker",
+"count": 2,
+"total": 2104
+},
+{
+"id": 49857,
+"name": "Preservation Rune of Shield Capacity",
+"count": 2,
+"total": 2104
+},
+{
+"id": 34481,
+"name": "Hard Rock Fragment",
+"count": 2,
+"total": 2104
+},
+{
+"id": 29219,
+"name": "Rune of Critical",
+"count": 2,
+"total": 2104
+},
+{
+"id": 29274,
+"name": "Rune of Recovery",
+"count": 2,
+"total": 2104
+},
+{
+"id": 34483,
+"name": "Life Giver Fragment",
+"count": 2,
+"total": 2104
+},
+{
+"id": 34478,
+"name": "Crystallize Fragment",
+"count": 2,
+"total": 2104
+},
+{
+"id": 29277,
+"name": "Rune of Strikethrough",
+"count": 2,
+"total": 2104
+},
+{
+"id": 49846,
+"name": "Rune of Shield Capacity",
+"count": 2,
+"total": 2104
+},
+{
+"id": 29279,
+"name": "Rune of Moxie",
+"count": 2,
+"total": 2104
+},
+{
+"id": 29278,
+"name": "Rune of Brutality",
+"count": 2,
+"total": 2104
+},
+{
+"id": 34479,
+"name": "Fire Starter Fragment",
+"count": 2,
+"total": 2104
+},
+{
+"id": 34485,
+"name": "Shadow Guard Fragment",
+"count": 2,
+"total": 2104
+},
+{
+"id": 34162,
+"name": "Protect Your Neck Rune of Grit",
+"count": 2,
+"total": 2104
+},
+{
+"id": 29262,
+"name": "Rune of Resist Magic",
+"count": 1,
+"total": 2104
+},
+{
+"id": 44297,
+"name": "Fragment of the Engineer",
+"count": 1,
+"total": 2104
+},
+{
+"id": 34484,
+"name": "Shadow Blast Fragment",
+"count": 1,
+"total": 2104
+},
+{
+"id": 49873,
+"name": "Weapon Specialist Rune of Brutality",
+"count": 1,
+"total": 2104
+},
+{
+"id": 49724,
+"name": "Spirit Sense Rune of Moxie",
+"count": 1,
+"total": 2104
+},
+{
+"id": 29234,
+"name": "Rune of Armor",
+"count": 1,
+"total": 2104
+},
+{
+"id": 49706,
+"name": "Specter Rune of Brutality",
+"count": 1,
+"total": 2104
+},
+{
+"id": 34069,
+"name": "Predator Rune of Crit Severity",
+"count": 1,
+"total": 2104
+},
+{
+"id": 29257,
+"name": "Rune of Crit Severity",
+"count": 1,
+"total": 2104
+},
+{
+"id": 29249,
+"name": "Rune of Health",
+"count": 1,
+"total": 2104
+},
+{
+"id": 29268,
+"name": "Rune of Resist Physical",
+"count": 1,
+"total": 2104
+},
+{
+"id": 49844,
+"name": "Rune of Deflect Critical",
+"count": 1,
+"total": 2104
+},
+{
+"id": 29236,
+"name": "Rune of Health",
+"count": 1,
+"total": 2104
+},
+{
+"id": 34206,
+"name": "Weapon Specialist Rune of Crit Severity",
+"count": 1,
+"total": 2104
+},
+{
+"id": 29245,
+"name": "Rune of Deflect Crit",
+"count": 1,
+"total": 2104
+},
+{
+"id": 49830,
+"name": "Rune of Critical",
+"count": 1,
+"total": 2104
+},
+{
+"id": 29242,
+"name": "Rune of Moxie",
+"count": 1,
+"total": 2104
+},
+{
+"id": 34238,
+"name": "Head Wind Rune of Shield Cap",
+"count": 1,
+"total": 2104
+},
+{
+"id": 34233,
+"name": "Magic Fire Starter Rune of Crit Severity",
+"count": 1,
+"total": 2104
+},
+{
+"id": 29241,
+"name": "Rune of Finesse",
+"count": 1,
+"total": 2104
+},
+{
+"id": 29286,
+"name": "Rune of Shield Cap",
+"count": 1,
+"total": 2104
+},
+{
+"id": 49837,
+"name": "Rune of Support Power",
+"count": 1,
+"total": 2104
+},
+{
+"id": 29227,
+"name": "Rune of Resist Tech",
+"count": 1,
+"total": 2104
+},
+{
+"id": 49833,
+"name": "Rune of Finesse",
+"count": 1,
+"total": 2104
+},
+{
+"id": 29225,
+"name": "Rune of Grit",
+"count": 1,
+"total": 2104
+},
+{
+"id": 29285,
+"name": "Rune of Armor",
+"count": 1,
+"total": 2104
+},
+{
+"id": 49739,
+"name": "Spectral Shift Rune of Deflect Critical",
+"count": 1,
+"total": 2104
+},
+{
+"id": 34260,
+"name": "Fusion Blast Rune of Critical",
+"count": 1,
+"total": 2104
+},
+{
+"id": 49871,
+"name": "Spellweaver Rune of Brutality",
+"count": 1,
+"total": 2104
+}
+]
+},
+"52165": {
+"name": "Remarkable Barbarian's Decorated Powersword",
+"rows": [
+{
+"id": 47631,
+"name": "Rough Hybrid Power Core",
+"count": 7,
+"total": 22
+},
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 6,
+"total": 22
+},
+{
+"id": 47632,
+"name": "Dual Hybrid Power Core",
+"count": 2,
+"total": 22
+},
+{
+"id": 49857,
+"name": "Preservation Rune of Shield Capacity",
+"count": 1,
+"total": 22
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 1,
+"total": 22
+},
+{
+"id": 29589,
+"name": "Sign of Earth - Greater",
+"count": 1,
+"total": 22
+},
+{
+"id": 29318,
+"name": "Sign of Water - Major",
+"count": 1,
+"total": 22
+},
+{
+"id": 29321,
+"name": "Sign of Life - Greater",
+"count": 1,
+"total": 22
+},
+{
+"id": 49851,
+"name": "Prototype Tech Components",
+"count": 1,
+"total": 22
+},
+{
+"id": 49907,
+"name": "Concentrated Assault Rune of Assault Power",
+"count": 1,
+"total": 22
+}
+]
+},
+"12584": {
+"name": "[TEST] Most Complex Weaponsmith Sword",
+"rows": []
+},
+"73239": {
+"name": "Haruspex's Turbotrace Moon Star",
+"rows": []
+},
+"41909": {
+"name": "Quillrenders{p:Quillrenders}",
+"rows": []
+},
+"61294": {
+"name": "The Darkspeaker's Shard",
+"rows": [
+{
+"id": 14668,
+"name": "Galactium Chunk",
+"count": 5,
+"total": 53
+},
+{
+"id": 16034,
+"name": "Eldan Tech Remnants",
+"count": 5,
+"total": 53
+},
+{
+"id": 29588,
+"name": "Sign of Earth",
+"count": 3,
+"total": 53
+},
+{
+"id": 29612,
+"name": "Armor Rune Fragment",
+"count": 2,
+"total": 53
+},
+{
+"id": 29611,
+"name": "Intricate Rune Fragment",
+"count": 2,
+"total": 53
+},
+{
+"id": 29609,
+"name": "Rune Fragment",
+"count": 2,
+"total": 53
+},
+{
+"id": 29605,
+"name": "Sign of Air - Greater",
+"count": 2,
+"total": 53
+},
+{
+"id": 47632,
+"name": "Dual Hybrid Power Core",
+"count": 2,
+"total": 53
+},
+{
+"id": 29606,
+"name": "Sign of Air - Major",
+"count": 2,
+"total": 53
+},
+{
+"id": 14673,
+"name": "Starshard",
+"count": 2,
+"total": 53
+},
+{
+"id": 34485,
+"name": "Shadow Guard Fragment",
+"count": 2,
+"total": 53
+},
+{
+"id": 29604,
+"name": "Sign of Air",
+"count": 1,
+"total": 53
+},
+{
+"id": 29285,
+"name": "Rune of Armor",
+"count": 1,
+"total": 53
+},
+{
+"id": 49831,
+"name": "Rune of Tech",
+"count": 1,
+"total": 53
+},
+{
+"id": 29230,
+"name": "Rune of Tech",
+"count": 1,
+"total": 53
+},
+{
+"id": 29214,
+"name": "Rune of Moxie",
+"count": 1,
+"total": 53
+},
+{
+"id": 29597,
+"name": "Sign of Fire - Greater",
+"count": 1,
+"total": 53
+},
+{
+"id": 29317,
+"name": "Sign of Water - Greater",
+"count": 1,
+"total": 53
+},
+{
+"id": 29316,
+"name": "Sign of Water",
+"count": 1,
+"total": 53
+},
+{
+"id": 44295,
+"name": "Augmented Rune Fragment",
+"count": 1,
+"total": 53
+},
+{
+"id": 29599,
+"name": "Sign of Fire - Eldan",
+"count": 1,
+"total": 53
+},
+{
+"id": 29598,
+"name": "Sign of Fire - Major",
+"count": 1,
+"total": 53
+},
+{
+"id": 49736,
+"name": "Spectral Shift Rune of Tech",
+"count": 1,
+"total": 53
+},
+{
+"id": 29587,
+"name": "Sign of Life - Eldan",
+"count": 1,
+"total": 53
+},
+{
+"id": 41476,
+"name": "Hybrid Power Core",
+"count": 1,
+"total": 53
+},
+{
+"id": 47631,
+"name": "Rough Hybrid Power Core",
+"count": 1,
+"total": 53
+},
+{
+"id": 44297,
+"name": "Fragment of the Engineer",
+"count": 1,
+"total": 53
+},
+{
+"id": 34194,
+"name": "Assassin Rune of Crit Severity",
+"count": 1,
+"total": 53
+},
+{
+"id": 29222,
+"name": "Rune of Insight",
+"count": 1,
+"total": 53
+},
+{
+"id": 29596,
+"name": "Sign of Fire",
+"count": 1,
+"total": 53
+},
+{
+"id": 16004,
+"name": "Novacite",
+"count": 1,
+"total": 53
+},
+{
+"id": 14674,
+"name": "Luminite",
+"count": 1,
+"total": 53
+},
+{
+"id": 29322,
+"name": "Sign of Life - Major",
+"count": 1,
+"total": 53
+},
+{
+"id": 29319,
+"name": "Sign of Water - Eldan",
+"count": 1,
+"total": 53
+},
+{
+"id": 49877,
+"name": "Technophile Rune of Grit",
+"count": 1,
+"total": 53
+}
+]
+}
+}
