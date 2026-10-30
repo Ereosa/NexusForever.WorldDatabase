@@ -48,7 +48,7 @@ BANDS = [
 ]
 INDICATORS = [11254, 11255, 11256, 11257]
 
-BASE = 1102000000
+BASE = 1103000000
 GROUP = ('INSERT INTO `loot_group` (`id`, `parentId`, `probability`, `minCount`, `maxCount`, `conditionType`, `condition`, `comment`) '
          'VALUES (%d, %s, 100, %d, %d, %d, %d, %s);')
 ITEMS = 'INSERT INTO `loot_item` (`id`, `type`, `staticId`, `probability`, `minCount`, `maxCount`, `comment`) VALUES'
