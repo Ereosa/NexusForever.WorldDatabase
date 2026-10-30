@@ -30691,3 +30691,18 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
 INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 0, 1),
     (@GUID+1, 10, 1);
+
+-- --------------------------------------
+-- Sergeant Kormak at Jeric's Claim once He's the Brains (3765) is done: 16664 is only visible before (quest state 0 or 1) and
+-- 21263 after (state 2 or 3), 21263 receives the later Loftite quests and had no spawn, it stands on 16664's spot (report 56)
+-- --------------------------------------
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`) VALUES
+    (@GUID+1, 0, 21263, @WORLD, 693, 3659.578, -1050.957, -4070.6, 1.570796, 0, 0, 26732, 8981, 171, 171);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 916),
+    (@GUID+1, 10, 6),
+    (@GUID+1, 15, 0),
+    (@GUID+1, 20, 0),
+    (@GUID+1, 21, 0),
+    (@GUID+1, 22, 0);
