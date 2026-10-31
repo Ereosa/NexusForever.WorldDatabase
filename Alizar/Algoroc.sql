@@ -30691,3 +30691,23 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
 INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 0, 1),
     (@GUID+1, 10, 1);
+
+-- --------------------------------------
+-- Gallow: Botsmith Redfield and Judge Kain after A Call to Arm
+-- --------------------------------------
+-- Once the servomotor of A Call to Arm (4294) is found, Botsmith Redfield INSIDE (17364) and Judge Kain (17216) hide (visibility
+-- prerequisites 7697 and 7594) and their "E2 PAYOFF" versions take over: Redfield (34936) receives A Call to Arm, Kain (34941)
+-- Alpha Strike (3939), visibility prerequisite 22025 (until 5425 is completed); after 5425 the "Payoff" versions (50617, 50593,
+-- prerequisite 22015) stand there. None of them were captured (reports 126 and 127), they stand at the spots of the ones they
+-- replace, the quests' receiver locations.
+SET @GUID = (SELECT IFNULL(MAX(`id`), 0) FROM `entity`);
+INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, `RX`, `RY`, `RZ`, `DisplayInfo`, `OutfitInfo`, `Faction1`, `Faction2`) VALUES
+    (@GUID+1, 0, 34936, @WORLD, 21, 4105.2, -1054.0, -3926.9, 0.906, 0, 0, 0, 0, 171, 171),
+    (@GUID+2, 0, 34941, @WORLD, 21, 4103.9, -1053.8, -3927.5, 0, 0, 0, 0, 0, 171, 171),
+    (@GUID+3, 0, 50617, @WORLD, 21, 4105.2, -1054.0, -3926.9, 0.906, 0, 0, 0, 0, 171, 171),
+    (@GUID+4, 0, 50593, @WORLD, 21, 4103.9, -1053.8, -3927.5, 0, 0, 0, 0, 0, 171, 171);
+INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
+    (@GUID+1, 0, 1), (@GUID+1, 10, 8),
+    (@GUID+2, 0, 1), (@GUID+2, 10, 8),
+    (@GUID+3, 0, 1), (@GUID+3, 10, 8),
+    (@GUID+4, 0, 1), (@GUID+4, 10, 8);
