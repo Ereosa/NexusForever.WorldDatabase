@@ -30370,8 +30370,8 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
     (@GUID+76, 0, 18415, @WORLD, 13, 4966.134, -1224.667, -4222.883, -0.71, 0, 0, 23604, 9068, 171, 171, 0),
     -- Eldan Transmitter (18429): Precision Strike (4829) objective 1 type 22 count 1. Position: WorldLocation2, objective indicator 4829.1.
     (@GUID+77, 0, 18429, @WORLD, 786, 4872.068, -1063.542, -4228.964, 1.571, 0, 0, 23803, 0, 219, 219, 0),
-    -- Eldan Transmitter (18431): Precision Strike (4829) objective 3 type 5 count 1. Position: WorldLocation2, objective indicator 4829.3.
-    (@GUID+78, 0, 18431, @WORLD, 28, 4426.849, -1105.423, -3928.25, 0.338, 0, 0, 23803, 0, 219, 219, 0),
+    -- Eldan Transmitter (18431): Precision Strike (4829) objective 3 type 5 count 1. Position: WorldLocation2, objective indicator 4829.3. Moved 4 m east of the marker, which is where Belle Walker and Trooper Gorok stand (report 122).
+    (@GUID+78, 0, 18431, @WORLD, 28, 4430.6, -1105.423, -3930.4, 0.338, 0, 0, 23803, 0, 219, 219, 0),
     -- Belle Walker (18476): Precision Strike (4829) receiver, Clear a Path to Belle (4989) receiver, Caged Science (5261) receiver. Position: WorldLocation2, receiver location 4829.
     (@GUID+79, 0, 18476, @WORLD, 28, 4426.849, -1105.423, -3928.25, 0.338, 0, 0, 23604, 9068, 171, 171, 0),
     (@GUID+80, 0, 18476, @WORLD, 2849, 4588.34, -1109.602, -4048.503, 0.588, 0, 0, 23604, 9068, 171, 171, 0),
@@ -30420,21 +30420,7 @@ INSERT INTO `entity` (`Id`, `Type`, `Creature`, `World`, `Area`, `X`, `Y`, `Z`, 
     -- Stranded Protostar Crash Survivor (37198): Marooned (4971) receiver. Position: WorldLocation2, receiver location 4971.
     (@GUID+108, 0, 37198, @WORLD, 694, 2479.588, -997.071, -3944.877, -0, 0, 0, 21339, 0, 255, 255, 0),
     (@GUID+109, 10, 51673, @WORLD, 13, 4818.908, -1157.772, -3910.8, 0, 0, 0, 26808, 0, 219, 219, 0),
-    (@GUID+110, 10, 51673, @WORLD, 13, 4808.364, -1157.772, -3894.13, 1.826, 0, 0, 26808, 0, 219, 219, 0),
-    -- Slateface Slammer (17692): Challenge Energized Stones (61) (0) objective 0 type 2 count 6. Position: Jabbithole http://www.jabbithole.com/npcs/slateface-slammer-17.
-    (@GUID+111, 0, 17692, @WORLD, 129, 4019, -1075.14, -4584, 0, 0, 0, 21599, 0, 310, 310, 0),
-    (@GUID+112, 0, 17692, @WORLD, 129, 3999.531, -1075.14, -4580.904, -1.4857, 0, 0, 21599, 0, 310, 310, 0),
-    (@GUID+113, 0, 17692, @WORLD, 129, 4023.652, -1075.14, -4601.89, 0.37, 0, 0, 21599, 0, 310, 310, 0),
-    (@GUID+114, 0, 17692, @WORLD, 129, 4027.376, -1075.14, -4588.26, 1.7179, 0, 0, 21599, 0, 310, 310, 0),
-    (@GUID+115, 0, 17692, @WORLD, 129, 4021.666, -1075.14, -4570.87, 2.3077, 0, 0, 21599, 0, 310, 310, 0),
-    (@GUID+116, 0, 17692, @WORLD, 129, 4036.463, -1075.14, -4582.151, 2.4153, 0, 0, 21599, 0, 310, 310, 0),
-    -- Slateface Devastator (17693): Challenge Energized Stones (61) (0) objective 0 type 2 count 6. Position: Jabbithole http://www.jabbithole.com/npcs/slateface-devastator-17.
-    (@GUID+117, 0, 17693, @WORLD, 129, 3994, -1081.04, -4607, 0, 0, 0, 21599, 0, 310, 310, 0),
-    (@GUID+118, 0, 17693, @WORLD, 129, 4003.82, -1081.04, -4607.165, 2.9062, 0, 0, 21599, 0, 310, 310, 0),
-    (@GUID+119, 0, 17693, @WORLD, 129, 4004.802, -1081.04, -4606.733, -0.4224, 0, 0, 21599, 0, 310, 310, 0),
-    (@GUID+120, 0, 17693, @WORLD, 129, 3982.523, -1081.04, -4595.257, 2.4952, 0, 0, 21599, 0, 310, 310, 0),
-    (@GUID+121, 0, 17693, @WORLD, 129, 3985.699, -1081.04, -4612.042, 0.9299, 0, 0, 21599, 0, 310, 310, 0),
-    (@GUID+122, 0, 17693, @WORLD, 129, 3990.925, -1081.04, -4617.399, 0.5301, 0, 0, 21599, 0, 310, 310, 0);
+    (@GUID+110, 10, 51673, @WORLD, 13, 4808.364, -1157.772, -3894.13, 1.826, 0, 0, 26808, 0, 219, 219, 0);
 INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 0, 1),
     (@GUID+1, 10, 8),
@@ -30655,31 +30641,7 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+109, 0, 1),
     (@GUID+109, 10, 1),
     (@GUID+110, 0, 1),
-    (@GUID+110, 10, 1),
-    (@GUID+111, 0, 1),
-    (@GUID+111, 10, 9),
-    (@GUID+112, 0, 1),
-    (@GUID+112, 10, 9),
-    (@GUID+113, 0, 1),
-    (@GUID+113, 10, 9),
-    (@GUID+114, 0, 1),
-    (@GUID+114, 10, 9),
-    (@GUID+115, 0, 1),
-    (@GUID+115, 10, 9),
-    (@GUID+116, 0, 1),
-    (@GUID+116, 10, 9),
-    (@GUID+117, 0, 1),
-    (@GUID+117, 10, 9),
-    (@GUID+118, 0, 1),
-    (@GUID+118, 10, 9),
-    (@GUID+119, 0, 1),
-    (@GUID+119, 10, 9),
-    (@GUID+120, 0, 1),
-    (@GUID+120, 10, 9),
-    (@GUID+121, 0, 1),
-    (@GUID+121, 10, 9),
-    (@GUID+122, 0, 1),
-    (@GUID+122, 10, 9);
+    (@GUID+110, 10, 1);
 
 -- --------------------------------------
 -- Quest givers, receivers and objective targets missing from the capture, second pass (generated from the client data:
